@@ -3,7 +3,7 @@
 Summary: The drakxtools (diskdrake, ...)
 Name:    drakxtools
 Version: 17.96
-Release: %mkrel 2
+Release: 2%{?dist}
 Url:     http://mageia.org/
 # The source can be found at its git repository on:
 # * http://gitweb.mageia.org/software/drakx/
