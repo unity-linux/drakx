@@ -40,6 +40,7 @@ BuildRequires: ldetect-devel >= 0.9.0
 BuildRequires: pkgconfig(ncurses)
 BuildRequires: perl-devel >= 1:5.8.0-20
 BuildRequires: perl_checker
+BuildRequires: perl-Data-Dumper-Perltidy
 BuildRequires: pkgconfig(libparted)
 BuildRequires: drakx-installer-binaries
 BuildRequires: intltool
