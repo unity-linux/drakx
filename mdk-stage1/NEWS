@@ -1,0 +1,417 @@
+2.27
+- further sync with kernel 4.14
+
+2.26
+- sync with kernel 4.14
+
+2.25
+- fix build with gcc7
+
+2.24
+- recognize 8812au (mga#21043)
+
+2.23
+- recognize new kernel-4.8 drivers
+
+2.22
+- recognize new kernel-4.9 drivers
+
+2.21
+- recognize new kernel-4.7 drivers
+
+2.20
+- fix description of network interfaces (mga#15638)
+
+2.19
+- recognize some missing wireless drivers (mga#16768)
+
+2.18
+- recognize new kernel-4.6 drivers
+
+2.17
+- recognize new kernel-4.4 drivers
+
+2.16
+- recognize new kernel-4.3 drivers
+
+2.15
+- recognize new kernel-4.1 drivers
+
+2.14
+- network.c: fix -Werror=logical-not-parentheses
+
+2.13
+- mount again debugfs for ldetect (mga#14435)
+  (regression in 1.83)
+
+2.12
+- recognize new kernel-3.19 drivers
+
+2.11
+- recognize new kernel-3.18 drivers (mga#14799)
+
+2.10
+- include new 3.18 USB host drivers (mga#14799)
+
+2.9
+- glibc 2.20 wants _DEFAULT_SOURCE instead of _BSD_SOURCE
+
+2.8
+- recognize new kernel-3.17 drivers
+
+2.7
+- recognize hyper-v network card
+
+2.6
+- recognize new kernel-3.16 drivers
+
+2.5
+- stop creating /dev entries now that we use udev
+
+2.4
+- fix building with "make -j24"
+
+2.3
+- recognize new kernel-3.15 drivers
+
+2.2
+- drop support for supermount (dead since 2007)
+- recognize new kernel-3.14 drivers
+
+2.1
+- drop support for SPARC
+- support dynamic linking only
+- use getaddrinfo() with glibc too now that use the dynamic library
+
+2.0
+- kernel modules and firmware is needed during stage2, so move and symlink
+  (symlinks are only for if you umount state2 /usr and want a still working initrd)
+  mga#11600 mga#11601
+
+1.83
+- do initrd symlinking in 'init' rather than 'stage1' (stage1 is now run earlier)
+- build init and stage1 as a shared library (due to bugs in directory handling 
+  in dietlibc as exposed in libkmod but also because glibc is already include in
+  dracut)
+
+1.82
+- detect new kernel-3.12 modules
+
+1.81
+- sync with kernel-3.11 (might fix mga#11377)
+
+1.80
+- include latest list_modules.pl
+  (might fix mga#11377)
+
+1.79
+- fix compiling with gcc-4.8
+
+1.78
+- probe virtual drivers too (mga#9546)
+  (install from Xen hd not supported yet)
+
+1.77
+- use kmod for module loading (mga#9242, based on Pok works @mdv)
+
+1.76
+- revert patch introduced in r7542
+
+1.75
+- fix loading modules with "-" in their names (mga#9242)
+
+1.74.1
+- update list_modules for xen dom0 and virtio support (#9242)
+
+1.74
+- fix unitialized memory screwing up dialog input (pok, mdv, mga#8729)
+- kill bootsplash support (we drop bootsplash in kernel in 2008)
+- kill firmware loader now that firmware are loaded by the kernel
+
+1.73
+- add firmware loader written in C (based on hotplug2) (mga#6323)
+
+1.72
+- fix URL passed to stage2 when user didn't provide the arch in the
+  install path (mga#6823)
+- retry with FTP instead of HTTP when there's no proxy and user didn't
+  provided the architecture in the URL
+
+1.71
+- silent hid_generic loading
+
+1.70
+- mount /dev as devtmpfs (pok, mdv)
+- rely on /sys being created in images
+
+1.69
+- do not try to mount /proc/bus/usb
+- load hid-generic
+
+1.68
+- mount /sys/kernel/debug (needed for new ldetect)
+
+1.67
+- make sure nurses get initialized in UTF-8 (mga#4894)
+- revert to "linux" terminfo
+
+1.66
+- do not advice long dead pcmcia.img & network.img images (mga#5466)
+- first attempt at supporting XenBlk discs
+- hide "KA server" option (mga#5944)
+- switch from gethostbyname() to getaddrinfo() (mga#4056)
+- switch from gethostbyaddr() to getnameinfo()
+- use system libraries for newtw, slang & sysfs (mdv)
+
+1.65
+- load btrfs module to mount btrfs
+- try mounting as btrfs
+
+1.64
+- default to "screen" instead of "linux" terminfo (mga#4894)
+
+1.63
+- do not try to load obsolete sqlzma & squashfs_lzma kernel modules
+- recognize c67x00, imx21-hcd, fhci, isp1362-hcd, oxu210hp-hcd & renesas-usbhs
+  USB host drivers (mga#4905)
+
+1.62
+- fix segfaulting when ISO directory is not valid (mga#4592)
+
+1.61
+- fix building with newer dietlibc/zlib
+
+1.60
+- add support for virtio discs
+
+1.59
+- try to use arch-prefixed location for FTP & HTTP installs (mga#2578)
+
+1.58
+- add support for kernel compressed as XZ
+
+1.57
+- fix linking with new kmod
+
+1.56
+- kill 10 years old snapshot of pppd & pppoe
+  (now using upstream pppd & pppoe)
+- link with libkmod instead of libmodprobe
+
+1.55:
+- pcmcia: kill obsolete test for 2.2 kernel
+- sync with kernel-3.2.0-0.rc7.1.mga2 for updated list_modules.pm
+
+1.54:
+- fix retrieving mirrorlist, broken in 1.53
+- fix build with Werror
+
+1.53:
+- display distro name in mirror list too (#191)
+
+1.52:
+- fix build with gcc-4.6.2
+  * fixes -Werror=unused-but-set-variable
+
+1.51:
+- sync with kernel-3.1.0-1.mga2
+  * add hid devices:
+        hid-keytouch, hid-uclogic
+  * add sas/raid driver:
+        isci
+  * add sound devices:
+        snd-lola, snd-firewire-speakers snd-isight, snd-usb-6fire
+  * add usb/storage:
+        ums-eneub6250, ums-realtek
+  * add wireless drivers:
+        brcmsmac, rtl8187se, rtusb, rtl8192se, rtl8192cu, rtl8192de
+
+1.50:
+- do not attempt to perform ISA probe for PCMCIA controller on x86_64
+  as it fails with kvm_amd (#1156)
+- add ums-* (USB mass storage) modules in disk/usb category
+
+1.49:
+- use new libldetect API for finding out unknown devices
+- handle more PCMCIA controllers
+- "i82365" driver was renamed "pd6729"
+
+1.48:
+- arm/mips support
+- try to handle built-in modules
+- fix build with Werror
+- use mirrors.mageia.org/api for mirror list
+
+1.47:
+- 2011.0 build
+
+1.46:
+- create device listed in /proc/partitions with correct major/minor (#57032)
+
+1.45:
+- do not list /dev/fd0 when no floppy is found (#58390)
+
+1.44:
+- rebuild with latest list_modules.pm (might fix #57833)
+
+1.43:
+- bump version (#57466)
+
+1.42:
+- list asix module in network/usb group
+- virtio: fix device probing: use PCI subdevices
+- fix format string bug from 1.41
+
+1.41:
+- load needed modules for known virtio devices, fixes  #51804
+
+1.39:
+- set uevent helper which will load firmware and do not set firmware 
+  timeout to 1 second (it will fail if firmware is not there)
+
+1.38:
+- handle hybrid ISOs (ISO images dumped to USB keys)
+
+1.37:
+- enumerate hid bus and load hid quirk modules, fixes #47167
+
+1.36:
+- load appropriate modules before trying to mount ext4/reiser4
+
+1.35:
+- allow installing from ext3/ext4/reiser4
+
+1.34:
+- adapt to new modules.dep format (prefix modules with directory path)
+- try to use arch-prefixed location for automatic disk installs
+
+1.33:
+- build fix for glibc 2.8
+- sort modules in the interface
+- try to load squashfs_lzma too
+
+1.32:
+- automatically find compressed stage2 with automatic=method:disk
+
+1.31:
+- usbkbd is dead, using usbhid instead
+
+1.30:
+- add back "ide-generic" support (incorrectly removed in 1.17), the
+  module that we want to avoid is "ide-pci-generic" (previously "generic"),
+  and this is handled by ldetect-lst preferred modules list
+- handle ide-cd being renamed as ide-cd_mod
+
+1.29:
+- allow to pass module options to probe-modules
+- build fixes for gcc 4.3
+
+1.28:
+- fix segfault with empty device description (can happen for USB devices)
+
+1.27.1:
+- fix build
+
+1.27:
+- do not set firmware timeout to 1 second in probe-modules helper for
+  Mandriva One (#39216)
+
+1.26:
+- load bus/firewire controllers (#31356)
+- really ask dhcp domain if not guessed
+
+1.25:
+- do not allow to choose outdated cooker mirror list (#37278)
+
+1.24:
+- load disk/ide before disk/scsi (#38451, to prevent sata deps from
+  overriding non-libata pata modules, like in stage2)
+- fix asking modules when no controller is detected
+
+1.23:
+- probe usb-storage/sbp2 only when probing USB/SCSI buses
+  (to make automatic boot faster on IDE)
+- make dhcp the first choice (instead of static) in the network type menu
+- clear tty2 after shell is killed
+- log "killed shell" message on tty3
+- add a space in front of top line (like help message)
+- space-pad top line with spaces to the right (like help message)
+
+1.22:
+- fix automatic IDE media detection (was broken with multiple CD drives, #36161)
+- fix bootsplash in automatic CD-Rom mode (as a result of IDE media detection fix) 
+- wait only 1 second for firmware upload (not to hang boot with iwl3945, #37279)
+
+1.21:
+- load nls_cp437 and nls_iso8859_1 when loading vfat
+  (used to be in custom modules.dep)
+
+1.20:
+- probe-modules:
+  o handle the "--usb" option instead of "usb"
+  o load module passed as argument (if any), instead of probing bus
+- switch to modules from /lib/modules/`uname -r`, modules.dep containing full filename
+
+1.19:
+- rebuild with list_modules to handle atl2 ethernet driver
+
+1.18:
+- add probe-modules helper
+
+1.17:
+- use modules from disk/ide category (#33043)
+- do not explicitely try to load ide-generic, ldetect will fallback to
+  ide-generic when appropriate (#33043)
+
+1.16:
+- if you give nfs directory xxx, try to use xxx/ARCH
+- handle cdroms with and without ARCH at the root
+
+1.15:
+- ask loading modules from /modules if needed
+- read modules description from /modules/modules.description
+
+1.14:
+- fix segfault in USB detection code (when no module match, #32624)
+
+1.13:
+- use module names instead of filenames
+- convert module name to filename before loading it
+  (using modules.dep to get filename)
+- keep module in dependencies list even if it has no dependencies
+  (to keep track of its filename)
+- use '_' in module names when explicitely loading modules (cosmetics)
+
+1.12:
+- adapt to new list_modules
+
+1.11:
+- use ldetect/libmodprobe/libpci instead of custom pci/usb probe
+- rename rescue "GUI" as rescue "menu"
+
+1.10.1:
+- link init with dietlibc instead of minilibc on ix86/x86-64
+- add missing includes for wireless
+- fix build of pppoe by using dietlibc termios header
+
+1.10:
+- add ide-disk module
+- load ide-disk when detecting disks (ide is now modularized...)
+
+1.9:
+- ide is now modularized
+
+1.8:
+- build pcmcia header only on i386/x86_64 (#30668)
+- use api.mandriva.com to retrieve mirror list (#29346)
+
+1.7:
+- don't kill our init/klogd when running stage2
+  (bug introduced when switching to initramfs)
+
+1.6:
+- write DNS settings in temporary ifcfg file
+  (fixes resolv.conf post install)
+
+1.5:
+- fix infinite loop in wired interface mode

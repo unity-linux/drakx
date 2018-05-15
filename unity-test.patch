@@ -1,0 +1,40 @@
+diff --git a/perl-install/any.pm b/perl-install/any.pm
+index a82fce94a..96ce32294 100644
+--- a/perl-install/any.pm
++++ b/perl-install/any.pm
+@@ -1012,7 +1012,7 @@ sub sessions_with_order() {
+ sub urpmi_add_all_media {
+     my ($in, $o_previous_release) = @_;
+ 
+-    my $binary = find { whereis_binary($_, $::prefix) } if_(check_for_xserver(), 'gurpmi.addmedia'), 'urpmi.addmedia';
++    my $binary = find { whereis_binary($_, $::prefix) } if_(check_for_xserver(), 'gurpmi.addmedia'), 'urpmi.addmedia', 'yum-config-manager';
+     if (!$binary) {
+ 	log::l("urpmi.addmedia not found!");
+ 	return;
+@@ -1040,8 +1040,11 @@ sub urpmi_add_all_media {
+     local $ENV{URPMI_ADDMEDIA_REASON} = $reason;
+ 
+     my $log_file = '/root/drakx/updates.log';
+-    my $val = run_program::rooted($::prefix, $binary, '>>', $log_file, '2>>', $log_file, @options);
+-
++    if ($binary eq 'yum-config-manager') {
++	    my $val = run_program::rooted($::prefix, $binary, '>>', $log_file, '2>>', $log_file, '$MIRRORLIST');
++    } else {
++            my $val = run_program::rooted($::prefix, $binary, '>>', $log_file, '2>>', $log_file, @options);
++    }
+     undef $wait;
+     $val;
+ }
+diff --git a/perl-install/do_pkgs.pm b/perl-install/do_pkgs.pm
+index d55ef579a..87591ce31 100644
+--- a/perl-install/do_pkgs.pm
++++ b/perl-install/do_pkgs.pm
+@@ -338,6 +338,8 @@ sub install {
+     my $ret;
+     if (check_for_xserver() && -x '/usr/bin/gurpmi') {
+         $ret = system(@wrapper, 'gurpmi', @options) == 0;
++    } elsif (check_for_xserver() && -x '/usr/bin/gqdnf', @l) {
++	$ret = system(@wrapper, 'gqdnf') == 0; 
+     } else {
+         my $_wait = $do->in && $do->in->wait_message(N("Please wait"), N("Installing packages..."));
+         $do->in->suspend if $do->in;

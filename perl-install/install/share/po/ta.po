@@ -1,0 +1,1880 @@
+# Drak X
+# Copyright (C) 2002 Mandriva
+#
+# NOTE: use UTF-8 only
+#
+# prabu <prabu_anand2000@yahoo.com>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-22 02:36+0200\n"
+"PO-Revision-Date: 2002-09-06 00:35+0800\n"
+"Last-Translator: prabu anand <prabu_anand2000@yahoo.com>\n"
+"Language-Team: Tamil <tamilinix@yahoogroups.com>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../advertising/01_IM_mageia.pl:1
+#, c-format
+msgid "Join Us!"
+msgstr ""
+
+#: ../../advertising/02_IM_mageia.pl:1
+#, c-format
+msgid "Make it yours!"
+msgstr ""
+
+#: ../../advertising/03_IM_mageia.pl:1
+#, c-format
+msgid "Your choice!"
+msgstr ""
+
+#: ../../advertising/04_IM_mageia.pl:1
+#, fuzzy, c-format
+msgid "Office tools"
+msgstr "அலுவல் கருவிகள்"
+
+#: ../../advertising/05_IM_mageia.pl:1
+#, c-format
+msgid "Home entertainment"
+msgstr ""
+
+#: ../../advertising/06_IM_mageia.pl:1
+#, c-format
+msgid "For kids"
+msgstr ""
+
+#: ../../advertising/07_IM_mageia.pl:1
+#, c-format
+msgid "For family!"
+msgstr ""
+
+#: ../../advertising/08_IM_mageia.pl:1
+#, c-format
+msgid "For developers!"
+msgstr ""
+
+#: ../../advertising/09_IM_mageia.pl:1
+#, c-format
+msgid "Thank you!"
+msgstr ""
+
+#: ../../advertising/10_IM_mageia.pl:1
+#, c-format
+msgid "Be Free!"
+msgstr ""
+
+#: any.pm:151
+#, fuzzy, c-format
+msgid "Do you have further supplementary media?"
+msgstr "மேலும்  உள்ளனவா?"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:154
+#, c-format
+msgid ""
+"The following media have been found and will be used during install: %s.\n"
+"\n"
+"\n"
+"Do you have a supplementary installation medium to configure?"
+msgstr ""
+
+#: any.pm:162
+#, fuzzy, c-format
+msgid "Network (HTTP)"
+msgstr "வலையமைப்பு %s"
+
+#: any.pm:163
+#, fuzzy, c-format
+msgid "Network (FTP)"
+msgstr "வலையமைப்பு %s"
+
+#: any.pm:164
+#, c-format
+msgid "Network (NFS)"
+msgstr ""
+
+#: any.pm:223
+#, c-format
+msgid "URL of the mirror?"
+msgstr ""
+
+#: any.pm:229
+#, c-format
+msgid "URL must start with ftp:// or http://"
+msgstr ""
+
+#: any.pm:247
+#, fuzzy, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
+msgstr "தற்ேபாதுள்ள இணைப் பதிப்புதளங்களை அறிய மாண்ட்ேரக் இணையதளம் தொடர்புகொள்ளப்படுகிறது"
+
+#: any.pm:252
+#, fuzzy, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
+msgstr "தற்ேபாதுள்ள இணைப் பதிப்புதளங்களை அறிய மாண்ட்ேரக் இணையதளம் தொடர்புகொள்ளப்படுகிறது"
+
+#: any.pm:262
+#, c-format
+msgid "Choose a mirror from which to get the packages"
+msgstr "பொதிகளை எங்கிருந்து இறக்க விரும்புகிறீர்கள்"
+
+#: any.pm:290
+#, c-format
+msgid "NFS setup"
+msgstr ""
+
+#: any.pm:291
+#, c-format
+msgid "Please enter the hostname and directory of your NFS media"
+msgstr ""
+
+#: any.pm:295
+#, c-format
+msgid "Hostname missing"
+msgstr ""
+
+#: any.pm:296
+#, c-format
+msgid "Directory must begin with \"/\""
+msgstr ""
+
+#: any.pm:300
+#, c-format
+msgid "Hostname of the NFS mount ?"
+msgstr ""
+
+#: any.pm:301
+#, c-format
+msgid "Directory"
+msgstr "அடைவு"
+
+#: any.pm:331
+#, c-format
+msgid "Supplementary"
+msgstr ""
+
+#: any.pm:366
+#, fuzzy, c-format
+msgid ""
+"Can't find a package list file on this mirror. Make sure the location is "
+"correct."
+msgstr "இதை திறக்க முடியவில்ைல%s: %s\n"
+
+#: any.pm:391
+#, c-format
+msgid "Core Release"
+msgstr ""
+
+#: any.pm:393
+#, c-format
+msgid "Tainted Release"
+msgstr ""
+
+#: any.pm:395
+#, c-format
+msgid "Nonfree Release"
+msgstr ""
+
+#: any.pm:433
+#, c-format
+msgid ""
+"Some hardware on your machine needs some non free firmwares in order for the "
+"free software drivers to work."
+msgstr ""
+
+#: any.pm:434
+#, c-format
+msgid "You should enable \"%s\""
+msgstr ""
+
+#: any.pm:472
+#, c-format
+msgid "\"%s\" contains the various pieces of the systems and its applications"
+msgstr ""
+
+#: any.pm:473
+#, c-format
+msgid "\"%s\" contains non free software.\n"
+msgstr ""
+
+#: any.pm:474
+#, c-format
+msgid ""
+"It also contains firmwares needed for certain devices to operate (eg: some "
+"ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
+msgstr ""
+
+#: any.pm:475
+#, c-format
+msgid ""
+"\"%s\" contains software that can not be distributed in every country due to "
+"software patents."
+msgstr ""
+
+#: any.pm:476
+#, c-format
+msgid ""
+"It also contains software from \"%s\" rebuild with additional capabilities."
+msgstr ""
+
+#: any.pm:482
+#, c-format
+msgid "Here you can enable more media if you want."
+msgstr ""
+
+#: any.pm:499
+#, c-format
+msgid "This medium provides package updates for medium \"%s\""
+msgstr ""
+
+#: any.pm:597
+#, c-format
+msgid "Looking at packages already installed..."
+msgstr "ஏற்கனவே நிறுவப்பட்டுள்ள பொதிகள் பார்ைவயிடப்படுகின்றன"
+
+#: any.pm:631
+#, c-format
+msgid "Finding packages to upgrade..."
+msgstr "மேம்படுத்தப்பட வேண்டிய பொதிகள் அறியப்படுகின்றன"
+
+#: any.pm:650
+#, c-format
+msgid "Removing packages prior to upgrade..."
+msgstr ""
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:881
+#, c-format
+msgid ""
+"The following packages will be removed to allow upgrading your system: %s\n"
+"\n"
+"\n"
+"Do you really want to remove these packages?\n"
+msgstr ""
+
+#: any.pm:1096
+#, c-format
+msgid "Error reading file %s"
+msgstr "%s என்ற கோப்ேபா படிப்பதில் பிழை நேர்ந்துள்ளது"
+
+#: any.pm:1304
+#, fuzzy, c-format
+msgid "The following disk(s) were renamed:"
+msgstr "கிழ்கானும் பொதிகள் நிறுவுவதற்கு தேர்வுச் செய்யப்பட்டுள்ளது"
+
+#: any.pm:1306
+#, c-format
+msgid "%s (previously named as %s)"
+msgstr ""
+
+#: any.pm:1363
+#, c-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: any.pm:1363
+#, c-format
+msgid "FTP"
+msgstr "FTP"
+
+#: any.pm:1363
+#, c-format
+msgid "NFS"
+msgstr "NFS"
+
+#: any.pm:1382 steps_interactive.pm:973
+#, c-format
+msgid "Network"
+msgstr "வலையமைப்பு"
+
+#: any.pm:1386
+#, fuzzy, c-format
+msgid "Please choose a media"
+msgstr "தயவுசெய்து ேதர்ந்ெதடுக்கவும்"
+
+#: any.pm:1402
+#, fuzzy, c-format
+msgid "File already exists. Overwrite it?"
+msgstr "இந்த கோப்பு ஏற்கனவே உள்ளது. பயன்பாடுத்தி கொள்ளலாமா?"
+
+#: any.pm:1406
+#, fuzzy, c-format
+msgid "Permission denied"
+msgstr "அனுமதிகள்"
+
+#: any.pm:1454
+#, c-format
+msgid "Bad NFS name"
+msgstr ""
+
+#: any.pm:1475
+#, fuzzy, c-format
+msgid "Bad media %s"
+msgstr "கெட்ட தகவல்"
+
+#: any.pm:1519
+#, c-format
+msgid "Cannot make screenshots before partitioning"
+msgstr "வகிர்தல் முடிவதற்கு முன் திரைவேட்டு எடுக்க முடியாது"
+
+#: any.pm:1530
+#, c-format
+msgid "Screenshots will be available after install in %s"
+msgstr "நிறுவி முடித்தவுடன் திரைவேட்டுகள் %s என்ற அடைவில் கிடைக்கும்"
+
+#: gtk.pm:135
+#, fuzzy, c-format
+msgid "Installation"
+msgstr "நிறுவப்படுகிறது"
+
+#: gtk.pm:139 share/meta-task/compssUsers.pl:48
+#, c-format
+msgid "Configuration"
+msgstr "வடிவமைப்புகள்"
+
+#: install2.pm:211
+#, c-format
+msgid "You must also format %s"
+msgstr "நீங்கள் %s இதனையும் வடிவுட்ட வேண்டும்"
+
+#: interactive.pm:16
+#, c-format
+msgid ""
+"Some hardware on your computer needs ``proprietary'' drivers to work.\n"
+"You can find some information about them at: %s"
+msgstr ""
+"உங்கள் கணினியில் உள்ள சில வன்ெபாருட்களின் இயக்க நிரலை\n"
+"நீங்கள்   %s இங்கிருந்து எடுக்கலாம்"
+
+#: interactive.pm:22
+#, c-format
+msgid "Bringing up the network"
+msgstr "வலையமைப்பாக்கங்கள் ஏற்றப்படுகிறது"
+
+#: interactive.pm:27
+#, c-format
+msgid "Bringing down the network"
+msgstr "வலையமைப்பாக்கங்கள் முடக்கப்படுகிறது"
+
+#: media.pm:407
+#, c-format
+msgid "Please wait, retrieving file"
+msgstr ""
+
+#: media.pm:714
+#, c-format
+msgid "unable to add medium"
+msgstr ""
+
+#: media.pm:754
+#, c-format
+msgid "Copying some packages on disks for future use"
+msgstr ""
+
+#: media.pm:807
+#, fuzzy, c-format
+msgid "Copying in progress"
+msgstr "இன்னும் தேடுதல் நடைபெறுகிறது"
+
+#: pkgs.pm:32
+#, c-format
+msgid "must have"
+msgstr "நிச்சயம் இருக்க வேண்டியவை"
+
+#: pkgs.pm:33
+#, c-format
+msgid "important"
+msgstr "முக்கியமானவை"
+
+#: pkgs.pm:34
+#, c-format
+msgid "very nice"
+msgstr "மிக அழகானவை"
+
+#: pkgs.pm:35
+#, c-format
+msgid "nice"
+msgstr "அழகானவை"
+
+#: pkgs.pm:36
+#, c-format
+msgid "maybe"
+msgstr "தேவைப்பட்டால்"
+
+#: pkgs.pm:102
+#, c-format
+msgid "Getting package information from XML meta-data..."
+msgstr ""
+
+#: pkgs.pm:111
+#, c-format
+msgid "No xml info for medium \"%s\", only partial result for package %s"
+msgstr ""
+
+#: pkgs.pm:119
+#, c-format
+msgid "No description"
+msgstr "இவரிக்க வில்லை"
+
+#: pkgs.pm:288
+#, c-format
+msgid ""
+"Some packages requested by %s cannot be installed:\n"
+"%s"
+msgstr ""
+
+#: pkgs.pm:384 pkgs.pm:411
+#, fuzzy, c-format
+msgid "An error occurred:"
+msgstr "பிழை நேர்ந்துள்ளது மன்னிக்கவும்"
+
+#: pkgs.pm:403
+#, c-format
+msgid "A fatal error occurred: %s."
+msgstr ""
+
+#: pkgs.pm:897 pkgs.pm:939
+#, c-format
+msgid "Do not ask again"
+msgstr ""
+
+#: pkgs.pm:913
+#, fuzzy, c-format
+msgid "%d installation transactions failed"
+msgstr "நிறுவுதலில் பிழை நேர்ந்துள்ளது"
+
+#: pkgs.pm:914
+#, fuzzy, c-format
+msgid "Installation of packages failed:"
+msgstr "%s பொதி நிறுவப்படுகிறது"
+
+#: share/meta-task/compssUsers.pl:16
+#, c-format
+msgid "Workstation"
+msgstr "வேலைக்களம்"
+
+#: share/meta-task/compssUsers.pl:18
+#, c-format
+msgid "Office Workstation"
+msgstr "அலுவல் கருவிகள்"
+
+#: share/meta-task/compssUsers.pl:20
+#, fuzzy, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr "அலுவல் கருவிகள்(விாிதாள், நிகழ்த்தி,வரைபடக் கருவிகள்)"
+
+#: share/meta-task/compssUsers.pl:26
+#, c-format
+msgid "Game station"
+msgstr "விளையாட்டுகள்"
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc"
+msgstr "விளையாட்டுகள்"
+
+#: share/meta-task/compssUsers.pl:30
+#, c-format
+msgid "Multimedia station"
+msgstr "பல்லூடக கணினி"
+
+#: share/meta-task/compssUsers.pl:31
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr "பல்லூடக இயக்கிகள்/உருவாக்க நிரல்கள்"
+
+#: share/meta-task/compssUsers.pl:36
+#, c-format
+msgid "Internet station"
+msgstr "இணையக் கணினி"
+
+#: share/meta-task/compssUsers.pl:37
+#, fuzzy, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr "நீங்கள் மின்னஞ்சல், மற்றும் இணையத்ைத மேலோட உதவுங்கருவிகள்"
+
+#: share/meta-task/compssUsers.pl:42
+#, c-format
+msgid "Network Computer (client)"
+msgstr "வலையமைப்புக் கணினி(வேண்டி)"
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr "ssh முதலிய வலையமைப்புக் கருவிகள்"
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr "உங்கள் கணினியை எளிதாக வடிவமைக்க உதவுங்கருவிகள்"
+
+#: share/meta-task/compssUsers.pl:53
+#, c-format
+msgid "Console Tools"
+msgstr "முனையக் கருவிகள்"
+
+#: share/meta-task/compssUsers.pl:54
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr "முனையம்,தொகுப்பாளர்கள், கோப்பு மேலாளர்கள் மற்றும் ஓடுகள்"
+
+#: share/meta-task/compssUsers.pl:58 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "உருவாக்கம்"
+
+#: share/meta-task/compssUsers.pl:59 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr "C மற்றும் C++ நூலக நிரல்கள்"
+
+#: share/meta-task/compssUsers.pl:63 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "உதவிநூல்"
+
+#: share/meta-task/compssUsers.pl:64 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr "புத்தகங்கள் மற்றும் எப்படிச் செய்வது போன்ற உதவி நூல்"
+
+#: share/meta-task/compssUsers.pl:68 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "LSB"
+
+#: share/meta-task/compssUsers.pl:69 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr "LSB- லினக்ஸ் தரக்கட்டுப்பாட்டுக்கு தேவையான நிரல்கள்."
+
+#: share/meta-task/compssUsers.pl:79
+#, c-format
+msgid "Web Server"
+msgstr "இணையத்தள சேவையகம்"
+
+#: share/meta-task/compssUsers.pl:80
+#, c-format
+msgid "Apache"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:84
+#, fuzzy, c-format
+msgid "Groupware"
+msgstr "கிரப்"
+
+#: share/meta-task/compssUsers.pl:85
+#, c-format
+msgid "Kolab Server"
+msgstr "கோலாப் சேவகன்"
+
+#: share/meta-task/compssUsers.pl:88 share/meta-task/compssUsers.pl:138
+#, c-format
+msgid "Firewall/Router"
+msgstr "நெருப்புச்சுவர்/வழிப்படுத்தி"
+
+#: share/meta-task/compssUsers.pl:89 share/meta-task/compssUsers.pl:139
+#, c-format
+msgid "Internet gateway"
+msgstr "இணைய நுழைவாயில்"
+
+#: share/meta-task/compssUsers.pl:92
+#, fuzzy, c-format
+msgid "Mail/News"
+msgstr "/கோப்பு/_புதியது"
+
+#: share/meta-task/compssUsers.pl:93
+#, fuzzy, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr "மின்னஞ்சல் பரிமாறி"
+
+#: share/meta-task/compssUsers.pl:97
+#, fuzzy, c-format
+msgid "Directory Server"
+msgstr "RAID இருந்து நீக்கு"
+
+#: share/meta-task/compssUsers.pl:102
+#, fuzzy, c-format
+msgid "FTP Server"
+msgstr "NTP சேவையகம்"
+
+#: share/meta-task/compssUsers.pl:103
+#, c-format
+msgid "ProFTPd"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:107
+#, fuzzy, c-format
+msgid "DNS/NIS"
+msgstr "DNS/NIS "
+
+#: share/meta-task/compssUsers.pl:108
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr "DNS/NIS"
+
+#: share/meta-task/compssUsers.pl:112
+#, fuzzy, c-format
+msgid "File and Printer Sharing Server"
+msgstr "அச்சுப்ெபாறி சேவையகம்"
+
+#: share/meta-task/compssUsers.pl:113
+#, fuzzy, c-format
+msgid "NFS Server, Samba server"
+msgstr "ஒலிப் பரிமாறி"
+
+#: share/meta-task/compssUsers.pl:117 share/meta-task/compssUsers.pl:133
+#, c-format
+msgid "Database"
+msgstr "தரவுதளங்கள்"
+
+#: share/meta-task/compssUsers.pl:118
+#, fuzzy, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr "PostgreSQL/MariaDB தரவுத்தள பரிமாறிகள்"
+
+#: share/meta-task/compssUsers.pl:123
+#, c-format
+msgid "Web/FTP"
+msgstr "இணையதள/கோப்புப் பாிமாற்றம்"
+
+#: share/meta-task/compssUsers.pl:124
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "அப்பாச்சி, ftpd போன்ற பரிமாற்று நிரல்கள்"
+
+#: share/meta-task/compssUsers.pl:128
+#, c-format
+msgid "Mail"
+msgstr "மின்னஞ்சல்"
+
+#: share/meta-task/compssUsers.pl:129
+#, fuzzy, c-format
+msgid "Postfix mail server"
+msgstr "மின்னஞ்சல் பரிமாறி"
+
+#: share/meta-task/compssUsers.pl:134
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "PostgreSQL/MariaDB தரவுத்தள பரிமாறிகள்"
+
+#: share/meta-task/compssUsers.pl:142
+#, c-format
+msgid "Network Computer server"
+msgstr "வலையமைப்பக பரிமாறி"
+
+#: share/meta-task/compssUsers.pl:143
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr "NFS /சம்பா/பினாமி/ssh பரிமாறிகள்"
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Graphical Environment"
+msgstr "வரைவியல்வழி சூழல்கள்"
+
+#: share/meta-task/compssUsers.pl:152
+#, fuzzy, c-format
+msgid "Plasma Workstation"
+msgstr "வேலைக்களம்"
+
+#: share/meta-task/compssUsers.pl:153
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr "Kசாளரமைப்பு-  ஓர் பயன்படுத்துவதற்கு எளிதான வரைவியல்வழி  மேலாளர்"
+
+#: share/meta-task/compssUsers.pl:158
+#, c-format
+msgid "GNOME Workstation"
+msgstr "குேனாம் பணிக்கணினி"
+
+#: share/meta-task/compssUsers.pl:159 share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr "ஓர் பயன்படுத்துவதற்கு எளிதான வரைவியல்வழி  மேலாளர்"
+
+#: share/meta-task/compssUsers.pl:164
+#, fuzzy, c-format
+msgid "XFCE Workstation"
+msgstr "Kசாளரமைப்பு பணிக்கணினி"
+
+#: share/meta-task/compssUsers.pl:165
+#, fuzzy, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr "ஓர் பயன்படுத்துவதற்கு எளிதான வரைவியல்வழி  மேலாளர்"
+
+#: share/meta-task/compssUsers.pl:169
+#, fuzzy, c-format
+msgid "MATE Workstation"
+msgstr "குேனாம் பணிக்கணினி"
+
+#: share/meta-task/compssUsers.pl:174
+#, fuzzy, c-format
+msgid "Cinnamon Workstation"
+msgstr "வேலைக்களம்"
+
+#: share/meta-task/compssUsers.pl:175
+#, fuzzy, c-format
+msgid "A graphical environment based on GNOME"
+msgstr "வரைவியல்வழி சூழல்கள்"
+
+#: share/meta-task/compssUsers.pl:179
+#, fuzzy, c-format
+msgid "LXQt Desktop"
+msgstr "மேசைசெயலி"
+
+#: share/meta-task/compssUsers.pl:181
+#, c-format
+msgid "A next generation QT port of the lightweight desktop environment"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:184
+#, c-format
+msgid "Enlightenment e21 Desktop"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:186
+#, fuzzy, c-format
+msgid "A lightweight fast graphical environment with a dedicated following"
+msgstr "ஓர் பயன்படுத்துவதற்கு எளிதான வரைவியல்வழி  மேலாளர்"
+
+#: share/meta-task/compssUsers.pl:189
+#, fuzzy, c-format
+msgid "LXDE Desktop"
+msgstr "மேசைசெயலி"
+
+#: share/meta-task/compssUsers.pl:191
+#, fuzzy, c-format
+msgid "A lightweight fast graphical environment"
+msgstr "ஓர் பயன்படுத்துவதற்கு எளிதான வரைவியல்வழி  மேலாளர்"
+
+#: share/meta-task/compssUsers.pl:194
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "மற்ற வரைவியல்வழி  மேலாளர்கள்"
+
+#: share/meta-task/compssUsers.pl:195
+#, fuzzy, c-format
+msgid "Window Maker, Fvwm, etc"
+msgstr "குேனாம், ஐஸ்விம் ஆகிய பயன்படுத்துவதற்கு எளிதான வரைவியல்வழி  மேலாளர்கள்"
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr "உதவிக்கருவிகள்"
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, fuzzy, c-format
+msgid "SSH Server"
+msgstr "சேவையகம்"
+
+#: share/meta-task/compssUsers.pl:225
+#, fuzzy, c-format
+msgid "Webmin"
+msgstr "வலைபடக் கருவி"
+
+#: share/meta-task/compssUsers.pl:226
+#, fuzzy, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr "பரிமாறி வடிவமைப்பு"
+
+#: share/meta-task/compssUsers.pl:230
+#, fuzzy, c-format
+msgid "Network Utilities/Monitoring"
+msgstr "வலையமைப்பாக்க  வடிவமைப்பு "
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:235
+#, fuzzy, c-format
+msgid "Mageia Wizards"
+msgstr "மாண்ட்ேரக் கட்டுப்பட்டு மையம்"
+
+#: share/meta-task/compssUsers.pl:236
+#, fuzzy, c-format
+msgid "Wizards to configure server"
+msgstr "அச்சுப்ெபாறி  \"%s\" வடிவமைப்பு ெவற்றியடையவில்ைல"
+
+#: steps.pm:85
+#, c-format
+msgid ""
+"An error occurred, but I do not know how to handle it nicely.\n"
+"Continue at your own risk."
+msgstr ""
+"பிழை நேர்ந்துள்ளது மன்னிக்கவும் எனக்கு என்ன செய்வதென்று தெரியவில்ைல\n"
+"தொடர்ந்து செல்வது உங்கள் பொறுப்பு"
+
+#: steps.pm:460
+#, c-format
+msgid ""
+"Some important packages did not get installed properly.\n"
+"Either your cdrom drive or your cdrom is defective.\n"
+"Check the cdrom on an installed computer using \"rpm -qpl media/main/*.rpm"
+"\"\n"
+msgstr ""
+"சில முக்கிய பொதிகள் நிறுவுவதில் பிழை நேர்ந்துள்ளது\n"
+"உங்கள் சிடி அல்லது சிடி இயக்கி பழுதடைந்து இருக்கலாம்.\n"
+"உங்கள் சிடியைச் சோதிக்க ஏற்கனவே இயங்குகின்ற கணினியில் \"rpm -qpl media/main/*.rpm என "
+"கட்டளையிடவும்\"\n"
+
+#: steps_auto_install.pm:71 steps_stdio.pm:27
+#, c-format
+msgid "Entering step `%s'\n"
+msgstr "தற்ேபாது இந்த  `%s நிலைக்கு செல்கிறோம்' \n"
+
+#: steps_curses.pm:22
+#, fuzzy, c-format
+msgid "%s Installation %s"
+msgstr "மாண்ட்ேரக் லினக்ஸ் நிறுவல்  %s"
+
+#: steps_curses.pm:32
+#, c-format
+msgid "<Tab>/<Alt-Tab> between elements"
+msgstr ""
+
+#: steps_gtk.pm:147
+#, c-format
+msgid "Xorg server is slow to start. Please wait..."
+msgstr ""
+
+#: steps_gtk.pm:212
+#, fuzzy, c-format
+msgid ""
+"Your system is low on resources. You may have some problem installing\n"
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
+msgstr ""
+"உங்கள் கணினியில் வளங்கள் குறைவாக உள்ளதால்\n"
+"மாண்ட்ேரக் லினக்ஸ் நிறுவுவதில் பிழை ஏற்படலாம். நீங்கள் உரைவழி நிறுவலாம்,\n"
+"சிடியில் நிறுவ தொடங்கும் போது  `F1'  என அழுத்தி விட்டு,  `text'. என அடிக்கவும்"
+
+#: steps_gtk.pm:242 steps_gtk.pm:754
+#, fuzzy, c-format
+msgid "Media Selection"
+msgstr "பொதிகள் குழுத் தேர்வு"
+
+#: steps_gtk.pm:253
+#, fuzzy, c-format
+msgid "Install %s Plasma Desktop"
+msgstr "மேசைசெயலி"
+
+#: steps_gtk.pm:254
+#, c-format
+msgid "Install %s GNOME Desktop"
+msgstr ""
+
+#: steps_gtk.pm:255
+#, fuzzy, c-format
+msgid "Custom install"
+msgstr "குறைந்தபட்ச நிறுவல்"
+
+#: steps_gtk.pm:276
+#, fuzzy, c-format
+msgid "Plasma Desktop"
+msgstr "மேசைசெயலி"
+
+#: steps_gtk.pm:277
+#, fuzzy, c-format
+msgid "GNOME Desktop"
+msgstr "மேசைசெயலி"
+
+#: steps_gtk.pm:278
+#, fuzzy, c-format
+msgid "Custom Desktop"
+msgstr "மேசைசெயலி"
+
+#: steps_gtk.pm:284
+#, c-format
+msgid "Here's a preview of the '%s' desktop."
+msgstr ""
+
+#: steps_gtk.pm:311
+#, c-format
+msgid "Click on images in order to see a bigger preview"
+msgstr ""
+
+#: steps_gtk.pm:327 steps_interactive.pm:605 steps_list.pm:30
+#, c-format
+msgid "Package Group Selection"
+msgstr "பொதிகள் குழுத் தேர்வு"
+
+#: steps_gtk.pm:350 steps_interactive.pm:622
+#, c-format
+msgid "Individual package selection"
+msgstr "தனித்னி பொதியாக தேர்வுச் செய்"
+
+#: steps_gtk.pm:357
+#, c-format
+msgid "Unselect All"
+msgstr ""
+
+#: steps_gtk.pm:376 steps_interactive.pm:534
+#, c-format
+msgid "Total size: %d / %d MB"
+msgstr "மெகா பைட்டில் மொத்த அளவு  %d / %d"
+
+#: steps_gtk.pm:421
+#, c-format
+msgid "Version: "
+msgstr "வெளியீடு: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "Size: "
+msgstr "அளவு: "
+
+#: steps_gtk.pm:422
+#, fuzzy, c-format
+msgid "%d KB\n"
+msgstr "கிலோ பைட்டில் அளவு  %d \n"
+
+#: steps_gtk.pm:423
+#, c-format
+msgid "Importance: "
+msgstr "முக்கியத்துவம்: "
+
+#: steps_gtk.pm:458
+#, c-format
+msgid "You cannot select/unselect this package"
+msgstr "நீங்கள் இந்த பொதியை தேர்வு/நீக்க முடியாது"
+
+#: steps_gtk.pm:462
+#, fuzzy, c-format
+msgid "due to missing %s"
+msgstr "kdesu இல்ைல"
+
+#: steps_gtk.pm:463
+#, c-format
+msgid "due to unsatisfied %s"
+msgstr ""
+
+#: steps_gtk.pm:464
+#, c-format
+msgid "trying to promote %s"
+msgstr ""
+
+#: steps_gtk.pm:465
+#, c-format
+msgid "in order to keep %s"
+msgstr ""
+
+#: steps_gtk.pm:470
+#, c-format
+msgid ""
+"You cannot select this package as there is not enough space left to install "
+"it"
+msgstr "இடமில்ைல என்பதால்  நீங்கள் இந்த பொதியைத் தே`ர்வுச் செய்ய முடியாது"
+
+#: steps_gtk.pm:473
+#, c-format
+msgid "The following packages are going to be installed"
+msgstr "கிழ்கானும் பொதிகள் நிறுவுவதற்கு தேர்வுச் செய்யப்பட்டுள்ளது"
+
+#: steps_gtk.pm:474
+#, c-format
+msgid "The following packages are going to be removed"
+msgstr "கிழ்கானும் பொதிகள் நீக்கப்படுகிறது"
+
+#: steps_gtk.pm:500
+#, c-format
+msgid "This is a mandatory package, it cannot be unselected"
+msgstr "இது கட்டாய பொதி. இதனை நீக்க முடியாது"
+
+#: steps_gtk.pm:502
+#, c-format
+msgid "You cannot unselect this package. It is already installed"
+msgstr "இந்த பொதியை.நீக்க முடியாது. இது ஏற்கனவே நிறுவப்பட்டள்ளது"
+
+#: steps_gtk.pm:504
+#, c-format
+msgid "You cannot unselect this package. It must be upgraded"
+msgstr "இந்த பொதியை.நீக்க முடியாது. இது நிகழ்நிலைப்படுத்த வேண்டிய பொதி"
+
+#: steps_gtk.pm:508
+#, c-format
+msgid "Show automatically selected packages"
+msgstr "தானாக தேர்வுச் செய்யப்பட்டுள்ள பொதிகளைக் காட்டு"
+
+#: steps_gtk.pm:512
+#, c-format
+msgid "Install"
+msgstr "நிறுவு"
+
+#: steps_gtk.pm:515
+#, fuzzy, c-format
+msgid "Load/Save selection"
+msgstr "பொதிகள் தேர்வு"
+
+#: steps_gtk.pm:516
+#, c-format
+msgid "Updating package selection"
+msgstr "பொதிகள் தேர்ைவ நிகழ்நிலைப் படுத்து"
+
+#: steps_gtk.pm:521
+#, c-format
+msgid "Minimal install"
+msgstr "குறைந்தபட்ச நிறுவல்"
+
+#: steps_gtk.pm:534
+#, c-format
+msgid "Software Management"
+msgstr "நிரல் மேலாண்மை"
+
+#: steps_gtk.pm:534 steps_interactive.pm:415
+#, c-format
+msgid "Choose the packages you want to install"
+msgstr "நிறுவ வேண்டிய பொதிகளை தேர்வுச் செய்யுங்கள் "
+
+#: steps_gtk.pm:551 steps_interactive.pm:642 steps_list.pm:32
+#, c-format
+msgid "Installing"
+msgstr "நிறுவப்படுகிறது"
+
+#: steps_gtk.pm:581
+#, fuzzy, c-format
+msgid "No details"
+msgstr "விவரங்கள்"
+
+#: steps_gtk.pm:600
+#, fuzzy, c-format
+msgid "Time remaining:"
+msgstr "தேவைப்படும் நேரம்"
+
+#: steps_gtk.pm:601
+#, fuzzy, c-format
+msgid "(estimating...)"
+msgstr "கணக்கிடப்படுகிறது"
+
+#: steps_gtk.pm:627
+#, fuzzy, c-format
+msgid "%d package"
+msgid_plural "%d packages"
+msgstr[0] "%d பொதிகள்"
+msgstr[1] "%d பொதிகள்"
+
+#: steps_gtk.pm:684 steps_interactive.pm:834 steps_list.pm:43
+#, c-format
+msgid "Summary"
+msgstr "உரை"
+
+#: steps_gtk.pm:703
+#, c-format
+msgid "Configure"
+msgstr "வடிவமை"
+
+#: steps_gtk.pm:720 steps_interactive.pm:830 steps_interactive.pm:986
+#, c-format
+msgid "not configured"
+msgstr "வடிவமைக்கப்படவில்ைல"
+
+#: steps_gtk.pm:763 steps_interactive.pm:315
+#, c-format
+msgid ""
+"The following installation media have been found.\n"
+"If you want to skip some of them, you can unselect them now."
+msgstr ""
+
+#: steps_gtk.pm:779 steps_interactive.pm:321
+#, c-format
+msgid ""
+"You have the option to copy the contents of the CDs onto the hard disk drive "
+"before installation.\n"
+"It will then continue from the hard disk drive and the packages will remain "
+"available once the system is fully installed."
+msgstr ""
+
+#: steps_gtk.pm:781 steps_interactive.pm:323
+#, c-format
+msgid "Copy whole CDs"
+msgstr ""
+
+#: steps_interactive.pm:40
+#, c-format
+msgid "An error occurred"
+msgstr "பிழை நேர்ந்துள்ளது மன்னிக்கவும்"
+
+#: steps_interactive.pm:105
+#, c-format
+msgid "Please choose your keyboard layout"
+msgstr "தயவுசெய்து உங்கள் விசைப்பலகை இட அமைவைத் தேர்வு செய்க "
+
+#: steps_interactive.pm:109
+#, fuzzy, c-format
+msgid "Here is the full list of available keyboards:"
+msgstr "உங்கள் பயன்பாட்டிற்கு உள்ள விசைப்பலகைகள் அனைத்தும் இங்கே கொடுக்கப்பட்டுள்ளன"
+
+#: steps_interactive.pm:153
+#, c-format
+msgid "Install/Upgrade"
+msgstr "நிறுவுதுல்/ேமம்படுத்தல்"
+
+#: steps_interactive.pm:157
+#, c-format
+msgid "Is this an install or an upgrade?"
+msgstr "இது நிறுவுதலா அல்லது ேமம்படுத்தலா?"
+
+#: steps_interactive.pm:159
+#, fuzzy, c-format
+msgid ""
+"_: This is a noun:\n"
+"Install"
+msgstr "நிறுவு"
+
+#: steps_interactive.pm:161
+#, c-format
+msgid "Upgrade %s"
+msgstr " %s ேமம்படுத்து"
+
+#: steps_interactive.pm:184
+#, fuzzy, c-format
+msgid "Encryption key for %s"
+msgstr "மறைக்குறியீட்டுச் சாவி"
+
+#: steps_interactive.pm:217
+#, c-format
+msgid "Cancel installation, reboot system"
+msgstr ""
+
+#: steps_interactive.pm:218
+#, fuzzy, c-format
+msgid "New Installation"
+msgstr "நிறுவப்படுகிறது"
+
+#: steps_interactive.pm:219
+#, c-format
+msgid "Upgrade previous installation (not recommended)"
+msgstr ""
+
+#: steps_interactive.pm:223
+#, c-format
+msgid ""
+"Installer has detected that your installed Linux system could not\n"
+"safely be upgraded to %s.\n"
+"\n"
+"New installation replacing your previous one is recommended.\n"
+"\n"
+"Warning : you should backup all your personal data before choosing \"New\n"
+"Installation\"."
+msgstr ""
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "CD/DVD"
+msgstr ""
+
+#: steps_interactive.pm:264
+#, fuzzy, c-format
+msgid "Configuring CD/DVD"
+msgstr "IDE  வடிவமைக்கப்படுகிறது..."
+
+#: steps_interactive.pm:354
+#, c-format
+msgid ""
+"Change your Cd-Rom!\n"
+"Please insert the Cd-Rom labelled \"%s\" in your drive and press Ok when "
+"done.\n"
+"If you do not have it, press Cancel to avoid installation from this Cd-Rom."
+msgstr ""
+"சிடியை மாற்றவும்\n"
+"\n"
+"தயவுசெய்து \"%s\" என பெயரிடப்பட்ட நிறுவல் சிடியை சிடிராமில் வைக்கவும். வைத்தவுடன் சரி "
+"என்ற பொத்தானை கிளிக் செய்யவும்\n"
+"இந்த சிடி இல்ைலயென்றால் நீக்கு என்ற பொத்தானை கிளிக் செய்தால் இந்த சிடியிலிருந்து நிறுவல் "
+"நின்றுவிடும்"
+
+#: steps_interactive.pm:372
+#, c-format
+msgid "Looking for available packages..."
+msgstr "இருக்கும் பொதிகள் பார்ைவயிடப்படுகின்றன"
+
+#: steps_interactive.pm:380
+#, c-format
+msgid ""
+"Your system does not have enough space left for installation or upgrade "
+"(%dMB > %dMB)"
+msgstr ""
+
+#: steps_interactive.pm:428
+#, fuzzy, c-format
+msgid ""
+"Please choose load or save package selection.\n"
+"The format is the same as auto_install generated files."
+msgstr ""
+"தயவுசெய்து உங்கள் பொதி தேர்ைவ ஒரு நெகிழ்வட்டில் சேமிக்கவும்.\n"
+"இவ்வாறு சேமிக்கும் முறை தானியங்கி-நிறுவலை ஒத்து இருக்கும்"
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Load"
+msgstr "ஏற்றி"
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Save"
+msgstr "சேமி"
+
+#: steps_interactive.pm:438
+#, fuzzy, c-format
+msgid "Bad file"
+msgstr "கோப்பை ஏற்று"
+
+#: steps_interactive.pm:455
+#, fuzzy, c-format
+msgid "Plasma"
+msgstr "மேசைசெயலி"
+
+#: steps_interactive.pm:456
+#, c-format
+msgid "GNOME"
+msgstr "குனோம்"
+
+#: steps_interactive.pm:459
+#, fuzzy, c-format
+msgid "Desktop Selection"
+msgstr "பொதிகள் குழுத் தேர்வு"
+
+#: steps_interactive.pm:460
+#, c-format
+msgid "You can choose your workstation desktop profile."
+msgstr ""
+
+#: steps_interactive.pm:548
+#, c-format
+msgid "Selected size is larger than available space"
+msgstr "நீங்கள் தேர்வு செய்துள்ள அளவு, இருக்குமிடத்ைத விட அதிகமாக உள்ளது"
+
+#: steps_interactive.pm:572
+#, c-format
+msgid "Type of install"
+msgstr "நிறுவல் முறை"
+
+#: steps_interactive.pm:573
+#, c-format
+msgid ""
+"You have not selected any group of packages.\n"
+"Please choose the minimal installation you want:"
+msgstr ""
+"நீங்கள் பொதி குழுக்கள் எதனையும் தேர்வு செய்யவில்ைல.\n"
+"தயவுசெய்து உங்களுக்கு தேவையானதை தேர்வு செய்யவும்"
+
+#: steps_interactive.pm:578
+#, c-format
+msgid "With X"
+msgstr "X உடன் வரைவியல்வழியிடல பயன்படுத்த இது தேவை"
+
+#: steps_interactive.pm:579
+#, fuzzy, c-format
+msgid "Install recommended packages"
+msgstr "%s பொதி நிறுவப்படுகிறது"
+
+#: steps_interactive.pm:580
+#, c-format
+msgid "With basic documentation (recommended!)"
+msgstr "உதவி நூல்களுடன் (குறைந்தபட்சம் இது தேவை!)"
+
+#: steps_interactive.pm:581
+#, c-format
+msgid "Truly minimal install (especially no urpmi)"
+msgstr "மிகச்சிறிய நிறுவல்(urpmi கூட கிடையாது)"
+
+#: steps_interactive.pm:633
+#, fuzzy, c-format
+msgid "Preparing upgrade..."
+msgstr "துவங்குநிரலை உருவாக்குகிறேன்..."
+
+#: steps_interactive.pm:643
+#, c-format
+msgid "Preparing installation"
+msgstr "நிறுவுதல் தொடங்குகிறது"
+
+#: steps_interactive.pm:651
+#, c-format
+msgid "Installing package %s"
+msgstr "%s பொதி நிறுவப்படுகிறது"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "There was an error ordering packages:"
+msgstr "பொதிகளை அடுக்குவதில் பிழை நேர்ந்துள்ளது"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "Go on anyway?"
+msgstr "தொடர்ந்து செல்லலாமா?"
+
+#: steps_interactive.pm:679
+#, fuzzy, c-format
+msgid "Retry"
+msgstr "மீளச்செய்"
+
+#: steps_interactive.pm:680
+#, c-format
+msgid "Skip this package"
+msgstr ""
+
+#: steps_interactive.pm:681
+#, c-format
+msgid "Skip all packages from medium \"%s\""
+msgstr ""
+
+#: steps_interactive.pm:682
+#, fuzzy, c-format
+msgid "Go back to media and packages selection"
+msgstr "பொதித் தேர்ைவச் சேமி"
+
+#: steps_interactive.pm:685
+#, fuzzy, c-format
+msgid "There was an error installing package %s."
+msgstr "பொதிகளை நிறுவுவதில் பிழை நேர்ந்துள்ளது"
+
+#: steps_interactive.pm:704
+#, c-format
+msgid "Post-install configuration"
+msgstr "நிறுவியபின் சேய்ய வேண்டிய வடிவமைப்புகள்"
+
+#: steps_interactive.pm:711
+#, c-format
+msgid "Please ensure the Update Modules media is in drive %s"
+msgstr ""
+
+#: steps_interactive.pm:739 steps_interactive.pm:769 steps_list.pm:47
+#, c-format
+msgid "Updates"
+msgstr "புதுப்பித்தல்கள்"
+
+#: steps_interactive.pm:740
+#, c-format
+msgid "You now have the opportunity to setup online media."
+msgstr ""
+
+#: steps_interactive.pm:741
+#, c-format
+msgid "This allows to install security updates."
+msgstr ""
+
+#: steps_interactive.pm:742
+#, c-format
+msgid ""
+"To setup those media, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to setup the update media?"
+msgstr ""
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Failure when adding medium"
+msgstr ""
+
+#: steps_interactive.pm:762
+#, fuzzy, c-format
+msgid "Retry?"
+msgstr "மீளச்செய்"
+
+#: steps_interactive.pm:770
+#, c-format
+msgid ""
+"You now have the opportunity to download updated packages. These packages\n"
+"have been updated after the distribution was released. They may\n"
+"contain security or bug fixes.\n"
+"\n"
+"To download these packages, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to install the updates?"
+msgstr ""
+"இந்த பொதிகள் உங்கள் இயக்க நிரல் வெளியிட்ட பின் வெளிவந்தவை\n"
+"இவை பொதுவாக பிழைகளை நீக்கவும், பாதுகாப்பு குறைபாடுகளை\n"
+"நீக்கவும் வெளியிடப்பட்டவை \n"
+"\n"
+"இவற்ைற நிறுவ உங்களுக்கு நல்ல இணையத்ெதாடர்பு தேவை\n"
+"\n"
+"இவற்ைற நிறுவ விருப்பமா ?"
+
+#. -PO: example: lilo-graphic on /dev/hda1
+#: steps_interactive.pm:878
+#, c-format
+msgid "%s on %s"
+msgstr "%s இல் %s"
+
+#: steps_interactive.pm:913 steps_interactive.pm:920 steps_interactive.pm:933
+#: steps_interactive.pm:950 steps_interactive.pm:965
+#, c-format
+msgid "Hardware"
+msgstr "வன்பொருள்"
+
+#: steps_interactive.pm:934 steps_interactive.pm:951
+#, c-format
+msgid "Sound card"
+msgstr "ஒலியட்ைட"
+
+#: steps_interactive.pm:948
+#, c-format
+msgid "Graphical interface"
+msgstr "வரைவியல்வழி"
+
+#: steps_interactive.pm:972 steps_interactive.pm:984
+#, c-format
+msgid "Network & Internet"
+msgstr "வலையமைப்பும் இணையமும்"
+
+#: steps_interactive.pm:985
+#, fuzzy, c-format
+msgid "Proxies"
+msgstr "பயனர்குறிப்பு: "
+
+#: steps_interactive.pm:986
+#, fuzzy, c-format
+msgid "configured"
+msgstr "மறுவடிவமை"
+
+#: steps_interactive.pm:996
+#, c-format
+msgid "Security Level"
+msgstr "பாதுகாப்பு நிலை"
+
+#: steps_interactive.pm:1016
+#, c-format
+msgid "Firewall"
+msgstr "நெருப்புச்சுவர்"
+
+#: steps_interactive.pm:1020
+#, fuzzy, c-format
+msgid "activated"
+msgstr "இப்போது துவக்கு"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "disabled"
+msgstr "முடமாக்கப்பட்டுள்ளது"
+
+#: steps_interactive.pm:1034
+#, c-format
+msgid "You have not configured X. Are you sure you really want this?"
+msgstr ""
+
+#. -PO: This is NOT the boot loader (just the kernel initrds)!!!!
+#: steps_interactive.pm:1065
+#, fuzzy, c-format
+msgid "Preparing initial startup program..."
+msgstr "நிறுவுதல் தொடங்குகிறது"
+
+#: steps_interactive.pm:1066
+#, c-format
+msgid "Be patient, this may take a while..."
+msgstr ""
+
+#: steps_interactive.pm:1082
+#, c-format
+msgid ""
+"In this security level, access to the files in the Windows partition is "
+"restricted to the administrator."
+msgstr ""
+
+#: steps_interactive.pm:1114
+#, c-format
+msgid "Insert a blank floppy in drive %s"
+msgstr "வெற்று நெகிழ்வட்ைட  %s இயக்கியில் உள்ளிடவும்"
+
+#: steps_interactive.pm:1116
+#, c-format
+msgid "Creating auto install floppy..."
+msgstr "தானியங்கி நிறுவல்வட்ைட உருவாக்கவும்"
+
+#: steps_interactive.pm:1127
+#, c-format
+msgid ""
+"Some steps are not completed.\n"
+"\n"
+"Do you really want to quit now?"
+msgstr ""
+"சில செயல்கள் இன்னும் முடிக்கப்படவில்ைல\n"
+"\n"
+"நீங்கள் நிச்சயம் நிறுவுதலை விட்டு வெளியேற விரும்புகிறீர்களா?"
+
+#: steps_interactive.pm:1137
+#, c-format
+msgid "Congratulations"
+msgstr "வாழ்த்துக்கள்"
+
+#: steps_interactive.pm:1140
+#, c-format
+msgid "Reboot"
+msgstr "மறுெதாடக்கம்"
+
+#. -PO: please keep the following messages very short: they must fit in the left list of the installer!!!
+#: steps_list.pm:16
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Language"
+msgstr "உங்கள் மொழியைத்  தேர்வுச் செய்க"
+
+#: steps_list.pm:16 steps_list.pm:23
+#, c-format
+msgid "Localization"
+msgstr ""
+
+#: steps_list.pm:17
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"License"
+msgstr "அனுமதி"
+
+#: steps_list.pm:18
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Mouse"
+msgstr "எலி"
+
+#: steps_list.pm:19 steps_list.pm:20
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Hard drive detection"
+msgstr "வன்தட்டு கண்டுபிடித்தல்"
+
+#: steps_list.pm:21 steps_list.pm:22
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installation class"
+msgstr ""
+
+#: steps_list.pm:23
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Keyboard"
+msgstr "விசைப்பலகை"
+
+#: steps_list.pm:24
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Security"
+msgstr "பாதுகாப்பு"
+
+#: steps_list.pm:25
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Partitioning"
+msgstr "வகிர் ெசய்தல்"
+
+#: steps_list.pm:27 steps_list.pm:28
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Formatting"
+msgstr ""
+
+#: steps_list.pm:29
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Choosing packages"
+msgstr ""
+
+#: steps_list.pm:31
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installing"
+msgstr "நிறுவப்படுகிறது"
+
+#: steps_list.pm:34
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Users"
+msgstr "பயனர்கள்"
+
+#: steps_list.pm:38 steps_list.pm:39
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Bootloader"
+msgstr "துவங்குநிரல்"
+
+#: steps_list.pm:40 steps_list.pm:41
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Configure X"
+msgstr "X-ஐ வடிவமைக்கவும்"
+
+#: steps_list.pm:42
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Summary"
+msgstr "உரை"
+
+#: steps_list.pm:44 steps_list.pm:45
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Services"
+msgstr "சேவைகள்"
+
+#: steps_list.pm:46
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Updates"
+msgstr "புதுப்பித்தல்கள்"
+
+#: steps_list.pm:48
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Exit"
+msgstr "வெளிச்ெசல்"
+
+#~ msgid "Do you have an ISA sound card?"
+#~ msgstr "உங்களிடம் ISA ஒலியட்ைட ஏதேனும் உள்ளனவா?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Run \"alsaconf\" or \"sndconfig\" after installation to configure your "
+#~ "sound card"
+#~ msgstr "\"sndconfig\" என்ற நிரல் மூலம் உங்கள் ஒலியட்ைடயை வடிவமைக்க முடியும்"
+
+#~ msgid "No sound card detected. Try \"harddrake\" after installation"
+#~ msgstr ""
+#~ "ஒலியட்ைட ஏதும் கண்டுபிடிக்க முடியவில்ைல. டிரேக்வன்ெபாருள் மாயாவியை பயன்படுத்துங்கள்"
+
+#, fuzzy
+#~ msgid "KDE Desktop"
+#~ msgstr "மேசைசெயலி"
+
+#~ msgid "KDE"
+#~ msgstr "Kசாளரமைப்பு"
+
+#~ msgid "CD-ROM"
+#~ msgstr "சிடி இயக்கி"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "Kசாளரமைப்பு பணிக்கணினி"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Plasma Desktop, the basic graphical environment with a collection of "
+#~ "accompanying tools"
+#~ msgstr "Kசாளரமைப்பு-  ஓர் பயன்படுத்துவதற்கு எளிதான வரைவியல்வழி  மேலாளர்"
+
+#~ msgid "IDE"
+#~ msgstr "IDE"
+
+#~ msgid "Preparing bootloader..."
+#~ msgstr "துவங்குநிரலை உருவாக்குகிறேன்..."
+
+#, fuzzy
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr "ஓர் பயன்படுத்துவதற்கு எளிதான வரைவியல்வழி  மேலாளர்"
+
+#, fuzzy
+#~ msgid "RazorQT Desktop"
+#~ msgstr "மேசைசெயலி"
+
+#~ msgid ""
+#~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
+#~ "system, you'll need to create the bootstrap partition in DiskDrake"
+#~ msgstr ""
+#~ "துவங்குநிரலை நிறுவ இடமில்ைல. நிறுவுதல் தொடரும். ஆனால் உங்கள் லினக்ஸ் இயக்க நிரலை "
+#~ "துவக்க டிரேக்வட்ைட பயன்படுத்துங்கள்"
+
+#, fuzzy
+#~ msgid ""
+#~ "You'll need to create a PPC PReP Boot bootstrap! Install will continue, "
+#~ "but to boot your system, you'll need to create the bootstrap partition in "
+#~ "DiskDrake"
+#~ msgstr ""
+#~ "துவங்குநிரலை நிறுவ இடமில்ைல. நிறுவுதல் தொடரும். ஆனால் உங்கள் லினக்ஸ் இயக்க நிரலை "
+#~ "துவக்க டிரேக்வட்ைட பயன்படுத்துங்கள்"
+
+#, fuzzy
+#~ msgid ""
+#~ "You appear to have an OldWorld or Unknown machine, the yaboot bootloader "
+#~ "will not work for you. The install will continue, but you'll need to use "
+#~ "BootX or some other means to boot your machine. The kernel argument for "
+#~ "the root fs is: root=%s"
+#~ msgstr "தயவுசெய்து நிறுவுவதற்கு ஆங்கிலத்ைத பயன்படுத்துங்கள்"
+
+#~ msgid "Welcome"
+#~ msgstr "வருக"
+
+#~ msgid "Bad package"
+#~ msgstr "தவறான பொதி"
+
+#, fuzzy
+#~ msgid "Preparing boot images..."
+#~ msgstr "துவங்குநிரலை உருவாக்குகிறேன்..."
+
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "Networking"
+#~ msgstr "வலையமைப்பு"
+
+#~ msgid ""
+#~ "Office programs: wordprocessors (kword, abiword), spreadsheets (kspread, "
+#~ "gnumeric), pdf viewers, etc"
+#~ msgstr "அலுவல் கருவிகள்(விாிதாள், நிகழ்த்தி,வரைபடக் கருவிகள்)"
+
+#, fuzzy
+#~ msgid "Downloading file %s..."
+#~ msgstr "கோப்புகளைக் கண்டுபிடி "
+
+#~ msgid ""
+#~ "You have selected the following server(s): %s\n"
+#~ "\n"
+#~ "\n"
+#~ "These servers are activated by default. They do not have any known "
+#~ "security\n"
+#~ "issues, but some new ones could be found. In that case, you must make "
+#~ "sure\n"
+#~ "to upgrade as soon as possible.\n"
+#~ "\n"
+#~ "\n"
+#~ "Do you really want to install these servers?\n"
+#~ msgstr ""
+#~ "நீங்கள் கீழ்கானும் ேசவையகங்களை ேதர்வு செய்து உள்ளீர்கள்: %s\n"
+#~ "\n"
+#~ "\n"
+#~ "இந்த  ேசவையகங்கள் கொடாநிலையாக துவக்கப்படும். இவற்றில் இவை: \n"
+#~ "வெளியிடப் பட்டபோது பாதுகாப்பு பிரச்சினை ஏதுமில்ைல. ஆனால் பின்னாளில்:\n"
+#~ "கண்டுபிடிக்கப்படலாம்.\n"
+#~ "அப்ேபாது அவற்றுக்கான மாற்றுப் பொதிகளை நிறுவவும்\n"
+#~ "\n"
+#~ "\n"
+#~ "நிங்கள் நிச்சயம் இவற்ைற நிறுவ விரும்புகிறீர்களா?\n"
+
+#, fuzzy
+#~ msgid "IceWm Desktop"
+#~ msgstr "மேசைசெயலி"
+
+#~ msgid "Contacting the mirror to get the list of available packages..."
+#~ msgstr ""
+#~ "இணைப் பதிப்புதளங்களில் தற்ேபாதுள்ள பொதிகளை அறிய இணையதளம் தொடர்புகொள்ளப்படுகிறது"
+
+#~ msgid "Generate auto install floppy"
+#~ msgstr "தானியங்கி நிறுவல்வட்ைட உருவாக்கவும்"
+
+#~ msgid ""
+#~ "The auto install can be fully automated if wanted,\n"
+#~ "in that case it will take over the hard disk drive!!\n"
+#~ "(this is meant for installing on another box).\n"
+#~ "\n"
+#~ "You may prefer to replay the installation.\n"
+#~ msgstr ""
+#~ "தானியங்கி நிறுவல்வட்டின் மூலம் நீங்கள் நிறுவலை ,\n"
+#~ "முழுதும் தானாக நிறுவ வைக்கலாம்,\n"
+#~ "இது இன்னும் பல கணினிகளில் இதே போல் நிறுவ,\n"
+#~ "பயன்படலாம்,\n"
+#~ ",\n"
+#~ "நீங்கள் மீண்டும் ஒருமுறை உங்கள் நிறுவலை மறு இயக்கம் செய்யலாம்,\n"
+
+#~ msgid "Replay"
+#~ msgstr "மறு இயக்கம்"
+
+#~ msgid "Automated"
+#~ msgstr "தானியங்கி"
+
+#~ msgid "Save packages selection"
+#~ msgstr "பொதித் தேர்ைவச் சேமி"
+
+#~ msgid "Do you want to use aboot?"
+#~ msgstr "தயவுசெய்து நிறுவுவதற்கு ஆங்கிலத்ைத பயன்படுத்துங்கள்"
+
+#~ msgid ""
+#~ "Error installing aboot, \n"
+#~ "try to force installation even if that destroys the first partition?"
+#~ msgstr "தயவுசெய்து நிறுவுவதற்கு ஆங்கிலத்ைத பயன்படுத்துங்கள்"
+
+#~ msgid "All"
+#~ msgstr "அனைத்து"
+
+#~ msgid "TV card"
+#~ msgstr "TV அட்ைட"
+
+#~ msgid "Boot"
+#~ msgstr "துவக்கம்"
+
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "Authentication"
+#~ msgstr "நல்குாிமை"
+
+#~ msgid "Gwenview"
+#~ msgstr "gwen பார்வை"
+
+#, fuzzy
+#~ msgid "(%d package, %d MB)"
+#~ msgid_plural "(%d packages, %d MB)"
+#~ msgstr[0] "%d பொதிகள்"
+#~ msgstr[1] "%d பொதிகள்"
+
+#~ msgid "%d packages"
+#~ msgstr "%d பொதிகள்"
+
+#~ msgid "Language"
+#~ msgstr "உங்கள் மொழியைத்  தேர்வுச் செய்க"
+
+#~ msgid "License"
+#~ msgstr "அனுமதி"
+
+#, fuzzy
+#~ msgid "Installation class"
+#~ msgstr "நிறுவல் வகையைத் தேர்வுச் செய்க"
+
+#, fuzzy
+#~ msgid "Formatting"
+#~ msgstr "கணக்கிடப்படுகிறது"
+
+#, fuzzy
+#~ msgid "Choosing packages"
+#~ msgstr "நிறுவ வேண்டிய பொதிகளை தேர்வுச் செய்யுங்கள்"
+
+#~ msgid "Users"
+#~ msgstr "பயனர்கள்"
+
+#~ msgid "Networking"
+#~ msgstr "வலையமைப்பு"
+
+#~ msgid "Configure X"
+#~ msgstr "X-ஐ வடிவமைக்கவும்"
+
+#~ msgid ""
+#~ "Cannot access kernel modules corresponding to your kernel (file %s is "
+#~ "missing), this generally means your boot floppy in not in sync with the "
+#~ "Installation medium (please create a newer boot floppy)"
+#~ msgstr ""
+#~ "உங்கள் கருவிற்கு இணையான கூறுகளை காணமுடியவில்ைல (%s கோப்ேபா கானவில்ைல), இதற்கு "
+#~ "அர்த்தம் நீங்கள் தவறான நிறுவுதட்ைட பயன்படுத்துகிறீர்கள் (தயவுசெய்து புதிய நிறுவுதட்ைட "
+#~ "உருவாக்குங்கள்)"

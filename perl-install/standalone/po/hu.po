@@ -1,0 +1,3381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Arpad Biro <biro.arpad gmail>, 2000,2003-2007
+# Balzamon, 2015
+# Kardos László <kardiweb@protonmail.ch>, 2017
+# Kardos László <kardiweb@protonmail.ch>, 2017
+# alephlg <aleph@mandriva.org>, 2008-2010
+# Tamas Szanto <tszanto@mol.hu>, 2001
+# Zoltan Siposs, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2017-10-04 10:45+0000\n"
+"Last-Translator: Kardos László <kardiweb@protonmail.ch>\n"
+"Language-Team: Hungarian (http://www.transifex.com/MageiaLinux/mageia/"
+"language/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "Segítség"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "Bezárás"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "Felhasználóazonosítás"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213 drakfont:226
+#: drakfont:264 finish-install:136 logdrake:177 logdrake:453 logdrake:458
+#: scannerdrake:56 scannerdrake:98 scannerdrake:139 scannerdrake:197
+#: scannerdrake:256 scannerdrake:726 scannerdrake:737 scannerdrake:876
+#: scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "Hiba"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "_Fájl"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "_Kilépés"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: drakautologin:100
+#, c-format
+msgid "Default user"
+msgstr "Alapértelmezett felhasználó"
+
+#: drakautologin:101
+#, c-format
+msgid "Default desktop"
+msgstr "Alapértelmezett munkaasztal"
+
+#: drakautologin:104
+#, c-format
+msgid "No, I do not want autologin"
+msgstr "Ne legyen automatikus bejelentkezés"
+
+#: drakautologin:105
+#, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr "Legyen automatikus bejelentkezés (felhasználónév, grafikus környezet)"
+
+#: drakautologin:112
+#, c-format
+msgid "System mode"
+msgstr "Rendszermód"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr "Rendszerindításkor induljon el a grafikus környezet"
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr "Rendszerindító nem található; új beállítás készítése"
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr "A(z) \"%s\" program leállt a következő hibával:"
+
+#: drakbug:62
+#, c-format
+msgid "%s Bug Report Tool"
+msgstr "%s Hibajelentő eszköz."
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "%s Vezérlőközpont"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr "Első indítási varázsló"
+
+#: drakbug:69
+#, c-format
+msgid "Synchronization tool"
+msgstr "Szinkronizáló program"
+
+#: drakbug:70 drakbug:206
+#, c-format
+msgid "Standalone Tools"
+msgstr "Önálló eszközök"
+
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s Online"
+
+#: drakbug:74
+#, c-format
+msgid "Remote Control"
+msgstr "Távirányítás"
+
+#: drakbug:75
+#, c-format
+msgid "Software Manager"
+msgstr "Szoftvercsomag-kezelő"
+
+#: drakbug:76
+#, c-format
+msgid "Windows Migration tool"
+msgstr "Windows migrációs program"
+
+#: drakbug:77
+#, c-format
+msgid "Configuration Wizards"
+msgstr "Beállítási varázslók"
+
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "%s eszköz kiválasztása:"
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+"vagy az alkalmazásnevet\n"
+"(vagy a teljes útvonalat):"
+
+#: drakbug:103
+#, c-format
+msgid "Find Package"
+msgstr "Csomag keresése"
+
+#: drakbug:104
+#, c-format
+msgid "Browse"
+msgstr "Böngészés"
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "Csomag: "
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "Kernel:"
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr "A(z) \"%s\" program leállt a következő hibával:"
+
+#: drakbug:144
+#, c-format
+msgid "Used theme: %s"
+msgstr "Használatban levő téma: %s"
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+"Hibajelentés küldéséhez kattintson a bejelentés gombra.\n"
+"Ekkor megjelenik a(z) %s weboldal egy böngészőablakban, ahol egy kitöltendő "
+"űrlap lesz látható. A fenti információk el lesznek küldve a kiszolgálónak."
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] ""
+"Nagyon hasznos információkat tud biztosítani a hiba feltérképezéséhez, ha az "
+"alábbi parancs kimenetét csatolja a jelentéséhez: %s."
+msgstr[1] ""
+"Nagyon hasznos információkat tud biztosítani a hiba feltérképezéséhez, ha az "
+"alábbi parancsok kimenetét csatolja a jelentéséhez: %s."
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr "'%s'"
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr "Csatolja a következő fájlokat: %s mint %s."
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr "Kérjük határozza meg, hogy mit csinált a program hibás kilépése előtt:"
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "Bejelentés"
+
+#: drakbug:213
+#, c-format
+msgid "Not installed"
+msgstr "Nincs telepítve"
+
+#: drakbug:226
+#, c-format
+msgid "Package not installed"
+msgstr "A csomag nincs telepítve"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+"Meg kell adni bizonyos adatokat a rendszerről, és a számítógépen végzett "
+"tevékenységéről, hogy a hibát reprodukálni tudjuk, és a kijavítására meg "
+"tudjuk tenni a megfelelő lépéseket"
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr "Köszönjük."
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Dátum-, óra- és időzóna-beállítások"
+
+#: drakclock:38
+#, c-format
+msgid "not defined"
+msgstr "nincs beállítva"
+
+#: drakclock:40
+#, c-format
+msgid "Change Time Zone"
+msgstr "Időzóna módosítása"
+
+#: drakclock:45
+#, c-format
+msgid "Timezone - DrakClock"
+msgstr "Időzóna - DrakClock"
+
+#: drakclock:45
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Melyik időzónát választja?"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:47
+#, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "A gép órája GMT-időt mutat?"
+
+#: drakclock:75
+#, c-format
+msgid "Network Time Protocol"
+msgstr "Hálózati időprotokoll (NTP)"
+
+#: drakclock:77
+#, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"Az NTP segítségével a számítógép szinkronizálhatja\n"
+"az óráját egy távoli időkiszolgálóval."
+
+#: drakclock:78
+#, c-format
+msgid "Enable Network Time Protocol"
+msgstr "Hálózati időprotokoll (NTP) bekapcsolása"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "Kiszolgáló:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "Időzóna"
+
+#: drakclock:117
+#, c-format
+msgid "Please enter a valid NTP server address."
+msgstr "Érvényes NTP-kiszolgáló-címet adjon meg."
+
+#: drakclock:141
+#, c-format
+msgid "Could not synchronize with %s."
+msgstr "Nem sikerült szinkronizálni ezzel: %s."
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "Kilépés"
+
+#: drakclock:143
+#, c-format
+msgid "Retry"
+msgstr "Újrapróbálás"
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#: drakdvb:30
+#, c-format
+msgid "DVB"
+msgstr "DVB"
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "Csatorna"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr "%s már létezik és a tartama el fog veszni"
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr "Nem megszerezhető az elérhető csatornák listája"
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "Kis türelmet..."
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr "DVB csatornák keresése. Ez pár percbe telik"
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: drakdvb:148
+#, c-format
+msgid "Detect Channels"
+msgstr "Csatornák keresése"
+
+#: drakdvb:150
+#, c-format
+msgid "View Channel"
+msgstr "Csatorna megnézése"
+
+#: drakedm:41
+#, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "GDM (GNOME bejelentkezéskezelő)"
+
+#: drakedm:42
+#, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr "SDDM (Egyszerű asztal bejelentkezés kezelő)"
+
+#: drakedm:43
+#, c-format
+msgid "XDM (X Display Manager)"
+msgstr "XDM (X bejelentkezéskezelő)"
+
+#: drakedm:54
+#, c-format
+msgid "Choosing a display manager"
+msgstr "Bejelentkezéskezelő kiválasztása"
+
+#: drakedm:55
+#, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr ""
+"Az X11 Bejelentkezéskezelő lehetővé teszi a grafikus felületen történő\n"
+"bejelentkezést az X grafikus rendszer segítségével. Támogatja több X\n"
+"rendszer azonos gépen történő egyidejű futtatását is."
+
+#: drakedm:74
+#, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "A módosítás megtörtént. Szeretné újraindítani a dm szolgáltatást?"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+"Az összes futó program be fog záródni; a jelenlegi munkafolyamat elvész. "
+"Biztos abban, hogy újra szeretné indítani a \"dm\" szolgáltatást?"
+
+#: drakfont:187
+#, c-format
+msgid "Search installed fonts"
+msgstr "Telepített betűtípusok keresése"
+
+#: drakfont:189
+#, c-format
+msgid "Unselect fonts installed"
+msgstr "Telepített betűtípusok kijelölésének törlése"
+
+#: drakfont:213
+#, c-format
+msgid "No fonts found"
+msgstr "Betűtípus nem található"
+
+#: drakfont:217
+#, c-format
+msgid "parse all fonts"
+msgstr "az összes betűtípus vizsgálata"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "kész"
+
+#: drakfont:226
+#, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "A csatolt partíciókon betűtípus nem található"
+
+#: drakfont:261
+#, c-format
+msgid "Reselect correct fonts"
+msgstr "Jó betűtípusok ismételt kiválasztása"
+
+#: drakfont:264
+#, c-format
+msgid "Could not find any font.\n"
+msgstr "Betűtípus nem található.\n"
+
+#: drakfont:274
+#, c-format
+msgid "Search for fonts in installed list"
+msgstr "Betűtípusok keresése a telepítettek közt"
+
+#: drakfont:298
+#, c-format
+msgid "%s fonts conversion"
+msgstr "%s betűtípusok konvertálása"
+
+#: drakfont:337
+#, c-format
+msgid "Fonts copy"
+msgstr "Betűtípus-másolás"
+
+#: drakfont:340
+#, c-format
+msgid "True Type fonts installation"
+msgstr "TrueType betűtípusok telepítése"
+
+#: drakfont:348
+#, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "kis türelmet: ttmkfdir..."
+
+#: drakfont:349
+#, c-format
+msgid "True Type install done"
+msgstr "TrueType-telepítés kész"
+
+#: drakfont:355 drakfont:370
+#, c-format
+msgid "type1inst building"
+msgstr "type1inst készítése"
+
+#: drakfont:364
+#, c-format
+msgid "Ghostscript referencing"
+msgstr "Ghostscript-hivatkozás"
+
+#: drakfont:381
+#, c-format
+msgid "Suppress Temporary Files"
+msgstr "Átmeneti fájlok elhagyása"
+
+#: drakfont:426 drakfont:432
+#, c-format
+msgid "Suppress Fonts Files"
+msgstr "Betűtípus-fájlok elhagyása"
+
+#: drakfont:440
+#, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr ""
+"Mielőtt bármilyen betűtípus telepítésébe kezdene, bizonyosodjon meg arról, "
+"hogy van joga azok telepítéséhez illetve használatához.\n"
+"\n"
+"A betűtípusokat a szokott módon telepítheti. Bizonyos hibás betűtípusok "
+"lefagyaszthatják az X-kiszolgálót."
+
+#: drakfont:479
+#, c-format
+msgid "Font Installation"
+msgstr "Betűtípus-telepítés"
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakFont"
+
+#: drakfont:491 drakfont:640
+#, c-format
+msgid "Font List"
+msgstr "Betűtípus-lista"
+
+#: drakfont:494
+#, c-format
+msgid "Get Windows Fonts"
+msgstr "Windowsos betűkészletek behozatala"
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "Névjegy"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "Beállítások"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "Eltávolítás"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "Importálás"
+
+#: drakfont:521
+#, c-format
+msgid "Drakfont"
+msgstr "DrakFont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright (C) %s, %s"
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr "Betűtípus-telepítő"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+"_: ()Mageia() Hungarian Translator(s)\n"
+"i18n-hu@ml.mageia.org\n"
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr "Válassza ki, mely alkalmazások fogják használni a betűtípusokat:"
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "AbiWord"
+
+#: drakfont:555
+#, c-format
+msgid "Generic Printers"
+msgstr "Általános nyomtatók"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#: drakfont:569
+#, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr ""
+"Válassza ki a betűtípus-fájlt vagy -könyvtárt, majd kattintson a \"Hozzáadás"
+"\" gombra"
+
+#: drakfont:570
+#, c-format
+msgid "File Selection"
+msgstr "Fájlkijelölés"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "Betűtípusok"
+
+#: drakfont:638 draksec:185
+#, c-format
+msgid "Import fonts"
+msgstr "Betűtípusok importálása"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "Telepítés"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr "Biztos, hogy el szeretné távolítani a következő betűtípusokat?"
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "Igen"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "Nem"
+
+#: drakfont:728
+#, c-format
+msgid "Unselect All"
+msgstr "Kijelölések megszüntetése"
+
+#: drakfont:731
+#, c-format
+msgid "Select All"
+msgstr "Mindent kijelöl"
+
+#: drakfont:748
+#, c-format
+msgid "Importing fonts"
+msgstr "Betűtípusok importálása"
+
+#: drakfont:752 drakfont:772
+#, c-format
+msgid "Initial tests"
+msgstr "Tesztelés"
+
+#: drakfont:753
+#, c-format
+msgid "Copy fonts on your system"
+msgstr "Betűtípusok másolása a rendszerbe"
+
+#: drakfont:754
+#, c-format
+msgid "Install & convert Fonts"
+msgstr "Betűtípusok telepítése és konvertálása"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "Telepítés után"
+
+#: drakfont:767
+#, c-format
+msgid "Removing fonts"
+msgstr "Betűtípusok eltávolítása"
+
+#: drakfont:773
+#, c-format
+msgid "Remove fonts on your system"
+msgstr "A rendszerben található betűtípusok eltávolítása"
+
+#: drakfont:774
+#, c-format
+msgid "Post Uninstall"
+msgstr "Eltávolítás után"
+
+#: drakhelp:17
+#, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+"drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"Ez egy szabad szoftver, a GNU GPL előírásai szerint terjeszthető.\n"
+"\n"
+"Használata:\n"
+
+#: drakhelp:23
+#, c-format
+msgid "  --help                - display this help     \n"
+msgstr "--help - e súgó megjelenítése\n"
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+" --id <azonosító>      - a megadott azonosítócímkéjű HTML segítség "
+"betöltése\n"
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+" --doc <link>          - linkelés egy weblapra (az ablakkezelő\n"
+"                         üdvözlőképernyőjéhez)\n"
+
+#: drakhelp:53
+#, c-format
+msgid "%s Help Center"
+msgstr "%s Segítségnyújtó központ"
+
+#: drakhelp:53
+#, c-format
+msgid "No Help entry for %s\n"
+msgstr "Nincs bejegyzés a dokumentációban ehhez: %s\n"
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "Rendszerbeállítások"
+
+#: drakperm:24
+#, c-format
+msgid "Custom settings"
+msgstr "Egyéni beállítások"
+
+#: drakperm:25
+#, c-format
+msgid "Custom & system settings"
+msgstr "Egyéni- és rendszerbeállítások"
+
+#: drakperm:33
+#, c-format
+msgid "Security Permissions"
+msgstr "Biztonsági engedélyek"
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "Szerkeszthető"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "Útvonal"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "Felhasználó"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "Csoport"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "Engedélyek"
+
+#: drakperm:60
+#, c-format
+msgid "Add a new rule"
+msgstr "Új szabály felvétele"
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, c-format
+msgid "Edit current rule"
+msgstr "Aktuális szabály módosítása"
+
+#: drakperm:108
+#, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr ""
+"Itt láthatók azon fájlok, amelyekkel beállíthatók az \"msec\" által kezelt "
+"engedélyek, tulajdonosok és csoportok.\n"
+"A felhasználó módosíthatja a saját szabályait, felüldefiniálva ezzel az "
+"alapértelmezett szabályokat."
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+"A jelenlegi biztonsági szint: %s.\n"
+"Válassza ki a megjelenítendő/szerkesztendő engedélyeket."
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "Fel"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr "A kijelölt szabályt egy szinttel feljebb"
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "Le"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr "A kijelölt szabályt egy szinttel lejjebb"
+
+#: drakperm:124
+#, c-format
+msgid "Add a rule"
+msgstr "Szabály felvétele"
+
+#: drakperm:124
+#, c-format
+msgid "Add a new rule at the end"
+msgstr "Új szabály felvétele a lista végére"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "Törlés"
+
+#: drakperm:125
+#, c-format
+msgid "Delete selected rule"
+msgstr "A kijelölt szabály törlése"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: drakperm:239
+#, c-format
+msgid "browse"
+msgstr "Böngészés"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "felhasználó"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "csoport"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "egyéb"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "Egyéb"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "Olvasás"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "A fájl olvasásának engedélyezése \"%s\" számára"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "Írás"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "A fájl írásának engedélyezése \"%s\" számára"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "Futtatás"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "A fájl végrehajtásának engedélyezése \"%s\" számára"
+
+#: drakperm:269
+#, c-format
+msgid "Sticky-bit"
+msgstr "'Sticky' bit"
+
+#: drakperm:269
+#, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"Könyvtárra használva:\n"
+" csak a könyvtár vagy a benne levő fájl tulajdonosa törölheti"
+
+#: drakperm:270
+#, c-format
+msgid "Set-UID"
+msgstr "Más UID"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr "A tulajdonos azonosítójának használata a végrehajtáshoz"
+
+#: drakperm:271
+#, c-format
+msgid "Set-GID"
+msgstr "Más GID"
+
+#: drakperm:271
+#, c-format
+msgid "Use group id for execution"
+msgstr "Csoportazonosító használata a végrehajtáshoz"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "Felhasználó:"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "Csoport:"
+
+#: drakperm:293
+#, c-format
+msgid "Current user"
+msgstr "Aktuális felhasználó"
+
+#: drakperm:294
+#, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr "Bejelölés esetén a tulajdonos és a csoport nem lesz módosítva"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "Útvonal választása"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "Tulajdonos"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+"Az útvonal első karaktere perjel kell, hogy legyen (\"/\"):\n"
+"\"%s\""
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr "A felhasználónévnek és a csoportnak érvényesnek kell lennie."
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr "Felhasználó: %s"
+
+#: drakperm:383
+#, c-format
+msgid "Group: %s"
+msgstr "Csoport: %s"
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "MIND"
+
+#: draksec:54
+#, c-format
+msgid "LOCAL"
+msgstr "HELYI"
+
+#: draksec:55
+#, c-format
+msgid "NONE"
+msgstr "EGYIK SEM"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "Alapértelmezés"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "Ignorálás"
+
+#: draksec:87
+#, c-format
+msgid "Security Level and Checks"
+msgstr "Biztonsági szint és ellenőrzések"
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr "Az azonosítás beállítása szükséges az %s eszköz használatához"
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "Nincs jelszó"
+
+#: draksec:115
+#, c-format
+msgid "Administrator password"
+msgstr "Rendszergazdai jelszó"
+
+#: draksec:116
+#, c-format
+msgid "User password"
+msgstr "Felhasználói jelszó"
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "Szoftverkezelés"
+
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "%s Frissítés"
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "Szoftverforrás-kezelő"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "Térbeli asztaleffektek beállítása"
+
+#: draksec:172
+#, c-format
+msgid "Graphical Server Configuration"
+msgstr "Grafikus kiszolgálóbeállítás"
+
+#: draksec:173
+#, c-format
+msgid "Mouse Configuration"
+msgstr "Egérbeállítás"
+
+#: draksec:174
+#, c-format
+msgid "Keyboard Configuration"
+msgstr "Billentyűzetbeállítás"
+
+#: draksec:175
+#, c-format
+msgid "UPS Configuration"
+msgstr "UPS-beállítás"
+
+#: draksec:176
+#, c-format
+msgid "Network Configuration"
+msgstr "Hálózatbeállítás"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr "Gépdefiníciók"
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "Hálózati központ"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr "Barangolás a vezeték nélküli hálózatokban"
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr "VPN"
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "Proxy-beállítás"
+
+#: draksec:182
+#, c-format
+msgid "Connection Sharing"
+msgstr "Kapcsolatmegosztás"
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "Mentések"
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "Naplók"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: draksec:188
+#, c-format
+msgid "Users"
+msgstr "Felhasználók"
+
+#: draksec:190
+#, c-format
+msgid "Boot Configuration"
+msgstr "Rendszerindítási beállítások"
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "Hardver"
+
+#: draksec:224
+#, c-format
+msgid "Network"
+msgstr "Hálózat"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "Rendszer"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "Rendszerindítás"
+
+#: draksound:48
+#, c-format
+msgid "No Sound Card detected!"
+msgstr "Hangkártya nem található."
+
+#: draksound:50
+#, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+"Nem található hangkártya a gépben. Ellenőrizd, hogy egy Linux által "
+"támogatott hangkártya megfelelően lett csatlakoztatva."
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr "Soros porton vagy USB-kábelen keresztül csatlakoztatva"
+
+#: drakups:72
+#, c-format
+msgid "Manual configuration"
+msgstr "Kézi beállítás"
+
+#: drakups:78
+#, c-format
+msgid "Add an UPS device"
+msgstr "UPS-eszköz felvétele"
+
+#: drakups:81
+#, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr ""
+"Üdvözli az UPS-beállító.\n"
+"\n"
+"A programmal új UPS-t vehet fel a rendszerébe.\n"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+"Egy UPS-eszköz felvétele következik.\n"
+"\n"
+"Szeretne automatikus felderítést a géphez kapcsolt UPS-eszközökre, vagy "
+"kézzel szeretné megadni azokat?"
+
+#: drakups:91
+#, c-format
+msgid "Autodetection"
+msgstr "Automatikus felderítés"
+
+#: drakups:99 harddrake2:362
+#, c-format
+msgid "Detection in progress"
+msgstr "Felderítés folyamatban"
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "Gratulálunk"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr "A varázsló felvette a következő UPS-eszközöket:"
+
+#: drakups:121
+#, c-format
+msgid "No new UPS devices was found"
+msgstr "Nem található új UPS-eszköz"
+
+#: drakups:126 drakups:138
+#, c-format
+msgid "UPS driver configuration"
+msgstr "Az UPS-meghajtóprogram beállítása"
+
+#: drakups:126
+#, c-format
+msgid "Please select your UPS model."
+msgstr "Válassza ki az UPS-modellt."
+
+#: drakups:127
+#, c-format
+msgid "Manufacturer / Model:"
+msgstr "Gyártó / modell:"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+"A(z) \"%s\" UPS (gyártó: \"%s\") beállítása következik.\n"
+"Adja meg annak nevét, meghajtóját és portját."
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "Név:"
+
+#: drakups:143
+#, c-format
+msgid "The name of your ups"
+msgstr "Az UPS neve"
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "Meghajtó:"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr "Az UPS-t kezelő meghajtóprogram"
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "Port:"
+
+#: drakups:147
+#, c-format
+msgid "The port on which is connected your ups"
+msgstr "A port, amelyre az UPS csatlakoztatva van"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr "A varázsló beállította az új \"%s\" UPS-eszközt."
+
+#: drakups:248
+#, c-format
+msgid "UPS devices"
+msgstr "UPS-eszközök"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "Név"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "Meghajtó"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "Port"
+
+#: drakups:267
+#, c-format
+msgid "UPS users"
+msgstr "UPS-felhasználók"
+
+#: drakups:283
+#, c-format
+msgid "Access Control Lists"
+msgstr "Hozzáférési listák (ACL)"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "IP-cím"
+
+#: drakups:284
+#, c-format
+msgid "IP mask"
+msgstr "IP-maszk"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "Szabályok"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "Művelet"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "Szint"
+
+#: drakups:297
+#, c-format
+msgid "ACL name"
+msgstr "ACL-név"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "Jelszó"
+
+#: drakups:329
+#, c-format
+msgid "UPS Management"
+msgstr "UPS-kezelés"
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "Üdvözli az UPS-beállító"
+
+#: drakxtv:66
+#, c-format
+msgid "No TV Card detected!"
+msgstr "Tévékártya nem található."
+
+#: drakxtv:67
+#, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+"Nem található TV-kártya a gépben. Ellenőrizd, hogy egy Linux által "
+"támogatott TV-kártya megfelelően lett csatlakoztatva."
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "Billentyűzet"
+
+#: finish-install:61
+#, c-format
+msgid "Please choose your keyboard layout."
+msgstr "Válasszon billentyűzetkiosztást."
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr "A kapcsolat tesztelése..."
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, c-format
+msgid "Encrypted home partition"
+msgstr "Titkosított \"home\" (saját könyvtárak) partíció"
+
+#: finish-install:199
+#, c-format
+msgid "Please enter a password for the %s user"
+msgstr "Adjon meg jelszót \"%s\" felhasználó számára"
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "Jelszó (még egyszer)"
+
+#: finish-install:217
+#, c-format
+msgid "Creating encrypted home partition"
+msgstr "Titkosított \"home\" partíció létrehozása"
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr "Titkosított \"home\" partíció formázása"
+
+#: harddrake2:30
+#, c-format
+msgid "Alternative drivers"
+msgstr "Alternatív meghajtók"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr "A hangkártyához használható alternatív meghajtók"
+
+#: harddrake2:33 harddrake2:129
+#, c-format
+msgid "Bus"
+msgstr "Busz"
+
+#: harddrake2:34
+#, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr ""
+"Ez a fizikai busz, amelyre az eszköz csatlakoztatva van (PCI, USB, ...)"
+
+#: harddrake2:36 harddrake2:155
+#, c-format
+msgid "Bus identification"
+msgstr "Busz-azonosítás"
+
+#: harddrake2:37
+#, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr ""
+"- PCI- és USB-eszközök: gyártó, eszköz, algyártó, aleszköz PCI-/USB-"
+"azonosítók"
+
+#: harddrake2:39
+#, c-format
+msgid "Location on the bus"
+msgstr "A buszon elfoglalt hely"
+
+#: harddrake2:40
+#, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr ""
+"- PCI-eszközök: PCI-kártyahely, eszköz és funkció\n"
+"- EIDE-eszközök: \"slave\" vagy \"master\" (második illetve első meghajtó)\n"
+"- SCSI-eszközök: SCSI-busz és SCSI eszközazonosítók"
+
+#: harddrake2:43
+#, c-format
+msgid "Drive capacity"
+msgstr "A meghajtó képességei"
+
+#: harddrake2:43
+#, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr "A meghajtó speciális képességei (írási képesség és/vagy DVD-támogatás)"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "Leírás"
+
+#: harddrake2:44
+#, c-format
+msgid "this field describes the device"
+msgstr "Ez a mező az eszköz leírását tartalmazza"
+
+#: harddrake2:45
+#, c-format
+msgid "Old device file"
+msgstr "Régi eszközfájl"
+
+#: harddrake2:46
+#, c-format
+msgid "old static device name used in dev package"
+msgstr "A dev csomagban használt régi statikus eszköznév"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "Modul"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr "Az eszközt kezelő linuxos kernelmodul"
+
+#: harddrake2:50
+#, c-format
+msgid "Extended partitions"
+msgstr "Kiterjesztett partíciók"
+
+#: harddrake2:50
+#, c-format
+msgid "the number of extended partitions"
+msgstr "A kiterjesztett partíciók száma"
+
+#: harddrake2:51
+#, c-format
+msgid "Geometry"
+msgstr "Geometria"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr "A lemez geometriája: cilinder/fej/szektor"
+
+#: harddrake2:52
+#, c-format
+msgid "Disk controller"
+msgstr "Lemezvezérlő"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr "A gépoldali lemezvezérlő"
+
+#: harddrake2:53
+#, c-format
+msgid "Identifier"
+msgstr "Azonosító"
+
+#: harddrake2:53
+#, c-format
+msgid "usually the device serial number"
+msgstr "Általában az eszköz sorozatszáma"
+
+#: harddrake2:54
+#, c-format
+msgid "Media class"
+msgstr "Médiaosztály"
+
+#: harddrake2:54
+#, c-format
+msgid "class of hardware device"
+msgstr "A hardvereszköz osztálya"
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "Modell"
+
+#: harddrake2:55
+#, c-format
+msgid "hard disk model"
+msgstr "Merevlemez-modell"
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "Hálózati nyomtatóport"
+
+#: harddrake2:57
+#, c-format
+msgid "Primary partitions"
+msgstr "Elsődleges partíciók"
+
+#: harddrake2:57
+#, c-format
+msgid "the number of the primary partitions"
+msgstr "Az elsődleges partíciók száma"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "Gyártó"
+
+#: harddrake2:58
+#, c-format
+msgid "the vendor name of the device"
+msgstr "Az eszköz gyártójának neve"
+
+#: harddrake2:59
+#, c-format
+msgid "PCI domain"
+msgstr "PCI-tartomány"
+
+#: harddrake2:59 harddrake2:60
+#, c-format
+msgid "the PCI domain of the device"
+msgstr "Az eszköz PCI-tartománya"
+
+#: harddrake2:60
+#, c-format
+msgid "PCI revision"
+msgstr "PCI revízió"
+
+#: harddrake2:61
+#, c-format
+msgid "Bus PCI #"
+msgstr "PCI-busz azonosítója"
+
+#: harddrake2:61
+#, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "A PCI-busz, amelyre az eszköz csatlakoztatva van"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device #"
+msgstr "PCI-eszközszám"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device number"
+msgstr "A PCI-eszközszám"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function #"
+msgstr "PCI-funkciószám"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function number"
+msgstr "A PCI-funkciószám"
+
+#: harddrake2:64
+#, c-format
+msgid "Vendor ID"
+msgstr "Gyártóazonosító"
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr "A gyártó szabványos numerikus azonosítója"
+
+#: harddrake2:65
+#, c-format
+msgid "Device ID"
+msgstr "Eszközazonosító"
+
+#: harddrake2:65
+#, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "Az eszköz numerikus azonosítója"
+
+#: harddrake2:66
+#, c-format
+msgid "Sub vendor ID"
+msgstr "Al-gyártóazonosító"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr "A gyártó numerikus al-azonosítója"
+
+#: harddrake2:67
+#, c-format
+msgid "Sub device ID"
+msgstr "Al-eszközazonosító"
+
+#: harddrake2:67
+#, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "Az eszköz numerikus al-azonosítója"
+
+#: harddrake2:68
+#, c-format
+msgid "Device USB ID"
+msgstr "Az eszköz USB-azonosítója"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomips"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+"Rendszerindításkor a Linux kernel inicializál egy időzítési számlálót egy "
+"számlálóciklus segítségével. Ennek a műveletnek az eredménye Bogomips "
+"értékként eltárolódik, amely egyfajta CPU-sebességi értéknek is felfogható."
+
+#: harddrake2:75
+#, c-format
+msgid "Cache size"
+msgstr "Gyorstárméret"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr "A processzor másodszintű gyorstárának mérete"
+
+#: harddrake2:76
+#, c-format
+msgid "Cpuid family"
+msgstr "A processzor családazonosítója"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr "A processzor családazonosítója (például i686 esetén ez 6)"
+
+#: harddrake2:77
+#, c-format
+msgid "Cpuid level"
+msgstr "CPUID-szint"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr "A CPUID utasítással lekérdezhető információk szintje"
+
+#: harddrake2:78
+#, c-format
+msgid "Frequency (MHz)"
+msgstr "Frekvencia (MHz)"
+
+#: harddrake2:78
+#, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr ""
+"A CPU órajele MHz-ben (Megahertz - más tulajdonságokkal együtt meghatározza "
+"a CPU által másodpercenként végrehajtott utasítások számát)"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "Jelzők (flag-ek)"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr "A kernel által közölt CPU-tulajdonságok"
+
+#: harddrake2:80 harddrake2:148
+#, c-format
+msgid "Cores"
+msgstr "Magok"
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr "CPU magok"
+
+#: harddrake2:81
+#, c-format
+msgid "Core ID"
+msgstr "Központi ID"
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr "Fizikai ID"
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr "ACPI ID"
+
+#: harddrake2:84
+#, c-format
+msgid "Siblings"
+msgstr "Testvérek"
+
+#: harddrake2:85
+#, c-format
+msgid "sub generation of the cpu"
+msgstr "A CPU algenerációja"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr "A CPU generációszáma (például Pentium III esetén ez 8)"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "Model name"
+msgstr "Modellnév"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr "A CPU gyártójának hivatalos neve"
+
+#: harddrake2:89
+#, c-format
+msgid "the name of the CPU"
+msgstr "Az eszköz neve"
+
+#: harddrake2:90
+#, c-format
+msgid "Processor ID"
+msgstr "Processzorazonosító"
+
+#: harddrake2:90
+#, c-format
+msgid "the number of the processor"
+msgstr "A processzor száma"
+
+#: harddrake2:91
+#, c-format
+msgid "Model stepping"
+msgstr "Verzió"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr "A CPU verziója (generációt jelölő al-modellszám)"
+
+#: harddrake2:92
+#, c-format
+msgid "the vendor name of the processor"
+msgstr "A processzor gyártójának neve"
+
+#: harddrake2:93
+#, c-format
+msgid "Write protection"
+msgstr "Írásvédelem"
+
+#: harddrake2:93
+#, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr ""
+"A processzor CR0 regiszterében levő WP jelző memórialap-szintű írásvédelmet "
+"állít be - ezzel megakadályozható, hogy a kernel ellenőrizetlenül "
+"hozzáférjen a felhasználói memóriához (ez tulajdonképpen hibavédelmet jelent)"
+
+#: harddrake2:97
+#, c-format
+msgid "Floppy format"
+msgstr "Az adathordozó formátuma"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr "A meghajtó által támogatott adathordozó-formátum"
+
+#: harddrake2:101
+#, c-format
+msgid "EIDE/SCSI channel"
+msgstr "EIDE-/SCSI-csatorna"
+
+#: harddrake2:102
+#, c-format
+msgid "Disk identifier"
+msgstr "Lemezazonosító"
+
+#: harddrake2:102
+#, c-format
+msgid "usually the disk serial number"
+msgstr "Általában a lemez sorozatszáma"
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr "Célazonosító szám"
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr "a SCSI célazonosító"
+
+#: harddrake2:104
+#, c-format
+msgid "Logical unit number"
+msgstr "Logikai egységszám"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+"a SCSI-célszám (LUN). A géphez kapcsolt SCSI-eszközöket egyedileg\n"
+"azonosítja a csatornaszám, a célazonosító és a logikai egységszám"
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, c-format
+msgid "Installed size"
+msgstr "Telepített méret"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr "A memóriabank telepített mérete"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled Size"
+msgstr "Bekapcsolt méret"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr "A memóriabank bekapcsolt mérete"
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "Típus"
+
+#: harddrake2:113
+#, c-format
+msgid "type of the memory device"
+msgstr "a memóriaeszköz típusa"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "Sebesség"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed of the memory bank"
+msgstr "A memóriabank sebessége"
+
+#: harddrake2:115
+#, c-format
+msgid "Bank connections"
+msgstr "Memóriabank-kapcsolatok"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr "A memóriabank aljazata"
+
+#: harddrake2:118
+#, c-format
+msgid "Location"
+msgstr "Hely"
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "Méret"
+
+#: harddrake2:119
+#, c-format
+msgid "Size of the memory device"
+msgstr "Memória eszköz mérete"
+
+#: harddrake2:124
+#, c-format
+msgid "Device file"
+msgstr "Eszközfájl"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr "Az egér kernelbeli meghajtójával kommunikáló eszközfájl"
+
+#: harddrake2:125
+#, c-format
+msgid "Emulated wheel"
+msgstr "Emulált görgő"
+
+#: harddrake2:125
+#, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "Emulálva van-e az egérgörgő"
+
+#: harddrake2:126
+#, c-format
+msgid "the type of the mouse"
+msgstr "Az egér típusa"
+
+#: harddrake2:127
+#, c-format
+msgid "the name of the mouse"
+msgstr "Az egér neve"
+
+#: harddrake2:128
+#, c-format
+msgid "Number of buttons"
+msgstr "Gombok száma"
+
+#: harddrake2:128
+#, c-format
+msgid "the number of buttons the mouse has"
+msgstr "Az egér gombjainak száma"
+
+#: harddrake2:129
+#, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "Az egér által használt busz típusa"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr "Az X11 által használt egérprotokoll"
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr "A grafikus rendszer által az egérhez használt protokoll"
+
+#: harddrake2:134
+#, c-format
+msgid "Identification"
+msgstr "Azonosítás"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "Kapcsolat"
+
+#: harddrake2:149
+#, c-format
+msgid "Performances"
+msgstr "Teljesítmény"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "Eszköz"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "Partíciók"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "Tulajdonságok"
+
+#: harddrake2:183
+#, c-format
+msgid "Autodetect _modems"
+msgstr "_Modemek automatikus felderítése"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr "_Párhuzamos Zip meghajtók automatikus felderítése"
+
+#: harddrake2:188
+#, c-format
+msgid "Hardware Configuration"
+msgstr "Hardverbeállítás"
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "_Beállítások"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "_Segítség"
+
+#: harddrake2:199
+#, c-format
+msgid "<control>H"
+msgstr "<control>H"
+
+#: harddrake2:200
+#, c-format
+msgid "_Fields description"
+msgstr "_Mezőleírások"
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "_Hibabejelentés"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "_Névjegy..."
+
+#: harddrake2:246
+#, c-format
+msgid "Detected hardware"
+msgstr "A megtalált hardver"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Információ"
+
+#: harddrake2:251
+#, c-format
+msgid "Set current driver options"
+msgstr "A meghajtóprogram beállításainak módosítása"
+
+#: harddrake2:257
+#, c-format
+msgid "Run config tool"
+msgstr "Beállítóprogram indítása"
+
+#: harddrake2:284
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr ""
+"Ha a bal oldali fában rákattint egy eszközre, megjelennek itt az eszköz "
+"adatai."
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "ismeretlen"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "Vegyes"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "másodlagos"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "elsődleges"
+
+#: harddrake2:412
+#, c-format
+msgid "burner"
+msgstr "író"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "A következő csomagokat szükséges telepíteni:\n"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "HardDrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "HardDrake - %s hardverbeállítási eszköz."
+
+#: harddrake2:543
+#, c-format
+msgid "Harddrake help"
+msgstr "HardDrake segítség"
+
+#: harddrake2:544
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"A mezők leírása:\n"
+"\n"
+
+#: harddrake2:551
+#, c-format
+msgid "Select a device!"
+msgstr "Válasszon egy eszközt"
+
+#: harddrake2:551
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Ha kijelöl egy eszközt, akkor megjelennek az eszköz adatai a jobb oldali "
+"részben (\"Információ\")"
+
+#: localedrake:38
+#, c-format
+msgid "LocaleDrake"
+msgstr "LocaleDrake"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr "Telepítenie kell a következő csomagokat: %s"
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr "%s eszköznaplók"
+
+#: logdrake:69
+#, c-format
+msgid "Show only for the selected day"
+msgstr "Csak a kijelölt napot jelenítse meg"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr "Azonosítás"
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr "Felhasználó"
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr "Üzenetek"
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr "Rendszernapló"
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "keresés"
+
+#: logdrake:136
+#, c-format
+msgid "A tool to monitor your logs"
+msgstr "Naplófigyelő"
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "Beállítások"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "Ezzel egyező"
+
+#: logdrake:142
+#, c-format
+msgid "but not matching"
+msgstr "de ezzel nem egyező"
+
+#: logdrake:145
+#, c-format
+msgid "Choose file"
+msgstr "Válasszon fájlt"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "Naptár"
+
+#: logdrake:166
+#, c-format
+msgid "Content of the file"
+msgstr "A fájl tartalma"
+
+#: logdrake:170 logdrake:415
+#, c-format
+msgid "Mail alert"
+msgstr "Email-figyelmeztetés"
+
+#: logdrake:177
+#, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "Probléma lépett fel a figyelmeztetési varázslóban:"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "Mentés"
+
+#: logdrake:230
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "a fájl elemzése folyamatban: %s"
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr "Naplófájl nem elérhető."
+
+#: logdrake:300
+#, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr "Hiba a(z) \"%s\" naplófájl megnyitásakor: %s\n"
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr "Apache World Wide Web-kiszolgáló"
+
+#: logdrake:394
+#, c-format
+msgid "Domain Name Resolver"
+msgstr "Tartománynév-feloldó"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "FTP-kiszolgáló"
+
+#: logdrake:396
+#, c-format
+msgid "Postfix Mail Server"
+msgstr "Postfix email-kiszolgáló"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "Samba-kiszolgáló"
+
+#: logdrake:398
+#, c-format
+msgid "SSH Server"
+msgstr "SSH-kiszolgáló"
+
+#: logdrake:399
+#, c-format
+msgid "Webmin Service"
+msgstr "Webmin szolgáltatás"
+
+#: logdrake:400
+#, c-format
+msgid "Xinetd Service"
+msgstr "Xinetd szolgáltatás"
+
+#: logdrake:409
+#, c-format
+msgid "Configure the mail alert system"
+msgstr "Az email-figyelmeztetési rendszer beállítása"
+
+#: logdrake:410
+#, c-format
+msgid "Stop the mail alert system"
+msgstr "Az email-figyelmeztetési rendszer leállítása"
+
+#: logdrake:418
+#, c-format
+msgid "Mail alert configuration"
+msgstr "Email-figyelmeztetés beállításai"
+
+#: logdrake:419
+#, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr ""
+"Üdvözöljük az email-beállítóprogramban.\n"
+"\n"
+"A programmal beállítható a figyelmeztetések küldése.\n"
+
+#: logdrake:422
+#, c-format
+msgid "What do you want to do?"
+msgstr "Mit szeretne tenni?"
+
+#: logdrake:429
+#, c-format
+msgid "Services settings"
+msgstr "Szolgáltatásbeállítás"
+
+#: logdrake:430
+#, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr ""
+"A rendszer figyelmeztetést küld, ha a kijelölt szolgáltatások valamelyike "
+"nem fut"
+
+#: logdrake:437
+#, c-format
+msgid "Load setting"
+msgstr "Terhelésbeállítás"
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr "A rendszer figyelmeztetést küld, ha a terhelés ezen értéknél magasabb"
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr "Terhelés"
+
+#: logdrake:444
+#, c-format
+msgid "Alert configuration"
+msgstr "Figyelmeztetés beállítása"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr "Adja meg az email-címét "
+
+#: logdrake:446
+#, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr "és adja meg a használni kívánt SMTP-kiszolgáló nevét (vagy IP-címét)"
+
+#: logdrake:448
+#, c-format
+msgid "Email address"
+msgstr "E-mail cím"
+
+#: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "E-mail szerver"
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr ""
+"\"%s\": email-címként helytelen, helyi felhasználóként pedig nem létezik."
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+"\"%s\" egy helyi felhasználó, de mivel nem lett kiválasztva helyi SMTP, "
+"ezért teljes email-címet kell használni."
+
+#: logdrake:465
+#, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr "A varázsló beállította az email-figyelmeztetést."
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr "A varázsló kikapcsolta az email-figyelmeztetést."
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "Mentés másként..."
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr "Kijelző meghajtóprogram beállítása"
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr "A kijelző meghajtóprogramja automatikusan beállítva erre: '%s'"
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr "Ok: %s"
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+"A SANE-csomagokat telepíteni kell a lapolvasók kezeléséhez.\n"
+"\n"
+"Szeretné telepíteni azokat?"
+
+#: scannerdrake:52
+#, c-format
+msgid "Aborting Scannerdrake."
+msgstr "Kilépés a Scannerdrake programból."
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr "Nem sikerült telepíteni a lapolvasó-beállításhoz szükséges csomagokat."
+
+#: scannerdrake:58
+#, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "A ScannerDrake most nem lesz elindítva."
+
+#: scannerdrake:64 scannerdrake:502
+#, c-format
+msgid "Searching for configured scanners..."
+msgstr "Beállított lapolvasók keresése..."
+
+#: scannerdrake:68 scannerdrake:506
+#, c-format
+msgid "Searching for new scanners..."
+msgstr "Új lapolvasók keresése..."
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr "A beállított lapolvasók listájának újragenerálása..."
+
+#: scannerdrake:98
+#, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "A(z) %s nem támogatott a(z) %s jelenleg használt verziójában."
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr "Megerősítés"
+
+#: scannerdrake:101
+#, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "\"%s\" található itt: \"%s\"; szeretne automatikus beállítást?"
+
+#: scannerdrake:113
+#, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr "\"%s\" nem szerepel a lapolvasó-adatbázisban; beállítja saját kezűleg?"
+
+#: scannerdrake:127
+#, c-format
+msgid "Scanner configuration"
+msgstr "Lapolvasó beállítása"
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr "Válasszon ki egy lapolvasó-modellt (azonosított modell: %s, port: %s)"
+
+#: scannerdrake:130
+#, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr "Válasszon ki egy lapolvasó-modellt (azonosított modell: %s)"
+
+#: scannerdrake:131
+#, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr "Válasszon ki egy lapolvasó-modellt (port: %s)"
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr " (NEM TÁMOGATOTT)"
+
+#: scannerdrake:139
+#, c-format
+msgid "The %s is not supported under Linux."
+msgstr "A(z) %s Linux alatt nem támogatott."
+
+#: scannerdrake:166 scannerdrake:180
+#, c-format
+msgid "Do not install firmware file"
+msgstr "Firmware-fájl ne legyen telepítve"
+
+#: scannerdrake:169 scannerdrake:219
+#, c-format
+msgid "Scanner Firmware"
+msgstr "Lapolvasó-firmware"
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr ""
+"Elképzelhető, hogy az Ön %s eszköze minden egyes bekapcsolásakor firmware-"
+"feltöltést igényel."
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr "Ebben az esetben automatizálttá tehető ez a tevékenység."
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+"Ennek elvégzéséhez rendelkezésre kell bocsátania a lapolvasóhoz tartozó "
+"firmware-fájlt, hogy azt telepíteni lehessen."
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+"A fájl megtalálható a lapolvasóval kapott lemezen, a gyártó weboldalán vagy "
+"esetleg egy windowsos partíción."
+
+#: scannerdrake:175 scannerdrake:234
+#, c-format
+msgid "Install firmware file from"
+msgstr "Firmware-fájl telepítése innen:"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, c-format
+msgid "Floppy Disk"
+msgstr "Floppy"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, c-format
+msgid "Other place"
+msgstr "Egyéb hely"
+
+#: scannerdrake:195
+#, c-format
+msgid "Select firmware file"
+msgstr "Firmware-fájl kiválasztása"
+
+#: scannerdrake:198 scannerdrake:257
+#, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr "\"%s\" nevű fájl nem létezik, vagy a fájl nem olvasható."
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr ""
+"Elképzelhető, hogy az Ön lapolvasói minden egyes bekapcsolásukkor firmware-"
+"feltöltést igényelnek."
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+"Ennek elvégzéséhez rendelkezésre kell bocsátania a lapolvasókhoz tartozó "
+"firmware-fájlokat, hogy azokat telepíteni lehessen."
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+"Ha már telepítette a lapolvasó firmware-fájlját, akkor itt frissítheti azt "
+"az új firmware-fájl segítségével."
+
+#: scannerdrake:230
+#, c-format
+msgid "Install firmware for the"
+msgstr "Firmware telepítése ehhez:"
+
+#: scannerdrake:253
+#, c-format
+msgid "Select firmware file for the %s"
+msgstr "Válassza ki a firmware-fájlt ehhez: %s"
+
+#: scannerdrake:271
+#, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "Nem sikerült telepíteni a firmware-fájlt ehhez: %s."
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr "A(z) %s eszközhöz tartozó firmware-fájl telepítése megtörtént."
+
+#: scannerdrake:294
+#, c-format
+msgid "The %s is unsupported"
+msgstr "Ez az eszköz nincs támogatva: %s"
+
+#: scannerdrake:299
+#, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr ""
+"A(z) \"%s\" eszközt a system-config-printer programmal lehet beállítani.\n"
+"A PrinterDrake-et a(z) %s Vezérlőközpont \"Hardver\" részében indíthatja el."
+
+#: scannerdrake:317
+#, c-format
+msgid "Setting up kernel modules..."
+msgstr "Kernelmodulok beállítása..."
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, c-format
+msgid "Auto-detect available ports"
+msgstr "Az elérhető portok automatikus felderítése"
+
+#: scannerdrake:328 scannerdrake:374
+#, c-format
+msgid "Device choice"
+msgstr "Eszközválasztás"
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr "Válassza ki, melyik eszközhöz csatlakozik a(z) \"%s\" eszköz"
+
+#: scannerdrake:330
+#, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr ""
+"(Megjegyzés: a párhuzamos portokra nem alkalmazható az automatikus "
+"felderítés)"
+
+#: scannerdrake:332 scannerdrake:377
+#, c-format
+msgid "choose device"
+msgstr "válassza ki az eszközt"
+
+#: scannerdrake:366
+#, c-format
+msgid "Searching for scanners..."
+msgstr "Lapolvasók keresése..."
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr "Figyelem!"
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+"A(z) %s eszköz teljes beállítása nem végezhető el automatikusan.\n"
+"\n"
+"Szükség lesz kézi beállításra is. Ehhez a /etc/sane.d/%s.conf fájlt kell "
+"szerkeszteni. "
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+"További információ a meghajtóprogram dokumentációjában. Ennek megjelenítése "
+"a következő paranccsal lehetséges: \"man sane-%s\"."
+
+#: scannerdrake:406 scannerdrake:415
+#, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Ezután szkennelheted a dokumentumokat az \"XSane\" vagy \"%s\" "
+"használatával, az alkalmazások menü Multimédia/Grafika almenüjéből."
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr ""
+"A(z) %s eszköz beállítása megtörtént. Elképzelhető, hogy szükség lesz kézi "
+"beállításra is ahhoz, hogy használhatóvá váljon. "
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+"Ha nem jelenik meg a Scannerdrake program főablakában a beállított "
+"lapolvasók listájában, vagy nem működik helyesen, akkor "
+
+#: scannerdrake:412
+#, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr "módosítsa a /etc/sane.d/%s.conf beállítási fájlt. "
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "Gratulálunk!"
+
+#: scannerdrake:418
+#, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Az %s eszköz beállításra került.\n"
+"Most már szkennelheted a dokumentumokat az \"XSane\" vagy \"%s\" "
+"használatával, az alkalmazások menü Multimédia/Grafika almenüjéből."
+
+#: scannerdrake:443
+#, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr ""
+"A következő lapolvasók elérhetők az Ön gépén:\n"
+"\n"
+"%s\n"
+
+#: scannerdrake:444
+#, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr ""
+"A következő lapolvasó elérhető az Ön gépén:\n"
+"\n"
+"%s\n"
+
+#: scannerdrake:446 scannerdrake:449
+#, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "Nem található elérhető lapolvasó a gépen.\n"
+
+#: scannerdrake:457
+#, c-format
+msgid "Scanner Management"
+msgstr "Lapolvasó-kezelés"
+
+#: scannerdrake:463
+#, c-format
+msgid "Search for new scanners"
+msgstr "Új lapolvasók keresése"
+
+#: scannerdrake:469
+#, c-format
+msgid "Add a scanner manually"
+msgstr "Lapolvasó felvétele saját kezűleg"
+
+#: scannerdrake:476
+#, c-format
+msgid "Install/Update firmware files"
+msgstr "Firmware-fájlok telepítése/frissítése"
+
+#: scannerdrake:482
+#, c-format
+msgid "Scanner sharing"
+msgstr "Lapolvasó-megosztás"
+
+#: scannerdrake:541 scannerdrake:706
+#, c-format
+msgid "All remote machines"
+msgstr "Az összes távoli gép"
+
+#: scannerdrake:553 scannerdrake:856
+#, c-format
+msgid "This machine"
+msgstr "Ezen gép"
+
+#: scannerdrake:592
+#, c-format
+msgid "Scanner Sharing"
+msgstr "Lapolvasó-megosztás"
+
+#: scannerdrake:593
+#, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr ""
+"Itt megadható, hogy a gép lapolvasói elérhetők legyenek-e távoli gépek "
+"számára, és ha igen, akkor melyek számára."
+
+#: scannerdrake:594
+#, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr ""
+"Meghatározhatja azt is, hogy a távoli gépek lapolvasói elérhetők legyenek-e "
+"ezen a gépen."
+
+#: scannerdrake:597
+#, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr "A gép lapolvasói elérhetők más gépek számára"
+
+#: scannerdrake:599
+#, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "Lapolvasók megosztása a következő gépek felé: "
+
+#: scannerdrake:604 scannerdrake:621
+#, c-format
+msgid "No remote machines"
+msgstr "Nincs távoli gép"
+
+#: scannerdrake:613
+#, c-format
+msgid "Use scanners on remote computers"
+msgstr "Távoli gépek lapolvasóinak használata"
+
+#: scannerdrake:616
+#, c-format
+msgid "Use the scanners on hosts: "
+msgstr "A következő gépeken levő lapolvasók használata: "
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, c-format
+msgid "Sharing of local scanners"
+msgstr "A helyi lapolvasók megosztása"
+
+#: scannerdrake:644
+#, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr "A következő gépek számára elérhetők a helyi lapolvasók:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "Gép felvétele"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "A kijelölt gép szerkesztése"
+
+#: scannerdrake:670 scannerdrake:820
+#, c-format
+msgid "Remove selected host"
+msgstr "A kijelölt gép eltávolítása"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "Kész"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, c-format
+msgid "Name/IP address of host:"
+msgstr "A gép neve/IP-címe:"
+
+#: scannerdrake:716 scannerdrake:866
+#, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr "Válassza ki, melyik gépen legyenek elérhetők a helyi lapolvasók:"
+
+#: scannerdrake:727 scannerdrake:877
+#, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "Meg kell adni egy gépnevet vagy egy IP-címet.\n"
+
+#: scannerdrake:738 scannerdrake:888
+#, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr "Ez a gép már szerepel a listában; nem vehető fel még egyszer.\n"
+
+#: scannerdrake:793
+#, c-format
+msgid "Usage of remote scanners"
+msgstr "Távoli lapolvasók használata"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr "A következő gépek lapolvasóinak használata:"
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+"A helyi lapolvasó(k) megosztásához telepíteni kell a \"saned\" programot.\n"
+"\n"
+"Szeretné telepíteni a \"saned\" csomagot?"
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr "A lapolvasó(k) nem lesz(nek) elérhető(k) a hálózaton."
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"Nem sikerült telepíteni a lapolvasó(k) megosztásához szükséges csomagokat."
+
+#: service_harddrake:157
+#, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr "A(z) '%s' grafikus kártyát már nem támogatja a(z) '%s' meghajtó"
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr "Új kiadás, az X újbóli beálltása %s számára."
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr "A szabadalmazott kernelmeghajtó nem találta a(z) '%s' X.org meghajtót"
+
+#: service_harddrake:297
+#, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr "A(z) \"%s\" hardverosztály bizonyos eszközei el lettek távolítva:\n"
+
+#: service_harddrake:298
+#, c-format
+msgid "- %s was removed\n"
+msgstr "- %s el lett távolítva\n"
+
+#: service_harddrake:301
+#, c-format
+msgid "Some devices were added: %s\n"
+msgstr "Új eszközök kerültek a rendszerbe: %s\n"
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- %s bekerült a rendszerbe\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr "Hardverváltozások a(z) \"%s\" osztályban (%s másodperc a válaszra)"
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "Szeretné elindítani a megfelelő beállítóeszközt?"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "Hardverfelderítés folyamatban"
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr "Megjelenítő meghajtóprogram hiba"
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+"A jelenleg beállított megjelenítő meghajtóprogram számára szükséges a "
+"\"nokmsboot' opció beállítása, hogy megakadályozzuk a rendszermag KMS "
+"meghajtóprogramjának betöltését a rendszerindítás során."
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+"Egy betöltött kijelző meghajtóprogramot találtunk, ami ütközik az X számára "
+"beállított meghajtóprogrammal. Az X kiszolgáló indítása esetleg sikertelen "
+"lesz."
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr ""
+"A kijelző meghajtóprogram megváltoztatása miatt a rendszert újra kell "
+"indítani."
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr "%d másodpercen belül nyomd meg a \"Mégse\" gombot a megszakításhoz."
+
+#: ../menu/harddrake.desktop.in.h:1
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr "Hardverközpont - beállítási és információs eszköz"
+
+#: ../menu/harddrake.desktop.in.h:3
+msgid "Hardware Configuration Tool"
+msgstr "Hardver beállító eszköz"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Helyi rendszerbeállítások"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Rendszerszintű nyelv- és országbeállítás"
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr "Helyi beállítások"
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr "Nyelv és ország beállítása"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+msgid "Run Mageia Authentication Configuration"
+msgstr "A Mageia azonosítási beállítások indítása"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr "A Mageia Azonosítás beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+msgid "Run Mageia Boot Configuration"
+msgstr "A Mageia Rendszerindítási beállítások indítása."
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr "A Mageia Rendszerindítási beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+msgid "Run Mageia Date and Time Configuration"
+msgstr "A Mageia Dátum és idő beállítások indítása."
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr "A Mageia Dátum és idő beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr "A Mageia Lemezkezelő indítása"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr "A Mageia Lemezkezelő indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+msgid "Run Mageia Login Manager Configuration"
+msgstr "A Mageia Bejelentkezés-kezelő beállítások indítása"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr ""
+"A Mageia Bejelentkezés-kezelő beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+msgid "Run Mageia Font Configuration"
+msgstr "A Mageia Betűtípus beállítások indítása"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr "A Mageia Betűtípus beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+msgid "Run Mageia Hardware Configuration"
+msgstr "A Mageia Hardver beállítások indítása"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr "A Mageia Hardver beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr "A Mageia Naplók megtekintésének indítása"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr "A Mageia Naplók megtekintésének indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+msgid "Run Mageia Security Permissions Configuration"
+msgstr "A Mageia Biztonsági engedélyek indítása"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr "A Mageia Biztonsági engedélyek indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+msgid "Run Mageia Scanner Configuration"
+msgstr "A Mageia Szkenner beállítások indítása"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr "A Mageia Szkenner beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+msgid "Run Mageia Application Security Configuration"
+msgstr "A Mageia Alkalmazásbiztonsági beállítások indítása"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr ""
+"A Mageia Alkalmazásbiztonsági beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+msgid "Run Mageia UPS Configuration"
+msgstr "A Mageia UPS beállítások indítása"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr "A Mageia UPS beállítások indításához azonosítás szükséges"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+msgid "Run Mageia Service Configuration"
+msgstr "A Mageia Szolgáltatásbeállítások indítása"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr "A Mageia Szolgáltatásbeállítások indításához azonosítás szükséges"

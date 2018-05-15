@@ -1,0 +1,49 @@
+********************************************************************************
+main shortcuts
+
+F1 -> help
+F2 -> take a screenshot
+
+********************************************************************************
+diskdrake
+
+taken directly from diskdrake.pm:
+
+		"a" => \&Active,
+		"b" => \&Move,
+		"c" => \&Create,
+		"d" => \&Delete,
+		"f" => \&Format,
+		"m" => \&Mount_point,
+		"M" => \&Mount,
+		"n" => \&Create,
+		"o" => \&ReadFromFile,
+		"s" => \&SaveInFile,
+		"q" => \&Exit,
+		"r" => \&Resize,
+		"t" => \&Type,
+		"u" => \&Unmount,
+		"w" => \&WritePartitions,
+		"W" => \&WriteFstab,
+
+hopefully it is explicit enough :)
+
+********************************************************************************
+list choice
+
+- acceleration a la windows (default): enter a letter and the selection will move to the
+first entry beginning with that letter. If you enter another letter it will try
+to find the entry beginning with the 2 letters you have given. In case it fails
+the starting_word is reset.
+- incremental search a la emacs: searches trough the list
+
+Use control-s to use incremental search and then to search next occurence
+
+********************************************************************************
+in case of complete mouse sh**t
+
+XFree86 provides a way of moving the mouse pointer:
+- first, press Ctrl-Shift-NumLock
+- then move the pointer with the keypad arrows
+- press button is ``0'' (aka Inser)
+- release button is ``.'' (aka Suppr)

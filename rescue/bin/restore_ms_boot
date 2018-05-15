@@ -1,0 +1,74 @@
+#!/usr/bin/perl
+#
+# Guillaume Cottenceau, Pixel
+#
+# Copyright 2002-2005 Mandriva
+#
+# This software may be freely redistributed under the terms of the GNU
+# public license.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+
+use lib qw(/usr/lib/libDrakX);
+use common;
+use bootloader;
+use fs;
+use fs::proc_partitions;
+use partition_table::raw;
+
+
+my @choices = map {
+    my $type = partition_table::raw::typeOfMBR($_->{dev});
+    if_($type && member($type, bootloader::main_method_choices()) , [ $_->{dev}, $type ]);
+} fs::proc_partitions::read_raw();
+
+my $choice;
+
+if (!@choices) {
+    print "No known Linux bootloader has been found, nothing to do.\n";
+} elsif (@choices == 1) {
+    print "I've found a Linux bootloader only on <$choices[0][0]>.\n\n";
+    $choice = $choices[0];
+} else {
+    print "I've found the following Linux bootloaders:\n",
+      (map_index { "\t" . $::i . ": <$_->[1]> \ton <$_->[0]>\n" } @choices),
+      "\n",
+      "Which disk/partition do you want to overwrite with the Windows bootloader?\n",
+      "\t<enter the number or press 'n' and Enter to cancel> ";
+    if (<STDIN> =~ /^(\d+)$/i && $1 >= 1) {
+	$choice = $choices[$1 - 1];
+    }
+}
+
+if ($choice) {
+    print "I'm going to overwrite bootloader on <$choice->[0]> with
+Windows bootloader.
+
+Ok? <press Enter to continue, 'n' and Enter to cancel> ";
+    <STDIN> =~ /^n/i and exit 0;
+    
+    system('dd', 'if=/usr/lib/extipl/aldebaran.bin', "of=/dev/$choice->[0]") == 0 
+      or print "\tFailed!\n";
+}
+
+#-------------------------------------------------
+#- $Log$
+#- Revision 1.5  2005/06/13 04:33:50  prigaux
+#- move functions using /proc/partitions out of fsedit to fs::proc_partitions
+#-
+#- Revision 1.4  2005/05/19 08:59:54  prigaux
+#- rewrite using DrakX modules
+#-
+#- Revision 1.3  2005/04/19 12:49:39  prigaux
+#- update copyright
+#-
+#- Revision 1.2  2004/07/20 02:42:12  prigaux
+#- MandrakeSoft -> Mandrakesoft
+#-
+#- Revision 1.1  2002/02/27 13:31:30  gc
+#- add "restore Windows Boot Loader" to rescue
+#-
+#-

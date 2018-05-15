@@ -1,0 +1,278 @@
+#!/usr/bin/perl
+
+use MDK::Common;
+
+my $SLASH_LOCATION = '/tmp/drakx-in-chroot';
+
+my $verbose = 0;
+my $prefix_ROOTED = '/mnt';
+my $IMAGE_LOCATION_ROOTED = '/tmp/image';
+my $MEDIA_LOCATION_ROOTED = '/tmp/media';
+my $STAGE2_LOCATION_ROOTED = '/tmp/stage2';
+my $LOOP_MOUNT_POINT = "$SLASH_LOCATION/tmp/loop";
+my $LIVE_LOCATION_REL = 'install/stage2/live/';
+my $COMPRESSED_LOCATION_REL = 'install/stage2/';
+my $COMPRESSED_FILE_REL = $COMPRESSED_LOCATION_REL . 'mdkinst.sqfs';
+my $AUTO_INSTALL_ROOTED = '/tmp/auto_inst.cfg.pl';
+my $DEFCFG_ROOTED = '/tmp/defcfg.pl';
+my $RPMSRATE_ROOTED = '/tmp/rpmsrate';
+my $resolution = '1024x768';
+my ($disk_iso_repository, $repository_uri);
+
+@ARGV >= 2 or die "usage: drakx-in-chroot <root of distrib> <dir to install to> [options]\n
+\nOptions specific to drakx-in-chroot:
+    --flang XX            use XX locale
+    --disk-iso            path of a distro
+    --resolution=XXXxYYYY (eg: --resolution=800x600)\n
+    --repository=<path>   path of packages repository
+    --text                text mode installer
+    --depth=XX            set screen color depth
+    --stage2-update X,Y   will mount --bind X on Y
+";
+
+(my $repository, my $dir, @ARGV) = @ARGV;
+my ($wrapper);
+foreach (@ARGV) {
+    if (/--resolution=(.*)/) {
+        $resolution = $1;
+    } elsif (/--disk-iso=(.*)/) {
+        $disk_iso_repository = $1;
+    } elsif (/--repository=(.*)/) {
+        $repository_uri = $1;
+    } elsif (/--gdb/) {
+        $wrapper = "gdb -q --args";
+    } elsif (/--strace/) {
+        $wrapper = "strace -e file $ENV{STRACE_OPTIONS}";
+    } elsif (/--depth=(.*)/) {
+        $resolution .= "x$1";
+    }
+}
+my ($repository_without_arch, $repository_arch) = basename($repository) eq arch() ? (dirname($repository), '/' . arch()) : ($repository, '');
+my $STAGE2_LOCATION = $SLASH_LOCATION . $STAGE2_LOCATION_ROOTED;
+
+my $sudo;
+if ($>) {
+    $sudo = "sudo";
+    $ENV{PATH} = "/sbin:/usr/sbin:$ENV{PATH}";
+}
+
+my @mounts;
+my $_b = before_leaving { sys("$sudo umount $_") foreach reverse @mounts };
+
+undef $ENV{TMPDIR}; # prevent packdrake faillure on creating temporary files
+
+if (-d $SLASH_LOCATION) {
+    umount_all(1) == 0 or exit(1);
+    sys("$sudo rm -rf $SLASH_LOCATION/var/lib/rpm $SLASH_LOCATION/dev/mapper");
+    rm_rf($SLASH_LOCATION);
+}
+
+mkdir_p("$SLASH_LOCATION$_") foreach '/dev', '/etc', '/var', '/proc', '/sys', '/run', $STAGE2_LOCATION_ROOTED, $MEDIA_LOCATION_ROOTED, $prefix_ROOTED;
+
+sys("$sudo rm -rf $dir") if $ENV{CLEAN};
+-e $dir or sys("$sudo mkdir -p $dir");
+
+copy_auto_install_files();
+
+my $remote_repository = $repository =~ m!^(ftp|http)://! && $1;
+if ($remote_repository) {
+    my $local_mdkinst = "$SLASH_LOCATION/tmp/mdkinst.sqfs";
+    sys("curl --silent -o $local_mdkinst $repository/$COMPRESSED_FILE_REL");
+    mount_mdkinst($local_mdkinst);
+} elsif (-d "$repository/$LIVE_LOCATION_REL") {
+    mount("$repository/$LIVE_LOCATION_REL", $STAGE2_LOCATION, "-o bind");
+} elsif (-e "$repository/$COMPRESSED_FILE_REL") {
+    mount_mdkinst("$repository/$COMPRESSED_FILE_REL");
+}
+
+mount($dir, "$SLASH_LOCATION$prefix_ROOTED", "-o bind");
+$repository_uri ||= $repository_without_arch if !$remote_repository;
+mount($repository_uri, "$SLASH_LOCATION$MEDIA_LOCATION_ROOTED", "-o bind") if $repository_uri;
+
+mount('/dev', "$SLASH_LOCATION/dev", " --bind -o ro");
+mount('none', "$SLASH_LOCATION/proc", "-t proc");
+mount('none', "$SLASH_LOCATION/sys", "-t sysfs");
+mount('none', "$SLASH_LOCATION/sys/kernel/debug", "-t debugfs");
+mount('none', "$SLASH_LOCATION/run", "-t tmpfs");
+
+# - Ensure we mount the udev run dir for various extra metadata from udevadm
+# - If dracut has been used (and thus udev has yummy metadata) make sure
+#   drakx knows about it when running in the chroot
+# - Also speedup blkid by using its cache
+foreach my $dir (qw(initramfs udev blkid)) {
+    next if !-d "/run/$dir";
+    mkdir_p("$SLASH_LOCATION/run/$dir");
+    mount("/run/$dir", "$SLASH_LOCATION/run/$dir", "-o bind");
+}
+
+if ($disk_iso_repository) {
+    my $repository_arch = $repository_arch || 'i586';
+    mkdir_p($LOOP_MOUNT_POINT);
+    mount($disk_iso_repository, $LOOP_MOUNT_POINT, "-o loop,ro");
+    symlinkf('loop/' . $repository_arch, "$SLASH_LOCATION$IMAGE_LOCATION_ROOTED"); # FIXME: arch()
+}
+
+symlinkf('media' . $repository_arch, "$SLASH_LOCATION$IMAGE_LOCATION_ROOTED");
+create_initial_symlinks();
+
+apply_stage2_updates();
+
+output("$SLASH_LOCATION/etc/hosts", "127.0.0.1 localhost\n") if ! -e "$SLASH_LOCATION/etc/hosts";
+
+#- in the chroot, we have no way to know which device corresponds to the "/" partition.
+#- so helping it by giving the device which provide major/minor information
+mkdir_p("$dir/dev");
+eval { cp_af($_, "$dir$_") } foreach qw(/dev/root);
+
+#- if the DISPLAY is remote, we may need to resolve the name:
+eval { cp_af('/etc/resolv.conf', "$SLASH_LOCATION/etc/resolv.conf") };
+
+{
+    chomp(my $kernel_version = `uname -r`);
+    my $dir = "/modules/$kernel_version";
+    mkdir_p("$SLASH_LOCATION$dir");
+    output_p("$SLASH_LOCATION$dir" . $_, "\n") foreach "/lib/$dir/modules.dep", "/lib/$dir/modules.alias";
+}
+
+my $Xnest_pid;
+if (!-f ($SLASH_LOCATION . $AUTO_INSTALL_ROOTED) && join('', @ARGV) !~ /--text/) {
+    my $Xnest_bin = find { whereis_binary($_) } 'Xephyr', 'Xnest' or die "Xephyr not found! Please install x11-server-xephyr!\n";
+    my $DISPLAY = ':8';
+    $Xnest_pid = fork();
+    if (!$Xnest_pid) {
+	exec $Xnest_bin, $DISPLAY, '-ac', ($Xnest_bin eq 'Xephyr' ? '-screen' : '-geometry'), $resolution or die "Xnest failed\n";
+    }
+    $ENV{DISPLAY} = $DISPLAY;
+}
+
+if (my $pid = fork()) {
+    waitpid $pid, 0;
+    umount_all() == 0 or warn "umounting failed\n";
+    $Xnest_pid and kill 15, $Xnest_pid;
+} else {
+    $ENV{TERM} = 'linux'; # we only have terminfo for terminal "linux"
+    $ENV{HOME} = '/';
+    # to kept sync with mdk-stage1/init.c::env:
+    $ENV{LD_LIBRARY_PATH}='/lib:/usr/lib:/mnt/lib:/mnt/usr/lib:/lib64:/usr/lib64:/mnt/lib64:/mnt/usr/lib64';
+    if ($remote_repository) {
+	$ENV{URLPREFIX} = $repository;
+    }
+    my $cmd = join(' ', "/usr/bin/runinstall2 --local_install", 
+                   if_($disk_iso_repository, "--method disk-iso"),
+		   if_($remote_repository, "--method $remote_repository"),
+		   @ARGV);
+    if ($wrapper) {
+	warn qq(GDB USAGE
+Beware that debug info won't be found so on segfault
+just generate a core dump with "gcore" and then
+analyze it offline.
+Thus you sessions will look like:
+(gdb) run
+(gdb) gcore
+(gdb) exit
+);
+    }
+    exec "$sudo $wrapper chroot $SLASH_LOCATION $cmd" or die "exec $cmd in $SLASH_LOCATION failed\n";
+}
+
+sub system_verbose { warn join(' ', @_), "\n" if $verbose; system(@_) }
+sub sys { &system_verbose; $? and die qq(running "@_" failed: $?\n) }
+
+sub mount_mdkinst {
+    my ($mdkinst) = @_;
+    mount($mdkinst, $STAGE2_LOCATION, "-t squashfs -o loop,ro");
+}
+sub create_initial_symlinks() {
+    foreach (cat_or_die("$STAGE2_LOCATION/usr/share/symlinks")) {
+	my ($from, $to_) = split;
+	my $to = $SLASH_LOCATION . ($to_ || $from);
+	$from = "$STAGE2_LOCATION_ROOTED$from" if !$to_;
+	if (! -l $to) {
+	    symlink $from, $to or die "symlinking $to failed\n";
+	}
+    }
+	my $from = "$STAGE2_LOCATION_ROOTED/usr";
+	my $to = "$SLASH_LOCATION/usr";
+	symlink $from, $to or die "symlinking $to failed\n";
+	foreach ('bin', 'sbin', 'lib', 'lib64') {
+	    $from = "usr/$_";
+	    $to = "$SLASH_LOCATION/$_";
+	    symlink $from, $to or die "symlinking $to failed\n";
+	}
+}
+
+sub mount {
+	my ($from, $mntpt, @opts) = @_;
+	push @mounts, $mntpt;
+	sys("$sudo mount $from $mntpt " . join(' ', @opts));
+}
+
+sub umount_all {
+    my ($b_umount_dev_too) = @_;
+    my $err;
+    clean_stage2_updates();
+    my @procs = (qw(/proc /sys/kernel/debug /sys /run/udev /run/blkid /run/initramfs /run));
+    # special case for !draklive case (else a 2nd run would fail):
+    if ($b_umount_dev_too && cat_('/proc/mounts') =~ m! $SLASH_LOCATION/dev !) {
+	    system_verbose "$sudo umount $SLASH_LOCATION/dev" and rm_rf("$SLASH_LOCATION/dev");
+    }
+    foreach ((map { "$prefix_ROOTED$_" } @procs, '/dev', ''), @procs, $STAGE2_LOCATION_ROOTED, $LOOP_MOUNT_POINT, $MEDIA_LOCATION_ROOTED, $IMAGE_LOCATION_ROOTED) {
+	my $dir = "$SLASH_LOCATION$_";
+	rmdir $dir;
+	if (-d $dir) {
+	    if (m!/sys/kernel/debug! || begins_with($_, $prefix_ROOTED)) {
+		system_verbose "$sudo umount $dir 2>/dev/null";
+		next;
+	    }
+	    system_verbose "$sudo umount $dir";
+	}
+	rmdir $dir;
+	if (-d $dir) {
+	    warn "$dir is busy\n";
+	    $err++;
+	}
+    }
+    if (my @remaining = cat_('/proc/mounts') =~ m!($SLASH_LOCATION/mnt/\S+)!g) {
+	warn "umount those mount points first: ", join(' ', @remaining), "\n";
+	$err++;
+    }
+    $err;
+}
+
+sub copy_auto_install_files() {
+    my ($opt);
+    each_index {
+        if ($opt eq 'auto_install' && -f $_) {
+            cp_f($_, $SLASH_LOCATION . $AUTO_INSTALL_ROOTED);
+            $_ = $AUTO_INSTALL_ROOTED;
+        } elsif ($opt eq 'defcfg' && -f $_) {
+            cp_f($_, $SLASH_LOCATION . $DEFCFG_ROOTED);
+            $_ = $DEFCFG_ROOTED;
+        } elsif ($opt eq 'rpmsrate' && -f $_) {
+            cp_f($_, $SLASH_LOCATION . $RPMSRATE_ROOTED);
+        }
+        undef $opt;
+        /^--?(.*)/ and $opt = $1;
+    } @ARGV;
+}
+
+my @stage2_updates;
+sub apply_stage2_updates() {
+    each_index {
+        if ($_ eq '--stage2-update') {
+            my $file = $ARGV[$::i+1];
+            my $dest = $ARGV[$::i+2];
+            if (-f $file && $dest) {
+                undef $_;
+                undef $ARGV[$::i+1];
+                undef $ARGV[$::i+2];
+                push @stage2_updates, $dest;
+                mount($file, "$STAGE2_LOCATION/$dest", " --bind");
+            }
+        }
+    } @ARGV;
+}
+
+sub clean_stage2_updates() {
+    sys("$sudo umount $STAGE2_LOCATION/$_") foreach @stage2_updates;
+}

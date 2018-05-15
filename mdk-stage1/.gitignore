@@ -1,0 +1,13 @@
+*.o
+dhcp-client
+init
+probe-modules
+rescue-gui
+stage1
+pci-resource/pci-ids.h
+usb-resource/usb-ids.h
+pcmcia-resource/pcmcia-ids.h
+pcmcia/lex_config.c
+pcmcia/libpcmcia.a
+pcmcia/yacc_config.c
+pcmcia/yacc_config.h

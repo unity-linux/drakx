@@ -1,0 +1,1849 @@
+# translation of DrakX-el.po to Greek
+# Greek translation for drakfloppy.
+# Copyright (C) 2001,2003 Free Software Foundation, Inc.
+#
+# Thanos Kyritsis <djart@hellug.gr>, 2001.
+# Νίκος Νύκταρης (Nick Niktaris) <niktarin@yahoo.com>, 2003.
+# nikos papadopoulos <231036448@freemail.gr>, 2008.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakx_install\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-22 02:36+0200\n"
+"PO-Revision-Date: 2016-05-19 18:03+0200\n"
+"Last-Translator: Dimitrios Glentadakis <dglent@free.fr>\n"
+"Language-Team: Greek <i18n-el@ml.mageia.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../../advertising/01_IM_mageia.pl:1
+#, c-format
+msgid "Join Us!"
+msgstr "Ελάτε μαζί μας!"
+
+#: ../../advertising/02_IM_mageia.pl:1
+#, c-format
+msgid "Make it yours!"
+msgstr "Κάντε τη δική σας!"
+
+#: ../../advertising/03_IM_mageia.pl:1
+#, c-format
+msgid "Your choice!"
+msgstr "Η επιλογή σας!"
+
+#: ../../advertising/04_IM_mageia.pl:1
+#, c-format
+msgid "Office tools"
+msgstr "Εργαλεία γραφείου"
+
+#: ../../advertising/05_IM_mageia.pl:1
+#, c-format
+msgid "Home entertainment"
+msgstr "Οικιακή ψυχαγωγία"
+
+#: ../../advertising/06_IM_mageia.pl:1
+#, c-format
+msgid "For kids"
+msgstr "Για τα παιδιά"
+
+#: ../../advertising/07_IM_mageia.pl:1
+#, c-format
+msgid "For family!"
+msgstr "Για την οικογένεια!"
+
+#: ../../advertising/08_IM_mageia.pl:1
+#, c-format
+msgid "For developers!"
+msgstr "Για προγραμματιστές!"
+
+#: ../../advertising/09_IM_mageia.pl:1
+#, c-format
+msgid "Thank you!"
+msgstr "Ευχαριστούμε!"
+
+#: ../../advertising/10_IM_mageia.pl:1
+#, c-format
+msgid "Be Free!"
+msgstr "Ελευθερωθείτε!"
+
+#: any.pm:151
+#, c-format
+msgid "Do you have further supplementary media?"
+msgstr "Έχετε άλλα πρόσθετα μέσα ενημέρωσης;"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:154
+#, c-format
+msgid ""
+"The following media have been found and will be used during install: %s.\n"
+"\n"
+"\n"
+"Do you have a supplementary installation medium to configure?"
+msgstr ""
+"Βρέθηκαν τα ακόλουθα μέσα και θα χρησιμοποιηθούν κατά την εγκατάσταση: %s.\n"
+"\n"
+"\n"
+"Έχετε κάποιο συμπληρωματικό μέσο εγκατάστασης για ρύθμιση;"
+
+#: any.pm:162
+#, c-format
+msgid "Network (HTTP)"
+msgstr "Δίκτυο (HTTP)"
+
+#: any.pm:163
+#, c-format
+msgid "Network (FTP)"
+msgstr "Δίκτυο (FTP)"
+
+#: any.pm:164
+#, c-format
+msgid "Network (NFS)"
+msgstr "Δίκτυο (NFS)"
+
+#: any.pm:223
+#, c-format
+msgid "URL of the mirror?"
+msgstr "Το URL του καθρεπτισμού;"
+
+#: any.pm:229
+#, c-format
+msgid "URL must start with ftp:// or http://"
+msgstr "Το URL πρέπει να ξεκινά με ftp:// ή http://"
+
+#: any.pm:247
+#, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
+msgstr ""
+"Σύνδεση με την ιστοσελίδα της %s για λήψη της λίστας με τους διαθέσιμους "
+"καθρεπτισμούς..."
+
+#: any.pm:252
+#, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
+msgstr ""
+"Αδυναμία σύνδεσης με την ιστοσελίδα της %s για λήψη της λίστας με τους "
+"διαθέσιμους καθρεπτισμούς"
+
+#: any.pm:262
+#, c-format
+msgid "Choose a mirror from which to get the packages"
+msgstr "Επιλέξτε έναν καθρεπτισμό από τον οποίο θα γίνει η λήψη των πακέτων"
+
+#: any.pm:290
+#, c-format
+msgid "NFS setup"
+msgstr "Ρύθμιση NFS"
+
+#: any.pm:291
+#, c-format
+msgid "Please enter the hostname and directory of your NFS media"
+msgstr "Παρακαλώ εισάγετε το όνομα υπολογιστή και τη διαδρομή του μέσου NFS"
+
+#: any.pm:295
+#, c-format
+msgid "Hostname missing"
+msgstr "Λείπει το όνομα υπολογιστή"
+
+#: any.pm:296
+#, c-format
+msgid "Directory must begin with \"/\""
+msgstr "Ο κατάλογος πρέπει να αρχίζει με «/»"
+
+#: any.pm:300
+#, c-format
+msgid "Hostname of the NFS mount ?"
+msgstr "Το όνομα υπολογιστή της προσάρτησης NFS;"
+
+#: any.pm:301
+#, c-format
+msgid "Directory"
+msgstr "Κατάλογος"
+
+#: any.pm:331
+#, c-format
+msgid "Supplementary"
+msgstr "Συμπληρωματικά"
+
+#: any.pm:366
+#, c-format
+msgid ""
+"Can't find a package list file on this mirror. Make sure the location is "
+"correct."
+msgstr ""
+"Δεν βρέθηκε το αρχείο με την λίστα των πακέτων σε αυτόν τον καθρεπτισμό. "
+"Σιγουρευτείτε ότι η τοποθεσία είναι σωστή."
+
+#: any.pm:391
+#, c-format
+msgid "Core Release"
+msgstr "Core Release"
+
+#: any.pm:393
+#, c-format
+msgid "Tainted Release"
+msgstr "Tainted Release"
+
+#: any.pm:395
+#, c-format
+msgid "Nonfree Release"
+msgstr "Nonfree Release"
+
+#: any.pm:433
+#, c-format
+msgid ""
+"Some hardware on your machine needs some non free firmwares in order for the "
+"free software drivers to work."
+msgstr ""
+"Στο μηχάνημά σας υπάρχει υλικό που απαιτεί μη ελεύθερο firmware ώστε να "
+"λειτουργούν οι οδηγοί ανοιχτού κώδικα. "
+
+#: any.pm:434
+#, c-format
+msgid "You should enable \"%s\""
+msgstr "Θα πρέπει να ενεργοποιήσετε το «%s»"
+
+#: any.pm:472
+#, c-format
+msgid "\"%s\" contains the various pieces of the systems and its applications"
+msgstr ""
+"Το «%s» περιέχει τα διάφορα τμήματα του συστήματος και τις εφαρμογές του"
+
+#: any.pm:473
+#, c-format
+msgid "\"%s\" contains non free software.\n"
+msgstr "Το «%s» περιέχει μη ελεύθερο λογισμικό.\n"
+
+#: any.pm:474
+#, c-format
+msgid ""
+"It also contains firmwares needed for certain devices to operate (eg: some "
+"ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
+msgstr ""
+"Επίσης, περιέχει firmware που απαιτούνται για την λειτουργία ορισμένων "
+"συσκευών (πχ: μερικές κάρτες γραφικών ATI/AMD, μερικές κάρτες δικτύου, "
+"μερικές κάρτες RAID, ...)"
+
+#: any.pm:475
+#, c-format
+msgid ""
+"\"%s\" contains software that can not be distributed in every country due to "
+"software patents."
+msgstr ""
+"Το «%s» περιέχει λογισμικό που δεν μπορεί να διανεμηθεί σε όλες τις χώρες "
+"λόγω περιορισμού των διπλωμάτων ευρεσιτεχνίας."
+
+#: any.pm:476
+#, c-format
+msgid ""
+"It also contains software from \"%s\" rebuild with additional capabilities."
+msgstr ""
+"Επίσης, περιέχει λογισμικό από το «%s» επαναδημιουργημένο με επιπλέον "
+"χαρακτηριστικά."
+
+#: any.pm:482
+#, c-format
+msgid "Here you can enable more media if you want."
+msgstr ""
+"Αν το επιθυμείτε, εδώ μπορείτε να ενεργοποιήσετε περισσότερες πηγές "
+"λογισμικού."
+
+#: any.pm:499
+#, c-format
+msgid "This medium provides package updates for medium \"%s\""
+msgstr "Αυτό το μέσο παρέχει ενημερώσεις πακέτων για το μέσο «%s»"
+
+#: any.pm:597
+#, c-format
+msgid "Looking at packages already installed..."
+msgstr "Αναζήτηση στα ήδη εγκατεστημένα πακέτα..."
+
+#: any.pm:631
+#, c-format
+msgid "Finding packages to upgrade..."
+msgstr "Αναζήτηση πακέτων προς αναβάθμιση..."
+
+#: any.pm:650
+#, c-format
+msgid "Removing packages prior to upgrade..."
+msgstr "Αφαίρεση των πακέτων, πριν την αναβάθμιση..."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:881
+#, c-format
+msgid ""
+"The following packages will be removed to allow upgrading your system: %s\n"
+"\n"
+"\n"
+"Do you really want to remove these packages?\n"
+msgstr ""
+"Τα παρακάτω πακέτα θα αφαιρεθούν για να αναβαθμιστεί το σύστημά σας: %s\n"
+"\n"
+"\n"
+"Θέλετε πραγματικά να αφαιρέστε αυτά τα πακέτα;\n"
+
+#: any.pm:1096
+#, c-format
+msgid "Error reading file %s"
+msgstr "Σφάλμα κατά την ανάγνωση του αρχείου %s"
+
+#: any.pm:1304
+#, c-format
+msgid "The following disk(s) were renamed:"
+msgstr "Έγινε μετονομασία των παρακάτω δίσκων:"
+
+#: any.pm:1306
+#, c-format
+msgid "%s (previously named as %s)"
+msgstr "%s (η προηγούμενη ονομασία ήταν %s)"
+
+#: any.pm:1363
+#, c-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: any.pm:1363
+#, c-format
+msgid "FTP"
+msgstr "FTP"
+
+#: any.pm:1363
+#, c-format
+msgid "NFS"
+msgstr "NFS"
+
+#: any.pm:1382 steps_interactive.pm:973
+#, c-format
+msgid "Network"
+msgstr "Δίκτυο"
+
+#: any.pm:1386
+#, c-format
+msgid "Please choose a media"
+msgstr "Παρακαλώ επιλέξτε ένα μέσο"
+
+#: any.pm:1402
+#, c-format
+msgid "File already exists. Overwrite it?"
+msgstr "Το αρχείο υπάρχει ήδη. Να αντικατασταθεί;"
+
+#: any.pm:1406
+#, c-format
+msgid "Permission denied"
+msgstr "Άρνηση αδείας"
+
+#: any.pm:1454
+#, c-format
+msgid "Bad NFS name"
+msgstr "Μη έγκυρο όνομα NFS"
+
+#: any.pm:1475
+#, c-format
+msgid "Bad media %s"
+msgstr "Μη έγκυρο μέσο %s"
+
+#: any.pm:1519
+#, c-format
+msgid "Cannot make screenshots before partitioning"
+msgstr "Αδύνατη η λήψη στιγμιοτύπων πριν από την δημιουργία κατατμήσεων"
+
+#: any.pm:1530
+#, c-format
+msgid "Screenshots will be available after install in %s"
+msgstr "Τα στιγμιότυπα θα είναι διαθέσιμα μετά την εγκατάσταση στο %s"
+
+#: gtk.pm:135
+#, c-format
+msgid "Installation"
+msgstr "Εγκατάσταση"
+
+#: gtk.pm:139 share/meta-task/compssUsers.pl:48
+#, c-format
+msgid "Configuration"
+msgstr "Ρύθμιση"
+
+#: install2.pm:211
+#, c-format
+msgid "You must also format %s"
+msgstr "Πρέπει επίσης να μορφοποιήσετε το %s"
+
+#: interactive.pm:16
+#, c-format
+msgid ""
+"Some hardware on your computer needs ``proprietary'' drivers to work.\n"
+"You can find some information about them at: %s"
+msgstr ""
+"Ένα μέρος του υλικού σας χρειάζεται «ιδιόκτητους» οδηγούς για να "
+"λειτουργήσει.\n"
+"Μπορείτε να βρείτε σχετικές πληροφορίες στο: %s"
+
+#: interactive.pm:22
+#, c-format
+msgid "Bringing up the network"
+msgstr "Εκκίνηση της διεπαφής δικτύου"
+
+#: interactive.pm:27
+#, c-format
+msgid "Bringing down the network"
+msgstr "Διακοπή της διεπαφής δικτύου"
+
+#: media.pm:407
+#, c-format
+msgid "Please wait, retrieving file"
+msgstr "Παρακαλώ περιμένετε, γίνεται λήψη του αρχείου"
+
+#: media.pm:714
+#, c-format
+msgid "unable to add medium"
+msgstr "αδυναμία προσθήκης του μέσου"
+
+#: media.pm:754
+#, c-format
+msgid "Copying some packages on disks for future use"
+msgstr "Αντιγραφή κάποιων πακέτων στο δίσκο για μελλοντική χρήση"
+
+#: media.pm:807
+#, c-format
+msgid "Copying in progress"
+msgstr "Αντιγραφή σε εξέλιξη"
+
+#: pkgs.pm:32
+#, c-format
+msgid "must have"
+msgstr "υποχρεωτικό"
+
+#: pkgs.pm:33
+#, c-format
+msgid "important"
+msgstr "σημαντικό"
+
+#: pkgs.pm:34
+#, c-format
+msgid "very nice"
+msgstr "πολύ χρήσιμο"
+
+#: pkgs.pm:35
+#, c-format
+msgid "nice"
+msgstr "χρήσιμο"
+
+#: pkgs.pm:36
+#, c-format
+msgid "maybe"
+msgstr "ίσως"
+
+#: pkgs.pm:102
+#, c-format
+msgid "Getting package information from XML meta-data..."
+msgstr "Λήψη των πληροφοριών του πακέτου από τα μεταδεδομένα XML..."
+
+#: pkgs.pm:111
+#, c-format
+msgid "No xml info for medium \"%s\", only partial result for package %s"
+msgstr ""
+"Δεν βρέθηκαν πληροφορίες xml για το μέσο «%s», μόνον εν μέρει αποτελέσματα "
+"για το πακέτο %s"
+
+#: pkgs.pm:119
+#, c-format
+msgid "No description"
+msgstr "Χωρίς περιγραφή"
+
+#: pkgs.pm:288
+#, c-format
+msgid ""
+"Some packages requested by %s cannot be installed:\n"
+"%s"
+msgstr ""
+"Κάποια πακέτα που ζητήθηκαν από το %s, δεν μπορούν να εγκατασταθούν:\n"
+"%s"
+
+#: pkgs.pm:384 pkgs.pm:411
+#, c-format
+msgid "An error occurred:"
+msgstr "Παρουσιάστηκε ένα σφάλμα :"
+
+#: pkgs.pm:403
+#, c-format
+msgid "A fatal error occurred: %s."
+msgstr "Παρουσιάστηκε ένα κρίσιμο σφάλμα: %s."
+
+#: pkgs.pm:897 pkgs.pm:939
+#, c-format
+msgid "Do not ask again"
+msgstr "Να μην ξαναγίνει η ερώτηση"
+
+#: pkgs.pm:913
+#, c-format
+msgid "%d installation transactions failed"
+msgstr "%d συναλλαγές εγκατάστασης απέτυχαν"
+
+#: pkgs.pm:914
+#, c-format
+msgid "Installation of packages failed:"
+msgstr "Η εγκατάσταση των πακέτων απέτυχε :"
+
+#: share/meta-task/compssUsers.pl:16
+#, c-format
+msgid "Workstation"
+msgstr "Σταθμός εργασίας"
+
+#: share/meta-task/compssUsers.pl:18
+#, c-format
+msgid "Office Workstation"
+msgstr "Σταθμός εργασίας γραφείου"
+
+#: share/meta-task/compssUsers.pl:20
+#, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr ""
+"Εργαλεία γραφείου: επεξεργαστές κειμένου (LibreOffice Writer, Kword), "
+"λογιστικών φύλλων (LibreOffice Calc, Kspread), προβολείς pdf, κλπ"
+
+#: share/meta-task/compssUsers.pl:26
+#, c-format
+msgid "Game station"
+msgstr "Παιχνίδια"
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc"
+msgstr ""
+"Προγράμματα διασκέδασης: ηλεκτρονικά παιχνίδια, επιτραπέζια, στρατηγικής, κλπ"
+
+#: share/meta-task/compssUsers.pl:30
+#, c-format
+msgid "Multimedia station"
+msgstr "Πολυμέσα"
+
+#: share/meta-task/compssUsers.pl:31
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr "Προγράμματα αναπαραγωγής και επεξεργασίας βίντεο και ήχου"
+
+#: share/meta-task/compssUsers.pl:36
+#, c-format
+msgid "Internet station"
+msgstr "Διαδίκτυο"
+
+#: share/meta-task/compssUsers.pl:37
+#, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr ""
+"Εργαλεία για αποστολή και λήψη αλληλογραφίας και ειδήσεων (mutt, tin...) και "
+"για περιήγηση στο διαδίκτυο"
+
+#: share/meta-task/compssUsers.pl:42
+#, c-format
+msgid "Network Computer (client)"
+msgstr "Υπολογιστής δικτύου (πελάτης)"
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr "Πελάτες για διαφορετικά πρωτόκολλα συμπεριλαμβανομένου του ssh"
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr "Εργαλεία για διευκόλυνση της ρύθμισης του υπολογιστή σας"
+
+#: share/meta-task/compssUsers.pl:53
+#, c-format
+msgid "Console Tools"
+msgstr "Εργαλεία τερματικού"
+
+#: share/meta-task/compssUsers.pl:54
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr "Επεξεργαστές, κελύφη, εργαλεία αρχείων, τερματικά"
+
+#: share/meta-task/compssUsers.pl:58 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "Ανάπτυξη"
+
+#: share/meta-task/compssUsers.pl:59 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr "Βιβλιοθήκες ανάπτυξης C και C++, προγράμματα και αρχεία ενσωμάτωσης"
+
+#: share/meta-task/compssUsers.pl:63 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: share/meta-task/compssUsers.pl:64 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr "Βιβλία και οδηγίες για το Linux και το ελεύθερο λογισμικό"
+
+#: share/meta-task/compssUsers.pl:68 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "LSB"
+
+#: share/meta-task/compssUsers.pl:69 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr "«Linux Standard Base». Υποστήριξη εφαρμογών τρίτων"
+
+#: share/meta-task/compssUsers.pl:79
+#, c-format
+msgid "Web Server"
+msgstr "Εξυπηρετητής ιστού"
+
+#: share/meta-task/compssUsers.pl:80
+#, c-format
+msgid "Apache"
+msgstr "Apache"
+
+#: share/meta-task/compssUsers.pl:84
+#, c-format
+msgid "Groupware"
+msgstr "Λογισμικό συνεργασίας"
+
+#: share/meta-task/compssUsers.pl:85
+#, c-format
+msgid "Kolab Server"
+msgstr "Εξυπηρετητής Kolab"
+
+#: share/meta-task/compssUsers.pl:88 share/meta-task/compssUsers.pl:138
+#, c-format
+msgid "Firewall/Router"
+msgstr "Τείχος προστασίας/Δρομολογητής"
+
+#: share/meta-task/compssUsers.pl:89 share/meta-task/compssUsers.pl:139
+#, c-format
+msgid "Internet gateway"
+msgstr "Πύλη διαδικτύου"
+
+#: share/meta-task/compssUsers.pl:92
+#, c-format
+msgid "Mail/News"
+msgstr "Αλληλογραφία/Ειδήσεις"
+
+#: share/meta-task/compssUsers.pl:93
+#, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr "Postfix εξυπηρετητής ταχυδρομείου, εξυπηρετητής ειδήσεων Inn"
+
+#: share/meta-task/compssUsers.pl:97
+#, c-format
+msgid "Directory Server"
+msgstr "Εξυπηρετητής καταλόγων"
+
+#: share/meta-task/compssUsers.pl:102
+#, c-format
+msgid "FTP Server"
+msgstr "Εξυπηρετητής FTP"
+
+#: share/meta-task/compssUsers.pl:103
+#, c-format
+msgid "ProFTPd"
+msgstr "ProFTPd"
+
+#: share/meta-task/compssUsers.pl:107
+#, c-format
+msgid "DNS/NIS"
+msgstr "DNS/NIS"
+
+#: share/meta-task/compssUsers.pl:108
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr "Εξυπηρετητής ονομάτων τομέα και πληροφοριών δικτύου"
+
+#: share/meta-task/compssUsers.pl:112
+#, c-format
+msgid "File and Printer Sharing Server"
+msgstr "Εξυπηρετητής κοινής χρήσης αρχείων και εκτυπωτών"
+
+#: share/meta-task/compssUsers.pl:113
+#, c-format
+msgid "NFS Server, Samba server"
+msgstr "Εξυπηρετητής NFS, εξυπηρετητής Samba"
+
+#: share/meta-task/compssUsers.pl:117 share/meta-task/compssUsers.pl:133
+#, c-format
+msgid "Database"
+msgstr "Βάση δεδομένων"
+
+#: share/meta-task/compssUsers.pl:118
+#, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr "Εξυπηρετητής βάσης δεδομένων PostgreSQL και MariaDB"
+
+#: share/meta-task/compssUsers.pl:123
+#, c-format
+msgid "Web/FTP"
+msgstr "Ιστός/FTP"
+
+#: share/meta-task/compssUsers.pl:124
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "Apache, Pro-ftpd"
+
+#: share/meta-task/compssUsers.pl:128
+#, c-format
+msgid "Mail"
+msgstr "Αλληλογραφία"
+
+#: share/meta-task/compssUsers.pl:129
+#, c-format
+msgid "Postfix mail server"
+msgstr "Εξυπηρετητής αλληλογραφίας Postfix"
+
+#: share/meta-task/compssUsers.pl:134
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "Εξυπηρετητής βάσης δεδομένων PostgreSQL ή MariaDB"
+
+#: share/meta-task/compssUsers.pl:142
+#, c-format
+msgid "Network Computer server"
+msgstr "Εξυπηρετητής υπολογιστών δικτύου"
+
+#: share/meta-task/compssUsers.pl:143
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr ""
+"Εξυπηρετητής NFS, εξυπηρετητής SMB, εξυπηρετητής Proxy, εξυπηρετητής ssh"
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Graphical Environment"
+msgstr "Γραφικό περιβάλλον"
+
+#: share/meta-task/compssUsers.pl:152
+#, c-format
+msgid "Plasma Workstation"
+msgstr "Σταθμός εργασίας Plasma"
+
+#: share/meta-task/compssUsers.pl:153
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr ""
+"Το βασικό περιβάλλον εργασίας KDE με μια συλλογή συνοδευτικών εργαλείων"
+
+#: share/meta-task/compssUsers.pl:158
+#, c-format
+msgid "GNOME Workstation"
+msgstr "Σταθμός Εργασίας Gnome"
+
+#: share/meta-task/compssUsers.pl:159 share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr "Ένα γραφικό περιβάλλον με φιλικά εργαλεία και εφαρμογές"
+
+#: share/meta-task/compssUsers.pl:164
+#, c-format
+msgid "XFCE Workstation"
+msgstr "Σταθμός εργασίας XFCE"
+
+#: share/meta-task/compssUsers.pl:165
+#, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr "Ένα ελαφρύ γραφικό περιβάλλον με φιλικά εργαλεία και εφαρμογές"
+
+#: share/meta-task/compssUsers.pl:169
+#, c-format
+msgid "MATE Workstation"
+msgstr "Σταθμός Εργασίας MATE"
+
+#: share/meta-task/compssUsers.pl:174
+#, c-format
+msgid "Cinnamon Workstation"
+msgstr "Σταθμός εργασίας Cinnamon"
+
+#: share/meta-task/compssUsers.pl:175
+#, c-format
+msgid "A graphical environment based on GNOME"
+msgstr "Γραφικό περιβάλλον βασισμένο στο GNOME"
+
+#: share/meta-task/compssUsers.pl:179
+#, c-format
+msgid "LXQt Desktop"
+msgstr "Περιβάλλον εργασίας LXQt"
+
+#: share/meta-task/compssUsers.pl:181
+#, c-format
+msgid "A next generation QT port of the lightweight desktop environment"
+msgstr "Μια νέας γενιάς μεταφορά σε Qt του ελαφριού γραφικού περιβάλλοντος"
+
+#: share/meta-task/compssUsers.pl:184
+#, c-format
+msgid "Enlightenment e21 Desktop"
+msgstr "Περιβάλλον εργασίας Enlightenment e21 "
+
+#: share/meta-task/compssUsers.pl:186
+#, c-format
+msgid "A lightweight fast graphical environment with a dedicated following"
+msgstr "Ένα ελαφρύ & γρήγορο γραφικό περιβάλλον με αφοσιωμένους οπαδούς "
+
+#: share/meta-task/compssUsers.pl:189
+#, c-format
+msgid "LXDE Desktop"
+msgstr "Περιβάλλον εργασίας LXDE"
+
+#: share/meta-task/compssUsers.pl:191
+#, c-format
+msgid "A lightweight fast graphical environment"
+msgstr "Ένα ελαφρύ και γρήγορο γραφικό περιβάλλον"
+
+#: share/meta-task/compssUsers.pl:194
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "Άλλα γραφικά περιβάλλοντα"
+
+#: share/meta-task/compssUsers.pl:195
+#, c-format
+msgid "Window Maker, Fvwm, etc"
+msgstr "Window Maker, Fvwm, κλπ"
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr "Εργαλεία"
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, c-format
+msgid "SSH Server"
+msgstr "Εξυπηρετητής SSH"
+
+#: share/meta-task/compssUsers.pl:225
+#, c-format
+msgid "Webmin"
+msgstr "Webmin"
+
+#: share/meta-task/compssUsers.pl:226
+#, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr "Webmin εξυπηρετητής απομακρυσμένης ρύθμισης"
+
+#: share/meta-task/compssUsers.pl:230
+#, c-format
+msgid "Network Utilities/Monitoring"
+msgstr "Εργαλεία δικτύου/εποπτεία δικτύου"
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr "Εργαλεία εποπτείας, απολογισμός διεργασιών, tcpdump, nmap, ..."
+
+#: share/meta-task/compssUsers.pl:235
+#, c-format
+msgid "Mageia Wizards"
+msgstr "Οδηγοί Mageia"
+
+#: share/meta-task/compssUsers.pl:236
+#, c-format
+msgid "Wizards to configure server"
+msgstr "Οδηγοί για τη ρύθμιση του εξυπηρετητή"
+
+#: steps.pm:85
+#, c-format
+msgid ""
+"An error occurred, but I do not know how to handle it nicely.\n"
+"Continue at your own risk."
+msgstr ""
+"Παρουσιάστηκε ένα σφάλμα, αλλά δεν ξέρω πώς να το χειριστώ.\n"
+"Συνεχίστε με δική σας ευθύνη."
+
+#: steps.pm:460
+#, c-format
+msgid ""
+"Some important packages did not get installed properly.\n"
+"Either your cdrom drive or your cdrom is defective.\n"
+"Check the cdrom on an installed computer using \"rpm -qpl media/main/*.rpm"
+"\"\n"
+msgstr ""
+"Μερικά σημαντικά πακέτα δεν εγκαταστάθηκαν σωστά.\n"
+"Ο οδηγός CD ή το CD είναι ελαττωματικό.\n"
+"Ελέγξτε το CD σε ένα εγκατεστημένο σύστημα χρησιμοποιώντας \" rpm -qpl media/"
+"main/*.rpm \"\n"
+
+#: steps_auto_install.pm:71 steps_stdio.pm:27
+#, c-format
+msgid "Entering step `%s'\n"
+msgstr "Εκκίνηση του βήματος «%s»\n"
+
+#: steps_curses.pm:22
+#, c-format
+msgid "%s Installation %s"
+msgstr "%s Εγκατάσταση της %s"
+
+#: steps_curses.pm:32
+#, c-format
+msgid "<Tab>/<Alt-Tab> between elements"
+msgstr "<Tab>/<Alt-Tab> Αλλαγή πεδίου"
+
+#: steps_gtk.pm:147
+#, c-format
+msgid "Xorg server is slow to start. Please wait..."
+msgstr ""
+"Ο εξυπηρετητής Xorg χρειάζεται χρόνο για να ξεκινήσει. Παρακαλώ περιμένετε..."
+
+#: steps_gtk.pm:212
+#, c-format
+msgid ""
+"Your system is low on resources. You may have some problem installing\n"
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
+msgstr ""
+"Το σύστημά σας διαθέτει περιορισμένους πόρους. Ίσως συναντήσετε προβλήματα\n"
+"κατά την εγκατάσταση της %s. Αν συμβεί αυτό, μπορείτε να προσπαθήσετε\n"
+"την εγκατάσταση σε λειτουργία κειμένου. Για να το πραγματοποιήσετε, πατήστε "
+"«F1»\n"
+"κατά την εκκίνηση του CD-ROM και εισάγετε «text»."
+
+#: steps_gtk.pm:242 steps_gtk.pm:754
+#, c-format
+msgid "Media Selection"
+msgstr "Επιλογή μέσων"
+
+#: steps_gtk.pm:253
+#, c-format
+msgid "Install %s Plasma Desktop"
+msgstr "Εγκατάσταση του περιβάλλοντος Plasma της %s"
+
+#: steps_gtk.pm:254
+#, c-format
+msgid "Install %s GNOME Desktop"
+msgstr "Εγκατάσταση του περιβάλλοντος GNOME της %s"
+
+#: steps_gtk.pm:255
+#, c-format
+msgid "Custom install"
+msgstr "Προσαρμοσμένη εγκατάσταση"
+
+#: steps_gtk.pm:276
+#, c-format
+msgid "Plasma Desktop"
+msgstr "Επιφάνειας εργασίας Plasma"
+
+#: steps_gtk.pm:277
+#, c-format
+msgid "GNOME Desktop"
+msgstr "Περιβάλλον εργασίας GNOME"
+
+#: steps_gtk.pm:278
+#, c-format
+msgid "Custom Desktop"
+msgstr "Προσαρμοσμένο περιβάλλον εργασίας"
+
+#: steps_gtk.pm:284
+#, c-format
+msgid "Here's a preview of the '%s' desktop."
+msgstr "Αυτή είναι μια προεπισκόπηση του περιβάλλοντος εργασίας «%s»."
+
+#: steps_gtk.pm:311
+#, c-format
+msgid "Click on images in order to see a bigger preview"
+msgstr "Κάντε κλικ στις εικόνες, για να δείτε μια μεγαλύτερη προεπισκόπηση"
+
+#: steps_gtk.pm:327 steps_interactive.pm:605 steps_list.pm:30
+#, c-format
+msgid "Package Group Selection"
+msgstr "Επιλογή ομάδων πακέτων"
+
+#: steps_gtk.pm:350 steps_interactive.pm:622
+#, c-format
+msgid "Individual package selection"
+msgstr "Επιλογή μεμονωμένων πακέτων"
+
+#: steps_gtk.pm:357
+#, c-format
+msgid "Unselect All"
+msgstr "Αποεπιλογή όλων"
+
+#: steps_gtk.pm:376 steps_interactive.pm:534
+#, c-format
+msgid "Total size: %d / %d MB"
+msgstr "Συνολικό μέγεθος: %d / %d MB"
+
+#: steps_gtk.pm:421
+#, c-format
+msgid "Version: "
+msgstr "Έκδοση: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "Size: "
+msgstr "Μέγεθος: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "%d KB\n"
+msgstr "%d KB\n"
+
+#: steps_gtk.pm:423
+#, c-format
+msgid "Importance: "
+msgstr "Σπουδαιότητα: "
+
+#: steps_gtk.pm:458
+#, c-format
+msgid "You cannot select/unselect this package"
+msgstr "Δεν είναι δυνατή η επιλογή/αποεπιλογή του συγκεκριμένου πακέτου"
+
+#: steps_gtk.pm:462
+#, c-format
+msgid "due to missing %s"
+msgstr "λόγω έλλειψης του %s"
+
+#: steps_gtk.pm:463
+#, c-format
+msgid "due to unsatisfied %s"
+msgstr "λόγω μη ικανοποίησης του %s"
+
+#: steps_gtk.pm:464
+#, c-format
+msgid "trying to promote %s"
+msgstr "προσπάθεια προώθησης του %s"
+
+#: steps_gtk.pm:465
+#, c-format
+msgid "in order to keep %s"
+msgstr "για να κρατηθεί το %s"
+
+#: steps_gtk.pm:470
+#, c-format
+msgid ""
+"You cannot select this package as there is not enough space left to install "
+"it"
+msgstr ""
+"Δεν μπορείτε να επιλέξετε αυτό το πακέτο διότι δεν υπάρχει αρκετός ελεύθερος "
+"χώρος για να το εγκαταστήσετε."
+
+#: steps_gtk.pm:473
+#, c-format
+msgid "The following packages are going to be installed"
+msgstr "Θα εγκατασταθούν τα παρακάτω πακέτα"
+
+#: steps_gtk.pm:474
+#, c-format
+msgid "The following packages are going to be removed"
+msgstr "Θα αφαιρεθούν τα παρακάτω πακέτα "
+
+#: steps_gtk.pm:500
+#, c-format
+msgid "This is a mandatory package, it cannot be unselected"
+msgstr "Αυτό το πακέτο είναι απαραίτητο, δεν μπορεί να αποεπιλεγεί"
+
+#: steps_gtk.pm:502
+#, c-format
+msgid "You cannot unselect this package. It is already installed"
+msgstr "Δεν μπορείτε να αποεπιλέξετε αυτό το πακέτο. Είναι ήδη εγκατεστημένο"
+
+#: steps_gtk.pm:504
+#, c-format
+msgid "You cannot unselect this package. It must be upgraded"
+msgstr "Δεν μπορείτε να αποεπιλέξετε αυτό το πακέτο. Πρέπει να αναβαθμιστεί"
+
+#: steps_gtk.pm:508
+#, c-format
+msgid "Show automatically selected packages"
+msgstr "Εμφάνιση των επιλεγμένων πακέτων αυτόματα"
+
+#: steps_gtk.pm:512
+#, c-format
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: steps_gtk.pm:515
+#, c-format
+msgid "Load/Save selection"
+msgstr "Φόρτωση/αποθήκευση της επιλογής"
+
+#: steps_gtk.pm:516
+#, c-format
+msgid "Updating package selection"
+msgstr "Ενημέρωση της επιλογής των πακέτων"
+
+#: steps_gtk.pm:521
+#, c-format
+msgid "Minimal install"
+msgstr "Ελάχιστη εγκατάσταση"
+
+#: steps_gtk.pm:534
+#, c-format
+msgid "Software Management"
+msgstr "Διαχείριση λογισμικού"
+
+#: steps_gtk.pm:534 steps_interactive.pm:415
+#, c-format
+msgid "Choose the packages you want to install"
+msgstr "Επιλέξτε τα πακέτα που θέλετε να εγκαταστήσετε"
+
+#: steps_gtk.pm:551 steps_interactive.pm:642 steps_list.pm:32
+#, c-format
+msgid "Installing"
+msgstr "Εγκατάσταση"
+
+#: steps_gtk.pm:581
+#, c-format
+msgid "No details"
+msgstr "Χωρίς λεπτομέρειες"
+
+#: steps_gtk.pm:600
+#, c-format
+msgid "Time remaining:"
+msgstr "Εναπομένων χρόνος:"
+
+#: steps_gtk.pm:601
+#, c-format
+msgid "(estimating...)"
+msgstr "(εκτίμηση...)"
+
+#: steps_gtk.pm:627
+#, c-format
+msgid "%d package"
+msgid_plural "%d packages"
+msgstr[0] "%d πακέτο"
+msgstr[1] "%d πακέτα"
+
+#: steps_gtk.pm:684 steps_interactive.pm:834 steps_list.pm:43
+#, c-format
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: steps_gtk.pm:703
+#, c-format
+msgid "Configure"
+msgstr "Ρύθμιση"
+
+#: steps_gtk.pm:720 steps_interactive.pm:830 steps_interactive.pm:986
+#, c-format
+msgid "not configured"
+msgstr "δεν ρυθμίστηκε"
+
+#: steps_gtk.pm:763 steps_interactive.pm:315
+#, c-format
+msgid ""
+"The following installation media have been found.\n"
+"If you want to skip some of them, you can unselect them now."
+msgstr ""
+"Βρέθηκαν τα ακόλουθα μέσα εγκατάστασης.\n"
+"Αν θέλετε να παραλείψετε κάποια από αυτά, μπορείτε να τα αποεπιλέξετε τώρα."
+
+#: steps_gtk.pm:779 steps_interactive.pm:321
+#, c-format
+msgid ""
+"You have the option to copy the contents of the CDs onto the hard disk drive "
+"before installation.\n"
+"It will then continue from the hard disk drive and the packages will remain "
+"available once the system is fully installed."
+msgstr ""
+"Έχετε την δυνατότητα να αντιγράψετε το περιεχόμενο των CD στο σκληρό δίσκο "
+"πριν την εγκατάσταση.\n"
+"Αυτή θα συνεχιστεί από τον σκληρό δίσκο και τα πακέτα θα παραμείνουν "
+"διαθέσιμα και μετά το τέλος της."
+
+#: steps_gtk.pm:781 steps_interactive.pm:323
+#, c-format
+msgid "Copy whole CDs"
+msgstr "Αντιγραφή ολόκληρων των CD"
+
+#: steps_interactive.pm:40
+#, c-format
+msgid "An error occurred"
+msgstr "Παρουσιάστηκε ένα σφάλμα "
+
+#: steps_interactive.pm:105
+#, c-format
+msgid "Please choose your keyboard layout"
+msgstr "Παρακαλώ επιλέξτε τη διάταξη του πληκτρολογίου σας"
+
+#: steps_interactive.pm:109
+#, c-format
+msgid "Here is the full list of available keyboards:"
+msgstr "Αυτή είναι η πλήρης λίστα με τα διαθέσιμα πληκτρολόγια:"
+
+# Απαλοιφή τόνου, μετατρέπεται αυτόματα σε κεφαλαία #5755.
+#: steps_interactive.pm:153
+#, c-format
+msgid "Install/Upgrade"
+msgstr "Εγκατάσταση/αναβάθμιση"
+
+#: steps_interactive.pm:157
+#, c-format
+msgid "Is this an install or an upgrade?"
+msgstr "Επιθυμείτε να κάνετε μια εγκατάσταση ή αναβάθμιση;"
+
+#: steps_interactive.pm:159
+#, c-format
+msgid ""
+"_: This is a noun:\n"
+"Install"
+msgstr "Εγκατάσταση"
+
+#: steps_interactive.pm:161
+#, c-format
+msgid "Upgrade %s"
+msgstr "Αναβάθμιση της %s"
+
+#: steps_interactive.pm:184
+#, c-format
+msgid "Encryption key for %s"
+msgstr "Κλειδί κρυπτογράφησης για το %s"
+
+#: steps_interactive.pm:217
+#, c-format
+msgid "Cancel installation, reboot system"
+msgstr "Ακύρωση της εγκατάστασης, επανεκκίνηση του συστήματος"
+
+#: steps_interactive.pm:218
+#, c-format
+msgid "New Installation"
+msgstr "Νέα εγκατάσταση"
+
+#: steps_interactive.pm:219
+#, c-format
+msgid "Upgrade previous installation (not recommended)"
+msgstr "Αναβάθμιση της προηγούμενης εγκατάστασης (δεν συστήνεται)"
+
+#: steps_interactive.pm:223
+#, c-format
+msgid ""
+"Installer has detected that your installed Linux system could not\n"
+"safely be upgraded to %s.\n"
+"\n"
+"New installation replacing your previous one is recommended.\n"
+"\n"
+"Warning : you should backup all your personal data before choosing \"New\n"
+"Installation\"."
+msgstr ""
+"Ο εγκαταστάτης εντόπισε ότι το εγκατεστημένο σας σύστημα Mageia Linux δεν "
+"μπορεί\n"
+"να αναβαθμιστεί με ασφάλεια σε %s.\n"
+"\n"
+"Συνιστάται να αντικαταστήσετε την εγκατάστασή σας με μια νέα.\n"
+"\n"
+"Προσοχή: θα πρέπει να πάρετε αντίγραφα ασφαλείας όλων των προσωπικών σας "
+"δεδομένων πριν επιλέξετε\n"
+"«Νέα εγκατάσταση»."
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "Configuring CD/DVD"
+msgstr "Διαμόρφωση του CD/DVD"
+
+#: steps_interactive.pm:354
+#, c-format
+msgid ""
+"Change your Cd-Rom!\n"
+"Please insert the Cd-Rom labelled \"%s\" in your drive and press Ok when "
+"done.\n"
+"If you do not have it, press Cancel to avoid installation from this Cd-Rom."
+msgstr ""
+"Αλλάξτε το Cd-Rom!\n"
+"Παρακαλώ εισαγάγετε το Cd-Rom με όνομα «%s» στον οδηγό σας και πατήστε "
+"«Εντάξει».\n"
+"Εάν δεν το έχετε, πατήστε «Ακύρωση» για αποφυγή της εγκατάστασης από αυτό το "
+"Cd-Rom."
+
+#: steps_interactive.pm:372
+#, c-format
+msgid "Looking for available packages..."
+msgstr "Αναζήτηση για διαθέσιμα πακέτα..."
+
+#: steps_interactive.pm:380
+#, c-format
+msgid ""
+"Your system does not have enough space left for installation or upgrade "
+"(%dMB > %dMB)"
+msgstr ""
+"Το σύστημά σας δεν έχει αρκετό ελεύθερο χώρο για την εγκατάσταση ή την "
+"αναβάθμιση (%dMB > %dMB)"
+
+#: steps_interactive.pm:428
+#, c-format
+msgid ""
+"Please choose load or save package selection.\n"
+"The format is the same as auto_install generated files."
+msgstr ""
+"Παρακαλώ, επέλεξε τη φόρτωση ή την αποθήκευση της λίστας με τα επιλεγμένα "
+"πακέτα.\n"
+"Η μορφή είναι η ίδια με αυτή της αυτόματης εγκατάστασης (auto_install)."
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Load"
+msgstr "Φόρτωση"
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: steps_interactive.pm:438
+#, c-format
+msgid "Bad file"
+msgstr "Μη έγκυρο αρχείο"
+
+#: steps_interactive.pm:455
+#, c-format
+msgid "Plasma"
+msgstr "Plasma"
+
+#: steps_interactive.pm:456
+#, c-format
+msgid "GNOME"
+msgstr "GNOME"
+
+# Απαλοιφή τόνου, μετατρέπεται αυτόματα σε κεφαλαία #5755.
+#: steps_interactive.pm:459
+#, c-format
+msgid "Desktop Selection"
+msgstr "Επιλογή περιβάλλοντος εργασίας"
+
+#: steps_interactive.pm:460
+#, c-format
+msgid "You can choose your workstation desktop profile."
+msgstr ""
+"Μπορείτε να επιλέξετε το προφίλ για το περιβάλλον εργασίας του υπολογιστή "
+"σας."
+
+#: steps_interactive.pm:548
+#, c-format
+msgid "Selected size is larger than available space"
+msgstr "Το επιλεγμένο μέγεθος είναι μεγαλύτερο από το διαθέσιμο χώρο"
+
+# Απαλοιφή τόνου, μετατρέπεται αυτόματα σε κεφαλαία #5755.
+#: steps_interactive.pm:572
+#, c-format
+msgid "Type of install"
+msgstr "Τύπος εγκατάστασης"
+
+#: steps_interactive.pm:573
+#, c-format
+msgid ""
+"You have not selected any group of packages.\n"
+"Please choose the minimal installation you want:"
+msgstr ""
+"Δεν έχετε επιλέξει κάποια ομάδα πακέτων.\n"
+"Παρακαλώ επιλέξτε την ελάχιστη εγκατάσταση που επιθυμείτε:"
+
+#: steps_interactive.pm:578
+#, c-format
+msgid "With X"
+msgstr "Με Χ"
+
+#: steps_interactive.pm:579
+#, c-format
+msgid "Install recommended packages"
+msgstr "Εγκατάσταση των προτεινόμενων πακέτων"
+
+#: steps_interactive.pm:580
+#, c-format
+msgid "With basic documentation (recommended!)"
+msgstr "Με την βασική τεκμηρίωση (συνιστάται!)"
+
+#: steps_interactive.pm:581
+#, c-format
+msgid "Truly minimal install (especially no urpmi)"
+msgstr "Πραγματικά ελάχιστη εγκατάσταση (ειδικά χωρίς urpmi)"
+
+#: steps_interactive.pm:633
+#, c-format
+msgid "Preparing upgrade..."
+msgstr "Προετοιμασία της αναβάθμισης..."
+
+#: steps_interactive.pm:643
+#, c-format
+msgid "Preparing installation"
+msgstr "Προετοιμασία της εγκατάστασης"
+
+#: steps_interactive.pm:651
+#, c-format
+msgid "Installing package %s"
+msgstr "Εγκατάσταση του πακέτου %s"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "There was an error ordering packages:"
+msgstr "Παρουσιάστηκε σφάλμα κατά την ταξινόμηση των πακέτων:"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "Go on anyway?"
+msgstr "Να συνεχίσω;"
+
+#: steps_interactive.pm:679
+#, c-format
+msgid "Retry"
+msgstr "Προσπάθεια ξανά"
+
+#: steps_interactive.pm:680
+#, c-format
+msgid "Skip this package"
+msgstr "Παράλειψη αυτού του πακέτου"
+
+#: steps_interactive.pm:681
+#, c-format
+msgid "Skip all packages from medium \"%s\""
+msgstr "Παράλειψη όλων των πακέτων από το μέσο «%s»"
+
+#: steps_interactive.pm:682
+#, c-format
+msgid "Go back to media and packages selection"
+msgstr "Επιστροφή στην επιλογή μέσων και πακέτων"
+
+#: steps_interactive.pm:685
+#, c-format
+msgid "There was an error installing package %s."
+msgstr "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του πακέτου %s."
+
+#: steps_interactive.pm:704
+#, c-format
+msgid "Post-install configuration"
+msgstr "Ρυθμίσεις μετά την εγκατάσταση"
+
+#: steps_interactive.pm:711
+#, c-format
+msgid "Please ensure the Update Modules media is in drive %s"
+msgstr ""
+"Παρακαλώ σιγουρευτείτε ότι το μέσο ενημέρωσης των αρθρωμάτων (modules) είναι "
+"μέσα στον οδηγό %s"
+
+#: steps_interactive.pm:739 steps_interactive.pm:769 steps_list.pm:47
+#, c-format
+msgid "Updates"
+msgstr "Ενημερώσεις"
+
+#: steps_interactive.pm:740
+#, c-format
+msgid "You now have the opportunity to setup online media."
+msgstr ""
+"Σε αυτό το βήμα σας δίδεται η δυνατότητα να προσθέσετε μέσα από το διαδίκτυο."
+
+#: steps_interactive.pm:741
+#, c-format
+msgid "This allows to install security updates."
+msgstr "Αυτό επιτρέπει την εγκατάσταση των ενημερώσεων ασφαλείας."
+
+#: steps_interactive.pm:742
+#, c-format
+msgid ""
+"To setup those media, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to setup the update media?"
+msgstr ""
+"Για την προσθήκη αυτών των μέσων, απαιτείται μια ενεργή σύνδεση\n"
+"στο διαδίκτυο.\n"
+"\n"
+"Επιθυμείτε την προσθήκη των μέσων ενημέρωσης;"
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Αποτυχία κατά την προσθήκη του μέσου"
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Retry?"
+msgstr "Προσπάθεια ξανά;"
+
+#: steps_interactive.pm:770
+#, c-format
+msgid ""
+"You now have the opportunity to download updated packages. These packages\n"
+"have been updated after the distribution was released. They may\n"
+"contain security or bug fixes.\n"
+"\n"
+"To download these packages, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to install the updates?"
+msgstr ""
+"Τώρα έχετε την ευκαιρία να κάνετε λήψη ενημερωμένων πακέτων.\n"
+"Αυτά τα πακέτα έχουν ενημερωθεί μετά την έκδοση της διανομής. Μπορεί να\n"
+"περιέχουν διορθώσεις σφαλμάτων ή ενημερώσεις ασφαλείας.\n"
+"\n"
+"Για να κάνετε λήψη αυτών των πακέτων πρέπει να έχετε ενεργοποιημένη\n"
+"τη σύνδεση με το διαδίκτυο.\n"
+"\n"
+"Θέλετε να εγκαταστήσετε τις ενημερώσεις ;"
+
+#. -PO: example: lilo-graphic on /dev/hda1
+#: steps_interactive.pm:878
+#, c-format
+msgid "%s on %s"
+msgstr "%s σε %s"
+
+#: steps_interactive.pm:913 steps_interactive.pm:920 steps_interactive.pm:933
+#: steps_interactive.pm:950 steps_interactive.pm:965
+#, c-format
+msgid "Hardware"
+msgstr "Υλικό"
+
+#: steps_interactive.pm:934 steps_interactive.pm:951
+#, c-format
+msgid "Sound card"
+msgstr "Κάρτα ήχου"
+
+#: steps_interactive.pm:948
+#, c-format
+msgid "Graphical interface"
+msgstr "Γραφικό περιβάλλον"
+
+#: steps_interactive.pm:972 steps_interactive.pm:984
+#, c-format
+msgid "Network & Internet"
+msgstr "Δίκτυο & Διαδίκτυο"
+
+#: steps_interactive.pm:985
+#, c-format
+msgid "Proxies"
+msgstr "Διαμεσολαβητές"
+
+#: steps_interactive.pm:986
+#, c-format
+msgid "configured"
+msgstr "ρυθμισμένο"
+
+#: steps_interactive.pm:996
+#, c-format
+msgid "Security Level"
+msgstr "Επίπεδο ασφαλείας"
+
+#: steps_interactive.pm:1016
+#, c-format
+msgid "Firewall"
+msgstr "Τείχος προστασίας"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "activated"
+msgstr "ενεργοποιημένο"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "disabled"
+msgstr "απενεργοποιημένο"
+
+#: steps_interactive.pm:1034
+#, c-format
+msgid "You have not configured X. Are you sure you really want this?"
+msgstr "Δεν έχετε ρυθμίσει τον Χ. Είστε σίγουρος/η ότι θέλετε πραγματικά αυτό;"
+
+#. -PO: This is NOT the boot loader (just the kernel initrds)!!!!
+#: steps_interactive.pm:1065
+#, c-format
+msgid "Preparing initial startup program..."
+msgstr "Προετοιμασία του αρχικού προγράμματος εκκίνησης..."
+
+#: steps_interactive.pm:1066
+#, c-format
+msgid "Be patient, this may take a while..."
+msgstr "Παρακαλώ περιμένετε, η διαδικασία μπορεί να διαρκέσει μερικά λεπτά ..."
+
+#: steps_interactive.pm:1082
+#, c-format
+msgid ""
+"In this security level, access to the files in the Windows partition is "
+"restricted to the administrator."
+msgstr ""
+"Σε αυτό το επίπεδο ασφαλείας, μόνο ο διαχειριστής έχει πρόσβαση στα αρχεία "
+"στην κατάτμηση των Windows."
+
+#: steps_interactive.pm:1114
+#, c-format
+msgid "Insert a blank floppy in drive %s"
+msgstr "Εισάγετε μια άδεια δισκέτα στον οδηγό %s"
+
+#: steps_interactive.pm:1116
+#, c-format
+msgid "Creating auto install floppy..."
+msgstr "Δημιουργία δισκέτας αυτόματης εγκατάστασης..."
+
+#: steps_interactive.pm:1127
+#, c-format
+msgid ""
+"Some steps are not completed.\n"
+"\n"
+"Do you really want to quit now?"
+msgstr ""
+"Μερικά βήματα δεν ολοκληρώθηκαν.\n"
+"\n"
+"Θέλετε σίγουρα να εγκαταλείψετε τώρα;"
+
+# Απαλοιφή τόνου, μετατρέπεται αυτόματα σε κεφαλαία #5755.
+#: steps_interactive.pm:1137
+#, c-format
+msgid "Congratulations"
+msgstr "Συγχαρητήρια"
+
+#: steps_interactive.pm:1140
+#, c-format
+msgid "Reboot"
+msgstr "Επανεκκίνηση"
+
+#. -PO: please keep the following messages very short: they must fit in the left list of the installer!!!
+#: steps_list.pm:16
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Language"
+msgstr "Γλώσσα"
+
+#: steps_list.pm:16 steps_list.pm:23
+#, c-format
+msgid "Localization"
+msgstr "Τοπικότητα"
+
+#: steps_list.pm:17
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"License"
+msgstr "Άδεια χρήσης"
+
+#: steps_list.pm:18
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Mouse"
+msgstr "Ποντίκι"
+
+#: steps_list.pm:19 steps_list.pm:20
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Hard drive detection"
+msgstr "Ανίχνευση σκληρών δίσκων"
+
+#: steps_list.pm:21 steps_list.pm:22
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installation class"
+msgstr "Κλάση εγκατάστασης"
+
+# Απαλοιφή τόνου, μετατρέπεται αυτόματα σε κεφαλαία #5755.
+#: steps_list.pm:23
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Keyboard"
+msgstr "Πληκτρολόγιο"
+
+#: steps_list.pm:24
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Security"
+msgstr "Ασφάλεια"
+
+#: steps_list.pm:25
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Partitioning"
+msgstr "Διαμερισμός"
+
+#: steps_list.pm:27 steps_list.pm:28
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Formatting"
+msgstr "Μορφοποίηση "
+
+#: steps_list.pm:29
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Choosing packages"
+msgstr "Επιλογή πακέτων"
+
+#: steps_list.pm:31
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installing"
+msgstr "Εγκατάσταση"
+
+#: steps_list.pm:34
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Users"
+msgstr "Χρήστες"
+
+#: steps_list.pm:38 steps_list.pm:39
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Bootloader"
+msgstr "Εκκίνηση"
+
+#: steps_list.pm:40 steps_list.pm:41
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Configure X"
+msgstr "Ρύθμιση του Χ"
+
+#: steps_list.pm:42
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Summary"
+msgstr "Σύνοψη"
+
+#: steps_list.pm:44 steps_list.pm:45
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Services"
+msgstr "Υπηρεσίες"
+
+#: steps_list.pm:46
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Updates"
+msgstr "Ενημερώσεις"
+
+#: steps_list.pm:48
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Exit"
+msgstr "Έξοδος"
+
+#~ msgid "Do you have an ISA sound card?"
+#~ msgstr "Έχετε κάρτα ήχου ISA;"
+
+#~ msgid ""
+#~ "Run \"alsaconf\" or \"sndconfig\" after installation to configure your "
+#~ "sound card"
+#~ msgstr ""
+#~ "Εκτελέστε την εντολή «alsaconf» ή «sndconfig», μετά την εγκατάσταση για "
+#~ "να ρυθμίσετε την κάρτα ήχου"
+
+#~ msgid "No sound card detected. Try \"harddrake\" after installation"
+#~ msgstr ""
+#~ "Δεν βρέθηκε κάρτα ήχου. Δοκιμάστε το «harddrake» μετά την εγκατάσταση"
+
+#~ msgid "KDE Desktop"
+#~ msgstr "Περιβάλλον εργασίας KDE"
+
+#~ msgid "KDE"
+#~ msgstr "KDE"
+
+#~ msgid "CD-ROM"
+#~ msgstr "CD-ROM"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "Σταθμός εργασίας KDE"
+
+#~ msgid ""
+#~ "The Plasma Desktop, the basic graphical environment with a collection of "
+#~ "accompanying tools"
+#~ msgstr ""
+#~ "Η επιφάνεια εργασίας Plasma, το βασικό γραφικό περιβάλλον εργασίας με μια "
+#~ "συλλογή συνοδευτικών εργαλείων"
+
+#~ msgid "IDE"
+#~ msgstr "IDE"
+
+#~ msgid "Preparing bootloader..."
+#~ msgstr "Προετοιμασία του προγράμματος εκκίνησης..."
+
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr ""
+#~ "Ένα ελαφρύ & γρήγορο γραφικό περιβάλλον με ένα σύνολο φιλικών εργαλείων "
+#~ "και εφαρμογών"
+
+#~ msgid "RazorQT Desktop"
+#~ msgstr "Περιβάλλον εργασίας RazorQt"
+
+#~ msgid ""
+#~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
+#~ "system, you'll need to create the bootstrap partition in DiskDrake"
+#~ msgstr ""
+#~ "Δεν υπάρχει ελεύθερος χώρος για 1MB bootstrap! Η εγκατάσταση θα "
+#~ "συνεχιστεί, αλλά για να ξεκινήσετε το σύστημά σας, θα χρειαστεί να "
+#~ "δημιουργήσετε μια κατάτμηση bootstrap με το DiskDrake"
+
+#~ msgid ""
+#~ "You'll need to create a PPC PReP Boot bootstrap! Install will continue, "
+#~ "but to boot your system, you'll need to create the bootstrap partition in "
+#~ "DiskDrake"
+#~ msgstr ""
+#~ "Πρέπει να δημιουργήσετε την κατάτμηση εκκίνησης (PPC PReP Boot "
+#~ "bootstrap). Η εγκατάσταση θα συνεχιστεί, αλλά για να εκκινήσετε το "
+#~ "σύστημά σας, θα πρέπει να δημιουργήσετε την κατάτμηση εκκίνησης από το "
+#~ "DiskDrake"
+
+#~ msgid ""
+#~ "You appear to have an OldWorld or Unknown machine, the yaboot bootloader "
+#~ "will not work for you. The install will continue, but you'll need to use "
+#~ "BootX or some other means to boot your machine. The kernel argument for "
+#~ "the root fs is: root=%s"
+#~ msgstr ""
+#~ "Φαίνεται πως έχετε ένα αρχαίο ή αγνώστου τύπου υπολογιστή, το πρόγραμμα "
+#~ "εκκίνησης yaboot δεν θα δουλέψει για σας. Η εγκατάσταση θα συνεχιστεί, "
+#~ "αλλά θα χρειαστεί να χρησιμοποιήσετε το BootX ή μια άλλη μέθοδο για την "
+#~ "εκκίνηση του υπολογιστή σας. Η παράμετρος πυρήνα για το root fs είναι: "
+#~ "root=%s"
+
+#~ msgid "Welcome"
+#~ msgstr "Καλώς ήρθατε"
+
+#~ msgid "People!"
+#~ msgstr "Άνθρωποι!"
+
+#~ msgid "For people"
+#~ msgstr "Για ανθρώπους"
+
+#~ msgid "For contributors"
+#~ msgstr "Για συνεισφέροντες"
+
+#~ msgid "For you"
+#~ msgstr "Για σας"
+
+#~ msgid "Welcome!"
+#~ msgstr "Καλώς ήρθατε!"
+
+#~ msgid "Select All"
+#~ msgstr "Επιλογή όλων"
+
+#~ msgid "Bad package"
+#~ msgstr "Μη έγκυρο πακέτο"
+
+#, fuzzy
+#~ msgid "Preparing boot images..."
+#~ msgstr "Προετοιμασία του προγράμματος εκκίνησης..."
+
+#~ msgid "Mageia, the new Linux distribution"
+#~ msgstr "Mageia, η νέα διανομή Linux"
+
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "Networking"
+#~ msgstr "Δίκτυο"

@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# disable the weird echoprt in cooked mode for user interaction:
+stty sane
+
+#LANGUAGE (filled by make_rescue_img)
+
+grep -q noauto /proc/cmdline || drvinst SERIAL_USB
+
+partimage_default_dir=/data/box
+partimage_dir=`perl -lne 'print $1 if /BOX=(\S+)/' /proc/cmdline`
+[ -z "$partimage_dir" ] && partimage_dir=$partimage_default_dir
+partimage_server=`perl -lne 'print $1 if /\bpserver=(\S+)/' /proc/cmdline`
+
+LOOP=""
+if grep -q save_all /proc/cmdline; then
+    partimage_whole_disk -s $partimage_server save_all $partimage_default_dir
+elif grep -q rest_all /proc/cmdline; then
+    if [ -d /tmp/image$partimage_dir ]; then
+        partimage_whole_disk rest_all /tmp/image$partimage_dir
+    else
+        partimage_whole_disk -s $partimage_server rest_all $partimage_dir
+    fi
+elif grep -q oem /proc/cmdline; then
+    /tmp/image/oem-rescue.sh
+elif grep -q restore /proc/cmdline; then
+    /usr/sbin/restore-image.sh
+elif ! grep -q expert /proc/cmdline; then
+    rescue-gui && LOOP=y
+fi
+
+while [ "$LOOP" ]; do
+    bash --login
+    rescue-gui
+done

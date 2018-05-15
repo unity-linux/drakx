@@ -1,0 +1,1750 @@
+# translation of DrakX-sc.po to Sardu
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Antoni Pistis <antonio.pistis@virgilio.it>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX-sc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-22 02:36+0200\n"
+"PO-Revision-Date: 2005-09-14 11:29+0100\n"
+"Last-Translator: Antoni Pistis <antonio.pistis@virgilio.it>\n"
+"Language-Team: Sardu\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+
+#: ../../advertising/01_IM_mageia.pl:1
+#, c-format
+msgid "Join Us!"
+msgstr ""
+
+#: ../../advertising/02_IM_mageia.pl:1
+#, c-format
+msgid "Make it yours!"
+msgstr ""
+
+#: ../../advertising/03_IM_mageia.pl:1
+#, c-format
+msgid "Your choice!"
+msgstr ""
+
+#: ../../advertising/04_IM_mageia.pl:1
+#, c-format
+msgid "Office tools"
+msgstr ""
+
+#: ../../advertising/05_IM_mageia.pl:1
+#, c-format
+msgid "Home entertainment"
+msgstr ""
+
+#: ../../advertising/06_IM_mageia.pl:1
+#, c-format
+msgid "For kids"
+msgstr ""
+
+#: ../../advertising/07_IM_mageia.pl:1
+#, c-format
+msgid "For family!"
+msgstr ""
+
+#: ../../advertising/08_IM_mageia.pl:1
+#, c-format
+msgid "For developers!"
+msgstr ""
+
+#: ../../advertising/09_IM_mageia.pl:1
+#, c-format
+msgid "Thank you!"
+msgstr ""
+
+#: ../../advertising/10_IM_mageia.pl:1
+#, c-format
+msgid "Be Free!"
+msgstr ""
+
+#: any.pm:151
+#, c-format
+msgid "Do you have further supplementary media?"
+msgstr ""
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:154
+#, c-format
+msgid ""
+"The following media have been found and will be used during install: %s.\n"
+"\n"
+"\n"
+"Do you have a supplementary installation medium to configure?"
+msgstr ""
+
+#: any.pm:162
+#, c-format
+msgid "Network (HTTP)"
+msgstr "Arretza (HTTP)"
+
+#: any.pm:163
+#, c-format
+msgid "Network (FTP)"
+msgstr "Arretza (FTP)"
+
+#: any.pm:164
+#, c-format
+msgid "Network (NFS)"
+msgstr "Arretza (NFS)"
+
+#: any.pm:223
+#, c-format
+msgid "URL of the mirror?"
+msgstr "URL de su sprigu?"
+
+#: any.pm:229
+#, c-format
+msgid "URL must start with ftp:// or http://"
+msgstr ""
+
+#: any.pm:247
+#, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
+msgstr "Cuntatu su jassu web de %s po tenni sa lista de is sprigus..."
+
+#: any.pm:252
+#, fuzzy, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
+msgstr "Cuntatu su jassu web de %s po tenni sa lista de is sprigus..."
+
+#: any.pm:262
+#, c-format
+msgid "Choose a mirror from which to get the packages"
+msgstr ""
+
+#: any.pm:290
+#, c-format
+msgid "NFS setup"
+msgstr "Assètiu NFS"
+
+#: any.pm:291
+#, c-format
+msgid "Please enter the hostname and directory of your NFS media"
+msgstr ""
+
+#: any.pm:295
+#, c-format
+msgid "Hostname missing"
+msgstr ""
+
+#: any.pm:296
+#, c-format
+msgid "Directory must begin with \"/\""
+msgstr ""
+
+#: any.pm:300
+#, c-format
+msgid "Hostname of the NFS mount ?"
+msgstr ""
+
+#: any.pm:301
+#, c-format
+msgid "Directory"
+msgstr "Directory"
+
+#: any.pm:331
+#, c-format
+msgid "Supplementary"
+msgstr ""
+
+#: any.pm:366
+#, c-format
+msgid ""
+"Can't find a package list file on this mirror. Make sure the location is "
+"correct."
+msgstr ""
+
+#: any.pm:391
+#, c-format
+msgid "Core Release"
+msgstr ""
+
+#: any.pm:393
+#, c-format
+msgid "Tainted Release"
+msgstr ""
+
+#: any.pm:395
+#, c-format
+msgid "Nonfree Release"
+msgstr ""
+
+#: any.pm:433
+#, c-format
+msgid ""
+"Some hardware on your machine needs some non free firmwares in order for the "
+"free software drivers to work."
+msgstr ""
+
+#: any.pm:434
+#, c-format
+msgid "You should enable \"%s\""
+msgstr ""
+
+#: any.pm:472
+#, c-format
+msgid "\"%s\" contains the various pieces of the systems and its applications"
+msgstr ""
+
+#: any.pm:473
+#, c-format
+msgid "\"%s\" contains non free software.\n"
+msgstr ""
+
+#: any.pm:474
+#, c-format
+msgid ""
+"It also contains firmwares needed for certain devices to operate (eg: some "
+"ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
+msgstr ""
+
+#: any.pm:475
+#, c-format
+msgid ""
+"\"%s\" contains software that can not be distributed in every country due to "
+"software patents."
+msgstr ""
+
+#: any.pm:476
+#, c-format
+msgid ""
+"It also contains software from \"%s\" rebuild with additional capabilities."
+msgstr ""
+
+#: any.pm:482
+#, c-format
+msgid "Here you can enable more media if you want."
+msgstr ""
+
+#: any.pm:499
+#, c-format
+msgid "This medium provides package updates for medium \"%s\""
+msgstr ""
+
+#: any.pm:597
+#, c-format
+msgid "Looking at packages already installed..."
+msgstr "Càstiu is pakitus jai aposentaus..."
+
+#: any.pm:631
+#, c-format
+msgid "Finding packages to upgrade..."
+msgstr "Agatu is pakitus po ajorronai..."
+
+#: any.pm:650
+#, c-format
+msgid "Removing packages prior to upgrade..."
+msgstr "Srèxinu is pakitus ki dui funt po ajorronai..."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:881
+#, c-format
+msgid ""
+"The following packages will be removed to allow upgrading your system: %s\n"
+"\n"
+"\n"
+"Do you really want to remove these packages?\n"
+msgstr ""
+
+#: any.pm:1096
+#, c-format
+msgid "Error reading file %s"
+msgstr "Faddina ligendi su file %s"
+
+#: any.pm:1304
+#, c-format
+msgid "The following disk(s) were renamed:"
+msgstr "Apu arrenominau is discus ki sighint:"
+
+#: any.pm:1306
+#, c-format
+msgid "%s (previously named as %s)"
+msgstr "%s (innantis nominau %s)"
+
+#: any.pm:1363
+#, c-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: any.pm:1363
+#, c-format
+msgid "FTP"
+msgstr "FTP"
+
+#: any.pm:1363
+#, c-format
+msgid "NFS"
+msgstr "NFS"
+
+#: any.pm:1382 steps_interactive.pm:973
+#, c-format
+msgid "Network"
+msgstr "Arretza"
+
+#: any.pm:1386
+#, c-format
+msgid "Please choose a media"
+msgstr "Sçobera unu suportu, po praxeri"
+
+#: any.pm:1402
+#, c-format
+msgid "File already exists. Overwrite it?"
+msgstr "Su file esistit jai. Nci scriu apitzus?"
+
+#: any.pm:1406
+#, c-format
+msgid "Permission denied"
+msgstr "Permissu dennegau"
+
+#: any.pm:1454
+#, c-format
+msgid "Bad NFS name"
+msgstr ""
+
+#: any.pm:1475
+#, c-format
+msgid "Bad media %s"
+msgstr ""
+
+#: any.pm:1519
+#, c-format
+msgid "Cannot make screenshots before partitioning"
+msgstr "No fait a fai fotografias innantis de pratzidurai"
+
+#: any.pm:1530
+#, c-format
+msgid "Screenshots will be available after install in %s"
+msgstr "As a podi biri is fotografias apustis de s'aposentada in %s"
+
+#: gtk.pm:135
+#, fuzzy, c-format
+msgid "Installation"
+msgstr "Seu aposentendi"
+
+#: gtk.pm:139 share/meta-task/compssUsers.pl:48
+#, c-format
+msgid "Configuration"
+msgstr "Assètiu"
+
+#: install2.pm:211
+#, c-format
+msgid "You must also format %s"
+msgstr "Depis formatai %s puru"
+
+#: interactive.pm:16
+#, c-format
+msgid ""
+"Some hardware on your computer needs ``proprietary'' drivers to work.\n"
+"You can find some information about them at: %s"
+msgstr ""
+"A cancu parti hardware serbint driver ``proprietàrius''po traballai.\n"
+"Podis agatai cancu sceda apitzus a: %s"
+
+#: interactive.pm:22
+#, c-format
+msgid "Bringing up the network"
+msgstr "Alluu s'arretza"
+
+#: interactive.pm:27
+#, c-format
+msgid "Bringing down the network"
+msgstr "Studu s'arretza"
+
+#: media.pm:407
+#, c-format
+msgid "Please wait, retrieving file"
+msgstr ""
+
+#: media.pm:714
+#, c-format
+msgid "unable to add medium"
+msgstr ""
+
+#: media.pm:754
+#, c-format
+msgid "Copying some packages on disks for future use"
+msgstr ""
+
+#: media.pm:807
+#, c-format
+msgid "Copying in progress"
+msgstr "Còpia in cursu"
+
+#: pkgs.pm:32
+#, c-format
+msgid "must have"
+msgstr ""
+
+#: pkgs.pm:33
+#, c-format
+msgid "important"
+msgstr ""
+
+#: pkgs.pm:34
+#, c-format
+msgid "very nice"
+msgstr ""
+
+#: pkgs.pm:35
+#, c-format
+msgid "nice"
+msgstr ""
+
+#: pkgs.pm:36
+#, c-format
+msgid "maybe"
+msgstr ""
+
+#: pkgs.pm:102
+#, c-format
+msgid "Getting package information from XML meta-data..."
+msgstr ""
+
+#: pkgs.pm:111
+#, c-format
+msgid "No xml info for medium \"%s\", only partial result for package %s"
+msgstr ""
+
+#: pkgs.pm:119
+#, c-format
+msgid "No description"
+msgstr "Nisçuna descriidura"
+
+#: pkgs.pm:288
+#, c-format
+msgid ""
+"Some packages requested by %s cannot be installed:\n"
+"%s"
+msgstr ""
+
+#: pkgs.pm:384 pkgs.pm:411
+#, fuzzy, c-format
+msgid "An error occurred:"
+msgstr "Faddina"
+
+#: pkgs.pm:403
+#, c-format
+msgid "A fatal error occurred: %s."
+msgstr "Faddina mortali: %s."
+
+#: pkgs.pm:897 pkgs.pm:939
+#, c-format
+msgid "Do not ask again"
+msgstr ""
+
+#: pkgs.pm:913
+#, c-format
+msgid "%d installation transactions failed"
+msgstr "%d transatzionis de aposentadura faddias"
+
+#: pkgs.pm:914
+#, fuzzy, c-format
+msgid "Installation of packages failed:"
+msgstr "Sçobera tipu de aposentadura"
+
+#: share/meta-task/compssUsers.pl:16
+#, c-format
+msgid "Workstation"
+msgstr "Workstation"
+
+#: share/meta-task/compssUsers.pl:18
+#, c-format
+msgid "Office Workstation"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:20
+#, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:26
+#, c-format
+msgid "Game station"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:30
+#, fuzzy, c-format
+msgid "Multimedia station"
+msgstr "Multimedia"
+
+#: share/meta-task/compssUsers.pl:31
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:36
+#, fuzzy, c-format
+msgid "Internet station"
+msgstr "Intrenatzionallisadura"
+
+#: share/meta-task/compssUsers.pl:37
+#, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:42
+#, fuzzy, c-format
+msgid "Network Computer (client)"
+msgstr "Informàtiga"
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:53
+#, fuzzy, c-format
+msgid "Console Tools"
+msgstr "Console"
+
+#: share/meta-task/compssUsers.pl:54
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:58 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "Adelantamentu"
+
+#: share/meta-task/compssUsers.pl:59 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:63 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "Documentadura"
+
+#: share/meta-task/compssUsers.pl:64 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:68 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "LSB"
+
+#: share/meta-task/compssUsers.pl:69 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:79
+#, c-format
+msgid "Web Server"
+msgstr "Server Web"
+
+#: share/meta-task/compssUsers.pl:80
+#, c-format
+msgid "Apache"
+msgstr "Apache"
+
+#: share/meta-task/compssUsers.pl:84
+#, c-format
+msgid "Groupware"
+msgstr "Traballu in Grupu"
+
+#: share/meta-task/compssUsers.pl:85
+#, c-format
+msgid "Kolab Server"
+msgstr "Server Kolab"
+
+#: share/meta-task/compssUsers.pl:88 share/meta-task/compssUsers.pl:138
+#, c-format
+msgid "Firewall/Router"
+msgstr "Firewall/Router"
+
+#: share/meta-task/compssUsers.pl:89 share/meta-task/compssUsers.pl:139
+#, c-format
+msgid "Internet gateway"
+msgstr "Gateway po Internet"
+
+#: share/meta-task/compssUsers.pl:92
+#, c-format
+msgid "Mail/News"
+msgstr "Curreu/Noas"
+
+#: share/meta-task/compssUsers.pl:93
+#, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr "Server de curreu Postfix, server de noas Inn"
+
+#: share/meta-task/compssUsers.pl:97
+#, c-format
+msgid "Directory Server"
+msgstr "Server de Directory"
+
+#: share/meta-task/compssUsers.pl:102
+#, c-format
+msgid "FTP Server"
+msgstr "Server FTP"
+
+#: share/meta-task/compssUsers.pl:103
+#, c-format
+msgid "ProFTPd"
+msgstr "ProFTPd"
+
+#: share/meta-task/compssUsers.pl:107
+#, c-format
+msgid "DNS/NIS"
+msgstr "DNS/NIS"
+
+#: share/meta-task/compssUsers.pl:108
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:112
+#, c-format
+msgid "File and Printer Sharing Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:113
+#, c-format
+msgid "NFS Server, Samba server"
+msgstr "Server NFS, server Samba"
+
+#: share/meta-task/compssUsers.pl:117 share/meta-task/compssUsers.pl:133
+#, c-format
+msgid "Database"
+msgstr "Database"
+
+#: share/meta-task/compssUsers.pl:118
+#, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr "Server po Database PostGreSQL e MariaDB"
+
+#: share/meta-task/compssUsers.pl:123
+#, c-format
+msgid "Web/FTP"
+msgstr "Web/FTP"
+
+#: share/meta-task/compssUsers.pl:124
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "Apache, Pro-ftpd"
+
+#: share/meta-task/compssUsers.pl:128
+#, c-format
+msgid "Mail"
+msgstr "Curreu"
+
+#: share/meta-task/compssUsers.pl:129
+#, c-format
+msgid "Postfix mail server"
+msgstr "Server de curreu Postfix"
+
+#: share/meta-task/compssUsers.pl:134
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "Server po Database PostGreSQL e MariaDB"
+
+#: share/meta-task/compssUsers.pl:142
+#, fuzzy, c-format
+msgid "Network Computer server"
+msgstr "Informàtiga"
+
+#: share/meta-task/compssUsers.pl:143
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Graphical Environment"
+msgstr "Ambienti Gràfigu"
+
+#: share/meta-task/compssUsers.pl:152
+#, fuzzy, c-format
+msgid "Plasma Workstation"
+msgstr "Workstation"
+
+#: share/meta-task/compssUsers.pl:153
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:158
+#, c-format
+msgid "GNOME Workstation"
+msgstr "GNOME Workstation"
+
+#: share/meta-task/compssUsers.pl:159 share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:164
+#, fuzzy, c-format
+msgid "XFCE Workstation"
+msgstr "KDE Workstation"
+
+#: share/meta-task/compssUsers.pl:165
+#, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:169
+#, fuzzy, c-format
+msgid "MATE Workstation"
+msgstr "GNOME Workstation"
+
+#: share/meta-task/compssUsers.pl:174
+#, fuzzy, c-format
+msgid "Cinnamon Workstation"
+msgstr "Workstation"
+
+#: share/meta-task/compssUsers.pl:175
+#, fuzzy, c-format
+msgid "A graphical environment based on GNOME"
+msgstr "Ambienti Gràfigu"
+
+#: share/meta-task/compssUsers.pl:179
+#, fuzzy, c-format
+msgid "LXQt Desktop"
+msgstr "IceWm Desktop"
+
+#: share/meta-task/compssUsers.pl:181
+#, c-format
+msgid "A next generation QT port of the lightweight desktop environment"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:184
+#, c-format
+msgid "Enlightenment e21 Desktop"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:186
+#, c-format
+msgid "A lightweight fast graphical environment with a dedicated following"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:189
+#, fuzzy, c-format
+msgid "LXDE Desktop"
+msgstr "IceWm Desktop"
+
+#: share/meta-task/compssUsers.pl:191
+#, fuzzy, c-format
+msgid "A lightweight fast graphical environment"
+msgstr "Ambienti Gràfigu"
+
+#: share/meta-task/compssUsers.pl:194
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "Atras scrianias gràfigas"
+
+#: share/meta-task/compssUsers.pl:195
+#, fuzzy, c-format
+msgid "Window Maker, Fvwm, etc"
+msgstr "Window Maker, Enlightenment, Fvwm, etc"
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, c-format
+msgid "SSH Server"
+msgstr "Server SSH"
+
+#: share/meta-task/compssUsers.pl:225
+#, c-format
+msgid "Webmin"
+msgstr "Webmin"
+
+#: share/meta-task/compssUsers.pl:226
+#, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:230
+#, c-format
+msgid "Network Utilities/Monitoring"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:235
+#, c-format
+msgid "Mageia Wizards"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:236
+#, c-format
+msgid "Wizards to configure server"
+msgstr ""
+
+#: steps.pm:85
+#, c-format
+msgid ""
+"An error occurred, but I do not know how to handle it nicely.\n"
+"Continue at your own risk."
+msgstr ""
+"Faddina. No sciu comenti ndi bessiri beni.\n"
+"Sighi a perìgulu tuu."
+
+#: steps.pm:460
+#, c-format
+msgid ""
+"Some important packages did not get installed properly.\n"
+"Either your cdrom drive or your cdrom is defective.\n"
+"Check the cdrom on an installed computer using \"rpm -qpl media/main/*.rpm"
+"\"\n"
+msgstr ""
+
+#: steps_auto_install.pm:71 steps_stdio.pm:27
+#, c-format
+msgid "Entering step `%s'\n"
+msgstr ""
+
+#: steps_curses.pm:22
+#, c-format
+msgid "%s Installation %s"
+msgstr "Aposentadura de %s %s"
+
+#: steps_curses.pm:32
+#, c-format
+msgid "<Tab>/<Alt-Tab> between elements"
+msgstr "<Tab>/<Alt-Tab> intr''e elementus"
+
+#: steps_gtk.pm:147
+#, c-format
+msgid "Xorg server is slow to start. Please wait..."
+msgstr ""
+
+#: steps_gtk.pm:212
+#, c-format
+msgid ""
+"Your system is low on resources. You may have some problem installing\n"
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
+msgstr ""
+
+#: steps_gtk.pm:242 steps_gtk.pm:754
+#, fuzzy, c-format
+msgid "Media Selection"
+msgstr "Càrriga/Sarva su sçoberu"
+
+#: steps_gtk.pm:253
+#, fuzzy, c-format
+msgid "Install %s Plasma Desktop"
+msgstr "IceWm Desktop"
+
+#: steps_gtk.pm:254
+#, c-format
+msgid "Install %s GNOME Desktop"
+msgstr ""
+
+#: steps_gtk.pm:255
+#, fuzzy, c-format
+msgid "Custom install"
+msgstr "Aposentadura minimali"
+
+#: steps_gtk.pm:276
+#, fuzzy, c-format
+msgid "Plasma Desktop"
+msgstr "IceWm Desktop"
+
+#: steps_gtk.pm:277
+#, fuzzy, c-format
+msgid "GNOME Desktop"
+msgstr "IceWm Desktop"
+
+#: steps_gtk.pm:278
+#, fuzzy, c-format
+msgid "Custom Desktop"
+msgstr "IceWm Desktop"
+
+#: steps_gtk.pm:284
+#, c-format
+msgid "Here's a preview of the '%s' desktop."
+msgstr ""
+
+#: steps_gtk.pm:311
+#, c-format
+msgid "Click on images in order to see a bigger preview"
+msgstr ""
+
+#: steps_gtk.pm:327 steps_interactive.pm:605 steps_list.pm:30
+#, c-format
+msgid "Package Group Selection"
+msgstr ""
+
+#: steps_gtk.pm:350 steps_interactive.pm:622
+#, c-format
+msgid "Individual package selection"
+msgstr "Sçoberu pakitus unu a unu"
+
+#: steps_gtk.pm:357
+#, c-format
+msgid "Unselect All"
+msgstr ""
+
+#: steps_gtk.pm:376 steps_interactive.pm:534
+#, c-format
+msgid "Total size: %d / %d MB"
+msgstr "Mesura totali: %d / %d MB"
+
+#: steps_gtk.pm:421
+#, c-format
+msgid "Version: "
+msgstr "Versioni: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "Size: "
+msgstr "Mesura: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "%d KB\n"
+msgstr "%d KB\n"
+
+#: steps_gtk.pm:423
+#, c-format
+msgid "Importance: "
+msgstr "Importu: "
+
+#: steps_gtk.pm:458
+#, c-format
+msgid "You cannot select/unselect this package"
+msgstr "No podis scerai/disiscerai custu pakitu"
+
+#: steps_gtk.pm:462
+#, c-format
+msgid "due to missing %s"
+msgstr "ca amancat %s"
+
+#: steps_gtk.pm:463
+#, c-format
+msgid "due to unsatisfied %s"
+msgstr "ca no est satisfatu %s"
+
+#: steps_gtk.pm:464
+#, c-format
+msgid "trying to promote %s"
+msgstr "provu a sçoberai %s"
+
+#: steps_gtk.pm:465
+#, c-format
+msgid "in order to keep %s"
+msgstr "po podi apoderai %s"
+
+#: steps_gtk.pm:470
+#, c-format
+msgid ""
+"You cannot select this package as there is not enough space left to install "
+"it"
+msgstr ""
+"No podis sçoberai custu pakitu, ca no dui at spàtziu abasta po d'aposentai"
+
+#: steps_gtk.pm:473
+#, c-format
+msgid "The following packages are going to be installed"
+msgstr "Megu a aposentai is pakitus ki sighint"
+
+#: steps_gtk.pm:474
+#, c-format
+msgid "The following packages are going to be removed"
+msgstr "Megu a srexinai is pakitus ki sighint"
+
+#: steps_gtk.pm:500
+#, c-format
+msgid "This is a mandatory package, it cannot be unselected"
+msgstr "Custu est unu palitu necessàriu, no fait a du disiscerai"
+
+#: steps_gtk.pm:502
+#, c-format
+msgid "You cannot unselect this package. It is already installed"
+msgstr "No fait a disiscerai custu pakitu. Est jai aposentau"
+
+#: steps_gtk.pm:504
+#, c-format
+msgid "You cannot unselect this package. It must be upgraded"
+msgstr "No fait a disiscerai custu pakitu. Bolit ajorronau"
+
+#: steps_gtk.pm:508
+#, c-format
+msgid "Show automatically selected packages"
+msgstr "Amosta in automàtigu is pakitus sçoberaus"
+
+#: steps_gtk.pm:512
+#, c-format
+msgid "Install"
+msgstr "Aposenta"
+
+#: steps_gtk.pm:515
+#, c-format
+msgid "Load/Save selection"
+msgstr "Càrriga/Sarva su sçoberu"
+
+#: steps_gtk.pm:516
+#, c-format
+msgid "Updating package selection"
+msgstr "Ajorronu su sçoberu de is pakitus"
+
+#: steps_gtk.pm:521
+#, c-format
+msgid "Minimal install"
+msgstr "Aposentadura minimali"
+
+#: steps_gtk.pm:534
+#, c-format
+msgid "Software Management"
+msgstr "Maniju de is programas"
+
+#: steps_gtk.pm:534 steps_interactive.pm:415
+#, c-format
+msgid "Choose the packages you want to install"
+msgstr "Sçobera is pakitus ki bolis aposentai"
+
+#: steps_gtk.pm:551 steps_interactive.pm:642 steps_list.pm:32
+#, c-format
+msgid "Installing"
+msgstr "Seu aposentendi"
+
+#: steps_gtk.pm:581
+#, c-format
+msgid "No details"
+msgstr ""
+
+#: steps_gtk.pm:600
+#, fuzzy, c-format
+msgid "Time remaining:"
+msgstr "Tempus ki abarrat "
+
+#: steps_gtk.pm:601
+#, fuzzy, c-format
+msgid "(estimating...)"
+msgstr "Seu carculendi"
+
+#: steps_gtk.pm:627
+#, fuzzy, c-format
+msgid "%d package"
+msgid_plural "%d packages"
+msgstr[0] "%d pakitus"
+msgstr[1] "%d pakitus"
+
+#: steps_gtk.pm:684 steps_interactive.pm:834 steps_list.pm:43
+#, c-format
+msgid "Summary"
+msgstr "Arresùmini"
+
+#: steps_gtk.pm:703
+#, c-format
+msgid "Configure"
+msgstr "Assètia"
+
+#: steps_gtk.pm:720 steps_interactive.pm:830 steps_interactive.pm:986
+#, c-format
+msgid "not configured"
+msgstr "no assetiau"
+
+#: steps_gtk.pm:763 steps_interactive.pm:315
+#, c-format
+msgid ""
+"The following installation media have been found.\n"
+"If you want to skip some of them, you can unselect them now."
+msgstr ""
+
+#: steps_gtk.pm:779 steps_interactive.pm:321
+#, c-format
+msgid ""
+"You have the option to copy the contents of the CDs onto the hard disk drive "
+"before installation.\n"
+"It will then continue from the hard disk drive and the packages will remain "
+"available once the system is fully installed."
+msgstr ""
+
+#: steps_gtk.pm:781 steps_interactive.pm:323
+#, c-format
+msgid "Copy whole CDs"
+msgstr "Còpia totu is CD"
+
+#: steps_interactive.pm:40
+#, c-format
+msgid "An error occurred"
+msgstr "Faddina"
+
+#: steps_interactive.pm:105
+#, c-format
+msgid "Please choose your keyboard layout"
+msgstr "Sçobera su skema de su tecrau"
+
+#: steps_interactive.pm:109
+#, fuzzy, c-format
+msgid "Here is the full list of available keyboards:"
+msgstr "Innoi sa lista de totu is tecraus a disposta"
+
+#: steps_interactive.pm:153
+#, c-format
+msgid "Install/Upgrade"
+msgstr "Aposenta/Ajorrona"
+
+#: steps_interactive.pm:157
+#, c-format
+msgid "Is this an install or an upgrade?"
+msgstr "Est una aposentadura o una ajorronadura?"
+
+#: steps_interactive.pm:159
+#, fuzzy, c-format
+msgid ""
+"_: This is a noun:\n"
+"Install"
+msgstr "Aposenta"
+
+#: steps_interactive.pm:161
+#, c-format
+msgid "Upgrade %s"
+msgstr "Ajorrona %s"
+
+#: steps_interactive.pm:184
+#, c-format
+msgid "Encryption key for %s"
+msgstr "Crai de cuadura po %s"
+
+#: steps_interactive.pm:217
+#, c-format
+msgid "Cancel installation, reboot system"
+msgstr ""
+
+#: steps_interactive.pm:218
+#, fuzzy, c-format
+msgid "New Installation"
+msgstr "Seu aposentendi"
+
+#: steps_interactive.pm:219
+#, c-format
+msgid "Upgrade previous installation (not recommended)"
+msgstr ""
+
+#: steps_interactive.pm:223
+#, c-format
+msgid ""
+"Installer has detected that your installed Linux system could not\n"
+"safely be upgraded to %s.\n"
+"\n"
+"New installation replacing your previous one is recommended.\n"
+"\n"
+"Warning : you should backup all your personal data before choosing \"New\n"
+"Installation\"."
+msgstr ""
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "CD/DVD"
+msgstr ""
+
+#: steps_interactive.pm:264
+#, fuzzy, c-format
+msgid "Configuring CD/DVD"
+msgstr "Assètiu IDE"
+
+#: steps_interactive.pm:354
+#, c-format
+msgid ""
+"Change your Cd-Rom!\n"
+"Please insert the Cd-Rom labelled \"%s\" in your drive and press Ok when "
+"done.\n"
+"If you do not have it, press Cancel to avoid installation from this Cd-Rom."
+msgstr ""
+"Càmbia su Cd-Rom!\n"
+"Intra su Cd-Rom etiketau \"%s\" in su ligidori e craca Ok candu as fatu.\n"
+"Ki no du tenis, craca Annudda po scampai s'aposentadura de custu Cd-Rom."
+
+#: steps_interactive.pm:372
+#, c-format
+msgid "Looking for available packages..."
+msgstr ""
+
+#: steps_interactive.pm:380
+#, c-format
+msgid ""
+"Your system does not have enough space left for installation or upgrade "
+"(%dMB > %dMB)"
+msgstr ""
+
+#: steps_interactive.pm:428
+#, c-format
+msgid ""
+"Please choose load or save package selection.\n"
+"The format is the same as auto_install generated files."
+msgstr ""
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Load"
+msgstr "Càrriga"
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Save"
+msgstr "Sarva"
+
+#: steps_interactive.pm:438
+#, c-format
+msgid "Bad file"
+msgstr "File malu"
+
+#: steps_interactive.pm:455
+#, fuzzy, c-format
+msgid "Plasma"
+msgstr "IceWm Desktop"
+
+#: steps_interactive.pm:456
+#, c-format
+msgid "GNOME"
+msgstr "GNOME"
+
+#: steps_interactive.pm:459
+#, c-format
+msgid "Desktop Selection"
+msgstr ""
+
+#: steps_interactive.pm:460
+#, c-format
+msgid "You can choose your workstation desktop profile."
+msgstr ""
+
+#: steps_interactive.pm:548
+#, c-format
+msgid "Selected size is larger than available space"
+msgstr ""
+
+#: steps_interactive.pm:572
+#, c-format
+msgid "Type of install"
+msgstr "Tipu de aposentadura"
+
+#: steps_interactive.pm:573
+#, c-format
+msgid ""
+"You have not selected any group of packages.\n"
+"Please choose the minimal installation you want:"
+msgstr ""
+
+#: steps_interactive.pm:578
+#, c-format
+msgid "With X"
+msgstr "Cun X"
+
+#: steps_interactive.pm:579
+#, fuzzy, c-format
+msgid "Install recommended packages"
+msgstr "Amosta in automàtigu is pakitus sçoberaus"
+
+#: steps_interactive.pm:580
+#, c-format
+msgid "With basic documentation (recommended!)"
+msgstr ""
+
+#: steps_interactive.pm:581
+#, c-format
+msgid "Truly minimal install (especially no urpmi)"
+msgstr ""
+
+#: steps_interactive.pm:633
+#, fuzzy, c-format
+msgid "Preparing upgrade..."
+msgstr "Apariçu su bootloader..."
+
+#: steps_interactive.pm:643
+#, c-format
+msgid "Preparing installation"
+msgstr "Apariçu s'aposentadura"
+
+#: steps_interactive.pm:651
+#, c-format
+msgid "Installing package %s"
+msgstr ""
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "There was an error ordering packages:"
+msgstr "Faddina in s'ordinadura de is pakitus:"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "Go on anyway?"
+msgstr "Sigu comuncas?"
+
+#: steps_interactive.pm:679
+#, fuzzy, c-format
+msgid "Retry"
+msgstr "Arrecasça"
+
+#: steps_interactive.pm:680
+#, c-format
+msgid "Skip this package"
+msgstr ""
+
+#: steps_interactive.pm:681
+#, c-format
+msgid "Skip all packages from medium \"%s\""
+msgstr ""
+
+#: steps_interactive.pm:682
+#, fuzzy, c-format
+msgid "Go back to media and packages selection"
+msgstr "Sarva su sçoberu de is pakitus"
+
+#: steps_interactive.pm:685
+#, fuzzy, c-format
+msgid "There was an error installing package %s."
+msgstr "Faddina in s'aposentadura de is pakitus:"
+
+#: steps_interactive.pm:704
+#, c-format
+msgid "Post-install configuration"
+msgstr "Assètiu pusti-aposentadura"
+
+#: steps_interactive.pm:711
+#, c-format
+msgid "Please ensure the Update Modules media is in drive %s"
+msgstr ""
+
+#: steps_interactive.pm:739 steps_interactive.pm:769 steps_list.pm:47
+#, c-format
+msgid "Updates"
+msgstr "Ajorronus"
+
+#: steps_interactive.pm:740
+#, c-format
+msgid "You now have the opportunity to setup online media."
+msgstr ""
+
+#: steps_interactive.pm:741
+#, c-format
+msgid "This allows to install security updates."
+msgstr ""
+
+#: steps_interactive.pm:742
+#, c-format
+msgid ""
+"To setup those media, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to setup the update media?"
+msgstr ""
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Failure when adding medium"
+msgstr ""
+
+#: steps_interactive.pm:762
+#, fuzzy, c-format
+msgid "Retry?"
+msgstr "Arrecasça"
+
+#: steps_interactive.pm:770
+#, c-format
+msgid ""
+"You now have the opportunity to download updated packages. These packages\n"
+"have been updated after the distribution was released. They may\n"
+"contain security or bug fixes.\n"
+"\n"
+"To download these packages, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to install the updates?"
+msgstr ""
+
+#. -PO: example: lilo-graphic on /dev/hda1
+#: steps_interactive.pm:878
+#, c-format
+msgid "%s on %s"
+msgstr "%s in %s"
+
+#: steps_interactive.pm:913 steps_interactive.pm:920 steps_interactive.pm:933
+#: steps_interactive.pm:950 steps_interactive.pm:965
+#, c-format
+msgid "Hardware"
+msgstr "Hardware"
+
+#: steps_interactive.pm:934 steps_interactive.pm:951
+#, c-format
+msgid "Sound card"
+msgstr "Skeda de Sonu"
+
+#: steps_interactive.pm:948
+#, c-format
+msgid "Graphical interface"
+msgstr "Interfaci Gràfiga"
+
+#: steps_interactive.pm:972 steps_interactive.pm:984
+#, c-format
+msgid "Network & Internet"
+msgstr "Arretza & Internet"
+
+#: steps_interactive.pm:985
+#, c-format
+msgid "Proxies"
+msgstr "Proxy"
+
+#: steps_interactive.pm:986
+#, c-format
+msgid "configured"
+msgstr "assetiau"
+
+#: steps_interactive.pm:996
+#, c-format
+msgid "Security Level"
+msgstr "Arrasu de Siguresa"
+
+#: steps_interactive.pm:1016
+#, c-format
+msgid "Firewall"
+msgstr "Firewall"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "activated"
+msgstr "abivau"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "disabled"
+msgstr "disabivau"
+
+#: steps_interactive.pm:1034
+#, c-format
+msgid "You have not configured X. Are you sure you really want this?"
+msgstr "No as assetiau ancora X. Siguru ses ca bolis custu?"
+
+#. -PO: This is NOT the boot loader (just the kernel initrds)!!!!
+#: steps_interactive.pm:1065
+#, fuzzy, c-format
+msgid "Preparing initial startup program..."
+msgstr "Apariçu s'aposentadura"
+
+#: steps_interactive.pm:1066
+#, c-format
+msgid "Be patient, this may take a while..."
+msgstr ""
+
+#: steps_interactive.pm:1082
+#, c-format
+msgid ""
+"In this security level, access to the files in the Windows partition is "
+"restricted to the administrator."
+msgstr ""
+
+#: steps_interactive.pm:1114
+#, c-format
+msgid "Insert a blank floppy in drive %s"
+msgstr "Intra unu floppy sbuidu in su trastu %s"
+
+#: steps_interactive.pm:1116
+#, c-format
+msgid "Creating auto install floppy..."
+msgstr ""
+
+#: steps_interactive.pm:1127
+#, c-format
+msgid ""
+"Some steps are not completed.\n"
+"\n"
+"Do you really want to quit now?"
+msgstr ""
+
+#: steps_interactive.pm:1137
+#, c-format
+msgid "Congratulations"
+msgstr "Cumprimentus"
+
+#: steps_interactive.pm:1140
+#, c-format
+msgid "Reboot"
+msgstr "Torra a allui"
+
+#. -PO: please keep the following messages very short: they must fit in the left list of the installer!!!
+#: steps_list.pm:16
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Language"
+msgstr "Lìngua"
+
+#: steps_list.pm:16 steps_list.pm:23
+#, c-format
+msgid "Localization"
+msgstr ""
+
+#: steps_list.pm:17
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"License"
+msgstr "Permissu"
+
+#: steps_list.pm:18
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Mouse"
+msgstr "Sòrixi"
+
+#: steps_list.pm:19 steps_list.pm:20
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Hard drive detection"
+msgstr "Controllu de su discu tostau"
+
+#: steps_list.pm:21 steps_list.pm:22
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installation class"
+msgstr ""
+
+#: steps_list.pm:23
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Keyboard"
+msgstr "Tecrau"
+
+#: steps_list.pm:24
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Security"
+msgstr "Siguresa"
+
+#: steps_list.pm:25
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Partitioning"
+msgstr "Pratzimentu"
+
+#: steps_list.pm:27 steps_list.pm:28
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Formatting"
+msgstr ""
+
+#: steps_list.pm:29
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Choosing packages"
+msgstr ""
+
+#: steps_list.pm:31
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installing"
+msgstr "Seu aposentendi"
+
+#: steps_list.pm:34
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Users"
+msgstr "Umperadoris"
+
+#: steps_list.pm:38 steps_list.pm:39
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Bootloader"
+msgstr "Bootloader"
+
+#: steps_list.pm:40 steps_list.pm:41
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Configure X"
+msgstr "Assètia X"
+
+#: steps_list.pm:42
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Summary"
+msgstr "Arresùmini"
+
+#: steps_list.pm:44 steps_list.pm:45
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Services"
+msgstr "Serbìtzius"
+
+#: steps_list.pm:46
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Updates"
+msgstr "Ajorronus"
+
+#: steps_list.pm:48
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Exit"
+msgstr "Bessi"
+
+#~ msgid "Do you have an ISA sound card?"
+#~ msgstr "Tenis una skeda de sonu ISA?"
+
+#, fuzzy
+#~ msgid "KDE Desktop"
+#~ msgstr "IceWm Desktop"
+
+#~ msgid "KDE"
+#~ msgstr "KDE"
+
+#~ msgid "CD-ROM"
+#~ msgstr "CD-ROM"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "KDE Workstation"
+
+#~ msgid "IDE"
+#~ msgstr "IDE"
+
+#~ msgid "Preparing bootloader..."
+#~ msgstr "Apariçu su bootloader..."
+
+#, fuzzy
+#~ msgid "RazorQT Desktop"
+#~ msgstr "IceWm Desktop"
+
+#~ msgid "Welcome"
+#~ msgstr "Beni beniu"
+
+#~ msgid "Bad package"
+#~ msgstr "Pakitu malu"
+
+#, fuzzy
+#~ msgid "Preparing boot images..."
+#~ msgstr "Apariçu su bootloader..."
+
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "Networking"
+#~ msgstr "Arretza"
+
+#~ msgid "IceWm Desktop"
+#~ msgstr "IceWm Desktop"
+
+#~ msgid "Contacting the mirror to get the list of available packages..."
+#~ msgstr "Cuntatu su sprigu po tenni sa lista de is pakitus a disposta..."
+
+#~ msgid "Unable to contact mirror %s"
+#~ msgstr "No potzu cuntatai su sprigu %s"
+
+#~ msgid "Generate auto install floppy"
+#~ msgstr "Crea unu floppy de aposentadura automàtiga"
+
+#~ msgid "Replay"
+#~ msgstr "Faiddu torra"
+
+#~ msgid "Automated"
+#~ msgstr "Automatisau"
+
+#~ msgid "Save packages selection"
+#~ msgstr "Sarva su sçoberu de is pakitus"
+
+#~ msgid "Do you want to use aboot?"
+#~ msgstr "Bolis impreai aboot?"
+
+#~ msgid "All"
+#~ msgstr "Totu"
+
+#~ msgid "TV card"
+#~ msgstr "Skeda TV"
+
+#~ msgid "Boot"
+#~ msgstr "Alluidura"
+
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "Authentication"
+#~ msgstr "Autentigadura"
+
+#~ msgid "Gwenview"
+#~ msgstr "Gwenview"
+
+#, fuzzy
+#~ msgid "Invictus Firewall"
+#~ msgstr "Interactive firewall"
+
+#~ msgid "DrakVPN"
+#~ msgstr "DrakVPN"
+
+#, fuzzy
+#~ msgid "(%d package, %d MB)"
+#~ msgid_plural "(%d packages, %d MB)"
+#~ msgstr[0] "%d pakitus"
+#~ msgstr[1] "%d pakitus"
+
+#~ msgid "%d packages"
+#~ msgstr "%d pakitus"
+
+#~ msgid "Language"
+#~ msgstr "Lìngua"
+
+#~ msgid "License"
+#~ msgstr "Permissu"
+
+#, fuzzy
+#~ msgid "Formatting"
+#~ msgstr "Seu carculendi"
+
+#, fuzzy
+#~ msgid "Choosing packages"
+#~ msgstr "Sçobera pakitus de aposentai"
+
+#~ msgid "Users"
+#~ msgstr "Umperadoris"
+
+#~ msgid "Networking"
+#~ msgstr "Arretza"
+
+#~ msgid "Configure X"
+#~ msgstr "Assètia X"

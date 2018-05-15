@@ -1,0 +1,96 @@
+This is the documentation for the "Update Modules" (Update Drivers)
+feature.
+
+This feature aims to propose new modules or replacement modules for the
+install and afterwards. This is useful when there is a firmware update for a
+given driver, an additional driver needed for something, etc.
+
+
+You must use a floppy disk with e2fs filesystem (NOT vfat/windows
+formatted). Use "mke2fs /dev/fd0" on your own box to format a floppy with
+e2fs filesystem.
+
+This disk may contain a number of kernel modules; some of them 
+may replace existing modules, some of them may be added.
+
+Create a directory per kernel version, named from the version, for example
+2.6.27-desktop586-0.rc8.2mnb. In this directory put the modules and a special
+file, named "to_load". This file will contain a series of module names, with
+optional module options; the program will try to load all these modules one
+after another, using file on the floppy if present, else using file within
+standard module repository. It can contain comments, these are strictly defined
+by the presence of a hash (#) character on column 0 of any line.
+
+This disk may also contain some update or new modules for installed kernels. 
+Those modules must be placed in directory <kernel-version>. They must be
+gzipped if the installed kernel modules are gzipped.
+
+You may need to specify the "category" so that new modules are used correctly.
+For example, a scsi module should be put in category disk/scsi so that it is
+put in scsi_hostadapter and initrd.
+
+
+Here's a typical scenario:
+
+
+1. Boot the floppy (or cdrom) with the option "updatemodules"
+
+   (you may do that by pressing F1 then entering "linux updatemodules")
+
+
+2. At the very beginning of the User Interface, you are asked to insert
+   the Update Modules disk. Insert the Update Modules disk and press
+   Enter.
+
+--=----=----=----=----=----=----=----=----=--
+Our example disk contains:
+
+[root@obiwan mnt]# ll floppy/*
+2.6.27-desktop586-0.rc8.2mnb/:
+total 541
+drwxrwxr-x 3 a a   1024 2009-03-09 12:09 kernel/
+-rw-rw-r-- 1 a a 547480 2009-03-09 12:04 msdos.ko
+-rw-rw-r-- 1 a a  54748 2009-03-09 12:04 ppa.ko
+-rw-rw-r-- 1 a a     79 2009-03-09 12:08 to_load
+[root@obiwan mnt]# cat floppy/*/to_load 
+# Update Drivers description file
+3c59x
+# fat is a dep for msdos
+fat
+# updated msdos (handling of 9+4 filenames)
+msdos
+ppa
+# ISA network card needing options
+ne io=0x300 irq=7
+# New module [list_modules: disk/scsi]
+a320raid
+[root@obiwan mnt]# (cd floppy/2.6.27-desktop586-0.rc8.2mnb ; find -type f)
+./msdos.ko
+./ppa.ko
+./to_load
+./kernel/fs/msdos/msdos.ko.gz
+./kernel/drivers/scsi/ppa.ko.gz
+./kernel/drivers/usb/host/uhci-hcd.ko.gz
+./kernel/drivers/usb/input/wacom.ko.gz
+[root@obiwan mnt]# 
+--=----=----=----=----=----=----=----=----=--
+
+
+3. The program reads the special file "to_load" and processes the files.
+
+	a- 3c59x   loaded from the marfile on the boot floppy
+	b- fat     loaded from the marfile on the boot floppy
+	c- msdos   loaded from the update modules floppy
+	d- ppa     loaded from the update modules floppy
+        e- ne      loaded from the marfile on the boot floppy
+
+
+
+!!! Beware !!!, the dependencies are not handled automatically in
+the case of load from the update modules floppy, that's why on
+our example we need to load "fat" from the standard modules
+before "msdos" from the update floppy.
+
+
+4. When system is installed, update floppy is asked again so that update
+modules for the installed kernels can be copied. Then depmod is called.

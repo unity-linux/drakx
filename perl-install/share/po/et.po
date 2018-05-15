@@ -1,0 +1,6929 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Marek Laane <qiilaq69@gmail.com>, 2014-2016
+# Marek Laane <qiilaq69@gmail.com>, 2014
+# Marek Laane <qiilaq69@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-12-12 23:00+0100\n"
+"PO-Revision-Date: 2017-04-29 11:02+0000\n"
+"Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
+"Language-Team: Estonian (http://www.transifex.com/MageiaLinux/mageia/"
+"language/et/)\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: any.pm:263 any.pm:1026 diskdrake/interactive.pm:650
+#: diskdrake/interactive.pm:874 diskdrake/interactive.pm:936
+#: diskdrake/interactive.pm:1028 diskdrake/interactive.pm:1055
+#: diskdrake/interactive.pm:1286 diskdrake/interactive.pm:1344 do_pkgs.pm:342
+#: do_pkgs.pm:387 interactive.pm:712 pkgs.pm:293
+#, c-format
+msgid "Please wait"
+msgstr "Palun oodake"
+
+#: any.pm:263
+#, c-format
+msgid "Bootloader installation in progress"
+msgstr "Paigaldatakse alglaadurit..."
+
+#: any.pm:274
+#, c-format
+msgid ""
+"LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+"the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+"error.\n"
+"This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+"\n"
+"Assign a new Volume ID?"
+msgstr ""
+"LiLo soovib anda kettale %s uut ID-d. Samas toob Windows NT,\n"
+"2000 või XP alglaadimisketta ID muutmine kaasa saatusliku\n"
+"Windowsi vea.\n"
+"See hoiatus ei käi Windows 95, 98 ega NT andmeketaste kohta.\n"
+"\n"
+"Kas anda kettale uus ID?"
+
+#: any.pm:285
+#, c-format
+msgid "Installation of bootloader failed. The following error occurred:"
+msgstr "Alglaaduri paigaldamine nurjus. Tekkis järgmine viga:"
+
+#: any.pm:325
+#, c-format
+msgid ""
+"You decided to install the bootloader on a partition.\n"
+"This implies you already have a bootloader on the hard disk drive you boot "
+"(eg: System Commander).\n"
+"\n"
+"On which drive are you booting?"
+msgstr ""
+"Otsustasite paigaldada alglaaduri partitsioonile.\n"
+"Sellest võib järeldada, et Teil on juba alglaadur kõvakettal, millelt Te "
+"alglaadimise sooritate (nt. System Commander).\n"
+"\n"
+"Milliselt kettalt Te alglaadimise sooritate?"
+
+#: any.pm:336
+#, c-format
+msgid "Bootloader Installation"
+msgstr "Alglaaduri paigaldamine"
+
+#: any.pm:340
+#, c-format
+msgid "Where do you want to install the bootloader?"
+msgstr "Kuhu soovite alglaaduri paigaldada?"
+
+#: any.pm:356
+#, c-format
+msgid "First sector (MBR) of drive %s"
+msgstr "Ketta %s algusesse (MBR)"
+
+#: any.pm:358
+#, c-format
+msgid "First sector of drive (MBR)"
+msgstr "Ketta algusesse (MBR)"
+
+#: any.pm:360
+#, c-format
+msgid "First sector of the root partition"
+msgstr "Juurpartitsiooni algusesse"
+
+#: any.pm:362
+#, c-format
+msgid "On Floppy"
+msgstr "Disketil"
+
+#: any.pm:364 pkgs.pm:289 ugtk2.pm:526 ugtk3.pm:600
+#, c-format
+msgid "Skip"
+msgstr "Jäta vahele"
+
+#: any.pm:392
+#, c-format
+msgid "Boot Style Configuration"
+msgstr "Alglaaduri stiil"
+
+#: any.pm:396
+#, c-format
+msgid "EFI System Partition"
+msgstr "EFI süsteemipartitsioon"
+
+#: any.pm:411
+#, c-format
+msgid "Bootloader main options"
+msgstr "Alglaaduri põhiseadistused"
+
+#: any.pm:415
+#, c-format
+msgid "Bootloader"
+msgstr "Alglaadur"
+
+#: any.pm:416
+#, c-format
+msgid "Bootloader to use"
+msgstr "Eelistatav alglaadur"
+
+#: any.pm:418
+#, c-format
+msgid "Boot device"
+msgstr "Alglaadimisseade"
+
+#: any.pm:420
+#, c-format
+msgid "Main options"
+msgstr "Põhivalikud"
+
+#: any.pm:421
+#, c-format
+msgid "Delay before booting default image"
+msgstr "Ooteaeg alglaadimisel"
+
+#: any.pm:422
+#, c-format
+msgid "Enable ACPI"
+msgstr "ACPI lubamine"
+
+#: any.pm:423
+#, c-format
+msgid "Enable SMP"
+msgstr "SMP lubamine"
+
+#: any.pm:424
+#, c-format
+msgid "Enable APIC"
+msgstr "APIC lubamine"
+
+#: any.pm:426
+#, c-format
+msgid "Enable Local APIC"
+msgstr "Kohaliku APIC lubamine"
+
+#: any.pm:427 security/level.pm:63
+#, c-format
+msgid "Security"
+msgstr "Turvalisus"
+
+#: any.pm:428 any.pm:950 any.pm:969 authentication.pm:249
+#: diskdrake/smbnfs_gtk.pm:181
+#, c-format
+msgid "Password"
+msgstr "Parool"
+
+#: any.pm:431 authentication.pm:260
+#, c-format
+msgid "The passwords do not match"
+msgstr "Paroolid ei klapi"
+
+#: any.pm:431 authentication.pm:260 diskdrake/interactive.pm:1513
+#, c-format
+msgid "Please try again"
+msgstr "Palun proovige veel"
+
+#: any.pm:433
+#, c-format
+msgid "You cannot use a password with %s"
+msgstr "%s puhul ei saa parooli kasutada"
+
+#: any.pm:437 any.pm:953 any.pm:971 authentication.pm:250
+#, c-format
+msgid "Password (again)"
+msgstr "Parool (uuesti)"
+
+#: any.pm:502
+#, c-format
+msgid "Image"
+msgstr "Laadefail"
+
+#: any.pm:503 any.pm:515
+#, c-format
+msgid "Root"
+msgstr "Juurpartitsioon"
+
+#: any.pm:504 any.pm:642
+#, c-format
+msgid "Append"
+msgstr "Lisaargumendid"
+
+#: any.pm:506
+#, c-format
+msgid "Xen append"
+msgstr "Xen'i lisaargument"
+
+#: any.pm:508
+#, c-format
+msgid "Requires password to boot"
+msgstr "Alglaadimiseks on vajalik parool"
+
+#: any.pm:509 any.pm:643
+#, c-format
+msgid "Video mode"
+msgstr "Ekraanilahutus"
+
+#: any.pm:510
+#, c-format
+msgid "Initrd"
+msgstr "Initrd"
+
+#: any.pm:511
+#, c-format
+msgid "Network profile"
+msgstr "Võrguprofiil"
+
+#: any.pm:519 diskdrake/interactive.pm:411
+#, c-format
+msgid "Label"
+msgstr "Nimi"
+
+#: any.pm:521 any.pm:640 harddrake/v4l.pm:438
+#, c-format
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: any.pm:529
+#, c-format
+msgid "Empty label not allowed"
+msgstr "Nimi ei tohi puududa"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a kernel image"
+msgstr "Teil peab olema kerneli laadepilt"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a root partition"
+msgstr "Teil peab olema juurpartitsioon"
+
+#: any.pm:531
+#, c-format
+msgid "This label is already used"
+msgstr "Selline nimi on juba kasutusel"
+
+#: any.pm:549
+#, c-format
+msgid "Which type of entry do you want to add?"
+msgstr "Millist kirjet soovite lisada?"
+
+#: any.pm:550
+#, c-format
+msgid "Linux"
+msgstr "Linux"
+
+#: any.pm:550
+#, c-format
+msgid "Other OS (Windows...)"
+msgstr "Muu OS (Windows...)"
+
+#: any.pm:597 any.pm:636
+#, c-format
+msgid "Bootloader Configuration"
+msgstr "Alglaaduri seadistamine"
+
+#: any.pm:598
+#, c-format
+msgid ""
+"Here are the entries on your boot menu so far.\n"
+"You can create additional entries or change the existing ones."
+msgstr ""
+"Praegu on kasutusel sellised kirjed.\n"
+"Te võite neid lisada ning olemasolevaid muuta."
+
+#: any.pm:645
+#, c-format
+msgid "Do not touch ESP or MBR"
+msgstr "ESP-i ega MBR-i ei puudutata"
+
+#: any.pm:647 diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:458
+#: diskdrake/interactive.pm:305 diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:605 diskdrake/interactive.pm:820
+#: diskdrake/interactive.pm:885 diskdrake/interactive.pm:1053
+#: diskdrake/interactive.pm:1095 diskdrake/interactive.pm:1096
+#: diskdrake/interactive.pm:1329 diskdrake/interactive.pm:1367
+#: diskdrake/interactive.pm:1512 do_pkgs.pm:45 do_pkgs.pm:74 do_pkgs.pm:100
+#: do_pkgs.pm:137
+#, c-format
+msgid "Warning"
+msgstr "Hoiatus"
+
+#: any.pm:648
+#, c-format
+msgid ""
+"Not installing on ESP or MBR means that the installation is not bootable "
+"unless chain loaded from another OS!"
+msgstr ""
+"ESP-ile või MBR-ile paigaldamata jätmine tähendab, et paigaldust ei saa "
+"käivitada, kui seda ei laadita just mõne teise operatsioonisüsteemi "
+"vahendusel!"
+
+#: any.pm:652
+#, c-format
+msgid "Probe Foreign OS"
+msgstr "Võõraste operatsioonisüsteemide otsimine"
+
+#: any.pm:653
+#, c-format
+msgid ""
+"If grub2 takes too long to install, you can use this option to skip "
+"detecting other OSes and make it fast"
+msgstr ""
+"Kui grub2 paigaldamine võtab liiga kaua aega, saab selle valikuga jätta "
+"võõraste operatsioonisüsteemide tuvastamise vahele ja muuta paigaldamise "
+"tunduvalt kiiremaks"
+
+#: any.pm:909
+#, c-format
+msgid "access to X programs"
+msgstr "ligipääs X'i rakendustele"
+
+#: any.pm:910
+#, c-format
+msgid "access to rpm tools"
+msgstr "ligipääs rpm-tööriistadele"
+
+#: any.pm:911
+#, c-format
+msgid "allow \"su\""
+msgstr "\"su\" lubamine"
+
+#: any.pm:912
+#, c-format
+msgid "access to administrative files"
+msgstr "ligipääs administreerimisfailidele"
+
+#: any.pm:913
+#, c-format
+msgid "access to network tools"
+msgstr "ligipääs võrgutööriistadele"
+
+#: any.pm:914
+#, c-format
+msgid "access to compilation tools"
+msgstr "ligipääs kompileerimistööriistadele"
+
+#: any.pm:920
+#, c-format
+msgid "(already added %s)"
+msgstr "(juba lisatud %s)"
+
+#: any.pm:926
+#, c-format
+msgid "Please give a user name"
+msgstr "Palun andke kasutajanimi"
+
+#: any.pm:927
+#, c-format
+msgid ""
+"The user name must start with a lower case letter followed by only lower "
+"cased letters, numbers, `-' and `_'"
+msgstr ""
+"Kasutajanimi peab algama väiketähega ja tohib sisaldada ainult väikesi "
+"tähti, arve ning märke \"-\" ja \"_\""
+
+#: any.pm:928
+#, c-format
+msgid "The user name is too long"
+msgstr "See kasutajanimi on liiga pikk"
+
+#: any.pm:929
+#, c-format
+msgid "This user name has already been added"
+msgstr "See kasutajanimi on juba lisatud"
+
+#: any.pm:935 any.pm:973
+#, c-format
+msgid "User ID"
+msgstr "Kasutaja ID"
+
+#: any.pm:935 any.pm:974
+#, c-format
+msgid "Group ID"
+msgstr "Grupi ID"
+
+#: any.pm:936
+#, c-format
+msgid "%s must be a number"
+msgstr "%s peab olema arv"
+
+#: any.pm:937
+#, c-format
+msgid "%s should be above 1000. Accept anyway?"
+msgstr "%s peab olema suurem kui 1000. Kas ikkagi lisada?"
+
+#: any.pm:941
+#, c-format
+msgid "User management"
+msgstr "Kasutajate haldamine"
+
+#: any.pm:947
+#, c-format
+msgid "Enable guest account"
+msgstr "Külaliskonto (guest) lubamine"
+
+#: any.pm:949 authentication.pm:236
+#, c-format
+msgid "Set administrator (root) password"
+msgstr "Administraatori (root) parool"
+
+#: any.pm:955
+#, c-format
+msgid "Enter a user"
+msgstr "Kasutaja lisamine"
+
+#: any.pm:957
+#, c-format
+msgid "Icon"
+msgstr "Ikoon"
+
+#: any.pm:960
+#, c-format
+msgid "Real name"
+msgstr "Pärisnimi"
+
+#: any.pm:967
+#, c-format
+msgid "Login name"
+msgstr "Kasutajatunnus"
+
+#: any.pm:972
+#, c-format
+msgid "Shell"
+msgstr "Shell"
+
+#: any.pm:976
+#, c-format
+msgid "Extra Groups:"
+msgstr "Lisagrupid:"
+
+#: any.pm:1026
+#, c-format
+msgid "Please wait, adding media..."
+msgstr "Palun oodake, lisatakse andmekandja..."
+
+#: any.pm:1078 security/l10n.pm:14
+#, c-format
+msgid "Autologin"
+msgstr "Automaatne sisselogimine"
+
+#: any.pm:1079
+#, c-format
+msgid "I can set up your computer to automatically log on one user."
+msgstr ""
+"Teie arvutis saab määrata kasutaja, kel on lubatud automaatselt sisse logida."
+
+#: any.pm:1080
+#, c-format
+msgid "Use this feature"
+msgstr "Selle võimaluse lubamine"
+
+#: any.pm:1081
+#, c-format
+msgid "Choose the default user:"
+msgstr "Valige kasutaja:"
+
+#: any.pm:1082
+#, c-format
+msgid "Choose the window manager to run:"
+msgstr "Valige käivitatav aknahaldur:"
+
+#: any.pm:1093 any.pm:1108 any.pm:1177
+#, c-format
+msgid "Release Notes"
+msgstr "Info väljalaske kohta"
+
+#: any.pm:1115 any.pm:1476 interactive/gtk.pm:820
+#, c-format
+msgid "Close"
+msgstr "Sulge"
+
+#: any.pm:1163
+#, c-format
+msgid "License agreement"
+msgstr "Lõppkasutaja litsentsileping"
+
+#: any.pm:1165 diskdrake/dav.pm:26 mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Quit"
+msgstr "Välju"
+
+#: any.pm:1172
+#, c-format
+msgid "Do you accept this license ?"
+msgstr "Kas olete selle litsentsiga nõus?"
+
+#: any.pm:1173
+#, c-format
+msgid "Accept"
+msgstr "Nõustun"
+
+#: any.pm:1173
+#, c-format
+msgid "Refuse"
+msgstr "Keeldun"
+
+#: any.pm:1199 any.pm:1262
+#, c-format
+msgid "Please choose a language to use"
+msgstr "Valige palun kasutatav keel"
+
+#: any.pm:1227
+#, c-format
+msgid ""
+"%s can support multiple languages. Select\n"
+"the languages you would like to install. They will be available\n"
+"when your installation is complete and you restart your system."
+msgstr ""
+"%s toetab paljusid keeli.\n"
+"Valige keeled, mida soovite paigaldada.\n"
+"Need muutuvad kasutatavaks, kui olete paigaldamise\n"
+"lõpetanud ja süsteemi taaskäivitanud."
+
+#: any.pm:1229 fs/partitioning_wizard.pm:194
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: any.pm:1230
+#, c-format
+msgid "Multiple languages"
+msgstr "Mitme keele valimine"
+
+#: any.pm:1231
+#, c-format
+msgid "Select Additional Languages"
+msgstr "Lisakeelte valimine"
+
+#: any.pm:1240 any.pm:1271
+#, c-format
+msgid "Old compatibility (non UTF-8) encoding"
+msgstr "Varasemaga ühilduv kodeering (mitte-UTF-8)"
+
+#: any.pm:1241
+#, c-format
+msgid "All languages"
+msgstr "Kõik keeled"
+
+#: any.pm:1263
+#, c-format
+msgid "Language choice"
+msgstr "Keelevalik"
+
+#: any.pm:1317
+#, c-format
+msgid "Country / Region"
+msgstr "Riik / Piirkond"
+
+#: any.pm:1318
+#, c-format
+msgid "Please choose your country"
+msgstr "Palun valige oma riik"
+
+#: any.pm:1320
+#, c-format
+msgid "Here is the full list of available countries"
+msgstr "See on kõigi riikide täielik nimekiri"
+
+#: any.pm:1321
+#, c-format
+msgid "Other Countries"
+msgstr "Muud riigid"
+
+#: any.pm:1321 interactive.pm:491 interactive/gtk.pm:444
+#, c-format
+msgid "Advanced"
+msgstr "Edasijõudnuile"
+
+#: any.pm:1327
+#, c-format
+msgid "Input method:"
+msgstr "Sisestusmeetod:"
+
+#: any.pm:1330
+#, c-format
+msgid "None"
+msgstr "Puudub"
+
+#: any.pm:1421
+#, c-format
+msgid "No sharing"
+msgstr "Jagamiseta"
+
+#: any.pm:1421
+#, c-format
+msgid "Allow all users"
+msgstr "Lubatud kõigile kasutajatele"
+
+#: any.pm:1421
+#, c-format
+msgid "Custom"
+msgstr "Kohandatud"
+
+#: any.pm:1425
+#, c-format
+msgid ""
+"Would you like to allow users to share some of their directories?\n"
+"Allowing this will permit users to simply click on \"Share\" in konqueror "
+"and nautilus.\n"
+"\n"
+"\"Custom\" permit a per-user granularity.\n"
+msgstr ""
+"Kas lubada kasutajatel jagada mõningaid oma katalooge?\n"
+"Lubamine võimaldab kasutajal seda teha lihtsalt klõpsuga sildil \"Jaga\" "
+"Konqueroris ja Nautiluses.\n"
+"\n"
+"\"Kohandatud\" lubab määrata seda kasutajate kaupa.\n"
+
+#: any.pm:1437
+#, c-format
+msgid ""
+"NFS: the traditional Unix file sharing system, with less support on Mac and "
+"Windows."
+msgstr ""
+"NFS: UNIX-i traditsiooniline failijagamissüsteem, mida Mac ja Windows eriti "
+"ei toeta."
+
+#: any.pm:1440
+#, c-format
+msgid ""
+"SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
+"systems."
+msgstr ""
+"SMB: failijagamissüsteem, mida toetavad Windows, Mac OS X ja enamik moodsaid "
+"Linuxi süsteeme."
+
+#: any.pm:1448
+#, c-format
+msgid ""
+"You can export using NFS or SMB. Please select which you would like to use."
+msgstr "Eksportida saab NFS või SMB abil. Palun valige, kumba kasutada."
+
+#: any.pm:1476
+#, c-format
+msgid "Launch userdrake"
+msgstr "Userdrake käivitamine"
+
+#: any.pm:1478
+#, c-format
+msgid ""
+"The per-user sharing uses the group \"fileshare\". \n"
+"You can use userdrake to add a user to this group."
+msgstr ""
+"Kasutaja kaupa jagamise lubamine rakendab gruppi \"fileshare\". \n"
+"Sellesse gruppi kasutajate lisamiseks saab tarvitada userdraket."
+
+#: any.pm:1585
+#, c-format
+msgid ""
+"You need to logout and back in again for changes to take effect. Press OK to "
+"logout now."
+msgstr ""
+"Muudatuste rakendamiseks tuleb end uuesti sisse logida. Vajutage "
+"väljalogimiseks OK."
+
+#: any.pm:1589
+#, c-format
+msgid "You need to log out and back in again for changes to take effect"
+msgstr "Muudatuste rakendamiseks tuleb end uuesti sisse logida"
+
+#: any.pm:1624
+#, c-format
+msgid "Timezone"
+msgstr "Ajavöönd"
+
+#: any.pm:1624
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Millises ajavöötmes asute?"
+
+#: any.pm:1647 any.pm:1649
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Kuupäeva, kellaaja ja ajavööndi seadistamine"
+
+#: any.pm:1650
+#, c-format
+msgid "What is the best time?"
+msgstr "Milline on korrektne aeg?"
+
+#: any.pm:1654
+#, c-format
+msgid "%s (hardware clock set to UTC)"
+msgstr "%s (arvuti sisekell on seatud GMT ajale)"
+
+#: any.pm:1655
+#, c-format
+msgid "%s (hardware clock set to local time)"
+msgstr "%s (arvuti sisekell on seatud kohalikule ajale)"
+
+#: any.pm:1657
+#, c-format
+msgid "NTP Server"
+msgstr "NTP server"
+
+#: any.pm:1658
+#, c-format
+msgid "Automatic time synchronization (using NTP)"
+msgstr "Aja automaatne sünkroniseerimine (NTP abil)"
+
+#: authentication.pm:24
+#, c-format
+msgid "Local file"
+msgstr "Kohalik fail"
+
+#: authentication.pm:25
+#, c-format
+msgid "LDAP"
+msgstr "LDAP"
+
+#: authentication.pm:26
+#, c-format
+msgid "NIS"
+msgstr "NIS"
+
+#: authentication.pm:27
+#, c-format
+msgid "Smart Card"
+msgstr "Kiipkaart"
+
+#: authentication.pm:28 authentication.pm:215
+#, c-format
+msgid "Windows Domain"
+msgstr "Windowsi domeen"
+
+#: authentication.pm:29
+#, c-format
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: authentication.pm:65
+#, c-format
+msgid "Local file:"
+msgstr "Kohalik fail:"
+
+#: authentication.pm:65
+#, c-format
+msgid ""
+"Use local for all authentication and information user tell in local file"
+msgstr "Kohaliku faili kasutamine kogu autentimiseks ja kasutaja antud teabeks"
+
+#: authentication.pm:66
+#, c-format
+msgid "LDAP:"
+msgstr "LDAP:"
+
+#: authentication.pm:66
+#, c-format
+msgid ""
+"Tells your computer to use LDAP for some or all authentication. LDAP "
+"consolidates certain types of information within your organization."
+msgstr ""
+"Paneb arvuti vähemalt osaliselt kasutama autentimiseks LDAP-i. LDAP sisaldab "
+"reeglina teatud laadi organisatsioonisisest infot."
+
+#: authentication.pm:67
+#, c-format
+msgid "NIS:"
+msgstr "NIS:"
+
+#: authentication.pm:67
+#, c-format
+msgid ""
+"Allows you to run a group of computers in the same Network Information "
+"Service domain with a common password and group file."
+msgstr ""
+"Võimaldab rühmal arvutitel töötada samas võrguinfoteenuse (NIS) domeenis "
+"ühise parooli- ja grupifailiga."
+
+#: authentication.pm:68
+#, c-format
+msgid "Windows Domain:"
+msgstr "Windowsi domeen:"
+
+#: authentication.pm:68
+#, c-format
+msgid ""
+"Winbind allows the system to retrieve information and authenticate users in "
+"a Windows domain."
+msgstr ""
+"Winbind võimaldab süsteemil hankida infot ja autentida kasutajaid Windowsi "
+"domeenis."
+
+#: authentication.pm:69
+#, c-format
+msgid "Kerberos 5 :"
+msgstr "Kerberos 5: "
+
+#: authentication.pm:69
+#, c-format
+msgid "With Kerberos and LDAP for authentication in Active Directory Server "
+msgstr "Kerberos ja LDAP autentimiseks Active Directory serveris "
+
+#: authentication.pm:106 authentication.pm:140 authentication.pm:159
+#: authentication.pm:160 authentication.pm:186 authentication.pm:210
+#: authentication.pm:881
+#, c-format
+msgid " "
+msgstr " "
+
+#: authentication.pm:107 authentication.pm:141 authentication.pm:187
+#: authentication.pm:211
+#, c-format
+msgid "Welcome to the Authentication Wizard"
+msgstr "Tere tulemast kasutama autentimisnõustajat"
+
+#: authentication.pm:109
+#, c-format
+msgid ""
+"You have selected LDAP authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Olete valinud LDAP-autentimise. Palun vaadake allpool üle seadistamisvalikud."
+
+#: authentication.pm:111 authentication.pm:166
+#, c-format
+msgid "LDAP Server"
+msgstr "LDAP-server"
+
+#: authentication.pm:112 authentication.pm:167
+#, c-format
+msgid "Base dn"
+msgstr "Baas-DN"
+
+#: authentication.pm:113
+#, c-format
+msgid "Fetch base Dn "
+msgstr "Hangi baas-DN "
+
+#: authentication.pm:115 authentication.pm:170
+#, c-format
+msgid "Use encrypt connection with TLS "
+msgstr "TLS-iga krüptitud ühenduse kasutamine "
+
+#: authentication.pm:116 authentication.pm:171
+#, c-format
+msgid "Download CA Certificate "
+msgstr "SK sertifikaadi allalaadimine "
+
+#: authentication.pm:118 authentication.pm:151
+#, c-format
+msgid "Use Disconnect mode "
+msgstr "Lahutatud režiimi kasutamine "
+
+#: authentication.pm:119 authentication.pm:172
+#, c-format
+msgid "Use anonymous BIND "
+msgstr "Anonüümse BIND-i kasutamine "
+
+#: authentication.pm:120 authentication.pm:123 authentication.pm:125
+#: authentication.pm:129
+#, c-format
+msgid "  "
+msgstr "  "
+
+#: authentication.pm:121 authentication.pm:173
+#, c-format
+msgid "Bind DN "
+msgstr "BIND-i DN "
+
+#: authentication.pm:122 authentication.pm:174
+#, c-format
+msgid "Bind Password "
+msgstr "BIND-i parool "
+
+#: authentication.pm:124
+#, c-format
+msgid "Advanced path for group "
+msgstr "Grupi täpsem asukoht "
+
+#: authentication.pm:126
+#, c-format
+msgid "Password base"
+msgstr "Parooli baas"
+
+#: authentication.pm:127
+#, c-format
+msgid "Group base"
+msgstr "Grupi baas"
+
+#: authentication.pm:128
+#, c-format
+msgid "Shadow base"
+msgstr "Variparooli baas"
+
+#: authentication.pm:143
+#, c-format
+msgid ""
+"You have selected Kerberos 5 authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Olete valinud Kerberos 5 autentimise. Palun vaadake allpool üle "
+"seadistamisvalikud."
+
+#: authentication.pm:145
+#, c-format
+msgid "Realm "
+msgstr "Valdus "
+
+#: authentication.pm:147
+#, c-format
+msgid "KDCs Servers"
+msgstr "KDC serverid"
+
+#: authentication.pm:149
+#, c-format
+msgid "Use DNS to locate KDC for the realm"
+msgstr "DNS-i kasutamine valduse KDC-de lahendamiseks "
+
+#: authentication.pm:150
+#, c-format
+msgid "Use DNS to locate realms"
+msgstr "DNS-i kasutamine valduse masinate lahendamiseks"
+
+#: authentication.pm:155
+#, c-format
+msgid "Use local file for users information"
+msgstr "Kohaliku faili kasutamine kasutaja teabe hankimiseks"
+
+#: authentication.pm:156
+#, c-format
+msgid "Use LDAP for users information"
+msgstr "LDAP-i kasutamine kasutaja teabe hankimiseks"
+
+#: authentication.pm:162
+#, c-format
+msgid ""
+"You have selected Kerberos 5 for authentication, now you must choose the "
+"type of users information "
+msgstr ""
+"Olete valinud autentimiseks Kerberos 5, nüüd tuleb valida kasutaja teabe "
+"tüüp "
+
+#: authentication.pm:168
+#, c-format
+msgid "Fecth base Dn "
+msgstr "Hangi baas-DN "
+
+#: authentication.pm:189
+#, c-format
+msgid ""
+"You have selected NIS authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Olete valinud NIS-autentimise. Palun vaadake allpool üle seadistamisvalikud "
+
+#: authentication.pm:191
+#, c-format
+msgid "NIS Domain"
+msgstr "NIS domeen"
+
+#: authentication.pm:192
+#, c-format
+msgid "NIS Server"
+msgstr "NIS server"
+
+#: authentication.pm:213
+#, c-format
+msgid ""
+"You have selected Windows Domain authentication. Please review the "
+"configuration options below "
+msgstr ""
+"Olete valinud Windowsi domeeni autentimise. Palun vaadake allpool üle "
+"seadistamisvalikud "
+
+#: authentication.pm:217
+#, c-format
+msgid "Domain Model "
+msgstr "Domeeni mudel "
+
+#: authentication.pm:219
+#, c-format
+msgid "Active Directory Realm "
+msgstr "Active Directory võrk "
+
+#: authentication.pm:220
+#, c-format
+msgid "DNS Domain"
+msgstr "DNS domeen"
+
+#: authentication.pm:221
+#, c-format
+msgid "DC Server"
+msgstr "DC server"
+
+#: authentication.pm:235 authentication.pm:251
+#, c-format
+msgid "Authentication"
+msgstr "Autentimine"
+
+#: authentication.pm:237
+#, c-format
+msgid "Authentication method"
+msgstr "Autentimisviis"
+
+#. -PO: keep this short or else the buttons will not fit in the window
+#: authentication.pm:242
+#, c-format
+msgid "No password"
+msgstr "Parool puudub"
+
+#: authentication.pm:263
+#, c-format
+msgid "This password is too short (it must be at least %d characters long)"
+msgstr "Parool on liiga lühike (peaks olema vähemalt %d tähemärki)"
+
+#: authentication.pm:375
+#, c-format
+msgid "Cannot use broadcast with no NIS domain"
+msgstr "Leviedastuse kasutamine ilma NIS-domeenita ei ole võimalik"
+
+#: authentication.pm:876
+#, c-format
+msgid "Select file"
+msgstr "Valige fail"
+
+#: authentication.pm:882
+#, c-format
+msgid "Domain Windows for authentication : "
+msgstr "Windowsi domeen autentimiseks: "
+
+#: authentication.pm:884
+#, c-format
+msgid "Domain Admin User Name"
+msgstr "Domeeni administraatori kasutajatunnus"
+
+#: authentication.pm:885
+#, c-format
+msgid "Domain Admin Password"
+msgstr "Domeeni administraatori parool"
+
+#. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
+#: bootloader.pm:1122
+#, c-format
+msgid ""
+"Welcome to the operating system chooser!\n"
+"\n"
+"Choose an operating system from the list above or\n"
+"wait for default boot.\n"
+"\n"
+msgstr ""
+"Tere tulemast! Arvuti hakkab end laadima!\n"
+"\n"
+"Valige nimekirjast eelistatav OS\n"
+"ehk oodake, kuni laetakse vaikimisi valitu.\n"
+"\n"
+
+#: bootloader.pm:1287
+#, c-format
+msgid "LILO with text menu"
+msgstr "LiLo tekstirežiimis"
+
+#: bootloader.pm:1288
+#, c-format
+msgid "GRUB2 with graphical menu"
+msgstr "GRUB2 graafilise menüüga"
+
+#: bootloader.pm:1289
+#, c-format
+msgid "GRUB2 with text menu"
+msgstr "GRUB2 tekstirežiimis"
+
+#: bootloader.pm:1290
+#, c-format
+msgid "GRUB with graphical menu"
+msgstr "GRUB graafilise menüüga"
+
+#: bootloader.pm:1291
+#, c-format
+msgid "GRUB with text menu"
+msgstr "GRUB tekstirežiimis"
+
+#: bootloader.pm:1378
+#, c-format
+msgid "not enough room in /boot"
+msgstr "/boot on liiga täis"
+
+#: bootloader.pm:2393
+#, c-format
+msgid ""
+"Your bootloader configuration must be updated because partition has been "
+"renumbered"
+msgstr "Alglaaduri seadistust tuleb uuendada, sest partitsioon on ümber seatud"
+
+#: bootloader.pm:2406
+#, c-format
+msgid ""
+"The bootloader cannot be installed correctly. You have to boot rescue and "
+"choose \"%s\""
+msgstr ""
+"Alglaadurit ei saa korrektselt paigaldada. Peate tegema taaskäivituse "
+"päästerežiimi (rescue) ja valima \"%s\""
+
+#: bootloader.pm:2407
+#, c-format
+msgid "Re-install Boot Loader"
+msgstr "Alglaaduri taaspaigaldamine"
+
+#: common.pm:271
+#, c-format
+msgid "B"
+msgstr "B"
+
+#: common.pm:271
+#, c-format
+msgid "KB"
+msgstr "KB"
+
+#: common.pm:271
+#, c-format
+msgid "MB"
+msgstr "MB"
+
+#: common.pm:271
+#, c-format
+msgid "GB"
+msgstr "GB"
+
+#: common.pm:271 common.pm:280
+#, c-format
+msgid "TB"
+msgstr "TB"
+
+#. -PO: here, "2:30" is remaining installation time (eg: "2:30" == 2 hour & 30 minutes)
+#: common.pm:288
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#: common.pm:290
+#, c-format
+msgid "%d minutes"
+msgstr "%d minutit"
+
+#: common.pm:292
+#, c-format
+msgid "1 minute"
+msgstr "1 minut"
+
+#: common.pm:294
+#, c-format
+msgid "%d seconds"
+msgstr "%d sekundit"
+
+#: diskdrake/dav.pm:17
+#, c-format
+msgid ""
+"WebDAV is a protocol that allows you to mount a web server's directory\n"
+"locally, and treat it like a local filesystem (provided the web server is\n"
+"configured as a WebDAV server). If you would like to add WebDAV mount\n"
+"points, select \"New\"."
+msgstr ""
+"WebDAV on protokoll, mis võimaldab haakida veebiserveri kataloogi\n"
+"kohalikult ning käsitleda seda kui kohalikku failisüsteemi (eeldusel, et\n"
+"veebiserver on seadistatud WebDAV-serverina). Kui soovite lisada\n"
+"WebDAVi haakepunkte, klõpsake nupule \"Uus\"."
+
+#: diskdrake/dav.pm:25
+#, c-format
+msgid "New"
+msgstr "Uus"
+
+#: diskdrake/dav.pm:63 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:75
+#, c-format
+msgid "Unmount"
+msgstr "Lahuta"
+
+#: diskdrake/dav.pm:64 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:76
+#, c-format
+msgid "Mount"
+msgstr "Haagi"
+
+#: diskdrake/dav.pm:65
+#, c-format
+msgid "Server"
+msgstr "Server"
+
+#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
+#: diskdrake/interactive.pm:727 diskdrake/interactive.pm:745
+#: diskdrake/interactive.pm:749 diskdrake/removable.pm:23
+#: diskdrake/smbnfs_gtk.pm:79
+#, c-format
+msgid "Mount point"
+msgstr "Haakepunkt"
+
+#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
+#: diskdrake/interactive.pm:1182 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:80
+#, c-format
+msgid "Options"
+msgstr "Eelistused"
+
+#: diskdrake/dav.pm:68 interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Remove"
+msgstr "Eemalda"
+
+#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:221 diskdrake/removable.pm:26
+#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
+#, c-format
+msgid "Done"
+msgstr "Tehtud"
+
+#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:153 diskdrake/hd_gtk.pm:323
+#: diskdrake/interactive.pm:246 diskdrake/interactive.pm:259
+#: diskdrake/interactive.pm:460 diskdrake/interactive.pm:535
+#: diskdrake/interactive.pm:553 diskdrake/interactive.pm:558
+#: diskdrake/interactive.pm:717 diskdrake/interactive.pm:1020
+#: diskdrake/interactive.pm:1073 diskdrake/interactive.pm:1229
+#: diskdrake/interactive.pm:1242 diskdrake/interactive.pm:1245
+#: diskdrake/interactive.pm:1513 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:49
+#: do_pkgs.pm:54 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:108 do_pkgs.pm:142
+#: fsedit.pm:266 interactive/http.pm:117 interactive/http.pm:118
+#: modules/interactive.pm:19 scanner.pm:94 scanner.pm:105 scanner.pm:112
+#: scanner.pm:119 wizards.pm:95 wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "Viga"
+
+#: diskdrake/dav.pm:86
+#, c-format
+msgid "Please enter the WebDAV server URL"
+msgstr "Palun sisestage WebDAV-serveri URL"
+
+#: diskdrake/dav.pm:90
+#, c-format
+msgid "The URL must begin with http:// or https://"
+msgstr "URL peab algama kas http:// või https://"
+
+#: diskdrake/dav.pm:106
+#, c-format
+msgid "Are you sure you want to delete this mount point?"
+msgstr "Kas tõesti kustutada see haakepunkt?"
+
+#: diskdrake/dav.pm:124
+#, c-format
+msgid "Server: "
+msgstr "Server: "
+
+#: diskdrake/dav.pm:125 diskdrake/interactive.pm:505
+#: diskdrake/interactive.pm:1391 diskdrake/interactive.pm:1473
+#, c-format
+msgid "Mount point: "
+msgstr "Haakepunkt: "
+
+#: diskdrake/dav.pm:126 diskdrake/interactive.pm:1480
+#, c-format
+msgid "Options: %s"
+msgstr "Eelistused: %s"
+
+#: diskdrake/hd_gtk.pm:61 diskdrake/interactive.pm:300
+#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:113
+#: fs/partitioning_wizard.pm:66 fs/partitioning_wizard.pm:264
+#: fs/partitioning_wizard.pm:272 fs/partitioning_wizard.pm:310
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:529
+#: fs/partitioning_wizard.pm:614 fs/partitioning_wizard.pm:617
+#, c-format
+msgid "Partitioning"
+msgstr "Kõvaketta jagamine"
+
+#: diskdrake/hd_gtk.pm:74
+#, c-format
+msgid "Click on a partition, choose a filesystem type then choose an action"
+msgstr "Klõpsake partitsioonil, valige failisüsteemi tüüp ja seejärel toiming"
+
+#: diskdrake/hd_gtk.pm:133 diskdrake/interactive.pm:1203
+#: diskdrake/interactive.pm:1213 diskdrake/interactive.pm:1267
+#, c-format
+msgid "Read carefully"
+msgstr "Lugege hoolega"
+
+#: diskdrake/hd_gtk.pm:133
+#, c-format
+msgid "Please make a backup of your data first"
+msgstr "Palun tehke oma andmetest kõigepealt varukoopia"
+
+#: diskdrake/hd_gtk.pm:134 diskdrake/interactive.pm:239
+#, c-format
+msgid "Exit"
+msgstr "Välju"
+
+#: diskdrake/hd_gtk.pm:134
+#, c-format
+msgid "Continue"
+msgstr "Jätka"
+
+#: diskdrake/hd_gtk.pm:216 fs/partitioning_wizard.pm:590 interactive.pm:778
+#: interactive/gtk.pm:812 interactive/gtk.pm:830 interactive/gtk.pm:862
+#: ugtk2.pm:934 ugtk3.pm:1030
+#, c-format
+msgid "Help"
+msgstr "Abi"
+
+#: diskdrake/hd_gtk.pm:257
+#, c-format
+msgid ""
+"You have one big Microsoft Windows partition.\n"
+"I suggest you first resize that partition\n"
+"(click on it, then click on \"Resize\")"
+msgstr ""
+"Teil on üks suur FAT partitsioon\n"
+"(tavaliselt kasutab sellist MS DOS/Windows)\n"
+"Soovitame Teil esmalt selle suurust muuta\n"
+"(klõpsake ja siis valige \"Muuda\")"
+
+#: diskdrake/hd_gtk.pm:259
+#, c-format
+msgid "Please click on a partition"
+msgstr "Palun valige partitsioon"
+
+#: diskdrake/hd_gtk.pm:273 diskdrake/smbnfs_gtk.pm:63
+#, c-format
+msgid "Details"
+msgstr "Üksikasjad"
+
+#: diskdrake/hd_gtk.pm:323
+#, c-format
+msgid "No hard disk drives found"
+msgstr "Kõvakettaid ei leitud"
+
+#: diskdrake/hd_gtk.pm:362
+#, c-format
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#: diskdrake/hd_gtk.pm:429
+#, c-format
+msgid "Ext4"
+msgstr "Ext4"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "XFS"
+msgstr "XFS"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Swap"
+msgstr "Saaleala"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Windows"
+msgstr "Windows"
+
+#: diskdrake/hd_gtk.pm:430 fs/partitioning_wizard.pm:437 services.pm:201
+#, c-format
+msgid "Other"
+msgstr "Muu"
+
+#: diskdrake/hd_gtk.pm:430 diskdrake/interactive.pm:1397
+#: fs/partitioning_wizard.pm:437
+#, c-format
+msgid "Empty"
+msgstr "Tühi"
+
+#: diskdrake/hd_gtk.pm:437
+#, c-format
+msgid "Filesystem types:"
+msgstr "Failisüsteemi tüübid: "
+
+#: diskdrake/hd_gtk.pm:458
+#, c-format
+msgid "This partition is already empty"
+msgstr "See partitsioon on juba tühi"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``Unmount'' first"
+msgstr "Valige enne \"Lahuta\""
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``%s'' instead (in expert mode)"
+msgstr "Valige pigem \"%s\" (ekspertrežiimis)"
+
+#: diskdrake/hd_gtk.pm:467 diskdrake/interactive.pm:409
+#: diskdrake/interactive.pm:644 diskdrake/removable.pm:25
+#: diskdrake/removable.pm:48
+#, c-format
+msgid "Type"
+msgstr "Tüüp"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose another partition"
+msgstr "Valige muu partitsioon"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose a partition"
+msgstr "Valige partitsioon"
+
+#: diskdrake/interactive.pm:272 diskdrake/interactive.pm:382
+#: interactive/curses.pm:532
+#, c-format
+msgid "More"
+msgstr "Veel..."
+
+#: diskdrake/interactive.pm:280 diskdrake/interactive.pm:293
+#: diskdrake/interactive.pm:1313 mygtk2.pm:1228 mygtk3.pm:1311
+#, c-format
+msgid "Confirmation"
+msgstr "Kinnitus"
+
+#: diskdrake/interactive.pm:280
+#, c-format
+msgid "Continue anyway?"
+msgstr "Kas ikkagi jätkata?"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without saving"
+msgstr "Välju ilma salvestamata"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "Kas väljuda partitsioonitabelit salvestamata?"
+
+#: diskdrake/interactive.pm:293
+#, c-format
+msgid "Do you want to save the /etc/fstab modifications?"
+msgstr "Kas salvestada /etc/fstab muudatused?"
+
+#: diskdrake/interactive.pm:300 fs/partitioning_wizard.pm:310
+#, c-format
+msgid "You need to reboot for the partition table modifications to take effect"
+msgstr "Partitsioonitabeli muudatuste rakendamiseks on vajalik taaskäivitamine"
+
+#: diskdrake/interactive.pm:305
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+"Teil tuleks vormindada partitsioon %s.\n"
+"Vastasel juhul ei kirjutata fstab-i haakepunktile %s üldse kirjet.\n"
+"Kas sellele vaatamata väljuda?"
+
+#: diskdrake/interactive.pm:318
+#, c-format
+msgid "Clear all"
+msgstr "Kustuta kõik"
+
+#: diskdrake/interactive.pm:319
+#, c-format
+msgid "Auto allocate"
+msgstr "Automaatne jagamine"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Normal mode"
+msgstr "Tavarežiimi"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Expert mode"
+msgstr "Ekspertrežiimi"
+
+#: diskdrake/interactive.pm:337
+#, c-format
+msgid "Hard disk drive information"
+msgstr "Kõvaketta teave"
+
+#: diskdrake/interactive.pm:371
+#, c-format
+msgid "All primary partitions are used"
+msgstr "Kõik primaarsed partitsioonid on kasutusel"
+
+#: diskdrake/interactive.pm:372
+#, c-format
+msgid "I cannot add any more partitions"
+msgstr "Rohkem partitsioone ei saa lisada"
+
+#: diskdrake/interactive.pm:373
+#, c-format
+msgid ""
+"To have more partitions, please delete one to be able to create an extended "
+"partition"
+msgstr ""
+"Et saada rohkem partitsioone, kustutage palun üks, et luua laiendatud "
+"partitsioon"
+
+#: diskdrake/interactive.pm:384
+#, c-format
+msgid "Reload partition table"
+msgstr "Laadi partitsioonitabel uuesti"
+
+#: diskdrake/interactive.pm:391
+#, c-format
+msgid "Detailed information"
+msgstr "Üksikasjalik info"
+
+#: diskdrake/interactive.pm:407
+#, c-format
+msgid "View"
+msgstr "Vaata"
+
+#: diskdrake/interactive.pm:412 diskdrake/interactive.pm:833
+#, c-format
+msgid "Resize"
+msgstr "Muuda suurust"
+
+#: diskdrake/interactive.pm:413
+#, c-format
+msgid "Format"
+msgstr "Vorminda"
+
+#: diskdrake/interactive.pm:415 diskdrake/interactive.pm:983
+#, c-format
+msgid "Add to RAID"
+msgstr "Lisa RAIDi"
+
+#: diskdrake/interactive.pm:416 diskdrake/interactive.pm:1002
+#, c-format
+msgid "Add to LVM"
+msgstr "Lisa LVMi"
+
+#: diskdrake/interactive.pm:417
+#, c-format
+msgid "Use"
+msgstr "Kasuta"
+
+#: diskdrake/interactive.pm:419
+#, c-format
+msgid "Delete"
+msgstr "Kustuta"
+
+#: diskdrake/interactive.pm:420
+#, c-format
+msgid "Remove from RAID"
+msgstr "Eemalda RAIDist"
+
+#: diskdrake/interactive.pm:421
+#, c-format
+msgid "Remove from LVM"
+msgstr "Eemalda LVMist"
+
+#: diskdrake/interactive.pm:422
+#, c-format
+msgid "Remove from dm"
+msgstr "Eemalda dm-ist"
+
+#: diskdrake/interactive.pm:423
+#, c-format
+msgid "Modify RAID"
+msgstr "Modifitseeri RAIDi"
+
+#: diskdrake/interactive.pm:424
+#, c-format
+msgid "Use for loopback"
+msgstr "Kasuta loopback-ina"
+
+#: diskdrake/interactive.pm:434
+#, c-format
+msgid "Create"
+msgstr "Tekita"
+
+#: diskdrake/interactive.pm:460
+#, c-format
+msgid "Failed to mount partition"
+msgstr "Partitsiooni haakimine nurjus"
+
+#: diskdrake/interactive.pm:494 diskdrake/interactive.pm:496
+#, c-format
+msgid "Create a new partition"
+msgstr "Uue partitsiooni loomine"
+
+#: diskdrake/interactive.pm:498
+#, c-format
+msgid "Start sector: "
+msgstr "Algsektor: "
+
+#: diskdrake/interactive.pm:501 diskdrake/interactive.pm:1088
+#, c-format
+msgid "Size in MB: "
+msgstr "Suurus (MB): "
+
+#: diskdrake/interactive.pm:503 diskdrake/interactive.pm:1089
+#, c-format
+msgid "Filesystem type: "
+msgstr "Failisüsteemi tüüp: "
+
+#: diskdrake/interactive.pm:513
+#, c-format
+msgid "Preference: "
+msgstr "Eelistus: "
+
+#: diskdrake/interactive.pm:516
+#, c-format
+msgid "Logical volume name "
+msgstr "Loogilise ketta nimi "
+
+#: diskdrake/interactive.pm:518
+#, c-format
+msgid "Encrypt partition"
+msgstr "Partitsiooni krüptimine"
+
+#: diskdrake/interactive.pm:519
+#, c-format
+msgid "Encryption key "
+msgstr "Krüptovõti "
+
+#: diskdrake/interactive.pm:520 diskdrake/interactive.pm:1517
+#, c-format
+msgid "Encryption key (again)"
+msgstr "Krüptovõti (uuesti)"
+
+#: diskdrake/interactive.pm:532 diskdrake/interactive.pm:1513
+#, c-format
+msgid "The encryption keys do not match"
+msgstr "Krüptovõtmed ei klapi"
+
+#: diskdrake/interactive.pm:533
+#, c-format
+msgid "Missing encryption key"
+msgstr "Krüptovõti puudub"
+
+#: diskdrake/interactive.pm:553
+#, c-format
+msgid ""
+"You cannot create a new partition\n"
+"(since you reached the maximal number of primary partitions).\n"
+"First remove a primary partition and create an extended partition."
+msgstr ""
+"Uut partitsiooni ei saa luua\n"
+"(sest primaarseid partitsioone on juba maksimaalne arv).\n"
+"Eemaldage kõigepealt mõni primaarne partitsioon ja looge laiendatud "
+"partitsioon."
+
+#: diskdrake/interactive.pm:605
+#, c-format
+msgid "Remove the loopback file?"
+msgstr "Kas eemaldada loopback-fail?"
+
+#: diskdrake/interactive.pm:625
+#, c-format
+msgid ""
+"After changing type of partition %s, all data on this partition will be lost"
+msgstr "Partitsiooni %s tüübi muutmisel hävivad kõik seal olnud andmed"
+
+#: diskdrake/interactive.pm:641
+#, c-format
+msgid "Change partition type"
+msgstr "Partitsiooni tüübi muutmine"
+
+#: diskdrake/interactive.pm:643 diskdrake/removable.pm:47
+#, c-format
+msgid "Which filesystem do you want?"
+msgstr "Millist failisüsteemi soovite kasutada?"
+
+#: diskdrake/interactive.pm:650
+#, c-format
+msgid "Switching from %s to %s"
+msgstr "%s vahetamine %s vastu"
+
+#: diskdrake/interactive.pm:685
+#, c-format
+msgid "Set volume label"
+msgstr "Nime määramine"
+
+#: diskdrake/interactive.pm:687
+#, c-format
+msgid "Beware, this will be written to disk as soon as you validate!"
+msgstr "Ettevaatust, see kirjutatakse otsekohe kettale!"
+
+#: diskdrake/interactive.pm:688
+#, c-format
+msgid "Beware, this will be written to disk only after formatting!"
+msgstr "Ettevaatust, see kirjutatakse kettale alles pärast vormindamist!"
+
+#: diskdrake/interactive.pm:690
+#, c-format
+msgid "Which volume label?"
+msgstr "Milline nimi?"
+
+#: diskdrake/interactive.pm:691
+#, c-format
+msgid "Label:"
+msgstr "Nimi:"
+
+#: diskdrake/interactive.pm:712
+#, c-format
+msgid "Where do you want to mount the loopback file %s?"
+msgstr "Kuhu soovite haakida loopback-faili %s?"
+
+#: diskdrake/interactive.pm:713
+#, c-format
+msgid "Where do you want to mount device %s?"
+msgstr "Kuhu soovite haakida seadme %s?"
+
+#: diskdrake/interactive.pm:718
+#, c-format
+msgid ""
+"Cannot unset mount point as this partition is used for loop back.\n"
+"Remove the loopback first"
+msgstr ""
+"Haakepunkti ei saa tühistada, sest seda partitsiooni kasutatakse loopback-"
+"ina.\n"
+"Eemaldage kõigepealt loopback"
+
+#: diskdrake/interactive.pm:748
+#, c-format
+msgid "Where do you want to mount %s?"
+msgstr "Kuhu soovite haakida %s?"
+
+#: diskdrake/interactive.pm:778 diskdrake/interactive.pm:874
+#: fs/partitioning_wizard.pm:151 fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing"
+msgstr "Muudetakse suurust"
+
+#: diskdrake/interactive.pm:778
+#, c-format
+msgid "Computing FAT filesystem bounds"
+msgstr "Arvutatakse FAT-failisüsteemi piire"
+
+#: diskdrake/interactive.pm:820
+#, c-format
+msgid "This partition is not resizeable"
+msgstr "See partitsioon ei ole muudetav"
+
+#: diskdrake/interactive.pm:825
+#, c-format
+msgid "All data on this partition should be backed up"
+msgstr "Kõik selle partitsiooni andmed tuleks varundada"
+
+#: diskdrake/interactive.pm:827
+#, c-format
+msgid "After resizing partition %s, all data on this partition will be lost"
+msgstr "Partitsiooni %s suuruse muutmisel hävivad sellel kõik andmed"
+
+#: diskdrake/interactive.pm:834
+#, c-format
+msgid "Choose the new size"
+msgstr "Uue suuruse valimine"
+
+#: diskdrake/interactive.pm:835
+#, c-format
+msgid "New size in MB: "
+msgstr "Uus suurus (MB): "
+
+#: diskdrake/interactive.pm:836
+#, c-format
+msgid "Minimum size: %s MB"
+msgstr "Min. suurus: %s MB"
+
+#: diskdrake/interactive.pm:837
+#, c-format
+msgid "Maximum size: %s MB"
+msgstr "Maks. suurus: %s MB"
+
+#: diskdrake/interactive.pm:885 fs/partitioning_wizard.pm:241
+#, c-format
+msgid ""
+"To ensure data integrity after resizing the partition(s),\n"
+"filesystem checks will be run on your next boot into Microsoft Windows®"
+msgstr ""
+"Andmete terviklikkuse tagamiseks pärast partitsiooni(de) suuruse muutmist \n"
+"kontrollitakse järgmisel Microsoft Windows® alglaadimisel failisüsteemi"
+
+#: diskdrake/interactive.pm:951 diskdrake/interactive.pm:1508
+#, c-format
+msgid "Filesystem encryption key"
+msgstr "Failisüsteemi krüptovõti"
+
+#: diskdrake/interactive.pm:952
+#, c-format
+msgid "Enter your filesystem encryption key"
+msgstr "Sisestage failisüsteemi krüptovõti"
+
+#: diskdrake/interactive.pm:953 diskdrake/interactive.pm:1516
+#, c-format
+msgid "Encryption key"
+msgstr "Krüptovõti"
+
+#: diskdrake/interactive.pm:960
+#, c-format
+msgid "Invalid key"
+msgstr "Vigane võti"
+
+#: diskdrake/interactive.pm:983
+#, c-format
+msgid "Choose an existing RAID to add to"
+msgstr "Valige olemasolev RAID, millele lisada"
+
+#: diskdrake/interactive.pm:985 diskdrake/interactive.pm:1004
+#, c-format
+msgid "new"
+msgstr "uus"
+
+#: diskdrake/interactive.pm:1002
+#, c-format
+msgid "Choose an existing LVM to add to"
+msgstr "Valige olemasolev LVM, millele lisada"
+
+#: diskdrake/interactive.pm:1014 diskdrake/interactive.pm:1023
+#, c-format
+msgid "LVM name"
+msgstr "LVM nimi"
+
+#: diskdrake/interactive.pm:1015
+#, c-format
+msgid "Enter a name for the new LVM volume group"
+msgstr "Sisestage uue LVM grupi nimi"
+
+#: diskdrake/interactive.pm:1020
+#, c-format
+msgid "\"%s\" already exists"
+msgstr "\"%s\" on juba olemas"
+
+#: diskdrake/interactive.pm:1028
+#, c-format
+msgid "Setting up LVM"
+msgstr "LVM-i loomine"
+
+#: diskdrake/interactive.pm:1053
+#, c-format
+msgid ""
+"Physical volume %s is still in use.\n"
+"Do you want to move used physical extents on this volume to other volumes?"
+msgstr ""
+"Füüsiline ketas %s on veel kasutusel.\n"
+"Kas soovite liigutada selle ketta füüsilised osad teistele ketastele?"
+
+#: diskdrake/interactive.pm:1055
+#, c-format
+msgid "Moving physical extents"
+msgstr "Füüsiliste osade liigutamine"
+
+#: diskdrake/interactive.pm:1073
+#, c-format
+msgid "This partition cannot be used for loopback"
+msgstr "Seda partitsiooni ei saa loopback-ina kasutada"
+
+#: diskdrake/interactive.pm:1086
+#, c-format
+msgid "Loopback"
+msgstr "Loopback"
+
+#: diskdrake/interactive.pm:1087
+#, c-format
+msgid "Loopback file name: "
+msgstr "Loopback-faili nimi:"
+
+#: diskdrake/interactive.pm:1092
+#, c-format
+msgid "Give a file name"
+msgstr "Failinimi"
+
+#: diskdrake/interactive.pm:1095
+#, c-format
+msgid "File is already used by another loopback, choose another one"
+msgstr "See fail on juba loopback-ina kasutusel, valige mõni muu"
+
+#: diskdrake/interactive.pm:1096
+#, c-format
+msgid "File already exists. Use it?"
+msgstr "Fail on juba olemas. Kas kasutada seda?"
+
+#: diskdrake/interactive.pm:1128 diskdrake/interactive.pm:1131
+#, c-format
+msgid "Mount options"
+msgstr "Haakimise valikud"
+
+#: diskdrake/interactive.pm:1138
+#, c-format
+msgid "Various"
+msgstr "Mitmesugust"
+
+#: diskdrake/interactive.pm:1184
+#, c-format
+msgid "device"
+msgstr "seade"
+
+#: diskdrake/interactive.pm:1185
+#, c-format
+msgid "level"
+msgstr "tase"
+
+#: diskdrake/interactive.pm:1186
+#, c-format
+msgid "chunk size in KiB"
+msgstr "ühiku suurus (KiB)"
+
+#: diskdrake/interactive.pm:1204
+#, c-format
+msgid "Be careful: this operation is dangerous."
+msgstr "Vaadake ette: see võib olla ohtlik."
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "Partitioning Type"
+msgstr "Partitsiooni tüüp"
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "What type of partitioning?"
+msgstr "Mis tüüpi partitsioonid teete?"
+
+#: diskdrake/interactive.pm:1258
+#, c-format
+msgid "You'll need to reboot before the modification can take effect"
+msgstr "Muudatuse rakendamiseks on vajalik taaskäivitamine"
+
+#: diskdrake/interactive.pm:1267
+#, c-format
+msgid "Partition table of drive %s is going to be written to disk"
+msgstr "Ketta %s partitsioonitabel salvestatakse"
+
+#: diskdrake/interactive.pm:1286 fs/format.pm:106 fs/format.pm:113
+#, c-format
+msgid "Formatting partition %s"
+msgstr "Partitsiooni %s vormindamine"
+
+#: diskdrake/interactive.pm:1299
+#, c-format
+msgid "After formatting partition %s, all data on this partition will be lost"
+msgstr "Partitsiooni %s vormindamisel hävivad sellel kõik andmed"
+
+#: diskdrake/interactive.pm:1313 fs/partitioning.pm:48
+#, c-format
+msgid "Check for bad blocks?"
+msgstr "Vigaste plokkide kontroll"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Move files to the new partition"
+msgstr "Failide liigutamine uuele partitsioonile"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Hide files"
+msgstr "Failide peitmine"
+
+#: diskdrake/interactive.pm:1329
+#, c-format
+msgid ""
+"Directory %s already contains data\n"
+"(%s)\n"
+"\n"
+"You can either choose to move the files into the partition that will be "
+"mounted there or leave them where they are (which results in hiding them by "
+"the contents of the mounted partition)"
+msgstr ""
+"Kataloog %s sisaldab juba andmeid\n"
+"(%s)\n"
+"\n"
+"Te võite liigutada failid partitsioonile, mis haagitakse seal, või jätta nad "
+"sinna, kus nad on (mille tulemusel haagitud partitsiooni sisu varjab need)"
+
+#: diskdrake/interactive.pm:1344
+#, c-format
+msgid "Moving files to the new partition"
+msgstr "Failide liigutamine uuele partitsioonile"
+
+#: diskdrake/interactive.pm:1348
+#, c-format
+msgid "Copying %s"
+msgstr "%s kopeerimine"
+
+#: diskdrake/interactive.pm:1352
+#, c-format
+msgid "Removing %s"
+msgstr "%s eemaldamine"
+
+#: diskdrake/interactive.pm:1366
+#, c-format
+msgid "partition %s is now known as %s"
+msgstr "partitsioon %s kannab nüüd nime %s"
+
+#: diskdrake/interactive.pm:1367
+#, c-format
+msgid "Partitions have been renumbered: "
+msgstr "Partitsioone on muudetud: "
+
+#: diskdrake/interactive.pm:1392 diskdrake/interactive.pm:1457
+#, c-format
+msgid "Device: "
+msgstr "Seade: "
+
+#: diskdrake/interactive.pm:1393
+#, c-format
+msgid "Volume label: "
+msgstr "Kettatähis: "
+
+#: diskdrake/interactive.pm:1394
+#, c-format
+msgid "UUID: "
+msgstr "UUID: "
+
+#: diskdrake/interactive.pm:1395
+#, c-format
+msgid "DOS drive letter: %s (just a guess)\n"
+msgstr "DOS kettatähis: %s (arvatavasti)\n"
+
+#: diskdrake/interactive.pm:1399 diskdrake/interactive.pm:1476
+#, c-format
+msgid "Type: "
+msgstr "Tüüp: "
+
+#: diskdrake/interactive.pm:1401
+#, c-format
+msgid "Start: sector %s\n"
+msgstr "Algus: sektor %s\n"
+
+#: diskdrake/interactive.pm:1403
+#, c-format
+msgid "Size: %s (%s%% of disk)"
+msgstr "Suurus: %s (%s%% kettast)"
+
+#: diskdrake/interactive.pm:1405
+#, c-format
+msgid "Size: %s"
+msgstr "Suurus: %s"
+
+#: diskdrake/interactive.pm:1407
+#, c-format
+msgid ", %s sectors"
+msgstr ", %s sektorit"
+
+#: diskdrake/interactive.pm:1409
+#, c-format
+msgid "Cylinder %d to %d\n"
+msgstr "Silindrid %d kuni %d\n"
+
+#: diskdrake/interactive.pm:1410
+#, c-format
+msgid "Number of logical extents: %d\n"
+msgstr "Loogiliste partitsioonide arv: %d\n"
+
+#: diskdrake/interactive.pm:1411
+#, c-format
+msgid "Formatted\n"
+msgstr "Vormindatud\n"
+
+#: diskdrake/interactive.pm:1412
+#, c-format
+msgid "Not formatted\n"
+msgstr "Vormindamata\n"
+
+#: diskdrake/interactive.pm:1413
+#, c-format
+msgid "Mounted\n"
+msgstr "Haagitud\n"
+
+#: diskdrake/interactive.pm:1414
+#, c-format
+msgid "RAID %s\n"
+msgstr "RAID %s\n"
+
+#: diskdrake/interactive.pm:1416
+#, c-format
+msgid "Encrypted"
+msgstr "Krüptitud"
+
+#: diskdrake/interactive.pm:1418
+#, c-format
+msgid " (mapped on %s)"
+msgstr " (seotud asukohaga %s)"
+
+#: diskdrake/interactive.pm:1419
+#, c-format
+msgid " (to map on %s)"
+msgstr " (sidumaks asukohaga %s)"
+
+#: diskdrake/interactive.pm:1420
+#, c-format
+msgid " (inactive)"
+msgstr " (mitteaktiivne)"
+
+#: diskdrake/interactive.pm:1427
+#, c-format
+msgid ""
+"Loopback file(s):\n"
+"   %s\n"
+msgstr ""
+"Loopback-fail(id):\n"
+"   %s\n"
+
+#: diskdrake/interactive.pm:1428
+#, c-format
+msgid ""
+"Partition booted by default\n"
+"    (for MS-DOS boot, not for lilo)\n"
+msgstr ""
+"Partitsioonilt toimub alglaadimine\n"
+"    (MS-DOS-i, mitte LiLo jaoks)\n"
+
+#: diskdrake/interactive.pm:1430
+#, c-format
+msgid "Level %s\n"
+msgstr "Tase %s\n"
+
+#: diskdrake/interactive.pm:1431
+#, c-format
+msgid "Chunk size %d KiB\n"
+msgstr "Ühiku suurus %d KiB\n"
+
+#: diskdrake/interactive.pm:1432
+#, c-format
+msgid "RAID-disks %s\n"
+msgstr "RAID-kettad %s\n"
+
+#: diskdrake/interactive.pm:1434
+#, c-format
+msgid "Loopback file name: %s"
+msgstr "Loopback-faili nimi: %s"
+
+#: diskdrake/interactive.pm:1437
+#, c-format
+msgid ""
+"\n"
+"Chances are, this partition is\n"
+"a Driver partition. You should\n"
+"probably leave it alone.\n"
+msgstr ""
+"\n"
+"Võimalik, et on tegemist\n"
+"juhtpartitsiooniga, parem oleks\n"
+"seda mitte puutuda.\n"
+
+#: diskdrake/interactive.pm:1440
+#, c-format
+msgid ""
+"\n"
+"This special Bootstrap\n"
+"partition is for\n"
+"dual-booting your system.\n"
+msgstr ""
+"\n"
+"See on eriline, alglaadimisel\n"
+"kasutatav partitsioon, mis\n"
+"võimaldab mitme operatsioonisüsteemi\n"
+"laadimist.\n"
+
+#: diskdrake/interactive.pm:1449
+#, c-format
+msgid "Free space on %s (%s)"
+msgstr "Vaba ruum %s peal (%s)"
+
+#: diskdrake/interactive.pm:1458
+#, c-format
+msgid "Read-only"
+msgstr "Kirjutuskaitstud"
+
+#: diskdrake/interactive.pm:1459
+#, c-format
+msgid "Size: %s\n"
+msgstr "Suurus: %s\n"
+
+#: diskdrake/interactive.pm:1460
+#, c-format
+msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+msgstr "Geomeetria: %s silindrit, %s pead, %s sektorit\n"
+
+#: diskdrake/interactive.pm:1461
+#, c-format
+msgid "Name: "
+msgstr "Nimi: "
+
+#: diskdrake/interactive.pm:1462
+#, c-format
+msgid "Medium type: "
+msgstr "Andmekandja tüüp: "
+
+#: diskdrake/interactive.pm:1463
+#, c-format
+msgid "LVM-disks %s\n"
+msgstr "LVM-kettad %s\n"
+
+#: diskdrake/interactive.pm:1464
+#, c-format
+msgid "Partition table type: %s\n"
+msgstr "Partitsioonitabeli tüüp: %s\n"
+
+#: diskdrake/interactive.pm:1465
+#, c-format
+msgid "on channel %d id %d\n"
+msgstr "kanalil %d id %d\n"
+
+#: diskdrake/interactive.pm:1509
+#, c-format
+msgid "Choose your filesystem encryption key"
+msgstr "Valige failisüsteemi krüptovõti"
+
+#: diskdrake/interactive.pm:1512
+#, c-format
+msgid "This encryption key is too simple (must be at least %d characters long)"
+msgstr "See krüptovõti on liiga lihtne (peaks olema vähemalt %d märki)"
+
+#: diskdrake/interactive.pm:1519
+#, c-format
+msgid "Encryption algorithm"
+msgstr "Krüptoalgoritm"
+
+#: diskdrake/removable.pm:46
+#, c-format
+msgid "Change type"
+msgstr "Muuda tüüpi"
+
+#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:120 interactive.pm:675
+#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
+#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846
+#: mygtk2.pm:1229 mygtk3.pm:928 mygtk3.pm:1312 ugtk2.pm:415 ugtk2.pm:517
+#: ugtk2.pm:526 ugtk2.pm:810 ugtk3.pm:501 ugtk3.pm:591 ugtk3.pm:600
+#: ugtk3.pm:906
+#, c-format
+msgid "Cancel"
+msgstr "Loobu"
+
+#: diskdrake/smbnfs_gtk.pm:164
+#, c-format
+msgid "Cannot login using username %s (bad password?)"
+msgstr "Kasutajanimega %s ei saa sisse logida (vale parool?)"
+
+#: diskdrake/smbnfs_gtk.pm:168 diskdrake/smbnfs_gtk.pm:177
+#, c-format
+msgid "Domain Authentication Required"
+msgstr "Nõutav on domeeni autentimine"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Which username"
+msgstr "Milline kasutajanimi"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Another one"
+msgstr "Veel üks"
+
+#: diskdrake/smbnfs_gtk.pm:178
+#, c-format
+msgid ""
+"Please enter your username, password and domain name to access this host."
+msgstr ""
+"Palun sisestage selle masina kasutamiseks oma kasutajanimi, parool ja "
+"domeeni nimi."
+
+#: diskdrake/smbnfs_gtk.pm:180
+#, c-format
+msgid "Username"
+msgstr "Kasutajanimi"
+
+#: diskdrake/smbnfs_gtk.pm:182
+#, c-format
+msgid "Domain"
+msgstr "Domeen"
+
+#: diskdrake/smbnfs_gtk.pm:206
+#, c-format
+msgid "Search servers"
+msgstr "Otsi servereid"
+
+#: diskdrake/smbnfs_gtk.pm:211
+#, c-format
+msgid "Search for new servers"
+msgstr "Uute serverite otsimine"
+
+#: do_pkgs.pm:45 do_pkgs.pm:100
+#, c-format
+msgid "The package %s needs to be installed. Do you want to install it?"
+msgstr "Pakett %s tuleks kindlasti paigaldada. Kas soovite seda teha?"
+
+#: do_pkgs.pm:49 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:142
+#, c-format
+msgid "Could not install the %s package!"
+msgstr "Ei õnnestunud paigaldada %s paketti!"
+
+#: do_pkgs.pm:54 do_pkgs.pm:108
+#, c-format
+msgid "Mandatory package %s is missing"
+msgstr "Puudub kohustuslik pakett %s"
+
+#: do_pkgs.pm:74 do_pkgs.pm:137
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Paigaldada tuleb järgmised paketid:\n"
+
+#: do_pkgs.pm:342
+#, c-format
+msgid "Installing packages..."
+msgstr "Pakettide paigaldamine..."
+
+#: do_pkgs.pm:387 pkgs.pm:293
+#, c-format
+msgid "Removing packages..."
+msgstr "Pakettide eemaldamine..."
+
+#: fs/any.pm:21
+#, c-format
+msgid ""
+"An error occurred - no valid devices were found on which to create new "
+"filesystems. Please check your hardware for the cause of this problem"
+msgstr ""
+"Tekkis viga: failisüsteemi loomiseks ei leitud ühtki seadet. Palun "
+"kontrollige oma riistvara."
+
+#: fs/any.pm:77 fs/partitioning_wizard.pm:77
+#, c-format
+msgid "You must have a ESP FAT32 partition mounted in /boot/EFI"
+msgstr "Teil peab olema ESP FAT32-partitsioon haagitud asukohas /boot/EFI"
+
+#: fs/any.pm:81 fs/partitioning_wizard.pm:82
+#, c-format
+msgid ""
+"You must have a BIOS boot partition for non-UEFI GPT-partitioned disks. "
+"Please create one before continuing."
+msgstr ""
+"UEFI-t mittekasutava GPT partitsioonidega ketaste korral peab olema ka BIOS-"
+"e alglaadimispartitsioon. Palun looge enne jätkamist selline partitsioon."
+
+#: fs/format.pm:110
+#, c-format
+msgid "Creating and formatting file %s"
+msgstr "Faili %s loomine ja vormindamine"
+
+#: fs/format.pm:130
+#, c-format
+msgid "I do not know how to set label on %s with type %s"
+msgstr "Ei oska määrata %s nime tüübiga %s"
+
+#: fs/format.pm:142
+#, c-format
+msgid "setting label on %s failed, is it formatted?"
+msgstr "%s nime määramine nurjus, kas see on ikka vormindatud?"
+
+#: fs/format.pm:190
+#, c-format
+msgid "I do not know how to format %s in type %s"
+msgstr "Ei oska seadet %s vormindada tüüpi %s"
+
+#: fs/format.pm:195 fs/format.pm:197
+#, c-format
+msgid "%s formatting of %s failed"
+msgstr "%s vormindamine seadmel %s nurjus"
+
+#: fs/loopback.pm:24
+#, c-format
+msgid "Circular mounts %s\n"
+msgstr "Ringühendus %s\n"
+
+#: fs/mount.pm:85
+#, c-format
+msgid "Mounting partition %s"
+msgstr "Partitsiooni %s haakimine"
+
+#: fs/mount.pm:87
+#, c-format
+msgid "mounting partition %s in directory %s failed"
+msgstr "partitsiooni %s haakimine kataloogis %s nurjus"
+
+#: fs/mount.pm:92 fs/mount.pm:109
+#, c-format
+msgid "Checking %s"
+msgstr "%s kontrollimine"
+
+#: fs/mount.pm:126 partition_table.pm:399
+#, c-format
+msgid "error unmounting %s: %s"
+msgstr "viga %s lahutamisel: %s"
+
+#: fs/mount.pm:141
+#, c-format
+msgid "Enabling swap partition %s"
+msgstr "Saaleala %s vormindamine"
+
+#: fs/mount_options.pm:114
+#, c-format
+msgid "Enable POSIX Access Control Lists"
+msgstr "POSIXiga ühilduvate pääsuloendite lubamine"
+
+#: fs/mount_options.pm:116
+#, c-format
+msgid "Flush write cache on file close"
+msgstr "Kirjutamispuhvri tühjendamine faili sulgemisel"
+
+#: fs/mount_options.pm:118
+#, c-format
+msgid "Enable group disk quota accounting and optionally enforce limits"
+msgstr ""
+"Ketta grupikvootide arvestuse ja võimalusel limiitide kehtestamise lubamine"
+
+#: fs/mount_options.pm:120
+#, c-format
+msgid ""
+"Do not update inode access times on this filesystem\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"Inode juurdepääsu kordi sellel failisüsteemil ei värskendata\n"
+"(nt. kiiremaks juurdepääsuks uudistepuhvrile uudisteserveri kiirendamiseks)."
+
+#: fs/mount_options.pm:123
+#, c-format
+msgid ""
+"Update inode access times on this filesystem in a more efficient way\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"Inode juurdepääsu kordi sellel failisüsteemil värskendatakse tõhusamalt\n"
+"(nt. kiiremaks juurdepääsuks uudistepuhvrile uudisteserveri kiirendamiseks)."
+
+#: fs/mount_options.pm:126
+#, c-format
+msgid ""
+"Can only be mounted explicitly (i.e.,\n"
+"the -a option will not cause the filesystem to be mounted)."
+msgstr ""
+"Haagitakse ainult otsesel märkimisel\n"
+"(s.t. võti -a ei haagi failisüsteemi)."
+
+#: fs/mount_options.pm:129
+#, c-format
+msgid "Do not interpret character or block special devices on the filesystem."
+msgstr "Failisüsteemis ei interpreteerita märgi- või plokieriseadmeid."
+
+#: fs/mount_options.pm:131
+#, c-format
+msgid ""
+"Do not allow execution of any binaries on the mounted\n"
+"filesystem. This option might be useful for a server that has filesystems\n"
+"containing binaries for architectures other than its own."
+msgstr ""
+"Ei lubata ühegi binaarfaili käivitamist haagitud failisüsteemis.\n"
+"See on kasulik serverites, mille failisüsteemides\n"
+"on süsteemist erineva arhitektuuriga binaarfaile."
+
+#: fs/mount_options.pm:135
+#, c-format
+msgid ""
+"Do not allow set-user-identifier or set-group-identifier\n"
+"bits to take effect. (This seems safe, but is in fact rather unsafe if you\n"
+"have suidperl(1) installed.)"
+msgstr ""
+"Ei lubata toimida bittidel set-user-identifier või set-group-identifier\n"
+"(see võib tunduda turvaline, aga tegelikult ei ole, eriti kui on\n"
+"paigaldatud suidperl(1).)"
+
+#: fs/mount_options.pm:139
+#, c-format
+msgid "Mount the filesystem read-only."
+msgstr "Failisüsteem haagitakse kirjutuskaitstult."
+
+#: fs/mount_options.pm:141
+#, c-format
+msgid "All I/O to the filesystem should be done synchronously."
+msgstr "Kogu failisüsteemi I/O sooritatakse sünkroonselt."
+
+#: fs/mount_options.pm:143
+#, c-format
+msgid "Allow every user to mount and umount the filesystem."
+msgstr "Igal kasutajal lubatakse failisüsteemi haakida ja lahti ühendada."
+
+#: fs/mount_options.pm:145
+#, c-format
+msgid "Allow an ordinary user to mount the filesystem."
+msgstr "Tavalisel kasutajal lubatakse failisüsteemi haakida."
+
+#: fs/mount_options.pm:147
+#, c-format
+msgid "Enable user disk quota accounting, and optionally enforce limits"
+msgstr ""
+"Ketta kasutajakvootide arvestuse ja võimalusel limiitide kehtestamise "
+"lubamine"
+
+#: fs/mount_options.pm:149
+#, c-format
+msgid "Support \"user.\" extended attributes"
+msgstr "\"user.\" laiendatud atribuutide toetus"
+
+#: fs/mount_options.pm:151
+#, c-format
+msgid "Give write access to ordinary users"
+msgstr "Kirjutamisõiguse andmine tavakasutajale"
+
+#: fs/mount_options.pm:153
+#, c-format
+msgid "Give read-only access to ordinary users"
+msgstr "Lugemisõiguse andmine tavakasutajale"
+
+#: fs/mount_point.pm:87
+#, c-format
+msgid "Duplicate mount point %s"
+msgstr "Haakepunkt %s on määratud topelt"
+
+#: fs/mount_point.pm:102
+#, c-format
+msgid "No partition available"
+msgstr "Partitsioone ei leitud"
+
+#: fs/mount_point.pm:105
+#, c-format
+msgid "Scanning partitions to find mount points"
+msgstr "Partitsioonide haakepunktide otsimine"
+
+#: fs/mount_point.pm:112
+#, c-format
+msgid "Choose the mount points"
+msgstr "Valige haakepunktid"
+
+#: fs/partitioning.pm:46
+#, c-format
+msgid "Choose the partitions you want to format"
+msgstr "Valige partitsioonid, mida soovite vormindada"
+
+#: fs/partitioning.pm:75
+#, c-format
+msgid ""
+"Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+"you can lose data)"
+msgstr ""
+"Failisüsteemi %s kontroll nurjus. Kas soovite vigu parandada? (Ettevaatust, "
+"võite kaotada andmed!)"
+
+#: fs/partitioning.pm:78
+#, c-format
+msgid "Not enough swap space to fulfill installation, please add some"
+msgstr "Saaleala on paigaldamiseks liiga väike, palun suurendage seda"
+
+#: fs/partitioning_wizard.pm:66
+#, c-format
+msgid ""
+"You must have a root partition.\n"
+"To accomplish this, create a partition (or click on an existing one).\n"
+"Then choose action ``Mount point'' and set it to `/'"
+msgstr ""
+"Teil peab olema juurpartitsioon.\n"
+"Selleks looge partitsioon (või klõpsake olemasoleval).\n"
+"Seejärel valige \"Haakepunkt\" ja määrake selleks \"/\"."
+
+#: fs/partitioning_wizard.pm:72
+#, c-format
+msgid ""
+"You do not have a swap partition.\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"Saaleala ei ole määratud.\n"
+"\n"
+"Kas ikkagi jätkata?"
+
+#: fs/partitioning_wizard.pm:115
+#, c-format
+msgid "Use free space"
+msgstr "Vaba ruumi kasutamine"
+
+#: fs/partitioning_wizard.pm:117
+#, c-format
+msgid "Not enough free space to allocate new partitions"
+msgstr "Ei ole piisavalt ruumi uute partitsioonide jaoks"
+
+#: fs/partitioning_wizard.pm:125
+#, c-format
+msgid "Use existing partitions"
+msgstr "Olemasolevate partitsioonide kasutamine"
+
+#: fs/partitioning_wizard.pm:127
+#, c-format
+msgid "There is no existing partition to use"
+msgstr "Kasutatavat partitsiooni ei leitud"
+
+#: fs/partitioning_wizard.pm:151
+#, c-format
+msgid "Computing the size of the Microsoft Windows® partition"
+msgstr "Vaba ruumi arvutamine Microsoft Windows® partitsioonil"
+
+#: fs/partitioning_wizard.pm:187
+#, c-format
+msgid "Use the free space on a Microsoft Windows® partition"
+msgstr "Vaba ruumi kasutamine Microsoft Windows® partitsioonil"
+
+#: fs/partitioning_wizard.pm:191
+#, c-format
+msgid "Which partition do you want to resize?"
+msgstr "Millist partitsiooni soovite muuta?"
+
+#: fs/partitioning_wizard.pm:194
+#, c-format
+msgid ""
+"Your Microsoft Windows® partition is too fragmented. Please reboot your "
+"computer under Microsoft Windows®, run the ``defrag'' utility, then restart "
+"the %s installation."
+msgstr ""
+"Teie Microsoft Windows® partitsioon on liiga fragmenteerunud. Palun tehke "
+"arvutile uus alglaadimine, käivitage Microsoft Windows® ja seejärel utiliit "
+"\"defrag\" ning tulge siis %s paigaldamise juurde tagasi."
+
+#: fs/partitioning_wizard.pm:201
+#, c-format
+msgid "Failed to find the partition to resize (%d choices)"
+msgstr "Ei leitud partitsiooni, mille suurust muuta (%d valikut)"
+
+#: fs/partitioning_wizard.pm:208
+#, c-format
+msgid ""
+"WARNING!\n"
+"\n"
+"\n"
+"Your Microsoft Windows® partition will be now resized.\n"
+"\n"
+"\n"
+"Be careful: this operation is dangerous. If you have not already done so, "
+"you first need to exit the installation, run \"chkdsk c:\" from a Command "
+"Prompt under Microsoft Windows® (beware, running graphical program \"scandisk"
+"\" is not enough, be sure to use \"chkdsk\" in a Command Prompt!), "
+"optionally run defrag, then restart the installation. You should also backup "
+"your data.\n"
+"\n"
+"\n"
+"When sure, press %s."
+msgstr ""
+"HOIATUS!\n"
+"\n"
+"\n"
+"DrakX hakkab Teie Microsoft Windows® partitsiooni suurust muutma.\n"
+"\n"
+"\n"
+"Olge ettevaatlik: see operatsioon võib olla ohtlik Teie failidele. Palun "
+"käivitage enne seda, kui asute paigaldamise juurde, Microsoft Windows® "
+"käsurealt \"chkdsk c:\" (arvestage, et graafilisest rakendusest \"scandisk\" "
+"ei piisa, seepärast kasutage kindlasti käsurealt käivitatavat \"chkdsk\"!). "
+"Lisaks sellele defragmenteerige ketas ja alles siis asuge taas paigaldamise "
+"kallale. Kasulik oleks juba Windowsis ka oma andmetest tagavarakoopia teha.\n"
+"\n"
+"\n"
+"Kui olete oma otsuses kindel, klõpsake nupule \"%s\"."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: fs/partitioning_wizard.pm:217 fs/partitioning_wizard.pm:594
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Next"
+msgstr "Edasi"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Partitionning"
+msgstr "Kõvaketta jagamine"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
+msgstr "Kui palju ruumi jätta Microsoft Windows® jaoks partitsioonil %s?"
+
+#: fs/partitioning_wizard.pm:224
+#, c-format
+msgid "Size"
+msgstr "Suurus"
+
+#: fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing Microsoft Windows® partition"
+msgstr "Arvutatakse Microsoft Windows® failisüsteemi piire"
+
+#: fs/partitioning_wizard.pm:238
+#, c-format
+msgid "FAT resizing failed: %s"
+msgstr "FAT-i suuruse muutmine nurjus: %s"
+
+#: fs/partitioning_wizard.pm:254
+#, c-format
+msgid "There is no FAT partition to resize (or not enough space left)"
+msgstr "Sobivat FAT-partitsiooni ei leitud (ei ole piisavalt ruumi)"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Remove Microsoft Windows®"
+msgstr "Microsoft Windows® eemaldamine"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Erase and use entire disk"
+msgstr "Kogu ketta tühjendamine ja kasutamine"
+
+#: fs/partitioning_wizard.pm:263
+#, c-format
+msgid ""
+"You have more than one hard disk drive, which one do you want the installer "
+"to use?"
+msgstr ""
+"Teil on rohkem kui üks kõvaketas. Millist peaks paigaldusprogramm kasutama?"
+
+#: fs/partitioning_wizard.pm:271 fsedit.pm:638
+#, c-format
+msgid "ALL existing partitions and their data will be lost on drive %s"
+msgstr "Kettal %s hävivad KÕIK partitsioonid ja andmed"
+
+#: fs/partitioning_wizard.pm:284
+#, c-format
+msgid "Custom disk partitioning"
+msgstr "Ketta jagamine oma tahtmist mööda"
+
+#: fs/partitioning_wizard.pm:290
+#, c-format
+msgid "Use fdisk"
+msgstr "Fdisk'i kasutamine"
+
+#: fs/partitioning_wizard.pm:293
+#, c-format
+msgid ""
+"You can now partition %s.\n"
+"When you are done, do not forget to save using `w'"
+msgstr ""
+"Nüüd saate jagada %s kõvaketta\n"
+"Kui olete valmis, salvestage käsuga \"w\""
+
+#: fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Ext2/3/4"
+msgstr "Ext2/3/4"
+
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:614
+#, c-format
+msgid "I cannot find any room for installing"
+msgstr "Paigaldamiseks ei paista ruumi olevat"
+
+#: fs/partitioning_wizard.pm:475 fs/partitioning_wizard.pm:621
+#, c-format
+msgid "The DrakX Partitioning wizard found the following solutions:"
+msgstr "DrakX kettajagamise nõustaja leidis sellised lahendused:"
+
+#: fs/partitioning_wizard.pm:545
+#, c-format
+msgid "Here is the content of your disk drive "
+msgstr "Partitsioonide jaotus Teie kettal "
+
+#: fs/partitioning_wizard.pm:632
+#, c-format
+msgid "Partitioning failed: %s"
+msgstr "Ketta jagamine nurjus: %s"
+
+#: fs/type.pm:382
+#, c-format
+msgid "You cannot use JFS for partitions smaller than 16MB"
+msgstr "JFS-i ei saa kasutada väiksemate kui 16 MB partitsioonide puhul"
+
+#: fs/type.pm:383
+#, c-format
+msgid "You cannot use ReiserFS for partitions smaller than 32MB"
+msgstr "ReiserFS-i ei saa kasutada väiksemate kui 32 MB partitsioonide puhul"
+
+#: fs/type.pm:384
+#, c-format
+msgid "You cannot use btrfs for partitions smaller than 256MB"
+msgstr "Btrfs-i ei saa kasutada väiksemate kui 256 MB partitsioonide puhul"
+
+#: fsedit.pm:25
+#, c-format
+msgid "simple"
+msgstr "lihtne"
+
+#: fsedit.pm:29
+#, c-format
+msgid "with /usr"
+msgstr "koos /usr-ga"
+
+#: fsedit.pm:34
+#, c-format
+msgid "server"
+msgstr "server"
+
+#: fsedit.pm:157
+#, c-format
+msgid "BIOS software RAID detected on disks %s. Activate it?"
+msgstr "Ketastel %s tuvastati BIOS-e tarkvaraline RAID. Kas aktiveerida see?"
+
+#: fsedit.pm:267
+#, c-format
+msgid ""
+"I cannot read the partition table of device %s, it's too corrupted for me :"
+"(\n"
+"I can try to go on, erasing over bad partitions (ALL DATA will be lost!).\n"
+"The other solution is to not allow DrakX to modify the partition table.\n"
+"(the error is %s)\n"
+"\n"
+"Do you agree to lose all the partitions?\n"
+msgstr ""
+"Seadme %s partitsioonitabeli lugemine nurjus, see on liiga rikutud.\n"
+"Võib siiski püüda kõrvaldada rikutud partitsioonid (KÕIK ANDMED lähevad "
+"kaotsi!).\n"
+"(viga oli %s)\n"
+"\n"
+"Kas olete nõus kaotama kõik partitsioonid?\n"
+
+#: fsedit.pm:450
+#, c-format
+msgid "Mount points must begin with a leading /"
+msgstr "Haakepunktid peavad algama kaldkriipsuga (/)"
+
+#: fsedit.pm:451
+#, c-format
+msgid "Mount points should contain only alphanumerical characters"
+msgstr "Haakepunkti nimi tohib sisaldada vaid tähti ja numbreid"
+
+#: fsedit.pm:452
+#, c-format
+msgid "There is already a partition with mount point %s\n"
+msgstr "Haakepunktile %s on juba partitsioon määratud\n"
+
+#: fsedit.pm:455
+#, c-format
+msgid ""
+"You've selected an encrypted partition as root (/).\n"
+"No bootloader is able to handle this without a /boot partition.\n"
+"Please be sure to add a separate /boot partition"
+msgstr ""
+"Valisite juurpartitsiooniks (/) krüptitud partitsiooni.\n"
+"Ükski alglaadur ei suuda seda kasutusele võtta ilma /boot partitsioonita.\n"
+"Palun lisage kindlasti eraldi /boot partitsioon"
+
+#: fsedit.pm:461 fsedit.pm:472
+#, c-format
+msgid "You cannot use an encrypted filesystem for mount point %s"
+msgstr "Haakepunktis %s ei saa kasutada krüptitud failisüsteemi"
+
+#: fsedit.pm:464 fsedit.pm:466
+#, c-format
+msgid "This directory should remain within the root filesystem"
+msgstr "See kataloog peab jääma kokku juurfailisüsteemiga"
+
+#: fsedit.pm:468 fsedit.pm:470
+#, c-format
+msgid ""
+"You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
+"point\n"
+msgstr ""
+"See haakepunkt vajab tõelist (ext2/3/4, reiserfs, xfs või jfs) "
+"failisüsteemi\n"
+
+#: fsedit.pm:538
+#, c-format
+msgid "Not enough free space for auto-allocating"
+msgstr "Ei ole piisavalt ruumi automaatpaigutuseks"
+
+#: fsedit.pm:540
+#, c-format
+msgid "Nothing to do"
+msgstr "Pole midagi teha"
+
+#: harddrake/data.pm:62
+#, c-format
+msgid "SATA controllers"
+msgstr "SATA kontrollerid"
+
+#: harddrake/data.pm:72
+#, c-format
+msgid "RAID controllers"
+msgstr "RAID kontrollerid"
+
+#: harddrake/data.pm:82
+#, c-format
+msgid "(E)IDE/ATA controllers"
+msgstr "(E)IDE/ATA kontrollerid"
+
+#: harddrake/data.pm:93
+#, c-format
+msgid "Card readers"
+msgstr "Kaardilugejad"
+
+#: harddrake/data.pm:102
+#, c-format
+msgid "Firewire controllers"
+msgstr "FireWire kontrollerid"
+
+#: harddrake/data.pm:111
+#, c-format
+msgid "PCMCIA controllers"
+msgstr "PCMCIA kontrollerid"
+
+#: harddrake/data.pm:120
+#, c-format
+msgid "SCSI controllers"
+msgstr "SCSI kontrollerid"
+
+#: harddrake/data.pm:129
+#, c-format
+msgid "USB controllers"
+msgstr "USB kontrollerid"
+
+#: harddrake/data.pm:138
+#, c-format
+msgid "USB ports"
+msgstr "USB pordid"
+
+#: harddrake/data.pm:147
+#, c-format
+msgid "SMBus controllers"
+msgstr "SMBus kontrollerid"
+
+#: harddrake/data.pm:156
+#, c-format
+msgid "Bridges and system controllers"
+msgstr "Sillad ja kontrollerid"
+
+#: harddrake/data.pm:168
+#, c-format
+msgid "Floppy"
+msgstr "Diskett"
+
+#: harddrake/data.pm:178
+#, c-format
+msgid "Zip"
+msgstr "Zip"
+
+#: harddrake/data.pm:194
+#, c-format
+msgid "Hard Disk"
+msgstr "Kõvaketas"
+
+#: harddrake/data.pm:204
+#, c-format
+msgid "USB Mass Storage Devices"
+msgstr "USB-salvestusseadmed"
+
+#: harddrake/data.pm:213
+#, c-format
+msgid "CDROM"
+msgstr "CD-lugeja"
+
+#: harddrake/data.pm:223
+#, c-format
+msgid "CD/DVD burners"
+msgstr "CD/DVD-kirjutid"
+
+#: harddrake/data.pm:233
+#, c-format
+msgid "DVD-ROM"
+msgstr "DVD-lugeja"
+
+#: harddrake/data.pm:243
+#, c-format
+msgid "Tape"
+msgstr "Lint"
+
+#: harddrake/data.pm:254
+#, c-format
+msgid "AGP controllers"
+msgstr "AGP kontrollerid"
+
+#: harddrake/data.pm:263
+#, c-format
+msgid "Videocard"
+msgstr "Videokaart"
+
+#: harddrake/data.pm:272
+#, c-format
+msgid "DVB card"
+msgstr "DVB-kaart"
+
+#: harddrake/data.pm:280
+#, c-format
+msgid "Tvcard"
+msgstr "TV-kaart"
+
+#: harddrake/data.pm:290
+#, c-format
+msgid "Other MultiMedia devices"
+msgstr "Muud multimeediaseadmed"
+
+#: harddrake/data.pm:299
+#, c-format
+msgid "Soundcard"
+msgstr "Helikaart"
+
+#: harddrake/data.pm:313
+#, c-format
+msgid "Webcam"
+msgstr "Veebikaamera"
+
+#: harddrake/data.pm:328
+#, c-format
+msgid "Processors"
+msgstr "Protsessorid"
+
+#: harddrake/data.pm:338
+#, c-format
+msgid "ISDN adapters"
+msgstr "ISDN-kaardid"
+
+#: harddrake/data.pm:349
+#, c-format
+msgid "USB sound devices"
+msgstr "USB-heliseadmed"
+
+#: harddrake/data.pm:358
+#, c-format
+msgid "Radio cards"
+msgstr "Raadiokaardid"
+
+#: harddrake/data.pm:367
+#, c-format
+msgid "ATM network cards"
+msgstr "ATM-võrgukaardid"
+
+#: harddrake/data.pm:376
+#, c-format
+msgid "WAN network cards"
+msgstr "WAN-võrgukaardid"
+
+#: harddrake/data.pm:385
+#, c-format
+msgid "Bluetooth devices"
+msgstr "Bluetoothi seadmed"
+
+#: harddrake/data.pm:394
+#, c-format
+msgid "Ethernetcard"
+msgstr "Võrgukaart"
+
+#: harddrake/data.pm:412
+#, c-format
+msgid "Modem"
+msgstr "Modem"
+
+#: harddrake/data.pm:422
+#, c-format
+msgid "ADSL adapters"
+msgstr "ADSL-kaardid"
+
+#: harddrake/data.pm:434
+#, c-format
+msgid "Memory"
+msgstr "Mälu"
+
+#: harddrake/data.pm:443
+#, c-format
+msgid "Printer"
+msgstr "Printer"
+
+#. -PO: these are joysticks controllers:
+#: harddrake/data.pm:457
+#, c-format
+msgid "Game port controllers"
+msgstr "Mängupordi kontrollerid"
+
+#: harddrake/data.pm:466
+#, c-format
+msgid "Joystick"
+msgstr "Juhtkang"
+
+#: harddrake/data.pm:476
+#, c-format
+msgid "Keyboard"
+msgstr "Klaviatuur"
+
+#: harddrake/data.pm:490
+#, c-format
+msgid "Tablet and touchscreen"
+msgstr "Tahvelarvuti ja puuteekraan"
+
+#: harddrake/data.pm:499
+#, c-format
+msgid "Mouse"
+msgstr "Hiir"
+
+#: harddrake/data.pm:514
+#, c-format
+msgid "Biometry"
+msgstr "Biomeetria"
+
+#: harddrake/data.pm:522
+#, c-format
+msgid "UPS"
+msgstr "UPS"
+
+#: harddrake/data.pm:531
+#, c-format
+msgid "Scanner"
+msgstr "Skanner"
+
+#: harddrake/data.pm:542
+#, c-format
+msgid "Unknown/Others"
+msgstr "Tundmatu/Muu"
+
+#: harddrake/data.pm:572
+#, c-format
+msgid "cpu # "
+msgstr "cpu # "
+
+#: harddrake/sound.pm:80
+#, c-format
+msgid "No known driver"
+msgstr "Draiverit ei õnnestunud tuvastada"
+
+#: harddrake/sound.pm:81
+#, c-format
+msgid "There's no known driver for your sound card (%s)"
+msgstr "Teie helikaardile (%s) ei õnnestunud tuvastada draiverit"
+
+#: harddrake/sound.pm:110
+#, c-format
+msgid "Enable PulseAudio"
+msgstr "PulseAudio lubamine"
+
+#: harddrake/sound.pm:115
+#, c-format
+msgid "Use Glitch-Free mode"
+msgstr "Tõrkevaba režiimi kasutamine"
+
+#: harddrake/sound.pm:121
+#, c-format
+msgid "Reset sound mixer to default values"
+msgstr "Helimikseri väärtuste lähtestamine"
+
+#: harddrake/sound.pm:125
+#, c-format
+msgid "Troubleshooting"
+msgstr "Probleemi otsimine"
+
+#: harddrake/sound.pm:132
+#, c-format
+msgid "No alternative driver"
+msgstr "Alternatiivne draiver puudub"
+
+#: harddrake/sound.pm:133
+#, c-format
+msgid ""
+"There's no known OSS/ALSA alternative driver for your sound card (%s) which "
+"currently uses \"%s\""
+msgstr ""
+"Pole teada ühtegi alternatiivset OSS/ALSA draiverit Teie helikaardile (%s), "
+"millel praegu on kasutusel \"%s\""
+
+#: harddrake/sound.pm:140
+#, c-format
+msgid "Sound configuration"
+msgstr "Heliseadistused"
+
+#: harddrake/sound.pm:144
+#, c-format
+msgid "Your card uses the \"%s\" driver"
+msgstr "Teie kaart kasutab \"%s\" draiverit"
+
+#: harddrake/sound.pm:156
+#, c-format
+msgid "Sound troubleshooting"
+msgstr "Heliprobleemide lahendamine"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: harddrake/sound.pm:159
+#, c-format
+msgid ""
+"Below are some basic tips to help debug audio problems, but for accurate and "
+"up-to-date tips and tricks, please see:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- General Recommendation: Enable PulseAudio. If you have opted to not to use "
+"PulseAudio, we would strongly advise you enable it. For the vast majority of "
+"desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pavucontrol"
+"\" (generic) will launch graphical applications to allow you to view your "
+"sound devices and adjust volume levels\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.\n"
+"\n"
+"\n"
+"- \"pactl stat\" will check that you can connect to the PulseAudio daemon "
+"correctly.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" will tell you which programs are currently "
+"playing sound via PulseAudio.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" will tell you the current state of the "
+"OSS Proxy Daemon. This is used to enable sound from legacy applications "
+"which use the OSS sound API. You should install the \"ossp\" package if you "
+"need this functionality.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" will give you a LOT of debug information about the current "
+"state of your audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver "
+"your card uses by default.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound "
+"related kernel modules (drivers) are loaded.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA "
+"mixer controls for first sound card\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are "
+"currently using the sound card directly (normally this should only show "
+"PulseAudio)\n"
+msgstr ""
+"Allpool on toodud mõned lihtsamad nõuanded heliprobleemide lahendamiseks, "
+"kuid täpsemaid ja uusimaid nõuandeid leiab veebilehelt:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- Üldine soovitus: lülitage sisse PulseAudio. Kui olete otsustanud "
+"PulseAudiot mitte kasutada, soovitame siiski tungivalt seda teha. "
+"Levinumatel arvutikasutamise juhtudel on PulseAudio peaaegu alati soovitatav "
+"ja kõige paremini toetatud valik.\n"
+"\n"
+"\n"
+"\n"
+"- Käsud \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) ja "
+"\"pavucontrol\" (töökeskkonnast sõltumata) käivitavad graafilise rakenduse, "
+"mis lubab Teil näha oma heliseadmeid ja kohandada helitugevust.\n"
+"\n"
+"\n"
+"- Käsuga \"ps aux | grep pulseaudio\" saab kontrollida, kas PulseAudio "
+"töötab.\n"
+"\n"
+"\n"
+"- Käsuga \"pactl stat\" kontrollitakse, kas PulseAudio deemoniga on võimalik "
+"korrektselt ühendust saada.\n"
+"\n"
+"\n"
+"- Käsk \"pactl list sink-inputs\" ütleb, milline programm parajasti esitab "
+"heli PulseAudio kaudu.\n"
+"\n"
+"\n"
+"- Käsk \"systemctl status osspd.service\" annab teada OSS-i puhverdeemoni "
+"kehtiva oleku. Seda kasutatakse heli võimaldamiseks vanemates rakendustes, "
+"milles on tarvitusel OSS-i heli-API. Kui Teil seda vaja läheb, tuleks "
+"paigaldada tarkvarapakett \"ossp\".\n"
+"\n"
+"\n"
+"- Käsk \"pacmd ls\" annab väga palju teavet Teie masina helimaailma "
+"parasjagu kehtiva seisu kohta.\n"
+"\n"
+"\n"
+"- Käsk \"lspcidrake -v | grep -i audio\" annab teada, millist draiverit Teie "
+"helikaart vaikimisi kasutab.\n"
+"\n"
+"\n"
+"- Käsuga \"/usr/sbin/lsmod | grep snd\" saab kontrollida, millised heliga "
+"seotud kerneli moodulid (draiverid) on laaditud.\n"
+"\n"
+"\n"
+"- Käsk \"alsamixer -c 0\" annab Teie käsutusse tekstipõhise mikseri, kus "
+"saab manipuleerida ALSA mikseri juhtelementidega, aga ainult esimesel "
+"helikaardil.\n"
+"\n"
+"\n"
+"- Käsk \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" annab teada, millised "
+"programmid kasutavad parajasti helikaarti otse (üldjuhul peaks see näitama "
+"ainult PulseAudiot).\n"
+
+#: harddrake/v4l.pm:12
+#, c-format
+msgid "Auto-detect"
+msgstr "Automaattuvastus"
+
+#: harddrake/v4l.pm:97 harddrake/v4l.pm:285 harddrake/v4l.pm:337
+#, c-format
+msgid "Unknown|Generic"
+msgstr "Tundmatu|Tavaline"
+
+#: harddrake/v4l.pm:130
+#, c-format
+msgid "Unknown|CPH05X (bt878) [many vendors]"
+msgstr "Tundmatu|CPH05X (bt878) [paljud tootjad]"
+
+#: harddrake/v4l.pm:131
+#, c-format
+msgid "Unknown|CPH06X (bt878) [many vendors]"
+msgstr "Tundmatu|CPH06X (bt878) [paljud tootjad]"
+
+#: harddrake/v4l.pm:475
+#, c-format
+msgid ""
+"For most modern TV cards, the bttv module of the GNU/Linux kernel just auto-"
+"detect the rights parameters.\n"
+"If your card is misdetected, you can force the right tuner and card types "
+"here. Just select your TV card parameters if needed."
+msgstr ""
+"Enamiku moodsate TV-kaartide puhul tuvastab GNU/Linuxi kerneli bttv-moodul "
+"automaatselt õiged parameetrid.\n"
+"Kui kaart siiski valesti tuvastati, võite siin määrata õige tuuneri ja "
+"kaardi tüübi. Valige vajadusel korral sobivad TV-kaardi parameetrid."
+
+#: harddrake/v4l.pm:478
+#, c-format
+msgid "Card model:"
+msgstr "Kaardi mudel:"
+
+#: harddrake/v4l.pm:479
+#, c-format
+msgid "Tuner type:"
+msgstr "Tuuneri tüüp:"
+
+#: interactive.pm:119 interactive.pm:674 interactive/curses.pm:270
+#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
+#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
+#: mygtk3.pm:928 ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:810 ugtk2.pm:833
+#: ugtk3.pm:507 ugtk3.pm:593 ugtk3.pm:906 ugtk3.pm:929
+#, c-format
+msgid "Ok"
+msgstr "Olgu"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "Yes"
+msgstr "Jah"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "No"
+msgstr "Ei"
+
+#: interactive.pm:253
+#, c-format
+msgid "Choose a file"
+msgstr "Faili valimine"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Add"
+msgstr "Lisa"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Modify"
+msgstr "Muuda"
+
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Finish"
+msgstr "Lõpeta"
+
+#: interactive.pm:675 interactive/curses.pm:267 ugtk2.pm:517 ugtk3.pm:591
+#, c-format
+msgid "Previous"
+msgstr "Tagasi"
+
+#: interactive/curses.pm:576 ugtk2.pm:870 ugtk3.pm:966
+#, c-format
+msgid "No file chosen"
+msgstr "Ühtegi faili pole valitud"
+
+#: interactive/curses.pm:580 ugtk2.pm:874 ugtk3.pm:970
+#, c-format
+msgid "You have chosen a directory, not a file"
+msgstr "Valisite kataloogi, mitte faili"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such directory"
+msgstr "Sellist kataloogi pole"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such file"
+msgstr "Sellist faili pole"
+
+#: interactive/gtk.pm:596
+#, c-format
+msgid "Beware, Caps Lock is enabled"
+msgstr "Ettevaatust, Caps Lock on sees"
+
+#: interactive/stdio.pm:29 interactive/stdio.pm:154
+#, c-format
+msgid "Bad choice, try again\n"
+msgstr "Halb valik, proovige palun uuesti\n"
+
+#: interactive/stdio.pm:30 interactive/stdio.pm:155
+#, c-format
+msgid "Your choice? (default %s) "
+msgstr "Teie valik? (vaikimisi %s)"
+
+#: interactive/stdio.pm:54
+#, c-format
+msgid ""
+"Entries you'll have to fill:\n"
+"%s"
+msgstr ""
+"Teil tuleb täita kirjed:\n"
+"%s"
+
+#: interactive/stdio.pm:70
+#, c-format
+msgid "Your choice? (0/1, default `%s') "
+msgstr "Teie valik? (0/1, vaikimisi \"%s\")"
+
+#: interactive/stdio.pm:97
+#, c-format
+msgid "Button `%s': %s"
+msgstr "Nupp \"%s\": %s"
+
+#: interactive/stdio.pm:98
+#, c-format
+msgid "Do you want to click on this button?"
+msgstr "Kas soovite sellel nupul klõpsata?"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid "Your choice? (default `%s'%s) "
+msgstr "Teie valik? (vaikimisi `%s'%s)"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid " enter `void' for void entry"
+msgstr " kirjutage tühja kirje puhul \"void\""
+
+#: interactive/stdio.pm:128
+#, c-format
+msgid "=> There are many things to choose from (%s).\n"
+msgstr "=> Nüüd on Teil mitmeid valikuid (%s).\n"
+
+#: interactive/stdio.pm:131
+#, c-format
+msgid ""
+"Please choose the first number of the 10-range you wish to edit,\n"
+"or just hit Enter to proceed.\n"
+"Your choice? "
+msgstr ""
+"Valige palun esimene number kümnesest vahemikust, mida soovite\n"
+"muuta, või vajutage Enter jätkamiseks.\n"
+"Ja Teie valik on? "
+
+#: interactive/stdio.pm:144
+#, c-format
+msgid ""
+"=> Notice, a label changed:\n"
+"%s"
+msgstr ""
+"=> Pange tähele, et nimi on muutunud:\n"
+"%s"
+
+#: interactive/stdio.pm:151
+#, c-format
+msgid "Re-submit"
+msgstr "Saada uuesti"
+
+#. -PO: the string "default:LTR" can be translated *ONLY* as "default:LTR"
+#. -PO: or as "default:RTL", depending if your language is written from
+#. -PO: left to right, or from right to left; any other string is wrong.
+#: lang.pm:247
+#, c-format
+msgid "default:LTR"
+msgstr "default:LTR"
+
+#: lang.pm:301
+#, c-format
+msgid "Andorra"
+msgstr "Andorra"
+
+#: lang.pm:302 timezone.pm:237
+#, c-format
+msgid "United Arab Emirates"
+msgstr "Araabia Ühendemiraadid"
+
+#: lang.pm:303
+#, c-format
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: lang.pm:304
+#, c-format
+msgid "Antigua and Barbuda"
+msgstr "Antigua ja Barbuda"
+
+#: lang.pm:305
+#, c-format
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: lang.pm:306
+#, c-format
+msgid "Albania"
+msgstr "Albaania"
+
+#: lang.pm:307
+#, c-format
+msgid "Armenia"
+msgstr "Armeenia"
+
+#: lang.pm:308
+#, c-format
+msgid "Netherlands Antilles"
+msgstr "Hollandi Antillid"
+
+#: lang.pm:309
+#, c-format
+msgid "Angola"
+msgstr "Angola"
+
+#: lang.pm:310
+#, c-format
+msgid "Antarctica"
+msgstr "Antarktika"
+
+#: lang.pm:311 timezone.pm:282
+#, c-format
+msgid "Argentina"
+msgstr "Argentina"
+
+#: lang.pm:312
+#, c-format
+msgid "American Samoa"
+msgstr "Ameerika Samoa"
+
+#: lang.pm:313 mirror.pm:22 timezone.pm:240
+#, c-format
+msgid "Austria"
+msgstr "Austria"
+
+#: lang.pm:314 mirror.pm:21 timezone.pm:278
+#, c-format
+msgid "Australia"
+msgstr "Austraalia"
+
+#: lang.pm:315
+#, c-format
+msgid "Aruba"
+msgstr "Aruba"
+
+#: lang.pm:316
+#, c-format
+msgid "Azerbaijan"
+msgstr "Aserbaidžaan"
+
+#: lang.pm:317
+#, c-format
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia ja Hertsegoviina"
+
+#: lang.pm:318
+#, c-format
+msgid "Barbados"
+msgstr "Barbados"
+
+#: lang.pm:319 timezone.pm:222
+#, c-format
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: lang.pm:320 mirror.pm:23 timezone.pm:242
+#, c-format
+msgid "Belgium"
+msgstr "Belgia"
+
+#: lang.pm:321
+#, c-format
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: lang.pm:322 timezone.pm:243
+#, c-format
+msgid "Bulgaria"
+msgstr "Bulgaaria"
+
+#: lang.pm:323
+#, c-format
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: lang.pm:324
+#, c-format
+msgid "Burundi"
+msgstr "Burundi"
+
+#: lang.pm:325
+#, c-format
+msgid "Benin"
+msgstr "Benin"
+
+#: lang.pm:326
+#, c-format
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: lang.pm:327
+#, c-format
+msgid "Brunei Darussalam"
+msgstr "Brunei"
+
+#: lang.pm:328
+#, c-format
+msgid "Bolivia"
+msgstr "Boliivia"
+
+#: lang.pm:329 mirror.pm:24 timezone.pm:283
+#, c-format
+msgid "Brazil"
+msgstr "Brasiilia"
+
+#: lang.pm:330
+#, c-format
+msgid "Bahamas"
+msgstr "Bahama saared"
+
+#: lang.pm:331
+#, c-format
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: lang.pm:332
+#, c-format
+msgid "Bouvet Island"
+msgstr "Bouvet' saar"
+
+#: lang.pm:333
+#, c-format
+msgid "Botswana"
+msgstr "Botswana"
+
+#: lang.pm:334 timezone.pm:241
+#, c-format
+msgid "Belarus"
+msgstr "Valgevene"
+
+#: lang.pm:335
+#, c-format
+msgid "Belize"
+msgstr "Belize"
+
+#: lang.pm:336 mirror.pm:25 timezone.pm:272
+#, c-format
+msgid "Canada"
+msgstr "Kanada"
+
+#: lang.pm:337
+#, c-format
+msgid "Cocos (Keeling) Islands"
+msgstr "Kookosesaared"
+
+#: lang.pm:338
+#, c-format
+msgid "Congo (Kinshasa)"
+msgstr "Kongo (Kinshasa)"
+
+#: lang.pm:339
+#, c-format
+msgid "Central African Republic"
+msgstr "Kesk-Aafrika Vabariik"
+
+#: lang.pm:340
+#, c-format
+msgid "Congo (Brazzaville)"
+msgstr "Kongo (Brazzaville)"
+
+#: lang.pm:341 mirror.pm:49 timezone.pm:266
+#, c-format
+msgid "Switzerland"
+msgstr "Šveits"
+
+#: lang.pm:342
+#, c-format
+msgid "Cote d'Ivoire"
+msgstr "Cote d'Ivoire"
+
+#: lang.pm:343
+#, c-format
+msgid "Cook Islands"
+msgstr "Cooki saared"
+
+#: lang.pm:344 timezone.pm:284
+#, c-format
+msgid "Chile"
+msgstr "Tšiili"
+
+#: lang.pm:345
+#, c-format
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: lang.pm:346 timezone.pm:223
+#, c-format
+msgid "China"
+msgstr "Hiina"
+
+#: lang.pm:347
+#, c-format
+msgid "Colombia"
+msgstr "Colombia"
+
+#: lang.pm:348 mirror.pm:26
+#, c-format
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: lang.pm:349
+#, c-format
+msgid "Serbia & Montenegro"
+msgstr "Serbia ja Montenegro"
+
+#: lang.pm:350
+#, c-format
+msgid "Cuba"
+msgstr "Kuuba"
+
+#: lang.pm:351
+#, c-format
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: lang.pm:352
+#, c-format
+msgid "Christmas Island"
+msgstr "Jõulusaar"
+
+#: lang.pm:353
+#, c-format
+msgid "Cyprus"
+msgstr "Küpros"
+
+#: lang.pm:354 mirror.pm:27 timezone.pm:244
+#, c-format
+msgid "Czech Republic"
+msgstr "Tšehhi"
+
+#: lang.pm:355 mirror.pm:32 timezone.pm:249
+#, c-format
+msgid "Germany"
+msgstr "Saksamaa"
+
+#: lang.pm:356
+#, c-format
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: lang.pm:357 mirror.pm:28 timezone.pm:245
+#, c-format
+msgid "Denmark"
+msgstr "Taani"
+
+#: lang.pm:358
+#, c-format
+msgid "Dominica"
+msgstr "Dominica"
+
+#: lang.pm:359
+#, c-format
+msgid "Dominican Republic"
+msgstr "Dominikaani Vabariik"
+
+#: lang.pm:360
+#, c-format
+msgid "Algeria"
+msgstr "Alžeeria"
+
+#: lang.pm:361
+#, c-format
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: lang.pm:362 mirror.pm:29 timezone.pm:246
+#, c-format
+msgid "Estonia"
+msgstr "Eesti"
+
+#: lang.pm:363
+#, c-format
+msgid "Egypt"
+msgstr "Egiptus"
+
+#: lang.pm:364
+#, c-format
+msgid "Western Sahara"
+msgstr "Lääne-Sahara"
+
+#: lang.pm:365
+#, c-format
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: lang.pm:366 mirror.pm:47 timezone.pm:264
+#, c-format
+msgid "Spain"
+msgstr "Hispaania"
+
+#: lang.pm:367
+#, c-format
+msgid "Ethiopia"
+msgstr "Etioopia"
+
+#: lang.pm:368 mirror.pm:30 timezone.pm:247
+#, c-format
+msgid "Finland"
+msgstr "Soome"
+
+#: lang.pm:369
+#, c-format
+msgid "Fiji"
+msgstr "Fidži"
+
+#: lang.pm:370
+#, c-format
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandi saared (Malviinid)"
+
+#: lang.pm:371
+#, c-format
+msgid "Micronesia"
+msgstr "Mikroneesia"
+
+#: lang.pm:372
+#, c-format
+msgid "Faroe Islands"
+msgstr "Fääri saared"
+
+#: lang.pm:373 mirror.pm:31 timezone.pm:248
+#, c-format
+msgid "France"
+msgstr "Prantsusmaa"
+
+#: lang.pm:374
+#, c-format
+msgid "Gabon"
+msgstr "Gabon"
+
+#: lang.pm:375 timezone.pm:268
+#, c-format
+msgid "United Kingdom"
+msgstr "Suurbritannia"
+
+#: lang.pm:376
+#, c-format
+msgid "Grenada"
+msgstr "Grenada"
+
+#: lang.pm:377
+#, c-format
+msgid "Georgia"
+msgstr "Gruusia"
+
+#: lang.pm:378
+#, c-format
+msgid "French Guiana"
+msgstr "Prantsuse Guajaana"
+
+#: lang.pm:379
+#, c-format
+msgid "Ghana"
+msgstr "Ghana"
+
+#: lang.pm:380
+#, c-format
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: lang.pm:381
+#, c-format
+msgid "Greenland"
+msgstr "Gröönimaa"
+
+#: lang.pm:382
+#, c-format
+msgid "Gambia"
+msgstr "Gambia"
+
+#: lang.pm:383
+#, c-format
+msgid "Guinea"
+msgstr "Guinea"
+
+#: lang.pm:384
+#, c-format
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: lang.pm:385
+#, c-format
+msgid "Equatorial Guinea"
+msgstr "Ekvatoriaal-Guinea"
+
+#: lang.pm:386 mirror.pm:33 timezone.pm:250
+#, c-format
+msgid "Greece"
+msgstr "Kreeka"
+
+#: lang.pm:387
+#, c-format
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Lõuna-Georgia ja Lõuna-Sandwichi saared"
+
+#: lang.pm:388 timezone.pm:273
+#, c-format
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: lang.pm:389
+#, c-format
+msgid "Guam"
+msgstr "Guam"
+
+#: lang.pm:390
+#, c-format
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: lang.pm:391
+#, c-format
+msgid "Guyana"
+msgstr "Guyana"
+
+#: lang.pm:392
+#, c-format
+msgid "Hong Kong SAR (China)"
+msgstr "Hiina (Hongkong)"
+
+#: lang.pm:393
+#, c-format
+msgid "Heard and McDonald Islands"
+msgstr "Heard ja McDonald"
+
+#: lang.pm:394
+#, c-format
+msgid "Honduras"
+msgstr "Honduras"
+
+#: lang.pm:395
+#, c-format
+msgid "Croatia"
+msgstr "Horvaatia"
+
+#: lang.pm:396
+#, c-format
+msgid "Haiti"
+msgstr "Haiti"
+
+#: lang.pm:397 mirror.pm:34 timezone.pm:251
+#, c-format
+msgid "Hungary"
+msgstr "Ungari"
+
+#: lang.pm:398 timezone.pm:226
+#, c-format
+msgid "Indonesia"
+msgstr "Indoneesia"
+
+#: lang.pm:399 mirror.pm:35 timezone.pm:252
+#, c-format
+msgid "Ireland"
+msgstr "Iirimaa"
+
+#: lang.pm:400 mirror.pm:36 timezone.pm:228
+#, c-format
+msgid "Israel"
+msgstr "Iisrael"
+
+#: lang.pm:401 timezone.pm:225
+#, c-format
+msgid "India"
+msgstr "India"
+
+#: lang.pm:402
+#, c-format
+msgid "British Indian Ocean Territory"
+msgstr "Briti India ookeani ala"
+
+#: lang.pm:403
+#, c-format
+msgid "Iraq"
+msgstr "Iraak"
+
+#: lang.pm:404 timezone.pm:227
+#, c-format
+msgid "Iran"
+msgstr "Iraan"
+
+#: lang.pm:405
+#, c-format
+msgid "Iceland"
+msgstr "Island"
+
+#: lang.pm:406 mirror.pm:37 timezone.pm:253
+#, c-format
+msgid "Italy"
+msgstr "Itaalia"
+
+#: lang.pm:407
+#, c-format
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: lang.pm:408
+#, c-format
+msgid "Jordan"
+msgstr "Jordaania"
+
+#: lang.pm:409 mirror.pm:38 timezone.pm:229
+#, c-format
+msgid "Japan"
+msgstr "Jaapan"
+
+#: lang.pm:410
+#, c-format
+msgid "Kenya"
+msgstr "Keenia"
+
+#: lang.pm:411
+#, c-format
+msgid "Kyrgyzstan"
+msgstr "Kõrgõzstan"
+
+#: lang.pm:412
+#, c-format
+msgid "Cambodia"
+msgstr "Kambodža"
+
+#: lang.pm:413
+#, c-format
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: lang.pm:414
+#, c-format
+msgid "Comoros"
+msgstr "Komoorid"
+
+#: lang.pm:415
+#, c-format
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts ja Nevis"
+
+#: lang.pm:416
+#, c-format
+msgid "Korea (North)"
+msgstr "Põhja-Korea"
+
+#: lang.pm:417 timezone.pm:230
+#, c-format
+msgid "Korea"
+msgstr "Korea"
+
+#: lang.pm:418
+#, c-format
+msgid "Kuwait"
+msgstr "Kuveit"
+
+#: lang.pm:419
+#, c-format
+msgid "Cayman Islands"
+msgstr "Kaimanisaared"
+
+#: lang.pm:420
+#, c-format
+msgid "Kazakhstan"
+msgstr "Kasahstan"
+
+#: lang.pm:421
+#, c-format
+msgid "Laos"
+msgstr "Laos"
+
+#: lang.pm:422
+#, c-format
+msgid "Lebanon"
+msgstr "Liibanon"
+
+#: lang.pm:423
+#, c-format
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: lang.pm:424
+#, c-format
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: lang.pm:425
+#, c-format
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: lang.pm:426
+#, c-format
+msgid "Liberia"
+msgstr "Libeeria"
+
+#: lang.pm:427
+#, c-format
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: lang.pm:428 timezone.pm:254
+#, c-format
+msgid "Lithuania"
+msgstr "Leedu"
+
+#: lang.pm:429 timezone.pm:255
+#, c-format
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+#: lang.pm:430
+#, c-format
+msgid "Latvia"
+msgstr "Läti"
+
+#: lang.pm:431
+#, c-format
+msgid "Libya"
+msgstr "Liibüa"
+
+#: lang.pm:432
+#, c-format
+msgid "Morocco"
+msgstr "Maroko"
+
+#: lang.pm:433
+#, c-format
+msgid "Monaco"
+msgstr "Monaco"
+
+#: lang.pm:434
+#, c-format
+msgid "Moldova"
+msgstr "Moldova"
+
+#: lang.pm:435
+#, c-format
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: lang.pm:436
+#, c-format
+msgid "Marshall Islands"
+msgstr "Marshalli saared"
+
+#: lang.pm:437
+#, c-format
+msgid "Macedonia"
+msgstr "Makedoonia"
+
+#: lang.pm:438
+#, c-format
+msgid "Mali"
+msgstr "Mali"
+
+#: lang.pm:439
+#, c-format
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: lang.pm:440
+#, c-format
+msgid "Mongolia"
+msgstr "Mongoolia"
+
+#: lang.pm:441
+#, c-format
+msgid "Northern Mariana Islands"
+msgstr "Põhja-Mariaani saared"
+
+#: lang.pm:442
+#, c-format
+msgid "Martinique"
+msgstr "Martinique"
+
+#: lang.pm:443
+#, c-format
+msgid "Mauritania"
+msgstr "Mauritaania"
+
+#: lang.pm:444
+#, c-format
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: lang.pm:445
+#, c-format
+msgid "Malta"
+msgstr "Malta"
+
+#: lang.pm:446
+#, c-format
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: lang.pm:447
+#, c-format
+msgid "Maldives"
+msgstr "Maldiivid"
+
+#: lang.pm:448
+#, c-format
+msgid "Malawi"
+msgstr "Malawi"
+
+#: lang.pm:449 timezone.pm:274
+#, c-format
+msgid "Mexico"
+msgstr "Mehhiko"
+
+#: lang.pm:450 timezone.pm:231
+#, c-format
+msgid "Malaysia"
+msgstr "Malaisia"
+
+#: lang.pm:451
+#, c-format
+msgid "Mozambique"
+msgstr "Mosambiik"
+
+#: lang.pm:452
+#, c-format
+msgid "Namibia"
+msgstr "Namiibia"
+
+#: lang.pm:453
+#, c-format
+msgid "New Caledonia"
+msgstr "Uus-Kaledoonia"
+
+#: lang.pm:454
+#, c-format
+msgid "Niger"
+msgstr "Niger"
+
+#: lang.pm:455
+#, c-format
+msgid "Norfolk Island"
+msgstr "Norfolki saar"
+
+#: lang.pm:456
+#, c-format
+msgid "Nigeria"
+msgstr "Nigeeria"
+
+#: lang.pm:457
+#, c-format
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: lang.pm:458 mirror.pm:39 timezone.pm:256
+#, c-format
+msgid "Netherlands"
+msgstr "Holland"
+
+#: lang.pm:459 mirror.pm:41 timezone.pm:257
+#, c-format
+msgid "Norway"
+msgstr "Norra"
+
+#: lang.pm:460
+#, c-format
+msgid "Nepal"
+msgstr "Nepal"
+
+#: lang.pm:461
+#, c-format
+msgid "Nauru"
+msgstr "Nauru"
+
+#: lang.pm:462
+#, c-format
+msgid "Niue"
+msgstr "Niue"
+
+#: lang.pm:463 mirror.pm:40 timezone.pm:279
+#, c-format
+msgid "New Zealand"
+msgstr "Uus-Meremaa"
+
+#: lang.pm:464
+#, c-format
+msgid "Oman"
+msgstr "Omaan"
+
+#: lang.pm:465
+#, c-format
+msgid "Panama"
+msgstr "Panama"
+
+#: lang.pm:466
+#, c-format
+msgid "Peru"
+msgstr "Peruu"
+
+#: lang.pm:467
+#, c-format
+msgid "French Polynesia"
+msgstr "Prantsuse Polüneesia"
+
+#: lang.pm:468
+#, c-format
+msgid "Papua New Guinea"
+msgstr "Paapua Uus-Guinea"
+
+#: lang.pm:469 timezone.pm:232
+#, c-format
+msgid "Philippines"
+msgstr "Filipiinid"
+
+#: lang.pm:470
+#, c-format
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: lang.pm:471 mirror.pm:42 timezone.pm:258
+#, c-format
+msgid "Poland"
+msgstr "Poola"
+
+#: lang.pm:472
+#, c-format
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre ja Miquelon"
+
+#: lang.pm:473
+#, c-format
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: lang.pm:474
+#, c-format
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: lang.pm:475
+#, c-format
+msgid "Palestine"
+msgstr "Palestiina"
+
+#: lang.pm:476 mirror.pm:43 timezone.pm:259
+#, c-format
+msgid "Portugal"
+msgstr "Portugal"
+
+#: lang.pm:477
+#, c-format
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: lang.pm:478
+#, c-format
+msgid "Palau"
+msgstr "Belau"
+
+#: lang.pm:479
+#, c-format
+msgid "Qatar"
+msgstr "Katar"
+
+#: lang.pm:480
+#, c-format
+msgid "Reunion"
+msgstr "Réunion"
+
+#: lang.pm:481 timezone.pm:260
+#, c-format
+msgid "Romania"
+msgstr "Rumeenia"
+
+#: lang.pm:482 mirror.pm:44
+#, c-format
+msgid "Russia"
+msgstr "Venemaa"
+
+#: lang.pm:483
+#, c-format
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: lang.pm:484
+#, c-format
+msgid "Saudi Arabia"
+msgstr "Saudi Araabia"
+
+#: lang.pm:485
+#, c-format
+msgid "Solomon Islands"
+msgstr "Saalomoni saared"
+
+#: lang.pm:486
+#, c-format
+msgid "Seychelles"
+msgstr "Seišellid"
+
+#: lang.pm:487
+#, c-format
+msgid "Sudan"
+msgstr "Sudaan"
+
+#: lang.pm:488 mirror.pm:48 timezone.pm:265
+#, c-format
+msgid "Sweden"
+msgstr "Rootsi"
+
+#: lang.pm:489 timezone.pm:233
+#, c-format
+msgid "Singapore"
+msgstr "Singapur"
+
+#: lang.pm:490
+#, c-format
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: lang.pm:491 timezone.pm:263
+#, c-format
+msgid "Slovenia"
+msgstr "Sloveenia"
+
+#: lang.pm:492
+#, c-format
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Svalbard ja Jan Mayen"
+
+#: lang.pm:493 mirror.pm:45 timezone.pm:262
+#, c-format
+msgid "Slovakia"
+msgstr "Slovakkia"
+
+#: lang.pm:494
+#, c-format
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: lang.pm:495
+#, c-format
+msgid "San Marino"
+msgstr "San Marino"
+
+#: lang.pm:496
+#, c-format
+msgid "Senegal"
+msgstr "Senegal"
+
+#: lang.pm:497
+#, c-format
+msgid "Somalia"
+msgstr "Somaalia"
+
+#: lang.pm:498
+#, c-format
+msgid "Suriname"
+msgstr "Suriname"
+
+#: lang.pm:499
+#, c-format
+msgid "Sao Tome and Principe"
+msgstr "Sao Tomé ja Principe"
+
+#: lang.pm:500
+#, c-format
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: lang.pm:501
+#, c-format
+msgid "Syria"
+msgstr "Süüria"
+
+#: lang.pm:502
+#, c-format
+msgid "Swaziland"
+msgstr "Svaasimaa"
+
+#: lang.pm:503
+#, c-format
+msgid "Turks and Caicos Islands"
+msgstr "Turks ja Caicos"
+
+#: lang.pm:504
+#, c-format
+msgid "Chad"
+msgstr "Tšaad"
+
+#: lang.pm:505
+#, c-format
+msgid "French Southern Territories"
+msgstr "Prantsuse Lõunaalad"
+
+#: lang.pm:506
+#, c-format
+msgid "Togo"
+msgstr "Togo"
+
+#: lang.pm:507 mirror.pm:51 timezone.pm:235
+#, c-format
+msgid "Thailand"
+msgstr "Tai"
+
+#: lang.pm:508
+#, c-format
+msgid "Tajikistan"
+msgstr "Tadžikistan"
+
+#: lang.pm:509
+#, c-format
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: lang.pm:510
+#, c-format
+msgid "East Timor"
+msgstr "Ida-Timor"
+
+#: lang.pm:511
+#, c-format
+msgid "Turkmenistan"
+msgstr "Türkmenistan"
+
+#: lang.pm:512
+#, c-format
+msgid "Tunisia"
+msgstr "Tuneesia"
+
+#: lang.pm:513
+#, c-format
+msgid "Tonga"
+msgstr "Tonga"
+
+#: lang.pm:514 timezone.pm:236
+#, c-format
+msgid "Turkey"
+msgstr "Türgi"
+
+#: lang.pm:515
+#, c-format
+msgid "Trinidad and Tobago"
+msgstr "Trinidad ja Tobago"
+
+#: lang.pm:516
+#, c-format
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: lang.pm:517 mirror.pm:50 timezone.pm:234
+#, c-format
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: lang.pm:518 timezone.pm:219
+#, c-format
+msgid "Tanzania"
+msgstr "Tansaania"
+
+#: lang.pm:519 timezone.pm:267
+#, c-format
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: lang.pm:520
+#, c-format
+msgid "Uganda"
+msgstr "Uganda"
+
+#: lang.pm:521
+#, c-format
+msgid "United States Minor Outlying Islands"
+msgstr "Ühendriikide hajasaared"
+
+#: lang.pm:522 mirror.pm:52 timezone.pm:275
+#, c-format
+msgid "United States"
+msgstr "USA"
+
+#: lang.pm:523
+#, c-format
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: lang.pm:524
+#, c-format
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+#: lang.pm:525
+#, c-format
+msgid "Vatican"
+msgstr "Vatikan"
+
+#: lang.pm:526
+#, c-format
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent ja Grenadiinid"
+
+#: lang.pm:527
+#, c-format
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: lang.pm:528
+#, c-format
+msgid "Virgin Islands (British)"
+msgstr "Neitsisaared (Briti)"
+
+#: lang.pm:529
+#, c-format
+msgid "Virgin Islands (U.S.)"
+msgstr "Neitsisaared (USA)"
+
+#: lang.pm:530
+#, c-format
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: lang.pm:531
+#, c-format
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: lang.pm:532
+#, c-format
+msgid "Wallis and Futuna"
+msgstr "Wallis ja Futuna"
+
+#: lang.pm:533
+#, c-format
+msgid "Samoa"
+msgstr "Samoa"
+
+#: lang.pm:534
+#, c-format
+msgid "Yemen"
+msgstr "Jeemen"
+
+#: lang.pm:535
+#, c-format
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: lang.pm:536 mirror.pm:46 timezone.pm:218
+#, c-format
+msgid "South Africa"
+msgstr "Lõuna-Aafrika"
+
+#: lang.pm:537
+#, c-format
+msgid "Zambia"
+msgstr "Sambia"
+
+#: lang.pm:538
+#, c-format
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: lang.pm:1537
+#, c-format
+msgid "Welcome to %s"
+msgstr "See ongi %s"
+
+#: lvm.pm:128
+#, c-format
+msgid "Moving used physical extents to other physical volumes failed"
+msgstr "Füüsiliste osade liigutamine teistele füüsilistele ketastele nurjus"
+
+#: lvm.pm:194
+#, c-format
+msgid "Physical volume %s is still in use"
+msgstr "Füüsiline ketas %s on veel kasutusel"
+
+#: lvm.pm:204
+#, c-format
+msgid "Remove the logical volumes first\n"
+msgstr "Eemaldage esmalt loogilised kettad\n"
+
+#: lvm.pm:248
+#, c-format
+msgid "The bootloader can't handle /boot on multiple physical volumes"
+msgstr ""
+"Alglaadur ei suuda käsitleda mitmel füüsilisel kettal paiknevat "
+"partitsiooni /boot"
+
+#. -PO: Only write something if needed:
+#: messages.pm:11
+#, c-format
+msgid "_: You can warn about unofficial translation here"
+msgstr ""
+"Järgnev lõppkasutaja litsentsi tõlge on mõeldud ainult tutvumiseks;\n"
+" igasuguste õiguslike probleemide puhul on juriidilise jõuga ainult\n"
+" litsentsi ingliskeelne originaal, mis on distributsiooniga kaasas."
+
+#: messages.pm:18
+#, c-format
+msgid "Introduction"
+msgstr "Sissejuhatus"
+
+#: messages.pm:20
+#, c-format
+msgid ""
+"The operating system and the different components available in the Mageia "
+"distribution \n"
+"shall be called the \"Software Products\" hereafter. The Software Products "
+"include, but are not \n"
+"restricted to, the set of programs, methods, rules and documentation related "
+"to the operating \n"
+"system and the different components of the Mageia distribution, and any "
+"applications \n"
+"distributed with these products provided by Mageia's licensors or suppliers."
+msgstr ""
+"Operatsioonisüsteemi ja erinevaid komponente, mida Mageia distributsioon "
+"pakub,\n"
+" nimetatakse edaspidi \"tarkvaratoodeteks\". Tarkvaratooted sisaldavad muu "
+"hulgas\n"
+" valikut programme, meetodeid, reegleid ja dokumentatsiooni, mis on seotud\n"
+" operatsioonisüsteemi ja Mageia distributsiooni erinevate komponentidega,\n"
+" samuti rakendusi, mida levitavad koos nende toodetega Mageia "
+"litsentsiandjad\n"
+" või tarnijad."
+
+#: messages.pm:27
+#, c-format
+msgid "1. License Agreement"
+msgstr "1. Litsentsileping"
+
+#: messages.pm:29
+#, c-format
+msgid ""
+"Please read this document carefully. This document is a license agreement "
+"between you and  \n"
+"Mageia which applies to the Software Products.\n"
+"By installing, duplicating or using any of the Software Products in any "
+"manner, you explicitly \n"
+"accept and fully agree to conform to the terms and conditions of this "
+"License. \n"
+"If you disagree with any portion of the License, you are not allowed to "
+"install, duplicate or use \n"
+"the Software Products. \n"
+"Any attempt to install, duplicate or use the Software Products in a manner "
+"which does not comply \n"
+"with the terms and conditions of this License is void and will terminate "
+"your rights under this \n"
+"License. Upon termination of the License,  you must immediately destroy all "
+"copies of the \n"
+"Software Products."
+msgstr ""
+"Palun lugege järgnev dokument hoolikalt läbi. See kujutab endast\n"
+" tarkvaratoodete suhtes kehtivat litsentsilepingut Teie ja Mageia vahel.\n"
+" Mis tahes tarkvaratoote paigaldamise, kopeerimise või kasutamisega mis\n"
+" tahes viisil olete sõnaselgelt ja täielikult nõustunud täitma käesoleva\n"
+" litsentsilepingu tingimusi.\n"
+" Kui Te ei ole nõus litsentsi mis tahes osaga, ei ole Teil õigust\n"
+" tarkvaratooteid paigaldada, kopeerida ega kasutada.\n"
+" Kõik katsed tarkvaratooteid paigaldada, kopeerida või kasutada viisil,\n"
+" mis ei vasta käesoleva litsentsilepingu tingimustele, on õigustühised\n"
+" ning tühistavad õigused, mida litsents Teile muidu annaks. Litsentsi\n"
+" tühistumisel peate viivitamata hävitama kõik tarkvaratoodete koopiad."
+
+#: messages.pm:41
+#, c-format
+msgid "2. Limited Warranty"
+msgstr "2. Piiratud garantii"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: messages.pm:44
+#, c-format
+msgid ""
+"The Software Products and attached documentation are provided \"as is\", "
+"with no warranty, to the \n"
+"extent permitted by law.\n"
+"Neither Mageia nor its licensors or suppliers will, in any circumstances and "
+"to the extent \n"
+"permitted by law, be liable for any special, incidental, direct or indirect "
+"damages whatsoever \n"
+"(including without limitation damages for loss of business, interruption of "
+"business, financial \n"
+"loss, legal fees and penalties resulting from a court judgment, or any other "
+"consequential loss) \n"
+"arising out of  the use or inability to use the Software Products, even if "
+"Mageia or its \n"
+"licensors or suppliers have been advised of the possibility or occurrence of "
+"such damages.\n"
+"\n"
+"LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
+"COUNTRIES\n"
+"\n"
+"To the extent permitted by law, neither Mageia nor its licensors, suppliers "
+"or\n"
+"distributors will, in any circumstances, be liable for any special, "
+"incidental, direct or indirect \n"
+"damages whatsoever (including without limitation damages for loss of "
+"business, interruption of \n"
+"business, financial loss, legal fees and penalties resulting from a court "
+"judgment, or any \n"
+"other consequential loss) arising out of the possession and use of software "
+"components or \n"
+"arising out of  downloading software components from one of Mageia sites "
+"which are \n"
+"prohibited or restricted in some countries by local laws.\n"
+"This limited liability applies to, but is not restricted to, the strong "
+"cryptography components \n"
+"included in the Software Products.\n"
+"However, because some jurisdictions do not allow the exclusion or limitation "
+"of liability for \n"
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+"Tarkvaratooteid ja nendega kaasnevat dokumentatsiooni pakutakse\n"
+" \"nii, nagu ta on\", seadusega lubatud ulatuses ilma garantiita.\n"
+" Ei Mageia ega tema litsentsiandjad ega tarnijad ei ole mingil juhul,\n"
+" nii palju kui seadused lubavad, vastutavad mitte mingisuguse erilise,\n"
+" juhusliku, otsese või kaudse kahju eest (sealhulgas, aga mitte ainult,\n"
+" kahju eest, mis kaasneb äritegevuse lakkamise või katkemise, rahalise "
+"kahju,\n"
+" õigusabitasude ja kohtuotsusest tulenevate trahvide või muu tegevusest\n"
+" tuleneva kahju eest), mis tuleneb tarkvaratoodete kasutamisest või\n"
+" võimetusest neid kasutada, isegi kui Mageia või tema litsentsiandjad või\n"
+" tarnijad on teadlikud niisuguse kahju võimalikkusest või esinemisest.\n"
+" \n"
+"PIIRATUD VASTUTUS SEOSES MÕNES RIIGIS KEELATUD TARKVARA OMAMISE VÕI "
+"KASUTAMISEGA\n"
+"\n"
+"Seadusega lubatud määral ei ole Mageia ega tema litsentsiandjad ega "
+"tarnijad\n"
+" mingil juhul vastutavad mitte mingisuguse erilise, juhusliku, otsese\n"
+" või kaudse kahju eest (sealhulgas, aga mitte ainult, kahju eest,\n"
+" mis kaasneb äritegevuse lakkamise või katkemise, rahalise kahju,\n"
+" õigusabitasude ja kohtuotsusest tulenevate trahvide või muu tegevusest\n"
+" tuleneva kahju eest), mis tuleneb selliste tarkvarakomponentide omamisest\n"
+" või kasutamisest või selliste tarkvarakomponentide allalaadimisest mõnelt\n"
+" Mageia saidilt, mis on keelatud mõne riigi kohaliku seadusega.\n"
+" See piiratud vastutus kehtib muu hulgas tarkvaratoodetes leiduvatele "
+"tugevatele\n"
+" krüptograafilistele komponentidele.\n"
+" Et mõnes õigusruumis ei ole lubatud välistada või piirata vastutust "
+"tuleneva\n"
+" või juhusliku kahju eest, ei pruugi käesolev piirang Teie suhtes kehtida."
+
+#: messages.pm:68
+#, c-format
+msgid "3. The GPL License and Related Licenses"
+msgstr "3. GPL-litsents ja sellega seotud litsentsid"
+
+#: messages.pm:70
+#, c-format
+msgid ""
+"The Software Products consist of components created by different persons or "
+"entities.\n"
+"Most of these licenses allow you to use, duplicate, adapt or redistribute "
+"the components which \n"
+"they cover. Please read carefully the terms and conditions of the license "
+"agreement for each component \n"
+"before using any component. Any question on a component license should be "
+"addressed to the component \n"
+"licensor or supplier and not to Mageia.\n"
+"The programs developed by Mageia are governed by the GPL License. "
+"Documentation written \n"
+"by Mageia is governed by \"%s\" License."
+msgstr ""
+"Tarkvaratooted koosnevad komponentidest, mille on loonud eri isikud või\n"
+" organisatsioonid.\n"
+"Enamik litsentse lubab Teil kasutada, kopeerida, kohandada või edasi\n"
+" levitada komponente, mille kohta need käivad. Palun tutvuge põhjalikult\n"
+" kõigi komponentide litsentsilepingu tingimustega enne nende komponentide\n"
+" kasutamist. Kõik küsimused komponendi litsentsi kohta tuleb esitada\n"
+" komponendi litsentsiandjale või tarnijale, mitte aga Mageiale.\n"
+" Mageia arendatud programmid on litsentsitud GPL-litsentsiga. Mageia\n"
+" kirjutatud dokumentatsioon on litsentsitud \"%s\" litsentsiga."
+
+#: messages.pm:79
+#, c-format
+msgid "4. Intellectual Property Rights"
+msgstr "4. Intellektuaalomandi õigused"
+
+#: messages.pm:81
+#, c-format
+msgid ""
+"All rights to the components of the Software Products belong to their "
+"respective authors and are \n"
+"protected by intellectual property and copyright laws applicable to software "
+"programs.\n"
+"Mageia and its suppliers and licensors reserves their rights to modify or "
+"adapt the Software \n"
+"Products, as a whole or in parts, by all means and for all purposes.\n"
+"\"Mageia\" and associated logos are trademarks of %s"
+msgstr ""
+"Kõik tarkvaratoodete komponentide õigused kuuluvad nende autoritele ning\n"
+" on kaitstud tarkvaraprogrammide kohta käivate intellektuaalomandi ja\n"
+" autoriõiguse seadustega.\n"
+"Mageia ja tema litsentsiandjad ja tarnijad jätavad endale õiguse muuta\n"
+" või kohandada tarkvaratooteid tervikuna või osaliselt mis tahes viisil\n"
+" ja mis tahes eesmärgil.\n"
+"\"Mageia\" ja temaga seotud logod on %s-i kaubamärgid."
+
+#: messages.pm:88
+#, c-format
+msgid "5. Governing Laws"
+msgstr "5. Kehtivad seadused"
+
+#: messages.pm:90
+#, c-format
+msgid ""
+"If any portion of this agreement is held void, illegal or inapplicable by a "
+"court judgment, this \n"
+"portion is excluded from this contract. You remain bound by the other "
+"applicable sections of the \n"
+"agreement.\n"
+"The terms and conditions of this License are governed by the Laws of "
+"France.\n"
+"All disputes on the terms of this license will preferably be settled out of "
+"court. As a last \n"
+"resort, the dispute will be referred to the appropriate Courts of Law of "
+"Paris - France.\n"
+"For any question on this document, please contact Mageia."
+msgstr ""
+"Kui mõni käesoleva lepingu osa peaks kohtuotsusega tunnistatama tühiseks,\n"
+" ebaseaduslikuks või mitterakendatavaks, kaotab see osa lepingust "
+"kehtivuse.\n"
+" Teised lepingu osad kehtivad Teie suhtes edasi.\n"
+"Käesoleva litsentsilepingu tingimused on kooskõlas Prantsusmaa seadustega.\n"
+" Kõik vaidlused käesoleva litsentsi tingimuste üle tuleks võimaluse korral\n"
+" lahendada kohtuväliselt. Kui see ei õnnestu, tuleb pöörduda sobiva\n"
+" kohtuasutuse poole Prantsusmaal Pariisis.\n"
+" Kõigi käesoleva dokumendiga seotud küsimuste korral\n"
+" pöörduge palun Mageia poole."
+
+#: messages.pm:102
+#, c-format
+msgid ""
+"Warning: Free Software may not necessarily be patent free, and some Free\n"
+"Software included may be covered by patents in your country. For example, "
+"the\n"
+"MP3 decoders included may require a license for further usage (see\n"
+"http://www.mp3licensing.com for more details). If you are unsure if a "
+"patent\n"
+"may be applicable to you, check your local laws."
+msgstr ""
+"Hoiatus: vaba tarkvara ei pruugi tingimata olla patendivaba\n"
+"ning osa kaasa pandud vabast tarkvarast võib olla\n"
+"Teie riigis kaetud patentidega.\n"
+"Näiteks MP3 dekooderid võivad nõuda kasutamiseks litsentsi\n"
+"(vaadake lähemalt http://www.mp3licensing.com).\n"
+"Kui te pole kindel, kas Teie puhul patendid kehtivad,\n"
+"uurige oma riigi seadusi."
+
+#: messages.pm:111
+#, c-format
+msgid ""
+"Congratulations, installation is complete.\n"
+"Remove the boot media and press Enter to reboot."
+msgstr ""
+"Õnnitleme, paigaldamine on edukalt lõpetatud.\n"
+"Võtke palun välja paigaldusandmekandja ja vajutage Enter alglaadimiseks."
+
+#: messages.pm:113
+#, c-format
+msgid ""
+"For information on fixes which are available for this release of Mageia,\n"
+"consult the Errata available from:\n"
+"%s"
+msgstr ""
+"Informatsiooni selle distributsiooni paranduste kohta (Errata) saab\n"
+"Mageia koduleheküljelt:\n"
+"%s"
+
+#: messages.pm:115
+#, c-format
+msgid ""
+"After rebooting and logging into Mageia, you will see the MageiaWelcome "
+"screen.\n"
+"It is full of very useful information and links."
+msgstr ""
+"Arvuti taaskäivitamise ja Mageiasse sisselogimise järel näete Mageia "
+"tervitusakent.\n"
+"See sisaldab rohkelt kasulikku teavet ja linke."
+
+#: modules/interactive.pm:19
+#, c-format
+msgid "This driver has no configuration parameter!"
+msgstr "Sellel draiveril puuduvad seadistatavad parameetrid!"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "Module configuration"
+msgstr "Mooduli seadistamine"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "You can configure each parameter of the module here."
+msgstr "Siin saab seadistada mooduli kõiki parameetreid."
+
+#: modules/interactive.pm:64
+#, c-format
+msgid "Found %s interfaces"
+msgstr "Leiti %s liidest"
+
+#: modules/interactive.pm:65
+#, c-format
+msgid "Do you have another one?"
+msgstr "On Teil veel kaarte?"
+
+#: modules/interactive.pm:66
+#, c-format
+msgid "Do you have any %s interfaces?"
+msgstr "Kas Teil on ikka mõni %s liides?"
+
+#: modules/interactive.pm:72
+#, c-format
+msgid "See hardware info"
+msgstr "Info riistvara kohta"
+
+#: modules/interactive.pm:83
+#, c-format
+msgid "Installing driver for USB controller"
+msgstr "USB-kontrolleri draiveri paigaldamine"
+
+#: modules/interactive.pm:84
+#, c-format
+msgid "Installing driver for firewire controller \"%s\""
+msgstr "FireWire-kontrolleri \"%s\" draiveri paigaldamine"
+
+#: modules/interactive.pm:85
+#, c-format
+msgid "Installing driver for hard disk drive controller \"%s\""
+msgstr "Kõvakettakontrolleri \"%s\" draiveri paigaldamine"
+
+#: modules/interactive.pm:86
+#, c-format
+msgid "Installing driver for ethernet controller \"%s\""
+msgstr "Ethernet-kontrolleri \"%s\" draiveri paigaldamine"
+
+#. -PO: the first %s is the card type (scsi, network, sound,...)
+#. -PO: the second is the vendor+model name
+#: modules/interactive.pm:97
+#, c-format
+msgid "Installing driver for %s card %s"
+msgstr "%s draiveri paigaldamine kaardile %s"
+
+#: modules/interactive.pm:100
+#, c-format
+msgid "Configuring Hardware"
+msgstr "Riistvara seadistamine"
+
+#: modules/interactive.pm:111
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Note that any address should be entered with the prefix 0x like '0x123'"
+msgstr ""
+"Nüüd võite moodulile %s parameetreid määrata.\n"
+"Pange tähele, et aadress tuleb sisestada prefiksiga 0x, nt \"0x123\""
+
+#: modules/interactive.pm:117
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Options are in format ``name=value name2=value2 ...''.\n"
+"For instance, ``io=0x300 irq=7''"
+msgstr ""
+"Nüüd võite moodulile %s parameetreid määrata.\n"
+"Parameetrid on vormingus \"nimi=väärtus nimi2=väärtus2 ...\".\n"
+"Näiteks: \"io=0x300 irq=7\""
+
+#: modules/interactive.pm:119
+#, c-format
+msgid "Module options:"
+msgstr "Mooduli parameetrid:"
+
+#. -PO: the %s is the driver type (scsi, network, sound,...)
+#: modules/interactive.pm:132
+#, c-format
+msgid "Which %s driver should I try?"
+msgstr "Millist %s draiverit peaks proovima?"
+
+#: modules/interactive.pm:141
+#, c-format
+msgid ""
+"In some cases, the %s driver needs to have extra information to work\n"
+"properly, although it normally works fine without them. Would you like to "
+"specify\n"
+"extra options for it or allow the driver to probe your machine for the\n"
+"information it needs? Occasionally, probing will hang a computer, but it "
+"should\n"
+"not cause any damage."
+msgstr ""
+"Mõnel juhul vajab %s draiver tööks lisainformatsiooni, kuigi tavaliselt saab "
+"ka ilma hakkama.\n"
+"Kas soovite eraldi parameetreid määrata või lasta draiveril ise Teie "
+"arvutist vajalik info hankida?\n"
+"Võib juhtuda, et see viib arvuti segadusse, kuid ei tohiks mingit jäävat "
+"kahju teha."
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Autoprobe"
+msgstr "Automaatne otsing"
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Specify options"
+msgstr "Parameetrite määramine"
+
+#: modules/interactive.pm:157
+#, c-format
+msgid ""
+"Loading module %s failed.\n"
+"Do you want to try again with other parameters?"
+msgstr ""
+"Mooduli %s laadimine ei õnnestunud.\n"
+"Kas soovite proovida parameetreid muuta?"
+
+#: mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Are you sure you want to quit?"
+msgstr "Kas tõesti väljuda?"
+
+#: mygtk2.pm:1570 mygtk2.pm:1571 mygtk3.pm:1646 mygtk3.pm:1647
+#, c-format
+msgid "Password is trivial to guess"
+msgstr "Parool on liiga lihtne ära arvata"
+
+#: mygtk2.pm:1572 mygtk3.pm:1648
+#, c-format
+msgid "Password should be resistant to basic attacks"
+msgstr "Parool peaks pidama vastu lihtsamatele rünnakutele"
+
+#: mygtk2.pm:1573 mygtk2.pm:1574 mygtk3.pm:1649 mygtk3.pm:1650
+#, c-format
+msgid "Password seems secure"
+msgstr "Parool tundub olevat turvaline"
+
+#: partition_table.pm:405
+#, c-format
+msgid "mount failed: "
+msgstr "haakimine nurjus: "
+
+#: partition_table.pm:531
+#, c-format
+msgid ""
+"You have a hole in your partition table but I cannot use it.\n"
+"The only solution is to move your primary partitions to have the hole next "
+"to the extended partitions."
+msgstr ""
+"Partitsioonitabelis on miskipärast tühi koht, aga see ei ole kasutatav.\n"
+"Ainuke lahendus on nihutada primaarset partitsiooni, et \"auk\" satuks "
+"laiendatud partitsioonide kõrvale."
+
+#: partition_table/raw.pm:293
+#, c-format
+msgid ""
+"Something bad is happening on your hard disk drive. \n"
+"A test to check the integrity of data has failed. \n"
+"It means writing anything on the disk will end up with random, corrupted "
+"data."
+msgstr ""
+"Teie kõvakettal juhtub imelikke asju. \n"
+"Andmete terviklikkuse kontroll nurjus. \n"
+"See tähendab, et kettale kirjutamisel tekib probleeme."
+
+#: pkgs.pm:260 pkgs.pm:263 pkgs.pm:276
+#, c-format
+msgid "Unused packages removal"
+msgstr "Mittevajalike pakettide eemaldamine"
+
+#: pkgs.pm:260
+#, c-format
+msgid "Finding unused hardware packages..."
+msgstr "Mittevajalike riistvarapakettide otsimine..."
+
+#: pkgs.pm:263
+#, c-format
+msgid "Finding unused localization packages..."
+msgstr "Mittevajalike lokaliseerimispakettide otsimine..."
+
+#: pkgs.pm:277
+#, c-format
+msgid ""
+"We have detected that some packages are not needed for your system "
+"configuration."
+msgstr "Leiti, et mõningaid pakette ei ole Teie süsteemile tegelikult vaja."
+
+#: pkgs.pm:278
+#, c-format
+msgid "We will remove the following packages, unless you choose otherwise:"
+msgstr ""
+"Järgmised paketid jäetakse paigaldamata, kui Te ei otsusta just vastupidi:"
+
+#: pkgs.pm:281 pkgs.pm:282
+#, c-format
+msgid "Unused hardware support"
+msgstr "Mittevajalik riistvara toetus"
+
+#: pkgs.pm:285 pkgs.pm:286
+#, c-format
+msgid "Unused localization"
+msgstr "Mittevajalik lokaliseerimine"
+
+#: raid.pm:59
+#, c-format
+msgid "Cannot add a partition to _formatted_ RAID %s"
+msgstr "Juba _vormindatud_ RAID-ile %s ei saa partitsiooni lisada"
+
+#: raid.pm:200
+#, c-format
+msgid "Not enough partitions for RAID level %d\n"
+msgstr "Ei ole piisavalt partitsioone RAID-%d jaoks\n"
+
+#: scanner.pm:95
+#, c-format
+msgid "Could not create directory /usr/share/sane/firmware!"
+msgstr "Ei õnnestunud luua kataloogi /usr/share/sane/firmware!"
+
+#: scanner.pm:106
+#, c-format
+msgid "Could not create link /usr/share/sane/%s!"
+msgstr "Ei õnnestunud luua viita /usr/share/sane/%s!"
+
+#: scanner.pm:113
+#, c-format
+msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+msgstr ""
+"Ei õnnestunud kopeerida püsivarafaili %s asukohta /usr/share/sane/firmware!"
+
+#: scanner.pm:120
+#, c-format
+msgid "Could not set permissions of firmware file %s!"
+msgstr "Ei õnnestunud seada õigusi püsivarafailile %s!"
+
+#: scanner.pm:199
+#, c-format
+msgid "Scannerdrake"
+msgstr "Scannerdrake"
+
+#: scanner.pm:200
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"Pakettide paigaldamine, mis on vajalikud Teie skanneri(te) jagamiseks, ei "
+"õnnestunud."
+
+#: scanner.pm:201
+#, c-format
+msgid "Your scanner(s) will not be available for non-root users."
+msgstr "Teie skanner(id) ei ole tavakasutajale kättesaadavad."
+
+#: security/help.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages."
+msgstr "IPv4 võltsveateadete lubamine."
+
+#: security/help.pm:13
+#, c-format
+msgid "Accept broadcasted icmp echo."
+msgstr "Üldlevi icmp echo lubamine."
+
+#: security/help.pm:15
+#, c-format
+msgid "Accept icmp echo."
+msgstr "Icmp echo lubamine."
+
+#: security/help.pm:17
+#, c-format
+msgid "Allow autologin."
+msgstr "Automaatse sisselogimise lubamine."
+
+#. -PO: here "ALL" is a value in a pull-down menu; translate it the same as "ALL" is
+#: security/help.pm:21
+#, c-format
+msgid ""
+"If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+"\n"
+"If set to \"None\", no issues are allowed.\n"
+"\n"
+"Else only /etc/issue is allowed."
+msgstr ""
+"Kui on \"KÕIK\", on lubatud nii /etc/issue kui /etc/issue.net.\n"
+"\n"
+"Kui on \"Puudub\", ei ole kumbki lubatud.\n"
+"\n"
+"Muidu on lubatud ainult /etc/issue."
+
+#: security/help.pm:27
+#, c-format
+msgid "Allow reboot by the console user."
+msgstr "Konsooli kasutajale taaskäivituse lubamine."
+
+#: security/help.pm:29
+#, c-format
+msgid "Allow remote root login."
+msgstr "Administraatori võrgust sisselogimise lubamine."
+
+#: security/help.pm:31
+#, c-format
+msgid "Allow direct root login."
+msgstr "Administraatori vahetu sisselogimise lubamine."
+
+#: security/help.pm:33
+#, c-format
+msgid ""
+"Allow the list of users on the system on display managers (kdm and gdm)."
+msgstr "Kasutajate nimekirja lubamine kuvahalduritel (kdm ja gdm)."
+
+#: security/help.pm:35
+#, c-format
+msgid ""
+"Allow to export display when\n"
+"passing from the root account to the other users.\n"
+"\n"
+"See pam_xauth(8) for more details.'"
+msgstr ""
+"Kuva ekspordi lubamine administraatori\n"
+"kontolt muude kasutajate kontole üle minnes.\n"
+"\n"
+"Vaadake täpsemalt pam_xauth(8)."
+
+#: security/help.pm:40
+#, c-format
+msgid ""
+"Allow X connections:\n"
+"\n"
+"- \"All\" (all connections are allowed),\n"
+"\n"
+"- \"Local\" (only connection from local machine),\n"
+"\n"
+"- \"None\" (no connection)."
+msgstr ""
+"X'i ühenduste lubamine/keelamine:\n"
+"\n"
+"- \"Kõik\" (kõik ühendused on lubatud),\n"
+"\n"
+"- \"Kohalik\" (ainult kohalikud ühendused),\n"
+"\n"
+"- \"Puudub\" (ühendusi ei lubata)."
+
+#: security/help.pm:48
+#, c-format
+msgid ""
+"The argument specifies if clients are authorized to connect\n"
+"to the X server from the network on the tcp port 6000 or not."
+msgstr ""
+"Argument määrab, kas klientidel on õigus võtta ühendust\n"
+"X-serveriga tcp pordis 6000 või mitte."
+
+#. -PO: here "ALL", "Local" and "None" are values in a pull-down menu; translate them the same as they're
+#: security/help.pm:53
+#, c-format
+msgid ""
+"Authorize:\n"
+"\n"
+"- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+"set to \"ALL\",\n"
+"\n"
+"- only local ones if set to \"Local\"\n"
+"\n"
+"- none if set to \"None\".\n"
+"\n"
+"To authorize the services you need, use /etc/hosts.allow (see hosts."
+"allow(5))."
+msgstr ""
+"Autoriseeritakse:\n"
+"\n"
+"- kõik teenused, mida kontrollib tcp_wrappers (vt hosts.deny (5)), kui on "
+"\"KÕIK\",\n"
+"\n"
+"- ainult kohalikud, kui on \"Kohalik\",\n"
+"\n"
+"- mitte ühtegi teenust, kui on \"Puudub\".\n"
+"\n"
+"Vajalike teenuste autoriseerimiseks kasutage faili /etc/hosts.allow (vt. "
+"hosts.allow(5))."
+
+#: security/help.pm:63
+#, c-format
+msgid ""
+"If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+"is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+"symlink /etc/security/msec/server to point to\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+"add a service if it is present in the file during the installation of\n"
+"packages."
+msgstr ""
+"Kui SERVER_LEVEL (või selle puudumisel SECURE_LEVEL) failis \n"
+"/etc/security/msec/security.conf on suurem kui 3, loob sümbolviida \n"
+"/etc/security/msec/server, mis osutab failile \n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"/etc/security/msec/server on fail, mida chkconfig --add kasutab\n"
+"otsustamaks, kas lisada teenus või mitte, kui see on pakettide\n"
+"paigaldamise ajal failis olemas."
+
+#: security/help.pm:72
+#, c-format
+msgid ""
+"Enable crontab and at for users.\n"
+"\n"
+"Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+"and crontab(1))."
+msgstr ""
+"Crontab ja at lubamine kasutajatele.\n"
+"\n"
+"Lubatud kasutajad kirjutatakse failidesse /etc/cron.allow ja /etc/at.allow "
+"(vt man at(1) ja crontab(1))."
+
+#: security/help.pm:77
+#, c-format
+msgid "Enable syslog reports to console 12"
+msgstr "Syslog-i teadete konsoolile 12 saatmise lubamine."
+
+#: security/help.pm:79
+#, c-format
+msgid ""
+"Enable name resolution spoofing protection.  If\n"
+"\"%s\" is true, also reports to syslog."
+msgstr ""
+"Nimelahenduse võltsimiskaitse lubamine. Kui\n"
+"\"%s\" on tõene, saadetakse ka raport syslog-i."
+
+#: security/help.pm:80
+#, c-format
+msgid "Security Alerts:"
+msgstr "Turvahoiatused:"
+
+#: security/help.pm:82
+#, c-format
+msgid "Enable IP spoofing protection."
+msgstr "IP võltsimiskaitse lubamine."
+
+#: security/help.pm:84
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system."
+msgstr "Libsafe lubamine, kui see süsteemist leitakse."
+
+#: security/help.pm:86
+#, c-format
+msgid "Enable the logging of IPv4 strange packets."
+msgstr "Ipv4 võõraste pakettide logimise lubamine."
+
+#: security/help.pm:88
+#, c-format
+msgid "Enable msec hourly security check."
+msgstr "Msec'i igatunnise turvakontrolli lubamine."
+
+#: security/help.pm:90
+#, c-format
+msgid ""
+"Enable su only from members of the wheel group. If set to no, allows su from "
+"any user."
+msgstr ""
+"su lubamine ainult grupi wheel liikmetele. Kui on 'ei', on su lubatud igale "
+"kasutajale."
+
+#: security/help.pm:92
+#, c-format
+msgid "Use password to authenticate users."
+msgstr "Parooli kasutamine kasutajate autentimiseks"
+
+#: security/help.pm:94
+#, c-format
+msgid "Activate Ethernet cards promiscuity check."
+msgstr "Võrgukaardi mitte-eelisoleku kontrolli lubamine."
+
+#: security/help.pm:96
+#, c-format
+msgid "Activate daily security check."
+msgstr "Igapäevase turvakontrolli lubamine."
+
+#: security/help.pm:98
+#, c-format
+msgid "Enable sulogin(8) in single user level."
+msgstr "sulogin(8) lubamine üksikkasutaja tasemel."
+
+#: security/help.pm:100
+#, c-format
+msgid "Add the name as an exception to the handling of password aging by msec."
+msgstr "Nimi lisatakse erandite hulka, kui msec uurib paroolide aegumist"
+
+#: security/help.pm:102
+#, c-format
+msgid "Set password aging to \"max\" days and delay to change to \"inactive\"."
+msgstr ""
+"Määrab parooli aeguma \"maks.\" n päeva pärast ning viivituse enne muutmist "
+"\"mittekehtivaks\"."
+
+#: security/help.pm:104
+#, c-format
+msgid "Set the password history length to prevent password reuse."
+msgstr "Paroolipuhvri suuruse määramine vältimaks selle taaskasutamist"
+
+#: security/help.pm:106
+#, c-format
+msgid ""
+"Set the password minimum length and minimum number of digit and minimum "
+"number of capitalized letters."
+msgstr ""
+"Määrab parooli minimaalse pikkuse ning numbrite ja suurtähtede minimaalse "
+"hulga"
+
+#: security/help.pm:108
+#, c-format
+msgid "Set the root's file mode creation mask."
+msgstr "Administraatori umask-i määramine."
+
+#: security/help.pm:109
+#, c-format
+msgid "if set to yes, check open ports."
+msgstr "Kui on \"jah\", kontrollitakse avatud porte."
+
+#: security/help.pm:110
+#, c-format
+msgid ""
+"if set to yes, check for:\n"
+"\n"
+"- empty passwords,\n"
+"\n"
+"- no password in /etc/shadow\n"
+"\n"
+"- for users with the 0 id other than root."
+msgstr ""
+"Kui on \"jah\", kontrollitakse:\n"
+"\n"
+"- tühja parooli,\n"
+"\n"
+"- parooli puudumist /etc/shadow-s\n"
+"\n"
+"- kasutajaid ID-ga 0, kes pole administraatorid."
+
+#: security/help.pm:117
+#, c-format
+msgid "if set to yes, check permissions of files in the users' home."
+msgstr ""
+"Kui on \"jah\", kontrollitakse failide loabitte kasutajate kodukataloogis."
+
+#: security/help.pm:118
+#, c-format
+msgid "if set to yes, check if the network devices are in promiscuous mode."
+msgstr ""
+"Kui on \"jah\", kontrollitakse, kas võrguseadmed on mitte-eelisrežiimis."
+
+#: security/help.pm:119
+#, c-format
+msgid "if set to yes, run the daily security checks."
+msgstr "Kui on \"jah\", lubatakse igapäevane turvakontroll."
+
+#: security/help.pm:120
+#, c-format
+msgid "if set to yes, check additions/removals of sgid files."
+msgstr "Kui on \"jah\", kontrollitakse sgid failide lisamist/eemaldamist."
+
+#: security/help.pm:121
+#, c-format
+msgid "if set to yes, check empty password in /etc/shadow."
+msgstr "Kui on \"jah\", kontrollitakse tühja parooli /etc/shadow-s."
+
+#: security/help.pm:122
+#, c-format
+msgid "if set to yes, verify checksum of the suid/sgid files."
+msgstr "Kui on \"jah\", kontrollitakse suid/sgid failide checksum-i."
+
+#: security/help.pm:123
+#, c-format
+msgid "if set to yes, check additions/removals of suid root files."
+msgstr "Kui on \"jah\", kontrollitakse suid root failide lisamist/eemaldamist."
+
+#: security/help.pm:124
+#, c-format
+msgid "if set to yes, report unowned files."
+msgstr "Kui on \"jah\", teatatakse omanikuta failidest."
+
+#: security/help.pm:125
+#, c-format
+msgid "if set to yes, check files/directories writable by everybody."
+msgstr "Kui on \"jah\", kontrollitakse kõigi kirjutatavaid faile/katalooge."
+
+#: security/help.pm:126
+#, c-format
+msgid "if set to yes, run chkrootkit checks."
+msgstr "Kui on \"jah\", käivitatakse chkrootkit kontroll."
+
+#: security/help.pm:127
+#, c-format
+msgid ""
+"if set, send the mail report to this email address else send it to root."
+msgstr ""
+"Kui on lubatud, saadab e-postiga aruande sellele aadressile, muidu "
+"administraatorile."
+
+#: security/help.pm:128
+#, c-format
+msgid "if set to yes, report check result by mail."
+msgstr "Kui on \"jah\", antakse kontrolli tulemustest teada e-postitsi."
+
+#: security/help.pm:129
+#, c-format
+msgid "Do not send mails if there's nothing to warn about"
+msgstr "E-kirja ei saadeta, kui hoiatusi pole"
+
+#: security/help.pm:130
+#, c-format
+msgid "if set to yes, run some checks against the rpm database."
+msgstr "Kui on \"jah\", kontrollitakse veidi rpm andmebaasi."
+
+#: security/help.pm:131
+#, c-format
+msgid "if set to yes, report check result to syslog."
+msgstr "Kui on \"jah\", saadetakse kontrolli tulemused syslog-i."
+
+#: security/help.pm:132
+#, c-format
+msgid "if set to yes, reports check result to tty."
+msgstr "Kui on \"jah\", saadetakse kontrolli tulemused tty-sse."
+
+#: security/help.pm:134
+#, c-format
+msgid "Set shell commands history size. A value of -1 means unlimited."
+msgstr "Shellikäskude puhvri suuruse määramine. -1 tähendab piiramatu."
+
+#: security/help.pm:136
+#, c-format
+msgid "Set the shell timeout. A value of zero means no timeout."
+msgstr "Shelli aegumise määramine. Null tähendab aegumise puudumist."
+
+#: security/help.pm:136
+#, c-format
+msgid "Timeout unit is second"
+msgstr "Aegumisühikuks on sekundid"
+
+#: security/help.pm:138
+#, c-format
+msgid "Set the user's file mode creation mask."
+msgstr "Kasutaja faili loomise maski määramine."
+
+#: security/l10n.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages"
+msgstr "IPv4 võltsveateadete lubamine"
+
+#: security/l10n.pm:12
+#, c-format
+msgid "Accept broadcasted icmp echo"
+msgstr "Üldlevi icmp echo lubamine"
+
+#: security/l10n.pm:13
+#, c-format
+msgid "Accept icmp echo"
+msgstr "Icmp echo lubamine"
+
+#: security/l10n.pm:15
+#, c-format
+msgid "/etc/issue* exist"
+msgstr "/etc/issue* on olemas"
+
+#: security/l10n.pm:16
+#, c-format
+msgid "Reboot by the console user"
+msgstr "Taaskäivituse lubamine konsooli kasutajale"
+
+#: security/l10n.pm:17
+#, c-format
+msgid "Allow remote root login"
+msgstr "Administraatori võrgust sisselogimise lubamine"
+
+#: security/l10n.pm:18
+#, c-format
+msgid "Direct root login"
+msgstr "Administraatori otsesisselogimine"
+
+#: security/l10n.pm:19
+#, c-format
+msgid "List users on display managers (kdm and gdm)"
+msgstr "Kasutajate nimekirja lubamine kuvahalduritel (kdm ja gdm)"
+
+#: security/l10n.pm:20
+#, c-format
+msgid "Export display when passing from root to the other users"
+msgstr "Kuva eksport administraatorilt muule kasutajale üle minnes"
+
+#: security/l10n.pm:21
+#, c-format
+msgid "Allow X Window connections"
+msgstr "X Window ühenduste lubamine"
+
+#: security/l10n.pm:22
+#, c-format
+msgid "Authorize TCP connections to X Window"
+msgstr "X Window TCP ühenduste autentimine"
+
+#: security/l10n.pm:23
+#, c-format
+msgid "Authorize all services controlled by tcp_wrappers"
+msgstr "Kõigi teenuste aktsepteerimine, mida kontrollib tcp_wrappers"
+
+#: security/l10n.pm:24
+#, c-format
+msgid "Chkconfig obey msec rules"
+msgstr "Chkconfig allumine msec-i reeglitele"
+
+#: security/l10n.pm:25
+#, c-format
+msgid "Enable \"crontab\" and \"at\" for users"
+msgstr "\"Crontab\" ja \"at\" lubamine kasutajatele"
+
+#: security/l10n.pm:26
+#, c-format
+msgid "Syslog reports to console 12"
+msgstr "Syslog-i teated saadetakse konsoolile 12"
+
+#: security/l10n.pm:27
+#, c-format
+msgid "Name resolution spoofing protection"
+msgstr "Nimelahenduse võltsimiskaitse"
+
+#: security/l10n.pm:28
+#, c-format
+msgid "Enable IP spoofing protection"
+msgstr "IP võltsimiskaitse lubamine"
+
+#: security/l10n.pm:29
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system"
+msgstr "Libsafe lubamine, kui see süsteemist leitakse"
+
+#: security/l10n.pm:30
+#, c-format
+msgid "Enable the logging of IPv4 strange packets"
+msgstr "Ipv4 veidrate pakettide logimise lubamine"
+
+#: security/l10n.pm:31
+#, c-format
+msgid "Enable msec hourly security check"
+msgstr "Msec igatunnise turvakontrolli lubamine"
+
+#: security/l10n.pm:32
+#, c-format
+msgid "Enable su only from the wheel group members"
+msgstr "Su lubamine ainult grupi wheel liikmetele"
+
+#: security/l10n.pm:33
+#, c-format
+msgid "Use password to authenticate users"
+msgstr "Parooli kasutamine kasutajate autentimiseks"
+
+#: security/l10n.pm:34
+#, c-format
+msgid "Ethernet cards promiscuity check"
+msgstr "Võrgukaardi mitte-eelisoleku kontroll"
+
+#: security/l10n.pm:35
+#, c-format
+msgid "Daily security check"
+msgstr "Igapäevane turvakontroll"
+
+#: security/l10n.pm:36
+#, c-format
+msgid "Sulogin(8) in single user level"
+msgstr "Sulogin(8) üksikkasutaja tasemel"
+
+#: security/l10n.pm:37
+#, c-format
+msgid "No password aging for"
+msgstr "Parool ei aegu"
+
+#: security/l10n.pm:38
+#, c-format
+msgid "Set password expiration and account inactivation delays"
+msgstr "Parooli aegumise ja konto tühistamise viivituse määramine"
+
+#: security/l10n.pm:39
+#, c-format
+msgid "Password history length"
+msgstr "Paroolipuhvri suurus"
+
+#: security/l10n.pm:40
+#, c-format
+msgid "Password minimum length and number of digits and upcase letters"
+msgstr "Parooli miinimumpikkus ning numbrite ja suurtähtede hulk"
+
+#: security/l10n.pm:41
+#, c-format
+msgid "Root umask"
+msgstr "Administraatori umask"
+
+#: security/l10n.pm:42
+#, c-format
+msgid "Shell history size"
+msgstr "Shelli puhvri suurus"
+
+#: security/l10n.pm:43
+#, c-format
+msgid "Shell timeout"
+msgstr "Shelli aegumine"
+
+#: security/l10n.pm:44
+#, c-format
+msgid "User umask"
+msgstr "Kasutaja umask"
+
+#: security/l10n.pm:45
+#, c-format
+msgid "Check open ports"
+msgstr "Avatud portide kontroll"
+
+#: security/l10n.pm:46
+#, c-format
+msgid "Check for unsecured accounts"
+msgstr "Ebaturvaliste kontode kontroll"
+
+#: security/l10n.pm:47
+#, c-format
+msgid "Check permissions of files in the users' home"
+msgstr "Failide loabittide kontroll kasutajate kodukataloogis"
+
+#: security/l10n.pm:48
+#, c-format
+msgid "Check if the network devices are in promiscuous mode"
+msgstr "Võrguseadmete mitte-eelisrežiimis oleku kontroll"
+
+#: security/l10n.pm:49
+#, c-format
+msgid "Run the daily security checks"
+msgstr "Igapäevase turvakontrolli lubamine"
+
+#: security/l10n.pm:50
+#, c-format
+msgid "Check additions/removals of sgid files"
+msgstr "Sgid-failide lisamise/eemaldamise kontroll"
+
+#: security/l10n.pm:51
+#, c-format
+msgid "Check empty password in /etc/shadow"
+msgstr "Tühja parooli kontroll /etc/shadow-s"
+
+#: security/l10n.pm:52
+#, c-format
+msgid "Verify checksum of the suid/sgid files"
+msgstr "Suid/sgid failide kontrollsumma kontroll"
+
+#: security/l10n.pm:53
+#, c-format
+msgid "Check additions/removals of suid root files"
+msgstr "Suid root failide lisamise/eemaldamise kontroll"
+
+#: security/l10n.pm:54
+#, c-format
+msgid "Report unowned files"
+msgstr "Omanikuta failidest teatamine"
+
+#: security/l10n.pm:55
+#, c-format
+msgid "Check files/directories writable by everybody"
+msgstr "Kõigi kirjutatavate failide/kataloogide kontroll"
+
+#: security/l10n.pm:56
+#, c-format
+msgid "Run chkrootkit checks"
+msgstr "Chkrootkit kontrolli lubamine"
+
+#: security/l10n.pm:57
+#, c-format
+msgid "Do not send empty mail reports"
+msgstr "Tühje aruandeid e-postiga ei saadeta"
+
+#: security/l10n.pm:58
+#, c-format
+msgid "If set, send the mail report to this email address else send it to root"
+msgstr ""
+"Kui on lubatud, saadab e-postiga aruande sellele aadressile, muidu "
+"administraatorile."
+
+#: security/l10n.pm:59
+#, c-format
+msgid "Report check result by mail"
+msgstr "Kontrolli tulemustest teatatakse e-postiga"
+
+#: security/l10n.pm:60
+#, c-format
+msgid "Run some checks against the rpm database"
+msgstr "Rpm andmebaasi mõningane kontroll"
+
+#: security/l10n.pm:61
+#, c-format
+msgid "Report check result to syslog"
+msgstr "Kontrolli tulemused saadetakse syslog-i"
+
+#: security/l10n.pm:62
+#, c-format
+msgid "Reports check result to tty"
+msgstr "Kontrolli tulemused saadetakse tty-sse"
+
+#: security/level.pm:10
+#, c-format
+msgid "Disable msec"
+msgstr "Mseci keelamine"
+
+#: security/level.pm:11
+#, c-format
+msgid "Standard"
+msgstr "Standardne"
+
+#: security/level.pm:12
+#, c-format
+msgid "Secure"
+msgstr "Turvaline"
+
+#: security/level.pm:52
+#, c-format
+msgid ""
+"This level is to be used with care, as it disables all additional security\n"
+"provided by msec. Use it only when you want to take care of all aspects of "
+"system security\n"
+"on your own."
+msgstr ""
+"Selle taseme valimisel tasuks olla ettevaatlik, sest see keelab kogu mseci\n"
+"pakutava täiendava turbe. Valige see ainult siis, kui tahate kogu oma\n"
+"süsteemi turvalisust täiesti enda käe järgi seadistada."
+
+#: security/level.pm:55
+#, c-format
+msgid ""
+"This is the standard security recommended for a computer that will be used "
+"to connect to the Internet as a client."
+msgstr ""
+"See on sobilik turvatase arvutile, mis ühendatakse Internetti kui klient."
+
+#: security/level.pm:56
+#, c-format
+msgid ""
+"With this security level, the use of this system as a server becomes "
+"possible.\n"
+"The security is now high enough to use the system as a server which can "
+"accept\n"
+"connections from many clients. Note: if your machine is only a client on the "
+"Internet, you should choose a lower level."
+msgstr ""
+"Sellel turvatasemel võib süsteemi kasutada Internetis ka serverina.\n"
+"Turvalisus on nüüd piisavalt kõrge, et töötades serverina võib masin\n"
+"vastu võtta ka palju kliente. Märkus: kui Teie masin kasutab Internetti\n"
+"ainult kliendina, võiks valida madalama taseme."
+
+#: security/level.pm:63
+#, c-format
+msgid "DrakSec Basic Options"
+msgstr "DrakSeci põhiseadistused"
+
+#: security/level.pm:66
+#, c-format
+msgid "Please choose the desired security level"
+msgstr "Palun valige sobiv turvatase"
+
+#. -PO: this string is used to properly format "<security level>: <level description>"
+#: security/level.pm:70
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: security/level.pm:73
+#, c-format
+msgid "Security Administrator:"
+msgstr "Turvaadministraator:"
+
+#: security/level.pm:74
+#, c-format
+msgid "Login or email:"
+msgstr "Kasutajatunnus või e-post:"
+
+#: services.pm:18
+#, c-format
+msgid "Listen and dispatch ACPI events from the kernel"
+msgstr "Kerneli ACPI sündmuste jälgimine ja edastamine"
+
+#: services.pm:19
+#, c-format
+msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+msgstr "Helisüsteemi ALSA (Advanced Linux Sound Architecture) käivitamine"
+
+#: services.pm:20
+#, c-format
+msgid "Anacron is a periodic command scheduler."
+msgstr ""
+"Anacron käivitab programme perioodiliselt analoogiliselt cron-ile.\n"
+"Kasutage seda juhul, kui Teie arvuti ei tööta 24h."
+
+#: services.pm:21
+#, c-format
+msgid ""
+"apmd is used for monitoring battery status and logging it via syslog.\n"
+"It can also be used for shutting down the machine when the battery is low."
+msgstr ""
+"Apmd on kasutusel põhiliselt sülearvutites akude täituvuse jälgimiseks.\n"
+"Samuti suudab see aku tühjenemisel süsteemi viisakalt seisata."
+
+#: services.pm:23
+#, c-format
+msgid ""
+"Runs commands scheduled by the at command at the time specified when\n"
+"at was run, and runs batch commands when the load average is low enough."
+msgstr ""
+"Laseb käivitada ühekordseid käske etteantud ajal või ootab süsteemi\n"
+"koormuse laskumist käsu käivitamiseks piisavale tasemele."
+
+#: services.pm:25
+#, c-format
+msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
+msgstr "Avahi on Zeroconfi deemon, mis teostab mDNS protokollistikku"
+
+#: services.pm:26
+#, c-format
+msgid "An NTP client/server"
+msgstr "NTP klient/server"
+
+#: services.pm:27
+#, c-format
+msgid "Set CPU frequency settings"
+msgstr "Protsessori sageduse kindlaks määramine"
+
+#: services.pm:28
+#, c-format
+msgid ""
+"cron is a standard UNIX program that runs user-specified programs\n"
+"at periodic scheduled times. vixie cron adds a number of features to the "
+"basic\n"
+"UNIX cron, including better security and more powerful configuration options."
+msgstr ""
+"Cron on UNIX-süsteemide standardvahend kasutaja programmide perioodiliseks\n"
+"käivitamiseks. Vixie cron sisaldab lisaks veel turvalisust ja kasutus-\n"
+"mugavust tõstvaid omadusi. Soovitatav süsteemile, mis töötab 24h."
+
+#: services.pm:31
+#, c-format
+msgid ""
+"Common UNIX Printing System (CUPS) is an advanced printer spooling system"
+msgstr "Common UNIX Printing System (CUPS) on võimas trükkimissüsteem"
+
+#: services.pm:32
+#, c-format
+msgid "Launches the graphical display manager"
+msgstr "Käivitab graafilise kuvahalduri"
+
+#: services.pm:33
+#, c-format
+msgid ""
+"FAM is a file monitoring daemon. It is used to get reports when files "
+"change.\n"
+"It is used by GNOME and KDE"
+msgstr ""
+"FAM on failide jälgimise deemon. Seda kasutatakse aru andmaks failide "
+"muutmisest.\n"
+"Seda kasutab nii GNOME kui KDE."
+
+#: services.pm:35
+#, c-format
+msgid ""
+"G15Daemon allows users access to all extra keys by decoding them and \n"
+"pushing them back into the kernel via the linux UINPUT driver. This driver "
+"must be loaded \n"
+"before g15daemon can be used for keyboard access. The G15 LCD is also "
+"supported. By default, \n"
+"with no other clients active, g15daemon will display a clock. Client "
+"applications and \n"
+"scripts can access the LCD via a simple API."
+msgstr ""
+"G15Daemon annab võimaluse kasutada kõiki lisaklahve, dekodeerides need \n"
+"ning saates tagasi kernelisse Linuxi UINPUT-draiveri abil. See draiver \n"
+"tuleb laadida enne g15daemonit, et klaviatuuri saaks ikka kasutada. \n"
+"Toetatud on ka G15 LCD. Kui ükski klient pole aktiivne, näitab g15daemon \n"
+"vaikimisi kella. Klientrakendused ja skriptid saavad LCD-d kasutada \n"
+"lihtsa API vahendusel."
+
+#: services.pm:40
+#, c-format
+msgid ""
+"GPM adds mouse support to text-based Linux applications such the\n"
+"Midnight Commander. It also allows mouse-based console cut-and-paste "
+"operations,\n"
+"and includes support for pop-up menus on the console."
+msgstr ""
+"GPM annab võimaluse kasutada hiirt ka tekstikonsoolil. Lisaks\n"
+"tavalisele lõikamisele/asetamisele saab kasutada ka menüüsüsteeme."
+
+#: services.pm:43
+#, c-format
+msgid "HAL is a daemon that collects and maintains information about hardware"
+msgstr "HAL on deemon, mis kogub ja säilitab teavet riistvara kohta"
+
+#: services.pm:44
+#, c-format
+msgid ""
+"HardDrake runs a hardware probe, and optionally configures\n"
+"new/changed hardware."
+msgstr ""
+"HardDrake kontrollib riistvara ja lisavõimalusena ka seadistab\n"
+"uue või muudetud riistvara."
+
+#: services.pm:46
+#, c-format
+msgid ""
+"Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+msgstr ""
+"Apache on maailma juhtiv veebiserveri programm.\n"
+"Tõenäoliselt ka võimsaim."
+
+#: services.pm:47
+#, c-format
+msgid ""
+"The internet superserver daemon (commonly called inetd) starts a\n"
+"variety of other internet services as needed. It is responsible for "
+"starting\n"
+"many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+"disables\n"
+"all of the services it is responsible for."
+msgstr ""
+"Interneti \"superserver\" nimega inetd laseb käivituda mitmetel\n"
+"võrguteenustel, nagu telnet, ftp, rsh, rlogin jne. Inetdi keelamine\n"
+"keelab ka kõik teenused, mida see haldab."
+
+#: services.pm:51
+#, c-format
+msgid "Automates a packet filtering firewall with ip6tables"
+msgstr "Pakettide filtreerimise tulemüüri automatiseerimine ip6tablesis"
+
+#: services.pm:52
+#, c-format
+msgid "Automates a packet filtering firewall with iptables"
+msgstr "Pakettide filtreerimise tulemüüri automatiseerimine iptablesis"
+
+#: services.pm:53
+#, c-format
+msgid ""
+"Evenly distributes IRQ load across multiple CPUs for enhanced performance"
+msgstr ""
+"IRQ koormuse võrdne jagamine eri protsessorite vahel jõudluse parandamiseks"
+
+#: services.pm:54
+#, c-format
+msgid ""
+"This package loads the selected keyboard map as set in\n"
+"/etc/sysconfig/keyboard.  This can be selected using the kbdconfig utility.\n"
+"You should leave this enabled for most machines."
+msgstr ""
+"See pakett laeb süsteemi käivitumisel klaviatuuripaigutuse vastavalt\n"
+"failis /etc/sysconfig/keyboard kirjeldatule. Vähe on juhtumeid, kus\n"
+"seda teenust vaja ei läheks."
+
+#: services.pm:57
+#, c-format
+msgid ""
+"Automatic regeneration of kernel header in /boot for\n"
+"/usr/include/linux/{autoconf,version}.h"
+msgstr ""
+"Kerneli päise automaatne regenereerimine partitsioonil /boot\n"
+"/usr/include/linux/{autoconf,version}.h jaoks"
+
+#: services.pm:59
+#, c-format
+msgid "Automatic detection and configuration of hardware at boot."
+msgstr "Riistvara automaatne tuvastamine ja seadistamine alglaadimisel."
+
+#: services.pm:60
+#, c-format
+msgid "Tweaks system behavior to extend battery life"
+msgstr "Süstemi käitumise parandamine aku tööea pikendamiseks"
+
+#: services.pm:61
+#, c-format
+msgid ""
+"Linuxconf will sometimes arrange to perform various tasks\n"
+"at boot-time to maintain the system configuration."
+msgstr ""
+"Linuxconf sooritab mõnikord alglaadimise ajal mitmesuguseid\n"
+"asju süsteemi seadistuse säilitamiseks."
+
+#: services.pm:63
+#, c-format
+msgid ""
+"lpd is the print daemon required for lpr to work properly. It is\n"
+"basically a server that arbitrates print jobs to printer(s)."
+msgstr ""
+"Lpd on trükideemon, ilma selleta ei ole võimalik trükkida.\n"
+"Põhimõtteliselt on see server, mis saadab töö printeri(te)le."
+
+#: services.pm:65
+#, c-format
+msgid ""
+"Linux Virtual Server, used to build a high-performance and highly\n"
+"available server."
+msgstr ""
+"Linuxi virtuaalserver, mis on mõeldud veatult töötavaks ja igati\n"
+"kättesaadavaks serveriks."
+
+#: services.pm:67
+#, c-format
+msgid "Monitors the network (Interactive Firewall and wireless"
+msgstr "Võrgu jälgimine (interaktiivne tulemüür ja juhtmeta ühendus)"
+
+#: services.pm:68
+#, c-format
+msgid "Software RAID monitoring and management"
+msgstr "Tarkvaralise RAID-i jälgimine ja haldamine"
+
+#: services.pm:69
+#, c-format
+msgid ""
+"DBUS is a daemon which broadcasts notifications of system events and other "
+"messages"
+msgstr ""
+"D-Bus on deemon, mis levitab süsteemsete sündmuste teadaandeid ja muid "
+"teateid"
+
+#: services.pm:70
+#, c-format
+msgid "Enables MSEC security policy on system startup"
+msgstr "MSEC turbereegli jõustamine süsteemi käivitamisel"
+
+#: services.pm:71
+#, c-format
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+"names to IP addresses."
+msgstr ""
+"named (BIND) on kasutusel nimeserverites, mis teenindavad DNS hierarhiat, "
+"tõlkimaks nimesid IP-aadressideks."
+
+#: services.pm:72
+#, c-format
+msgid "Initializes network console logging"
+msgstr "Võrgus konsooli logimise võimaldamine"
+
+#: services.pm:73
+#, c-format
+msgid ""
+"Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+"Manager/Windows), and NCP (NetWare) mount points."
+msgstr ""
+"Haagib ja lahutab kõiki võrgufailisüsteeme\n"
+"(nii NFS, SMB kui ka NCP)."
+
+#: services.pm:75
+#, c-format
+msgid ""
+"Activates/Deactivates all network interfaces configured to start\n"
+"at boot time."
+msgstr "Aktiveerib süsteemi alglaadimisel kõik vajalikud võrguliidesed."
+
+#: services.pm:77
+#, c-format
+msgid "Requires network to be up if enabled"
+msgstr "Sisselülitamisel nõuab võrgu olemasolu"
+
+#: services.pm:78
+#, c-format
+msgid "Wait for the hotplugged network to be up"
+msgstr "Ootamine töö ajal ühendatud võrgu loomise järel"
+
+#: services.pm:79
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+"This service provides NFS server functionality, which is configured via the\n"
+"/etc/exports file."
+msgstr ""
+"NFS on UNIX-i keskkonna standardne failijaotusprotokoll.\n"
+"See täidab NFS serveri funktsioone ja seadistatakse failis /etc/exports."
+
+#: services.pm:82
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP\n"
+"networks. This service provides NFS file locking functionality."
+msgstr ""
+"NFS on UNIX-i keskkonna standardne failijaotusprotokoll.\n"
+"See programm täidab NFS failide lukustamise funktsioone.\n"
+"Vajalik serverites."
+
+#: services.pm:84
+#, c-format
+msgid "Synchronizes system time using the Network Time Protocol (NTP)"
+msgstr "Sünkroniseerib süsteemi aja võrguajaprotokolli NTP abil"
+
+#: services.pm:85
+#, c-format
+msgid ""
+"Automatically switch on numlock key locker under console\n"
+"and Xorg at boot."
+msgstr "Lülitab automaatselt alglaadimise ajal sisse NumLock-i."
+
+#: services.pm:87
+#, c-format
+msgid "Support the OKI 4w and compatible winprinters."
+msgstr "Toetab OKI 4w ja sellega ühilduvaid winprintereid."
+
+#: services.pm:88
+#, c-format
+msgid "Checks if a partition is close to full up"
+msgstr "Kontrollib, kas partitsioon pole liiga täis"
+
+#: services.pm:89
+#, c-format
+msgid ""
+"PCMCIA support is usually to support things like ethernet and\n"
+"modems in laptops.  It will not get started unless configured so it is safe "
+"to have\n"
+"it installed on machines that do not need it."
+msgstr ""
+"PCMCIA tugi on tavaliselt vajalik sülearvutitele võrgu- ja\n"
+"modemiliideste lisamiseks."
+
+#: services.pm:92
+#, c-format
+msgid ""
+"The portmapper manages RPC connections, which are used by\n"
+"protocols such as NFS and NIS. The portmap server must be running on "
+"machines\n"
+"which act as servers for protocols which make use of the RPC mechanism."
+msgstr ""
+"Portmapper haldab RPC ühendusi, mida kasutavad NFS ja NIS.\n"
+"Neil serveritel on see hädavajalik."
+
+#: services.pm:95
+#, c-format
+msgid "Reserves some TCP ports"
+msgstr "Mõningate TCP portide reserveerimine"
+
+#: services.pm:96
+#, c-format
+msgid ""
+"Postfix is a Mail Transport Agent, which is the program that moves mail from "
+"one machine to another."
+msgstr ""
+"Postfix on e-posti transpordiagent, see tähendab rakendus,\n"
+"mis toimetab e-kirju ühest masinast teise."
+
+#: services.pm:97
+#, c-format
+msgid ""
+"Saves and restores system entropy pool for higher quality random\n"
+"number generation."
+msgstr ""
+"Salvestab ja taastab juhuarvude genereerimiseks vajaliku\n"
+"süsteemse entroopiasalve."
+
+#: services.pm:99
+#, c-format
+msgid ""
+"Assign raw devices to block devices (such as hard disk drive\n"
+"partitions), for the use of applications such as Oracle or DVD players"
+msgstr ""
+"Toorseadmete seostamine plokkseadmetega\n"
+"(näiteks kõvaketta partitsioonid)\n"
+"selliste rakenduste, nagu Oracle või DVD mängijad tarbeks"
+
+#: services.pm:101
+#, c-format
+msgid "Nameserver information manager"
+msgstr "Nimeserveri teabe haldur"
+
+#: services.pm:102
+#, c-format
+msgid ""
+"The routed daemon allows for automatic IP router table updated via\n"
+"the RIP protocol. While RIP is widely used on small networks, more complex\n"
+"routing protocols are needed for complex networks."
+msgstr ""
+"Routed on RIP deemon, mis vahetab selle protokolli alusel\n"
+"marsruutimisinfot. Kui Teil on RIP kasutusel, on vajalik ka routed."
+
+#: services.pm:105
+#, c-format
+msgid ""
+"The rstat protocol allows users on a network to retrieve\n"
+"performance metrics for any machine on that network."
+msgstr ""
+"Protokoll rstat laseb üle võrgu saada informatsiooni\n"
+"süsteemi töö kohta. Ettevaatust!"
+
+#: services.pm:107
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages to various "
+"system log files.  It is a good idea to always run rsyslog."
+msgstr ""
+"Syslog on programm, mille abil paljud deemonid logivad oma teateid "
+"mitmesugustesse süsteemi logifailidesse. Selle kasutamine on kindlasti hea "
+"mõte."
+
+#: services.pm:108
+#, c-format
+msgid ""
+"The rusers protocol allows users on a network to identify who is\n"
+"logged in on other responding machines."
+msgstr ""
+"Protokoll rusers laseb üle võrgu saada informatsiooni\n"
+"süsteemi kasutajate kohta. Ettevaatust!"
+
+#: services.pm:110
+#, c-format
+msgid ""
+"The rwho protocol lets remote users get a list of all of the users\n"
+"logged into a machine running the rwho daemon (similar to finger)."
+msgstr ""
+"Protokoll rwho laseb üle võrgu saada informatsiooni\n"
+"süsteemi kasutajate kohta. Ettevaatust!"
+
+#: services.pm:112
+#, c-format
+msgid ""
+"SANE (Scanner Access Now Easy) enables to access scanners, video cameras, ..."
+msgstr ""
+"SANE (Scanner Access Now Easy) võimaldab kasutada skannereid, "
+"videokaameraid..."
+
+#: services.pm:113
+#, c-format
+msgid "Packet filtering firewall"
+msgstr "Pakette filtreeriv tulemüür"
+
+#: services.pm:114
+#, c-format
+msgid "Packet filtering firewall for IPv6"
+msgstr "IPv6 pakette filtreeriv tulemüür"
+
+#: services.pm:115
+#, c-format
+msgid ""
+"The SMB/CIFS protocol enables to share access to files & printers and also "
+"integrates with a Windows Server domain"
+msgstr ""
+"SMB/CIFS protokoll võimaldab kasutada jagatud faile ja printereid ning "
+"ühenduda Windowsi serveri domeeniga"
+
+#: services.pm:116
+#, c-format
+msgid "Launch the sound system on your machine"
+msgstr "Käivitab helisüsteemi"
+
+#: services.pm:117
+#, c-format
+msgid "layer for speech analysis"
+msgstr "Kõneanalüüsi kiht"
+
+#: services.pm:118
+#, c-format
+msgid ""
+"Secure Shell is a network protocol that allows data to be exchanged over a "
+"secure channel between two computers"
+msgstr ""
+"Secure Shell on võrguprotokoll, mis võimaldab kahel arvutil vahetada andmeid "
+"turvalise kanali kaudu"
+
+#: services.pm:119
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages\n"
+"to various system log files.  It is a good idea to always run syslog."
+msgstr "Syslog-i kaudu toimub süsteemis toimiva logimine. Vajalik!"
+
+#: services.pm:121
+#, c-format
+msgid "Moves the generated persistent udev rules to /etc/udev/rules.d"
+msgstr "Loodud püsivate udevi reeglite liigutamine asukohta /etc/udev/rules.d"
+
+#: services.pm:122
+#, c-format
+msgid "Load the drivers for your usb devices."
+msgstr "Laeb draiverid USB-seadmete tarbeks."
+
+#: services.pm:123
+#, c-format
+msgid "A lightweight network traffic monitor"
+msgstr "Lihtne võrguliikluse jälgija"
+
+#: services.pm:124
+#, c-format
+msgid "Starts the X Font Server."
+msgstr "Käivitab X'i fondiserveri."
+
+#: services.pm:125
+#, c-format
+msgid "Starts other deamons on demand."
+msgstr "Käivitab vajaduse korral teised deemonid."
+
+#: services.pm:154
+#, c-format
+msgid "Printing"
+msgstr "Trükkimine"
+
+#: services.pm:157
+#, c-format
+msgid "Internet"
+msgstr "Internet"
+
+#: services.pm:162
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Networking"
+msgstr "Võrk"
+
+#: services.pm:164
+#, c-format
+msgid "System"
+msgstr "Süsteem"
+
+#: services.pm:171
+#, c-format
+msgid "Remote Administration"
+msgstr "Võrguhaldus"
+
+#: services.pm:180
+#, c-format
+msgid "Database Server"
+msgstr "Andmebaasi server"
+
+#: services.pm:191 services.pm:233
+#, c-format
+msgid "Services"
+msgstr "Teenused"
+
+#: services.pm:191
+#, c-format
+msgid "Choose which services should be automatically started at boot time"
+msgstr "Valige, millised teenused tuleks alglaadimisel käivitada"
+
+#: services.pm:214
+#, c-format
+msgid "%d activated for %d registered"
+msgstr "%d aktiveeritud, kokku %d"
+
+#: services.pm:237
+#, c-format
+msgid "running"
+msgstr "töötab"
+
+#: services.pm:237
+#, c-format
+msgid "stopped"
+msgstr "peatatud"
+
+#: services.pm:242
+#, c-format
+msgid "Services and daemons"
+msgstr "Teenused ja deemonid"
+
+#: services.pm:248
+#, c-format
+msgid ""
+"No additional information\n"
+"about this service, sorry."
+msgstr ""
+"Selle teenuse kohta\n"
+"ei oska lisainfot anda."
+
+#: services.pm:255
+#, c-format
+msgid "Start when requested"
+msgstr "Vajaduse korral"
+
+#: services.pm:255
+#, c-format
+msgid "On boot"
+msgstr "Alglaadimisel"
+
+#: services.pm:272
+#, c-format
+msgid "Start"
+msgstr "Käivita"
+
+#: services.pm:272
+#, c-format
+msgid "Stop"
+msgstr "Peata"
+
+#: standalone.pm:27
+#, c-format
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+msgstr ""
+"Käesolev rakendus on vaba tarkvara. Te võite seda edasi levitada\n"
+"ja/või muuta vastavalt GNU Üldise Avaliku Litsentsi tingimustele, nagu\n"
+"need on avaldanud Vaba Tarkvara Fond; kas Litsentsi versioon number 2\n"
+"või (vastavalt Teie valikule) ükskõik milline hilisem versioon.\n"
+"\n"
+"Seda rakendust levitatakse lootuses, et see on kasulik, kuid\n"
+"ILMA IGASUGUSE GARANTIITA; isegi KESKMISE/TAVALISE\n"
+"KVALITEEDI GARANTIITA või SOBIVUSELE TEATUD KINDLAKS\n"
+"EESMÄRGIKS. Üksikasjade suhtes vaadake GNU Üldist Avalikku Litsentsi.\n"
+"\n"
+"Te peaks olema saanud GNU Üldise Avaliku Litsentsi koopia koos selle\n"
+"rakendusega; kui ei, siis võtke ühendust Vaba Tarkvara Fondiga aadressil:\n"
+"Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301, USA\n"
+
+#: standalone.pm:46
+#, c-format
+msgid ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Backup and Restore application\n"
+"\n"
+"--default             : save default directories.\n"
+"--debug               : show all debug messages.\n"
+"--show-conf           : list of files or directories to backup.\n"
+"--config-info         : explain configuration file options (for non-X "
+"users).\n"
+"--daemon              : use daemon configuration. \n"
+"--help                : show this message.\n"
+"--version             : show version number.\n"
+msgstr ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Varundamis- ja taastamisrakendus\n"
+"\n"
+"--default             : salvestab vaikekataloogid.\n"
+"--debug               : näitab kõiki silumisteateid.\n"
+"--show-conf           : varundatavate failide või kataloogide nimekiri.\n"
+"--config-info         : selgitab seadistustefaili võtmeid (X'i "
+"mittekasutajaile).\n"
+"--daemon              : kasutab deemoni seadistusi.\n"
+"--help                : näitab käesolevat abiteadet.\n"
+"--version             : näitab versiooni nime.\n"
+
+#: standalone.pm:58
+#, c-format
+msgid ""
+"[--boot]\n"
+"OPTIONS:\n"
+"  --boot            - enable to configure boot loader\n"
+"default mode: offer to configure autologin feature"
+msgstr ""
+"[--boot]\n"
+"VÕTMED:\n"
+"  --boot            - alglaadija seadistamise lubamine\n"
+"vaikerežiim: pakutakse võimalust seadistada automaatset sisselogimist"
+
+#: standalone.pm:62
+#, c-format
+msgid ""
+"[OPTIONS] [PROGRAM_NAME]\n"
+"\n"
+"OPTIONS:\n"
+"  --help            - print this help message.\n"
+"  --report          - program should be one of %s tools\n"
+"  --incident        - program should be one of %s tools"
+msgstr ""
+"[VÕTMED] [RAKENDUSE_NIMI]\n"
+"\n"
+"VÕTMED:\n"
+"--help            - näitab käesolevat abiteadet.\n"
+"--report           - rakendus peab olema üks %s tööriistadest\n"
+"--incident         - rakendus peab olema üks %s tööriistadest"
+
+#: standalone.pm:68
+#, c-format
+msgid ""
+"[--add]\n"
+"  --add             - \"add a network interface\" wizard\n"
+"  --del             - \"delete a network interface\" wizard\n"
+"  --skip-wizard     - manage connections\n"
+"  --internet        - configure internet\n"
+"  --wizard          - like --add"
+msgstr ""
+"[--add]\n"
+"  --add             - \"võrguliidese lisamise\" nõustaja\n"
+"  --del             - \"võrguliidese eemaldamise\" nõustaja\n"
+"  --skip-wizard     - ühenduste haldamine\n"
+"  --internet        - internetiühenduse seadistamine\n"
+"  --wizard          - nagu --add"
+
+#: standalone.pm:74
+#, c-format
+msgid ""
+"\n"
+"Font Importation and monitoring application\n"
+"\n"
+"OPTIONS:\n"
+"--windows_import : import from all available windows partitions.\n"
+"--xls_fonts      : show all fonts that already exist from xls\n"
+"--install        : accept any font file and any directory.\n"
+"--uninstall      : uninstall any font or any directory of font.\n"
+"--replace        : replace all font if already exist\n"
+"--application    : 0 none application.\n"
+"                 : 1 all application available supported.\n"
+"                 : name_of_application like  so for staroffice \n"
+"                 : and gs for ghostscript for only this one."
+msgstr ""
+"\n"
+"Fontide importimise ja jälgimise rakendus\n"
+"\n"
+"--windows_import : impordib kõigilt saadaolevailt windowsi "
+"partitsioonidelt.\n"
+"--xls_fonts      : näitab kõiki fonte, mis on juba saadud xls-ist.\n"
+"--strong         : fontide tugev verifitseerimine.\n"
+"--install        : paigaldab iga fondifaili ja kataloogi.\n"
+"--uninstall      : eemaldab iga fondi või fondikataloogi.\n"
+"--replace        : asendab kõik fondid, kui on juba olemas.\n"
+"--application    : 0 mitte ükski rakendus.\n"
+"                 : 1 iga toetatud ja saadaolev rakendus.\n"
+"                 : rakenduse_nimi, näiteks so StarOffice'i \n"
+"                 : ja gs GhostScripti puhul."
+
+#: standalone.pm:89
+#, c-format
+msgid ""
+"[OPTIONS]...\n"
+"%s Terminal Server Configurator\n"
+"--enable         : enable MTS\n"
+"--disable        : disable MTS\n"
+"--start          : start MTS\n"
+"--stop           : stop MTS\n"
+"--adduser        : add an existing system user to MTS (requires username)\n"
+"--deluser        : delete an existing system user from MTS (requires "
+"username)\n"
+"--addclient      : add a client machine to MTS (requires MAC address, IP, "
+"nbi image name)\n"
+"--delclient      : delete a client machine from MTS (requires MAC address, "
+"IP, nbi image name)"
+msgstr ""
+"[VÕTMED]...\n"
+"%s terminaliserveri seadistaja\n"
+"--enable         : lubab MTSi\n"
+"--disable        : keelab MTSi\n"
+"--start          : käivitab MTSi\n"
+"--stop           : peatab MTSi\n"
+"--adduser        : lisab olemasoleva kasutaja MTSile (nõutav on "
+"kasutajanimi)\n"
+"--deluser        : kustutab olemasoleva kasutaja MTSist (nõutav on "
+"kasutajanimi)\n"
+"--addclient      : lisab kliendimasina MTSile (nõutav on MAC-aadress, IP, "
+"nbi laadepildi nimi)\n"
+"--delclient      : kustutab kliendimasina MTSist (nõutav on MAC-aadress, IP, "
+"nbi laadepildi nimi)"
+
+#: standalone.pm:101
+#, c-format
+msgid "[keyboard]"
+msgstr "[klaviatuur]"
+
+#: standalone.pm:102
+#, c-format
+msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+msgstr ""
+"[--file=minufail] [--word=minusõna] [--explain=regulaaravaldis] [--alert]"
+
+#: standalone.pm:103
+#, c-format
+msgid ""
+"[OPTIONS]\n"
+"Network & Internet connection and monitoring application\n"
+"\n"
+"--defaultintf interface : show this interface by default\n"
+"--connect : connect to internet if not already connected\n"
+"--disconnect : disconnect to internet if already connected\n"
+"--force : used with (dis)connect : force (dis)connection.\n"
+"--status : returns 1 if connected 0 otherwise, then exit.\n"
+"--quiet : do not be interactive. To be used with (dis)connect."
+msgstr ""
+"[VÕTMED]\n"
+"Kohtvõrgu ja interneti ühenduse ja jälgimise rakendus\n"
+"\n"
+"--defaultintf liides : näidab antud liidest vaikimisi\n"
+"--connect : ühendab internetiga, kui ei ole veel ühendust\n"
+"--disconnect : lahutab internetist, kui on juba ühendus\n"
+"--force : koos võtmega (dis)connect sunnib ühendama/lahutama\n"
+"--status : vastuseks 1, kui on ühendatud, muul juhul 0 ja väljumine.\n"
+"--quiet : lülitab välja interaktiivsuse. Koos võtmega (dis)connect."
+
+#: standalone.pm:113
+#, c-format
+msgid ""
+"[OPTION]...\n"
+"  --no-confirmation      do not ask first confirmation question in %s Update "
+"mode\n"
+"  --no-verify-rpm        do not verify packages signatures\n"
+"  --changelog-first      display changelog before filelist in the "
+"description window\n"
+"  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+msgstr ""
+"[VÕTI]...\n"
+"  --no-confirmation      ei küsita esimest kinnitust %s Update režiimis\n"
+"  -no-verify-rpm        pakettide signatuure ei kontrollita\n"
+"  --changelog-first      näitab kirjelduse aknas enne failinimekirja "
+"muudatuste logi\n"
+"  -merge-all-rpmnew     proovib liita kõik leitud failid .rpmnew/.rpmsave"
+
+#: standalone.pm:118
+#, c-format
+msgid ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+msgstr ""
+"[--manual] [--device=seade] [--update-sane=sane_baaskataloog] [--update-"
+"usbtable] [--dynamic=seade]"
+
+#: standalone.pm:119
+#, c-format
+msgid ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolution"
+msgstr ""
+" [kõik]\n"
+"       XFDrake [--noauto] monitor\n"
+"       XFDrake ekraanilahutus"
+
+#: standalone.pm:156
+#, c-format
+msgid ""
+"\n"
+"Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+msgstr ""
+"\n"
+"Kasutamine: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version]"
+
+#: timezone.pm:170 timezone.pm:171
+#, c-format
+msgid "All servers"
+msgstr "Kõik serverid"
+
+#: timezone.pm:207
+#, c-format
+msgid "Global"
+msgstr "Globaalne"
+
+#: timezone.pm:210
+#, c-format
+msgid "Africa"
+msgstr "Aafrika"
+
+#: timezone.pm:211
+#, c-format
+msgid "Asia"
+msgstr "Aasia"
+
+#: timezone.pm:212
+#, c-format
+msgid "Europe"
+msgstr "Euroopa"
+
+#: timezone.pm:213
+#, c-format
+msgid "North America"
+msgstr "Põhja-Ameerika"
+
+#: timezone.pm:214
+#, c-format
+msgid "Oceania"
+msgstr "Okeaania"
+
+#: timezone.pm:215
+#, c-format
+msgid "South America"
+msgstr "Lõuna-Ameerika"
+
+#: timezone.pm:224
+#, c-format
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+#: timezone.pm:261
+#, c-format
+msgid "Russian Federation"
+msgstr "Venemaa Föderatsioon"
+
+#: timezone.pm:269
+#, c-format
+msgid "Yugoslavia"
+msgstr "Jugoslaavia"
+
+#: ugtk2.pm:810 ugtk3.pm:906
+#, c-format
+msgid "Is this correct?"
+msgstr "Kas see on sobiv?"
+
+#: ugtk2.pm:872 ugtk3.pm:968
+#, c-format
+msgid "You have chosen a file, not a directory"
+msgstr "Valisite faili, mitte kataloogi"
+
+#: ugtk2.pm:922 ugtk3.pm:1018
+#, c-format
+msgid "Info"
+msgstr "Info"
+
+#: wizards.pm:95
+#, c-format
+msgid ""
+"%s is not installed\n"
+"Click \"Next\" to install or \"Cancel\" to quit"
+msgstr ""
+"%s ei ole paigaldatud\n"
+"Klõpsake paigaldamiseks \"Edasi\" või väljumiseks \"Loobu\""
+
+#: wizards.pm:99
+#, c-format
+msgid "Installation failed"
+msgstr "Paigaldamine nurjus"

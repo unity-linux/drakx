@@ -1,0 +1,1724 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz.bednarski@amazis.pl>, 2009
+# Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz.bednarski@mandriva.pl>, 2008
+# Daniel Napora <napcok@gmail.com>, 2013,2015
+# Maciej Walkowiak <m.walkowiak@computer.org>, 2005
+# Mandriva Poland <biuro@mandriva.pl>, 2006
+# Paweł Jabłoński <pj@linux-mandrake.com>, 2001-2002
+# Uzerus <szymonscholz@gmail.com>, 2016
+# Tomasz Bednarski - Amazis.net <tomasz.bednarski@amazis.pl>, 2007
+# Tomasz Bednarski - Amazis.net <tomasz.bednarski@mandriva.pl>, 2008
+# Tomasz Bednarski <bednarski@skrzynka.pl>, 2005
+# Tomasz Bednarski - Mandriva Poland <tomasz.bednarski@mandriva.pl>, 2006-2007
+# Tomasz Bednarski Mandriva Poland <tomasz.bednarski@mandriva.pl>, 2006
+# Tomasz Bednarski <tomasz.bednarski@mandriva.pl>, 2005
+# tomek, 2005
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-22 02:36+0200\n"
+"PO-Revision-Date: 2016-11-14 11:03+0000\n"
+"Last-Translator: Uzerus <szymonscholz@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/MageiaLinux/mageia/language/"
+"pl/)\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: ../../advertising/01_IM_mageia.pl:1
+#, c-format
+msgid "Join Us!"
+msgstr "Dołącz do nas!"
+
+#: ../../advertising/02_IM_mageia.pl:1
+#, c-format
+msgid "Make it yours!"
+msgstr "Uczyń ją swoją!"
+
+#: ../../advertising/03_IM_mageia.pl:1
+#, c-format
+msgid "Your choice!"
+msgstr "Twój wybór!"
+
+#: ../../advertising/04_IM_mageia.pl:1
+#, c-format
+msgid "Office tools"
+msgstr "Narzędzia biurowe"
+
+#: ../../advertising/05_IM_mageia.pl:1
+#, c-format
+msgid "Home entertainment"
+msgstr "Domowe centrum rozrywki"
+
+#: ../../advertising/06_IM_mageia.pl:1
+#, c-format
+msgid "For kids"
+msgstr "Dla dzieci"
+
+#: ../../advertising/07_IM_mageia.pl:1
+#, c-format
+msgid "For family!"
+msgstr "Dla rodziny!"
+
+#: ../../advertising/08_IM_mageia.pl:1
+#, c-format
+msgid "For developers!"
+msgstr "Dla developerów!"
+
+#: ../../advertising/09_IM_mageia.pl:1
+#, c-format
+msgid "Thank you!"
+msgstr "Dziękujemy!"
+
+#: ../../advertising/10_IM_mageia.pl:1
+#, c-format
+msgid "Be Free!"
+msgstr "Bądź wolny!"
+
+#: any.pm:151
+#, c-format
+msgid "Do you have further supplementary media?"
+msgstr "Czy posiadasz inne dodatkowe nośniki?"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:154
+#, c-format
+msgid ""
+"The following media have been found and will be used during install: %s.\n"
+"\n"
+"\n"
+"Do you have a supplementary installation medium to configure?"
+msgstr ""
+"Znaleziono następujące nośniki, które zostaną wykorzystane podczas "
+"instalacji: %s.\n"
+"\n"
+"\n"
+"Czy chcesz skonfigurować dodatkowe nośniki instalacyjne?"
+
+#: any.pm:162
+#, c-format
+msgid "Network (HTTP)"
+msgstr "Sieć (HTTP)"
+
+#: any.pm:163
+#, c-format
+msgid "Network (FTP)"
+msgstr "Sieć (FTP)"
+
+#: any.pm:164
+#, c-format
+msgid "Network (NFS)"
+msgstr "Sieć (NFS)"
+
+#: any.pm:223
+#, c-format
+msgid "URL of the mirror?"
+msgstr "Adres URL dla serwera zwierciadlanego?"
+
+#: any.pm:229
+#, c-format
+msgid "URL must start with ftp:// or http://"
+msgstr "Adres URL musi zaczynać się od ftp:// lub http://"
+
+#: any.pm:247
+#, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
+msgstr "Łączenie ze stroną %s w celu pobrania listy dostępnych serwerów..."
+
+#: any.pm:252
+#, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
+msgstr "Łączenie ze stroną %s w celu pobrania listy dostępnych serwerów"
+
+#: any.pm:262
+#, c-format
+msgid "Choose a mirror from which to get the packages"
+msgstr "Wybierz serwer lustrzany, z którego chcesz pobrać pakiety"
+
+#: any.pm:290
+#, c-format
+msgid "NFS setup"
+msgstr "Konfiguracja NFS"
+
+#: any.pm:291
+#, c-format
+msgid "Please enter the hostname and directory of your NFS media"
+msgstr "Wprowadź nazwę komputera i katalog nośnika NFS"
+
+#: any.pm:295
+#, c-format
+msgid "Hostname missing"
+msgstr "Brak nazwy hosta"
+
+#: any.pm:296
+#, c-format
+msgid "Directory must begin with \"/\""
+msgstr "Oznaczenie katalogu musi się zaczynać od znaku \"/\""
+
+#: any.pm:300
+#, c-format
+msgid "Hostname of the NFS mount ?"
+msgstr "Nazwa komputera udostępniające udziały NFS?"
+
+#: any.pm:301
+#, c-format
+msgid "Directory"
+msgstr "Katalog"
+
+#: any.pm:331
+#, c-format
+msgid "Supplementary"
+msgstr "Dodatkowe"
+
+#: any.pm:366
+#, c-format
+msgid ""
+"Can't find a package list file on this mirror. Make sure the location is "
+"correct."
+msgstr ""
+"Nie można znaleźć listy pakietów na tym serwerze. Sprawdź poprawność "
+"lokalizacji."
+
+#: any.pm:391
+#, c-format
+msgid "Core Release"
+msgstr "Core Release"
+
+#: any.pm:393
+#, c-format
+msgid "Tainted Release"
+msgstr "Tainted Release"
+
+#: any.pm:395
+#, c-format
+msgid "Nonfree Release"
+msgstr "Nonfree Release"
+
+#: any.pm:433
+#, c-format
+msgid ""
+"Some hardware on your machine needs some non free firmwares in order for the "
+"free software drivers to work."
+msgstr ""
+"Niektóre urządzenia w twoim komputerze wymagają nie-wolnego firmware, aby "
+"wolne sterowniki mogły działać."
+
+#: any.pm:434
+#, c-format
+msgid "You should enable \"%s\""
+msgstr "Warto włączyć \"%s\""
+
+#: any.pm:472
+#, c-format
+msgid "\"%s\" contains the various pieces of the systems and its applications"
+msgstr "\"%s\" zawiera różne komponenty systemu oraz aplikacje"
+
+#: any.pm:473
+#, c-format
+msgid "\"%s\" contains non free software.\n"
+msgstr "\"%s\" zawiara nie-wolne oprogramowanie.\n"
+
+#: any.pm:474
+#, c-format
+msgid ""
+"It also contains firmwares needed for certain devices to operate (eg: some "
+"ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
+msgstr ""
+"Zawiera również firmware niezbędne do działania niektórych urządzeń (jak: "
+"niektóre karty ATI/AMD, niektóre karty sieciowe, kontrolery RAID, ...)"
+
+#: any.pm:475
+#, c-format
+msgid ""
+"\"%s\" contains software that can not be distributed in every country due to "
+"software patents."
+msgstr ""
+"\"%s\" zawiara oprogramowanie, które w niektórych krajach nie może być "
+"dystrybuowane  ze względu na patenty."
+
+#: any.pm:476
+#, c-format
+msgid ""
+"It also contains software from \"%s\" rebuild with additional capabilities."
+msgstr "Zawiera również oprogramowanie z \"%s\" "
+
+#: any.pm:482
+#, c-format
+msgid "Here you can enable more media if you want."
+msgstr "Możesz włączyć więcej nośników jeśli chcesz."
+
+#: any.pm:499
+#, c-format
+msgid "This medium provides package updates for medium \"%s\""
+msgstr "Ten nośnik zawiera aktualizacje pakietów dla nośnika \"%s\""
+
+#: any.pm:597
+#, c-format
+msgid "Looking at packages already installed..."
+msgstr "Wyszukiwanie już zainstalowanych pakietów..."
+
+#: any.pm:631
+#, c-format
+msgid "Finding packages to upgrade..."
+msgstr "Wyszukiwanie pakietów do uaktualnienia..."
+
+#: any.pm:650
+#, c-format
+msgid "Removing packages prior to upgrade..."
+msgstr "Usuwanie pakietów w celu wykonania aktualizacji..."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:881
+#, c-format
+msgid ""
+"The following packages will be removed to allow upgrading your system: %s\n"
+"\n"
+"\n"
+"Do you really want to remove these packages?\n"
+msgstr ""
+"Aby umożliwić aktualizację systemu, usunięte będą następujące pakiety: %s\n"
+"\n"
+"\n"
+"Czy naprawdę chcesz usunąć te pakiety?\n"
+
+#: any.pm:1096
+#, c-format
+msgid "Error reading file %s"
+msgstr "Błąd odczytu pliku %s"
+
+#: any.pm:1304
+#, c-format
+msgid "The following disk(s) were renamed:"
+msgstr "Zmieniono nazwy następujących dysków:"
+
+#: any.pm:1306
+#, c-format
+msgid "%s (previously named as %s)"
+msgstr "%s (wcześniejsza nazwa: %s)"
+
+#: any.pm:1363
+#, c-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: any.pm:1363
+#, c-format
+msgid "FTP"
+msgstr "FTP"
+
+#: any.pm:1363
+#, c-format
+msgid "NFS"
+msgstr "NFS"
+
+#: any.pm:1382 steps_interactive.pm:973
+#, c-format
+msgid "Network"
+msgstr "Sieć"
+
+#: any.pm:1386
+#, c-format
+msgid "Please choose a media"
+msgstr "Proszę wybrać nośnik"
+
+#: any.pm:1402
+#, c-format
+msgid "File already exists. Overwrite it?"
+msgstr "Plik już istnieje. Nadpisać?"
+
+#: any.pm:1406
+#, c-format
+msgid "Permission denied"
+msgstr "Dostęp zabroniony"
+
+#: any.pm:1454
+#, c-format
+msgid "Bad NFS name"
+msgstr "Niepoprawna nazwa NFS"
+
+#: any.pm:1475
+#, c-format
+msgid "Bad media %s"
+msgstr "Nieprawidłowy nośnik %s"
+
+#: any.pm:1519
+#, c-format
+msgid "Cannot make screenshots before partitioning"
+msgstr "Nie można pobrać zrzutu ekranu przed partycjonowaniem"
+
+#: any.pm:1530
+#, c-format
+msgid "Screenshots will be available after install in %s"
+msgstr "Zrzuty ekranu będą dostępne po instalacji w %s"
+
+#: gtk.pm:135
+#, c-format
+msgid "Installation"
+msgstr "Instalacja"
+
+#: gtk.pm:139 share/meta-task/compssUsers.pl:48
+#, c-format
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#: install2.pm:211
+#, c-format
+msgid "You must also format %s"
+msgstr "Należy także sformatować %s"
+
+#: interactive.pm:16
+#, c-format
+msgid ""
+"Some hardware on your computer needs ``proprietary'' drivers to work.\n"
+"You can find some information about them at: %s"
+msgstr ""
+"Część sprzętu w Twoim komputerze wymaga \"firmowych\" sterowników.\n"
+"Więcej informacji na ten temat uzyskasz z %s"
+
+#: interactive.pm:22
+#, c-format
+msgid "Bringing up the network"
+msgstr "Uruchamianie sieci"
+
+#: interactive.pm:27
+#, c-format
+msgid "Bringing down the network"
+msgstr "Zatrzymywanie sieci"
+
+#: media.pm:407
+#, c-format
+msgid "Please wait, retrieving file"
+msgstr "Proszę czekać. Pobieranie pliku"
+
+#: media.pm:714
+#, c-format
+msgid "unable to add medium"
+msgstr "dodanie nośnika było niemożliwe"
+
+#: media.pm:754
+#, c-format
+msgid "Copying some packages on disks for future use"
+msgstr "Kopiowanie wybranych pakietów do późniejszego wykorzystania"
+
+#: media.pm:807
+#, c-format
+msgid "Copying in progress"
+msgstr "Kopiowanie w toku"
+
+#: pkgs.pm:32
+#, c-format
+msgid "must have"
+msgstr "trzeba posiadać"
+
+#: pkgs.pm:33
+#, c-format
+msgid "important"
+msgstr "ważny"
+
+#: pkgs.pm:34
+#, c-format
+msgid "very nice"
+msgstr "bardzo fajny"
+
+#: pkgs.pm:35
+#, c-format
+msgid "nice"
+msgstr "fajny"
+
+#: pkgs.pm:36
+#, c-format
+msgid "maybe"
+msgstr "taki sobie"
+
+#: pkgs.pm:102
+#, c-format
+msgid "Getting package information from XML meta-data..."
+msgstr "Pobieram informacje o pakietach z meta-danych XML..."
+
+#: pkgs.pm:111
+#, c-format
+msgid "No xml info for medium \"%s\", only partial result for package %s"
+msgstr ""
+"Brak pliku z informacjami o programach znajdujących się na nośniku \"%s\". "
+"Wynik dla pakietu %s jest częściowy"
+
+#: pkgs.pm:119
+#, c-format
+msgid "No description"
+msgstr "Brak opisu"
+
+#: pkgs.pm:288
+#, c-format
+msgid ""
+"Some packages requested by %s cannot be installed:\n"
+"%s"
+msgstr ""
+"Niektóre pakiety wymagane przez %s nie mogą zostać zainstalowane:\n"
+"%s"
+
+#: pkgs.pm:384 pkgs.pm:411
+#, c-format
+msgid "An error occurred:"
+msgstr "Wystąpił błąd:"
+
+#: pkgs.pm:403
+#, c-format
+msgid "A fatal error occurred: %s."
+msgstr "Wystąpił poważny błąd: %s."
+
+#: pkgs.pm:897 pkgs.pm:939
+#, c-format
+msgid "Do not ask again"
+msgstr "Nie pytaj ponownie"
+
+#: pkgs.pm:913
+#, c-format
+msgid "%d installation transactions failed"
+msgstr "%d transakcji instalacyjnych zakończonych niepowodzeniem"
+
+#: pkgs.pm:914
+#, c-format
+msgid "Installation of packages failed:"
+msgstr "Instalowanie pakietów nie powiodło się:"
+
+#: share/meta-task/compssUsers.pl:16
+#, c-format
+msgid "Workstation"
+msgstr "Stacja robocza"
+
+#: share/meta-task/compssUsers.pl:18
+#, c-format
+msgid "Office Workstation"
+msgstr "Stacja biurowa"
+
+#: share/meta-task/compssUsers.pl:20
+#, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr ""
+"Programy biurowe: procesory tekstu (LibreOffice Writer, Kword), arkusze "
+"kalkulacyjne (LibreOffice, Kspread), przeglądarki pdf, itd."
+
+#: share/meta-task/compssUsers.pl:26
+#, c-format
+msgid "Game station"
+msgstr "Stacja rozrywkowa (gry)"
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc"
+msgstr "Programy rozrywkowe: gry przygodowe, planszowe, strategie, itd."
+
+#: share/meta-task/compssUsers.pl:30
+#, c-format
+msgid "Multimedia station"
+msgstr "Stacja multimedialna"
+
+#: share/meta-task/compssUsers.pl:31
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr "Programy do odtwarzania/edycji dźwięku i obrazu"
+
+#: share/meta-task/compssUsers.pl:36
+#, c-format
+msgid "Internet station"
+msgstr "Stacja internetowa"
+
+#: share/meta-task/compssUsers.pl:37
+#, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr ""
+"Zestaw narzędzi do odczytu i przesyłania poczty i grup dyskusyjnych (mutt, "
+"tin...) oraz przeglądania sieci"
+
+#: share/meta-task/compssUsers.pl:42
+#, c-format
+msgid "Network Computer (client)"
+msgstr "Komputer sieciowy (klient)"
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr "Programy klienckie dla różnych protokołów włączając ssh"
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr "Narzędzia do łatwego zarządzania komputerem"
+
+#: share/meta-task/compssUsers.pl:53
+#, c-format
+msgid "Console Tools"
+msgstr "Narzędzia konsolowe"
+
+#: share/meta-task/compssUsers.pl:54
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr "Edytory, powłoki, narzędzia plikowe, terminale"
+
+#: share/meta-task/compssUsers.pl:58 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "Programowanie"
+
+#: share/meta-task/compssUsers.pl:59 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr "Biblioteki programistyczne C i C++, programy i pliki nagłówkowe"
+
+#: share/meta-task/compssUsers.pl:63 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: share/meta-task/compssUsers.pl:64 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr "Książki i dokumenty HOWTO o Linuksie i Otwartym Oprogramowaniu"
+
+#: share/meta-task/compssUsers.pl:68 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "LSB"
+
+#: share/meta-task/compssUsers.pl:69 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr "Linux Standard Base. Obsługa aplikacji firm trzecich"
+
+#: share/meta-task/compssUsers.pl:79
+#, c-format
+msgid "Web Server"
+msgstr "Serwer WWW"
+
+#: share/meta-task/compssUsers.pl:80
+#, c-format
+msgid "Apache"
+msgstr "Apache"
+
+#: share/meta-task/compssUsers.pl:84
+#, c-format
+msgid "Groupware"
+msgstr "System do pracy grupowej"
+
+#: share/meta-task/compssUsers.pl:85
+#, c-format
+msgid "Kolab Server"
+msgstr "Serwer Kolab"
+
+#: share/meta-task/compssUsers.pl:88 share/meta-task/compssUsers.pl:138
+#, c-format
+msgid "Firewall/Router"
+msgstr "Zapora sieciowa/router"
+
+#: share/meta-task/compssUsers.pl:89 share/meta-task/compssUsers.pl:139
+#, c-format
+msgid "Internet gateway"
+msgstr "Bramka internetowa"
+
+#: share/meta-task/compssUsers.pl:92
+#, c-format
+msgid "Mail/News"
+msgstr "Poczta/wiadomości"
+
+#: share/meta-task/compssUsers.pl:93
+#, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr "Serwer pocztowy Postfix, serwer grup Inn"
+
+#: share/meta-task/compssUsers.pl:97
+#, c-format
+msgid "Directory Server"
+msgstr "Serwer katalogowy"
+
+#: share/meta-task/compssUsers.pl:102
+#, c-format
+msgid "FTP Server"
+msgstr "Serwer FTP"
+
+#: share/meta-task/compssUsers.pl:103
+#, c-format
+msgid "ProFTPd"
+msgstr "ProFTPd"
+
+#: share/meta-task/compssUsers.pl:107
+#, c-format
+msgid "DNS/NIS"
+msgstr "DNS/NIS"
+
+#: share/meta-task/compssUsers.pl:108
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr "Serwer nazw domenowych i informacji sieciowych"
+
+#: share/meta-task/compssUsers.pl:112
+#, c-format
+msgid "File and Printer Sharing Server"
+msgstr "Serwer udostępniania plików i drukarek"
+
+#: share/meta-task/compssUsers.pl:113
+#, c-format
+msgid "NFS Server, Samba server"
+msgstr "Serwer NFS, serwer Samby"
+
+#: share/meta-task/compssUsers.pl:117 share/meta-task/compssUsers.pl:133
+#, c-format
+msgid "Database"
+msgstr "Baza danych"
+
+#: share/meta-task/compssUsers.pl:118
+#, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr "Serwer bazodanowy PostgreSQL i MariaDB"
+
+#: share/meta-task/compssUsers.pl:123
+#, c-format
+msgid "Web/FTP"
+msgstr "Web/FTP"
+
+#: share/meta-task/compssUsers.pl:124
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "Apache, Pro-ftpd"
+
+#: share/meta-task/compssUsers.pl:128
+#, c-format
+msgid "Mail"
+msgstr "Poczta"
+
+#: share/meta-task/compssUsers.pl:129
+#, c-format
+msgid "Postfix mail server"
+msgstr "Serwer pocztowy Postfix"
+
+#: share/meta-task/compssUsers.pl:134
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "Serwer bazodanowy PostgreSQL i MariaDB"
+
+#: share/meta-task/compssUsers.pl:142
+#, c-format
+msgid "Network Computer server"
+msgstr "Serwer sieciowy"
+
+#: share/meta-task/compssUsers.pl:143
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr "Serwer NIS, serwer SMB, serwer pośrednika, serwer ssh"
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Graphical Environment"
+msgstr "Środowisko graficzne"
+
+#: share/meta-task/compssUsers.pl:152
+#, c-format
+msgid "Plasma Workstation"
+msgstr "Stacja Robocza Plazmy"
+
+#: share/meta-task/compssUsers.pl:153
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr ""
+"Środowisko graficzne KDE, podstawowe środowisko graficzne ze zbiorem "
+"narzędzi towarzyszących"
+
+#: share/meta-task/compssUsers.pl:158
+#, c-format
+msgid "GNOME Workstation"
+msgstr "Stacja GNOME"
+
+#: share/meta-task/compssUsers.pl:159 share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr ""
+"Środowisko graficzne z przyjaznym dla użytkownika zbiorem aplikacji i "
+"narzędzi graficznych"
+
+#: share/meta-task/compssUsers.pl:164
+#, c-format
+msgid "XFCE Workstation"
+msgstr "Pulpit XFCE"
+
+#: share/meta-task/compssUsers.pl:165
+#, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr ""
+"Lekkie środowisko graficzne z przyjaznym dla użytkownika zbiorem aplikacji i "
+"narzędzi graficznych"
+
+#: share/meta-task/compssUsers.pl:169
+#, c-format
+msgid "MATE Workstation"
+msgstr "Pulpit MATE"
+
+#: share/meta-task/compssUsers.pl:174
+#, c-format
+msgid "Cinnamon Workstation"
+msgstr "Pulpit Cinnamon"
+
+#: share/meta-task/compssUsers.pl:175
+#, c-format
+msgid "A graphical environment based on GNOME"
+msgstr "Środowisko graficzne bazujące na Gnome"
+
+#: share/meta-task/compssUsers.pl:179
+#, c-format
+msgid "LXQt Desktop"
+msgstr "Pulpit LXQt"
+
+#: share/meta-task/compssUsers.pl:181
+#, c-format
+msgid "A next generation QT port of the lightweight desktop environment"
+msgstr "Nowa generacja lekkiego środowiska graficznego przeportowanego na QT"
+
+#: share/meta-task/compssUsers.pl:184
+#, c-format
+msgid "Enlightenment e21 Desktop"
+msgstr "Pulpit Enlightenment E17"
+
+#: share/meta-task/compssUsers.pl:186
+#, c-format
+msgid "A lightweight fast graphical environment with a dedicated following"
+msgstr ""
+"Lekkie i szybkie środowisko graficzne z przyjaznym dla użytkownika zbiorem "
+"aplikacji i narzędzi graficznych"
+
+#: share/meta-task/compssUsers.pl:189
+#, c-format
+msgid "LXDE Desktop"
+msgstr "Pulpit LXDE"
+
+#: share/meta-task/compssUsers.pl:191
+#, c-format
+msgid "A lightweight fast graphical environment"
+msgstr "Lekkie i szybkie środowisko graficzne"
+
+#: share/meta-task/compssUsers.pl:194
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "Inne środowiska graficzne"
+
+#: share/meta-task/compssUsers.pl:195
+#, c-format
+msgid "Window Maker, Fvwm, etc"
+msgstr "Window Maker, Fvwm, itd."
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr "Narzędzia"
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, c-format
+msgid "SSH Server"
+msgstr "Serwer SSH"
+
+#: share/meta-task/compssUsers.pl:225
+#, c-format
+msgid "Webmin"
+msgstr "Webmin"
+
+#: share/meta-task/compssUsers.pl:226
+#, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr "Serwer konfiguracji zdalnej Webmin"
+
+#: share/meta-task/compssUsers.pl:230
+#, c-format
+msgid "Network Utilities/Monitoring"
+msgstr "Narzędzia sieciowe/monitorowanie"
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr "Narzędzia do monitorowania, księgowania procesów, tcpdump, nmap, ..."
+
+#: share/meta-task/compssUsers.pl:235
+#, c-format
+msgid "Mageia Wizards"
+msgstr "Druidy Mageia"
+
+#: share/meta-task/compssUsers.pl:236
+#, c-format
+msgid "Wizards to configure server"
+msgstr "Druidy do konfiguracji serwera"
+
+#: steps.pm:85
+#, c-format
+msgid ""
+"An error occurred, but I do not know how to handle it nicely.\n"
+"Continue at your own risk."
+msgstr ""
+"Wystąpił jakiś błąd i nie wiadomo, jak poprawnie go obsłużyć.\n"
+"Kontynuuj na własną odpowiedzialność."
+
+#: steps.pm:460
+#, c-format
+msgid ""
+"Some important packages did not get installed properly.\n"
+"Either your cdrom drive or your cdrom is defective.\n"
+"Check the cdrom on an installed computer using \"rpm -qpl media/main/*.rpm"
+"\"\n"
+msgstr ""
+"Pewne istotne pakiety nie zostały poprawnie zainstalowane.\n"
+"Prawdopodobnie uszkodzona jest płyta lub napęd CDROM.\n"
+"Sprawdź płytę w innym komputerze używając polecenia:\n"
+"\"rpm -qpl media/main/*.rpm\"\n"
+
+#: steps_auto_install.pm:71 steps_stdio.pm:27
+#, c-format
+msgid "Entering step `%s'\n"
+msgstr "Przechodzę do kroku `%s'\n"
+
+#: steps_curses.pm:22
+#, c-format
+msgid "%s Installation %s"
+msgstr "Instalacja %s %s"
+
+#: steps_curses.pm:32
+#, c-format
+msgid "<Tab>/<Alt-Tab> between elements"
+msgstr "<Tab>/<Alt-Tab> pomiędzy elementami"
+
+#: steps_gtk.pm:147
+#, c-format
+msgid "Xorg server is slow to start. Please wait..."
+msgstr "Serwer Xorg rozpoczyna działanie. Proszę czekać..."
+
+#: steps_gtk.pm:212
+#, c-format
+msgid ""
+"Your system is low on resources. You may have some problem installing\n"
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
+msgstr ""
+"System ma mało zasobów. Mogą wystąpić problemy z instalacją\n"
+"%s. Jeśli tak się dzieje, spróbuj instalacji w trybie tekstowym.\n"
+"Aby tak zrobić, naciśnij F1 podczas startu z CD i wpisz 'text'."
+
+#: steps_gtk.pm:242 steps_gtk.pm:754
+#, c-format
+msgid "Media Selection"
+msgstr "Wybór nośników"
+
+#: steps_gtk.pm:253
+#, c-format
+msgid "Install %s Plasma Desktop"
+msgstr "Zainstaluj %s Pulpit Plazmy"
+
+#: steps_gtk.pm:254
+#, c-format
+msgid "Install %s GNOME Desktop"
+msgstr "Zainstaluj środowisko graficzne %s GNOME"
+
+#: steps_gtk.pm:255
+#, c-format
+msgid "Custom install"
+msgstr "Instalacja dowolna"
+
+#: steps_gtk.pm:276
+#, c-format
+msgid "Plasma Desktop"
+msgstr "Pulpit Plasma"
+
+#: steps_gtk.pm:277
+#, c-format
+msgid "GNOME Desktop"
+msgstr "Pulpit GNOME"
+
+#: steps_gtk.pm:278
+#, c-format
+msgid "Custom Desktop"
+msgstr "Dowolny pulpit"
+
+#: steps_gtk.pm:284
+#, c-format
+msgid "Here's a preview of the '%s' desktop."
+msgstr "Przegląd pulpitu '%s'."
+
+#: steps_gtk.pm:311
+#, c-format
+msgid "Click on images in order to see a bigger preview"
+msgstr "Kliknij obrazek, aby zobaczyć większy podgląd"
+
+#: steps_gtk.pm:327 steps_interactive.pm:605 steps_list.pm:30
+#, c-format
+msgid "Package Group Selection"
+msgstr "Wybór grup pakietów"
+
+#: steps_gtk.pm:350 steps_interactive.pm:622
+#, c-format
+msgid "Individual package selection"
+msgstr "Samodzielny wybór pakietów"
+
+#: steps_gtk.pm:357
+#, c-format
+msgid "Unselect All"
+msgstr "Odznacz wszystko"
+
+#: steps_gtk.pm:376 steps_interactive.pm:534
+#, c-format
+msgid "Total size: %d / %d MB"
+msgstr "Rozmiar: %d / %d MB"
+
+#: steps_gtk.pm:421
+#, c-format
+msgid "Version: "
+msgstr "Wersja: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "Size: "
+msgstr "Rozmiar: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "%d KB\n"
+msgstr "%d KB\n"
+
+#: steps_gtk.pm:423
+#, c-format
+msgid "Importance: "
+msgstr "Ważność: "
+
+#: steps_gtk.pm:458
+#, c-format
+msgid "You cannot select/unselect this package"
+msgstr "Nie można zmienić statusu tego pakietu"
+
+#: steps_gtk.pm:462
+#, c-format
+msgid "due to missing %s"
+msgstr "z powodu brakującego %s"
+
+#: steps_gtk.pm:463
+#, c-format
+msgid "due to unsatisfied %s"
+msgstr "na skutek niespełnienia %s"
+
+#: steps_gtk.pm:464
+#, c-format
+msgid "trying to promote %s"
+msgstr "próba aktualizacji wersji %s"
+
+#: steps_gtk.pm:465
+#, c-format
+msgid "in order to keep %s"
+msgstr "w celu utrzymania %s"
+
+#: steps_gtk.pm:470
+#, c-format
+msgid ""
+"You cannot select this package as there is not enough space left to install "
+"it"
+msgstr "Nie możesz wybrać tego pakietu. Nie ma już miejsca, by go zainstalować"
+
+#: steps_gtk.pm:473
+#, c-format
+msgid "The following packages are going to be installed"
+msgstr "Zostaną zainstalowane następujące pakiety"
+
+#: steps_gtk.pm:474
+#, c-format
+msgid "The following packages are going to be removed"
+msgstr "Zostaną usunięte następujące pakiety"
+
+#: steps_gtk.pm:500
+#, c-format
+msgid "This is a mandatory package, it cannot be unselected"
+msgstr "Ten pakiet jest wymagany, nie można go pominąć"
+
+#: steps_gtk.pm:502
+#, c-format
+msgid "You cannot unselect this package. It is already installed"
+msgstr "Nie można odznaczyć tego pakietu. Został już zainstalowany"
+
+#: steps_gtk.pm:504
+#, c-format
+msgid "You cannot unselect this package. It must be upgraded"
+msgstr "Nie można odznaczyć tego pakietu. Musi zostać zaktualizowany"
+
+#: steps_gtk.pm:508
+#, c-format
+msgid "Show automatically selected packages"
+msgstr "Pokaż automatycznie wybrane pakiety"
+
+#: steps_gtk.pm:512
+#, c-format
+msgid "Install"
+msgstr "Zainstaluj"
+
+#: steps_gtk.pm:515
+#, c-format
+msgid "Load/Save selection"
+msgstr "Wczytanie/Zapis zaznaczenia"
+
+#: steps_gtk.pm:516
+#, c-format
+msgid "Updating package selection"
+msgstr "Uaktualnianie listy wybranych pakietów"
+
+#: steps_gtk.pm:521
+#, c-format
+msgid "Minimal install"
+msgstr "Minimalna instalacja"
+
+#: steps_gtk.pm:534
+#, c-format
+msgid "Software Management"
+msgstr "Zarządzanie oprogramowaniem"
+
+#: steps_gtk.pm:534 steps_interactive.pm:415
+#, c-format
+msgid "Choose the packages you want to install"
+msgstr "Wybierz pakiety do zainstalowania"
+
+#: steps_gtk.pm:551 steps_interactive.pm:642 steps_list.pm:32
+#, c-format
+msgid "Installing"
+msgstr "Instalowanie"
+
+#: steps_gtk.pm:581
+#, c-format
+msgid "No details"
+msgstr "Bez szczegółów"
+
+#: steps_gtk.pm:600
+#, c-format
+msgid "Time remaining:"
+msgstr "Pozostały czas:"
+
+#: steps_gtk.pm:601
+#, c-format
+msgid "(estimating...)"
+msgstr "(szacowanie...)"
+
+#: steps_gtk.pm:627
+#, c-format
+msgid "%d package"
+msgid_plural "%d packages"
+msgstr[0] "pakiet"
+msgstr[1] "%d pakietów"
+msgstr[2] "%d pakietów"
+msgstr[3] "%d pakietów"
+
+#: steps_gtk.pm:684 steps_interactive.pm:834 steps_list.pm:43
+#, c-format
+msgid "Summary"
+msgstr "Różne"
+
+#: steps_gtk.pm:703
+#, c-format
+msgid "Configure"
+msgstr "Konfiguruj"
+
+#: steps_gtk.pm:720 steps_interactive.pm:830 steps_interactive.pm:986
+#, c-format
+msgid "not configured"
+msgstr "nie skonfigurowano"
+
+#: steps_gtk.pm:763 steps_interactive.pm:315
+#, c-format
+msgid ""
+"The following installation media have been found.\n"
+"If you want to skip some of them, you can unselect them now."
+msgstr ""
+"Znaleziono poniższe nośniki instalacyjne.\n"
+"Jeśli chcesz pominąć któreś z nich, możesz je teraz odznaczyć."
+
+#: steps_gtk.pm:779 steps_interactive.pm:321
+#, c-format
+msgid ""
+"You have the option to copy the contents of the CDs onto the hard disk drive "
+"before installation.\n"
+"It will then continue from the hard disk drive and the packages will remain "
+"available once the system is fully installed."
+msgstr ""
+"Istnieje możliwość skopiowania przed instalacją zawartości płyt CD na dysk "
+"twardy.\n"
+"Instalacja będzie kontynuowana z dysku twardego a skopiowane pakiety będą "
+"dostępne po zakończeniu instalacji."
+
+#: steps_gtk.pm:781 steps_interactive.pm:323
+#, c-format
+msgid "Copy whole CDs"
+msgstr "Skopiuj wszystkie płyty CD"
+
+#: steps_interactive.pm:40
+#, c-format
+msgid "An error occurred"
+msgstr "Wystąpił błąd"
+
+#: steps_interactive.pm:105
+#, c-format
+msgid "Please choose your keyboard layout"
+msgstr "Wybierz układ klawiatury"
+
+#: steps_interactive.pm:109
+#, c-format
+msgid "Here is the full list of available keyboards:"
+msgstr "Oto pełna lista dostępnych klawiatur:"
+
+#: steps_interactive.pm:153
+#, c-format
+msgid "Install/Upgrade"
+msgstr "Instalacja/Uaktualnienie"
+
+#: steps_interactive.pm:157
+#, c-format
+msgid "Is this an install or an upgrade?"
+msgstr "Czy to instalacja czy uaktualnienie?"
+
+#: steps_interactive.pm:159
+#, c-format
+msgid ""
+"_: This is a noun:\n"
+"Install"
+msgstr "Zainstaluj"
+
+#: steps_interactive.pm:161
+#, c-format
+msgid "Upgrade %s"
+msgstr "Uaktualnienie %s"
+
+#: steps_interactive.pm:184
+#, c-format
+msgid "Encryption key for %s"
+msgstr "Klucz szyfrujący dla %s"
+
+#: steps_interactive.pm:217
+#, c-format
+msgid "Cancel installation, reboot system"
+msgstr "Anuluj instalację, uruchom komputer ponownie"
+
+#: steps_interactive.pm:218
+#, c-format
+msgid "New Installation"
+msgstr "Nowa instalacja"
+
+#: steps_interactive.pm:219
+#, c-format
+msgid "Upgrade previous installation (not recommended)"
+msgstr "Zaktualizuj istniejącą instalację (nie zalecane)"
+
+#: steps_interactive.pm:223
+#, c-format
+msgid ""
+"Installer has detected that your installed Linux system could not\n"
+"safely be upgraded to %s.\n"
+"\n"
+"New installation replacing your previous one is recommended.\n"
+"\n"
+"Warning : you should backup all your personal data before choosing \"New\n"
+"Installation\"."
+msgstr ""
+"Instalator wykrył, że obecna instalacja systemu Mageia nie może\n"
+"zostać bezpiecznie zaktualizowana do wersji %s.\n"
+"\n"
+"Zalecana jest nowa instalacja, która zastąpi poprzednią.\n"
+"\n"
+"Uwaga: wykonaj kopie wszystkich osobistych plików zanim wybierzesz\n"
+"opcję \"Nowa instalacja\"."
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "Configuring CD/DVD"
+msgstr "Konfiguracja CD/DVD"
+
+#: steps_interactive.pm:354
+#, c-format
+msgid ""
+"Change your Cd-Rom!\n"
+"Please insert the Cd-Rom labelled \"%s\" in your drive and press Ok when "
+"done.\n"
+"If you do not have it, press Cancel to avoid installation from this Cd-Rom."
+msgstr ""
+"Zmień płytę CD!\n"
+"\n"
+"Włóż płytę \"%s\" do napędu i naciśnij Ok. Jeśli jej nie posiadasz, naciśnij "
+"Anuluj, aby pominąć instalację pakietów z tej płyty."
+
+#: steps_interactive.pm:372
+#, c-format
+msgid "Looking for available packages..."
+msgstr "Wyszukiwanie dostępnych pakietów..."
+
+#: steps_interactive.pm:380
+#, c-format
+msgid ""
+"Your system does not have enough space left for installation or upgrade "
+"(%dMB > %dMB)"
+msgstr ""
+"Za mało miejsca na dysku dla przeprowadzenia instalacji lub aktualizacji  "
+"(%dMB > %dMB)"
+
+#: steps_interactive.pm:428
+#, c-format
+msgid ""
+"Please choose load or save package selection.\n"
+"The format is the same as auto_install generated files."
+msgstr ""
+"Wybierz odczyt lub zapis listy wybranych pakietów.\n"
+"Format jest identyczny z dyskiem automatycznej\n"
+"instalacji."
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Load"
+msgstr "Wczytaj"
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Save"
+msgstr "Zapisz"
+
+#: steps_interactive.pm:438
+#, c-format
+msgid "Bad file"
+msgstr "Nieprawidłowy plik"
+
+#: steps_interactive.pm:455
+#, c-format
+msgid "Plasma"
+msgstr "Plazma"
+
+#: steps_interactive.pm:456
+#, c-format
+msgid "GNOME"
+msgstr "GNOME"
+
+#: steps_interactive.pm:459
+#, c-format
+msgid "Desktop Selection"
+msgstr "Wybór pulpitu"
+
+#: steps_interactive.pm:460
+#, c-format
+msgid "You can choose your workstation desktop profile."
+msgstr "Możesz wybrać profil swojego pulpitu: "
+
+#: steps_interactive.pm:548
+#, c-format
+msgid "Selected size is larger than available space"
+msgstr "Wybrany rozmiar przekracza dostępne miejsce"
+
+#: steps_interactive.pm:572
+#, c-format
+msgid "Type of install"
+msgstr "Typ instalacji"
+
+#: steps_interactive.pm:573
+#, c-format
+msgid ""
+"You have not selected any group of packages.\n"
+"Please choose the minimal installation you want:"
+msgstr ""
+"Nie wybrano żadnej grupy pakietów.\n"
+"Wybierz minimalną żądaną instalację:"
+
+#: steps_interactive.pm:578
+#, c-format
+msgid "With X"
+msgstr "Z X Window"
+
+#: steps_interactive.pm:579
+#, c-format
+msgid "Install recommended packages"
+msgstr "Zainstaluj sugerowane pakiety"
+
+#: steps_interactive.pm:580
+#, c-format
+msgid "With basic documentation (recommended!)"
+msgstr "Z podstawową dokumentacją (zalecane!)"
+
+#: steps_interactive.pm:581
+#, c-format
+msgid "Truly minimal install (especially no urpmi)"
+msgstr "Naprawdę minimalna instalacja (w szczególności bez urpmi)"
+
+#: steps_interactive.pm:633
+#, c-format
+msgid "Preparing upgrade..."
+msgstr "Przygotowywanie aktualizacji..."
+
+#: steps_interactive.pm:643
+#, c-format
+msgid "Preparing installation"
+msgstr "Przygotowywanie instalacji"
+
+#: steps_interactive.pm:651
+#, c-format
+msgid "Installing package %s"
+msgstr "Instalowanie pakietu %s"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "There was an error ordering packages:"
+msgstr "Wystąpił błąd porządkowania pakietów:"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "Go on anyway?"
+msgstr "Kontynuować?"
+
+#: steps_interactive.pm:679
+#, c-format
+msgid "Retry"
+msgstr "Ponów próbę"
+
+#: steps_interactive.pm:680
+#, c-format
+msgid "Skip this package"
+msgstr "Pomiń ten pakiet"
+
+#: steps_interactive.pm:681
+#, c-format
+msgid "Skip all packages from medium \"%s\""
+msgstr "Pomiń wszystkie pakiety z nośnika \"%s\""
+
+#: steps_interactive.pm:682
+#, c-format
+msgid "Go back to media and packages selection"
+msgstr "Wróć do wyboru nośników i pakietów"
+
+#: steps_interactive.pm:685
+#, c-format
+msgid "There was an error installing package %s."
+msgstr "Wystąpił błąd podczas instalowania pakietu %s."
+
+#: steps_interactive.pm:704
+#, c-format
+msgid "Post-install configuration"
+msgstr "Konfiguracja poinstalacyjna"
+
+#: steps_interactive.pm:711
+#, c-format
+msgid "Please ensure the Update Modules media is in drive %s"
+msgstr "Upewnij się, że nośnik Update Modules znajduje się w napędzie %s"
+
+#: steps_interactive.pm:739 steps_interactive.pm:769 steps_list.pm:47
+#, c-format
+msgid "Updates"
+msgstr "Aktualizacje"
+
+#: steps_interactive.pm:740
+#, c-format
+msgid "You now have the opportunity to setup online media."
+msgstr "Teraz masz okazję zainstalować media online."
+
+#: steps_interactive.pm:741
+#, c-format
+msgid "This allows to install security updates."
+msgstr "To pozwala zainstalować aktualizacje bezpieczeństwa."
+
+#: steps_interactive.pm:742
+#, c-format
+msgid ""
+"To setup those media, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to setup the update media?"
+msgstr ""
+"By zainstalować te media, potrzebujesz sprawnego połączenia \n"
+"internetowego.\n"
+"Czy chcesz zainstalować aktualizację tych mediów?"
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Niepowodzenie podczas dodawania nośnika"
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Retry?"
+msgstr "Ponowić próbę?"
+
+#: steps_interactive.pm:770
+#, c-format
+msgid ""
+"You now have the opportunity to download updated packages. These packages\n"
+"have been updated after the distribution was released. They may\n"
+"contain security or bug fixes.\n"
+"\n"
+"To download these packages, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to install the updates?"
+msgstr ""
+"Masz teraz możliwość pobrania zaktualizowanych pakietów, które\n"
+"zostały wydane po udostępnieniu dystrybucji. Mogą zawierać one poprawki\n"
+"poprawiające poziom bezpieczeństwa lub naprawiające błędy.\n"
+"\n"
+"Aby pobrać te pakiety, wymagane jest połączenie internetowe.\n"
+"\n"
+"Czy chcesz zainstalować uaktualnienia ?"
+
+#. -PO: example: lilo-graphic on /dev/hda1
+#: steps_interactive.pm:878
+#, c-format
+msgid "%s on %s"
+msgstr "%s na %s"
+
+#: steps_interactive.pm:913 steps_interactive.pm:920 steps_interactive.pm:933
+#: steps_interactive.pm:950 steps_interactive.pm:965
+#, c-format
+msgid "Hardware"
+msgstr "Sprzęt"
+
+#: steps_interactive.pm:934 steps_interactive.pm:951
+#, c-format
+msgid "Sound card"
+msgstr "Karta dźwiękowa"
+
+#: steps_interactive.pm:948
+#, c-format
+msgid "Graphical interface"
+msgstr "Interfejs graficzny"
+
+#: steps_interactive.pm:972 steps_interactive.pm:984
+#, c-format
+msgid "Network & Internet"
+msgstr "Sieć i Internet"
+
+#: steps_interactive.pm:985
+#, c-format
+msgid "Proxies"
+msgstr "Serwery pośredniczące"
+
+#: steps_interactive.pm:986
+#, c-format
+msgid "configured"
+msgstr "skonfigurowano"
+
+#: steps_interactive.pm:996
+#, c-format
+msgid "Security Level"
+msgstr "Poziom bezpieczeństwa"
+
+#: steps_interactive.pm:1016
+#, c-format
+msgid "Firewall"
+msgstr "Zapora sieciowa"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "activated"
+msgstr "aktywowano"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "disabled"
+msgstr "wyłączono"
+
+#: steps_interactive.pm:1034
+#, c-format
+msgid "You have not configured X. Are you sure you really want this?"
+msgstr "Nie masz skonfigurowanego systemu X Window. Czy na pewno chcesz tego?"
+
+#. -PO: This is NOT the boot loader (just the kernel initrds)!!!!
+#: steps_interactive.pm:1065
+#, c-format
+msgid "Preparing initial startup program..."
+msgstr "Przygotowywanie programu rozruchowego..."
+
+#: steps_interactive.pm:1066
+#, c-format
+msgid "Be patient, this may take a while..."
+msgstr "Proszę o cierpliwość, to może potrwać chwilę..."
+
+#: steps_interactive.pm:1082
+#, c-format
+msgid ""
+"In this security level, access to the files in the Windows partition is "
+"restricted to the administrator."
+msgstr ""
+"W tym poziomie zabezpieczeń, dostęp do plików na partycji Windows jest "
+"ograniczony do administratora."
+
+#: steps_interactive.pm:1114
+#, c-format
+msgid "Insert a blank floppy in drive %s"
+msgstr "Włóż pustą dyskietkę do stacji %s"
+
+#: steps_interactive.pm:1116
+#, c-format
+msgid "Creating auto install floppy..."
+msgstr "Tworzenie dyskietki automatycznej instalacji..."
+
+#: steps_interactive.pm:1127
+#, c-format
+msgid ""
+"Some steps are not completed.\n"
+"\n"
+"Do you really want to quit now?"
+msgstr ""
+"Pewne etapy instalacji nie zostały zakończone\n"
+"\n"
+"Czy na pewno chcesz teraz zakończyć?"
+
+#: steps_interactive.pm:1137
+#, c-format
+msgid "Congratulations"
+msgstr "Gratulacje"
+
+#: steps_interactive.pm:1140
+#, c-format
+msgid "Reboot"
+msgstr "Uruchom ponownie"
+
+#. -PO: please keep the following messages very short: they must fit in the left list of the installer!!!
+#: steps_list.pm:16
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Language"
+msgstr "Wybór języka"
+
+#: steps_list.pm:16 steps_list.pm:23
+#, c-format
+msgid "Localization"
+msgstr "Lokalizacja"
+
+#: steps_list.pm:17
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"License"
+msgstr "Licencja"
+
+#: steps_list.pm:18
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Mouse"
+msgstr "Mysz"
+
+#: steps_list.pm:19 steps_list.pm:20
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Hard drive detection"
+msgstr "Wykrywanie dysków"
+
+#: steps_list.pm:21 steps_list.pm:22
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installation class"
+msgstr "Rodzaj instalacji"
+
+#: steps_list.pm:23
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Keyboard"
+msgstr "Klawiatura"
+
+#: steps_list.pm:24
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Security"
+msgstr "Bezpieczeństwo"
+
+#: steps_list.pm:25
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Partitioning"
+msgstr "Partycjonowanie"
+
+#: steps_list.pm:27 steps_list.pm:28
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Formatting"
+msgstr "Formatowanie"
+
+#: steps_list.pm:29
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Choosing packages"
+msgstr "Wybór pakietów"
+
+#: steps_list.pm:31
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installing"
+msgstr "Instalowanie"
+
+#: steps_list.pm:34
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Users"
+msgstr "Użytkownicy"
+
+#: steps_list.pm:38 steps_list.pm:39
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Bootloader"
+msgstr "Program rozruchowy"
+
+#: steps_list.pm:40 steps_list.pm:41
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Configure X"
+msgstr "Konfiguracja X"
+
+#: steps_list.pm:42
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Summary"
+msgstr "Różne"
+
+#: steps_list.pm:44 steps_list.pm:45
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Services"
+msgstr "Usługi"
+
+#: steps_list.pm:46
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Updates"
+msgstr "Aktualizacje"
+
+#: steps_list.pm:48
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Exit"
+msgstr "Wyjdź"

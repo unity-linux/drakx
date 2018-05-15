@@ -1,0 +1,1674 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# धनञ्जय शर्मा (Dhananjaya Sharma) <dysxhi@yahoo.co.in>, 2003-2004
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-22 02:36+0200\n"
+"PO-Revision-Date: 2015-05-21 04:07+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Hindi (http://www.transifex.com/projects/p/mageia/language/"
+"hi/)\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../advertising/01_IM_mageia.pl:1
+#, c-format
+msgid "Join Us!"
+msgstr ""
+
+#: ../../advertising/02_IM_mageia.pl:1
+#, c-format
+msgid "Make it yours!"
+msgstr ""
+
+#: ../../advertising/03_IM_mageia.pl:1
+#, c-format
+msgid "Your choice!"
+msgstr ""
+
+#: ../../advertising/04_IM_mageia.pl:1
+#, c-format
+msgid "Office tools"
+msgstr ""
+
+#: ../../advertising/05_IM_mageia.pl:1
+#, c-format
+msgid "Home entertainment"
+msgstr ""
+
+#: ../../advertising/06_IM_mageia.pl:1
+#, c-format
+msgid "For kids"
+msgstr ""
+
+#: ../../advertising/07_IM_mageia.pl:1
+#, c-format
+msgid "For family!"
+msgstr ""
+
+#: ../../advertising/08_IM_mageia.pl:1
+#, c-format
+msgid "For developers!"
+msgstr ""
+
+#: ../../advertising/09_IM_mageia.pl:1
+#, c-format
+msgid "Thank you!"
+msgstr ""
+
+#: ../../advertising/10_IM_mageia.pl:1
+#, c-format
+msgid "Be Free!"
+msgstr ""
+
+#: any.pm:151
+#, c-format
+msgid "Do you have further supplementary media?"
+msgstr ""
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:154
+#, c-format
+msgid ""
+"The following media have been found and will be used during install: %s.\n"
+"\n"
+"\n"
+"Do you have a supplementary installation medium to configure?"
+msgstr ""
+
+#: any.pm:162
+#, c-format
+msgid "Network (HTTP)"
+msgstr ""
+
+#: any.pm:163
+#, c-format
+msgid "Network (FTP)"
+msgstr ""
+
+#: any.pm:164
+#, c-format
+msgid "Network (NFS)"
+msgstr ""
+
+#: any.pm:223
+#, c-format
+msgid "URL of the mirror?"
+msgstr ""
+
+#: any.pm:229
+#, c-format
+msgid "URL must start with ftp:// or http://"
+msgstr ""
+
+#: any.pm:247
+#, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
+msgstr ""
+
+#: any.pm:252
+#, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
+msgstr ""
+
+#: any.pm:262
+#, c-format
+msgid "Choose a mirror from which to get the packages"
+msgstr "एक मिरर का चयन करें जहाँ से पैकेजों को प्राप्त करना है"
+
+#: any.pm:290
+#, c-format
+msgid "NFS setup"
+msgstr ""
+
+#: any.pm:291
+#, c-format
+msgid "Please enter the hostname and directory of your NFS media"
+msgstr ""
+
+#: any.pm:295
+#, c-format
+msgid "Hostname missing"
+msgstr ""
+
+#: any.pm:296
+#, c-format
+msgid "Directory must begin with \"/\""
+msgstr ""
+
+#: any.pm:300
+#, c-format
+msgid "Hostname of the NFS mount ?"
+msgstr ""
+
+#: any.pm:301
+#, c-format
+msgid "Directory"
+msgstr "डिरेक्ट्री"
+
+#: any.pm:331
+#, c-format
+msgid "Supplementary"
+msgstr ""
+
+#: any.pm:366
+#, c-format
+msgid ""
+"Can't find a package list file on this mirror. Make sure the location is "
+"correct."
+msgstr ""
+
+#: any.pm:391
+#, c-format
+msgid "Core Release"
+msgstr ""
+
+#: any.pm:393
+#, c-format
+msgid "Tainted Release"
+msgstr ""
+
+#: any.pm:395
+#, c-format
+msgid "Nonfree Release"
+msgstr ""
+
+#: any.pm:433
+#, c-format
+msgid ""
+"Some hardware on your machine needs some non free firmwares in order for the "
+"free software drivers to work."
+msgstr ""
+
+#: any.pm:434
+#, c-format
+msgid "You should enable \"%s\""
+msgstr ""
+
+#: any.pm:472
+#, c-format
+msgid "\"%s\" contains the various pieces of the systems and its applications"
+msgstr ""
+
+#: any.pm:473
+#, c-format
+msgid "\"%s\" contains non free software.\n"
+msgstr ""
+
+#: any.pm:474
+#, c-format
+msgid ""
+"It also contains firmwares needed for certain devices to operate (eg: some "
+"ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
+msgstr ""
+
+#: any.pm:475
+#, c-format
+msgid ""
+"\"%s\" contains software that can not be distributed in every country due to "
+"software patents."
+msgstr ""
+
+#: any.pm:476
+#, c-format
+msgid ""
+"It also contains software from \"%s\" rebuild with additional capabilities."
+msgstr ""
+
+#: any.pm:482
+#, c-format
+msgid "Here you can enable more media if you want."
+msgstr ""
+
+#: any.pm:499
+#, c-format
+msgid "This medium provides package updates for medium \"%s\""
+msgstr ""
+
+#: any.pm:597
+#, c-format
+msgid "Looking at packages already installed..."
+msgstr "पहिले से संसाधित पैकेजों को देखा जा रहा है..."
+
+#: any.pm:631
+#, c-format
+msgid "Finding packages to upgrade..."
+msgstr "उन्नयन के लिये पैकेजों को खोजा जा रहा है..."
+
+#: any.pm:650
+#, c-format
+msgid "Removing packages prior to upgrade..."
+msgstr ""
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:881
+#, c-format
+msgid ""
+"The following packages will be removed to allow upgrading your system: %s\n"
+"\n"
+"\n"
+"Do you really want to remove these packages?\n"
+msgstr ""
+"आपके तंत्र को अपग्रेड करने के लिए निम्नलिखित पैकेजों को हटाना होगा: %s\n"
+"\n"
+"\n"
+"क्या वास्तव में इन पैकेजों को हटाना चाहते है?\n"
+
+#: any.pm:1096
+#, c-format
+msgid "Error reading file %s"
+msgstr "%s संचिका को पढ़ने में त्रुटि"
+
+#: any.pm:1304
+#, c-format
+msgid "The following disk(s) were renamed:"
+msgstr ""
+
+#: any.pm:1306
+#, c-format
+msgid "%s (previously named as %s)"
+msgstr ""
+
+#: any.pm:1363
+#, c-format
+msgid "HTTP"
+msgstr "एचटीटीपी"
+
+#: any.pm:1363
+#, c-format
+msgid "FTP"
+msgstr "एफटीपी"
+
+#: any.pm:1363
+#, c-format
+msgid "NFS"
+msgstr "एनएफ़एस"
+
+#: any.pm:1382 steps_interactive.pm:973
+#, c-format
+msgid "Network"
+msgstr "नेटवर्क"
+
+#: any.pm:1386
+#, c-format
+msgid "Please choose a media"
+msgstr ""
+
+#: any.pm:1402
+#, c-format
+msgid "File already exists. Overwrite it?"
+msgstr ""
+
+#: any.pm:1406
+#, c-format
+msgid "Permission denied"
+msgstr "अनुमति नहीं है"
+
+#: any.pm:1454
+#, c-format
+msgid "Bad NFS name"
+msgstr ""
+
+#: any.pm:1475
+#, c-format
+msgid "Bad media %s"
+msgstr ""
+
+#: any.pm:1519
+#, c-format
+msgid "Cannot make screenshots before partitioning"
+msgstr "विभाजनीकरण के पूर्व स्क्रीन-चित्र-माला को नहीं लिया जा सकता है"
+
+#: any.pm:1530
+#, c-format
+msgid "Screenshots will be available after install in %s"
+msgstr "%s में संसाधन के उपरान्त स्क्रीन चित्र-माला उपलब्ध होगी"
+
+#: gtk.pm:135
+#, c-format
+msgid "Installation"
+msgstr ""
+
+#: gtk.pm:139 share/meta-task/compssUsers.pl:48
+#, c-format
+msgid "Configuration"
+msgstr "संरचना"
+
+#: install2.pm:211
+#, c-format
+msgid "You must also format %s"
+msgstr "आपको %s को भी एकसार करना चाहिए"
+
+#: interactive.pm:16
+#, c-format
+msgid ""
+"Some hardware on your computer needs ``proprietary'' drivers to work.\n"
+"You can find some information about them at: %s"
+msgstr ""
+"आपके कम्प्यूटर पर स्थित कुछ हार्डवेयरों कार्य करने के लिए ``स्वामिक'' चालकों की आवश्यकता है "
+"।\n"
+"आप इनके बारे में कुछ सूचना उपरोक्त पर पा सकते है: %s"
+
+#: interactive.pm:22
+#, c-format
+msgid "Bringing up the network"
+msgstr "नेटवर्क को लाया जा रहा है"
+
+#: interactive.pm:27
+#, c-format
+msgid "Bringing down the network"
+msgstr "नेटवर्क को लाया जा रहा है"
+
+#: media.pm:407
+#, c-format
+msgid "Please wait, retrieving file"
+msgstr ""
+
+#: media.pm:714
+#, c-format
+msgid "unable to add medium"
+msgstr ""
+
+#: media.pm:754
+#, c-format
+msgid "Copying some packages on disks for future use"
+msgstr ""
+
+#: media.pm:807
+#, c-format
+msgid "Copying in progress"
+msgstr ""
+
+#: pkgs.pm:32
+#, c-format
+msgid "must have"
+msgstr "होना चाहिए"
+
+#: pkgs.pm:33
+#, c-format
+msgid "important"
+msgstr "महत्वपूर्ण"
+
+#: pkgs.pm:34
+#, c-format
+msgid "very nice"
+msgstr "बहुत अच्छा"
+
+#: pkgs.pm:35
+#, c-format
+msgid "nice"
+msgstr "बहुत अच्छा"
+
+#: pkgs.pm:36
+#, c-format
+msgid "maybe"
+msgstr "हो सकता है"
+
+#: pkgs.pm:102
+#, c-format
+msgid "Getting package information from XML meta-data..."
+msgstr ""
+
+#: pkgs.pm:111
+#, c-format
+msgid "No xml info for medium \"%s\", only partial result for package %s"
+msgstr ""
+
+#: pkgs.pm:119
+#, c-format
+msgid "No description"
+msgstr "कोई वर्णन नहीं"
+
+#: pkgs.pm:288
+#, c-format
+msgid ""
+"Some packages requested by %s cannot be installed:\n"
+"%s"
+msgstr ""
+
+#: pkgs.pm:384 pkgs.pm:411
+#, c-format
+msgid "An error occurred:"
+msgstr "एक त्रुटि हो गयी है"
+
+#: pkgs.pm:403
+#, c-format
+msgid "A fatal error occurred: %s."
+msgstr "एक घातक त्रुटि घटित हुई है: %s "
+
+#: pkgs.pm:897 pkgs.pm:939
+#, c-format
+msgid "Do not ask again"
+msgstr ""
+
+#: pkgs.pm:913
+#, c-format
+msgid "%d installation transactions failed"
+msgstr "%d संसाधन क्रिया-कलाप असफ़ल"
+
+#: pkgs.pm:914
+#, c-format
+msgid "Installation of packages failed:"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:16
+#, c-format
+msgid "Workstation"
+msgstr "कार्यकेंद्र"
+
+#: share/meta-task/compssUsers.pl:18
+#, c-format
+msgid "Office Workstation"
+msgstr "ऑफ़िस कार्यकेन्द्र"
+
+#: share/meta-task/compssUsers.pl:20
+#, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:26
+#, c-format
+msgid "Game station"
+msgstr "खेल स्टेशन"
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc"
+msgstr "मनोरंजक कार्यक्रम: आरकेड, बोर्ड, व्यूह-रचना, इत्यादि "
+
+#: share/meta-task/compssUsers.pl:30
+#, c-format
+msgid "Multimedia station"
+msgstr "मल्टीमीडीया केन्द्र"
+
+#: share/meta-task/compssUsers.pl:31
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr "ध्वनि और वीडीयो के खेलने वाले/संपादन करने वाले कार्यक्रम"
+
+#: share/meta-task/compssUsers.pl:36
+#, c-format
+msgid "Internet station"
+msgstr "इन्टरनेट केन्द्र"
+
+#: share/meta-task/compssUsers.pl:37
+#, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr ""
+"विपत्र और समाचारों को पढ़ने और भेजने के लिए  (मट, टिन...) और वेब को ब्राउज़ करने के लिए "
+"औज़ारों का समूह"
+
+#: share/meta-task/compssUsers.pl:42
+#, c-format
+msgid "Network Computer (client)"
+msgstr "नेटवर्क कम्प्यूटर (ग्राहक)"
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr "एस०एस०एच० को शामिल करते हुए विभिन्न प्रोटोकॉलों के लिए ग्राहक"
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr "आपके कम्प्यूटर की संरचना कार्य को सहज बनाने हेतु अनेक औजार"
+
+#: share/meta-task/compssUsers.pl:53
+#, c-format
+msgid "Console Tools"
+msgstr "कन्सोल के औज़ार"
+
+#: share/meta-task/compssUsers.pl:54
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr "अनेकों संपादक, कोश, संचिका औजार, टर्मिनल"
+
+#: share/meta-task/compssUsers.pl:58 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "विकास"
+
+#: share/meta-task/compssUsers.pl:59 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr "सी और सी++ विकास लेखागार, कार्यक्रम और इन्क्लूड संचिकायें"
+
+#: share/meta-task/compssUsers.pl:63 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "प्रलेखन"
+
+#: share/meta-task/compssUsers.pl:64 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr "लिनक्स और मुक्त सॉफ़्टवेयर पर किताबें और कैसे-करेंअस्तकें"
+
+#: share/meta-task/compssUsers.pl:68 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "एल०एस०बी०"
+
+#: share/meta-task/compssUsers.pl:69 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr "लिनक्स मानकीकरण आधार ! त्रितीय पक्ष कार्यक्रमों को समर्थन"
+
+#: share/meta-task/compssUsers.pl:79
+#, c-format
+msgid "Web Server"
+msgstr "वेब सर्वर"
+
+#: share/meta-task/compssUsers.pl:80
+#, c-format
+msgid "Apache"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:84
+#, c-format
+msgid "Groupware"
+msgstr "ग्रुपवेयर"
+
+#: share/meta-task/compssUsers.pl:85
+#, c-format
+msgid "Kolab Server"
+msgstr "कोलाब सर्वर"
+
+#: share/meta-task/compssUsers.pl:88 share/meta-task/compssUsers.pl:138
+#, c-format
+msgid "Firewall/Router"
+msgstr "अग्नि-भीतिका/रूटर"
+
+#: share/meta-task/compssUsers.pl:89 share/meta-task/compssUsers.pl:139
+#, c-format
+msgid "Internet gateway"
+msgstr "इन्टरनेट गेटवे"
+
+#: share/meta-task/compssUsers.pl:92
+#, c-format
+msgid "Mail/News"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:93
+#, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:97
+#, c-format
+msgid "Directory Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:102
+#, c-format
+msgid "FTP Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:103
+#, c-format
+msgid "ProFTPd"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:107
+#, c-format
+msgid "DNS/NIS"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:108
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:112
+#, c-format
+msgid "File and Printer Sharing Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:113
+#, c-format
+msgid "NFS Server, Samba server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:117 share/meta-task/compssUsers.pl:133
+#, c-format
+msgid "Database"
+msgstr "डाटाबेस"
+
+#: share/meta-task/compssUsers.pl:118
+#, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:123
+#, c-format
+msgid "Web/FTP"
+msgstr "वेब/एफ़०टी०पी०"
+
+#: share/meta-task/compssUsers.pl:124
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "आपाचे, प्रो-एफ़०टी०पी०डी०"
+
+#: share/meta-task/compssUsers.pl:128
+#, c-format
+msgid "Mail"
+msgstr "विपत्र"
+
+#: share/meta-task/compssUsers.pl:129
+#, c-format
+msgid "Postfix mail server"
+msgstr "पोस्टफ़िक्स विपत्र सर्वर"
+
+#: share/meta-task/compssUsers.pl:134
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "पोस्टग्रीसीक्यूअल या माईसीक्यूअल डाटाबेस सर्वर"
+
+#: share/meta-task/compssUsers.pl:142
+#, c-format
+msgid "Network Computer server"
+msgstr "नेटवर्क कम्प्यूटर सर्वर"
+
+#: share/meta-task/compssUsers.pl:143
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr "एन०एफ़०एस० सर्वर, एस०एम०बी० सर्वर, प्रोक्सी सर्वर, एस०एस०एच० सर्वर"
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Graphical Environment"
+msgstr "सचित्र वातावरण"
+
+#: share/meta-task/compssUsers.pl:152
+#, fuzzy, c-format
+msgid "Plasma Workstation"
+msgstr "कार्यकेंद्र"
+
+#: share/meta-task/compssUsers.pl:153
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr "के डेस्कटाप वातावरण, मूलभूत सचित्र वातावरणसंलग्न औजारों के एक समूह के साथ"
+
+#: share/meta-task/compssUsers.pl:158
+#, c-format
+msgid "GNOME Workstation"
+msgstr "गनोम कार्यकेन्द्र"
+
+#: share/meta-task/compssUsers.pl:159 share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr ""
+"एक सचित्र वातावरण, उपयोगकर्ता-मित्रवत कार्यक्रमों के समुच्चय और डेस्कटाप औजारों के साथ"
+
+#: share/meta-task/compssUsers.pl:164
+#, c-format
+msgid "XFCE Workstation"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:165
+#, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:169
+#, c-format
+msgid "MATE Workstation"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:174
+#, c-format
+msgid "Cinnamon Workstation"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:175
+#, c-format
+msgid "A graphical environment based on GNOME"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:179
+#, c-format
+msgid "LXQt Desktop"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:181
+#, c-format
+msgid "A next generation QT port of the lightweight desktop environment"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:184
+#, c-format
+msgid "Enlightenment e21 Desktop"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:186
+#, c-format
+msgid "A lightweight fast graphical environment with a dedicated following"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:189
+#, c-format
+msgid "LXDE Desktop"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:191
+#, c-format
+msgid "A lightweight fast graphical environment"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:194
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "अन्य सचित्र डेस्कटाप"
+
+#: share/meta-task/compssUsers.pl:195
+#, c-format
+msgid "Window Maker, Fvwm, etc"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr "यूटिलिटीज़"
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, c-format
+msgid "SSH Server"
+msgstr "एसएसएच सर्वर"
+
+#: share/meta-task/compssUsers.pl:225
+#, c-format
+msgid "Webmin"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:226
+#, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:230
+#, c-format
+msgid "Network Utilities/Monitoring"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:235
+#, c-format
+msgid "Mageia Wizards"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:236
+#, c-format
+msgid "Wizards to configure server"
+msgstr ""
+
+#: steps.pm:85
+#, c-format
+msgid ""
+"An error occurred, but I do not know how to handle it nicely.\n"
+"Continue at your own risk."
+msgstr ""
+"एक त्रुटि उत्पन्न हो गयी है, परन्तु मुझे ज्ञात नहीं है कि इसे भली-भांति किस प्रकार से ठीक "
+"किया जायें ।\n"
+"अपने जोखिम पर जारी रहें । "
+
+#: steps.pm:460
+#, c-format
+msgid ""
+"Some important packages did not get installed properly.\n"
+"Either your cdrom drive or your cdrom is defective.\n"
+"Check the cdrom on an installed computer using \"rpm -qpl media/main/*.rpm"
+"\"\n"
+msgstr ""
+"कुछ महत्वपूर्ण पैकेज भलीभांति संसाधित नहीं हो पायें । \n"
+"या तो आपकी सीडीरॉम-ड्राइव या फ़िर आपकी सीडीरॉम खराब है ।\n"
+"एक संसाधित कम्प्यूटर पर  \"rpm -qpl media/main/*.rpm\" निर्देश का उपयोग करके, "
+"सीडीरॉम की जाँच करें।\n"
+
+#: steps_auto_install.pm:71 steps_stdio.pm:27
+#, c-format
+msgid "Entering step `%s'\n"
+msgstr "`%s' चरण में प्रवेश \n"
+
+#: steps_curses.pm:22
+#, c-format
+msgid "%s Installation %s"
+msgstr ""
+
+#: steps_curses.pm:32
+#, c-format
+msgid "<Tab>/<Alt-Tab> between elements"
+msgstr "<Tab>/<Alt-Tab> इकाईयों के मध्य "
+
+#: steps_gtk.pm:147
+#, c-format
+msgid "Xorg server is slow to start. Please wait..."
+msgstr ""
+
+#: steps_gtk.pm:212
+#, c-format
+msgid ""
+"Your system is low on resources. You may have some problem installing\n"
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
+msgstr ""
+
+#: steps_gtk.pm:242 steps_gtk.pm:754
+#, c-format
+msgid "Media Selection"
+msgstr ""
+
+#: steps_gtk.pm:253
+#, c-format
+msgid "Install %s Plasma Desktop"
+msgstr ""
+
+#: steps_gtk.pm:254
+#, c-format
+msgid "Install %s GNOME Desktop"
+msgstr ""
+
+#: steps_gtk.pm:255
+#, c-format
+msgid "Custom install"
+msgstr ""
+
+#: steps_gtk.pm:276
+#, fuzzy, c-format
+msgid "Plasma Desktop"
+msgstr "कार्यकेंद्र"
+
+#: steps_gtk.pm:277
+#, c-format
+msgid "GNOME Desktop"
+msgstr ""
+
+#: steps_gtk.pm:278
+#, c-format
+msgid "Custom Desktop"
+msgstr ""
+
+#: steps_gtk.pm:284
+#, c-format
+msgid "Here's a preview of the '%s' desktop."
+msgstr ""
+
+#: steps_gtk.pm:311
+#, c-format
+msgid "Click on images in order to see a bigger preview"
+msgstr ""
+
+#: steps_gtk.pm:327 steps_interactive.pm:605 steps_list.pm:30
+#, c-format
+msgid "Package Group Selection"
+msgstr "पैकेज समूह चयन"
+
+#: steps_gtk.pm:350 steps_interactive.pm:622
+#, c-format
+msgid "Individual package selection"
+msgstr "अलग-अलग पैकेजों का चयन"
+
+#: steps_gtk.pm:357
+#, c-format
+msgid "Unselect All"
+msgstr "सभी को अचयनित करें"
+
+#: steps_gtk.pm:376 steps_interactive.pm:534
+#, c-format
+msgid "Total size: %d / %d MB"
+msgstr "कुल आकार: %d / %d एम०बी०"
+
+#: steps_gtk.pm:421
+#, c-format
+msgid "Version: "
+msgstr "संस्मरण: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "Size: "
+msgstr "आकार:"
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "%d KB\n"
+msgstr "%d केबी\n"
+
+#: steps_gtk.pm:423
+#, c-format
+msgid "Importance: "
+msgstr "महत्ता: "
+
+#: steps_gtk.pm:458
+#, c-format
+msgid "You cannot select/unselect this package"
+msgstr "आप इस पैकज को चयनित/अचयनित नहीं कर सकते है"
+
+#: steps_gtk.pm:462
+#, c-format
+msgid "due to missing %s"
+msgstr "%s विलुप्त होने के कारण"
+
+#: steps_gtk.pm:463
+#, c-format
+msgid "due to unsatisfied %s"
+msgstr "असन्तुष्ट %s के कारण"
+
+#: steps_gtk.pm:464
+#, c-format
+msgid "trying to promote %s"
+msgstr "%s को प्रोत्साहित करने का प्रयास"
+
+#: steps_gtk.pm:465
+#, c-format
+msgid "in order to keep %s"
+msgstr "%s को रखने के लिए"
+
+#: steps_gtk.pm:470
+#, c-format
+msgid ""
+"You cannot select this package as there is not enough space left to install "
+"it"
+msgstr "आप इस पैकज का चयन नहीं कर सकते है क्योंकि और अधिक स्थान संसाधन के लिए नहीं बचा है"
+
+#: steps_gtk.pm:473
+#, c-format
+msgid "The following packages are going to be installed"
+msgstr "निम्नलिखित पैकजों का संसाधन होने जा रहा है"
+
+#: steps_gtk.pm:474
+#, c-format
+msgid "The following packages are going to be removed"
+msgstr "निम्नलिखित पैकेजों को हटाया जाने वाला है"
+
+#: steps_gtk.pm:500
+#, c-format
+msgid "This is a mandatory package, it cannot be unselected"
+msgstr "यह एक अति आवश्यक पैकेज है, इसे अचयनित नहीं किया जा सकता है"
+
+#: steps_gtk.pm:502
+#, c-format
+msgid "You cannot unselect this package. It is already installed"
+msgstr "आप इस पैकेज को अचयनित नहीं कर सकते है । इसे पहिले से ही संसाधित किया जा चुका है"
+
+#: steps_gtk.pm:504
+#, c-format
+msgid "You cannot unselect this package. It must be upgraded"
+msgstr "इस पैकज को अचयनित नहीं करा जा सकता है । इसे उन्नयन किया जाना चाहिए"
+
+#: steps_gtk.pm:508
+#, c-format
+msgid "Show automatically selected packages"
+msgstr "स्वतः चयनित पैकेजों को दिखायें"
+
+#: steps_gtk.pm:512
+#, c-format
+msgid "Install"
+msgstr "संसाधन"
+
+#: steps_gtk.pm:515
+#, c-format
+msgid "Load/Save selection"
+msgstr ""
+
+#: steps_gtk.pm:516
+#, c-format
+msgid "Updating package selection"
+msgstr "चयनित पैकेजों का उन्नयन किया जा रहा है"
+
+#: steps_gtk.pm:521
+#, c-format
+msgid "Minimal install"
+msgstr "निम्नतम संसाधन"
+
+#: steps_gtk.pm:534
+#, c-format
+msgid "Software Management"
+msgstr "सॉफ़्टवेयर प्रबंधक"
+
+#: steps_gtk.pm:534 steps_interactive.pm:415
+#, c-format
+msgid "Choose the packages you want to install"
+msgstr "उन पैकेजों का चयन करें जिन्हें आप संसाधित करना चाहते है"
+
+#: steps_gtk.pm:551 steps_interactive.pm:642 steps_list.pm:32
+#, c-format
+msgid "Installing"
+msgstr "संसाधन हो रहा है"
+
+#: steps_gtk.pm:581
+#, c-format
+msgid "No details"
+msgstr "कोई विवरण नहीं"
+
+#: steps_gtk.pm:600
+#, c-format
+msgid "Time remaining:"
+msgstr ""
+
+#: steps_gtk.pm:601
+#, c-format
+msgid "(estimating...)"
+msgstr ""
+
+#: steps_gtk.pm:627
+#, c-format
+msgid "%d package"
+msgid_plural "%d packages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: steps_gtk.pm:684 steps_interactive.pm:834 steps_list.pm:43
+#, c-format
+msgid "Summary"
+msgstr "सारांश"
+
+#: steps_gtk.pm:703
+#, c-format
+msgid "Configure"
+msgstr "संरचना"
+
+#: steps_gtk.pm:720 steps_interactive.pm:830 steps_interactive.pm:986
+#, c-format
+msgid "not configured"
+msgstr "संरचित नहीं"
+
+#: steps_gtk.pm:763 steps_interactive.pm:315
+#, c-format
+msgid ""
+"The following installation media have been found.\n"
+"If you want to skip some of them, you can unselect them now."
+msgstr ""
+
+#: steps_gtk.pm:779 steps_interactive.pm:321
+#, c-format
+msgid ""
+"You have the option to copy the contents of the CDs onto the hard disk drive "
+"before installation.\n"
+"It will then continue from the hard disk drive and the packages will remain "
+"available once the system is fully installed."
+msgstr ""
+
+#: steps_gtk.pm:781 steps_interactive.pm:323
+#, c-format
+msgid "Copy whole CDs"
+msgstr ""
+
+#: steps_interactive.pm:40
+#, c-format
+msgid "An error occurred"
+msgstr "एक त्रुटि हो गयी है"
+
+#: steps_interactive.pm:105
+#, c-format
+msgid "Please choose your keyboard layout"
+msgstr "कृपया अपने की-बोर्ड खाका का चयन करें ।"
+
+#: steps_interactive.pm:109
+#, c-format
+msgid "Here is the full list of available keyboards:"
+msgstr ""
+
+#: steps_interactive.pm:153
+#, c-format
+msgid "Install/Upgrade"
+msgstr "संसाधन/उन्नयन"
+
+#: steps_interactive.pm:157
+#, c-format
+msgid "Is this an install or an upgrade?"
+msgstr "यह एक संसाधन या एक उन्नयन है?"
+
+#: steps_interactive.pm:159
+#, c-format
+msgid ""
+"_: This is a noun:\n"
+"Install"
+msgstr "संसाधन"
+
+#: steps_interactive.pm:161
+#, c-format
+msgid "Upgrade %s"
+msgstr "उन्नयन %s"
+
+#: steps_interactive.pm:184
+#, c-format
+msgid "Encryption key for %s"
+msgstr "%s के लिए गूढ़लिखित कुँजी"
+
+#: steps_interactive.pm:217
+#, c-format
+msgid "Cancel installation, reboot system"
+msgstr ""
+
+#: steps_interactive.pm:218
+#, c-format
+msgid "New Installation"
+msgstr ""
+
+#: steps_interactive.pm:219
+#, c-format
+msgid "Upgrade previous installation (not recommended)"
+msgstr ""
+
+#: steps_interactive.pm:223
+#, c-format
+msgid ""
+"Installer has detected that your installed Linux system could not\n"
+"safely be upgraded to %s.\n"
+"\n"
+"New installation replacing your previous one is recommended.\n"
+"\n"
+"Warning : you should backup all your personal data before choosing \"New\n"
+"Installation\"."
+msgstr ""
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "CD/DVD"
+msgstr ""
+
+#: steps_interactive.pm:264
+#, fuzzy, c-format
+msgid "Configuring CD/DVD"
+msgstr "आईडीई की संरचना की जा रही है"
+
+#: steps_interactive.pm:354
+#, c-format
+msgid ""
+"Change your Cd-Rom!\n"
+"Please insert the Cd-Rom labelled \"%s\" in your drive and press Ok when "
+"done.\n"
+"If you do not have it, press Cancel to avoid installation from this Cd-Rom."
+msgstr ""
+
+#: steps_interactive.pm:372
+#, c-format
+msgid "Looking for available packages..."
+msgstr "उपलब्ध पैकेजों को खोज़ा जा रहा है..."
+
+#: steps_interactive.pm:380
+#, c-format
+msgid ""
+"Your system does not have enough space left for installation or upgrade "
+"(%dMB > %dMB)"
+msgstr ""
+
+#: steps_interactive.pm:428
+#, c-format
+msgid ""
+"Please choose load or save package selection.\n"
+"The format is the same as auto_install generated files."
+msgstr ""
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Load"
+msgstr "लोड"
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Save"
+msgstr "सुरक्षित"
+
+#: steps_interactive.pm:438
+#, c-format
+msgid "Bad file"
+msgstr ""
+
+#: steps_interactive.pm:455
+#, c-format
+msgid "Plasma"
+msgstr ""
+
+#: steps_interactive.pm:456
+#, c-format
+msgid "GNOME"
+msgstr "गनोम"
+
+#: steps_interactive.pm:459
+#, c-format
+msgid "Desktop Selection"
+msgstr ""
+
+#: steps_interactive.pm:460
+#, c-format
+msgid "You can choose your workstation desktop profile."
+msgstr ""
+
+#: steps_interactive.pm:548
+#, c-format
+msgid "Selected size is larger than available space"
+msgstr "चयनित आकार उपलब्ध स्थान से ज्यादा है"
+
+#: steps_interactive.pm:572
+#, c-format
+msgid "Type of install"
+msgstr "संसाधन का प्रकार"
+
+#: steps_interactive.pm:573
+#, c-format
+msgid ""
+"You have not selected any group of packages.\n"
+"Please choose the minimal installation you want:"
+msgstr ""
+"आपने पैकेजों के किसी भी समूह का चयन नहीं किया है ।\n"
+"कृपया कम-से-कम जितना आप चाहते है उतने संसाधन का चयन करें:"
+
+#: steps_interactive.pm:578
+#, c-format
+msgid "With X"
+msgstr "एक्स के साथ"
+
+#: steps_interactive.pm:579
+#, c-format
+msgid "Install recommended packages"
+msgstr ""
+
+#: steps_interactive.pm:580
+#, c-format
+msgid "With basic documentation (recommended!)"
+msgstr "आधार-भूत प्रलेखन के साथ (संस्तुति की जाती है !)"
+
+#: steps_interactive.pm:581
+#, c-format
+msgid "Truly minimal install (especially no urpmi)"
+msgstr "वास्तविक निम्नत्तम संसाधन (विशेषकर कोई यू०आर०पी०एम०आई० नहीं)"
+
+#: steps_interactive.pm:633
+#, c-format
+msgid "Preparing upgrade..."
+msgstr ""
+
+#: steps_interactive.pm:643
+#, c-format
+msgid "Preparing installation"
+msgstr "संसाधन का निर्माण किया जा रहा है"
+
+#: steps_interactive.pm:651
+#, c-format
+msgid "Installing package %s"
+msgstr "%s पैकेज का संसाधन हो रहा है"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "There was an error ordering packages:"
+msgstr "पैकेजों के आदेश देने में एक त्रुटि हो गयी है:"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "Go on anyway?"
+msgstr "कुछ भी हो जारी रहा जायें?"
+
+#: steps_interactive.pm:679
+#, c-format
+msgid "Retry"
+msgstr ""
+
+#: steps_interactive.pm:680
+#, c-format
+msgid "Skip this package"
+msgstr ""
+
+#: steps_interactive.pm:681
+#, c-format
+msgid "Skip all packages from medium \"%s\""
+msgstr ""
+
+#: steps_interactive.pm:682
+#, c-format
+msgid "Go back to media and packages selection"
+msgstr ""
+
+#: steps_interactive.pm:685
+#, c-format
+msgid "There was an error installing package %s."
+msgstr ""
+
+#: steps_interactive.pm:704
+#, c-format
+msgid "Post-install configuration"
+msgstr "संसाधन-उपरान्त संरचना"
+
+#: steps_interactive.pm:711
+#, c-format
+msgid "Please ensure the Update Modules media is in drive %s"
+msgstr ""
+
+#: steps_interactive.pm:739 steps_interactive.pm:769 steps_list.pm:47
+#, c-format
+msgid "Updates"
+msgstr "उन्नयन"
+
+#: steps_interactive.pm:740
+#, c-format
+msgid "You now have the opportunity to setup online media."
+msgstr ""
+
+#: steps_interactive.pm:741
+#, c-format
+msgid "This allows to install security updates."
+msgstr ""
+
+#: steps_interactive.pm:742
+#, c-format
+msgid ""
+"To setup those media, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to setup the update media?"
+msgstr ""
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Failure when adding medium"
+msgstr ""
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Retry?"
+msgstr ""
+
+#: steps_interactive.pm:770
+#, c-format
+msgid ""
+"You now have the opportunity to download updated packages. These packages\n"
+"have been updated after the distribution was released. They may\n"
+"contain security or bug fixes.\n"
+"\n"
+"To download these packages, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to install the updates?"
+msgstr ""
+"आपको अब अपडेट किये हुए पैकेजों को डॉउनलोड करने का अवसर है । इन पैकेजों को\n"
+"इस वितरण के विमोचन के उपरान्त अपडेट किया गया है । इनमें सुरक्षा या\n"
+"दोष-निवारण पैबंद हो सकते है । \n"
+"\n"
+"इन पैकेजों को डॉउनलोड करने हेतु, आपको एक कार्यशील इन्टरनेट संबंध की \n"
+"आवश्यकता होगी।\n"
+"\n"
+"क्या आप इन अपडेटों को संसाधित करना चाहते है ?"
+
+#. -PO: example: lilo-graphic on /dev/hda1
+#: steps_interactive.pm:878
+#, c-format
+msgid "%s on %s"
+msgstr "%s पर %s"
+
+#: steps_interactive.pm:913 steps_interactive.pm:920 steps_interactive.pm:933
+#: steps_interactive.pm:950 steps_interactive.pm:965
+#, c-format
+msgid "Hardware"
+msgstr "हार्डवेयर"
+
+#: steps_interactive.pm:934 steps_interactive.pm:951
+#, c-format
+msgid "Sound card"
+msgstr "सांउड कार्ड"
+
+#: steps_interactive.pm:948
+#, c-format
+msgid "Graphical interface"
+msgstr "सचित्र इन्टरफ़ेस"
+
+#: steps_interactive.pm:972 steps_interactive.pm:984
+#, c-format
+msgid "Network & Internet"
+msgstr "नेटवर्क और इन्टरनेट"
+
+#: steps_interactive.pm:985
+#, c-format
+msgid "Proxies"
+msgstr "प्रोक्सियां"
+
+#: steps_interactive.pm:986
+#, c-format
+msgid "configured"
+msgstr "संरचित"
+
+#: steps_interactive.pm:996
+#, c-format
+msgid "Security Level"
+msgstr "सुरक्षा स्तर"
+
+#: steps_interactive.pm:1016
+#, c-format
+msgid "Firewall"
+msgstr "अग्नि-भीतिका"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "activated"
+msgstr "सक्रिय है"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "disabled"
+msgstr "निष्क्रिय"
+
+#: steps_interactive.pm:1034
+#, c-format
+msgid "You have not configured X. Are you sure you really want this?"
+msgstr "आपने एक्स को संरचित नहीं किया है ।  क्या आप वास्तव में ऐसा चाहते है?"
+
+#. -PO: This is NOT the boot loader (just the kernel initrds)!!!!
+#: steps_interactive.pm:1065
+#, c-format
+msgid "Preparing initial startup program..."
+msgstr ""
+
+#: steps_interactive.pm:1066
+#, c-format
+msgid "Be patient, this may take a while..."
+msgstr ""
+
+#: steps_interactive.pm:1082
+#, c-format
+msgid ""
+"In this security level, access to the files in the Windows partition is "
+"restricted to the administrator."
+msgstr "इस सुरक्षा स्तर में, विण्डो विभाजन में संचिकाओं तक पहुँच सिर्फ़ प्रबंधक को हीप्राप्त है।"
+
+#: steps_interactive.pm:1114
+#, c-format
+msgid "Insert a blank floppy in drive %s"
+msgstr "%s में एक खाली फ़्लापी डालें"
+
+#: steps_interactive.pm:1116
+#, c-format
+msgid "Creating auto install floppy..."
+msgstr "स्वतः संसाधन फ़्लापी का निर्माण किया जा रहा है..."
+
+#: steps_interactive.pm:1127
+#, c-format
+msgid ""
+"Some steps are not completed.\n"
+"\n"
+"Do you really want to quit now?"
+msgstr ""
+"कुछ चरण सम्पूर्ण नहीं हुए है । \n"
+"\n"
+"क्या आप वास्तव में बाहर निकलना चाहते है?"
+
+#: steps_interactive.pm:1137
+#, c-format
+msgid "Congratulations"
+msgstr "बधाई हो"
+
+#: steps_interactive.pm:1140
+#, c-format
+msgid "Reboot"
+msgstr "रीबूट"
+
+#. -PO: please keep the following messages very short: they must fit in the left list of the installer!!!
+#: steps_list.pm:16
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Language"
+msgstr "भाषा"
+
+#: steps_list.pm:16 steps_list.pm:23
+#, c-format
+msgid "Localization"
+msgstr "स्थानीयकरण"
+
+#: steps_list.pm:17
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"License"
+msgstr "प्रमाण-पत्र"
+
+#: steps_list.pm:18
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Mouse"
+msgstr "माउस"
+
+#: steps_list.pm:19 steps_list.pm:20
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Hard drive detection"
+msgstr "हार्ड ड्राइव खोज"
+
+#: steps_list.pm:21 steps_list.pm:22
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installation class"
+msgstr ""
+
+#: steps_list.pm:23
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Keyboard"
+msgstr "की-बोर्ड"
+
+#: steps_list.pm:24
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Security"
+msgstr "सुरक्षा"
+
+#: steps_list.pm:25
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Partitioning"
+msgstr "विभाजनीकरण"
+
+#: steps_list.pm:27 steps_list.pm:28
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Formatting"
+msgstr ""
+
+#: steps_list.pm:29
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Choosing packages"
+msgstr ""
+
+#: steps_list.pm:31
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installing"
+msgstr "संसाधन हो रहा है"
+
+#: steps_list.pm:34
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Users"
+msgstr "उपयोगकर्ताओ"
+
+#: steps_list.pm:38 steps_list.pm:39
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Bootloader"
+msgstr "बूटलोडर"
+
+#: steps_list.pm:40 steps_list.pm:41
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Configure X"
+msgstr "एक्स को संरचित करें"
+
+#: steps_list.pm:42
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Summary"
+msgstr "सारांश"
+
+#: steps_list.pm:44 steps_list.pm:45
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Services"
+msgstr "सेवायें"
+
+#: steps_list.pm:46
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Updates"
+msgstr "उन्नयन"
+
+#: steps_list.pm:48
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Exit"
+msgstr "निकास"
+
+#~ msgid "Do you have an ISA sound card?"
+#~ msgstr "क्या आपके पास एक आई०एस०ऐ० सांउड कार्ड है?"
+
+#~ msgid "No sound card detected. Try \"harddrake\" after installation"
+#~ msgstr ""
+#~ "कोई साउण्ड कार्ड नहीं खोजा जा सका । संसाधन के उपरान्त \"harddrake\" को उपयोग "
+#~ "करके देखें"
+
+#~ msgid "KDE"
+#~ msgstr "के०डी०ई०"
+
+#~ msgid "CD-ROM"
+#~ msgstr "सीडी-रॉम"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "केडीई कार्यकेन्द्र"
+
+#~ msgid "IDE"
+#~ msgstr "आई०डी०ई०"

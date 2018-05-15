@@ -1,0 +1,5 @@
+handle_configs
+scanner
+urpm::ldap
+urpm::parallel_ka_run
+urpm::parallel_ssh

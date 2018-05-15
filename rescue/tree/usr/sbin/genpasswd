@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+use strict;
+
+system "stty -echo";
+print STDERR "Give a password for ssh access: ";
+chomp(my $word = <STDIN>);
+print STDERR "\n";
+system "stty echo";
+
+my @salt = ('.', '/', 0..9, 'A'..'Z', 'a'..'z')[rand 64, rand 64];
+print crypt($word, join('', @salt));
+print "\n";

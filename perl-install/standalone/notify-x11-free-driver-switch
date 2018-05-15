@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+use lib qw(/usr/lib/libDrakX);
+use standalone;
+use interactive;
+use common;
+
+$::isStandalone = 0;
+my $in = 'interactive'->vnew;
+my $driver = eval {
+    require Xconfig::xfree;
+    my $raw_X = Xconfig::xfree->read;
+    $raw_X->get_Driver;
+} || N("unknown");
+
+
+my $reason = cat_utf8($ENV{LOCK});
+
+$in->ask_warn(N("Display driver setup"),
+              join("\n\n",
+                   N("The display driver has been automatically switched to '%s'.", $driver),
+                   if_($reason, N("Reason: %s.", $reason)),
+               ));
+unlink $0 if $0 =~ m!/etc/X11/xsetup.d/!;

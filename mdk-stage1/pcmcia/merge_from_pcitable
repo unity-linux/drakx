@@ -1,0 +1,37 @@
+#!/usr/bin/perl
+
+# This program will show on stdout yenta_socket stuff from pcitable
+# which is not in probe.c
+
+use MDK::Common;
+use lib qw(/usr/lib/libDrakX);
+use run_program;
+use c;
+
+my %probes;
+foreach (cat_('probe.c')) {
+    if (/^pci_id_t pci_id\[\] = {/ ... /^};/) {
+	/^\s*{\s*0x([\da-f]+),\s*0x([\da-f]+),\s*"([^"]*)",\s*"([^"]*)"\s*}/
+	  and $probes{"$1$2"} = { vendor => $1, device => $2, driver => $3, name => $4 };
+    }
+}
+
+require '/usr/bin/merge2pcitable.pl';
+
+my %pcitable;
+my @yenta_socket_ids = grep { $_ } map {
+	/.*pci:v0000(....).*d0000(....).*/;
+	my $key = lc("$1$2");
+	$pcitable{$key} = { vendor => $1, device => $2 };
+	$key;
+    } grep { /^alias/ } run_program::get_stdout('/sbin/modinfo', 'yenta_socket');
+
+
+if (my @missing_in_probe_c = difference2(\@yenta_socket_ids, [ keys %probes ])) {
+    print "Missing in `probe.c':\n",
+      map { 
+	  my $p = $pcitable{$_};
+	  my $name = c::get_pci_description(hex($p->{vendor}), hex($p->{device}));
+	  qq(    { 0x$p->{vendor}, 0x$p->{device}, "yenta_socket", "$name" },\n);
+      } sort @missing_in_probe_c;
+}

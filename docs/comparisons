@@ -1,0 +1,306 @@
+redhat 6.1 (fr?), install 766MB, df 900MB, 35min (asked for all groups except "everything")
+
+upgrade to redhat 6.2, sum 757MB, df 936MB, 20min
+
+mandrake 7.1, install 755MB, df 1091MB, 17min (asked install size 910MB), 515 packages
+
+upgrade to cooker, sum 1000MB, df 1404MB, 35min
+
+
+redhat 7.0b, install 815MB, df 960MB, 18min
+redhat 7.0, install 995MB, df MB, 26min
+
+7.2b, 3.3GB 2h26
+
+
+7.2b: (lang fr)
+compssLevel  df  rpm  	time  fs          df/time
+	               	     
+100          64   59  	0:59  ext2 500M   1.08
+ 90         132  127  	1:50  ext2 500M   1.20
+ 80         226  218  	3:26  ext2 500M	  1.10
+ 70         449  387  	5:52  ext2 1G	  1.28
+ 60         614  541  	8:36  ext2 1G	  1.19
+ 50        1113  943   17:40  ext2 2G	  1.05
+ 40        1193 1013   20:39  ext2 2G	  0.96
+ 30        1262 1072   22:28  ext2 2G	  0.94
+ 20        1445 1219   27:34  ext2 2G	  0.87
+ 10        1649 1394   36:58  ext2 2G	  0.74
+  0        1943 1638   48:02  ext2 2G	  0.67
+-10        2957 2519  101:49  ext2 4G 	  0.48
+
+7.2b: (lang all)
+compssLevel  df  rpm  	time  fs          df/time
+
+100          70   59  	1:04  ext2 500M   1.09
+ 90         289  281  	4:20  ext2 500M	  1.11
+ 80         373  361    5:41  ext2 500M	  1.09
+ 70         890  794   13:28  ext2 1G	  1.10
+
+
+mem used 7.2cooker
+gtk:   runinstall2 13608(data 9572) + FBDev 2984(data 1544)
+newt:  runinstall2  9516(data 7528)
+stdio: runinstall2  9160(data 7372)
+
+8.0rc1: (lang fr)
+
+rpmsrate
+
+4   ()        175   139    3:25   reiserfs 2G  0.85
+4   all       831   786   18:08   reiserfs 2G  0.76
+
+8.1b
+
+5   ()         77    66    1:24   ext2 300M
+
+8.1pre_rc1     rpm   df                       time/rpm  rpm/df
+
+6   ()         82    66    1:26   ext2 500M   1.05      1.24
+5   ()         89    71    1:38   ext2 500M   1.10	1.25
+3   ()         94    77    1:46   ext2 500M   1.13	1.22
+5   X         145   127    2:09   ext2 500M   0.89	1.14
+3   X         231   217    3:26   ext2 500M   0.89	1.06
+4   kde       393   316    4:31   ext2 2G     0.69	1.24
+4   kde       393   316    4:41   ext2 2G     0.72	1.24
+4   kde       393   316    4:43   ext2 4G     0.72	1.24
+5   all       367   337    5:02   ext2 500M   0.82	1.09
+4   kde+gnome 454   370    5:50   ext2 4G     0.77	1.23
+4   kde+gnome 454   370    6:10   ext2 4G     0.81	1.23
+4   kde+gnome 454   370    6:24   ext2 4G     0.85	1.23
+5   all       489   406    5:55   ext2 4G     0.73	1.20
+5   all       490   406    5:18   ext2 1G     0.65	1.21
+4   kd+gn+dsk 594   494    7:31   ext2 4G     0.76	1.20
+4   prev+dev  827   696   10:27   ext2 4G     0.76	1.19
+4   all      1100   988   19:34   ext2 1G     1.07	1.11
+3   all      1640  1331   31:33   ext2 2G     1.15	1.23
+3   all      1740  1434   39:38   ext2 4G     1.37	1.21
+2   all      2252  1843   54:40   ext2 4G     1.46	1.22
+-1  all      2490  2048   61:02   ext2 4G     1.47      1.22
+
+# perl -alpe '$F[4] =~ /(.*):(.*)/; $r = ($1 * 60 + $2) / $F[2]; s|\S+(\s+\S+)\s*$|sprintf("%.2f", $r) . "$1"|e;'
+# perl -ape '$r = $F[2] / $F[3]; s|\S+\s*$|sprintf "%.2f\n", $r|e;'
+
+9.0beta1
+
+5   ()         89    71    1:35   ext2 500M
+3   X         240   231    3:41   ext2 500M
+5   all       306   293    3:36   ext2 500M
+4   all       808   731    6:48   ext2 1G
+4   all      1433  1331   21:44   ext2 2G
+4   X+kde     822   749    6:05   ext2 2G
+4   X+gnome   369   319    5:58   ext2 2G
+              rpm    df    time                time/rpm  rpm/df
+2006beta
+celeron 360Mhz, 256MB, auto_install
+6   -	      106   225	    1:46  ext3 788M     1.00      0.47
+5   X         365   440     4:19  ext2 3.2G     0.71      0.83
+5   X         385   417     5:15  ext2 3.2G     0.82      0.92
+4   X	      415   489	   05:26  ext2 3.2G     0.79      0.85
+4   X	      436   511	   06:05  ext2 788M     0.84      0.85
+4   X+KDE     709   829	   08:39  ext2 3.2G     0.73      0.86
+4   X+KDE     709   829	   09:01  ext2 3.2G     0.76      0.86
+4   X+KDE     709   934	   11:01  ext3 3.2G     0.93      0.76
+4   X+KDE     709   934	   10:37  ext3 3.2G     0.90      0.76
+4   X+KDE+GNO 763   888	   11:06  ext2 3.2G     0.87      0.86
+4   def+GNO  1024  1126	   12:41  ext2 3.2G     0.74      0.91
+4   def+GNO  1227  1130	   13:52  ext2 3.2G     0.68      1.09
+4   default  1433  1536	   18:26  ext2 3.2G     0.77      0.93
+4   def+GNO  1442  1633	   17:58  ext2 3.2G     0.75      0.88
+2   all      2800  3200    47:56  ext2 4G       1.03      0.88
+
+
+redhat 7.3:
+- do not halt the box when "halt" is used
+- no sysreq
+- kdm has gnome entry whereas gnome is not installed
+  => choosing gnome gives a flashing black screen and kdm reruns
+
+- repartition of packages on various CDs is crap
+
+- bootloader: handling of multiple disks is more powerful in redhat, but more
+dangerous (proposed to everyone, but not proposed especially to people having
+a dangerous combinaison)
+- why still asking about lba32!!
+
+* anaconda 7.3 vs 7.3.92
+  - skipddc option (locks some machines) ??
+    maybe because it's done at the beginning of their install?
+  
+  - LVM
+    - lvm_dialog_gui.py
+    - Physical Extent 1MB 2MB 4MB ... 16GB
+      (vgcreate -s ${PhysicalExtentSize}k)
+    - see lvm_sanity_checks.txt, take them
+    - lvm on / (mkinitrd)
+    - handle upgrade when lvm on /
+    - vgcreate -An (ie --autobackup no) ??
+      (also for lvcreate vgchange lvremove
+    - see clampPVSize in lvm.py
+
+  - RAID
+    - Number of spares ??
+    - mkraid --dangerous-no-resync  ??
+  
+  - progress bar in ext2 formatting
+  
+  - ctrl-alt-suppr during install => reboots
+  
+  - user names: the regexp is [a-zA-Z][^\0-\x20:,\n]*  or  [A-Za-z][A-Za-z0-9]{0,7}   (depending on wether you're in text mode or graphic mode :)
+  - check the user name created is not a system one (see systemUsers)
+  
+  - SMB authentification
+  - cloneDrive ?
+
+  - edd dropped (was to detect lba32 capability, which was dumb)
+
+  - reconfig type of installed removed (was something between install & upgrade)
+
+  - ddcprobe code removed -> moved to kudzu
+    changes: sigprocmask and movl added around lrmi_vm86
+
+  - $ENV{GDK_USE_XFT} = 0
+
+* kudzu 0.99.52 vs 0.99.55
+  - blacklisting modules.pcimap e100 and bcm5700
+
+* hwdata 0.14 vs 0.32
+  - dropped XFree86 3.3.6 support
+
+  - upgradelist: list of (old_module => new_module) for upgrades
+    (a simpler way would be to drop entries in modules.conf that concern
+    obsolete (and not available anymore) modules, relying on auto-detection to
+    add the new one)
+
+  - CardMonitorCombos (for laptops)
+
+redhat 8.0:
+
+  (legend: + pros  - cons  / notice)
+  
+  Install steps difference
+  + firewall wizard
+  + md5sum check when booting install
+  - no upgrade packages installation during install
+  - no services configuration (chkconfig)
+  - no printer configuration
+  - no autologin
+  - no real small installation
+  - no small packages (groff-for-man, perl-base...)
+  / still propose non-MD5 or non-shadow passwords
+  / post install tool (firstconfig)
+  
+  General install behaviour, eye-candiness
+  + package selection a la Windows
+  + in language selection languages displayed in native language
+  + candy timezone selection
+  + help uses bold/italic/big-font
+  - no one CD install
+  / not using fb at install
+  / python + gtk2  vs  perl + gtk
+  / ask many things before doing anything (esp. delayed partitioning, swap not available when selecting packages!(?))
+  - more width-hard-coded dialog boxes (harder for translations)
+  / use a loopback file from the CD then copied on system
+  
+  Partitioning
+  - no diskdruid after install
+  - no partitioning wizard
+  - no devfs
+  - no xfs (but now has reiserfs/jfs)
+  - no loopback crypted fs
+  - no file swap (?)
+  - no supermount
+  + LABELed entries in fstab
+  + progress bar while formatting
+  
+  Bootloader
+  + bootloader configuration less awkward
+  - no automatic handling of bios ordering with many harddrives
+  - propose to manually change bios ordering even with one harddrive
+  - LBA32 checkbox
+  / defaults to grub
+  
+  Network
+  - awkward question apropos hostname when using DHCP
+  - no default choice for netmask/gateway/DNS based on IP
+  
+  XFree
+  - no wacom configuration
+  - no graphic card multi-head configuration
+  - no ATI tvout configuration
+  - no prompt for logout after changing X config
+  - VideoRam prompted for everybody
+  / no XFree3
+  / no Utah GLX
+  / load module "fbdevhw" "record", but not "v4l"
+  / always load module "glx" and "dri"
+  
+  Keyboard
+  - many non useful keyboard entries (eg: latin0)
+  - no way to choose the toggle key to choose between latin/non-latin keyboard 
+  - no loadkeys done during install for console
+  
+  Mouse
+  - no way to test mouse choice
+  - mouse choices include many non-useful choices, badly sorted
+    (Intellimouse must be sought in Microsoft whereas it's used by many others)
+  
+  Multimedia
+  - no bttv configuration (including webcams)
+  - missing audio modules (alsa, audigy...)
+
+* anaconda 8.0 (rel. 4) vs 8.0.92
+  - use vte instead of gnome.zvt
+  - add alpha (axp) partitioning code
+  - remove label "nofb" and options "devfs=nomount ramdisk_size=9216" from syslinux.cfg
+  - edd (ddc probe) moved to kudzu
+  - add "-Odir_index" option to ext3 tunefs 
+  - screenshoting in directory /root/anaconda-screenshots/ instead of using exported display
+  - assembler code change in cpuid, smp.c
+  - there is some code to read the "raid superblock" (see doGetRaidSuperblock in isys/isys.c)
+  - new code for choosing to upgrade or not
+  - hack to remove /var/lib/rpm/__db.00[123] (with comment "make sure that the rpmdb doesn't have stale locks :/")
+
+* anaconda 8.0.92 vs 8.0.93 (rel. 0.20030108205243)
+  - drop xmode (bring up text mode in a remote xterm)
+  - code available to check the ability to do a mkbootdisk 
+    (check size of vmlinuz + initrd, check size of floppy)
+  - drop "-Odir_index" option to ext3 tunefs 
+    (with comment "add back -Odir_index when htree is safe")
+  - waitForLink added to loader2/net.c using added ethtool thingy (get_ethtool_link_status, get_link_status)
+  - OS390 fdasd & z/IPL changes
+  - for kickstart, new option "--ignoremissing", (there were --ignoredeps and --resolvedeps)
+  - /usr/kerberos/lib in LD_LIBRARY_PATH
+  - these are symlinks so you cant make them mount points
+    otherexcept = ['/var/mail', '/usr/bin/X11', '/usr/lib/X11', '/usr/tmp']
+
+	    elif self.mountpoint in otherexcept:
+                return _("The mount point %s cannot be used.  It must "
+			 "be a symbolic link for proper system "
+			 "operation.  Please select a different "
+			 "mount point.") % (self.mountpoint,)
+		
+
+* hwdata 0.47 (redhat 8.0) vs 0.62 (redhat 8.1 beta1 phoebe)
+  - pcitable & upgradelist
+     - replace eepro100 with e100
+     - switch 0x1106 0x3059 "via82cxxx_audio" to "unknown"
+  - Cards
+     - remove most swcursor with comment:
+        # mharris - Nov 23, 2002 - Commented out the swcursor option, if it is still
+        # needed, then lets disable it right in the driver completely, or possibly
+        # fix it.
+     - using driver "nv" for GeForce4 and Quadro4 with comment:
+        # mharris - Nov 23, 2002 - enabling "nv" driver for GeForce 4 and Quadro 4 as
+        # CVS XFree86 support them now in 4.2.99.2
+     - special options "externDisp" and "internDisp" for NeoMagic cards
+       together with CHIPSET
+
+* kudzu 0.99.69 (redhat 8.0) vs 0.99.83 (redhat 8.1 beta1 phoebe)
+  - don't read eepro100 entries from the pcitable
+  - handle compressed modules
+  - many changes in PS/2 mouse detection, and handle "intellips/2" mouse
+  - changes in PnP serial modem detection
+  - use "udf,iso9660" option for cdrom entry in fstab 
+    (note that comma separated choice of filesystems *is* allowed, though not
+     documented in fstab(5))

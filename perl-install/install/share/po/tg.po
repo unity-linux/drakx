@@ -1,0 +1,1724 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Abrorova Hiromon, 2004
+# Bahromhon Bobojonov <bahrambabajanov@hotmail.com>, 2004
+# Dilshod Marupov <dma165@hotmail.com>, 2003-2004
+# Murod Marupov <abdullovich@khujand.org>, 2004
+# Roger Kovacs <rkovacs@khujand.org>, 2003
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2017
+# Victor Ibragimov <youth_opportunities@tajikngo.org>, 2005
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-22 02:36+0200\n"
+"PO-Revision-Date: 2017-03-20 06:52+0000\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik (http://www.transifex.com/MageiaLinux/mageia/language/"
+"tg/)\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../advertising/01_IM_mageia.pl:1
+#, c-format
+msgid "Join Us!"
+msgstr "Ҳамроҳ шавед!"
+
+#: ../../advertising/02_IM_mageia.pl:1
+#, c-format
+msgid "Make it yours!"
+msgstr "Соҳиб шавед!"
+
+#: ../../advertising/03_IM_mageia.pl:1
+#, c-format
+msgid "Your choice!"
+msgstr "Интихоби шумо!"
+
+#: ../../advertising/04_IM_mageia.pl:1
+#, c-format
+msgid "Office tools"
+msgstr "Абзорҳои ҳуҷҷатнигорӣ"
+
+#: ../../advertising/05_IM_mageia.pl:1
+#, c-format
+msgid "Home entertainment"
+msgstr "Дилхушии хонагӣ"
+
+#: ../../advertising/06_IM_mageia.pl:1
+#, c-format
+msgid "For kids"
+msgstr "Барои кӯдакон"
+
+#: ../../advertising/07_IM_mageia.pl:1
+#, c-format
+msgid "For family!"
+msgstr "Барои оила!"
+
+#: ../../advertising/08_IM_mageia.pl:1
+#, c-format
+msgid "For developers!"
+msgstr "Барои барномасозон!"
+
+#: ../../advertising/09_IM_mageia.pl:1
+#, c-format
+msgid "Thank you!"
+msgstr "Ташаккур!"
+
+#: ../../advertising/10_IM_mageia.pl:1
+#, c-format
+msgid "Be Free!"
+msgstr "Озод бошед!"
+
+#: any.pm:151
+#, c-format
+msgid "Do you have further supplementary media?"
+msgstr "Шумо боз дигар расонаи иловагӣ доред?"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:154
+#, c-format
+msgid ""
+"The following media have been found and will be used during install: %s.\n"
+"\n"
+"\n"
+"Do you have a supplementary installation medium to configure?"
+msgstr ""
+"Медиаи зерин пайдо шуд ва ҳангоми насб истифода бурда мешавад: %s.\n"
+"\n"
+"\n"
+"Шумо барои танзим кардани насб ягон медиаи иловагӣ доред?"
+
+#: any.pm:162
+#, c-format
+msgid "Network (HTTP)"
+msgstr "Шабака (HTTP)"
+
+#: any.pm:163
+#, c-format
+msgid "Network (FTP)"
+msgstr "Шабака (FTP)"
+
+#: any.pm:164
+#, c-format
+msgid "Network (NFS)"
+msgstr "Шабакаи (NFS)"
+
+#: any.pm:223
+#, c-format
+msgid "URL of the mirror?"
+msgstr "URL-и оина доред?"
+
+#: any.pm:229
+#, c-format
+msgid "URL must start with ftp:// or http://"
+msgstr "URL бояд бо ftp:// ё http:// сар карда шавад"
+
+#: any.pm:247
+#, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
+msgstr ""
+"Дар ҳоли пайваст бо вебсайти %s барои ба даст овардани рӯйхати оинаҳои "
+"дастрас..."
+
+#: any.pm:252
+#, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
+msgstr ""
+"Ҳангоми пайвастшавӣ бо вебсайти %s барои ба даст овардани рӯйхати оинаҳои "
+"дастрас хато ба миён омад"
+
+#: any.pm:262
+#, c-format
+msgid "Choose a mirror from which to get the packages"
+msgstr "Оинаро барои гирифтани бастаҳо интихоб намоед"
+
+#: any.pm:290
+#, c-format
+msgid "NFS setup"
+msgstr "Танзимкунии NFS"
+
+#: any.pm:291
+#, c-format
+msgid "Please enter the hostname and directory of your NFS media"
+msgstr "Лутфан, номи мизбон ва директорияи медиаи NFS-и худро ворид намоед"
+
+#: any.pm:295
+#, c-format
+msgid "Hostname missing"
+msgstr "Номи мизбон намерасад"
+
+#: any.pm:296
+#, c-format
+msgid "Directory must begin with \"/\""
+msgstr "Директория бояд бо \"/\\” сар карда шавад"
+
+#: any.pm:300
+#, c-format
+msgid "Hostname of the NFS mount ?"
+msgstr "Номи мизбонро барои васли NFS ворид мекунед?"
+
+#: any.pm:301
+#, c-format
+msgid "Directory"
+msgstr "Директория"
+
+#: any.pm:331
+#, c-format
+msgid "Supplementary"
+msgstr "Иловагӣ"
+
+#: any.pm:366
+#, c-format
+msgid ""
+"Can't find a package list file on this mirror. Make sure the location is "
+"correct."
+msgstr ""
+"Файли рӯйхати бастаҳоро дар ин оина ёфта наметавонад. Мутмаин шавед, ки "
+"ҷойгиршавӣ дуруст аст."
+
+#: any.pm:391
+#, c-format
+msgid "Core Release"
+msgstr "Релизи мағз"
+
+#: any.pm:393
+#, c-format
+msgid "Tainted Release"
+msgstr "Релизи шахсӣ"
+
+#: any.pm:395
+#, c-format
+msgid "Nonfree Release"
+msgstr "Релизи пулакӣ"
+
+#: any.pm:433
+#, c-format
+msgid ""
+"Some hardware on your machine needs some non free firmwares in order for the "
+"free software drivers to work."
+msgstr ""
+"Якчанд сахтафзор дар компютери шумо сахтафзори ғайри ройгонро талаб мекунад, "
+"то ки драйверҳои нармафзори ройгон тавонанд кор кунанд."
+
+#: any.pm:434
+#, c-format
+msgid "You should enable \"%s\""
+msgstr "Шумо бояд \"%s\"-ро фаъол кунед"
+
+#: any.pm:472
+#, c-format
+msgid "\"%s\" contains the various pieces of the systems and its applications"
+msgstr "\"%s\" дорои қисмҳои гуногуни системаҳо ва барномаҳои он мебошад."
+
+#: any.pm:473
+#, c-format
+msgid "\"%s\" contains non free software.\n"
+msgstr "\"%s\" дорои нармафзори ғайри ройгон мебошад.\n"
+
+#: any.pm:474
+#, c-format
+msgid ""
+"It also contains firmwares needed for certain devices to operate (eg: some "
+"ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
+msgstr ""
+"Он инчунин дорои нармафзоре мебошад, ки барои кори баъзе дастгоҳҳо зарур аст "
+"(масалан: баъзе кортҳои графикии ATI/AMD, баъзе кортҳои шабакавӣ, баъзе "
+"кортҳои RAID, ва ғайра...)"
+
+#: any.pm:475
+#, c-format
+msgid ""
+"\"%s\" contains software that can not be distributed in every country due to "
+"software patents."
+msgstr ""
+"\"%s\" дорои нармафзоре мебошад, ки дар баъзе кишварҳо ба сабаби патентҳои "
+"нармафзор пахш карда намешавад."
+
+#: any.pm:476
+#, c-format
+msgid ""
+"It also contains software from \"%s\" rebuild with additional capabilities."
+msgstr ""
+"Он инчунин дорои нармафзоре аз сохти нави \"%s\" бо қобилиятҳои иловагӣ "
+"мебошад."
+
+#: any.pm:482
+#, c-format
+msgid "Here you can enable more media if you want."
+msgstr "Агар хоҳед, метавонед медиаи иловагиро фаъол кунед."
+
+#: any.pm:499
+#, c-format
+msgid "This medium provides package updates for medium \"%s\""
+msgstr "Ин медиа навсозиҳои бастаҳоро барои медиаи \"%s\\” таъмин менамояд"
+
+#: any.pm:597
+#, c-format
+msgid "Looking at packages already installed..."
+msgstr "Дар ҳоли ҷустуҷӯи бастаҳои насбшуда..."
+
+#: any.pm:631
+#, c-format
+msgid "Finding packages to upgrade..."
+msgstr "Дар ҳоли ҷустуҷӯи бастаҳо барои такмил..."
+
+#: any.pm:650
+#, c-format
+msgid "Removing packages prior to upgrade..."
+msgstr "Дар ҳоли тозакунии бастаҳо пеш аз такмил..."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:881
+#, c-format
+msgid ""
+"The following packages will be removed to allow upgrading your system: %s\n"
+"\n"
+"\n"
+"Do you really want to remove these packages?\n"
+msgstr ""
+"Барои иҷозати такмили системаи шумо, бастаҳои зерин тоза карда мешаванд: %s\n"
+"\n"
+"\n"
+"Шумо дар ҳақиқат мехоҳед, ки бастаҳои зеринро тоза намоед?\n"
+
+#: any.pm:1096
+#, c-format
+msgid "Error reading file %s"
+msgstr "Хатои хониши файли %s"
+
+#: any.pm:1304
+#, c-format
+msgid "The following disk(s) were renamed:"
+msgstr "Ном(ҳо)и диск(ҳо)и зерин иваз карда шуд(аанд):"
+
+#: any.pm:1306
+#, c-format
+msgid "%s (previously named as %s)"
+msgstr "%s (номи собиқ: %s)"
+
+#: any.pm:1363
+#, c-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: any.pm:1363
+#, c-format
+msgid "FTP"
+msgstr "FTP"
+
+#: any.pm:1363
+#, c-format
+msgid "NFS"
+msgstr "NFS"
+
+#: any.pm:1382 steps_interactive.pm:973
+#, c-format
+msgid "Network"
+msgstr "Шабака"
+
+#: any.pm:1386
+#, c-format
+msgid "Please choose a media"
+msgstr "Лутфан, медиаро интихоб намоед"
+
+#: any.pm:1402
+#, c-format
+msgid "File already exists. Overwrite it?"
+msgstr "Файл аллакай вуҷуд дорад. Онро аз нав сабт мекунед?"
+
+#: any.pm:1406
+#, c-format
+msgid "Permission denied"
+msgstr "Иҷозат нест"
+
+#: any.pm:1454
+#, c-format
+msgid "Bad NFS name"
+msgstr "Номи NFS-и нодуруст"
+
+#: any.pm:1475
+#, c-format
+msgid "Bad media %s"
+msgstr "Медиаи %s нодуруст аст"
+
+#: any.pm:1519
+#, c-format
+msgid "Cannot make screenshots before partitioning"
+msgstr "Таҳия кардани аксҳои экран пеш аз қисмбандӣ ғайриимкон аст"
+
+#: any.pm:1530
+#, c-format
+msgid "Screenshots will be available after install in %s"
+msgstr "Аксҳои экран баъд аз насб дар %s дастрас мешаванд"
+
+#: gtk.pm:135
+#, c-format
+msgid "Installation"
+msgstr "Насбкунӣ"
+
+#: gtk.pm:139 share/meta-task/compssUsers.pl:48
+#, c-format
+msgid "Configuration"
+msgstr "Танзимкунӣ"
+
+#: install2.pm:211
+#, c-format
+msgid "You must also format %s"
+msgstr "Шумо инчунин бояд %s-ро формат кунед"
+
+#: interactive.pm:16
+#, c-format
+msgid ""
+"Some hardware on your computer needs ``proprietary'' drivers to work.\n"
+"You can find some information about them at: %s"
+msgstr ""
+"Барои кори баъзе сахтафзор дар компютери шумо драйверҳои “пулакӣ” лозиманд.\n"
+"Шумо метавонед маълумотро дар бораи онҳо аз ин ҷо гиред: %s"
+
+#: interactive.pm:22
+#, c-format
+msgid "Bringing up the network"
+msgstr "Дар ҳоли фаъолсозии шабака"
+
+#: interactive.pm:27
+#, c-format
+msgid "Bringing down the network"
+msgstr "Дар ҳоли ғайифаъолсозии шабака"
+
+#: media.pm:407
+#, c-format
+msgid "Please wait, retrieving file"
+msgstr "Лутфан, интизор шавед, файл бозёбӣ карда мешавад"
+
+#: media.pm:714
+#, c-format
+msgid "unable to add medium"
+msgstr "медиаро илова карда наметавонад"
+
+#: media.pm:754
+#, c-format
+msgid "Copying some packages on disks for future use"
+msgstr "Нусхабардории баъзе бастаҳо ба диск барои истифодаи оянда"
+
+#: media.pm:807
+#, c-format
+msgid "Copying in progress"
+msgstr "Дар ҳоли нусхабардорӣ"
+
+#: pkgs.pm:32
+#, c-format
+msgid "must have"
+msgstr "бояд дошта бошад"
+
+#: pkgs.pm:33
+#, c-format
+msgid "important"
+msgstr "Ҳатмӣ аст"
+
+#: pkgs.pm:34
+#, c-format
+msgid "very nice"
+msgstr "хеле хуб"
+
+#: pkgs.pm:35
+#, c-format
+msgid "nice"
+msgstr "хуб"
+
+#: pkgs.pm:36
+#, c-format
+msgid "maybe"
+msgstr "мумкин аст"
+
+#: pkgs.pm:102
+#, c-format
+msgid "Getting package information from XML meta-data..."
+msgstr "Дар ҳоли гирифтани маълумоти баста аз метаиттилооти XML..."
+
+#: pkgs.pm:111
+#, c-format
+msgid "No xml info for medium \"%s\", only partial result for package %s"
+msgstr ""
+"Ягон иттилооти xml барои медиаи \"%s\\” вуҷуд надорад, танҳо натиҷаи қисмӣ "
+"барои бастаи %s пайдо шуд"
+
+#: pkgs.pm:119
+#, c-format
+msgid "No description"
+msgstr "Тафсилот нест"
+
+#: pkgs.pm:288
+#, c-format
+msgid ""
+"Some packages requested by %s cannot be installed:\n"
+"%s"
+msgstr ""
+"Баъзе бастаҳои дархостшуда аз тарафи %s насб карда намешаванд:\n"
+"%s"
+
+#: pkgs.pm:384 pkgs.pm:411
+#, c-format
+msgid "An error occurred:"
+msgstr "Хатое ба вуҷуд омад:"
+
+#: pkgs.pm:403
+#, c-format
+msgid "A fatal error occurred: %s."
+msgstr "Хатои ҷиддӣ ба вуҷуд омад: %s."
+
+#: pkgs.pm:897 pkgs.pm:939
+#, c-format
+msgid "Do not ask again"
+msgstr "Дигар напурсед"
+
+#: pkgs.pm:913
+#, c-format
+msgid "%d installation transactions failed"
+msgstr "%d интиқоли насбкунӣ иҷро нашуд"
+
+#: pkgs.pm:914
+#, c-format
+msgid "Installation of packages failed:"
+msgstr "Насбкунии бастаҳо иҷро нашуд:"
+
+#: share/meta-task/compssUsers.pl:16
+#, c-format
+msgid "Workstation"
+msgstr "Компютери корӣ"
+
+#: share/meta-task/compssUsers.pl:18
+#, c-format
+msgid "Office Workstation"
+msgstr "Компютери кории идорӣ"
+
+#: share/meta-task/compssUsers.pl:20
+#, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr ""
+"Барномаҳои ҳуҷҷатнигорӣ: коркарди ҳуҷҷатҳои матнӣ (LibreOffice Writer, "
+"Kword), ҷадвалҳои электронӣ (LibreOffice Calc, Kspread), тамошобини PDF ва "
+"ғайра"
+
+#: share/meta-task/compssUsers.pl:26
+#, c-format
+msgid "Game station"
+msgstr "Компютери бозӣ"
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc"
+msgstr "Барномаҳои дилхушӣ: қаторравоқ, бозиҳои рӯи мизӣ, стратегия ва ғайра"
+
+#: share/meta-task/compssUsers.pl:30
+#, c-format
+msgid "Multimedia station"
+msgstr "Компютери мултимедиа"
+
+#: share/meta-task/compssUsers.pl:31
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr "Барномаҳо барои бозӣ/коркарди овоз ва видео"
+
+#: share/meta-task/compssUsers.pl:36
+#, c-format
+msgid "Internet station"
+msgstr "Компютери интернетӣ"
+
+#: share/meta-task/compssUsers.pl:37
+#, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr ""
+"Маҷмӯи абзорҳо барои хондан ва фиристодани почта ва ахборот (mutt, tin..) ва "
+"тамошо дар Интернет"
+
+#: share/meta-task/compssUsers.pl:42
+#, c-format
+msgid "Network Computer (client)"
+msgstr "Компютери шабакавӣ (мизоҷ)"
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr "Мизоҷон барои протоколҳои гуногун, аз он ҷумла ssh"
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr "Абзорҳо барои осонсозии танзими компютери шумо"
+
+#: share/meta-task/compssUsers.pl:53
+#, c-format
+msgid "Console Tools"
+msgstr "Абзорҳои консолӣ"
+
+#: share/meta-task/compssUsers.pl:54
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr "Муҳаррирон, пардозгари фармонҳо, абзорҳои файлӣ, терминалҳо"
+
+#: share/meta-task/compssUsers.pl:58 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "Барномарезӣ"
+
+#: share/meta-task/compssUsers.pl:59 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr "Китобхонаи барномарезии C ва C++, барномаҳо ва файлҳои дохилшаванда"
+
+#: share/meta-task/compssUsers.pl:63 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "Ҳуҷҷатҳо"
+
+#: share/meta-task/compssUsers.pl:64 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr "Китобҳо ва дастурамалҳо барои Linux ва Нармафзори ройгон"
+
+#: share/meta-task/compssUsers.pl:68 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "LSB"
+
+#: share/meta-task/compssUsers.pl:69 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr "Манбаъи стандартии Linux. Дастгирии барномаҳои тарафҳои сеюм"
+
+#: share/meta-task/compssUsers.pl:79
+#, c-format
+msgid "Web Server"
+msgstr "Сервери веб"
+
+#: share/meta-task/compssUsers.pl:80
+#, c-format
+msgid "Apache"
+msgstr "Apache"
+
+#: share/meta-task/compssUsers.pl:84
+#, c-format
+msgid "Groupware"
+msgstr "Нармафзори кори гурӯҳӣ"
+
+#: share/meta-task/compssUsers.pl:85
+#, c-format
+msgid "Kolab Server"
+msgstr "Сервери Kolab"
+
+#: share/meta-task/compssUsers.pl:88 share/meta-task/compssUsers.pl:138
+#, c-format
+msgid "Firewall/Router"
+msgstr "Девори оташ/масиргузор"
+
+#: share/meta-task/compssUsers.pl:89 share/meta-task/compssUsers.pl:139
+#, c-format
+msgid "Internet gateway"
+msgstr "Гузаргоҳи Интернетӣ"
+
+#: share/meta-task/compssUsers.pl:92
+#, c-format
+msgid "Mail/News"
+msgstr "Почта/Ахборот"
+
+#: share/meta-task/compssUsers.pl:93
+#, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr "Сервери почтаи Postfix, сервери ахбороти Inn"
+
+#: share/meta-task/compssUsers.pl:97
+#, c-format
+msgid "Directory Server"
+msgstr "Сервери директория"
+
+#: share/meta-task/compssUsers.pl:102
+#, c-format
+msgid "FTP Server"
+msgstr "Сервери FTP"
+
+#: share/meta-task/compssUsers.pl:103
+#, c-format
+msgid "ProFTPd"
+msgstr "ProFTPd"
+
+#: share/meta-task/compssUsers.pl:107
+#, c-format
+msgid "DNS/NIS"
+msgstr "DNS/NIS"
+
+#: share/meta-task/compssUsers.pl:108
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr "Номи доменӣ ва сервери иттилооти шабакавӣ"
+
+#: share/meta-task/compssUsers.pl:112
+#, c-format
+msgid "File and Printer Sharing Server"
+msgstr "Сервери мубодилакунии файлҳо ва принтерҳо"
+
+#: share/meta-task/compssUsers.pl:113
+#, c-format
+msgid "NFS Server, Samba server"
+msgstr "Сервери NFS, сервери Samba"
+
+#: share/meta-task/compssUsers.pl:117 share/meta-task/compssUsers.pl:133
+#, c-format
+msgid "Database"
+msgstr "Пойгоҳи иттилоотӣ"
+
+#: share/meta-task/compssUsers.pl:118
+#, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr "PostgreSQL ва сервери пойгоҳи иттилоотии MariaDB"
+
+#: share/meta-task/compssUsers.pl:123
+#, c-format
+msgid "Web/FTP"
+msgstr "Web/FTP"
+
+#: share/meta-task/compssUsers.pl:124
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "Apache, Pro-ftpd"
+
+#: share/meta-task/compssUsers.pl:128
+#, c-format
+msgid "Mail"
+msgstr "Почта"
+
+#: share/meta-task/compssUsers.pl:129
+#, c-format
+msgid "Postfix mail server"
+msgstr "Сервери почтаи Postfix"
+
+#: share/meta-task/compssUsers.pl:134
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "PostgreSQL ё сервери пойгоҳи иттилоотии MariaDB"
+
+#: share/meta-task/compssUsers.pl:142
+#, c-format
+msgid "Network Computer server"
+msgstr "Сервери компютерии шабакавӣ"
+
+#: share/meta-task/compssUsers.pl:143
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr "Сервери NFS, сервери SMB, сервери Proxy, сервери ssh"
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Graphical Environment"
+msgstr "Муҳити графикӣ"
+
+#: share/meta-task/compssUsers.pl:152
+#, c-format
+msgid "Plasma Workstation"
+msgstr "Компютерии кории Plasma"
+
+#: share/meta-task/compssUsers.pl:153
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr ""
+"Муҳити мизи кории KDE (The K Desktop Environment), муҳити графикии асосӣ бо "
+"маҷмӯи абзорҳои иловашуда"
+
+#: share/meta-task/compssUsers.pl:158
+#, c-format
+msgid "GNOME Workstation"
+msgstr "Компютери кории GNOME"
+
+#: share/meta-task/compssUsers.pl:159 share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr "Муҳити графикӣ бо маҷмӯи барномаҳои корбарӣ ва абзорҳои мизи корӣ"
+
+#: share/meta-task/compssUsers.pl:164
+#, c-format
+msgid "XFCE Workstation"
+msgstr "Компютери кории XFCE"
+
+#: share/meta-task/compssUsers.pl:165
+#, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr ""
+"Муҳити графикии сабук бо маҷмӯи барномаҳои корбарӣ ва абзорҳои мизи корӣ"
+
+#: share/meta-task/compssUsers.pl:169
+#, c-format
+msgid "MATE Workstation"
+msgstr "Компютери кории MATE"
+
+#: share/meta-task/compssUsers.pl:174
+#, c-format
+msgid "Cinnamon Workstation"
+msgstr "Компютери кории Cinnamon"
+
+#: share/meta-task/compssUsers.pl:175
+#, c-format
+msgid "A graphical environment based on GNOME"
+msgstr "Муҳити графикӣ дар асоси GNOME"
+
+#: share/meta-task/compssUsers.pl:179
+#, c-format
+msgid "LXQt Desktop"
+msgstr "Мизи кории LXQt"
+
+#: share/meta-task/compssUsers.pl:181
+#, c-format
+msgid "A next generation QT port of the lightweight desktop environment"
+msgstr "Бандари насли нави QT барои муҳити мизи кории сабук"
+
+#: share/meta-task/compssUsers.pl:184
+#, c-format
+msgid "Enlightenment e21 Desktop"
+msgstr "Мизи кории Enlightenment e21"
+
+#: share/meta-task/compssUsers.pl:186
+#, c-format
+msgid "A lightweight fast graphical environment with a dedicated following"
+msgstr "Муҳити графикии тезкори сабук бо пайгирии муайяншуда"
+
+#: share/meta-task/compssUsers.pl:189
+#, c-format
+msgid "LXDE Desktop"
+msgstr "Мизи кории LXDE"
+
+#: share/meta-task/compssUsers.pl:191
+#, c-format
+msgid "A lightweight fast graphical environment"
+msgstr "Муҳити графикии тезкори сабук"
+
+#: share/meta-task/compssUsers.pl:194
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "Мизҳои кории графикии дигар"
+
+#: share/meta-task/compssUsers.pl:195
+#, c-format
+msgid "Window Maker, Fvwm, etc"
+msgstr "Барномаи Window Maker, Fvwm ва ғайра"
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr "Барномаҳои корбарӣ"
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, c-format
+msgid "SSH Server"
+msgstr "Сервери SSH"
+
+#: share/meta-task/compssUsers.pl:225
+#, c-format
+msgid "Webmin"
+msgstr "Webmin"
+
+#: share/meta-task/compssUsers.pl:226
+#, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr "Танзими дурдасти сервер тавассути Webmin"
+
+#: share/meta-task/compssUsers.pl:230
+#, c-format
+msgid "Network Utilities/Monitoring"
+msgstr "Барномаҳои корбарии шабакавӣ/назоратӣ"
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr "Абзорҳои назоратӣ, коркарди ҳисобҳо, tcpdump, nmap, ..."
+
+#: share/meta-task/compssUsers.pl:235
+#, c-format
+msgid "Mageia Wizards"
+msgstr "Устодҳои Mageia"
+
+#: share/meta-task/compssUsers.pl:236
+#, c-format
+msgid "Wizards to configure server"
+msgstr "Устодҳо барои танзимкунии сервер"
+
+#: steps.pm:85
+#, c-format
+msgid ""
+"An error occurred, but I do not know how to handle it nicely.\n"
+"Continue at your own risk."
+msgstr ""
+"Хатое ба вуҷуд омад, вале ман намедонам, чӣ тавр бояд ислоҳ карда шавад.\n"
+"Мувофиқи таваккали худ давом диҳед."
+
+#: steps.pm:460
+#, c-format
+msgid ""
+"Some important packages did not get installed properly.\n"
+"Either your cdrom drive or your cdrom is defective.\n"
+"Check the cdrom on an installed computer using \"rpm -qpl media/main/*.rpm"
+"\"\n"
+msgstr ""
+"Баъзе бастаҳои муҳим нодуруст насб карда шудаанд.\n"
+"Эҳтимол аст, ки драйви cdrom ё ин ки cdrom-и шумо вайрон аст.\n"
+"Кори cdrom-ро дар компютери омода ба воситаи фармони \"rpm -qpl media/main/*."
+"rpm\\” санҷед\n"
+
+#: steps_auto_install.pm:71 steps_stdio.pm:27
+#, c-format
+msgid "Entering step `%s'\n"
+msgstr "Гузариш ба қадами `%s'\n"
+
+#: steps_curses.pm:22
+#, c-format
+msgid "%s Installation %s"
+msgstr "%s Насбкунӣ %s"
+
+#: steps_curses.pm:32
+#, c-format
+msgid "<Tab>/<Alt-Tab> between elements"
+msgstr "Мубодилаи байни унсурҳо тавассути <Tab>/<Alt-Tab>"
+
+#: steps_gtk.pm:147
+#, c-format
+msgid "Xorg server is slow to start. Please wait..."
+msgstr "Сервери Xorg барои оғоз суръати суст дорад. Лутфан, интизор шавед..."
+
+#: steps_gtk.pm:212
+#, c-format
+msgid ""
+"Your system is low on resources. You may have some problem installing\n"
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
+msgstr ""
+"Системаи шумо манбаъҳои кофӣ надорад. Баъзе мушкилиҳои насбкунии %s "
+"метавонанд пайдо шаванд. Агар ягон мушкилӣ пайдо шавад, шумо метавонед "
+"насбкунӣ дар реҷаи матнӣ кӯшиш кунед. Дар ин маврид,\n"
+"ҳангоми роҳандозӣ тавассути CDROM тугмаи `F1'-ро пахш кунед ва ба реҷаи "
+"матнӣ (text) гузаред."
+
+#: steps_gtk.pm:242 steps_gtk.pm:754
+#, c-format
+msgid "Media Selection"
+msgstr "Интихоби медиа"
+
+#: steps_gtk.pm:253
+#, c-format
+msgid "Install %s Plasma Desktop"
+msgstr "Насб кардани мизи кории %s Plasma"
+
+#: steps_gtk.pm:254
+#, c-format
+msgid "Install %s GNOME Desktop"
+msgstr "Насб кардани мизи кории %s GNOME"
+
+#: steps_gtk.pm:255
+#, c-format
+msgid "Custom install"
+msgstr "Насбкунии фармоишӣ"
+
+#: steps_gtk.pm:276
+#, c-format
+msgid "Plasma Desktop"
+msgstr "Мизи кории Plasma"
+
+#: steps_gtk.pm:277
+#, c-format
+msgid "GNOME Desktop"
+msgstr "Мизи кории GNOME"
+
+#: steps_gtk.pm:278
+#, c-format
+msgid "Custom Desktop"
+msgstr "Мизи кории фармоишӣ"
+
+#: steps_gtk.pm:284
+#, c-format
+msgid "Here's a preview of the '%s' desktop."
+msgstr "Пешнамоиши мизи кории '%s'"
+
+#: steps_gtk.pm:311
+#, c-format
+msgid "Click on images in order to see a bigger preview"
+msgstr "Барои дидани пешнамоиш дар сурати калонтар, ба тасвирҳо зер кунед"
+
+#: steps_gtk.pm:327 steps_interactive.pm:605 steps_list.pm:30
+#, c-format
+msgid "Package Group Selection"
+msgstr "Интихоби гурӯҳи бастаҳо"
+
+#: steps_gtk.pm:350 steps_interactive.pm:622
+#, c-format
+msgid "Individual package selection"
+msgstr "Интихоби бастаҳои алоҳида"
+
+#: steps_gtk.pm:357
+#, c-format
+msgid "Unselect All"
+msgstr "Лағв кардани интихоби пурра"
+
+#: steps_gtk.pm:376 steps_interactive.pm:534
+#, c-format
+msgid "Total size: %d / %d MB"
+msgstr "Андозаи умумӣ: %d / %d МБ"
+
+#: steps_gtk.pm:421
+#, c-format
+msgid "Version: "
+msgstr "Версия: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "Size: "
+msgstr "Ҳаҷм: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "%d KB\n"
+msgstr "%d КБ\n"
+
+#: steps_gtk.pm:423
+#, c-format
+msgid "Importance: "
+msgstr "Муҳиммӣ: "
+
+#: steps_gtk.pm:458
+#, c-format
+msgid "You cannot select/unselect this package"
+msgstr "Шумо наметавонед, ки ин бастаро интиҳоб/лағв кунед:"
+
+#: steps_gtk.pm:462
+#, c-format
+msgid "due to missing %s"
+msgstr "ба сабаби мавҷуд набудани %s"
+
+#: steps_gtk.pm:463
+#, c-format
+msgid "due to unsatisfied %s"
+msgstr "ба сабаби номувофиқати %s"
+
+#: steps_gtk.pm:464
+#, c-format
+msgid "trying to promote %s"
+msgstr "дар ҳоли коргузории %s"
+
+#: steps_gtk.pm:465
+#, c-format
+msgid "in order to keep %s"
+msgstr "барои нигоҳ доштани %s"
+
+#: steps_gtk.pm:470
+#, c-format
+msgid ""
+"You cannot select this package as there is not enough space left to install "
+"it"
+msgstr ""
+"Шумо ин бастаро интихоб карда наметавонед, зеро ки барои насб кардан он ҷой "
+"кофӣ нест"
+
+#: steps_gtk.pm:473
+#, c-format
+msgid "The following packages are going to be installed"
+msgstr "Бастаҳои зерин насб карда мешаванд"
+
+#: steps_gtk.pm:474
+#, c-format
+msgid "The following packages are going to be removed"
+msgstr "Бастаҳои зерин тоза карда мешаванд"
+
+#: steps_gtk.pm:500
+#, c-format
+msgid "This is a mandatory package, it cannot be unselected"
+msgstr "Ин бастаи зарур мебошад, лағви интихоби онро бекор карда намешавад"
+
+#: steps_gtk.pm:502
+#, c-format
+msgid "You cannot unselect this package. It is already installed"
+msgstr ""
+"Шумо интихоби ин бастаи барномаҳоро рад карда наметавонед. Он аллакай насб "
+"карда шудааст"
+
+#: steps_gtk.pm:504
+#, c-format
+msgid "You cannot unselect this package. It must be upgraded"
+msgstr ""
+"Шумо интихоби ин бастаро бекор карда наметавонед. Он бояд такмил дода шавад."
+
+#: steps_gtk.pm:508
+#, c-format
+msgid "Show automatically selected packages"
+msgstr "Намоиш додани бастаҳои интихобшуда ба таври худкор"
+
+#: steps_gtk.pm:512
+#, c-format
+msgid "Install"
+msgstr "Насб кардан"
+
+#: steps_gtk.pm:515
+#, c-format
+msgid "Load/Save selection"
+msgstr "Бор кардан/захира кардани интихоб"
+
+#: steps_gtk.pm:516
+#, c-format
+msgid "Updating package selection"
+msgstr "Навсозии интихоби бастаҳо"
+
+#: steps_gtk.pm:521
+#, c-format
+msgid "Minimal install"
+msgstr "Насбкунии камин"
+
+#: steps_gtk.pm:534
+#, c-format
+msgid "Software Management"
+msgstr "Идоракунии нармафзор"
+
+#: steps_gtk.pm:534 steps_interactive.pm:415
+#, c-format
+msgid "Choose the packages you want to install"
+msgstr "Бастаҳоеро, ки мехоҳед насб кунед, интихоб намоед"
+
+#: steps_gtk.pm:551 steps_interactive.pm:642 steps_list.pm:32
+#, c-format
+msgid "Installing"
+msgstr "Дар ҳоли насбкунӣ"
+
+#: steps_gtk.pm:581
+#, c-format
+msgid "No details"
+msgstr "Ягон тафсилот нест"
+
+#: steps_gtk.pm:600
+#, c-format
+msgid "Time remaining:"
+msgstr "Вақти боқимонда:"
+
+#: steps_gtk.pm:601
+#, c-format
+msgid "(estimating...)"
+msgstr "(баҳодиҳӣ...)"
+
+#: steps_gtk.pm:627
+#, c-format
+msgid "%d package"
+msgid_plural "%d packages"
+msgstr[0] "%d баста"
+msgstr[1] "%d баста"
+
+#: steps_gtk.pm:684 steps_interactive.pm:834 steps_list.pm:43
+#, c-format
+msgid "Summary"
+msgstr "Ҷамъбаст"
+
+#: steps_gtk.pm:703
+#, c-format
+msgid "Configure"
+msgstr "Танзим кардан"
+
+#: steps_gtk.pm:720 steps_interactive.pm:830 steps_interactive.pm:986
+#, c-format
+msgid "not configured"
+msgstr "танзимнашуда"
+
+#: steps_gtk.pm:763 steps_interactive.pm:315
+#, c-format
+msgid ""
+"The following installation media have been found.\n"
+"If you want to skip some of them, you can unselect them now."
+msgstr ""
+"Медиаи насбкунии зерин пайдо карда шуд.\n"
+"Агар шумо хоҳед, ки баъзеи онҳоро истифода набаред, интихоби онҳоро лағв "
+"кунед."
+
+#: steps_gtk.pm:779 steps_interactive.pm:321
+#, c-format
+msgid ""
+"You have the option to copy the contents of the CDs onto the hard disk drive "
+"before installation.\n"
+"It will then continue from the hard disk drive and the packages will remain "
+"available once the system is fully installed."
+msgstr ""
+"Шумо метавонед пеш аз оғози насб муҳтавои дискҳои CD-ро ба диски компютери "
+"худ нусха бардоред.\n"
+"Ҳамин тавр насб аз драйви диски компютерӣ идома дода мешавад ва баъд аз "
+"насби пурра бастаҳо дар система дастрас мешаванд."
+
+#: steps_gtk.pm:781 steps_interactive.pm:323
+#, c-format
+msgid "Copy whole CDs"
+msgstr "Нусхабардории ҳамаи дискҳои CD"
+
+#: steps_interactive.pm:40
+#, c-format
+msgid "An error occurred"
+msgstr "Хатое ба вуҷуд омад"
+
+#: steps_interactive.pm:105
+#, c-format
+msgid "Please choose your keyboard layout"
+msgstr "Лутфан, тарҳбандии клавиатураи худро интихоб кунед"
+
+#: steps_interactive.pm:109
+#, c-format
+msgid "Here is the full list of available keyboards:"
+msgstr "Рӯйхати пурраи клавиатураҳои дастрас:"
+
+#: steps_interactive.pm:153
+#, c-format
+msgid "Install/Upgrade"
+msgstr "Насбкунӣ/Тақмилдиҳӣ"
+
+#: steps_interactive.pm:157
+#, c-format
+msgid "Is this an install or an upgrade?"
+msgstr "Шумо насб мекунед ё такмил медиҳед?"
+
+#: steps_interactive.pm:159
+#, c-format
+msgid ""
+"_: This is a noun:\n"
+"Install"
+msgstr "Насбкунӣ"
+
+#: steps_interactive.pm:161
+#, c-format
+msgid "Upgrade %s"
+msgstr "Такмилдиҳии %s"
+
+#: steps_interactive.pm:184
+#, c-format
+msgid "Encryption key for %s"
+msgstr "Калиди рамзгузорӣ барои %s"
+
+#: steps_interactive.pm:217
+#, c-format
+msgid "Cancel installation, reboot system"
+msgstr "Бекор кардани насб, бозоғозии система"
+
+#: steps_interactive.pm:218
+#, c-format
+msgid "New Installation"
+msgstr "Насби нав"
+
+#: steps_interactive.pm:219
+#, c-format
+msgid "Upgrade previous installation (not recommended)"
+msgstr "Такмилдиҳии насби пешакӣ (тавсия дода намешавад)"
+
+#: steps_interactive.pm:223
+#, c-format
+msgid ""
+"Installer has detected that your installed Linux system could not\n"
+"safely be upgraded to %s.\n"
+"\n"
+"New installation replacing your previous one is recommended.\n"
+"\n"
+"Warning : you should backup all your personal data before choosing \"New\n"
+"Installation\"."
+msgstr ""
+"Насбкунанда муайян кард, ки системаи Linux-и насбшуда ба %s ба таври бехатар "
+"такмил дода намешавад.\n"
+"\n"
+"Насбкунии нав бо имкони ивазкунии насби пешакӣ тавсия дода мешавад.\n"
+"\n"
+"Огоҳӣ: пеш аз интихоби \"Насби нав\", шумо бояд нусхаи эҳтиётии ҳамаи "
+"маълумоти шахсии худ таҳия кунед."
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "Configuring CD/DVD"
+msgstr "Танзимкунии CD/DVD"
+
+#: steps_interactive.pm:354
+#, c-format
+msgid ""
+"Change your Cd-Rom!\n"
+"Please insert the Cd-Rom labelled \"%s\" in your drive and press Ok when "
+"done.\n"
+"If you do not have it, press Cancel to avoid installation from this Cd-Rom."
+msgstr ""
+"Cd-Rom-и зудро иваз кунед!\n"
+"Лутфан, Cd-Rom-ро бо тамғаи \"%s\" ба драйв дарҷ карда, тугмаи ОК-ро пахш "
+"намоед.\n"
+"Агар шумо онро надошта бошед, тугмаи “Бекор кардан”-ро пахш карда, насбкунии "
+"системаро аз драйви Cd-Rom лағв кунед."
+
+#: steps_interactive.pm:372
+#, c-format
+msgid "Looking for available packages..."
+msgstr "Дар ҳоли ҷустуҷӯи бастаҳои дастрас..."
+
+#: steps_interactive.pm:380
+#, c-format
+msgid ""
+"Your system does not have enough space left for installation or upgrade "
+"(%dMB > %dMB)"
+msgstr ""
+"Системаи шумо барои насбкунӣ ё такмилдиҳӣ фазои кофӣ надорад (%d МБ > %d МБ)"
+
+#: steps_interactive.pm:428
+#, c-format
+msgid ""
+"Please choose load or save package selection.\n"
+"The format is the same as auto_install generated files."
+msgstr ""
+"Лутфан, интихоби бастаро бор кунед ё захира намоед.\n"
+"Ин формат ба файлҳои таҳияшудаи auto_install монанд аст."
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Load"
+msgstr "Бор кардан"
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Save"
+msgstr "Захира кардан"
+
+#: steps_interactive.pm:438
+#, c-format
+msgid "Bad file"
+msgstr "Файли нодуруст"
+
+#: steps_interactive.pm:455
+#, c-format
+msgid "Plasma"
+msgstr "Plasma"
+
+#: steps_interactive.pm:456
+#, c-format
+msgid "GNOME"
+msgstr "GNOME"
+
+#: steps_interactive.pm:459
+#, c-format
+msgid "Desktop Selection"
+msgstr "Интихоби мизи корӣ"
+
+#: steps_interactive.pm:460
+#, c-format
+msgid "You can choose your workstation desktop profile."
+msgstr ""
+"Шумо метавонед профили мизи кориро барои компютери кории худ интихоб намоед."
+
+#: steps_interactive.pm:548
+#, c-format
+msgid "Selected size is larger than available space"
+msgstr "Андозаи интихобшуда аз фазои дастрас зиёд аст"
+
+#: steps_interactive.pm:572
+#, c-format
+msgid "Type of install"
+msgstr "Навъи насбкунӣ"
+
+#: steps_interactive.pm:573
+#, c-format
+msgid ""
+"You have not selected any group of packages.\n"
+"Please choose the minimal installation you want:"
+msgstr ""
+"Шумо ягон гурӯҳи бастаҳоро интихоб накардед.\n"
+"Лутфан, насбкунии камини дилхоҳатонро интихоб намоед:"
+
+#: steps_interactive.pm:578
+#, c-format
+msgid "With X"
+msgstr "Бо воситаи X"
+
+#: steps_interactive.pm:579
+#, c-format
+msgid "Install recommended packages"
+msgstr "Насб кардани бастаҳои тавсияшуда"
+
+#: steps_interactive.pm:580
+#, c-format
+msgid "With basic documentation (recommended!)"
+msgstr "Бо ҳуҷҷатҳои асосӣ (тавсия дода мешавад!)"
+
+#: steps_interactive.pm:581
+#, c-format
+msgid "Truly minimal install (especially no urpmi)"
+msgstr "Насбкунии камини ҳақиқӣ (алалхусус бе urpmi)"
+
+#: steps_interactive.pm:633
+#, c-format
+msgid "Preparing upgrade..."
+msgstr "Омодасозии такмил..."
+
+#: steps_interactive.pm:643
+#, c-format
+msgid "Preparing installation"
+msgstr "Омодасозии насб"
+
+#: steps_interactive.pm:651
+#, c-format
+msgid "Installing package %s"
+msgstr "Насбкунии бастаи %s"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "There was an error ordering packages:"
+msgstr "Ҳангоми дархосткунии бастаҳо хатое ба вуҷуд омад:"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "Go on anyway?"
+msgstr "Ба ҳар ҳол идома медиҳед?"
+
+#: steps_interactive.pm:679
+#, c-format
+msgid "Retry"
+msgstr "Аз нав кӯшиш кардан"
+
+#: steps_interactive.pm:680
+#, c-format
+msgid "Skip this package"
+msgstr "Лағв кардани ин баста"
+
+#: steps_interactive.pm:681
+#, c-format
+msgid "Skip all packages from medium \"%s\""
+msgstr "Лағв кардани ҳамаи бастаҳо аз медиаи \"%s\""
+
+#: steps_interactive.pm:682
+#, c-format
+msgid "Go back to media and packages selection"
+msgstr "Бозгашт ба медиа ва интихоби бастаҳо"
+
+#: steps_interactive.pm:685
+#, c-format
+msgid "There was an error installing package %s."
+msgstr "Ҳангоми насбкунии бастаи %s хатое ба вуҷуд омад."
+
+#: steps_interactive.pm:704
+#, c-format
+msgid "Post-install configuration"
+msgstr "Танзимкунии баъд аз насб"
+
+#: steps_interactive.pm:711
+#, c-format
+msgid "Please ensure the Update Modules media is in drive %s"
+msgstr ""
+"Лутфан, мутмаин шавед, ки медиаи навсозии модулҳо дар драйви %s мебошад"
+
+#: steps_interactive.pm:739 steps_interactive.pm:769 steps_list.pm:47
+#, c-format
+msgid "Updates"
+msgstr "Нав кардан"
+
+#: steps_interactive.pm:740
+#, c-format
+msgid "You now have the opportunity to setup online media."
+msgstr "Акнун шумо барои танзим кардани медиаи онлайн имконият доред."
+
+#: steps_interactive.pm:741
+#, c-format
+msgid "This allows to install security updates."
+msgstr "Ин амал барои насб кардани навсозиҳои амният иҷозат медиҳад."
+
+#: steps_interactive.pm:742
+#, c-format
+msgid ""
+"To setup those media, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to setup the update media?"
+msgstr ""
+"Барои насб кардани ин медиа, шумо бояд ба Интернет пайваст шавед.\n"
+"\n"
+"Шумо мехоҳед, ки медиаи навсозиро танзим кунед?"
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Иловакунии медиа иҷро нашуд"
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Retry?"
+msgstr "Такрор мекунед?"
+
+#: steps_interactive.pm:770
+#, c-format
+msgid ""
+"You now have the opportunity to download updated packages. These packages\n"
+"have been updated after the distribution was released. They may\n"
+"contain security or bug fixes.\n"
+"\n"
+"To download these packages, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to install the updates?"
+msgstr ""
+"Акнун шумо барои боргирӣ кардани бастаҳои навшуда имконият доред. Ин бастаҳо "
+"баъд аз санаи барориши ин дистрибутив нав карда шудаанд. Онҳо метавонанд "
+"ислоҳоти хатоҳо ва сатҳи амниятро дар бар гиранд.\n"
+"\n"
+"Барои боргирӣ кардани ин бастаҳо, шумо бояд ба Интернет пайваст шавед.\n"
+"\n"
+"Шумо мехоҳед, ки ин навсозиҳоро насб кунед?"
+
+#. -PO: example: lilo-graphic on /dev/hda1
+#: steps_interactive.pm:878
+#, c-format
+msgid "%s on %s"
+msgstr "%s дар %s"
+
+#: steps_interactive.pm:913 steps_interactive.pm:920 steps_interactive.pm:933
+#: steps_interactive.pm:950 steps_interactive.pm:965
+#, c-format
+msgid "Hardware"
+msgstr "Сахтафзор"
+
+#: steps_interactive.pm:934 steps_interactive.pm:951
+#, c-format
+msgid "Sound card"
+msgstr "Корти садо"
+
+#: steps_interactive.pm:948
+#, c-format
+msgid "Graphical interface"
+msgstr "Интерфейси графикӣ"
+
+#: steps_interactive.pm:972 steps_interactive.pm:984
+#, c-format
+msgid "Network & Internet"
+msgstr "Шабака ва Интернет"
+
+#: steps_interactive.pm:985
+#, c-format
+msgid "Proxies"
+msgstr "Проксиҳо"
+
+#: steps_interactive.pm:986
+#, c-format
+msgid "configured"
+msgstr "танзимшуда"
+
+#: steps_interactive.pm:996
+#, c-format
+msgid "Security Level"
+msgstr "Сатҳи амният"
+
+#: steps_interactive.pm:1016
+#, c-format
+msgid "Firewall"
+msgstr "Девори оташ"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "activated"
+msgstr "фаъол"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "disabled"
+msgstr "ғайрифаъол"
+
+#: steps_interactive.pm:1034
+#, c-format
+msgid "You have not configured X. Are you sure you really want this?"
+msgstr "Шумо сервери X-ро танзим накардед. Оё он ба шумо лозим аст?"
+
+#. -PO: This is NOT the boot loader (just the kernel initrds)!!!!
+#: steps_interactive.pm:1065
+#, c-format
+msgid "Preparing initial startup program..."
+msgstr "Омодасозии оғози ибтидоии барнома..."
+
+#: steps_interactive.pm:1066
+#, c-format
+msgid "Be patient, this may take a while..."
+msgstr "Лутфан, интизор шавед, ин метавонад андак вақт гирад..."
+
+#: steps_interactive.pm:1082
+#, c-format
+msgid ""
+"In this security level, access to the files in the Windows partition is "
+"restricted to the administrator."
+msgstr ""
+"Дар ин сатҳи бехатарӣ, дастрасӣ ба файлҳо дар қисматҳои Windows танҳо ба "
+"маъмур иҷозат дода мешавад."
+
+#: steps_interactive.pm:1114
+#, c-format
+msgid "Insert a blank floppy in drive %s"
+msgstr "Дискетаи холиро ба драйви %s дарҷ кунед"
+
+#: steps_interactive.pm:1116
+#, c-format
+msgid "Creating auto install floppy..."
+msgstr "Эҷодкунии дискетаи насбкунии худкор..."
+
+#: steps_interactive.pm:1127
+#, c-format
+msgid ""
+"Some steps are not completed.\n"
+"\n"
+"Do you really want to quit now?"
+msgstr ""
+"Баъзе қадамҳо иҷро карда нашуданд.\n"
+"\n"
+"Шумо мехоҳед, ки равандро ба анҷом расонед?"
+
+#: steps_interactive.pm:1137
+#, c-format
+msgid "Congratulations"
+msgstr "Табрик мекунем"
+
+#: steps_interactive.pm:1140
+#, c-format
+msgid "Reboot"
+msgstr "Бозоғозии система"
+
+#. -PO: please keep the following messages very short: they must fit in the left list of the installer!!!
+#: steps_list.pm:16
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Language"
+msgstr "Забон"
+
+#: steps_list.pm:16 steps_list.pm:23
+#, c-format
+msgid "Localization"
+msgstr "Маҳаллисозӣ"
+
+#: steps_list.pm:17
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"License"
+msgstr "Иҷозатнома"
+
+#: steps_list.pm:18
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Mouse"
+msgstr "Муш"
+
+#: steps_list.pm:19 steps_list.pm:20
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Hard drive detection"
+msgstr "Муайянкунии диски компютерӣ"
+
+#: steps_list.pm:21 steps_list.pm:22
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installation class"
+msgstr "Синфи насбкунӣ"
+
+#: steps_list.pm:23
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Keyboard"
+msgstr "Клавиатура"
+
+#: steps_list.pm:24
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Security"
+msgstr "Амният"
+
+#: steps_list.pm:25
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Partitioning"
+msgstr "Қисмбандӣ"
+
+#: steps_list.pm:27 steps_list.pm:28
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Formatting"
+msgstr "Шаклбандӣ"
+
+#: steps_list.pm:29
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Choosing packages"
+msgstr "Интихоби бастаҳо"
+
+#: steps_list.pm:31
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installing"
+msgstr "Дар ҳоли насб"
+
+#: steps_list.pm:34
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Users"
+msgstr "Корбарон"
+
+#: steps_list.pm:38 steps_list.pm:39
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Bootloader"
+msgstr "Боркунандаи роҳандозӣ"
+
+#: steps_list.pm:40 steps_list.pm:41
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Configure X"
+msgstr "Танзими X"
+
+#: steps_list.pm:42
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Summary"
+msgstr "Ҷамъбаст"
+
+#: steps_list.pm:44 steps_list.pm:45
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Services"
+msgstr "Хидматҳо"
+
+#: steps_list.pm:46
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Updates"
+msgstr "Навсозиҳо"
+
+#: steps_list.pm:48
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Exit"
+msgstr "Баромад"

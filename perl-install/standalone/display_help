@@ -1,0 +1,70 @@
+#!/usr/bin/perl
+
+# DrakBoot
+# Copyright (C) 2009 Mandriva
+# Thierry Vignaud
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+
+use lib qw(/usr/lib/libDrakX);
+use common;
+use any;
+use mygtk3 qw(gtknew);
+use ugtk3 qw(:wrappers :create);
+use Gtk3::WebKit2;
+
+my $view = gtknew('WebKit2_WebView', no_popup_menu => 1);
+
+$view->signal_connect('close', sub { ugtk3::exit(0) });
+
+$view->load_uri($ARGV[0]);
+
+# FIXME: merge this with mcc code into new mygtk3::set_standalone_main_window_size()?
+my ($rootwin_width, $rootwin_height) = mygtk3::root_window_size();
+my ($default_width, $default_height);
+my $wm = any::running_window_manager();
+my $is_firstime = to_bool($wm =~ /drakx-matchbox-window-manager/);
+
+if (!$is_firstime) {
+    # wide enough to embedd help snapshots:
+    $default_width  = $rootwin_width  <= 800 ? 720 : 840;
+    $default_height = $rootwin_height <= 480 ? 420 : $rootwin_height <= 600 ? 523 : 600;
+} else {
+    # full screen mode for First Time Wizard and the like:
+    ($default_width, $default_height) = ($rootwin_width, $rootwin_height);
+}
+
+# TODO: got XID from mcc/... ? (transient & modal hints?)
+my $w = ugtk3->new(N("Help"), width => $default_width, height => $default_height);
+
+gtkadd($w->{rwindow},
+       gtkpack_(Gtk3::VBox->new,
+                if_(!$is_firstime,
+                    0, gtknew('Title2', label => N("Help")),
+                    0, Gtk3::HSeparator->new,
+                ),
+                1, create_scrolled_window(gtkset_border_width($view, 5), [ 'never', 'automatic' ]),
+                #1, gtknew('ScrolledWindow', child => $view, border_width => 5, h_policy => 'never');
+                0, Gtk3::HSeparator->new,
+                if_(!$is_firstime,
+                    0, gtkpack(create_hbox('end'),
+                               gtknew('Button', text => N("Close"), clicked => sub { Gtk3->main_quit })
+                           ),
+                ),
+            ),
+   );
+
+$w->{real_window}->show_all;
+$w->main;

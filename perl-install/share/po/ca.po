@@ -1,0 +1,7046 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Davidmp <medipas@gmail.com>, 2016
+# Francesc Pinyol Margalef, 2012-2013,2015
+# Davidmp <medipas@gmail.com>, 2016-2018
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015,2017-2018
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-12-12 23:00+0100\n"
+"PO-Revision-Date: 2018-04-20 12:49+0000\n"
+"Last-Translator: Davidmp <medipas@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
+"ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: any.pm:263 any.pm:1026 diskdrake/interactive.pm:650
+#: diskdrake/interactive.pm:874 diskdrake/interactive.pm:936
+#: diskdrake/interactive.pm:1028 diskdrake/interactive.pm:1055
+#: diskdrake/interactive.pm:1286 diskdrake/interactive.pm:1344 do_pkgs.pm:342
+#: do_pkgs.pm:387 interactive.pm:712 pkgs.pm:293
+#, c-format
+msgid "Please wait"
+msgstr "Espereu, si us plau."
+
+#: any.pm:263
+#, c-format
+msgid "Bootloader installation in progress"
+msgstr "Instal·lació del gestor d'arrencada en curs"
+
+#: any.pm:274
+#, c-format
+msgid ""
+"LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+"the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+"error.\n"
+"This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+"\n"
+"Assign a new Volume ID?"
+msgstr ""
+"LILO vol assignar un nou id. de volum a la unitat %s.  Tanmateix, canviar "
+"l'id. de volum\n"
+"d'un disc d'arrencada Windows NT, 2000 o XP és un error fatal de Windows.\n"
+"Aquesta precaució no s'aplica a Windows 95 o 98, als discs de dades de NT.\n"
+"\n"
+"Voleu assignar un nou id. de volum?"
+
+#: any.pm:285
+#, c-format
+msgid "Installation of bootloader failed. The following error occurred:"
+msgstr ""
+"Ha fallat la instal·lació del gestor d'arrencada. S'ha produït l'error "
+"següent:"
+
+#: any.pm:325
+#, c-format
+msgid ""
+"You decided to install the bootloader on a partition.\n"
+"This implies you already have a bootloader on the hard disk drive you boot "
+"(eg: System Commander).\n"
+"\n"
+"On which drive are you booting?"
+msgstr ""
+"Heu decidit instal·lar el gestor de l'arrencada en una partició.\n"
+"Això implica que ja teniu un gestor d'arrencada en el disc des del qual "
+"arrenqueu (p. ex.: System Commander).\n"
+"\n"
+"En quina unitat arrenqueu?"
+
+#: any.pm:336
+#, c-format
+msgid "Bootloader Installation"
+msgstr "Instal·lació del gestor d'arrencada"
+
+#: any.pm:340
+#, c-format
+msgid "Where do you want to install the bootloader?"
+msgstr "On voleu instal·lar el gestor d'arrencada?"
+
+#: any.pm:356
+#, c-format
+msgid "First sector (MBR) of drive %s"
+msgstr "Primer sector (MBR) del disc %s"
+
+#: any.pm:358
+#, c-format
+msgid "First sector of drive (MBR)"
+msgstr "Primer sector de la unitat (MBR)"
+
+#: any.pm:360
+#, c-format
+msgid "First sector of the root partition"
+msgstr "Primer sector de la partició de root"
+
+#: any.pm:362
+#, c-format
+msgid "On Floppy"
+msgstr "En el disquet"
+
+#: any.pm:364 pkgs.pm:289 ugtk2.pm:526 ugtk3.pm:600
+#, c-format
+msgid "Skip"
+msgstr "Omet"
+
+#: any.pm:392
+#, c-format
+msgid "Boot Style Configuration"
+msgstr "Configuració del tipus d'arrencada"
+
+#: any.pm:396
+#, c-format
+msgid "EFI System Partition"
+msgstr "Partició EFI del sistema"
+
+#: any.pm:411
+#, c-format
+msgid "Bootloader main options"
+msgstr "Opcions principals del gestor d'arrencada"
+
+#: any.pm:415
+#, c-format
+msgid "Bootloader"
+msgstr "Gestor d'arrencada"
+
+#: any.pm:416
+#, c-format
+msgid "Bootloader to use"
+msgstr "Gestor d'arrencada que s'ha d'utilitzar"
+
+#: any.pm:418
+#, c-format
+msgid "Boot device"
+msgstr "Dispositiu d'arrencada"
+
+#: any.pm:420
+#, c-format
+msgid "Main options"
+msgstr "Opcions principals"
+
+#: any.pm:421
+#, c-format
+msgid "Delay before booting default image"
+msgstr "Retard abans d'arrencar la imatge predeterminada"
+
+#: any.pm:422
+#, c-format
+msgid "Enable ACPI"
+msgstr "Habilita ACPI"
+
+#: any.pm:423
+#, c-format
+msgid "Enable SMP"
+msgstr "Habilita SMP"
+
+#: any.pm:424
+#, c-format
+msgid "Enable APIC"
+msgstr "Habilita APIC"
+
+#: any.pm:426
+#, c-format
+msgid "Enable Local APIC"
+msgstr "Habilita APIC local"
+
+#: any.pm:427 security/level.pm:63
+#, c-format
+msgid "Security"
+msgstr "Seguretat"
+
+#: any.pm:428 any.pm:950 any.pm:969 authentication.pm:249
+#: diskdrake/smbnfs_gtk.pm:181
+#, c-format
+msgid "Password"
+msgstr "Contrasenya"
+
+#: any.pm:431 authentication.pm:260
+#, c-format
+msgid "The passwords do not match"
+msgstr "Les contrasenyes no coincideixen"
+
+#: any.pm:431 authentication.pm:260 diskdrake/interactive.pm:1513
+#, c-format
+msgid "Please try again"
+msgstr "Si us plau, torneu-ho a intentar"
+
+#: any.pm:433
+#, c-format
+msgid "You cannot use a password with %s"
+msgstr "No podeu utilitzar una contrasenya amb %s"
+
+#: any.pm:437 any.pm:953 any.pm:971 authentication.pm:250
+#, c-format
+msgid "Password (again)"
+msgstr "Contrasenya (un altre cop)"
+
+#: any.pm:502
+#, c-format
+msgid "Image"
+msgstr "Imatge"
+
+#: any.pm:503 any.pm:515
+#, c-format
+msgid "Root"
+msgstr "Arrel"
+
+#: any.pm:504 any.pm:642
+#, c-format
+msgid "Append"
+msgstr "Afegeix"
+
+#: any.pm:506
+#, c-format
+msgid "Xen append"
+msgstr "Annex Xen"
+
+#: any.pm:508
+#, c-format
+msgid "Requires password to boot"
+msgstr "Cal una contrasenya per a arrencar"
+
+#: any.pm:509 any.pm:643
+#, c-format
+msgid "Video mode"
+msgstr "Mode de vídeo"
+
+#: any.pm:510
+#, c-format
+msgid "Initrd"
+msgstr "Initrd"
+
+#: any.pm:511
+#, c-format
+msgid "Network profile"
+msgstr "Perfil de xarxa"
+
+#: any.pm:519 diskdrake/interactive.pm:411
+#, c-format
+msgid "Label"
+msgstr "Etiqueta"
+
+#: any.pm:521 any.pm:640 harddrake/v4l.pm:438
+#, c-format
+msgid "Default"
+msgstr "Predeterminat"
+
+#: any.pm:529
+#, c-format
+msgid "Empty label not allowed"
+msgstr "No es permet una etiqueta buida"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a kernel image"
+msgstr "Heu d'especificar una imatge de kernel"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a root partition"
+msgstr "Heu d'especificar una partició arrel"
+
+#: any.pm:531
+#, c-format
+msgid "This label is already used"
+msgstr "Aquesta etiqueta ja està en ús"
+
+#: any.pm:549
+#, c-format
+msgid "Which type of entry do you want to add?"
+msgstr "Quin tipus d'entrada voleu afegir?"
+
+#: any.pm:550
+#, c-format
+msgid "Linux"
+msgstr "Linux"
+
+#: any.pm:550
+#, c-format
+msgid "Other OS (Windows...)"
+msgstr "Un altre SO (Windows...)"
+
+#: any.pm:597 any.pm:636
+#, c-format
+msgid "Bootloader Configuration"
+msgstr "Configuració del gestor d'arrencada"
+
+#: any.pm:598
+#, c-format
+msgid ""
+"Here are the entries on your boot menu so far.\n"
+"You can create additional entries or change the existing ones."
+msgstr ""
+"Aquestes són les diferents entrades en el menú d'arrencada.\n"
+"Podeu afegir-ne més o canviar les existents."
+
+#: any.pm:645
+#, c-format
+msgid "Do not touch ESP or MBR"
+msgstr "No toquis l'ESP o l'MBR"
+
+#: any.pm:647 diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:458
+#: diskdrake/interactive.pm:305 diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:605 diskdrake/interactive.pm:820
+#: diskdrake/interactive.pm:885 diskdrake/interactive.pm:1053
+#: diskdrake/interactive.pm:1095 diskdrake/interactive.pm:1096
+#: diskdrake/interactive.pm:1329 diskdrake/interactive.pm:1367
+#: diskdrake/interactive.pm:1512 do_pkgs.pm:45 do_pkgs.pm:74 do_pkgs.pm:100
+#: do_pkgs.pm:137
+#, c-format
+msgid "Warning"
+msgstr "Advertència"
+
+#: any.pm:648
+#, c-format
+msgid ""
+"Not installing on ESP or MBR means that the installation is not bootable "
+"unless chain loaded from another OS!"
+msgstr ""
+"Si no s'instal·la a l'MBR o l'ESP vol dir que la instal·lació no és "
+"arrencable si no és que s'encadeni des d'un altre sistema operatiu!"
+
+#: any.pm:652
+#, c-format
+msgid "Probe Foreign OS"
+msgstr "Comprova si hi ha altres sistemes operatius"
+
+#: any.pm:653
+#, c-format
+msgid ""
+"If grub2 takes too long to install, you can use this option to skip "
+"detecting other OSes and make it fast"
+msgstr ""
+"Si el grub2 triga massa a instal·lar-se, podeu utilitzar aquesta opció per "
+"ometre la detecció d'altres sistemes i avançar més de pressa."
+
+#: any.pm:909
+#, c-format
+msgid "access to X programs"
+msgstr "accés als programes de les X"
+
+#: any.pm:910
+#, c-format
+msgid "access to rpm tools"
+msgstr "accés a les eines rpm"
+
+#: any.pm:911
+#, c-format
+msgid "allow \"su\""
+msgstr "permet «su»"
+
+#: any.pm:912
+#, c-format
+msgid "access to administrative files"
+msgstr "accés als fitxers administratius"
+
+#: any.pm:913
+#, c-format
+msgid "access to network tools"
+msgstr "accés a les eines de xarxa"
+
+#: any.pm:914
+#, c-format
+msgid "access to compilation tools"
+msgstr "accés a les eines de compilació"
+
+#: any.pm:920
+#, c-format
+msgid "(already added %s)"
+msgstr "(ja s'ha afegit %s)"
+
+#: any.pm:926
+#, c-format
+msgid "Please give a user name"
+msgstr "Introduïu un nom d'usuari"
+
+#: any.pm:927
+#, c-format
+msgid ""
+"The user name must start with a lower case letter followed by only lower "
+"cased letters, numbers, `-' and `_'"
+msgstr ""
+"El nom d'usuari ha de començar amb una lletra minúscula seguida només per "
+"lletres minúscules, nombres, «-» i «_»"
+
+#: any.pm:928
+#, c-format
+msgid "The user name is too long"
+msgstr "El nom d'usuari és massa llarg"
+
+#: any.pm:929
+#, c-format
+msgid "This user name has already been added"
+msgstr "Aquest nom d'usuari ja s'ha afegit"
+
+#: any.pm:935 any.pm:973
+#, c-format
+msgid "User ID"
+msgstr "Id. d'usuari"
+
+#: any.pm:935 any.pm:974
+#, c-format
+msgid "Group ID"
+msgstr "Id. de grup"
+
+#: any.pm:936
+#, c-format
+msgid "%s must be a number"
+msgstr "%s ha de ser un número"
+
+#: any.pm:937
+#, c-format
+msgid "%s should be above 1000. Accept anyway?"
+msgstr "%s hauria de ser superior a 1000. Continuar tot i això?"
+
+#: any.pm:941
+#, c-format
+msgid "User management"
+msgstr "Gestió d'usuaris"
+
+#: any.pm:947
+#, c-format
+msgid "Enable guest account"
+msgstr "Habilita el compte de convidat"
+
+#: any.pm:949 authentication.pm:236
+#, c-format
+msgid "Set administrator (root) password"
+msgstr "Establiu la contrasenya de l'administrador (root)"
+
+#: any.pm:955
+#, c-format
+msgid "Enter a user"
+msgstr "Introduïu un usuari"
+
+#: any.pm:957
+#, c-format
+msgid "Icon"
+msgstr "Icona"
+
+#: any.pm:960
+#, c-format
+msgid "Real name"
+msgstr "Nom real"
+
+#: any.pm:967
+#, c-format
+msgid "Login name"
+msgstr "Nom d'accés"
+
+#: any.pm:972
+#, c-format
+msgid "Shell"
+msgstr "Shell"
+
+#: any.pm:976
+#, c-format
+msgid "Extra Groups:"
+msgstr "Grups extres:"
+
+#: any.pm:1026
+#, c-format
+msgid "Please wait, adding media..."
+msgstr "Espereu, si us plau; s'estan afegint els mitjans..."
+
+#: any.pm:1078 security/l10n.pm:14
+#, c-format
+msgid "Autologin"
+msgstr "Entrada automàtica"
+
+#: any.pm:1079
+#, c-format
+msgid "I can set up your computer to automatically log on one user."
+msgstr ""
+"Puc configurar el vostre ordinador de manera que entri automàticament amb un "
+"nom d'usuari."
+
+#: any.pm:1080
+#, c-format
+msgid "Use this feature"
+msgstr "Utilitza aquesta característica"
+
+#: any.pm:1081
+#, c-format
+msgid "Choose the default user:"
+msgstr "Escolliu l'usuari per defecte:"
+
+#: any.pm:1082
+#, c-format
+msgid "Choose the window manager to run:"
+msgstr "Escolliu el gestor de finestres per executar:"
+
+#: any.pm:1093 any.pm:1108 any.pm:1177
+#, c-format
+msgid "Release Notes"
+msgstr "Notes de la versió"
+
+#: any.pm:1115 any.pm:1476 interactive/gtk.pm:820
+#, c-format
+msgid "Close"
+msgstr "Tanca"
+
+#: any.pm:1163
+#, c-format
+msgid "License agreement"
+msgstr "Acord de llicència"
+
+#: any.pm:1165 diskdrake/dav.pm:26 mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Quit"
+msgstr "Surt"
+
+#: any.pm:1172
+#, c-format
+msgid "Do you accept this license ?"
+msgstr "Accepteu aquesta llicència?"
+
+#: any.pm:1173
+#, c-format
+msgid "Accept"
+msgstr "Accepta"
+
+#: any.pm:1173
+#, c-format
+msgid "Refuse"
+msgstr "Rebutja"
+
+#: any.pm:1199 any.pm:1262
+#, c-format
+msgid "Please choose a language to use"
+msgstr "Trieu l'idioma que voleu utilitzar"
+
+#: any.pm:1227
+#, c-format
+msgid ""
+"%s can support multiple languages. Select\n"
+"the languages you would like to install. They will be available\n"
+"when your installation is complete and you restart your system."
+msgstr ""
+"%s dóna suport a diversos idiomes. Seleccioneu\n"
+"els idiomes que voleu instal·lar. Estaran disponibles\n"
+"quan la instal·lació hagi acabat i reinicieu l'ordinador."
+
+#: any.pm:1229 fs/partitioning_wizard.pm:194
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: any.pm:1230
+#, c-format
+msgid "Multiple languages"
+msgstr "Diversos idiomes"
+
+#: any.pm:1231
+#, c-format
+msgid "Select Additional Languages"
+msgstr "Selecciona els idiomes addicionals"
+
+#: any.pm:1240 any.pm:1271
+#, c-format
+msgid "Old compatibility (non UTF-8) encoding"
+msgstr "Compatibilitat amb la codificació antiga (no UTF-8)"
+
+#: any.pm:1241
+#, c-format
+msgid "All languages"
+msgstr "Tots els idiomes"
+
+#: any.pm:1263
+#, c-format
+msgid "Language choice"
+msgstr "Tria d'idioma"
+
+#: any.pm:1317
+#, c-format
+msgid "Country / Region"
+msgstr "País / Regió"
+
+#: any.pm:1318
+#, c-format
+msgid "Please choose your country"
+msgstr "Seleccioneu el vostre país"
+
+#: any.pm:1320
+#, c-format
+msgid "Here is the full list of available countries"
+msgstr "Aquesta és la llista completa de països"
+
+#: any.pm:1321
+#, c-format
+msgid "Other Countries"
+msgstr "Altres països"
+
+#: any.pm:1321 interactive.pm:491 interactive/gtk.pm:444
+#, c-format
+msgid "Advanced"
+msgstr "Avançat"
+
+#: any.pm:1327
+#, c-format
+msgid "Input method:"
+msgstr "Mètode d'entrada:"
+
+#: any.pm:1330
+#, c-format
+msgid "None"
+msgstr "Cap"
+
+#: any.pm:1421
+#, c-format
+msgid "No sharing"
+msgstr "No es comparteix"
+
+#: any.pm:1421
+#, c-format
+msgid "Allow all users"
+msgstr "Permet tots els usuaris"
+
+#: any.pm:1421
+#, c-format
+msgid "Custom"
+msgstr "Personalitzat"
+
+#: any.pm:1425
+#, c-format
+msgid ""
+"Would you like to allow users to share some of their directories?\n"
+"Allowing this will permit users to simply click on \"Share\" in konqueror "
+"and nautilus.\n"
+"\n"
+"\"Custom\" permit a per-user granularity.\n"
+msgstr ""
+"Voleu permetre als usuaris compartir alguns dels seus directoris?\n"
+"Si s'habilita, permetrà als usuaris fer un simple clic a «Comparteix» a "
+"konqueror i nautilus.\n"
+"\n"
+"«Personalitzat» permet configurar cada usuari per separat.\n"
+
+#: any.pm:1437
+#, c-format
+msgid ""
+"NFS: the traditional Unix file sharing system, with less support on Mac and "
+"Windows."
+msgstr ""
+"NFS: el sistema de compartició de fitxers tradicional d'Unix, amb menys "
+"compatibilitat a Mac i Windows."
+
+#: any.pm:1440
+#, c-format
+msgid ""
+"SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
+"systems."
+msgstr ""
+"SMB: un sistema de compartició de fitxers utilitzat per Windows, Mac OS X i "
+"molts sistemes Linux moderns."
+
+#: any.pm:1448
+#, c-format
+msgid ""
+"You can export using NFS or SMB. Please select which you would like to use."
+msgstr "Podeu exportar mitjançant NFS o SMB. Seleccioneu quin voleu utilitzar."
+
+#: any.pm:1476
+#, c-format
+msgid "Launch userdrake"
+msgstr "Executa userdrake"
+
+#: any.pm:1478
+#, c-format
+msgid ""
+"The per-user sharing uses the group \"fileshare\". \n"
+"You can use userdrake to add a user to this group."
+msgstr ""
+"La compartició en funció de l'usuari utilitza el grup «fileshare».\n"
+"Podeu utilitzar userdrake per afegir un usuari a aquest grup."
+
+#: any.pm:1585
+#, c-format
+msgid ""
+"You need to logout and back in again for changes to take effect. Press OK to "
+"logout now."
+msgstr ""
+"Heu de sortir i tornar a entrar perquè els canvis tinguin efecte. Premeu "
+"«D'acord» per a sortir ara mateix."
+
+#: any.pm:1589
+#, c-format
+msgid "You need to log out and back in again for changes to take effect"
+msgstr "Heu de sortir i tornar a entrar perquè els canvis tinguin efecte"
+
+#: any.pm:1624
+#, c-format
+msgid "Timezone"
+msgstr "Zona horària"
+
+#: any.pm:1624
+#, c-format
+msgid "Which is your timezone?"
+msgstr "En quina zona horària us trobeu?"
+
+#: any.pm:1647 any.pm:1649
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Paràmetres de la data, del rellotge i de la zona horària"
+
+#: any.pm:1650
+#, c-format
+msgid "What is the best time?"
+msgstr "Quina és la millor hora?"
+
+#: any.pm:1654
+#, c-format
+msgid "%s (hardware clock set to UTC)"
+msgstr "%s (el rellotge de maquinari està establert a UTC)"
+
+#: any.pm:1655
+#, c-format
+msgid "%s (hardware clock set to local time)"
+msgstr "%s (el rellotge de maquinari està establert a hora local)"
+
+#: any.pm:1657
+#, c-format
+msgid "NTP Server"
+msgstr "Servidor NTP"
+
+#: any.pm:1658
+#, c-format
+msgid "Automatic time synchronization (using NTP)"
+msgstr "Sincronització automàtica de l'hora (mitjançant NTP)"
+
+#: authentication.pm:24
+#, c-format
+msgid "Local file"
+msgstr "Fitxer local"
+
+#: authentication.pm:25
+#, c-format
+msgid "LDAP"
+msgstr "LDAP"
+
+#: authentication.pm:26
+#, c-format
+msgid "NIS"
+msgstr "NIS"
+
+#: authentication.pm:27
+#, c-format
+msgid "Smart Card"
+msgstr "Smart Card"
+
+#: authentication.pm:28 authentication.pm:215
+#, c-format
+msgid "Windows Domain"
+msgstr "Domini de Windows"
+
+#: authentication.pm:29
+#, c-format
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: authentication.pm:65
+#, c-format
+msgid "Local file:"
+msgstr "Fitxer local:"
+
+#: authentication.pm:65
+#, c-format
+msgid ""
+"Use local for all authentication and information user tell in local file"
+msgstr ""
+"Utilitza local per a tota autenticació i informació que l'usuari digui al "
+"fitxer local"
+
+#: authentication.pm:66
+#, c-format
+msgid "LDAP:"
+msgstr "LDAP:"
+
+#: authentication.pm:66
+#, c-format
+msgid ""
+"Tells your computer to use LDAP for some or all authentication. LDAP "
+"consolidates certain types of information within your organization."
+msgstr ""
+"El vostre ordinador utilitzarà LDAP per alguna o totes les autenticacions. "
+"LDAP consolida certs tipus d'informació dintre de les organitzacions."
+
+#: authentication.pm:67
+#, c-format
+msgid "NIS:"
+msgstr "NIS:"
+
+#: authentication.pm:67
+#, c-format
+msgid ""
+"Allows you to run a group of computers in the same Network Information "
+"Service domain with a common password and group file."
+msgstr ""
+"Us permet executar un grup d'equips al mateix domini Network Information "
+"Service amb una contrasenya comuna i un fitxer de grup."
+
+#: authentication.pm:68
+#, c-format
+msgid "Windows Domain:"
+msgstr "Domini de Windows:"
+
+#: authentication.pm:68
+#, c-format
+msgid ""
+"Winbind allows the system to retrieve information and authenticate users in "
+"a Windows domain."
+msgstr ""
+"Winbind permet que el sistema recuperi informació i autentiqui usuaris en un "
+"domini de Windows."
+
+#: authentication.pm:69
+#, c-format
+msgid "Kerberos 5 :"
+msgstr "Kerberos 5:"
+
+#: authentication.pm:69
+#, c-format
+msgid "With Kerberos and LDAP for authentication in Active Directory Server "
+msgstr ""
+"Amb Kerberos i LDAP per a l'autenticació en el servidor Active Directory."
+
+#: authentication.pm:106 authentication.pm:140 authentication.pm:159
+#: authentication.pm:160 authentication.pm:186 authentication.pm:210
+#: authentication.pm:881
+#, c-format
+msgid " "
+msgstr " "
+
+#: authentication.pm:107 authentication.pm:141 authentication.pm:187
+#: authentication.pm:211
+#, c-format
+msgid "Welcome to the Authentication Wizard"
+msgstr "Benvingut a l'auxiliar d'autenticació"
+
+#: authentication.pm:109
+#, c-format
+msgid ""
+"You have selected LDAP authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Heu seleccionat l'autenticació LDAP. Reviseu a continuació les opcions de "
+"configuració "
+
+#: authentication.pm:111 authentication.pm:166
+#, c-format
+msgid "LDAP Server"
+msgstr "Servidor LDAP"
+
+#: authentication.pm:112 authentication.pm:167
+#, c-format
+msgid "Base dn"
+msgstr "DN base"
+
+#: authentication.pm:113
+#, c-format
+msgid "Fetch base Dn "
+msgstr "Captura el DN base"
+
+#: authentication.pm:115 authentication.pm:170
+#, c-format
+msgid "Use encrypt connection with TLS "
+msgstr "Utilitza connexió xifrada amb TLS"
+
+#: authentication.pm:116 authentication.pm:171
+#, c-format
+msgid "Download CA Certificate "
+msgstr "Baixa el certificat de l'AC"
+
+#: authentication.pm:118 authentication.pm:151
+#, c-format
+msgid "Use Disconnect mode "
+msgstr "Utilitza el mode desconnectat"
+
+#: authentication.pm:119 authentication.pm:172
+#, c-format
+msgid "Use anonymous BIND "
+msgstr "Utilitza BIND anònim "
+
+#: authentication.pm:120 authentication.pm:123 authentication.pm:125
+#: authentication.pm:129
+#, c-format
+msgid "  "
+msgstr "  "
+
+#: authentication.pm:121 authentication.pm:173
+#, c-format
+msgid "Bind DN "
+msgstr "DN del bind"
+
+#: authentication.pm:122 authentication.pm:174
+#, c-format
+msgid "Bind Password "
+msgstr "Contrasenya del bind"
+
+#: authentication.pm:124
+#, c-format
+msgid "Advanced path for group "
+msgstr "Camí avançat per al grup "
+
+#: authentication.pm:126
+#, c-format
+msgid "Password base"
+msgstr "Contrasenya de la base"
+
+#: authentication.pm:127
+#, c-format
+msgid "Group base"
+msgstr "Grup de la base"
+
+#: authentication.pm:128
+#, c-format
+msgid "Shadow base"
+msgstr "Shadow de la base"
+
+#: authentication.pm:143
+#, c-format
+msgid ""
+"You have selected Kerberos 5 authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Heu seleccionat l'autenticació Kerberos 5. Reviseu a continuació les opcions "
+"de configuració "
+
+#: authentication.pm:145
+#, c-format
+msgid "Realm "
+msgstr "Reialme "
+
+#: authentication.pm:147
+#, c-format
+msgid "KDCs Servers"
+msgstr "Servidors KDC"
+
+#: authentication.pm:149
+#, c-format
+msgid "Use DNS to locate KDC for the realm"
+msgstr "Utilitza el DNS per localitzar els KDC per al reialme"
+
+#: authentication.pm:150
+#, c-format
+msgid "Use DNS to locate realms"
+msgstr "Utilitza el DNS per localitzar els reialmes"
+
+#: authentication.pm:155
+#, c-format
+msgid "Use local file for users information"
+msgstr "Utilitza un fitxer local per a la informació dels usuaris"
+
+#: authentication.pm:156
+#, c-format
+msgid "Use LDAP for users information"
+msgstr "Utilitza LDAP per a la informació dels usuaris"
+
+#: authentication.pm:162
+#, c-format
+msgid ""
+"You have selected Kerberos 5 for authentication, now you must choose the "
+"type of users information "
+msgstr ""
+"Heu seleccionat Kerberos 5 per a l'autenticació, ara heu de triar el tipus "
+"d'informació dels usuaris "
+
+#: authentication.pm:168
+#, c-format
+msgid "Fecth base Dn "
+msgstr "Recull Dn de la base"
+
+#: authentication.pm:189
+#, c-format
+msgid ""
+"You have selected NIS authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Heu seleccionat l'autenticació NIS. Reviseu a continuació les opcions de "
+"configuració "
+
+#: authentication.pm:191
+#, c-format
+msgid "NIS Domain"
+msgstr "Domini NIS"
+
+#: authentication.pm:192
+#, c-format
+msgid "NIS Server"
+msgstr "Servidor NIS"
+
+#: authentication.pm:213
+#, c-format
+msgid ""
+"You have selected Windows Domain authentication. Please review the "
+"configuration options below "
+msgstr ""
+"Heu seleccionat l'autenticació Windows Domain. Reviseu a continuació les "
+"opcions de configuració "
+
+#: authentication.pm:217
+#, c-format
+msgid "Domain Model "
+msgstr "Model de domini"
+
+#: authentication.pm:219
+#, c-format
+msgid "Active Directory Realm "
+msgstr "Reialme d'«Active Directory» "
+
+#: authentication.pm:220
+#, c-format
+msgid "DNS Domain"
+msgstr "Domini DNS"
+
+#: authentication.pm:221
+#, c-format
+msgid "DC Server"
+msgstr "Servidor DC"
+
+#: authentication.pm:235 authentication.pm:251
+#, c-format
+msgid "Authentication"
+msgstr "Autenticació"
+
+#: authentication.pm:237
+#, c-format
+msgid "Authentication method"
+msgstr "Mètode d'autenticació"
+
+#. -PO: keep this short or else the buttons will not fit in the window
+#: authentication.pm:242
+#, c-format
+msgid "No password"
+msgstr "Sense contrasenya"
+
+#: authentication.pm:263
+#, c-format
+msgid "This password is too short (it must be at least %d characters long)"
+msgstr ""
+"Aquesta contrasenya és massa curta (ha de tenir com a mínim %d caràcters)"
+
+#: authentication.pm:375
+#, c-format
+msgid "Cannot use broadcast with no NIS domain"
+msgstr "No es pot utilitzar la difusió sense un domini NIS"
+
+#: authentication.pm:876
+#, c-format
+msgid "Select file"
+msgstr "Seleccioneu el fitxer"
+
+#: authentication.pm:882
+#, c-format
+msgid "Domain Windows for authentication : "
+msgstr "Domini de Windows per a l'autenticació: "
+
+#: authentication.pm:884
+#, c-format
+msgid "Domain Admin User Name"
+msgstr "Nom d'usuari de l'administrador del domini"
+
+#: authentication.pm:885
+#, c-format
+msgid "Domain Admin Password"
+msgstr "Contrasenya de l'administrador del domini"
+
+#. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
+#: bootloader.pm:1122
+#, c-format
+msgid ""
+"Welcome to the operating system chooser!\n"
+"\n"
+"Choose an operating system from the list above or\n"
+"wait for default boot.\n"
+"\n"
+msgstr ""
+"Benvingut al selector de sistema operatiu!\n"
+"\n"
+"Trieu un sistema operatiu de la llista superior, o espereu\n"
+"per arrencar en el sistema operatiu predeterminat.\n"
+"\n"
+
+#: bootloader.pm:1287
+#, c-format
+msgid "LILO with text menu"
+msgstr "LILO amb menú de text"
+
+#: bootloader.pm:1288
+#, c-format
+msgid "GRUB2 with graphical menu"
+msgstr "GRUB2 amb menú gràfic"
+
+#: bootloader.pm:1289
+#, c-format
+msgid "GRUB2 with text menu"
+msgstr "GRUB2 amb menú de text"
+
+#: bootloader.pm:1290
+#, c-format
+msgid "GRUB with graphical menu"
+msgstr "GRUB amb menú gràfic"
+
+#: bootloader.pm:1291
+#, c-format
+msgid "GRUB with text menu"
+msgstr "GRUB amb menú de text"
+
+#: bootloader.pm:1378
+#, c-format
+msgid "not enough room in /boot"
+msgstr "no hi ha prou espai a /boot"
+
+#: bootloader.pm:2393
+#, c-format
+msgid ""
+"Your bootloader configuration must be updated because partition has been "
+"renumbered"
+msgstr ""
+"La configuració del vostre gestor d'arrencada s'ha d'actualitzar, ja que la "
+"partició ha estat renumerada"
+
+#: bootloader.pm:2406
+#, c-format
+msgid ""
+"The bootloader cannot be installed correctly. You have to boot rescue and "
+"choose \"%s\""
+msgstr ""
+"El gestor d'arrencada no s'ha pogut instal·lar correctament. Heu d'arrencar "
+"amb l'opció de rescat i escollir «%s»"
+
+#: bootloader.pm:2407
+#, c-format
+msgid "Re-install Boot Loader"
+msgstr "Reinstal·la el gestor d'arrencada"
+
+#: common.pm:271
+#, c-format
+msgid "B"
+msgstr "B"
+
+#: common.pm:271
+#, c-format
+msgid "KB"
+msgstr "KB"
+
+#: common.pm:271
+#, c-format
+msgid "MB"
+msgstr "MB"
+
+#: common.pm:271
+#, c-format
+msgid "GB"
+msgstr "GB"
+
+#: common.pm:271 common.pm:280
+#, c-format
+msgid "TB"
+msgstr "TB"
+
+#. -PO: here, "2:30" is remaining installation time (eg: "2:30" == 2 hour & 30 minutes)
+#: common.pm:288
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#: common.pm:290
+#, c-format
+msgid "%d minutes"
+msgstr "%d minuts"
+
+#: common.pm:292
+#, c-format
+msgid "1 minute"
+msgstr "1 minut"
+
+#: common.pm:294
+#, c-format
+msgid "%d seconds"
+msgstr "%d segons"
+
+#: diskdrake/dav.pm:17
+#, c-format
+msgid ""
+"WebDAV is a protocol that allows you to mount a web server's directory\n"
+"locally, and treat it like a local filesystem (provided the web server is\n"
+"configured as a WebDAV server). If you would like to add WebDAV mount\n"
+"points, select \"New\"."
+msgstr ""
+"WebDAV és un protocol que permet muntar un directori d'un servidor web\n"
+"localment, i tractar-lo com si fos un sistema de fitxers local (amb el "
+"benentès\n"
+"que el servidor web està configurat com a servidor WebDAV). Si voleu afegir\n"
+"punts de muntatge WebDAV, seleccioneu «Nou»."
+
+#: diskdrake/dav.pm:25
+#, c-format
+msgid "New"
+msgstr "Nou"
+
+#: diskdrake/dav.pm:63 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:75
+#, c-format
+msgid "Unmount"
+msgstr "Desmunta"
+
+#: diskdrake/dav.pm:64 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:76
+#, c-format
+msgid "Mount"
+msgstr "Munta"
+
+#: diskdrake/dav.pm:65
+#, c-format
+msgid "Server"
+msgstr "Servidor"
+
+#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
+#: diskdrake/interactive.pm:727 diskdrake/interactive.pm:745
+#: diskdrake/interactive.pm:749 diskdrake/removable.pm:23
+#: diskdrake/smbnfs_gtk.pm:79
+#, c-format
+msgid "Mount point"
+msgstr "Punt de muntatge"
+
+#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
+#: diskdrake/interactive.pm:1182 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:80
+#, c-format
+msgid "Options"
+msgstr "Opcions"
+
+#: diskdrake/dav.pm:68 interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Remove"
+msgstr "Elimina"
+
+#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:221 diskdrake/removable.pm:26
+#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
+#, c-format
+msgid "Done"
+msgstr "Fet"
+
+#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:153 diskdrake/hd_gtk.pm:323
+#: diskdrake/interactive.pm:246 diskdrake/interactive.pm:259
+#: diskdrake/interactive.pm:460 diskdrake/interactive.pm:535
+#: diskdrake/interactive.pm:553 diskdrake/interactive.pm:558
+#: diskdrake/interactive.pm:717 diskdrake/interactive.pm:1020
+#: diskdrake/interactive.pm:1073 diskdrake/interactive.pm:1229
+#: diskdrake/interactive.pm:1242 diskdrake/interactive.pm:1245
+#: diskdrake/interactive.pm:1513 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:49
+#: do_pkgs.pm:54 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:108 do_pkgs.pm:142
+#: fsedit.pm:266 interactive/http.pm:117 interactive/http.pm:118
+#: modules/interactive.pm:19 scanner.pm:94 scanner.pm:105 scanner.pm:112
+#: scanner.pm:119 wizards.pm:95 wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "Error"
+
+#: diskdrake/dav.pm:86
+#, c-format
+msgid "Please enter the WebDAV server URL"
+msgstr "Introduïu l'URL del servidor WebDAV"
+
+#: diskdrake/dav.pm:90
+#, c-format
+msgid "The URL must begin with http:// or https://"
+msgstr "L'URL ha de començar per http:// o https://"
+
+#: diskdrake/dav.pm:106
+#, c-format
+msgid "Are you sure you want to delete this mount point?"
+msgstr "Esteu segur que voleu esborrar aquest punt de muntatge?"
+
+#: diskdrake/dav.pm:124
+#, c-format
+msgid "Server: "
+msgstr "Servidor: "
+
+#: diskdrake/dav.pm:125 diskdrake/interactive.pm:505
+#: diskdrake/interactive.pm:1391 diskdrake/interactive.pm:1473
+#, c-format
+msgid "Mount point: "
+msgstr "Punt de muntatge: "
+
+#: diskdrake/dav.pm:126 diskdrake/interactive.pm:1480
+#, c-format
+msgid "Options: %s"
+msgstr "Opcions: %s"
+
+#: diskdrake/hd_gtk.pm:61 diskdrake/interactive.pm:300
+#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:113
+#: fs/partitioning_wizard.pm:66 fs/partitioning_wizard.pm:264
+#: fs/partitioning_wizard.pm:272 fs/partitioning_wizard.pm:310
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:529
+#: fs/partitioning_wizard.pm:614 fs/partitioning_wizard.pm:617
+#, c-format
+msgid "Partitioning"
+msgstr "Particions"
+
+#: diskdrake/hd_gtk.pm:74
+#, c-format
+msgid "Click on a partition, choose a filesystem type then choose an action"
+msgstr ""
+"Feu clic en una partició, trieu un tipus de sistema de fitxers i trieu una "
+"acció"
+
+#: diskdrake/hd_gtk.pm:133 diskdrake/interactive.pm:1203
+#: diskdrake/interactive.pm:1213 diskdrake/interactive.pm:1267
+#, c-format
+msgid "Read carefully"
+msgstr "Llegiu-ho atentament"
+
+#: diskdrake/hd_gtk.pm:133
+#, c-format
+msgid "Please make a backup of your data first"
+msgstr "Feu primer una còpia de seguretat de les vostres dades"
+
+#: diskdrake/hd_gtk.pm:134 diskdrake/interactive.pm:239
+#, c-format
+msgid "Exit"
+msgstr "Surt"
+
+#: diskdrake/hd_gtk.pm:134
+#, c-format
+msgid "Continue"
+msgstr "Continua"
+
+#: diskdrake/hd_gtk.pm:216 fs/partitioning_wizard.pm:590 interactive.pm:778
+#: interactive/gtk.pm:812 interactive/gtk.pm:830 interactive/gtk.pm:862
+#: ugtk2.pm:934 ugtk3.pm:1030
+#, c-format
+msgid "Help"
+msgstr "Ajuda"
+
+#: diskdrake/hd_gtk.pm:257
+#, c-format
+msgid ""
+"You have one big Microsoft Windows partition.\n"
+"I suggest you first resize that partition\n"
+"(click on it, then click on \"Resize\")"
+msgstr ""
+"Teniu una partició de Microsoft Windows gran\n"
+"Suggereixo que primer en canvieu la mida\n"
+"(feu-hi clic i després feu clic a «Canvia la mida»)"
+
+#: diskdrake/hd_gtk.pm:259
+#, c-format
+msgid "Please click on a partition"
+msgstr "Feu clic a una partició "
+
+#: diskdrake/hd_gtk.pm:273 diskdrake/smbnfs_gtk.pm:63
+#, c-format
+msgid "Details"
+msgstr "Detalls"
+
+#: diskdrake/hd_gtk.pm:323
+#, c-format
+msgid "No hard disk drives found"
+msgstr "No s'ha trobat cap disc dur!"
+
+#: diskdrake/hd_gtk.pm:362
+#, c-format
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: diskdrake/hd_gtk.pm:429
+#, c-format
+msgid "Ext4"
+msgstr "Ext4"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "XFS"
+msgstr "XFS"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Swap"
+msgstr "Intercanvi"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Windows"
+msgstr "Windows"
+
+#: diskdrake/hd_gtk.pm:430 fs/partitioning_wizard.pm:437 services.pm:201
+#, c-format
+msgid "Other"
+msgstr "Altres"
+
+#: diskdrake/hd_gtk.pm:430 diskdrake/interactive.pm:1397
+#: fs/partitioning_wizard.pm:437
+#, c-format
+msgid "Empty"
+msgstr "Buit"
+
+#: diskdrake/hd_gtk.pm:437
+#, c-format
+msgid "Filesystem types:"
+msgstr "Tipus de sistema de fitxers:"
+
+#: diskdrake/hd_gtk.pm:458
+#, c-format
+msgid "This partition is already empty"
+msgstr "La partició ja està buida"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``Unmount'' first"
+msgstr "Utilitzeu primer «Unmount»"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``%s'' instead (in expert mode)"
+msgstr "Utilitza «%s» com a alternativa (en mode expert)"
+
+#: diskdrake/hd_gtk.pm:467 diskdrake/interactive.pm:409
+#: diskdrake/interactive.pm:644 diskdrake/removable.pm:25
+#: diskdrake/removable.pm:48
+#, c-format
+msgid "Type"
+msgstr "Tipus"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose another partition"
+msgstr "Trieu una altra partició"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose a partition"
+msgstr "Trieu una partició"
+
+#: diskdrake/interactive.pm:272 diskdrake/interactive.pm:382
+#: interactive/curses.pm:532
+#, c-format
+msgid "More"
+msgstr "Més"
+
+#: diskdrake/interactive.pm:280 diskdrake/interactive.pm:293
+#: diskdrake/interactive.pm:1313 mygtk2.pm:1228 mygtk3.pm:1311
+#, c-format
+msgid "Confirmation"
+msgstr "Confirmació"
+
+#: diskdrake/interactive.pm:280
+#, c-format
+msgid "Continue anyway?"
+msgstr "Voleu continuar igualment?"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without saving"
+msgstr "Surt sense desar"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "Voleu sortir sense escriure la taula de particions?"
+
+#: diskdrake/interactive.pm:293
+#, c-format
+msgid "Do you want to save the /etc/fstab modifications?"
+msgstr "Voleu desar les modificacions a /etc/fstab"
+
+#: diskdrake/interactive.pm:300 fs/partitioning_wizard.pm:310
+#, c-format
+msgid "You need to reboot for the partition table modifications to take effect"
+msgstr ""
+"Us caldrà tornar a arrencar per tal que les modificacions de la taula de "
+"particions tinguin efecte"
+
+#: diskdrake/interactive.pm:305
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+"Caldria formatar la partició %s.\n"
+"Si no, no s'escriurà a fstab cap entrada per al punt de muntatge %s.\n"
+"Voleu sortir igualment?"
+
+#: diskdrake/interactive.pm:318
+#, c-format
+msgid "Clear all"
+msgstr "Buida-ho tot"
+
+#: diskdrake/interactive.pm:319
+#, c-format
+msgid "Auto allocate"
+msgstr "Assigna automàticament"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Normal mode"
+msgstr "Mode normal"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Expert mode"
+msgstr "Mode expert"
+
+#: diskdrake/interactive.pm:337
+#, c-format
+msgid "Hard disk drive information"
+msgstr "Informació del disc dur"
+
+#: diskdrake/interactive.pm:371
+#, c-format
+msgid "All primary partitions are used"
+msgstr "S'utilitzen totes les particions primàries"
+
+#: diskdrake/interactive.pm:372
+#, c-format
+msgid "I cannot add any more partitions"
+msgstr "No es pot afegir cap més partició"
+
+#: diskdrake/interactive.pm:373
+#, c-format
+msgid ""
+"To have more partitions, please delete one to be able to create an extended "
+"partition"
+msgstr ""
+"Si voleu tenir més particions, elimineu-ne una per poder crear una partició "
+"ampliada"
+
+#: diskdrake/interactive.pm:384
+#, c-format
+msgid "Reload partition table"
+msgstr "Torna a carregar la taula de particions"
+
+#: diskdrake/interactive.pm:391
+#, c-format
+msgid "Detailed information"
+msgstr "Informació detallada"
+
+#: diskdrake/interactive.pm:407
+#, c-format
+msgid "View"
+msgstr "Mostra"
+
+#: diskdrake/interactive.pm:412 diskdrake/interactive.pm:833
+#, c-format
+msgid "Resize"
+msgstr "Canvia la mida"
+
+#: diskdrake/interactive.pm:413
+#, c-format
+msgid "Format"
+msgstr "Formata"
+
+#: diskdrake/interactive.pm:415 diskdrake/interactive.pm:983
+#, c-format
+msgid "Add to RAID"
+msgstr "Afegeix al RAID"
+
+#: diskdrake/interactive.pm:416 diskdrake/interactive.pm:1002
+#, c-format
+msgid "Add to LVM"
+msgstr "Afegeix a l'LVM"
+
+#: diskdrake/interactive.pm:417
+#, c-format
+msgid "Use"
+msgstr "Utilitza"
+
+#: diskdrake/interactive.pm:419
+#, c-format
+msgid "Delete"
+msgstr "Elimina"
+
+#: diskdrake/interactive.pm:420
+#, c-format
+msgid "Remove from RAID"
+msgstr "Elimina del RAID"
+
+#: diskdrake/interactive.pm:421
+#, c-format
+msgid "Remove from LVM"
+msgstr "Elimina de l'LVM"
+
+#: diskdrake/interactive.pm:422
+#, c-format
+msgid "Remove from dm"
+msgstr "Elimina del dm"
+
+#: diskdrake/interactive.pm:423
+#, c-format
+msgid "Modify RAID"
+msgstr "Modifica el RAID"
+
+#: diskdrake/interactive.pm:424
+#, c-format
+msgid "Use for loopback"
+msgstr "Utilitza per a loopback"
+
+#: diskdrake/interactive.pm:434
+#, c-format
+msgid "Create"
+msgstr "Crea"
+
+#: diskdrake/interactive.pm:460
+#, c-format
+msgid "Failed to mount partition"
+msgstr "No s'ha pogut muntar la partició"
+
+#: diskdrake/interactive.pm:494 diskdrake/interactive.pm:496
+#, c-format
+msgid "Create a new partition"
+msgstr "Crea una nova partició"
+
+#: diskdrake/interactive.pm:498
+#, c-format
+msgid "Start sector: "
+msgstr "Sector d'inici: "
+
+#: diskdrake/interactive.pm:501 diskdrake/interactive.pm:1088
+#, c-format
+msgid "Size in MB: "
+msgstr "Mida en MB: "
+
+#: diskdrake/interactive.pm:503 diskdrake/interactive.pm:1089
+#, c-format
+msgid "Filesystem type: "
+msgstr "Tipus de sistema de fitxers: "
+
+#: diskdrake/interactive.pm:513
+#, c-format
+msgid "Preference: "
+msgstr "Preferència: "
+
+#: diskdrake/interactive.pm:516
+#, c-format
+msgid "Logical volume name "
+msgstr "Nom del volum lògic"
+
+#: diskdrake/interactive.pm:518
+#, c-format
+msgid "Encrypt partition"
+msgstr "Xifra la partició"
+
+#: diskdrake/interactive.pm:519
+#, c-format
+msgid "Encryption key "
+msgstr "Clau de xifratge"
+
+#: diskdrake/interactive.pm:520 diskdrake/interactive.pm:1517
+#, c-format
+msgid "Encryption key (again)"
+msgstr "Clau de xifratge (un altre cop)"
+
+#: diskdrake/interactive.pm:532 diskdrake/interactive.pm:1513
+#, c-format
+msgid "The encryption keys do not match"
+msgstr "Les claus de xifratge no coincideixen"
+
+#: diskdrake/interactive.pm:533
+#, c-format
+msgid "Missing encryption key"
+msgstr "No s'ha trobat la clau de xifratge"
+
+#: diskdrake/interactive.pm:553
+#, c-format
+msgid ""
+"You cannot create a new partition\n"
+"(since you reached the maximal number of primary partitions).\n"
+"First remove a primary partition and create an extended partition."
+msgstr ""
+"No podeu crear una nova partició\n"
+"(perquè heu arribat al màxim nombre de particions primàries).\n"
+"Esborreu primer una partició primària i creeu una partició ampliada."
+
+#: diskdrake/interactive.pm:605
+#, c-format
+msgid "Remove the loopback file?"
+msgstr "Voleu eliminar el fitxer de loopback?"
+
+#: diskdrake/interactive.pm:625
+#, c-format
+msgid ""
+"After changing type of partition %s, all data on this partition will be lost"
+msgstr ""
+"Després de canviar el tipus de la partició %s, se'n perdran totes les dades"
+
+#: diskdrake/interactive.pm:641
+#, c-format
+msgid "Change partition type"
+msgstr "Canvia el tipus de partició"
+
+#: diskdrake/interactive.pm:643 diskdrake/removable.pm:47
+#, c-format
+msgid "Which filesystem do you want?"
+msgstr "Quin sistema de fitxers voleu?"
+
+#: diskdrake/interactive.pm:650
+#, c-format
+msgid "Switching from %s to %s"
+msgstr "S'està canviant de %s a %s"
+
+#: diskdrake/interactive.pm:685
+#, c-format
+msgid "Set volume label"
+msgstr "Estableix una etiqueta del disc"
+
+#: diskdrake/interactive.pm:687
+#, c-format
+msgid "Beware, this will be written to disk as soon as you validate!"
+msgstr "Atenció, això s'escriurà a disc tan bon punt ho valideu!"
+
+#: diskdrake/interactive.pm:688
+#, c-format
+msgid "Beware, this will be written to disk only after formatting!"
+msgstr "Atenció, això s'escriurà a disc només després de la formatació!"
+
+#: diskdrake/interactive.pm:690
+#, c-format
+msgid "Which volume label?"
+msgstr "Quina etiqueta de disc?"
+
+#: diskdrake/interactive.pm:691
+#, c-format
+msgid "Label:"
+msgstr "Etiqueta:"
+
+#: diskdrake/interactive.pm:712
+#, c-format
+msgid "Where do you want to mount the loopback file %s?"
+msgstr "On voleu muntar el fitxer de loopback %s?"
+
+#: diskdrake/interactive.pm:713
+#, c-format
+msgid "Where do you want to mount device %s?"
+msgstr "On voleu muntar el dispositiu %s?"
+
+#: diskdrake/interactive.pm:718
+#, c-format
+msgid ""
+"Cannot unset mount point as this partition is used for loop back.\n"
+"Remove the loopback first"
+msgstr ""
+"No es pot anul·lar el punt de muntatge, perquè aquesta partició\n"
+"s'utilitza per al loopback. Elimineu primer el loopback"
+
+#: diskdrake/interactive.pm:748
+#, c-format
+msgid "Where do you want to mount %s?"
+msgstr "On voleu muntar %s?"
+
+#: diskdrake/interactive.pm:778 diskdrake/interactive.pm:874
+#: fs/partitioning_wizard.pm:151 fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing"
+msgstr "S'està canviant la mida"
+
+#: diskdrake/interactive.pm:778
+#, c-format
+msgid "Computing FAT filesystem bounds"
+msgstr "S'estan calculant els límits del sistema de fitxers FAT"
+
+#: diskdrake/interactive.pm:820
+#, c-format
+msgid "This partition is not resizeable"
+msgstr "No es pot canviar la mida d'aquesta partició"
+
+#: diskdrake/interactive.pm:825
+#, c-format
+msgid "All data on this partition should be backed up"
+msgstr "Cal fer una còpia de seguretat de totes les dades d'aquesta partició"
+
+#: diskdrake/interactive.pm:827
+#, c-format
+msgid "After resizing partition %s, all data on this partition will be lost"
+msgstr ""
+"Després de canviar la mida de la partició %s, se'n perdran totes les dades"
+
+#: diskdrake/interactive.pm:834
+#, c-format
+msgid "Choose the new size"
+msgstr "Escolliu la nova mida"
+
+#: diskdrake/interactive.pm:835
+#, c-format
+msgid "New size in MB: "
+msgstr "Nova mida en MB: "
+
+#: diskdrake/interactive.pm:836
+#, c-format
+msgid "Minimum size: %s MB"
+msgstr "Mida mínima: %s MB"
+
+#: diskdrake/interactive.pm:837
+#, c-format
+msgid "Maximum size: %s MB"
+msgstr "Mida màxima: %s MB"
+
+#: diskdrake/interactive.pm:885 fs/partitioning_wizard.pm:241
+#, c-format
+msgid ""
+"To ensure data integrity after resizing the partition(s),\n"
+"filesystem checks will be run on your next boot into Microsoft Windows®"
+msgstr ""
+"Per a assegurar la integritat de les dades després del redimensionament de "
+"la partició,\n"
+"en el proper reinici en Microsoft Windows® s'executarà una comprovació del "
+"sistema de fitxers"
+
+#: diskdrake/interactive.pm:951 diskdrake/interactive.pm:1508
+#, c-format
+msgid "Filesystem encryption key"
+msgstr "Clau de xifratge del sistema de fitxers: "
+
+#: diskdrake/interactive.pm:952
+#, c-format
+msgid "Enter your filesystem encryption key"
+msgstr "Introduïu la clau de xifratge per al sistema de fitxers"
+
+#: diskdrake/interactive.pm:953 diskdrake/interactive.pm:1516
+#, c-format
+msgid "Encryption key"
+msgstr "Clau de xifratge"
+
+#: diskdrake/interactive.pm:960
+#, c-format
+msgid "Invalid key"
+msgstr "Clau invàlida"
+
+#: diskdrake/interactive.pm:983
+#, c-format
+msgid "Choose an existing RAID to add to"
+msgstr "Escolliu un RAID existent al qual afegir-ho"
+
+#: diskdrake/interactive.pm:985 diskdrake/interactive.pm:1004
+#, c-format
+msgid "new"
+msgstr "nou"
+
+#: diskdrake/interactive.pm:1002
+#, c-format
+msgid "Choose an existing LVM to add to"
+msgstr "Escolliu un LVM existent al qual afegir-ho"
+
+#: diskdrake/interactive.pm:1014 diskdrake/interactive.pm:1023
+#, c-format
+msgid "LVM name"
+msgstr "Nom LVM"
+
+#: diskdrake/interactive.pm:1015
+#, c-format
+msgid "Enter a name for the new LVM volume group"
+msgstr "Introduïu un nom per al nou grup del volum LVM"
+
+#: diskdrake/interactive.pm:1020
+#, c-format
+msgid "\"%s\" already exists"
+msgstr "«%s» ja existeix"
+
+#: diskdrake/interactive.pm:1028
+#, c-format
+msgid "Setting up LVM"
+msgstr "Es configura LVM"
+
+#: diskdrake/interactive.pm:1053
+#, c-format
+msgid ""
+"Physical volume %s is still in use.\n"
+"Do you want to move used physical extents on this volume to other volumes?"
+msgstr ""
+"El volum físic %s es troba encara en ús.\n"
+"Voleu moure les extensions d'espai físic utilitzades en aquest volum a "
+"altres volums?"
+
+#: diskdrake/interactive.pm:1055
+#, c-format
+msgid "Moving physical extents"
+msgstr "S'estan movent les extensions físiques"
+
+#: diskdrake/interactive.pm:1073
+#, c-format
+msgid "This partition cannot be used for loopback"
+msgstr "Aquesta partició no es pot utilitzar per al loopback"
+
+#: diskdrake/interactive.pm:1086
+#, c-format
+msgid "Loopback"
+msgstr "Loopback"
+
+#: diskdrake/interactive.pm:1087
+#, c-format
+msgid "Loopback file name: "
+msgstr "Nom del fitxer de loopback: "
+
+#: diskdrake/interactive.pm:1092
+#, c-format
+msgid "Give a file name"
+msgstr "Proporcioneu un nom de fitxer"
+
+#: diskdrake/interactive.pm:1095
+#, c-format
+msgid "File is already used by another loopback, choose another one"
+msgstr "Un altre loopback ja està utilitzant el fitxer, escolliu-ne un altre"
+
+#: diskdrake/interactive.pm:1096
+#, c-format
+msgid "File already exists. Use it?"
+msgstr "El fitxer ja existeix. El voleu utilitzar?"
+
+#: diskdrake/interactive.pm:1128 diskdrake/interactive.pm:1131
+#, c-format
+msgid "Mount options"
+msgstr "Opcions de muntatge"
+
+#: diskdrake/interactive.pm:1138
+#, c-format
+msgid "Various"
+msgstr "Diversos"
+
+#: diskdrake/interactive.pm:1184
+#, c-format
+msgid "device"
+msgstr "dispositiu"
+
+#: diskdrake/interactive.pm:1185
+#, c-format
+msgid "level"
+msgstr "nivell"
+
+#: diskdrake/interactive.pm:1186
+#, c-format
+msgid "chunk size in KiB"
+msgstr "mida del fragment en KB"
+
+#: diskdrake/interactive.pm:1204
+#, c-format
+msgid "Be careful: this operation is dangerous."
+msgstr "Aneu amb compte: aquesta operació és perillosa."
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "Partitioning Type"
+msgstr "Tipus de particions"
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "What type of partitioning?"
+msgstr "Quin tipus de particions voleu?"
+
+#: diskdrake/interactive.pm:1258
+#, c-format
+msgid "You'll need to reboot before the modification can take effect"
+msgstr ""
+"Us caldrà tornar a arrencar per tal que les modificacions tinguin efecte"
+
+#: diskdrake/interactive.pm:1267
+#, c-format
+msgid "Partition table of drive %s is going to be written to disk"
+msgstr "La taula de particions de la unitat %s s'escriurà al disc"
+
+#: diskdrake/interactive.pm:1286 fs/format.pm:106 fs/format.pm:113
+#, c-format
+msgid "Formatting partition %s"
+msgstr "S'està formatant la partició %s"
+
+#: diskdrake/interactive.pm:1299
+#, c-format
+msgid "After formatting partition %s, all data on this partition will be lost"
+msgstr "Després de formatar la partició %s, se'n perdran totes les dades"
+
+#: diskdrake/interactive.pm:1313 fs/partitioning.pm:48
+#, c-format
+msgid "Check for bad blocks?"
+msgstr "Voleu comprovar els blocs incorrectes?"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Move files to the new partition"
+msgstr "Mou els fitxers a la nova partició"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Hide files"
+msgstr "Fitxers ocults"
+
+#: diskdrake/interactive.pm:1329
+#, c-format
+msgid ""
+"Directory %s already contains data\n"
+"(%s)\n"
+"\n"
+"You can either choose to move the files into the partition that will be "
+"mounted there or leave them where they are (which results in hiding them by "
+"the contents of the mounted partition)"
+msgstr ""
+"El directori %s ja conté dades\n"
+"(%s)\n"
+"\n"
+"Podeu triar entre moure els fitxers cap a la partició que s'hi muntarà, o bé "
+"deixar-los on són (però quedaran ocults pel contingut de la partició muntada)"
+
+#: diskdrake/interactive.pm:1344
+#, c-format
+msgid "Moving files to the new partition"
+msgstr "S'estan movent els fitxers a la nova partició"
+
+#: diskdrake/interactive.pm:1348
+#, c-format
+msgid "Copying %s"
+msgstr "S'està copiant %s"
+
+#: diskdrake/interactive.pm:1352
+#, c-format
+msgid "Removing %s"
+msgstr "S'està esborrant %s"
+
+#: diskdrake/interactive.pm:1366
+#, c-format
+msgid "partition %s is now known as %s"
+msgstr "la partició %s ara és %s"
+
+#: diskdrake/interactive.pm:1367
+#, c-format
+msgid "Partitions have been renumbered: "
+msgstr "S'han tornat a numerar les particions: "
+
+#: diskdrake/interactive.pm:1392 diskdrake/interactive.pm:1457
+#, c-format
+msgid "Device: "
+msgstr "Dispositiu: "
+
+#: diskdrake/interactive.pm:1393
+#, c-format
+msgid "Volume label: "
+msgstr "Etiqueta del volum: "
+
+#: diskdrake/interactive.pm:1394
+#, c-format
+msgid "UUID: "
+msgstr "UUID: "
+
+#: diskdrake/interactive.pm:1395
+#, c-format
+msgid "DOS drive letter: %s (just a guess)\n"
+msgstr "Lletra d'unitat de DOS: %s (només és una suposició)\n"
+
+#: diskdrake/interactive.pm:1399 diskdrake/interactive.pm:1476
+#, c-format
+msgid "Type: "
+msgstr "Tipus: "
+
+#: diskdrake/interactive.pm:1401
+#, c-format
+msgid "Start: sector %s\n"
+msgstr "Inici: sector %s\n"
+
+#: diskdrake/interactive.pm:1403
+#, c-format
+msgid "Size: %s (%s%% of disk)"
+msgstr "Mida: %s (%s%% del disc)"
+
+#: diskdrake/interactive.pm:1405
+#, c-format
+msgid "Size: %s"
+msgstr "Mida: %s"
+
+#: diskdrake/interactive.pm:1407
+#, c-format
+msgid ", %s sectors"
+msgstr ", %s sectors"
+
+#: diskdrake/interactive.pm:1409
+#, c-format
+msgid "Cylinder %d to %d\n"
+msgstr "Cilindre %d a %d\n"
+
+#: diskdrake/interactive.pm:1410
+#, c-format
+msgid "Number of logical extents: %d\n"
+msgstr "Nombre d'extensions lògiques: %d\n"
+
+#: diskdrake/interactive.pm:1411
+#, c-format
+msgid "Formatted\n"
+msgstr "Formatat\n"
+
+#: diskdrake/interactive.pm:1412
+#, c-format
+msgid "Not formatted\n"
+msgstr "Sense formatar\n"
+
+#: diskdrake/interactive.pm:1413
+#, c-format
+msgid "Mounted\n"
+msgstr "Muntat\n"
+
+#: diskdrake/interactive.pm:1414
+#, c-format
+msgid "RAID %s\n"
+msgstr "RAID %s\n"
+
+#: diskdrake/interactive.pm:1416
+#, c-format
+msgid "Encrypted"
+msgstr "Xifrat"
+
+#: diskdrake/interactive.pm:1418
+#, c-format
+msgid " (mapped on %s)"
+msgstr " (mapat a %s)"
+
+#: diskdrake/interactive.pm:1419
+#, c-format
+msgid " (to map on %s)"
+msgstr " (per a mapar a %s)"
+
+#: diskdrake/interactive.pm:1420
+#, c-format
+msgid " (inactive)"
+msgstr " (inactiu)"
+
+#: diskdrake/interactive.pm:1427
+#, c-format
+msgid ""
+"Loopback file(s):\n"
+"   %s\n"
+msgstr ""
+"Fitxer(s) de loopback:\n"
+"   %s\n"
+
+#: diskdrake/interactive.pm:1428
+#, c-format
+msgid ""
+"Partition booted by default\n"
+"    (for MS-DOS boot, not for lilo)\n"
+msgstr ""
+"Partició arrencada per defecte\n"
+"    (per a l'arrencada de l'MS-DOS, no per a LILO)\n"
+
+#: diskdrake/interactive.pm:1430
+#, c-format
+msgid "Level %s\n"
+msgstr "Nivell %s\n"
+
+#: diskdrake/interactive.pm:1431
+#, c-format
+msgid "Chunk size %d KiB\n"
+msgstr "Mida del fragment %d KB\n"
+
+#: diskdrake/interactive.pm:1432
+#, c-format
+msgid "RAID-disks %s\n"
+msgstr "Discs RAID %s\n"
+
+#: diskdrake/interactive.pm:1434
+#, c-format
+msgid "Loopback file name: %s"
+msgstr "Nom del fitxer de loopback: %s"
+
+#: diskdrake/interactive.pm:1437
+#, c-format
+msgid ""
+"\n"
+"Chances are, this partition is\n"
+"a Driver partition. You should\n"
+"probably leave it alone.\n"
+msgstr ""
+"\n"
+"És possible que aquesta partició sigui\n"
+"una partició de programes de control. Potser\n"
+"és millor que no la toqueu.\n"
+
+#: diskdrake/interactive.pm:1440
+#, c-format
+msgid ""
+"\n"
+"This special Bootstrap\n"
+"partition is for\n"
+"dual-booting your system.\n"
+msgstr ""
+"\n"
+"Aquesta partició especial\n"
+"Bootstrap és per arrencar\n"
+"el vostre sistema en dual.\n"
+
+#: diskdrake/interactive.pm:1449
+#, c-format
+msgid "Free space on %s (%s)"
+msgstr "Espai lliure a %s (%s)"
+
+#: diskdrake/interactive.pm:1458
+#, c-format
+msgid "Read-only"
+msgstr "Només lectura"
+
+#: diskdrake/interactive.pm:1459
+#, c-format
+msgid "Size: %s\n"
+msgstr "Mida: %s\n"
+
+#: diskdrake/interactive.pm:1460
+#, c-format
+msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+msgstr "Geometria: %s cilindres, %s capçals, %s sectors\n"
+
+#: diskdrake/interactive.pm:1461
+#, c-format
+msgid "Name: "
+msgstr "Nom: "
+
+#: diskdrake/interactive.pm:1462
+#, c-format
+msgid "Medium type: "
+msgstr "Tipus de mitjà: "
+
+#: diskdrake/interactive.pm:1463
+#, c-format
+msgid "LVM-disks %s\n"
+msgstr "Discs LVM %s\n"
+
+#: diskdrake/interactive.pm:1464
+#, c-format
+msgid "Partition table type: %s\n"
+msgstr "Tipus de taula de particions: %s\n"
+
+#: diskdrake/interactive.pm:1465
+#, c-format
+msgid "on channel %d id %d\n"
+msgstr "al canal %d amb id. %d\n"
+
+#: diskdrake/interactive.pm:1509
+#, c-format
+msgid "Choose your filesystem encryption key"
+msgstr "Escolliu la clau de xifratge del sistema de fitxers"
+
+#: diskdrake/interactive.pm:1512
+#, c-format
+msgid "This encryption key is too simple (must be at least %d characters long)"
+msgstr ""
+"Aquesta clau de xifratge és massa senzilla (ha de tenir com a mínim %d "
+"caràcters)"
+
+#: diskdrake/interactive.pm:1519
+#, c-format
+msgid "Encryption algorithm"
+msgstr "Algoritme de xifrat"
+
+#: diskdrake/removable.pm:46
+#, c-format
+msgid "Change type"
+msgstr "Canvia el tipus"
+
+#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:120 interactive.pm:675
+#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
+#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846
+#: mygtk2.pm:1229 mygtk3.pm:928 mygtk3.pm:1312 ugtk2.pm:415 ugtk2.pm:517
+#: ugtk2.pm:526 ugtk2.pm:810 ugtk3.pm:501 ugtk3.pm:591 ugtk3.pm:600
+#: ugtk3.pm:906
+#, c-format
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: diskdrake/smbnfs_gtk.pm:164
+#, c-format
+msgid "Cannot login using username %s (bad password?)"
+msgstr ""
+"No es pot entrar amb el nom d'usuari %s (potser la contrasenya és "
+"incorrecta?)"
+
+#: diskdrake/smbnfs_gtk.pm:168 diskdrake/smbnfs_gtk.pm:177
+#, c-format
+msgid "Domain Authentication Required"
+msgstr "Cal l'autenticació de domini"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Which username"
+msgstr "Quin nom d'usuari?"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Another one"
+msgstr "Un altre"
+
+#: diskdrake/smbnfs_gtk.pm:178
+#, c-format
+msgid ""
+"Please enter your username, password and domain name to access this host."
+msgstr ""
+"Introduïu el vostre nom d'usuari, la contrasenya i el nom de domini per "
+"accedir a aquest amfitrió."
+
+#: diskdrake/smbnfs_gtk.pm:180
+#, c-format
+msgid "Username"
+msgstr "Nom d'usuari"
+
+#: diskdrake/smbnfs_gtk.pm:182
+#, c-format
+msgid "Domain"
+msgstr "Domini"
+
+#: diskdrake/smbnfs_gtk.pm:206
+#, c-format
+msgid "Search servers"
+msgstr "Cerca servidors"
+
+#: diskdrake/smbnfs_gtk.pm:211
+#, c-format
+msgid "Search for new servers"
+msgstr "Cerca nous servidors"
+
+#: do_pkgs.pm:45 do_pkgs.pm:100
+#, c-format
+msgid "The package %s needs to be installed. Do you want to install it?"
+msgstr "Cal instal·lar el paquet %s. Voleu instal·lar-lo?"
+
+#: do_pkgs.pm:49 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:142
+#, c-format
+msgid "Could not install the %s package!"
+msgstr "No es pot instal·lar el paquet %s!"
+
+#: do_pkgs.pm:54 do_pkgs.pm:108
+#, c-format
+msgid "Mandatory package %s is missing"
+msgstr "El paquet %s necessari falta"
+
+#: do_pkgs.pm:74 do_pkgs.pm:137
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Cal instal·lar els paquets següents:\n"
+
+#: do_pkgs.pm:342
+#, c-format
+msgid "Installing packages..."
+msgstr "S'estan instal·lant els paquets..."
+
+#: do_pkgs.pm:387 pkgs.pm:293
+#, c-format
+msgid "Removing packages..."
+msgstr "S'estan eliminant els paquets..."
+
+#: fs/any.pm:21
+#, c-format
+msgid ""
+"An error occurred - no valid devices were found on which to create new "
+"filesystems. Please check your hardware for the cause of this problem"
+msgstr ""
+"S'ha produït un error: no s'han trobat dispositius vàlids on crear nous "
+"sistemes de fitxers. Si us plau, comproveu el vostre maquinari per trobar el "
+"problema"
+
+#: fs/any.pm:77 fs/partitioning_wizard.pm:77
+#, c-format
+msgid "You must have a ESP FAT32 partition mounted in /boot/EFI"
+msgstr "Heu de tenir una partició ESP FAT32 muntada en /boot/EFI"
+
+#: fs/any.pm:81 fs/partitioning_wizard.pm:82
+#, c-format
+msgid ""
+"You must have a BIOS boot partition for non-UEFI GPT-partitioned disks. "
+"Please create one before continuing."
+msgstr ""
+"Heu de tenir una partició d'arrencada BIOS per als discs sense particions "
+"GPT i no UEFI. Si us plau, creeu-ne una abans de continuar."
+
+#: fs/format.pm:110
+#, c-format
+msgid "Creating and formatting file %s"
+msgstr "S'està creant i formatant el fitxer %s"
+
+#: fs/format.pm:130
+#, c-format
+msgid "I do not know how to set label on %s with type %s"
+msgstr "No sé com establir una etiqueta en %s amb tipus %s"
+
+#: fs/format.pm:142
+#, c-format
+msgid "setting label on %s failed, is it formatted?"
+msgstr "l'establiment de l'etiqueta a %s ha fallat, està formatat?"
+
+#: fs/format.pm:190
+#, c-format
+msgid "I do not know how to format %s in type %s"
+msgstr "No sé com formatar %s amb el tipus %s"
+
+#: fs/format.pm:195 fs/format.pm:197
+#, c-format
+msgid "%s formatting of %s failed"
+msgstr "%s formatació de %s ha fallat"
+
+#: fs/loopback.pm:24
+#, c-format
+msgid "Circular mounts %s\n"
+msgstr "Muntatges circulars %s\n"
+
+#: fs/mount.pm:85
+#, c-format
+msgid "Mounting partition %s"
+msgstr "S'està muntant la partició %s"
+
+#: fs/mount.pm:87
+#, c-format
+msgid "mounting partition %s in directory %s failed"
+msgstr "El muntatge de la partició %s en el directori %s ha fallat"
+
+#: fs/mount.pm:92 fs/mount.pm:109
+#, c-format
+msgid "Checking %s"
+msgstr "S'està comprovant %s"
+
+#: fs/mount.pm:126 partition_table.pm:399
+#, c-format
+msgid "error unmounting %s: %s"
+msgstr "s'ha produït un error en desmuntar %s: %s"
+
+#: fs/mount.pm:141
+#, c-format
+msgid "Enabling swap partition %s"
+msgstr "S'està habilitant la partició d'intercanvi %s"
+
+#: fs/mount_options.pm:114
+#, c-format
+msgid "Enable POSIX Access Control Lists"
+msgstr "Habilita les llistes de control d'accés POSIX"
+
+#: fs/mount_options.pm:116
+#, c-format
+msgid "Flush write cache on file close"
+msgstr "Buida la memòria d'escriptura en tancar el fitxer"
+
+#: fs/mount_options.pm:118
+#, c-format
+msgid "Enable group disk quota accounting and optionally enforce limits"
+msgstr ""
+"Habilita el comptatge de la quota de disc del grup i de manera opcional fes "
+"complir els límits"
+
+#: fs/mount_options.pm:120
+#, c-format
+msgid ""
+"Do not update inode access times on this filesystem\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"No actualitzeu el temps d'accés a l'inode en aquest sistema de fitxers (p. "
+"ex. per a un accés\n"
+"més ràpid a l'«spool» de grups de discussió per accelerar els servidors de "
+"grups de discussió)."
+
+#: fs/mount_options.pm:123
+#, c-format
+msgid ""
+"Update inode access times on this filesystem in a more efficient way\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"Actualitza els temps d'accés d'inode en aquest sistema de fitxers d'una "
+"manera més eficient \n"
+"(per exemple, per a un accés més ràpid a la cua de notícies per accelerar "
+"els servidors de notícies)."
+
+#: fs/mount_options.pm:126
+#, c-format
+msgid ""
+"Can only be mounted explicitly (i.e.,\n"
+"the -a option will not cause the filesystem to be mounted)."
+msgstr ""
+"Només es pot muntar explícitament (p. ex.,\n"
+"l'opció -a no farà que el sistema de fitxers es munti)."
+
+#: fs/mount_options.pm:129
+#, c-format
+msgid "Do not interpret character or block special devices on the filesystem."
+msgstr ""
+"No interpretis els dispositius especials de caràcter o bloc en el sistema de "
+"fitxers."
+
+#: fs/mount_options.pm:131
+#, c-format
+msgid ""
+"Do not allow execution of any binaries on the mounted\n"
+"filesystem. This option might be useful for a server that has filesystems\n"
+"containing binaries for architectures other than its own."
+msgstr ""
+"No permetis que s'executi cap binari en el sistema de fitxers\n"
+"muntat. Aquesta opció pot ser útil per a un servidor que tingui\n"
+"sistemes de fitxers amb binaris d'arquitectures diferents de la pròpia."
+
+#: fs/mount_options.pm:135
+#, c-format
+msgid ""
+"Do not allow set-user-identifier or set-group-identifier\n"
+"bits to take effect. (This seems safe, but is in fact rather unsafe if you\n"
+"have suidperl(1) installed.)"
+msgstr ""
+"No permetis que els bits defineix-identificador-usuari o\n"
+"defineix-identificador-grup tinguin efecte (sembla segur,\n"
+"però de fet és força insegur si es té el suidperl(1) instal·lat)."
+
+#: fs/mount_options.pm:139
+#, c-format
+msgid "Mount the filesystem read-only."
+msgstr "Munta el sistema de fitxers només de lectura."
+
+#: fs/mount_options.pm:141
+#, c-format
+msgid "All I/O to the filesystem should be done synchronously."
+msgstr "Totes les E/S del sistema de fitxers s'han de fer sincronitzadament."
+
+#: fs/mount_options.pm:143
+#, c-format
+msgid "Allow every user to mount and umount the filesystem."
+msgstr ""
+"Permet el muntatge i desmuntatge del sistema de fitxers a qualsevol usuari."
+
+#: fs/mount_options.pm:145
+#, c-format
+msgid "Allow an ordinary user to mount the filesystem."
+msgstr "Permet el muntatge del sistema de fitxers a un usuari ordinari."
+
+#: fs/mount_options.pm:147
+#, c-format
+msgid "Enable user disk quota accounting, and optionally enforce limits"
+msgstr ""
+"Habilita el comptatge de la quota de disc de l'usuari i de manera opcional "
+"fes complir els límits"
+
+#: fs/mount_options.pm:149
+#, c-format
+msgid "Support \"user.\" extended attributes"
+msgstr "Suport dels atributs estesos per als usuaris"
+
+#: fs/mount_options.pm:151
+#, c-format
+msgid "Give write access to ordinary users"
+msgstr "Dóna accés d'escriptura als usuaris normals"
+
+#: fs/mount_options.pm:153
+#, c-format
+msgid "Give read-only access to ordinary users"
+msgstr "Dóna accés només d'escriptura als usuaris normals"
+
+#: fs/mount_point.pm:87
+#, c-format
+msgid "Duplicate mount point %s"
+msgstr "Duplica el punt de muntatge %s"
+
+#: fs/mount_point.pm:102
+#, c-format
+msgid "No partition available"
+msgstr "No hi ha particions disponibles"
+
+#: fs/mount_point.pm:105
+#, c-format
+msgid "Scanning partitions to find mount points"
+msgstr "S'estan explorant les particions per trobar els punts de muntatge"
+
+#: fs/mount_point.pm:112
+#, c-format
+msgid "Choose the mount points"
+msgstr "Escolliu els punts de muntatge"
+
+#: fs/partitioning.pm:46
+#, c-format
+msgid "Choose the partitions you want to format"
+msgstr "Escolliu les particions que voleu formatar"
+
+#: fs/partitioning.pm:75
+#, c-format
+msgid ""
+"Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+"you can lose data)"
+msgstr ""
+"És impossible de comprovar el sistema de fitxers %s. Voleu reparar els "
+"errors? (Vigileu, podríeu perdre dades.)"
+
+#: fs/partitioning.pm:78
+#, c-format
+msgid "Not enough swap space to fulfill installation, please add some"
+msgstr ""
+"No hi ha prou espai d'intercanvi per completar la instal·lació; si us plau, "
+"afegiu-ne"
+
+#: fs/partitioning_wizard.pm:66
+#, c-format
+msgid ""
+"You must have a root partition.\n"
+"To accomplish this, create a partition (or click on an existing one).\n"
+"Then choose action ``Mount point'' and set it to `/'"
+msgstr ""
+"Heu de tenir una partició arrel.\n"
+"Per fer-ho, creeu una partició (o feu clic a una d'existent).\n"
+"Després, trieu l'acció «Punt de muntatge» i doneu-li el valor '/'"
+
+#: fs/partitioning_wizard.pm:72
+#, c-format
+msgid ""
+"You do not have a swap partition.\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"No teniu cap partició d'intercanvi.\n"
+"\n"
+"Voleu continuar igualment?"
+
+#: fs/partitioning_wizard.pm:115
+#, c-format
+msgid "Use free space"
+msgstr "Utilitza l'espai lliure"
+
+#: fs/partitioning_wizard.pm:117
+#, c-format
+msgid "Not enough free space to allocate new partitions"
+msgstr "No hi ha prou espai lliure per assignar noves particions"
+
+#: fs/partitioning_wizard.pm:125
+#, c-format
+msgid "Use existing partitions"
+msgstr "Utilitza les particions existents"
+
+#: fs/partitioning_wizard.pm:127
+#, c-format
+msgid "There is no existing partition to use"
+msgstr "No hi ha cap partició que es pugui utilitzar"
+
+#: fs/partitioning_wizard.pm:151
+#, c-format
+msgid "Computing the size of the Microsoft Windows® partition"
+msgstr "S'està calculant la mida de la partició de Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:187
+#, c-format
+msgid "Use the free space on a Microsoft Windows® partition"
+msgstr "Utilitza l'espai lliure en una partició Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:191
+#, c-format
+msgid "Which partition do you want to resize?"
+msgstr "A quina partició voleu canviar-li la mida?"
+
+#: fs/partitioning_wizard.pm:194
+#, c-format
+msgid ""
+"Your Microsoft Windows® partition is too fragmented. Please reboot your "
+"computer under Microsoft Windows®, run the ``defrag'' utility, then restart "
+"the %s installation."
+msgstr ""
+"La partició de Microsoft Windows® està massa fragmentada. Reinicieu "
+"l'ordinador sota Microsoft Windows® i executeu l'eina «defrag». Llavors, "
+"torneu a començar la instal·lació del %s."
+
+#: fs/partitioning_wizard.pm:201
+#, c-format
+msgid "Failed to find the partition to resize (%d choices)"
+msgstr "No s'ha trobat la partició per canviar-ne la mida (%d possibilitats)"
+
+#: fs/partitioning_wizard.pm:208
+#, c-format
+msgid ""
+"WARNING!\n"
+"\n"
+"\n"
+"Your Microsoft Windows® partition will be now resized.\n"
+"\n"
+"\n"
+"Be careful: this operation is dangerous. If you have not already done so, "
+"you first need to exit the installation, run \"chkdsk c:\" from a Command "
+"Prompt under Microsoft Windows® (beware, running graphical program \"scandisk"
+"\" is not enough, be sure to use \"chkdsk\" in a Command Prompt!), "
+"optionally run defrag, then restart the installation. You should also backup "
+"your data.\n"
+"\n"
+"\n"
+"When sure, press %s."
+msgstr ""
+"ATENCIÓ!\n"
+"\n"
+"\n"
+"Tot seguit, DrakX canviarà la mida de la vostra partició de Windows.\n"
+"\n"
+"\n"
+"Aneu amb compte: aquesta operació és perillosa. Si encara no ho heu fet, "
+"sortiu de la instal·lació, executeu «chkdsk c:» a la línia d'ordres sota "
+"Windows (atenció el programa gràfic «scandisk» no és suficient, assegureu-"
+"vos d'utilitzar «chkdsk» en una línia d'ordres), opcionalment executeu "
+"defrag, després torneu a començar la instal·lació. També hauríeu de fer una "
+"còpia de seguretat de les vostres dades.\n"
+"\n"
+"\n"
+"Quan estigueu segur, premeu %s."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: fs/partitioning_wizard.pm:217 fs/partitioning_wizard.pm:594
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Next"
+msgstr "Següent"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Partitionning"
+msgstr "Particions"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
+msgstr ""
+"Quina mida voleu deixar per a la partició de Microsoft Windows® partició %s?"
+
+#: fs/partitioning_wizard.pm:224
+#, c-format
+msgid "Size"
+msgstr "Mida"
+
+#: fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing Microsoft Windows® partition"
+msgstr "S'està redimensionant la partició de Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:238
+#, c-format
+msgid "FAT resizing failed: %s"
+msgstr "Ha fallat el redimensionament de la FAT: %s"
+
+#: fs/partitioning_wizard.pm:254
+#, c-format
+msgid "There is no FAT partition to resize (or not enough space left)"
+msgstr ""
+"No hi ha cap partició FAT a la qual canviar la mida (o no queda prou espai)"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Remove Microsoft Windows®"
+msgstr "Elimina el Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Erase and use entire disk"
+msgstr "Esborra i utilitza tot el disc"
+
+#: fs/partitioning_wizard.pm:263
+#, c-format
+msgid ""
+"You have more than one hard disk drive, which one do you want the installer "
+"to use?"
+msgstr ""
+"Teniu més d'una unitat de disc. Quina voleu que l'instal·lador faci servir?"
+
+#: fs/partitioning_wizard.pm:271 fsedit.pm:638
+#, c-format
+msgid "ALL existing partitions and their data will be lost on drive %s"
+msgstr ""
+"Es perdran TOTES les particions, i les dades que contenen, de la unitat %s"
+
+#: fs/partitioning_wizard.pm:284
+#, c-format
+msgid "Custom disk partitioning"
+msgstr "Particions personalitzades de disc"
+
+#: fs/partitioning_wizard.pm:290
+#, c-format
+msgid "Use fdisk"
+msgstr "Utilitza fdisk"
+
+#: fs/partitioning_wizard.pm:293
+#, c-format
+msgid ""
+"You can now partition %s.\n"
+"When you are done, do not forget to save using `w'"
+msgstr ""
+"Ara podeu fer les particions a %s.\n"
+"Quan acabeu, no oblideu desar-les utilitzant 'w'"
+
+#: fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Ext2/3/4"
+msgstr "Ext2/3/4"
+
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:614
+#, c-format
+msgid "I cannot find any room for installing"
+msgstr "No es pot trobar espai per a la instal·lació."
+
+#: fs/partitioning_wizard.pm:475 fs/partitioning_wizard.pm:621
+#, c-format
+msgid "The DrakX Partitioning wizard found the following solutions:"
+msgstr "L'auxiliar de particions DrakX ha trobat les solucions següents:"
+
+#: fs/partitioning_wizard.pm:545
+#, c-format
+msgid "Here is the content of your disk drive "
+msgstr "Aquest és el contingut del disc dur "
+
+#: fs/partitioning_wizard.pm:632
+#, c-format
+msgid "Partitioning failed: %s"
+msgstr "Ha fallat establir les particions: %s"
+
+#: fs/type.pm:382
+#, c-format
+msgid "You cannot use JFS for partitions smaller than 16MB"
+msgstr "No podeu utilitzar el JFS per a particions inferiors a 16 MB"
+
+#: fs/type.pm:383
+#, c-format
+msgid "You cannot use ReiserFS for partitions smaller than 32MB"
+msgstr "No podeu utilitzar el ReiserFS per a particions inferiors a 32 MB"
+
+#: fs/type.pm:384
+#, c-format
+msgid "You cannot use btrfs for partitions smaller than 256MB"
+msgstr "No podeu utilitzar btrfs per a les particions inferiors als 256 MB"
+
+#: fsedit.pm:25
+#, c-format
+msgid "simple"
+msgstr "senzill"
+
+#: fsedit.pm:29
+#, c-format
+msgid "with /usr"
+msgstr "amb /usr"
+
+#: fsedit.pm:34
+#, c-format
+msgid "server"
+msgstr "servidor"
+
+#: fsedit.pm:157
+#, c-format
+msgid "BIOS software RAID detected on disks %s. Activate it?"
+msgstr ""
+"S'ha detectat que el BIOS permet RAID per programari en els discs %s. Ho "
+"voleu activar?"
+
+#: fsedit.pm:267
+#, c-format
+msgid ""
+"I cannot read the partition table of device %s, it's too corrupted for me :"
+"(\n"
+"I can try to go on, erasing over bad partitions (ALL DATA will be lost!).\n"
+"The other solution is to not allow DrakX to modify the partition table.\n"
+"(the error is %s)\n"
+"\n"
+"Do you agree to lose all the partitions?\n"
+msgstr ""
+"No es pot llegir la taula de particions del dispositiu %s, està massa "
+"malmesa. :(\n"
+"Es pot mirar de continuar eliminant les particions incorrectes (se'n perdran "
+"TOTES LES DADES!).\n"
+"L'altra solució és impedir al DrakX que modifiqui la taula de particions.\n"
+"(l'error és %s)\n"
+"\n"
+"Esteu d'acord a perdre totes les particions?\n"
+
+#: fsedit.pm:450
+#, c-format
+msgid "Mount points must begin with a leading /"
+msgstr "Els punts de muntatge han de començar amb una /"
+
+#: fsedit.pm:451
+#, c-format
+msgid "Mount points should contain only alphanumerical characters"
+msgstr "Els punts de muntatge només poden contenir caràcters alfanumèrics"
+
+#: fsedit.pm:452
+#, c-format
+msgid "There is already a partition with mount point %s\n"
+msgstr "Ja hi ha una partició amb el punt de muntatge %s\n"
+
+#: fsedit.pm:455
+#, c-format
+msgid ""
+"You've selected an encrypted partition as root (/).\n"
+"No bootloader is able to handle this without a /boot partition.\n"
+"Please be sure to add a separate /boot partition"
+msgstr ""
+"Heu seleccionat una partició xifrada com a /boot.\n"
+"No hi ha cap gestor d'arrencada que sigui capaç de gestionar-ho.\n"
+"Assegureu-vos d'afegir una partició /boot separada."
+
+#: fsedit.pm:461 fsedit.pm:472
+#, c-format
+msgid "You cannot use an encrypted filesystem for mount point %s"
+msgstr ""
+"No podeu utilitzar un sistema de fitxers xifrat per al punt de muntatge %s"
+
+#: fsedit.pm:464 fsedit.pm:466
+#, c-format
+msgid "This directory should remain within the root filesystem"
+msgstr "Aquest directori s'ha de mantenir dins del sistema de fitxers arrel"
+
+#: fsedit.pm:468 fsedit.pm:470
+#, c-format
+msgid ""
+"You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
+"point\n"
+msgstr ""
+"Necessiteu un sistema de fitxers real (ext2/3/4, reiserfs, xfs o jfs) per a "
+"aquest punt de muntatge\n"
+
+#: fsedit.pm:538
+#, c-format
+msgid "Not enough free space for auto-allocating"
+msgstr "No hi ha prou espai per a l'assignació automàtica"
+
+#: fsedit.pm:540
+#, c-format
+msgid "Nothing to do"
+msgstr "Res a fer"
+
+#: harddrake/data.pm:62
+#, c-format
+msgid "SATA controllers"
+msgstr "Controladors SATA"
+
+#: harddrake/data.pm:72
+#, c-format
+msgid "RAID controllers"
+msgstr "Controladors RAID"
+
+#: harddrake/data.pm:82
+#, c-format
+msgid "(E)IDE/ATA controllers"
+msgstr "Controladors (E)IDE/ATA"
+
+#: harddrake/data.pm:93
+#, c-format
+msgid "Card readers"
+msgstr "Lectors de targetes"
+
+#: harddrake/data.pm:102
+#, c-format
+msgid "Firewire controllers"
+msgstr "Controladors Firewire"
+
+#: harddrake/data.pm:111
+#, c-format
+msgid "PCMCIA controllers"
+msgstr "Controladors PCMCIA"
+
+#: harddrake/data.pm:120
+#, c-format
+msgid "SCSI controllers"
+msgstr "Controladors SCSI"
+
+#: harddrake/data.pm:129
+#, c-format
+msgid "USB controllers"
+msgstr "Controladors USB"
+
+#: harddrake/data.pm:138
+#, c-format
+msgid "USB ports"
+msgstr "Ports USB"
+
+#: harddrake/data.pm:147
+#, c-format
+msgid "SMBus controllers"
+msgstr "Controladors SMBus"
+
+#: harddrake/data.pm:156
+#, c-format
+msgid "Bridges and system controllers"
+msgstr "Ponts i controladors del sistema"
+
+#: harddrake/data.pm:168
+#, c-format
+msgid "Floppy"
+msgstr "Disquet"
+
+#: harddrake/data.pm:178
+#, c-format
+msgid "Zip"
+msgstr "Zip"
+
+#: harddrake/data.pm:194
+#, c-format
+msgid "Hard Disk"
+msgstr "Disc"
+
+#: harddrake/data.pm:204
+#, c-format
+msgid "USB Mass Storage Devices"
+msgstr "Dispositius d'emmagatzematge massiu USB"
+
+#: harddrake/data.pm:213
+#, c-format
+msgid "CDROM"
+msgstr "CD-ROM"
+
+#: harddrake/data.pm:223
+#, c-format
+msgid "CD/DVD burners"
+msgstr "Gravadors de CD/DVD"
+
+#: harddrake/data.pm:233
+#, c-format
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: harddrake/data.pm:243
+#, c-format
+msgid "Tape"
+msgstr "Cinta"
+
+#: harddrake/data.pm:254
+#, c-format
+msgid "AGP controllers"
+msgstr "Controladors AGP"
+
+#: harddrake/data.pm:263
+#, c-format
+msgid "Videocard"
+msgstr "Targeta de vídeo"
+
+#: harddrake/data.pm:272
+#, c-format
+msgid "DVB card"
+msgstr "Targeta DVB"
+
+#: harddrake/data.pm:280
+#, c-format
+msgid "Tvcard"
+msgstr "Targeta de TV"
+
+#: harddrake/data.pm:290
+#, c-format
+msgid "Other MultiMedia devices"
+msgstr "Altres dispositius multimèdia"
+
+#: harddrake/data.pm:299
+#, c-format
+msgid "Soundcard"
+msgstr "Targeta de so"
+
+#: harddrake/data.pm:313
+#, c-format
+msgid "Webcam"
+msgstr "Webcam"
+
+#: harddrake/data.pm:328
+#, c-format
+msgid "Processors"
+msgstr "Processadors"
+
+#: harddrake/data.pm:338
+#, c-format
+msgid "ISDN adapters"
+msgstr "Adaptadors XDSI"
+
+#: harddrake/data.pm:349
+#, c-format
+msgid "USB sound devices"
+msgstr "Dispositius de so USB"
+
+#: harddrake/data.pm:358
+#, c-format
+msgid "Radio cards"
+msgstr "Targetes de ràdio"
+
+#: harddrake/data.pm:367
+#, c-format
+msgid "ATM network cards"
+msgstr "Targetes de xarxa ATM"
+
+#: harddrake/data.pm:376
+#, c-format
+msgid "WAN network cards"
+msgstr "Targetes de xarxa WAN"
+
+#: harddrake/data.pm:385
+#, c-format
+msgid "Bluetooth devices"
+msgstr "Dispositius Bluetooth"
+
+#: harddrake/data.pm:394
+#, c-format
+msgid "Ethernetcard"
+msgstr "Targeta de xarxa"
+
+#: harddrake/data.pm:412
+#, c-format
+msgid "Modem"
+msgstr "Mòdem"
+
+#: harddrake/data.pm:422
+#, c-format
+msgid "ADSL adapters"
+msgstr "Adaptadors ADSL"
+
+#: harddrake/data.pm:434
+#, c-format
+msgid "Memory"
+msgstr "Memòria"
+
+#: harddrake/data.pm:443
+#, c-format
+msgid "Printer"
+msgstr "Impressora"
+
+#. -PO: these are joysticks controllers:
+#: harddrake/data.pm:457
+#, c-format
+msgid "Game port controllers"
+msgstr "Ports de controladors per jocs"
+
+#: harddrake/data.pm:466
+#, c-format
+msgid "Joystick"
+msgstr "Palanca de jocs"
+
+#: harddrake/data.pm:476
+#, c-format
+msgid "Keyboard"
+msgstr "Teclat"
+
+#: harddrake/data.pm:490
+#, c-format
+msgid "Tablet and touchscreen"
+msgstr "Tauleta i pantalla tàctil"
+
+#: harddrake/data.pm:499
+#, c-format
+msgid "Mouse"
+msgstr "Ratolí"
+
+#: harddrake/data.pm:514
+#, c-format
+msgid "Biometry"
+msgstr "Biometria"
+
+#: harddrake/data.pm:522
+#, c-format
+msgid "UPS"
+msgstr "SAI"
+
+#: harddrake/data.pm:531
+#, c-format
+msgid "Scanner"
+msgstr "Escàner"
+
+#: harddrake/data.pm:542
+#, c-format
+msgid "Unknown/Others"
+msgstr "Desconegut/Altres"
+
+#: harddrake/data.pm:572
+#, c-format
+msgid "cpu # "
+msgstr "CPU #"
+
+#: harddrake/sound.pm:80
+#, c-format
+msgid "No known driver"
+msgstr "No hi ha cap controlador conegut"
+
+#: harddrake/sound.pm:81
+#, c-format
+msgid "There's no known driver for your sound card (%s)"
+msgstr "No hi ha cap controlador conegut per a la vostra targeta de so (%s)"
+
+#: harddrake/sound.pm:110
+#, c-format
+msgid "Enable PulseAudio"
+msgstr "Habilita PulseAudio"
+
+#: harddrake/sound.pm:115
+#, c-format
+msgid "Use Glitch-Free mode"
+msgstr "Fes servir el mode Glitch-Free"
+
+#: harddrake/sound.pm:121
+#, c-format
+msgid "Reset sound mixer to default values"
+msgstr "Reinicia el mesclador d'àudio als valors predeterminats"
+
+#: harddrake/sound.pm:125
+#, c-format
+msgid "Troubleshooting"
+msgstr "Resolució de problemes"
+
+#: harddrake/sound.pm:132
+#, c-format
+msgid "No alternative driver"
+msgstr "No hi ha cap controlador alternatiu"
+
+#: harddrake/sound.pm:133
+#, c-format
+msgid ""
+"There's no known OSS/ALSA alternative driver for your sound card (%s) which "
+"currently uses \"%s\""
+msgstr ""
+"No hi ha cap controlador OSS/ALSA alternatiu conegut per a la vostra targeta "
+"de so (%s), que actualment fa servir «%s»"
+
+#: harddrake/sound.pm:140
+#, c-format
+msgid "Sound configuration"
+msgstr "Configuració de so"
+
+#: harddrake/sound.pm:144
+#, c-format
+msgid "Your card uses the \"%s\" driver"
+msgstr "La vostra targeta utilitza el controlador \"%s\""
+
+#: harddrake/sound.pm:156
+#, c-format
+msgid "Sound troubleshooting"
+msgstr "Resolució de problemes amb el so"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: harddrake/sound.pm:159
+#, c-format
+msgid ""
+"Below are some basic tips to help debug audio problems, but for accurate and "
+"up-to-date tips and tricks, please see:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- General Recommendation: Enable PulseAudio. If you have opted to not to use "
+"PulseAudio, we would strongly advise you enable it. For the vast majority of "
+"desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pavucontrol"
+"\" (generic) will launch graphical applications to allow you to view your "
+"sound devices and adjust volume levels\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.\n"
+"\n"
+"\n"
+"- \"pactl stat\" will check that you can connect to the PulseAudio daemon "
+"correctly.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" will tell you which programs are currently "
+"playing sound via PulseAudio.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" will tell you the current state of the "
+"OSS Proxy Daemon. This is used to enable sound from legacy applications "
+"which use the OSS sound API. You should install the \"ossp\" package if you "
+"need this functionality.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" will give you a LOT of debug information about the current "
+"state of your audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver "
+"your card uses by default.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound "
+"related kernel modules (drivers) are loaded.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA "
+"mixer controls for first sound card\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are "
+"currently using the sound card directly (normally this should only show "
+"PulseAudio)\n"
+msgstr ""
+"A continuació hi ha consells bàsics per ajudar-vos a depurar problemes "
+"d'àudio; però per saber els trucs i consells precisos i actualitzats, si us "
+"plau, consulteu el següent:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- Recomanació general. Habiliteu el PulseAudio. Si heu optat per no usar el "
+"PulseAudio, us recomanem que l'habiliteu. Per a la majoria de casos d'ús "
+"d'escriptori, el PulseAudio és l'opció recomanada i la que té més suport.\n"
+"\n"
+"\n"
+"\n"
+"- El kmix (KDE), El gnome-control-center sound (GNOME) i el pavucontrol "
+"(genèric) llançaran aplicacions gràfiques per permetre-us visualitzar els "
+"dispositius de so i ajustar-ne els nivells del volum.\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" comprovarà que el PulseAudio s'executi.\n"
+"\n"
+"\n"
+"- \"pactl stat\" comprovarà que pugueu connectar-vos al dimoni del "
+"PulseAudio correctament.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" us dirà quins programes estan reproduint so a "
+"través del PulseAudio a cada moment.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" us dirà l'estat actual de l'OSS Proxy "
+"Daemon. S'usa per habilitar so des d'aplicacions de llegat que usin l'API de "
+"so OSS. Hauríeu d'instal·lar el paquet ossp si us cal aquesta "
+"funcionalitat.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" us oferirà molta informació de depuració sobre l'estat actual "
+"de l'àudio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" us dirà quin controlador de baix nivell "
+"usa per defecte la vostra targeta.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" us permetrà comprovar quins mòduls "
+"(controladors) del nucli relacionats amb l'àudio estan carregats.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" us oferirà un mesclador basat en text per als controls "
+"del mesclador de baix nivell d'ALSA per a la primera targeta de so.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" us dirà quins programes "
+"estan usant en aquell moment la targeta de so de manera directa (normalment "
+"només hauria de mostrar el PulseAudio).\n"
+
+#: harddrake/v4l.pm:12
+#, c-format
+msgid "Auto-detect"
+msgstr "Detecció automàtica"
+
+#: harddrake/v4l.pm:97 harddrake/v4l.pm:285 harddrake/v4l.pm:337
+#, c-format
+msgid "Unknown|Generic"
+msgstr "Desconegut|Genèric"
+
+#: harddrake/v4l.pm:130
+#, c-format
+msgid "Unknown|CPH05X (bt878) [many vendors]"
+msgstr "Desconegut|CPH05X (bt878) [molts fabricants]"
+
+#: harddrake/v4l.pm:131
+#, c-format
+msgid "Unknown|CPH06X (bt878) [many vendors]"
+msgstr "Desconegut|CPH06X (bt878) [molts fabricants]"
+
+#: harddrake/v4l.pm:475
+#, c-format
+msgid ""
+"For most modern TV cards, the bttv module of the GNU/Linux kernel just auto-"
+"detect the rights parameters.\n"
+"If your card is misdetected, you can force the right tuner and card types "
+"here. Just select your TV card parameters if needed."
+msgstr ""
+"Per a les targetes de TV més modernes, el mòdul bttv del nucli GNU/Linux "
+"detecta automàticament els paràmetres correctes.\n"
+"Si la vostra targeta no és detectada, podeu forçar el tipus de sintonitzador "
+"i de targeta aquí. Simplement seleccioneu els paràmetres necessaris per a la "
+"vostra targeta de TV."
+
+#: harddrake/v4l.pm:478
+#, c-format
+msgid "Card model:"
+msgstr "Model de la targeta:"
+
+#: harddrake/v4l.pm:479
+#, c-format
+msgid "Tuner type:"
+msgstr "Tipus de sintonitzador:"
+
+#: interactive.pm:119 interactive.pm:674 interactive/curses.pm:270
+#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
+#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
+#: mygtk3.pm:928 ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:810 ugtk2.pm:833
+#: ugtk3.pm:507 ugtk3.pm:593 ugtk3.pm:906 ugtk3.pm:929
+#, c-format
+msgid "Ok"
+msgstr "D'acord"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "Yes"
+msgstr "Sí"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "No"
+msgstr "No"
+
+#: interactive.pm:253
+#, c-format
+msgid "Choose a file"
+msgstr "Trieu un fitxer"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Add"
+msgstr "Afegeix"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Modify"
+msgstr "Modifica"
+
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Finish"
+msgstr "Fi"
+
+#: interactive.pm:675 interactive/curses.pm:267 ugtk2.pm:517 ugtk3.pm:591
+#, c-format
+msgid "Previous"
+msgstr "Anterior"
+
+#: interactive/curses.pm:576 ugtk2.pm:870 ugtk3.pm:966
+#, c-format
+msgid "No file chosen"
+msgstr "Cap fitxer escollit"
+
+#: interactive/curses.pm:580 ugtk2.pm:874 ugtk3.pm:970
+#, c-format
+msgid "You have chosen a directory, not a file"
+msgstr "Heu escollit un directori, no un fitxer"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such directory"
+msgstr "No és un directori"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such file"
+msgstr "No hi ha fitxer"
+
+#: interactive/gtk.pm:596
+#, c-format
+msgid "Beware, Caps Lock is enabled"
+msgstr "Atenció, la tecla de fixació de majúscules està habilitada"
+
+#: interactive/stdio.pm:29 interactive/stdio.pm:154
+#, c-format
+msgid "Bad choice, try again\n"
+msgstr "Elecció incorrecta, torneu-ho a intentar\n"
+
+#: interactive/stdio.pm:30 interactive/stdio.pm:155
+#, c-format
+msgid "Your choice? (default %s) "
+msgstr "Quina és la vostra elecció? (predeterminat %s)"
+
+#: interactive/stdio.pm:54
+#, c-format
+msgid ""
+"Entries you'll have to fill:\n"
+"%s"
+msgstr ""
+"Entrades que heu d'emplenar:\n"
+"%s"
+
+#: interactive/stdio.pm:70
+#, c-format
+msgid "Your choice? (0/1, default `%s') "
+msgstr "Quina és la vostra elecció? (0/1, predeterminat '%s')"
+
+#: interactive/stdio.pm:97
+#, c-format
+msgid "Button `%s': %s"
+msgstr "Botó '%s': %s"
+
+#: interactive/stdio.pm:98
+#, c-format
+msgid "Do you want to click on this button?"
+msgstr "Voleu fer clic en aquest botó?"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid "Your choice? (default `%s'%s) "
+msgstr "Quina és la vostra elecció? (predeterminat '%s'%s)"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid " enter `void' for void entry"
+msgstr " introduïu 'void' per entrada buida"
+
+#: interactive/stdio.pm:128
+#, c-format
+msgid "=> There are many things to choose from (%s).\n"
+msgstr "=> Hi ha moltes coses per escollir de (%s).\n"
+
+#: interactive/stdio.pm:131
+#, c-format
+msgid ""
+"Please choose the first number of the 10-range you wish to edit,\n"
+"or just hit Enter to proceed.\n"
+"Your choice? "
+msgstr ""
+"Escolliu el primer número de l'interval 10 que voleu editar,\n"
+"o premeu Retorn per continuar.\n"
+"Què trieu? "
+
+#: interactive/stdio.pm:144
+#, c-format
+msgid ""
+"=> Notice, a label changed:\n"
+"%s"
+msgstr ""
+"=> Avís, una etiqueta ha canviat:\n"
+"%s"
+
+#: interactive/stdio.pm:151
+#, c-format
+msgid "Re-submit"
+msgstr "Torna a enviar"
+
+#. -PO: the string "default:LTR" can be translated *ONLY* as "default:LTR"
+#. -PO: or as "default:RTL", depending if your language is written from
+#. -PO: left to right, or from right to left; any other string is wrong.
+#: lang.pm:247
+#, c-format
+msgid "default:LTR"
+msgstr "default:LTR"
+
+#: lang.pm:301
+#, c-format
+msgid "Andorra"
+msgstr "Andorra"
+
+#: lang.pm:302 timezone.pm:237
+#, c-format
+msgid "United Arab Emirates"
+msgstr "Unió dels Emirats Àrabs"
+
+#: lang.pm:303
+#, c-format
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: lang.pm:304
+#, c-format
+msgid "Antigua and Barbuda"
+msgstr "Antigua i Barbuda"
+
+#: lang.pm:305
+#, c-format
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: lang.pm:306
+#, c-format
+msgid "Albania"
+msgstr "Albània"
+
+#: lang.pm:307
+#, c-format
+msgid "Armenia"
+msgstr "Armènia"
+
+#: lang.pm:308
+#, c-format
+msgid "Netherlands Antilles"
+msgstr "Antilles Holandeses"
+
+#: lang.pm:309
+#, c-format
+msgid "Angola"
+msgstr "Angola"
+
+#: lang.pm:310
+#, c-format
+msgid "Antarctica"
+msgstr "Antàrtida"
+
+#: lang.pm:311 timezone.pm:282
+#, c-format
+msgid "Argentina"
+msgstr "Argentina"
+
+#: lang.pm:312
+#, c-format
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: lang.pm:313 mirror.pm:22 timezone.pm:240
+#, c-format
+msgid "Austria"
+msgstr "Àustria"
+
+#: lang.pm:314 mirror.pm:21 timezone.pm:278
+#, c-format
+msgid "Australia"
+msgstr "Austràlia"
+
+#: lang.pm:315
+#, c-format
+msgid "Aruba"
+msgstr "Aruba"
+
+#: lang.pm:316
+#, c-format
+msgid "Azerbaijan"
+msgstr "Azerbaitjan"
+
+#: lang.pm:317
+#, c-format
+msgid "Bosnia and Herzegovina"
+msgstr "Bòsnia i Hercegovina"
+
+#: lang.pm:318
+#, c-format
+msgid "Barbados"
+msgstr "Barbados"
+
+#: lang.pm:319 timezone.pm:222
+#, c-format
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: lang.pm:320 mirror.pm:23 timezone.pm:242
+#, c-format
+msgid "Belgium"
+msgstr "Bèlgica"
+
+#: lang.pm:321
+#, c-format
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: lang.pm:322 timezone.pm:243
+#, c-format
+msgid "Bulgaria"
+msgstr "Bulgària"
+
+#: lang.pm:323
+#, c-format
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: lang.pm:324
+#, c-format
+msgid "Burundi"
+msgstr "Burundi"
+
+#: lang.pm:325
+#, c-format
+msgid "Benin"
+msgstr "Benín"
+
+#: lang.pm:326
+#, c-format
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: lang.pm:327
+#, c-format
+msgid "Brunei Darussalam"
+msgstr "Brunei"
+
+#: lang.pm:328
+#, c-format
+msgid "Bolivia"
+msgstr "Bolívia"
+
+#: lang.pm:329 mirror.pm:24 timezone.pm:283
+#, c-format
+msgid "Brazil"
+msgstr "Brasil"
+
+#: lang.pm:330
+#, c-format
+msgid "Bahamas"
+msgstr "Bahames"
+
+#: lang.pm:331
+#, c-format
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: lang.pm:332
+#, c-format
+msgid "Bouvet Island"
+msgstr "Illa Bouvet"
+
+#: lang.pm:333
+#, c-format
+msgid "Botswana"
+msgstr "Botswana"
+
+#: lang.pm:334 timezone.pm:241
+#, c-format
+msgid "Belarus"
+msgstr "Bielorússia"
+
+#: lang.pm:335
+#, c-format
+msgid "Belize"
+msgstr "Belize"
+
+#: lang.pm:336 mirror.pm:25 timezone.pm:272
+#, c-format
+msgid "Canada"
+msgstr "Canadà"
+
+#: lang.pm:337
+#, c-format
+msgid "Cocos (Keeling) Islands"
+msgstr "Illes Cocos (Keeling)"
+
+#: lang.pm:338
+#, c-format
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: lang.pm:339
+#, c-format
+msgid "Central African Republic"
+msgstr "República Centreafricana"
+
+#: lang.pm:340
+#, c-format
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: lang.pm:341 mirror.pm:49 timezone.pm:266
+#, c-format
+msgid "Switzerland"
+msgstr "Suïssa"
+
+#: lang.pm:342
+#, c-format
+msgid "Cote d'Ivoire"
+msgstr "Costa d'Ivori"
+
+#: lang.pm:343
+#, c-format
+msgid "Cook Islands"
+msgstr "Illes Cook"
+
+#: lang.pm:344 timezone.pm:284
+#, c-format
+msgid "Chile"
+msgstr "Xile"
+
+#: lang.pm:345
+#, c-format
+msgid "Cameroon"
+msgstr "Camerun"
+
+#: lang.pm:346 timezone.pm:223
+#, c-format
+msgid "China"
+msgstr "Xina"
+
+#: lang.pm:347
+#, c-format
+msgid "Colombia"
+msgstr "Colòmbia"
+
+#: lang.pm:348 mirror.pm:26
+#, c-format
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: lang.pm:349
+#, c-format
+msgid "Serbia & Montenegro"
+msgstr "Sèrbia i Montenegro"
+
+#: lang.pm:350
+#, c-format
+msgid "Cuba"
+msgstr "Cuba"
+
+#: lang.pm:351
+#, c-format
+msgid "Cape Verde"
+msgstr "Cap Verd"
+
+#: lang.pm:352
+#, c-format
+msgid "Christmas Island"
+msgstr "Illa Christmas"
+
+#: lang.pm:353
+#, c-format
+msgid "Cyprus"
+msgstr "Xipre"
+
+#: lang.pm:354 mirror.pm:27 timezone.pm:244
+#, c-format
+msgid "Czech Republic"
+msgstr "República Txeca"
+
+#: lang.pm:355 mirror.pm:32 timezone.pm:249
+#, c-format
+msgid "Germany"
+msgstr "Alemanya"
+
+#: lang.pm:356
+#, c-format
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: lang.pm:357 mirror.pm:28 timezone.pm:245
+#, c-format
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: lang.pm:358
+#, c-format
+msgid "Dominica"
+msgstr "Dominica"
+
+#: lang.pm:359
+#, c-format
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: lang.pm:360
+#, c-format
+msgid "Algeria"
+msgstr "Algèria"
+
+#: lang.pm:361
+#, c-format
+msgid "Ecuador"
+msgstr "Equador"
+
+#: lang.pm:362 mirror.pm:29 timezone.pm:246
+#, c-format
+msgid "Estonia"
+msgstr "Estònia"
+
+#: lang.pm:363
+#, c-format
+msgid "Egypt"
+msgstr "Egipte"
+
+#: lang.pm:364
+#, c-format
+msgid "Western Sahara"
+msgstr "Sàhara Occidental"
+
+#: lang.pm:365
+#, c-format
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: lang.pm:366 mirror.pm:47 timezone.pm:264
+#, c-format
+msgid "Spain"
+msgstr "Espanya"
+
+#: lang.pm:367
+#, c-format
+msgid "Ethiopia"
+msgstr "Etiòpia"
+
+#: lang.pm:368 mirror.pm:30 timezone.pm:247
+#, c-format
+msgid "Finland"
+msgstr "Finlàndia"
+
+#: lang.pm:369
+#, c-format
+msgid "Fiji"
+msgstr "Fiji"
+
+#: lang.pm:370
+#, c-format
+msgid "Falkland Islands (Malvinas)"
+msgstr "Illes Malvines (Falkland)"
+
+#: lang.pm:371
+#, c-format
+msgid "Micronesia"
+msgstr "Micronèsia"
+
+#: lang.pm:372
+#, c-format
+msgid "Faroe Islands"
+msgstr "Illes Fèroe"
+
+#: lang.pm:373 mirror.pm:31 timezone.pm:248
+#, c-format
+msgid "France"
+msgstr "França"
+
+#: lang.pm:374
+#, c-format
+msgid "Gabon"
+msgstr "Gabon"
+
+#: lang.pm:375 timezone.pm:268
+#, c-format
+msgid "United Kingdom"
+msgstr "Regne Unit"
+
+#: lang.pm:376
+#, c-format
+msgid "Grenada"
+msgstr "Grenada"
+
+#: lang.pm:377
+#, c-format
+msgid "Georgia"
+msgstr "Geòrgia"
+
+#: lang.pm:378
+#, c-format
+msgid "French Guiana"
+msgstr "Guaiana Francesa"
+
+#: lang.pm:379
+#, c-format
+msgid "Ghana"
+msgstr "Ghana"
+
+#: lang.pm:380
+#, c-format
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: lang.pm:381
+#, c-format
+msgid "Greenland"
+msgstr "Groenlàndia"
+
+#: lang.pm:382
+#, c-format
+msgid "Gambia"
+msgstr "Gàmbia"
+
+#: lang.pm:383
+#, c-format
+msgid "Guinea"
+msgstr "Guinea"
+
+#: lang.pm:384
+#, c-format
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: lang.pm:385
+#, c-format
+msgid "Equatorial Guinea"
+msgstr "Guinea Equatorial"
+
+#: lang.pm:386 mirror.pm:33 timezone.pm:250
+#, c-format
+msgid "Greece"
+msgstr "Grècia"
+
+#: lang.pm:387
+#, c-format
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Illes Geòrgia del Sud i Sandwich del Sud"
+
+#: lang.pm:388 timezone.pm:273
+#, c-format
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: lang.pm:389
+#, c-format
+msgid "Guam"
+msgstr "Guam"
+
+#: lang.pm:390
+#, c-format
+msgid "Guinea-Bissau"
+msgstr "Guinea Bissau"
+
+#: lang.pm:391
+#, c-format
+msgid "Guyana"
+msgstr "Guyana"
+
+#: lang.pm:392
+#, c-format
+msgid "Hong Kong SAR (China)"
+msgstr "Xina (Hong Kong)"
+
+#: lang.pm:393
+#, c-format
+msgid "Heard and McDonald Islands"
+msgstr "Illa Heard i Illes McDonald"
+
+#: lang.pm:394
+#, c-format
+msgid "Honduras"
+msgstr "Hondures"
+
+#: lang.pm:395
+#, c-format
+msgid "Croatia"
+msgstr "Croàcia"
+
+#: lang.pm:396
+#, c-format
+msgid "Haiti"
+msgstr "Haití"
+
+#: lang.pm:397 mirror.pm:34 timezone.pm:251
+#, c-format
+msgid "Hungary"
+msgstr "Hongria"
+
+#: lang.pm:398 timezone.pm:226
+#, c-format
+msgid "Indonesia"
+msgstr "Indonèsia"
+
+#: lang.pm:399 mirror.pm:35 timezone.pm:252
+#, c-format
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: lang.pm:400 mirror.pm:36 timezone.pm:228
+#, c-format
+msgid "Israel"
+msgstr "Israel"
+
+#: lang.pm:401 timezone.pm:225
+#, c-format
+msgid "India"
+msgstr "Índia"
+
+#: lang.pm:402
+#, c-format
+msgid "British Indian Ocean Territory"
+msgstr "Territori Britànic de l'Oceà Índic"
+
+#: lang.pm:403
+#, c-format
+msgid "Iraq"
+msgstr "Iraq"
+
+#: lang.pm:404 timezone.pm:227
+#, c-format
+msgid "Iran"
+msgstr "Iran"
+
+#: lang.pm:405
+#, c-format
+msgid "Iceland"
+msgstr "Islàndia"
+
+#: lang.pm:406 mirror.pm:37 timezone.pm:253
+#, c-format
+msgid "Italy"
+msgstr "Itàlia"
+
+#: lang.pm:407
+#, c-format
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: lang.pm:408
+#, c-format
+msgid "Jordan"
+msgstr "Jordània"
+
+#: lang.pm:409 mirror.pm:38 timezone.pm:229
+#, c-format
+msgid "Japan"
+msgstr "Japó"
+
+#: lang.pm:410
+#, c-format
+msgid "Kenya"
+msgstr "Kenya"
+
+#: lang.pm:411
+#, c-format
+msgid "Kyrgyzstan"
+msgstr "Kirguizistan"
+
+#: lang.pm:412
+#, c-format
+msgid "Cambodia"
+msgstr "Cambodja"
+
+#: lang.pm:413
+#, c-format
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: lang.pm:414
+#, c-format
+msgid "Comoros"
+msgstr "Comores"
+
+#: lang.pm:415
+#, c-format
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Christopher i Nevis"
+
+#: lang.pm:416
+#, c-format
+msgid "Korea (North)"
+msgstr "Corea (Nord)"
+
+#: lang.pm:417 timezone.pm:230
+#, c-format
+msgid "Korea"
+msgstr "Corea"
+
+#: lang.pm:418
+#, c-format
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: lang.pm:419
+#, c-format
+msgid "Cayman Islands"
+msgstr "Illes Caiman"
+
+#: lang.pm:420
+#, c-format
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: lang.pm:421
+#, c-format
+msgid "Laos"
+msgstr "Laos"
+
+#: lang.pm:422
+#, c-format
+msgid "Lebanon"
+msgstr "Líban"
+
+#: lang.pm:423
+#, c-format
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: lang.pm:424
+#, c-format
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: lang.pm:425
+#, c-format
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: lang.pm:426
+#, c-format
+msgid "Liberia"
+msgstr "Libèria"
+
+#: lang.pm:427
+#, c-format
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: lang.pm:428 timezone.pm:254
+#, c-format
+msgid "Lithuania"
+msgstr "Lituània"
+
+#: lang.pm:429 timezone.pm:255
+#, c-format
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: lang.pm:430
+#, c-format
+msgid "Latvia"
+msgstr "Letònia"
+
+#: lang.pm:431
+#, c-format
+msgid "Libya"
+msgstr "Líbia"
+
+#: lang.pm:432
+#, c-format
+msgid "Morocco"
+msgstr "Marroc"
+
+#: lang.pm:433
+#, c-format
+msgid "Monaco"
+msgstr "Mònaco"
+
+#: lang.pm:434
+#, c-format
+msgid "Moldova"
+msgstr "Moldàvia"
+
+#: lang.pm:435
+#, c-format
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: lang.pm:436
+#, c-format
+msgid "Marshall Islands"
+msgstr "Illes Marshall"
+
+#: lang.pm:437
+#, c-format
+msgid "Macedonia"
+msgstr "Macedònia"
+
+#: lang.pm:438
+#, c-format
+msgid "Mali"
+msgstr "Mali"
+
+#: lang.pm:439
+#, c-format
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: lang.pm:440
+#, c-format
+msgid "Mongolia"
+msgstr "Mongòlia"
+
+#: lang.pm:441
+#, c-format
+msgid "Northern Mariana Islands"
+msgstr "Illes Marianes del Nord"
+
+#: lang.pm:442
+#, c-format
+msgid "Martinique"
+msgstr "Martinica"
+
+#: lang.pm:443
+#, c-format
+msgid "Mauritania"
+msgstr "Mauritània"
+
+#: lang.pm:444
+#, c-format
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: lang.pm:445
+#, c-format
+msgid "Malta"
+msgstr "Malta"
+
+#: lang.pm:446
+#, c-format
+msgid "Mauritius"
+msgstr "Maurici"
+
+#: lang.pm:447
+#, c-format
+msgid "Maldives"
+msgstr "Maldives"
+
+#: lang.pm:448
+#, c-format
+msgid "Malawi"
+msgstr "Malawi"
+
+#: lang.pm:449 timezone.pm:274
+#, c-format
+msgid "Mexico"
+msgstr "Mèxic"
+
+#: lang.pm:450 timezone.pm:231
+#, c-format
+msgid "Malaysia"
+msgstr "Malàisia"
+
+#: lang.pm:451
+#, c-format
+msgid "Mozambique"
+msgstr "Moçambic"
+
+#: lang.pm:452
+#, c-format
+msgid "Namibia"
+msgstr "Namíbia"
+
+#: lang.pm:453
+#, c-format
+msgid "New Caledonia"
+msgstr "Nova Caledònia"
+
+#: lang.pm:454
+#, c-format
+msgid "Niger"
+msgstr "Níger"
+
+#: lang.pm:455
+#, c-format
+msgid "Norfolk Island"
+msgstr "Illa Norfolk"
+
+#: lang.pm:456
+#, c-format
+msgid "Nigeria"
+msgstr "Nigèria"
+
+#: lang.pm:457
+#, c-format
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: lang.pm:458 mirror.pm:39 timezone.pm:256
+#, c-format
+msgid "Netherlands"
+msgstr "Països Baixos"
+
+#: lang.pm:459 mirror.pm:41 timezone.pm:257
+#, c-format
+msgid "Norway"
+msgstr "Noruega"
+
+#: lang.pm:460
+#, c-format
+msgid "Nepal"
+msgstr "Nepal"
+
+#: lang.pm:461
+#, c-format
+msgid "Nauru"
+msgstr "Nauruà"
+
+#: lang.pm:462
+#, c-format
+msgid "Niue"
+msgstr "Niue"
+
+#: lang.pm:463 mirror.pm:40 timezone.pm:279
+#, c-format
+msgid "New Zealand"
+msgstr "Nova Zelanda"
+
+#: lang.pm:464
+#, c-format
+msgid "Oman"
+msgstr "Oman"
+
+#: lang.pm:465
+#, c-format
+msgid "Panama"
+msgstr "Panamà"
+
+#: lang.pm:466
+#, c-format
+msgid "Peru"
+msgstr "Perú"
+
+#: lang.pm:467
+#, c-format
+msgid "French Polynesia"
+msgstr "Polinèsia francesa"
+
+#: lang.pm:468
+#, c-format
+msgid "Papua New Guinea"
+msgstr "Papua Nova Guinea"
+
+#: lang.pm:469 timezone.pm:232
+#, c-format
+msgid "Philippines"
+msgstr "Filipines"
+
+#: lang.pm:470
+#, c-format
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: lang.pm:471 mirror.pm:42 timezone.pm:258
+#, c-format
+msgid "Poland"
+msgstr "Polònia"
+
+#: lang.pm:472
+#, c-format
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre i Miquelon"
+
+#: lang.pm:473
+#, c-format
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: lang.pm:474
+#, c-format
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: lang.pm:475
+#, c-format
+msgid "Palestine"
+msgstr "Palestina"
+
+#: lang.pm:476 mirror.pm:43 timezone.pm:259
+#, c-format
+msgid "Portugal"
+msgstr "Portugal"
+
+#: lang.pm:477
+#, c-format
+msgid "Paraguay"
+msgstr "Paraguai"
+
+#: lang.pm:478
+#, c-format
+msgid "Palau"
+msgstr "Palau"
+
+#: lang.pm:479
+#, c-format
+msgid "Qatar"
+msgstr "Qatar"
+
+#: lang.pm:480
+#, c-format
+msgid "Reunion"
+msgstr "Reunion"
+
+#: lang.pm:481 timezone.pm:260
+#, c-format
+msgid "Romania"
+msgstr "Romania"
+
+#: lang.pm:482 mirror.pm:44
+#, c-format
+msgid "Russia"
+msgstr "Rússia"
+
+#: lang.pm:483
+#, c-format
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: lang.pm:484
+#, c-format
+msgid "Saudi Arabia"
+msgstr "Aràbia Saudita"
+
+#: lang.pm:485
+#, c-format
+msgid "Solomon Islands"
+msgstr "Illes Salomó"
+
+#: lang.pm:486
+#, c-format
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: lang.pm:487
+#, c-format
+msgid "Sudan"
+msgstr "Sudan"
+
+#: lang.pm:488 mirror.pm:48 timezone.pm:265
+#, c-format
+msgid "Sweden"
+msgstr "Suècia"
+
+#: lang.pm:489 timezone.pm:233
+#, c-format
+msgid "Singapore"
+msgstr "Singapur"
+
+#: lang.pm:490
+#, c-format
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: lang.pm:491 timezone.pm:263
+#, c-format
+msgid "Slovenia"
+msgstr "Eslovènia"
+
+#: lang.pm:492
+#, c-format
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Illes Svalbard i Jan Mayen"
+
+#: lang.pm:493 mirror.pm:45 timezone.pm:262
+#, c-format
+msgid "Slovakia"
+msgstr "Eslovàquia"
+
+#: lang.pm:494
+#, c-format
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: lang.pm:495
+#, c-format
+msgid "San Marino"
+msgstr "San Marino"
+
+#: lang.pm:496
+#, c-format
+msgid "Senegal"
+msgstr "Senegal"
+
+#: lang.pm:497
+#, c-format
+msgid "Somalia"
+msgstr "Somàlia"
+
+#: lang.pm:498
+#, c-format
+msgid "Suriname"
+msgstr "Surinam"
+
+#: lang.pm:499
+#, c-format
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome i Príncipe"
+
+#: lang.pm:500
+#, c-format
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: lang.pm:501
+#, c-format
+msgid "Syria"
+msgstr "Síria"
+
+#: lang.pm:502
+#, c-format
+msgid "Swaziland"
+msgstr "Swazilàndia"
+
+#: lang.pm:503
+#, c-format
+msgid "Turks and Caicos Islands"
+msgstr "Illes Turks i Caicos"
+
+#: lang.pm:504
+#, c-format
+msgid "Chad"
+msgstr "Txad"
+
+#: lang.pm:505
+#, c-format
+msgid "French Southern Territories"
+msgstr "Territoris francesos del Sud"
+
+#: lang.pm:506
+#, c-format
+msgid "Togo"
+msgstr "Togo"
+
+#: lang.pm:507 mirror.pm:51 timezone.pm:235
+#, c-format
+msgid "Thailand"
+msgstr "Tailàndia"
+
+#: lang.pm:508
+#, c-format
+msgid "Tajikistan"
+msgstr "Tadjikistan"
+
+#: lang.pm:509
+#, c-format
+msgid "Tokelau"
+msgstr "Tokelauès"
+
+#: lang.pm:510
+#, c-format
+msgid "East Timor"
+msgstr "Timor Oriental"
+
+#: lang.pm:511
+#, c-format
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: lang.pm:512
+#, c-format
+msgid "Tunisia"
+msgstr "Tunísia"
+
+#: lang.pm:513
+#, c-format
+msgid "Tonga"
+msgstr "Tonga"
+
+#: lang.pm:514 timezone.pm:236
+#, c-format
+msgid "Turkey"
+msgstr "Turquia"
+
+#: lang.pm:515
+#, c-format
+msgid "Trinidad and Tobago"
+msgstr "Trinitat i Tobago"
+
+#: lang.pm:516
+#, c-format
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: lang.pm:517 mirror.pm:50 timezone.pm:234
+#, c-format
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: lang.pm:518 timezone.pm:219
+#, c-format
+msgid "Tanzania"
+msgstr "Tanzània"
+
+#: lang.pm:519 timezone.pm:267
+#, c-format
+msgid "Ukraine"
+msgstr "Ucraïna"
+
+#: lang.pm:520
+#, c-format
+msgid "Uganda"
+msgstr "Uganda"
+
+#: lang.pm:521
+#, c-format
+msgid "United States Minor Outlying Islands"
+msgstr "Illes Perifèriques Menors dels EUA"
+
+#: lang.pm:522 mirror.pm:52 timezone.pm:275
+#, c-format
+msgid "United States"
+msgstr "Estats Units"
+
+#: lang.pm:523
+#, c-format
+msgid "Uruguay"
+msgstr "Uruguai"
+
+#: lang.pm:524
+#, c-format
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: lang.pm:525
+#, c-format
+msgid "Vatican"
+msgstr "Vaticà"
+
+#: lang.pm:526
+#, c-format
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent i les Grenadines"
+
+#: lang.pm:527
+#, c-format
+msgid "Venezuela"
+msgstr "Veneçuela"
+
+#: lang.pm:528
+#, c-format
+msgid "Virgin Islands (British)"
+msgstr "Illes Verge Britàniques"
+
+#: lang.pm:529
+#, c-format
+msgid "Virgin Islands (U.S.)"
+msgstr "Illes Verge Americanes"
+
+#: lang.pm:530
+#, c-format
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: lang.pm:531
+#, c-format
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: lang.pm:532
+#, c-format
+msgid "Wallis and Futuna"
+msgstr "Wallis i Futuna"
+
+#: lang.pm:533
+#, c-format
+msgid "Samoa"
+msgstr "Samoa"
+
+#: lang.pm:534
+#, c-format
+msgid "Yemen"
+msgstr "Iemen"
+
+#: lang.pm:535
+#, c-format
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: lang.pm:536 mirror.pm:46 timezone.pm:218
+#, c-format
+msgid "South Africa"
+msgstr "Sud-àfrica"
+
+#: lang.pm:537
+#, c-format
+msgid "Zambia"
+msgstr "Zàmbia"
+
+#: lang.pm:538
+#, c-format
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: lang.pm:1537
+#, c-format
+msgid "Welcome to %s"
+msgstr "Benvingut a %s"
+
+#: lvm.pm:128
+#, c-format
+msgid "Moving used physical extents to other physical volumes failed"
+msgstr ""
+"Ha fallat moure les extensions d'espai físic utilitzades a altres volums "
+"físics."
+
+#: lvm.pm:194
+#, c-format
+msgid "Physical volume %s is still in use"
+msgstr "El volum físic %s encara està en ús"
+
+#: lvm.pm:204
+#, c-format
+msgid "Remove the logical volumes first\n"
+msgstr "Elimineu primer els volums lògics\n"
+
+#: lvm.pm:248
+#, c-format
+msgid "The bootloader can't handle /boot on multiple physical volumes"
+msgstr "El gestor d'arrencada no pot gestionar /boot en diversos volums físics"
+
+#. -PO: Only write something if needed:
+#: messages.pm:11
+#, c-format
+msgid "_: You can warn about unofficial translation here"
+msgstr " "
+
+#: messages.pm:18
+#, c-format
+msgid "Introduction"
+msgstr "Introducció"
+
+#: messages.pm:20
+#, c-format
+msgid ""
+"The operating system and the different components available in the Mageia "
+"distribution \n"
+"shall be called the \"Software Products\" hereafter. The Software Products "
+"include, but are not \n"
+"restricted to, the set of programs, methods, rules and documentation related "
+"to the operating \n"
+"system and the different components of the Mageia distribution, and any "
+"applications \n"
+"distributed with these products provided by Mageia's licensors or suppliers."
+msgstr ""
+"El sistema operatiu i els diferents components disponibles a la distribució "
+"Mageia\n"
+"es denominaran des d'ara «productes de programari». Els productes de "
+"programari inclouen -però no hi estan restringits- el conjunt de\n"
+"programes, mètodes, normes i documentació relacionada amb el sistema "
+"operatiu i els diferents components de la distribució Mageia, i qualsevol "
+"aplicació distribuïda\n"
+"amb aquests productes proporcionats per llicenciataris o proveïdors de "
+"Mageia."
+
+#: messages.pm:27
+#, c-format
+msgid "1. License Agreement"
+msgstr "1. Contracte de llicència"
+
+#: messages.pm:29
+#, c-format
+msgid ""
+"Please read this document carefully. This document is a license agreement "
+"between you and  \n"
+"Mageia which applies to the Software Products.\n"
+"By installing, duplicating or using any of the Software Products in any "
+"manner, you explicitly \n"
+"accept and fully agree to conform to the terms and conditions of this "
+"License. \n"
+"If you disagree with any portion of the License, you are not allowed to "
+"install, duplicate or use \n"
+"the Software Products. \n"
+"Any attempt to install, duplicate or use the Software Products in a manner "
+"which does not comply \n"
+"with the terms and conditions of this License is void and will terminate "
+"your rights under this \n"
+"License. Upon termination of the License,  you must immediately destroy all "
+"copies of the \n"
+"Software Products."
+msgstr ""
+"Llegiu atentament aquest document. Aquest document és un contracte de "
+"llicència entre vós i\n"
+"Mageia que s'aplica als productes de programari.\n"
+"Mitjançant la instal·lació, la duplicació o l'ús de qualsevol dels Productes "
+"de programari de qualsevol manera, accepteu de forma explícita\n"
+"i esteu totalment d'acord a complir els termes i condicions d'aquesta "
+"llicència.\n"
+"Si no esteu d'acord amb alguna part de la llicència, no se us permetrà "
+"instal·lar, duplicar o utilitzar\n"
+"els productes de programari.\n"
+"Qualsevol intent d'instal·lar, duplicar o utilitzar els productes de "
+"programari d'una manera que no compleixi\n"
+"els termes i condicions d'aquesta llicència és nul i acabarà els vostres "
+"drets en virtut de la\n"
+"llicència. A l'acabament de la llicència, haureu de destruir immediatament "
+"totes les còpies dels\n"
+"Productes de programari."
+
+#: messages.pm:41
+#, c-format
+msgid "2. Limited Warranty"
+msgstr "2. Garantia limitada"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: messages.pm:44
+#, c-format
+msgid ""
+"The Software Products and attached documentation are provided \"as is\", "
+"with no warranty, to the \n"
+"extent permitted by law.\n"
+"Neither Mageia nor its licensors or suppliers will, in any circumstances and "
+"to the extent \n"
+"permitted by law, be liable for any special, incidental, direct or indirect "
+"damages whatsoever \n"
+"(including without limitation damages for loss of business, interruption of "
+"business, financial \n"
+"loss, legal fees and penalties resulting from a court judgment, or any other "
+"consequential loss) \n"
+"arising out of  the use or inability to use the Software Products, even if "
+"Mageia or its \n"
+"licensors or suppliers have been advised of the possibility or occurrence of "
+"such damages.\n"
+"\n"
+"LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
+"COUNTRIES\n"
+"\n"
+"To the extent permitted by law, neither Mageia nor its licensors, suppliers "
+"or\n"
+"distributors will, in any circumstances, be liable for any special, "
+"incidental, direct or indirect \n"
+"damages whatsoever (including without limitation damages for loss of "
+"business, interruption of \n"
+"business, financial loss, legal fees and penalties resulting from a court "
+"judgment, or any \n"
+"other consequential loss) arising out of the possession and use of software "
+"components or \n"
+"arising out of  downloading software components from one of Mageia sites "
+"which are \n"
+"prohibited or restricted in some countries by local laws.\n"
+"This limited liability applies to, but is not restricted to, the strong "
+"cryptography components \n"
+"included in the Software Products.\n"
+"However, because some jurisdictions do not allow the exclusion or limitation "
+"of liability for \n"
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+"Els Productes de programari i la documentació adjunta es proporcionen \"tal "
+"qual\", sense garantia, en la\n"
+"mesura permesa per la llei.\n"
+"Ni Mageia ni els seus llicenciataris o proveïdors, en cap cas i en la "
+"mesura\n"
+"permesa per la llei, serà responsable de cap dany especial, incidental, "
+"directament o indirecta\n"
+"(incloent sense limitació danys per pèrdua de negoci, interrupció del "
+"negoci, pèrdues financeres, despeses legals i sancions derivades d'una "
+"sentència judicial o qualsevol altra pèrdua conseqüent)\n"
+"que sorgeixi de l'ús o la impossibilitat d'usar els productes de programari, "
+"fins i tot si Mageia, els llicenciataris\n"
+"o proveïdors han advertit de la possibilitat o l'ocurrència d'aquests "
+"danys.\n"
+"\n"
+"ADVERTÈNCIA QUANT A LA POSSESSIÓ O ÚS DE PROGRAMARI PROHIBIT EN ALGUNS "
+"PAÏSOS\n"
+"\n"
+"En la mesura permesa per la llei, ni Mageia i els seus llicenciataris, "
+"proveïdors o\n"
+"distribuïdors, en cap cas, seran responsables de cap dany especial, "
+"incidental, directe o indirecte\n"
+"(incloent sense limitació danys per pèrdua de negoci, la interrupció de\n"
+"negoci, pèrdua financera, les despeses legals i sancions derivades d'una "
+"sentència judicial, o qualsevol\n"
+"altra pèrdua conseqüent) que sorgeixin de la possessió i l'ús de components "
+"de programari o\n"
+"que sorgeixi de la baixada de components de programari d'un dels llocs de "
+"Mageia que són \n"
+"prohibits o restringit en alguns països per les lleis locals.\n"
+"Aquesta responsabilitat limitada s'aplica -però no s'hi limita-, als forts "
+"components de criptografia\n"
+"inclosos als productes de programari.\n"
+"No obstant això, a causa que algunes jurisdiccions no permeten l'exclusió o "
+"limitació de responsabilitat per\n"
+"danys indirectes o incidentals, la limitació anterior pot no aplicar-se si "
+"s'escau."
+
+#: messages.pm:68
+#, c-format
+msgid "3. The GPL License and Related Licenses"
+msgstr "3. La llicència GPL i llicències relacionades"
+
+#: messages.pm:70
+#, c-format
+msgid ""
+"The Software Products consist of components created by different persons or "
+"entities.\n"
+"Most of these licenses allow you to use, duplicate, adapt or redistribute "
+"the components which \n"
+"they cover. Please read carefully the terms and conditions of the license "
+"agreement for each component \n"
+"before using any component. Any question on a component license should be "
+"addressed to the component \n"
+"licensor or supplier and not to Mageia.\n"
+"The programs developed by Mageia are governed by the GPL License. "
+"Documentation written \n"
+"by Mageia is governed by \"%s\" License."
+msgstr ""
+"Els productes de programari es componen d'elements creats per diferents "
+"persones o entitats.\n"
+"La majoria d'aquestes llicències us permeten utilitzar, reproduir, adaptar i "
+"redistribuir els components\n"
+"que cobreixen. Si us plau, llegiu acuradament els termes i condicions de "
+"l'acord de llicència per a cada component\n"
+"abans d'utilitzar qualsevol dels components. Qualsevol qüestió sobre la "
+"llicència d'un component ha de ser dirigida al llicenciatari\n"
+"o proveïdor del component i no a Mageia.\n"
+"Els programes desenvolupats per Mageia estan sotmesos a la llicència GPL. \n"
+"La documentació escrita\n"
+"per Mageia es regeix per la llicència \"%s\"."
+
+#: messages.pm:79
+#, c-format
+msgid "4. Intellectual Property Rights"
+msgstr "4. Drets de propietat intel·lectual"
+
+#: messages.pm:81
+#, c-format
+msgid ""
+"All rights to the components of the Software Products belong to their "
+"respective authors and are \n"
+"protected by intellectual property and copyright laws applicable to software "
+"programs.\n"
+"Mageia and its suppliers and licensors reserves their rights to modify or "
+"adapt the Software \n"
+"Products, as a whole or in parts, by all means and for all purposes.\n"
+"\"Mageia\" and associated logos are trademarks of %s"
+msgstr ""
+"Tots els drets sobre els components dels productes de programari pertanyen "
+"als seus respectius autors i estan\n"
+"protegits per lleis de drets d'autor i de propietat intel·lectual aplicables "
+"als programes de programari.\n"
+"Mageia i els seus proveïdors i llicenciataris es reserven el dret a "
+"modificar o adaptar els productes\n"
+"de programari, íntegrament o en parts, per tots els mitjans i per a tots els "
+"propòsits.\n"
+"\"Mageia\" i els logotips associats són marques comercials de %s"
+
+#: messages.pm:88
+#, c-format
+msgid "5. Governing Laws"
+msgstr "5. Lleis regidores"
+
+#: messages.pm:90
+#, c-format
+msgid ""
+"If any portion of this agreement is held void, illegal or inapplicable by a "
+"court judgment, this \n"
+"portion is excluded from this contract. You remain bound by the other "
+"applicable sections of the \n"
+"agreement.\n"
+"The terms and conditions of this License are governed by the Laws of "
+"France.\n"
+"All disputes on the terms of this license will preferably be settled out of "
+"court. As a last \n"
+"resort, the dispute will be referred to the appropriate Courts of Law of "
+"Paris - France.\n"
+"For any question on this document, please contact Mageia."
+msgstr ""
+"Si alguna part d'aquest acord es considera nul·la, il·legal o inaplicable "
+"per un tribunal competent, aquesta\n"
+"part s'exclou d'aquest contracte. Vós resteu lligat a les altres seccions "
+"aplicables de \n"
+"l'acord.\n"
+"Els termes i condicions d'aquesta llicència es regeixen per les lleis de "
+"França.\n"
+"Totes les disputes sobre els termes d'aquesta llicència seran preferentment "
+"resoltes fora dels tribunals. Com a última\n"
+"instància, la disputa es farà als tribunals corresponents de París, França.\n"
+"Per a qualsevol pregunta sobre aquest document, poseu-vos en contacte amb "
+"Mageia."
+
+#: messages.pm:102
+#, c-format
+msgid ""
+"Warning: Free Software may not necessarily be patent free, and some Free\n"
+"Software included may be covered by patents in your country. For example, "
+"the\n"
+"MP3 decoders included may require a license for further usage (see\n"
+"http://www.mp3licensing.com for more details). If you are unsure if a "
+"patent\n"
+"may be applicable to you, check your local laws."
+msgstr ""
+"Avís: El programari lliure no està necessàriament lliure de patents, alguns "
+"dels programes\n"
+"lliures inclosos poden estar coberts per patents al teu país. Per exemple, "
+"els\n"
+"descodificadors MP3 inclosos poden necessitar una llicència per poder ser "
+"utilitzats (consulteu\n"
+"http://www.mp3licensing.com per més detalls). Si no esteu segur si una "
+"patent és aplicable,\n"
+"consulteu les lleis locals."
+
+#: messages.pm:111
+#, c-format
+msgid ""
+"Congratulations, installation is complete.\n"
+"Remove the boot media and press Enter to reboot."
+msgstr ""
+"Felicitats! La instal·lació ha acabat.\n"
+"Traieu el mitjà d'arrencada i premeu Retorn per tornar a arrencar."
+
+#: messages.pm:113
+#, c-format
+msgid ""
+"For information on fixes which are available for this release of Mageia,\n"
+"consult the Errata available from:\n"
+"%s"
+msgstr ""
+"Trobareu la solució als problemes coneguts d'aquesta versió del\n"
+"Mageia a la fe d'errates que hi ha a \n"
+"%s"
+
+#: messages.pm:115
+#, c-format
+msgid ""
+"After rebooting and logging into Mageia, you will see the MageiaWelcome "
+"screen.\n"
+"It is full of very useful information and links."
+msgstr ""
+"Després de reiniciar i entrar a la sessió de Mageia, veureu la pantalla de "
+"benvinguda a Mageia.\n"
+"Està plena d'informació i enllaços de gran utilitat."
+
+#: modules/interactive.pm:19
+#, c-format
+msgid "This driver has no configuration parameter!"
+msgstr "Aquest controlador no té cap paràmetre de configuració!"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "Module configuration"
+msgstr "Configuració dels mòduls"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "You can configure each parameter of the module here."
+msgstr "Ara podeu configurar cada paràmetre del mòdul."
+
+#: modules/interactive.pm:64
+#, c-format
+msgid "Found %s interfaces"
+msgstr "S'han trobat interfícies %s"
+
+#: modules/interactive.pm:65
+#, c-format
+msgid "Do you have another one?"
+msgstr "En teniu una altra?"
+
+#: modules/interactive.pm:66
+#, c-format
+msgid "Do you have any %s interfaces?"
+msgstr "Teniu alguna interfície %s?"
+
+#: modules/interactive.pm:72
+#, c-format
+msgid "See hardware info"
+msgstr "Mira la informació del maquinari"
+
+#: modules/interactive.pm:83
+#, c-format
+msgid "Installing driver for USB controller"
+msgstr "S'està instal·lant el controlador per al controlador USB"
+
+#: modules/interactive.pm:84
+#, c-format
+msgid "Installing driver for firewire controller \"%s\""
+msgstr "S'està instal·lant el controlador per al controlador firewire «%s»"
+
+#: modules/interactive.pm:85
+#, c-format
+msgid "Installing driver for hard disk drive controller \"%s\""
+msgstr "S'està instal·lant el controlador per al controlador de disc dur «%s»"
+
+#: modules/interactive.pm:86
+#, c-format
+msgid "Installing driver for ethernet controller \"%s\""
+msgstr "S'està instal·lant el controlador per al controlador ethernet «%s»"
+
+#. -PO: the first %s is the card type (scsi, network, sound,...)
+#. -PO: the second is the vendor+model name
+#: modules/interactive.pm:97
+#, c-format
+msgid "Installing driver for %s card %s"
+msgstr "S'està instal·lant el controlador per a la targeta de %s %s"
+
+#: modules/interactive.pm:100
+#, c-format
+msgid "Configuring Hardware"
+msgstr "Configuració del maquinari"
+
+#: modules/interactive.pm:111
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Note that any address should be entered with the prefix 0x like '0x123'"
+msgstr ""
+"Ara podeu subministrar les opcions per al mòdul %s.\n"
+"Tingueu en compte que qualsevol adreça s'ha de prefixar amb 0x, com '0x123'"
+
+#: modules/interactive.pm:117
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Options are in format ``name=value name2=value2 ...''.\n"
+"For instance, ``io=0x300 irq=7''"
+msgstr ""
+"Ara podeu proporcionar les opcions per al mòdul %s.\n"
+"Les opcions estan en el format «nom=valor nom2=valor2 ...».\n"
+"Per exemple, «io=0x300 irq=7»"
+
+#: modules/interactive.pm:119
+#, c-format
+msgid "Module options:"
+msgstr "Opcions del mòdul:"
+
+#. -PO: the %s is the driver type (scsi, network, sound,...)
+#: modules/interactive.pm:132
+#, c-format
+msgid "Which %s driver should I try?"
+msgstr "Quin controlador de %s he de provar?"
+
+#: modules/interactive.pm:141
+#, c-format
+msgid ""
+"In some cases, the %s driver needs to have extra information to work\n"
+"properly, although it normally works fine without them. Would you like to "
+"specify\n"
+"extra options for it or allow the driver to probe your machine for the\n"
+"information it needs? Occasionally, probing will hang a computer, but it "
+"should\n"
+"not cause any damage."
+msgstr ""
+"En alguns casos, el controlador de %s necessita informació extra\n"
+"per funcionar correctament, tot i que normalment funciona bé sense ella.\n"
+"Voleu especificar opcions estres o deixar que el controlador\n"
+"cerqui al vostre ordinador la informació que necessita? Aquesta recerca\n"
+"podria bloquejar l'ordinador, però això no causaria cap dany."
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Autoprobe"
+msgstr "Exploració automàtica"
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Specify options"
+msgstr "Especifica les opcions"
+
+#: modules/interactive.pm:157
+#, c-format
+msgid ""
+"Loading module %s failed.\n"
+"Do you want to try again with other parameters?"
+msgstr ""
+"Ha fallat la càrrega del mòdul %s.\n"
+"Voleu tornar-ho a intentar amb altres paràmetres?"
+
+#: mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Are you sure you want to quit?"
+msgstr "Esteu segur que voleu sortir?"
+
+#: mygtk2.pm:1570 mygtk2.pm:1571 mygtk3.pm:1646 mygtk3.pm:1647
+#, c-format
+msgid "Password is trivial to guess"
+msgstr "La contrasenya es pot endevinar fàcilment"
+
+#: mygtk2.pm:1572 mygtk3.pm:1648
+#, c-format
+msgid "Password should be resistant to basic attacks"
+msgstr "La contrasenya hauria de ser resistent a atacs bàsics"
+
+#: mygtk2.pm:1573 mygtk2.pm:1574 mygtk3.pm:1649 mygtk3.pm:1650
+#, c-format
+msgid "Password seems secure"
+msgstr "La contrasenya sembla segura"
+
+#: partition_table.pm:405
+#, c-format
+msgid "mount failed: "
+msgstr "ha fallat el muntatge: "
+
+#: partition_table.pm:531
+#, c-format
+msgid ""
+"You have a hole in your partition table but I cannot use it.\n"
+"The only solution is to move your primary partitions to have the hole next "
+"to the extended partitions."
+msgstr ""
+"Hi ha un forat a la vostra taula de particions, però no puc utilitzar-lo.\n"
+"L'única solució és moure les particions primàries per fer que el forat quedi "
+"contigu a les particions ampliades."
+
+#: partition_table/raw.pm:293
+#, c-format
+msgid ""
+"Something bad is happening on your hard disk drive. \n"
+"A test to check the integrity of data has failed. \n"
+"It means writing anything on the disk will end up with random, corrupted "
+"data."
+msgstr ""
+"Alguna cosa no va bé en la vostra unitat. \n"
+"Ha fallat una comprovació de la integritat de les dades. \n"
+"Això vol dir que qualsevol cosa que s'escrigui al disc acabarà amb dates "
+"aleatòries i malmeses."
+
+#: pkgs.pm:260 pkgs.pm:263 pkgs.pm:276
+#, c-format
+msgid "Unused packages removal"
+msgstr "Eliminació de paquets no utilitzats"
+
+#: pkgs.pm:260
+#, c-format
+msgid "Finding unused hardware packages..."
+msgstr "S'estan cercant els paquets de maquinari no utilitzats..."
+
+#: pkgs.pm:263
+#, c-format
+msgid "Finding unused localization packages..."
+msgstr "S'estan cercant els paquets no utilitzats per la localització..."
+
+#: pkgs.pm:277
+#, c-format
+msgid ""
+"We have detected that some packages are not needed for your system "
+"configuration."
+msgstr ""
+"S'ha detectat que alguns dels paquets no són necessaris per a la "
+"configuració del vostre sistema."
+
+#: pkgs.pm:278
+#, c-format
+msgid "We will remove the following packages, unless you choose otherwise:"
+msgstr "S'eliminaran els següents paquets, excepte si indiqueu el contrari:"
+
+#: pkgs.pm:281 pkgs.pm:282
+#, c-format
+msgid "Unused hardware support"
+msgstr "Suport per a maquinari no utilitzat"
+
+#: pkgs.pm:285 pkgs.pm:286
+#, c-format
+msgid "Unused localization"
+msgstr "Localització no utilitzada"
+
+#: raid.pm:59
+#, c-format
+msgid "Cannot add a partition to _formatted_ RAID %s"
+msgstr "No es pot afegir una partició al RAID _formatat_ %s"
+
+#: raid.pm:200
+#, c-format
+msgid "Not enough partitions for RAID level %d\n"
+msgstr "No hi ha prou particions per al nivell RAID %d\n"
+
+#: scanner.pm:95
+#, c-format
+msgid "Could not create directory /usr/share/sane/firmware!"
+msgstr "No s'ha pogut crear el directori /usr/share/sane/firmware!"
+
+#: scanner.pm:106
+#, c-format
+msgid "Could not create link /usr/share/sane/%s!"
+msgstr "No s'ha pogut crear l'enllaç /usr/share/sane/%s!"
+
+#: scanner.pm:113
+#, c-format
+msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+msgstr ""
+"No s'ha pogut copiar el fitxer de microprogramari %s a /usr/share/sane/"
+"firmware!"
+
+#: scanner.pm:120
+#, c-format
+msgid "Could not set permissions of firmware file %s!"
+msgstr "No s'han pogut establir els permisos del fitxer de microprogramari %s!"
+
+#: scanner.pm:199
+#, c-format
+msgid "Scannerdrake"
+msgstr "Scannerdrake"
+
+#: scanner.pm:200
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"No s'han pogut instal·lar els paquets necessaris per compartir els vostres "
+"escàners."
+
+#: scanner.pm:201
+#, c-format
+msgid "Your scanner(s) will not be available for non-root users."
+msgstr "Els vostres escànners no estaran disponibles a la xarxa."
+
+#: security/help.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages."
+msgstr "Accepta missatges d'error IPv4 falsos."
+
+#: security/help.pm:13
+#, c-format
+msgid "Accept broadcasted icmp echo."
+msgstr "Accepta l'echo d'ICMP emès per difusió."
+
+#: security/help.pm:15
+#, c-format
+msgid "Accept icmp echo."
+msgstr "Accepta l'echo d'ICMP."
+
+#: security/help.pm:17
+#, c-format
+msgid "Allow autologin."
+msgstr "Permet l'inici de sessió automàtic."
+
+#. -PO: here "ALL" is a value in a pull-down menu; translate it the same as "ALL" is
+#: security/help.pm:21
+#, c-format
+msgid ""
+"If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+"\n"
+"If set to \"None\", no issues are allowed.\n"
+"\n"
+"Else only /etc/issue is allowed."
+msgstr ""
+"Si està establert a \"ALL\", /etc/issue i /etc/issue.net tenen permís per "
+"existir.\n"
+"\n"
+"Si està establert a \"None\", no se'n permet cap.\n"
+"\n"
+"Si no, només es permet /etc/issue."
+
+#: security/help.pm:27
+#, c-format
+msgid "Allow reboot by the console user."
+msgstr "Permet el reinici de l'ordinador per un usuari de consola."
+
+#: security/help.pm:29
+#, c-format
+msgid "Allow remote root login."
+msgstr "Permet la connexió remota de root."
+
+#: security/help.pm:31
+#, c-format
+msgid "Allow direct root login."
+msgstr "Permet la connexió directa de root."
+
+#: security/help.pm:33
+#, c-format
+msgid ""
+"Allow the list of users on the system on display managers (kdm and gdm)."
+msgstr ""
+"Permet la llista d'usuaris del sistema als gestors de pantalla (kdm and gdm)."
+
+#: security/help.pm:35
+#, c-format
+msgid ""
+"Allow to export display when\n"
+"passing from the root account to the other users.\n"
+"\n"
+"See pam_xauth(8) for more details.'"
+msgstr ""
+"Permet l'exportació de pantalla quan\n"
+"es passi del compte de root als altres usuaris.\n"
+"\n"
+"Vegeu pam_xauth(8) per a més detalls."
+
+#: security/help.pm:40
+#, c-format
+msgid ""
+"Allow X connections:\n"
+"\n"
+"- \"All\" (all connections are allowed),\n"
+"\n"
+"- \"Local\" (only connection from local machine),\n"
+"\n"
+"- \"None\" (no connection)."
+msgstr ""
+"Permet les connexions X:|n \n"
+"- «Totes» (es permeten totes les connexions),\n"
+"\n"
+"- «Local» (només les connexions des de la màquina local),\n"
+"\n"
+"- «Cap» (sense connexió)."
+
+#: security/help.pm:48
+#, c-format
+msgid ""
+"The argument specifies if clients are authorized to connect\n"
+"to the X server from the network on the tcp port 6000 or not."
+msgstr ""
+"L'argument indica si els clients estan autoritzats a connectar\n"
+"al servidor X des de la xarxa al port tcp 6000 o no."
+
+#. -PO: here "ALL", "Local" and "None" are values in a pull-down menu; translate them the same as they're
+#: security/help.pm:53
+#, c-format
+msgid ""
+"Authorize:\n"
+"\n"
+"- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+"set to \"ALL\",\n"
+"\n"
+"- only local ones if set to \"Local\"\n"
+"\n"
+"- none if set to \"None\".\n"
+"\n"
+"To authorize the services you need, use /etc/hosts.allow (see hosts."
+"allow(5))."
+msgstr ""
+"Autoritza:\n"
+"\n"
+"- tots els serveis controlats per tcp_wrappers (vegeu la pàg. del manual "
+"hosts.deny(5)) si està establert a \"ALL\",\n"
+"\n"
+"- només els locals si està establert a \"Local\"\n"
+"\n"
+"- cap si està establert a \"None\".\n"
+"\n"
+"Per autoritzar els serveis que necessiteu, utilitzeu /etc/hosts.allow "
+"(consulteu hosts.allow(5))."
+
+#: security/help.pm:63
+#, c-format
+msgid ""
+"If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+"is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+"symlink /etc/security/msec/server to point to\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+"add a service if it is present in the file during the installation of\n"
+"packages."
+msgstr ""
+"Si SERVER_LEVEL (o SECURE_LEVEL si no hi és) és més gran que 3\n"
+"a /etc/security/msec/security.conf, crea l'enllaç simbòlic /etc/security/"
+"msec/server\n"
+"per apuntar a /etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+" El /etc/security/msec/server és utilitzat per chkconfig --add per decidir\n"
+"afegir un servei si és present al fitxer durant la instal·lació dels paquets."
+
+#: security/help.pm:72
+#, c-format
+msgid ""
+"Enable crontab and at for users.\n"
+"\n"
+"Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+"and crontab(1))."
+msgstr ""
+"Habilita crontab i at per als usuaris.\n"
+"\n"
+"Poseu els usuaris permesos a /etc/cron.allow i /etc/at.allow (vegeu man "
+"at(1)\n"
+"i crontab(1))."
+
+#: security/help.pm:77
+#, c-format
+msgid "Enable syslog reports to console 12"
+msgstr "Habilita els informes syslog a la consola 12"
+
+#: security/help.pm:79
+#, c-format
+msgid ""
+"Enable name resolution spoofing protection.  If\n"
+"\"%s\" is true, also reports to syslog."
+msgstr ""
+"Habilita la protecció contra les falsificacions de resolució de noms. Si\n"
+"\"%s\" és cert, també n'informa syslog."
+
+#: security/help.pm:80
+#, c-format
+msgid "Security Alerts:"
+msgstr "Alarmes de seguretat:"
+
+#: security/help.pm:82
+#, c-format
+msgid "Enable IP spoofing protection."
+msgstr "Habilita la protecció contra falsejament de la IP."
+
+#: security/help.pm:84
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system."
+msgstr "Habilita el libsafe si és que es troba al sistema."
+
+#: security/help.pm:86
+#, c-format
+msgid "Enable the logging of IPv4 strange packets."
+msgstr "Habilita el registre de paquets IPv4 estranys."
+
+#: security/help.pm:88
+#, c-format
+msgid "Enable msec hourly security check."
+msgstr "Habilita la comprovació de seguretat msec horària."
+
+#: security/help.pm:90
+#, c-format
+msgid ""
+"Enable su only from members of the wheel group. If set to no, allows su from "
+"any user."
+msgstr ""
+"Habilita su només per als membres del grup wheel. Si s'estableix a no, "
+"permet su a qualsevol usuari."
+
+#: security/help.pm:92
+#, c-format
+msgid "Use password to authenticate users."
+msgstr "Utilitza una contrasenya per autenticar usuaris."
+
+#: security/help.pm:94
+#, c-format
+msgid "Activate Ethernet cards promiscuity check."
+msgstr "Habilita la comprovació de promiscuïtat de les targetes Ethernet."
+
+#: security/help.pm:96
+#, c-format
+msgid "Activate daily security check."
+msgstr "Activa la comprovació de seguretat diària."
+
+#: security/help.pm:98
+#, c-format
+msgid "Enable sulogin(8) in single user level."
+msgstr "Habilita sulogin(8) en el nivell d'usuari únic."
+
+#: security/help.pm:100
+#, c-format
+msgid "Add the name as an exception to the handling of password aging by msec."
+msgstr ""
+"Afegiu el nom com a excepció al maneig, per part del msec, de l'antiguitat "
+"de contrasenyes."
+
+#: security/help.pm:102
+#, c-format
+msgid "Set password aging to \"max\" days and delay to change to \"inactive\"."
+msgstr ""
+"Definiu l'antiguitat de la contrasenya a «max» dies i temps en canviar a "
+"«inactive»."
+
+#: security/help.pm:104
+#, c-format
+msgid "Set the password history length to prevent password reuse."
+msgstr ""
+"Estableix la llargària de l'historial de contrasenyes per prevenir la "
+"reutilització de contrasenyes."
+
+#: security/help.pm:106
+#, c-format
+msgid ""
+"Set the password minimum length and minimum number of digit and minimum "
+"number of capitalized letters."
+msgstr ""
+"Estableix la llargada mínima de la contrasenya i el nombre mínim de xifres i "
+"de lletres en majúscules."
+
+#: security/help.pm:108
+#, c-format
+msgid "Set the root's file mode creation mask."
+msgstr "Estableix la màscara de creació de fitxers de root."
+
+#: security/help.pm:109
+#, c-format
+msgid "if set to yes, check open ports."
+msgstr "si és «sí», comprova els ports oberts."
+
+#: security/help.pm:110
+#, c-format
+msgid ""
+"if set to yes, check for:\n"
+"\n"
+"- empty passwords,\n"
+"\n"
+"- no password in /etc/shadow\n"
+"\n"
+"- for users with the 0 id other than root."
+msgstr ""
+"si és «sí», comprova :\n"
+"\n"
+" - les contrasenyes buiDES, \n"
+"\n"
+" - les que no hi són a /etc/shadow\n"
+"\n"
+" - usuaris amb l'identificador 0 que no sigui root."
+
+#: security/help.pm:117
+#, c-format
+msgid "if set to yes, check permissions of files in the users' home."
+msgstr "si és «sí», comprova els permisos dels fitxers a casa dels usuaris."
+
+#: security/help.pm:118
+#, c-format
+msgid "if set to yes, check if the network devices are in promiscuous mode."
+msgstr "si és «sí», comprova si els dispositius de xarxa són en mode promiscu."
+
+#: security/help.pm:119
+#, c-format
+msgid "if set to yes, run the daily security checks."
+msgstr "si és «sí», executa les comprovacions diàries de seguretat."
+
+#: security/help.pm:120
+#, c-format
+msgid "if set to yes, check additions/removals of sgid files."
+msgstr "si és «sí», comprova les addicions o supressions dels fitxers SGID."
+
+#: security/help.pm:121
+#, c-format
+msgid "if set to yes, check empty password in /etc/shadow."
+msgstr "si és «sí», comprova la contrasenya buida a /etc/shadow."
+
+#: security/help.pm:122
+#, c-format
+msgid "if set to yes, verify checksum of the suid/sgid files."
+msgstr "si és «sí», verifica la suma de control dels fitxers SUID o SGID."
+
+#: security/help.pm:123
+#, c-format
+msgid "if set to yes, check additions/removals of suid root files."
+msgstr ""
+"si és «sí», comprova si hi ha addicions o supressions de fitxers de root "
+"SUID."
+
+#: security/help.pm:124
+#, c-format
+msgid "if set to yes, report unowned files."
+msgstr "si és «sí», informa dels fitxers sense propietari."
+
+#: security/help.pm:125
+#, c-format
+msgid "if set to yes, check files/directories writable by everybody."
+msgstr "si és «sí», comprova els fitxers/directoris que tothom pot escriure."
+
+#: security/help.pm:126
+#, c-format
+msgid "if set to yes, run chkrootkit checks."
+msgstr "si és «sí», executa les comprovacions chkrootkit."
+
+#: security/help.pm:127
+#, c-format
+msgid ""
+"if set, send the mail report to this email address else send it to root."
+msgstr ""
+"si es defineix, envia l'informe de correu a aquesta adreça electrònica; si "
+"no, envia'l al root."
+
+#: security/help.pm:128
+#, c-format
+msgid "if set to yes, report check result by mail."
+msgstr "si és «sí», l'informa comprova el resultat per correu."
+
+#: security/help.pm:129
+#, c-format
+msgid "Do not send mails if there's nothing to warn about"
+msgstr "No enviïs correus si no hi ha res del que avisar"
+
+#: security/help.pm:130
+#, c-format
+msgid "if set to yes, run some checks against the rpm database."
+msgstr ""
+"si és «sí», executa determinades comprovacions de la base de dades rpm."
+
+#: security/help.pm:131
+#, c-format
+msgid "if set to yes, report check result to syslog."
+msgstr ""
+"si és «sí», informa del resultat de la comprovació al registre del sistema."
+
+#: security/help.pm:132
+#, c-format
+msgid "if set to yes, reports check result to tty."
+msgstr "si és «sí», informa dels resultats de la comprovació a tty."
+
+#: security/help.pm:134
+#, c-format
+msgid "Set shell commands history size. A value of -1 means unlimited."
+msgstr ""
+"Estableix la mida de l'historial d'ordres del shell. El valor -1 indica "
+"il·limitada."
+
+#: security/help.pm:136
+#, c-format
+msgid "Set the shell timeout. A value of zero means no timeout."
+msgstr ""
+"Estableix el temps d'espera del shell. El valor zero indica «sense temps "
+"d'espera»."
+
+#: security/help.pm:136
+#, c-format
+msgid "Timeout unit is second"
+msgstr "La unitat del temps d'espera és el segon"
+
+#: security/help.pm:138
+#, c-format
+msgid "Set the user's file mode creation mask."
+msgstr "Estableix la màscara de creació de fitxers per als usuaris."
+
+#: security/l10n.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages"
+msgstr "Accepta els missatges d'error IPv4 falsos."
+
+#: security/l10n.pm:12
+#, c-format
+msgid "Accept broadcasted icmp echo"
+msgstr "Accepta l'echo d'ICMP emès per difusió"
+
+#: security/l10n.pm:13
+#, c-format
+msgid "Accept icmp echo"
+msgstr "Accepta l'echo d'ICMP"
+
+#: security/l10n.pm:15
+#, c-format
+msgid "/etc/issue* exist"
+msgstr "/etc/issue* existeix"
+
+#: security/l10n.pm:16
+#, c-format
+msgid "Reboot by the console user"
+msgstr "Reinici de l'ordinador per un usuari de consola"
+
+#: security/l10n.pm:17
+#, c-format
+msgid "Allow remote root login"
+msgstr "Permet l'entrada de root remota"
+
+#: security/l10n.pm:18
+#, c-format
+msgid "Direct root login"
+msgstr "Entrada directa com a root"
+
+#: security/l10n.pm:19
+#, c-format
+msgid "List users on display managers (kdm and gdm)"
+msgstr "Llista els usuaris als gestors de pantalla (kdm i gdm)"
+
+#: security/l10n.pm:20
+#, c-format
+msgid "Export display when passing from root to the other users"
+msgstr "Exporta la pantalla quan es passi de root als altres usuaris"
+
+#: security/l10n.pm:21
+#, c-format
+msgid "Allow X Window connections"
+msgstr "Permet connexions X Windows"
+
+#: security/l10n.pm:22
+#, c-format
+msgid "Authorize TCP connections to X Window"
+msgstr "Autoritza connexions TCP a les X Window"
+
+#: security/l10n.pm:23
+#, c-format
+msgid "Authorize all services controlled by tcp_wrappers"
+msgstr "Autoritza tots els serveis controlats per tcp_wrappers"
+
+#: security/l10n.pm:24
+#, c-format
+msgid "Chkconfig obey msec rules"
+msgstr "Chkconfig obeeix les regles msec"
+
+#: security/l10n.pm:25
+#, c-format
+msgid "Enable \"crontab\" and \"at\" for users"
+msgstr "Habilita «crontab» i «at» pels usuaris"
+
+#: security/l10n.pm:26
+#, c-format
+msgid "Syslog reports to console 12"
+msgstr "Syslog informa a la consola 12"
+
+#: security/l10n.pm:27
+#, c-format
+msgid "Name resolution spoofing protection"
+msgstr "Protecció contra les falsificacions de resolució de noms"
+
+#: security/l10n.pm:28
+#, c-format
+msgid "Enable IP spoofing protection"
+msgstr "Habilita la protecció contra falsejament de la IP."
+
+#: security/l10n.pm:29
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system"
+msgstr "Habilita el libsafe si és que es troba al sistema"
+
+#: security/l10n.pm:30
+#, c-format
+msgid "Enable the logging of IPv4 strange packets"
+msgstr "Habilita el registre de paquets IPv4 estranys"
+
+#: security/l10n.pm:31
+#, c-format
+msgid "Enable msec hourly security check"
+msgstr "Habilita la comprovació de seguretat msec horària"
+
+#: security/l10n.pm:32
+#, c-format
+msgid "Enable su only from the wheel group members"
+msgstr "Habilita su només per als membres del grup wheel"
+
+#: security/l10n.pm:33
+#, c-format
+msgid "Use password to authenticate users"
+msgstr "Utilitza una contrasenya per autenticar usuaris."
+
+#: security/l10n.pm:34
+#, c-format
+msgid "Ethernet cards promiscuity check"
+msgstr "Comprovació de promiscuïtat de les targetes Ethernet"
+
+#: security/l10n.pm:35
+#, c-format
+msgid "Daily security check"
+msgstr "Comprovació de seguretat diària"
+
+#: security/l10n.pm:36
+#, c-format
+msgid "Sulogin(8) in single user level"
+msgstr "Sulogin(8) en nivell monousuari"
+
+#: security/l10n.pm:37
+#, c-format
+msgid "No password aging for"
+msgstr "Sense envelliment de contrasenya per"
+
+#: security/l10n.pm:38
+#, c-format
+msgid "Set password expiration and account inactivation delays"
+msgstr ""
+"Establiu la caducitat de la contrasenya i els retards d'inactivació del "
+"compte"
+
+#: security/l10n.pm:39
+#, c-format
+msgid "Password history length"
+msgstr "Longitud de la història de contrasenyes"
+
+#: security/l10n.pm:40
+#, c-format
+msgid "Password minimum length and number of digits and upcase letters"
+msgstr ""
+"Longitud mínima de la contrasenya i el nombre de dígits i lletres en "
+"majúscules"
+
+#: security/l10n.pm:41
+#, c-format
+msgid "Root umask"
+msgstr "Umask de root"
+
+#: security/l10n.pm:42
+#, c-format
+msgid "Shell history size"
+msgstr "Mida de la història del shell"
+
+#: security/l10n.pm:43
+#, c-format
+msgid "Shell timeout"
+msgstr "Temps d'espera del shell"
+
+#: security/l10n.pm:44
+#, c-format
+msgid "User umask"
+msgstr "Umask d'usuari"
+
+#: security/l10n.pm:45
+#, c-format
+msgid "Check open ports"
+msgstr "Comprova els ports oberts"
+
+#: security/l10n.pm:46
+#, c-format
+msgid "Check for unsecured accounts"
+msgstr "Comprova si hi ha comptes insegurs"
+
+#: security/l10n.pm:47
+#, c-format
+msgid "Check permissions of files in the users' home"
+msgstr "Comprova els permisos dels fitxers al directori d'inici dels usuaris"
+
+#: security/l10n.pm:48
+#, c-format
+msgid "Check if the network devices are in promiscuous mode"
+msgstr "Comprova si els dispositius de xarxa són en mode promiscu"
+
+#: security/l10n.pm:49
+#, c-format
+msgid "Run the daily security checks"
+msgstr "Executa les comprovacions diàries de seguretat"
+
+#: security/l10n.pm:50
+#, c-format
+msgid "Check additions/removals of sgid files"
+msgstr "Comprova les addicions o supressions dels fitxers SGID"
+
+#: security/l10n.pm:51
+#, c-format
+msgid "Check empty password in /etc/shadow"
+msgstr "Comprova la contrasenya buida a /etc/shadow"
+
+#: security/l10n.pm:52
+#, c-format
+msgid "Verify checksum of the suid/sgid files"
+msgstr "Verifica la suma de control dels fitxers SUID o SGID."
+
+#: security/l10n.pm:53
+#, c-format
+msgid "Check additions/removals of suid root files"
+msgstr "Comprova si hi ha addicions o supressions de fitxers de root SUID"
+
+#: security/l10n.pm:54
+#, c-format
+msgid "Report unowned files"
+msgstr "Informa dels fitxers sense propietari"
+
+#: security/l10n.pm:55
+#, c-format
+msgid "Check files/directories writable by everybody"
+msgstr "Comprova els fitxers/directoris que tothom pot escriure"
+
+#: security/l10n.pm:56
+#, c-format
+msgid "Run chkrootkit checks"
+msgstr "Executa les comprovacions chkrootkit"
+
+#: security/l10n.pm:57
+#, c-format
+msgid "Do not send empty mail reports"
+msgstr "No enviïs missatges d'informe buits"
+
+#: security/l10n.pm:58
+#, c-format
+msgid "If set, send the mail report to this email address else send it to root"
+msgstr ""
+"si es defineix, envia l'informe de correu a aquesta adreça electrònica; si "
+"no, envia'l al root"
+
+#: security/l10n.pm:59
+#, c-format
+msgid "Report check result by mail"
+msgstr "Informa el resultat de la comprovació per correu"
+
+#: security/l10n.pm:60
+#, c-format
+msgid "Run some checks against the rpm database"
+msgstr "Executa determinades comprovacions de la base de dades rpm"
+
+#: security/l10n.pm:61
+#, c-format
+msgid "Report check result to syslog"
+msgstr "Informa del resultat de la comprovació al registre del sistema"
+
+#: security/l10n.pm:62
+#, c-format
+msgid "Reports check result to tty"
+msgstr "Informa dels resultats de la comprovació a tty"
+
+#: security/level.pm:10
+#, c-format
+msgid "Disable msec"
+msgstr "Inhabilita msec"
+
+#: security/level.pm:11
+#, c-format
+msgid "Standard"
+msgstr "Estàndard"
+
+#: security/level.pm:12
+#, c-format
+msgid "Secure"
+msgstr "Segur"
+
+#: security/level.pm:52
+#, c-format
+msgid ""
+"This level is to be used with care, as it disables all additional security\n"
+"provided by msec. Use it only when you want to take care of all aspects of "
+"system security\n"
+"on your own."
+msgstr ""
+"Aquest nivell s'ha d'utilitzar amb cura, ja que inhabilita tota la seguretat "
+"addicional\n"
+"proporcionada amb MSEC. Utilitzeu-ho només quan vulgueu ocupar-vos de tots "
+"els aspectes de seguretat del sistema\n"
+"pel vostre compte."
+
+#: security/level.pm:55
+#, c-format
+msgid ""
+"This is the standard security recommended for a computer that will be used "
+"to connect to the Internet as a client."
+msgstr ""
+"Aquesta és la seguretat estàndard recomanada per a un ordinador que "
+"s'utilitzarà per connectar-se a Internet com a client. Ara hi ha "
+"comprovacions de seguretat."
+
+#: security/level.pm:56
+#, c-format
+msgid ""
+"With this security level, the use of this system as a server becomes "
+"possible.\n"
+"The security is now high enough to use the system as a server which can "
+"accept\n"
+"connections from many clients. Note: if your machine is only a client on the "
+"Internet, you should choose a lower level."
+msgstr ""
+"Amb aquest nivell de seguretat, la utilització d'aquest sistema com a "
+"servidor esdevé possible.\n"
+"La seguretat és ara prou alta per a utilitzar el sistema com a servidor\n"
+"que accepti connexions de molts clients. Nota: si la vostra màquina és només "
+"un client d'Internet, seria millor escollir un nivell més baix."
+
+#: security/level.pm:63
+#, c-format
+msgid "DrakSec Basic Options"
+msgstr "Opcions bàsiques del DrakSec"
+
+#: security/level.pm:66
+#, c-format
+msgid "Please choose the desired security level"
+msgstr "Escolliu el nivell de seguretat desitjat"
+
+#. -PO: this string is used to properly format "<security level>: <level description>"
+#: security/level.pm:70
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: security/level.pm:73
+#, c-format
+msgid "Security Administrator:"
+msgstr "Administrador de seguretat:"
+
+#: security/level.pm:74
+#, c-format
+msgid "Login or email:"
+msgstr "Nom d'usuari o adreça electrònica:"
+
+#: services.pm:18
+#, c-format
+msgid "Listen and dispatch ACPI events from the kernel"
+msgstr "Escolta i despatxa els esdeveniments ACPI del kernel"
+
+#: services.pm:19
+#, c-format
+msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+msgstr "Executa el sistema de so ALSA (Advanced Linux Sound Architecture)"
+
+#: services.pm:20
+#, c-format
+msgid "Anacron is a periodic command scheduler."
+msgstr "Anacron, un programador d'ordres periòdiques."
+
+#: services.pm:21
+#, c-format
+msgid ""
+"apmd is used for monitoring battery status and logging it via syslog.\n"
+"It can also be used for shutting down the machine when the battery is low."
+msgstr ""
+"L'apmd s'utilitza per monitorar l'estat de la bateria i registrar-lo "
+"mitjançant el registre del sistema (syslog).\n"
+"També es pot utilitzar per apagar l'ordinador quan queda poca bateria."
+
+#: services.pm:23
+#, c-format
+msgid ""
+"Runs commands scheduled by the at command at the time specified when\n"
+"at was run, and runs batch commands when the load average is low enough."
+msgstr ""
+"Executa les ordres programades per l'ordre 'at' a l'hora que es va\n"
+"especificar en executar 'at', i executa les ordres automàtiques quan la\n"
+"mitjana de càrrega és prou baixa."
+
+#: services.pm:25
+#, c-format
+msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
+msgstr "Avahi és un dimoni ZeroConf que implementa una pila mDNS"
+
+#: services.pm:26
+#, c-format
+msgid "An NTP client/server"
+msgstr "Un servidor/client NTP"
+
+#: services.pm:27
+#, c-format
+msgid "Set CPU frequency settings"
+msgstr "Estableix els paràmetres de la freqüència de la CPU"
+
+#: services.pm:28
+#, c-format
+msgid ""
+"cron is a standard UNIX program that runs user-specified programs\n"
+"at periodic scheduled times. vixie cron adds a number of features to the "
+"basic\n"
+"UNIX cron, including better security and more powerful configuration options."
+msgstr ""
+"El cron és un programa UNIX estàndard que executa programes determinats\n"
+"per l'usuari en hores programades. El vixie cron afegeix un cert nombre de\n"
+"característiques al cron bàsic, incloent-hi la seguretat millorada i les "
+"opcions\n"
+"de configuració més potents."
+
+#: services.pm:31
+#, c-format
+msgid ""
+"Common UNIX Printing System (CUPS) is an advanced printer spooling system"
+msgstr ""
+"Common UNIX Printing System (CUPS) és un sistema avançat de gestió de cues "
+"d'impressió"
+
+#: services.pm:32
+#, c-format
+msgid "Launches the graphical display manager"
+msgstr "Inicia el gestor de pantalla gràfic"
+
+#: services.pm:33
+#, c-format
+msgid ""
+"FAM is a file monitoring daemon. It is used to get reports when files "
+"change.\n"
+"It is used by GNOME and KDE"
+msgstr ""
+"FAM és un dimoni de monitoratge de fitxers. És utilitzat per tenir informes "
+"quan els fitxers canvien\n"
+"S'utilitza a GNOME i KDE"
+
+#: services.pm:35
+#, c-format
+msgid ""
+"G15Daemon allows users access to all extra keys by decoding them and \n"
+"pushing them back into the kernel via the linux UINPUT driver. This driver "
+"must be loaded \n"
+"before g15daemon can be used for keyboard access. The G15 LCD is also "
+"supported. By default, \n"
+"with no other clients active, g15daemon will display a clock. Client "
+"applications and \n"
+"scripts can access the LCD via a simple API."
+msgstr ""
+"El G15Daemon permet als usuaris l'accés a totes les claus extres mitjançant "
+"la descodificació i\n"
+"empenyent-les un altre cop al nucli a través del controlador Linux uinput. "
+"Aquest controlador ha d'estar carregat\n"
+"abans que el g15daemon es pugui utilitzar per a accés de teclat. També "
+"s'admet LCD G15. Per defecte,\n"
+"amb cap altre client actiu, el g15daemon mostrarà un rellotge. Les "
+"aplicacions de client i\n"
+"scripts poden accedir a la pantalla LCD a través d'una API senzilla."
+
+#: services.pm:40
+#, c-format
+msgid ""
+"GPM adds mouse support to text-based Linux applications such the\n"
+"Midnight Commander. It also allows mouse-based console cut-and-paste "
+"operations,\n"
+"and includes support for pop-up menus on the console."
+msgstr ""
+"El GPM afegeix suport de ratolí a aplicacions Linux basades en text, com ara "
+"el Midnight Commander. També permet operacions de tallar i enganxar amb el "
+"ratolí, i inclou suport de menús desplegables a la consola."
+
+#: services.pm:43
+#, c-format
+msgid "HAL is a daemon that collects and maintains information about hardware"
+msgstr "HAL és un dimoni que recull i manté informació sobre el maquinari"
+
+#: services.pm:44
+#, c-format
+msgid ""
+"HardDrake runs a hardware probe, and optionally configures\n"
+"new/changed hardware."
+msgstr ""
+"El HardDrake fa una prova del maquinari, i opcionalment configura\n"
+"el maquinari nou/canviat."
+
+#: services.pm:46
+#, c-format
+msgid ""
+"Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+msgstr ""
+"L'Apache és un servidor de World Wide Web. S'utilitza per servir fitxers\n"
+"HTML i CGI."
+
+#: services.pm:47
+#, c-format
+msgid ""
+"The internet superserver daemon (commonly called inetd) starts a\n"
+"variety of other internet services as needed. It is responsible for "
+"starting\n"
+"many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+"disables\n"
+"all of the services it is responsible for."
+msgstr ""
+"El dimoni superservidor d'Internet (conegut normalment com a 'inetd') "
+"inicia\n"
+"altres serveis d'Internet a mesura que es van necessitant. És el "
+"responsable\n"
+"d'iniciar molts serveis, incloent-hi el telnet, el ftp, el rsh i el rlogin. "
+"Si\n"
+"s'inhabilita l'inetd, s'inhabiliten tots els serveis de què és responsable."
+
+#: services.pm:51
+#, c-format
+msgid "Automates a packet filtering firewall with ip6tables"
+msgstr "Automatitza el tallafoc del filtratge d'un paquet amb ip6tables"
+
+#: services.pm:52
+#, c-format
+msgid "Automates a packet filtering firewall with iptables"
+msgstr "Automatitza el tallafoc del filtratge d'un paquet amb iptables"
+
+#: services.pm:53
+#, c-format
+msgid ""
+"Evenly distributes IRQ load across multiple CPUs for enhanced performance"
+msgstr ""
+"Distribueix uniformement la càrrega IRQ entre les diverses CPU per a una "
+"millora del rendiment"
+
+#: services.pm:54
+#, c-format
+msgid ""
+"This package loads the selected keyboard map as set in\n"
+"/etc/sysconfig/keyboard.  This can be selected using the kbdconfig utility.\n"
+"You should leave this enabled for most machines."
+msgstr ""
+"Aquest paquet carrega el mapa de teclat seleccionat segons s'ha definit\n"
+"a /etc/sysconfig/keyboard. Es pot seleccionar mitjançant la utilitat\n"
+"kbdconfig.\n"
+"Per a la majoria d'ordinadors, s'ha de deixar habilitat."
+
+#: services.pm:57
+#, c-format
+msgid ""
+"Automatic regeneration of kernel header in /boot for\n"
+"/usr/include/linux/{autoconf,version}.h"
+msgstr ""
+"Regeneració automàtica de la capçalera del kernel a /boot per\n"
+"/usr/include/linux/{autoconf,versió}.h"
+
+#: services.pm:59
+#, c-format
+msgid "Automatic detection and configuration of hardware at boot."
+msgstr ""
+"Detecció i configuració automàtica de maquinari en iniciar l'ordinador."
+
+#: services.pm:60
+#, c-format
+msgid "Tweaks system behavior to extend battery life"
+msgstr ""
+"Ajusta el comportament del sistema per a augmentar la durada de la bateria"
+
+#: services.pm:61
+#, c-format
+msgid ""
+"Linuxconf will sometimes arrange to perform various tasks\n"
+"at boot-time to maintain the system configuration."
+msgstr ""
+"De vegaDES, el Linuxconf determinarà que s'han de fer algunes tasques\n"
+"en iniciar l'ordinador per mantenir la configuració del sistema."
+
+#: services.pm:63
+#, c-format
+msgid ""
+"lpd is the print daemon required for lpr to work properly. It is\n"
+"basically a server that arbitrates print jobs to printer(s)."
+msgstr ""
+"El lpd és el dimoni d'impressió necessari perquè el lpr funcioni\n"
+"correctament. Bàsicament, es tracta d'un servidor que assigna les\n"
+"tasques d'impressió a la(es) impressora(es)."
+
+#: services.pm:65
+#, c-format
+msgid ""
+"Linux Virtual Server, used to build a high-performance and highly\n"
+"available server."
+msgstr ""
+"El Servidor Virtual de Linux (LVS) s'utilitza per construir un servidor de \n"
+"gran capacitat i robustesa."
+
+#: services.pm:67
+#, c-format
+msgid "Monitors the network (Interactive Firewall and wireless"
+msgstr "Monitora la xarxa (tallafoc interactiu i sense fil"
+
+#: services.pm:68
+#, c-format
+msgid "Software RAID monitoring and management"
+msgstr "Monitoratge i gestió del RAID per programari"
+
+#: services.pm:69
+#, c-format
+msgid ""
+"DBUS is a daemon which broadcasts notifications of system events and other "
+"messages"
+msgstr ""
+"DBUS és un servei que difon les notificacions d'esdeveniments del sistema i "
+"altres missatges"
+
+#: services.pm:70
+#, c-format
+msgid "Enables MSEC security policy on system startup"
+msgstr "Habilita la política de seguretat MSEC en l'arrencada del sistema"
+
+#: services.pm:71
+#, c-format
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+"names to IP addresses."
+msgstr ""
+"named (BIND) és un servidor de noms de domini (DNS) que s'utilitza per "
+"convertir noms d'amfitrions a adreces IP."
+
+#: services.pm:72
+#, c-format
+msgid "Initializes network console logging"
+msgstr "Inicialitza el registre de consola de xarxa."
+
+#: services.pm:73
+#, c-format
+msgid ""
+"Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+"Manager/Windows), and NCP (NetWare) mount points."
+msgstr ""
+"Munta i desmunta tots els punts de muntatge dels sistemes de fitxers\n"
+"de xarxa (NFS), SMB (gestor de xarxes d'àrea local/Windows) i NCP (NetWare)."
+
+#: services.pm:75
+#, c-format
+msgid ""
+"Activates/Deactivates all network interfaces configured to start\n"
+"at boot time."
+msgstr ""
+"Activa/Desactiva totes les interfícies de xarxa configurades per\n"
+"iniciar-se durant l'arrencada."
+
+#: services.pm:77
+#, c-format
+msgid "Requires network to be up if enabled"
+msgstr "Cal que la xarxa estigui activa si s'habilita"
+
+#: services.pm:78
+#, c-format
+msgid "Wait for the hotplugged network to be up"
+msgstr "Espera que la xarxa connectada en calent estigui engegada"
+
+#: services.pm:79
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+"This service provides NFS server functionality, which is configured via the\n"
+"/etc/exports file."
+msgstr ""
+"NFS és un protocol popular de compartició de fitxers en xarxes TCP/IP.\n"
+"Aquest servei proporciona la funcionalitat del servidor NFS, que es\n"
+"configura mitjançant el fitxer /etc/exports."
+
+#: services.pm:82
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP\n"
+"networks. This service provides NFS file locking functionality."
+msgstr ""
+"NFS és un protocol popular de compartició de fitxers en xarxes TCP/IP\n"
+"Aquest servei proporciona la funcionalitat de bloqueig de fitxers NFS."
+
+#: services.pm:84
+#, c-format
+msgid "Synchronizes system time using the Network Time Protocol (NTP)"
+msgstr ""
+"Sincronitza el temps de sistema utilitzant el Network Time Protocol (NTP)"
+
+#: services.pm:85
+#, c-format
+msgid ""
+"Automatically switch on numlock key locker under console\n"
+"and Xorg at boot."
+msgstr ""
+"Engega automàticament a l'arrencada la tecla de fixació del \n"
+"teclat numèric a la consola i sota Xorg."
+
+#: services.pm:87
+#, c-format
+msgid "Support the OKI 4w and compatible winprinters."
+msgstr "Funciona amb OKI 4w i winprinters compatibles."
+
+#: services.pm:88
+#, c-format
+msgid "Checks if a partition is close to full up"
+msgstr "Comprova si una partició està a punt d'omplir-se"
+
+#: services.pm:89
+#, c-format
+msgid ""
+"PCMCIA support is usually to support things like ethernet and\n"
+"modems in laptops.  It will not get started unless configured so it is safe "
+"to have\n"
+"it installed on machines that do not need it."
+msgstr ""
+"El suport PCMCIA serveix normalment per funcionar amb coses com ara "
+"l'ethernet\n"
+"i els mòdems en portàtils. No s'iniciarà tret que es configuri, de manera\n"
+"que no hi ha problema per instal·lar-lo en ordinadors que no el necessiten."
+
+#: services.pm:92
+#, c-format
+msgid ""
+"The portmapper manages RPC connections, which are used by\n"
+"protocols such as NFS and NIS. The portmap server must be running on "
+"machines\n"
+"which act as servers for protocols which make use of the RPC mechanism."
+msgstr ""
+"portmapper gestiona les connexions RPC, que són utilitzades pels\n"
+"protocols com ara NFS i NIS. El servidor portmap ha d'estar\n"
+"en execució als ordinadors que actuen com a servidors per als protocols que\n"
+"utilitzen el mecanisme RPC."
+
+#: services.pm:95
+#, c-format
+msgid "Reserves some TCP ports"
+msgstr "Reserva alguns ports TCP"
+
+#: services.pm:96
+#, c-format
+msgid ""
+"Postfix is a Mail Transport Agent, which is the program that moves mail from "
+"one machine to another."
+msgstr ""
+"El Postfix és un Agent de Transport de Correu, que és el programa que passa "
+"el correu d'un ordinador a un altre."
+
+#: services.pm:97
+#, c-format
+msgid ""
+"Saves and restores system entropy pool for higher quality random\n"
+"number generation."
+msgstr ""
+"Desa i recupera el generador d'entropia del sistema per a\n"
+"la generació de nombres aleatoris d'una qualitat més alta."
+
+#: services.pm:99
+#, c-format
+msgid ""
+"Assign raw devices to block devices (such as hard disk drive\n"
+"partitions), for the use of applications such as Oracle or DVD players"
+msgstr ""
+"Assigna els dispositius en cru a dispositius de blocs (com ara les "
+"particions de\n"
+"disc dur), perquè siguin utilitzats per aplicacions com ara Oracle o "
+"reproductors DVD"
+
+#: services.pm:101
+#, c-format
+msgid "Nameserver information manager"
+msgstr "Gestor de la informació del servidor de noms"
+
+#: services.pm:102
+#, c-format
+msgid ""
+"The routed daemon allows for automatic IP router table updated via\n"
+"the RIP protocol. While RIP is widely used on small networks, more complex\n"
+"routing protocols are needed for complex networks."
+msgstr ""
+"El dimoni routed permet que s'actualitzi automàticament la taula "
+"d'encaminadors IP\n"
+"mitjançant el protocol RIP. Mentre que RIP s'utilitza àmpliament en xarxes "
+"petites,\n"
+"les xarxes complexes necessiten protocols d'encaminament més complexos."
+
+#: services.pm:105
+#, c-format
+msgid ""
+"The rstat protocol allows users on a network to retrieve\n"
+"performance metrics for any machine on that network."
+msgstr ""
+"El protocol rstat permet que els usuaris d'una xarxa recuperin\n"
+"les mètriques de rendiment per a qualsevol màquina d'aquesta xarxa."
+
+#: services.pm:107
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages to various "
+"system log files.  It is a good idea to always run rsyslog."
+msgstr ""
+"El syslog és el sistema que utilitzen molts dimonis per registrar\n"
+"missatges en diversos fitxers de registre del sistema. És aconsellable\n"
+"executar-lo sempre."
+
+#: services.pm:108
+#, c-format
+msgid ""
+"The rusers protocol allows users on a network to identify who is\n"
+"logged in on other responding machines."
+msgstr ""
+"El protocol rusers permet als usuaris en una xarxa identificar\n"
+"qui està connectat en altres màquines que responen."
+
+#: services.pm:110
+#, c-format
+msgid ""
+"The rwho protocol lets remote users get a list of all of the users\n"
+"logged into a machine running the rwho daemon (similar to finger)."
+msgstr ""
+"El protocol rwho permet que els usuaris remots obtinguin una llista\n"
+"de tots els usuaris que estan connectats a un ordinador que està\n"
+"executant el dimoni rwho (similar al finger)."
+
+#: services.pm:112
+#, c-format
+msgid ""
+"SANE (Scanner Access Now Easy) enables to access scanners, video cameras, ..."
+msgstr ""
+"SANE (Scanner Access Now Easy) permet l'accés a escàners, càmeres de vídeo, "
+"etc."
+
+#: services.pm:113
+#, c-format
+msgid "Packet filtering firewall"
+msgstr "Tallafoc de filtratge de paquets"
+
+#: services.pm:114
+#, c-format
+msgid "Packet filtering firewall for IPv6"
+msgstr "Tallafoc de filtratge de paquets per a IPv6"
+
+#: services.pm:115
+#, c-format
+msgid ""
+"The SMB/CIFS protocol enables to share access to files & printers and also "
+"integrates with a Windows Server domain"
+msgstr ""
+"El protocol SMB/CIFS permet compartir l'accés a fitxers i impressores i \n"
+"també s'integra amb un domini Windows Server"
+
+#: services.pm:116
+#, c-format
+msgid "Launch the sound system on your machine"
+msgstr "Executa el sistema de so en el vostre ordinador"
+
+#: services.pm:117
+#, c-format
+msgid "layer for speech analysis"
+msgstr "capa per a anàlisi de parla"
+
+#: services.pm:118
+#, c-format
+msgid ""
+"Secure Shell is a network protocol that allows data to be exchanged over a "
+"secure channel between two computers"
+msgstr ""
+"Secure Shell és un protocol de xarxa que permet l'intercanvi de dades sobre "
+"un canal segur entre dos ordinadors"
+
+#: services.pm:119
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages\n"
+"to various system log files.  It is a good idea to always run syslog."
+msgstr ""
+"El syslog és el sistema que utilitzen molts dimonis per registrar\n"
+"missatges en diversos fitxers de registre del sistema. És aconsellable\n"
+"executar-lo sempre."
+
+#: services.pm:121
+#, c-format
+msgid "Moves the generated persistent udev rules to /etc/udev/rules.d"
+msgstr "Mou les regles udev persistents generades cap a /etc/udev/rules.d"
+
+#: services.pm:122
+#, c-format
+msgid "Load the drivers for your usb devices."
+msgstr "Carrega els controladors per als dispositius USB."
+
+#: services.pm:123
+#, c-format
+msgid "A lightweight network traffic monitor"
+msgstr "Un monitor lleuger de trànsit de xarxa"
+
+#: services.pm:124
+#, c-format
+msgid "Starts the X Font Server."
+msgstr "Inicia el servidor de tipografia X."
+
+#: services.pm:125
+#, c-format
+msgid "Starts other deamons on demand."
+msgstr "Inicia altres dimonis sota demanda."
+
+#: services.pm:154
+#, c-format
+msgid "Printing"
+msgstr "Impressió"
+
+#: services.pm:157
+#, c-format
+msgid "Internet"
+msgstr "Internet"
+
+#: services.pm:162
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Networking"
+msgstr "Xarxa"
+
+#: services.pm:164
+#, c-format
+msgid "System"
+msgstr "Sistema"
+
+#: services.pm:171
+#, c-format
+msgid "Remote Administration"
+msgstr "Administració remota"
+
+#: services.pm:180
+#, c-format
+msgid "Database Server"
+msgstr "Servidor de base de dades"
+
+#: services.pm:191 services.pm:233
+#, c-format
+msgid "Services"
+msgstr "Serveis"
+
+#: services.pm:191
+#, c-format
+msgid "Choose which services should be automatically started at boot time"
+msgstr ""
+"Escolliu els serveis que s'han d'iniciar automàticament durant l'arrencada"
+
+#: services.pm:214
+#, c-format
+msgid "%d activated for %d registered"
+msgstr "%d activats de %d registrats"
+
+#: services.pm:237
+#, c-format
+msgid "running"
+msgstr "s'està executant"
+
+#: services.pm:237
+#, c-format
+msgid "stopped"
+msgstr "aturat"
+
+#: services.pm:242
+#, c-format
+msgid "Services and daemons"
+msgstr "Serveis i dimonis"
+
+#: services.pm:248
+#, c-format
+msgid ""
+"No additional information\n"
+"about this service, sorry."
+msgstr ""
+"Malauradament no hi ha més informació\n"
+"sobre aquest servei."
+
+#: services.pm:255
+#, c-format
+msgid "Start when requested"
+msgstr "Inicia quan el demanin"
+
+#: services.pm:255
+#, c-format
+msgid "On boot"
+msgstr "En arrencar"
+
+#: services.pm:272
+#, c-format
+msgid "Start"
+msgstr "Inicia"
+
+#: services.pm:272
+#, c-format
+msgid "Stop"
+msgstr "Atura"
+
+#: standalone.pm:27
+#, c-format
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+msgstr ""
+"Aquest programa és programari lliure; el podeu redistribuir i/o modificar\n"
+"sota els termes de la Llicència General Pública de GNU tal com l'ha\n"
+"publicada la Free Software Foundation, ja sigui la versió 2 com (a elecció\n"
+"vostra) qualsevol versió posterior.\n"
+"\n"
+"Aquest programa es distribueix amb l'esperança que serà útil, però\n"
+"SENSE CAP GARANTIA; sense ni tan sols la garantia implícita de\n"
+"MERCANTIBILITAT o ADEQUACIÓ A UNA FINALITAT DETERMINADA.\n"
+"En trobareu més detalls a la Llicència General Pública de GNU.\n"
+"\n"
+"Heu d'haver rebut una còpia de la Llicència General Pública de GNU\n"
+"amb aquest programa; si no és així, escriviu a la Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"EUA.\n"
+
+#: standalone.pm:46
+#, c-format
+msgid ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Backup and Restore application\n"
+"\n"
+"--default             : save default directories.\n"
+"--debug               : show all debug messages.\n"
+"--show-conf           : list of files or directories to backup.\n"
+"--config-info         : explain configuration file options (for non-X "
+"users).\n"
+"--daemon              : use daemon configuration. \n"
+"--help                : show this message.\n"
+"--version             : show version number.\n"
+msgstr ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Aplicació per fer i recuperar còpies de seguretat\n"
+"\n"
+"--default             : desa els directoris per defecte.\n"
+"--debug               : mostra tots els missatges de depuració.\n"
+"--show-conf           : llista de fitxers o directoris dels quals\n"
+"                        s'ha de fer la còpia de seguretat.\n"
+"--config-info         : explica les opcions del fitxer de\n"
+"                        configuració (per a no-usuaris de les X).\n"
+"--daemon              : utilitza la configuració del dimoni. \n"
+"--help                : mostra aquest missatge.\n"
+"--version             : mostra el número de versió.\n"
+
+#: standalone.pm:58
+#, c-format
+msgid ""
+"[--boot]\n"
+"OPTIONS:\n"
+"  --boot            - enable to configure boot loader\n"
+"default mode: offer to configure autologin feature"
+msgstr ""
+"[--boot]\n"
+"OPCIONS:\n"
+"  --boot            - habilita la configuració del gestor d'arrencada\n"
+"mode per defecte: ofereix la configuració de l'entrada automàtica"
+
+#: standalone.pm:62
+#, c-format
+msgid ""
+"[OPTIONS] [PROGRAM_NAME]\n"
+"\n"
+"OPTIONS:\n"
+"  --help            - print this help message.\n"
+"  --report          - program should be one of %s tools\n"
+"  --incident        - program should be one of %s tools"
+msgstr ""
+"[OPCIONS] [NOM_DEL_PROGRAMA]\n"
+"\n"
+"OPCIONS:\n"
+"  --help            - imprimeix aquest missatge d'ajuda.\n"
+"  --report          - el programa hauria de ser una de les eines %s\n"
+"  --incident        - el programa hauria de ser una de les eines %s"
+
+#: standalone.pm:68
+#, c-format
+msgid ""
+"[--add]\n"
+"  --add             - \"add a network interface\" wizard\n"
+"  --del             - \"delete a network interface\" wizard\n"
+"  --skip-wizard     - manage connections\n"
+"  --internet        - configure internet\n"
+"  --wizard          - like --add"
+msgstr ""
+"[--add]\n"
+"  --add             - auxiliar \"afegeix una interfície de xarxa\"\n"
+"  --del             - auxiliar \"elimina una interfície de xarxa\"\n"
+"  --skip-wizard     - gestiona les connexions\n"
+"  --internet        - configura Internet\n"
+"  --wizard          - com --add"
+
+#: standalone.pm:74
+#, c-format
+msgid ""
+"\n"
+"Font Importation and monitoring application\n"
+"\n"
+"OPTIONS:\n"
+"--windows_import : import from all available windows partitions.\n"
+"--xls_fonts      : show all fonts that already exist from xls\n"
+"--install        : accept any font file and any directory.\n"
+"--uninstall      : uninstall any font or any directory of font.\n"
+"--replace        : replace all font if already exist\n"
+"--application    : 0 none application.\n"
+"                 : 1 all application available supported.\n"
+"                 : name_of_application like  so for staroffice \n"
+"                 : and gs for ghostscript for only this one."
+msgstr ""
+"\n"
+"Aplicació d'importació de lletres i de monitoratge\n"
+"\n"
+"OPCIONS:\n"
+"--windows_import : importa des de totes les particions de Windows "
+"disponibles.\n"
+"--xls_fonts      : mostra totes les lletres que ja són al xls\n"
+"--install        : accepta qualsevol fitxer i directori de lletres.\n"
+"--uninstall      : desinstal·la qualsevol fitxer o directori de lletres..\n"
+"--replace        : substitueix qualsevol lletra si ja existeix\n"
+"--application    : 0 cap aplicació.\n"
+"                 : 1 totes les aplicacions compatibles disponibles.\n"
+"                 : nom_de_l'aplicació, com ara so per al StarOffice \n"
+"                 : i gs per al ghostscript per utilitzar només aquesta."
+
+#: standalone.pm:89
+#, c-format
+msgid ""
+"[OPTIONS]...\n"
+"%s Terminal Server Configurator\n"
+"--enable         : enable MTS\n"
+"--disable        : disable MTS\n"
+"--start          : start MTS\n"
+"--stop           : stop MTS\n"
+"--adduser        : add an existing system user to MTS (requires username)\n"
+"--deluser        : delete an existing system user from MTS (requires "
+"username)\n"
+"--addclient      : add a client machine to MTS (requires MAC address, IP, "
+"nbi image name)\n"
+"--delclient      : delete a client machine from MTS (requires MAC address, "
+"IP, nbi image name)"
+msgstr ""
+"[OPCIONS]...\n"
+"%s Terminal Server Configurator\n"
+"--enable         : habilita l'MTS\n"
+"--disable        : inhabilita l'MTS\n"
+"--start          : inicia l'MTS\n"
+"--stop           : atura l'MTS\n"
+"--adduser        : afegeix un usuari existent al sistema a l'MTS (cal el nom "
+"d'usuari)\n"
+"--deluser        : elimina un usuari existent al sistema de l'MTS (cal el "
+"nom d'usuari)\n"
+"--addclient      : afegeix una màquina client a l'MTS (cal una adreça MAC, "
+"IP, nom d'imatge nbi)\n"
+"--delclient      : elimina una màquina client de l'MTS (cal una adreça MAC, "
+"IP, nom d'imatge nbi)"
+
+#: standalone.pm:101
+#, c-format
+msgid "[keyboard]"
+msgstr "[teclat]"
+
+#: standalone.pm:102
+#, c-format
+msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+msgstr "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+
+#: standalone.pm:103
+#, c-format
+msgid ""
+"[OPTIONS]\n"
+"Network & Internet connection and monitoring application\n"
+"\n"
+"--defaultintf interface : show this interface by default\n"
+"--connect : connect to internet if not already connected\n"
+"--disconnect : disconnect to internet if already connected\n"
+"--force : used with (dis)connect : force (dis)connection.\n"
+"--status : returns 1 if connected 0 otherwise, then exit.\n"
+"--quiet : do not be interactive. To be used with (dis)connect."
+msgstr ""
+"[OPCIONS]\n"
+"Aplicació de connexió a xarxes i Internet i de monitoratge\n"
+"\n"
+"--defaultintf interface : per defecte, mostra aquesta interfície\n"
+"--connect : connecta a Internet si no ho està ja\n"
+"--disconnect : desconnecta d'Internet si està connectat\n"
+"--force : utilitzat amb (dis)connect : imposa la (des)connexió.\n"
+"--status : torna 1 si està connectat, 0 si no, i després surt.\n"
+"--quiet : no siguis interactiu. Per utilitzar amb (dis)connect."
+
+#: standalone.pm:113
+#, c-format
+msgid ""
+"[OPTION]...\n"
+"  --no-confirmation      do not ask first confirmation question in %s Update "
+"mode\n"
+"  --no-verify-rpm        do not verify packages signatures\n"
+"  --changelog-first      display changelog before filelist in the "
+"description window\n"
+"  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+msgstr ""
+"[OPCIÓ]...\n"
+"  --no-confirmation      no facis la primera pregunta de confirmació en el "
+"mode d'actualització %s\n"
+"  --no-verify-rpm        no verifiquis les signatures dels paquets\n"
+"  --changelog-first     mostra el registre de canvis abans de llista de "
+"fitxers a la finestra de descripció\n"
+"  --merge-all-rpmnew     proposa fusionar tots els fitxers .rpmnew/.rpmsave "
+"trobats"
+
+#: standalone.pm:118
+#, c-format
+msgid ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+msgstr ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+
+#: standalone.pm:119
+#, c-format
+msgid ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolution"
+msgstr ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolució"
+
+#: standalone.pm:156
+#, c-format
+msgid ""
+"\n"
+"Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+msgstr ""
+"\n"
+"Ús: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--testing] "
+"[-v|--version] "
+
+#: timezone.pm:170 timezone.pm:171
+#, c-format
+msgid "All servers"
+msgstr "Tots els servidors"
+
+#: timezone.pm:207
+#, c-format
+msgid "Global"
+msgstr "Global"
+
+#: timezone.pm:210
+#, c-format
+msgid "Africa"
+msgstr "Àfrica"
+
+#: timezone.pm:211
+#, c-format
+msgid "Asia"
+msgstr "Àsia"
+
+#: timezone.pm:212
+#, c-format
+msgid "Europe"
+msgstr "Europa"
+
+#: timezone.pm:213
+#, c-format
+msgid "North America"
+msgstr "Amèrica del nord"
+
+#: timezone.pm:214
+#, c-format
+msgid "Oceania"
+msgstr "Oceania"
+
+#: timezone.pm:215
+#, c-format
+msgid "South America"
+msgstr "Amèrica del sud"
+
+#: timezone.pm:224
+#, c-format
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: timezone.pm:261
+#, c-format
+msgid "Russian Federation"
+msgstr "Rússia"
+
+#: timezone.pm:269
+#, c-format
+msgid "Yugoslavia"
+msgstr "Iugoslàvia"
+
+#: ugtk2.pm:810 ugtk3.pm:906
+#, c-format
+msgid "Is this correct?"
+msgstr "Això és correcte?"
+
+#: ugtk2.pm:872 ugtk3.pm:968
+#, c-format
+msgid "You have chosen a file, not a directory"
+msgstr "Heu escollit un fitxer, no un directori"
+
+#: ugtk2.pm:922 ugtk3.pm:1018
+#, c-format
+msgid "Info"
+msgstr "Informació"
+
+#: wizards.pm:95
+#, c-format
+msgid ""
+"%s is not installed\n"
+"Click \"Next\" to install or \"Cancel\" to quit"
+msgstr ""
+"%s no està instal·lat\n"
+"Feu clic a «Següent» per instal·lar-lo o a «Cancel·la» per sortir"
+
+#: wizards.pm:99
+#, c-format
+msgid "Installation failed"
+msgstr "La instal·lació ha fallat"

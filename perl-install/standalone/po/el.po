@@ -1,0 +1,3553 @@
+# translation of DrakX-el.po to Greek
+# Greek translation for drakfloppy.
+# Copyright (C) 2001,2003 Free Software Foundation, Inc.
+#
+# Thanos Kyritsis <djart@hellug.gr>, 2001.
+# Νίκος Νύκταρης (Nick Niktaris) <niktarin@yahoo.com>, 2003.
+# Nikos Papadopoulos <231036448@freemail.gr>, 2008.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2009, 2010, 2011, 2013, 2014, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakx_standalone\n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2016-08-14 06:48+0200\n"
+"Last-Translator: Dimitrios Glentadakis <dglent@free.fr>\n"
+"Language-Team: Greek <i18n-el@ml.mageia.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "Πιστοποίηση"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213 drakfont:226
+#: drakfont:264 finish-install:136 logdrake:177 logdrake:453 logdrake:458
+#: scannerdrake:56 scannerdrake:98 scannerdrake:139 scannerdrake:197
+#: scannerdrake:256 scannerdrake:726 scannerdrake:737 scannerdrake:876
+#: scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "_Αρχείο"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "_Έξοδος"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: drakautologin:100
+#, c-format
+msgid "Default user"
+msgstr "Προκαθορισμένος χρήστης"
+
+#: drakautologin:101
+#, c-format
+msgid "Default desktop"
+msgstr "Προκαθορισμένη επιφάνεια εργασίας"
+
+#: drakautologin:104
+#, c-format
+msgid "No, I do not want autologin"
+msgstr "Όχι, δεν επιθυμώ την αυτόματη σύνδεση"
+
+#: drakautologin:105
+#, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr "Ναι, επιθυμώ την αυτόματη σύνδεση (επιλέξτε χρήστη και περιβάλλον)"
+
+#: drakautologin:112
+#, c-format
+msgid "System mode"
+msgstr "Λειτουργία συστήματος"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr "Εκτέλεση του γραφικού περιβάλλοντος κατά την εκκίνηση του συστήματος"
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr "Δεν βρέθηκε πρόγραμμα εκκίνησης. Δημιουργία μιας νέας διαμόρφωσης"
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr "Το πρόγραμμα «%s» κατέρρευσε με το ακόλουθο σφάλμα :"
+
+#: drakbug:62
+#, c-format
+msgid "%s Bug Report Tool"
+msgstr "Εργαλείο αναφοράς σφαλμάτων %s"
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "Κέντρο Ελέγχου %s"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr "Οδηγός πρώτης σύνδεσης"
+
+#: drakbug:69
+#, c-format
+msgid "Synchronization tool"
+msgstr "Εργαλείο συγχρονισμού"
+
+#: drakbug:70 drakbug:206
+#, c-format
+msgid "Standalone Tools"
+msgstr "Αυτόνομα εργαλεία"
+
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s Online"
+
+#: drakbug:74
+#, c-format
+msgid "Remote Control"
+msgstr "Απομακρυσμένος έλεγχος"
+
+#: drakbug:75
+#, c-format
+msgid "Software Manager"
+msgstr "Διαχειριστής λογισμικού"
+
+#: drakbug:76
+#, c-format
+msgid "Windows Migration tool"
+msgstr "Εργαλείο μεταφοράς από τα Windows "
+
+#: drakbug:77
+#, c-format
+msgid "Configuration Wizards"
+msgstr "Οδηγοί ρυθμίσεων"
+
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "Επιλέξτε ένα εργαλείο %s:"
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+"ή όνομα εφαρμογής\n"
+"(ή ολόκληρη διαδρομή) :"
+
+#: drakbug:103
+#, c-format
+msgid "Find Package"
+msgstr "Αναζήτηση πακέτου"
+
+#: drakbug:104
+#, c-format
+msgid "Browse"
+msgstr "Περιήγηση"
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "Πακέτο:"
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "Πυρήνας:"
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr "Το πρόγραμμα  «%s» κατέρρευσε (SEGV) με το ακόλουθο σφάλμα :"
+
+#: drakbug:144
+#, c-format
+msgid "Used theme: %s"
+msgstr "Θέμα που χρησιμοποιείται: %s"
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+"Για να στείλετε αναφορά ενός σφάλματος, πατήστε στο εικονίδιο Αναφορά.\n"
+"Θα ανοίξει ένα παράθυρο του περιηγητή στο %s με μια φόρμα αναφοράς προς "
+"συμπλήρωση. Οι πληροφορίες που αναφέρονται παρακάτω θα αποσταλούν προς τον "
+"διακομιστή."
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] ""
+"Είναι χρήσιμο να συμπεριλάβετε στην αναφορά σας την έξοδο της ακόλουθης "
+"εντολής : %s."
+msgstr[1] ""
+"Είναι χρήσιμο να συμπεριλάβετε στην αναφορά σας την έξοδο των ακόλουθων "
+"εντολών : %s."
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr "«%s»"
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr "Θα πρέπει επίσης να επισυνάψτε τα ακόλουθα αρχεία : %s καθώς και %s."
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr ""
+"Παρακαλώ περιγράψτε τι κάνατε την στιγμή της κατάρρευσης του προγράμματος :"
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "Αναφορά"
+
+#: drakbug:213
+#, c-format
+msgid "Not installed"
+msgstr "Μη εγκατεστημένα"
+
+#: drakbug:226
+#, c-format
+msgid "Package not installed"
+msgstr "Το πακέτο δεν είναι εγκατεστημένο"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "Προσοχή"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+"Πρέπει να περιγράψετε τι κάνατε την στιγμή που εμφανίστηκε το σφάλμα ώστε να "
+"μπορέσουμε να το αναπαράγουμε και να υπάρχουν περισσότερες πιθανότητες να το "
+"επιλύσουμε"
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr "Ευχαριστούμε."
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Ρυθμίσεις ημερομηνίας, ώρας & ζώνη ώρας"
+
+#: drakclock:38
+#, c-format
+msgid "not defined"
+msgstr "δεν προσδιορίστηκε"
+
+#: drakclock:40
+#, c-format
+msgid "Change Time Zone"
+msgstr "Αλλαγή ωρολογιακής ζώνης"
+
+#: drakclock:45
+#, c-format
+msgid "Timezone - DrakClock"
+msgstr "Ζώνη ώρας - DrakClock"
+
+#: drakclock:45
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Ποια είναι η ζώνη ώρας σας;"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:47
+#, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "Το ρολόι του BIOS είναι ρυθμισμένο σε ώρα Γκρίνουϊτς ;"
+
+#: drakclock:75
+#, c-format
+msgid "Network Time Protocol"
+msgstr "Δικτυακό πρωτόκολλο ώρας (NTP)"
+
+#: drakclock:77
+#, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"Ο υπολογιστής σας μπορεί να συγχρονίσει την ώρα του\n"
+" με έναν απομακρυσμένο εξυπηρετητή κάνοντας χρήση του NTP"
+
+#: drakclock:78
+#, c-format
+msgid "Enable Network Time Protocol"
+msgstr "Ενεργοποίηση του NTP"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "Εξυπηρετητής:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "Ωρολογιακή ζώνη"
+
+#: drakclock:117
+#, c-format
+msgid "Please enter a valid NTP server address."
+msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση εξυπηρετητή NTP."
+
+#: drakclock:141
+#, c-format
+msgid "Could not synchronize with %s."
+msgstr "Αδύνατος ο συγχρονισμός με το %s."
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: drakclock:143
+#, c-format
+msgid "Retry"
+msgstr "Νέα προσπάθεια"
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: drakdvb:30
+#, c-format
+msgid "DVB"
+msgstr "DVB"
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "Κανάλι"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr "%s υπάρχει ήδη και το περιεχόμενό του θα χαθεί"
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr "Δεν ήταν δυνατή η λήψη της λίστας των διαθέσιμων καναλιών"
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "Παρακαλώ περιμένετε"
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr "Ανίχνευση καναλιών DVB, θα χρειαστεί μερικά λεπτά"
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: drakdvb:148
+#, c-format
+msgid "Detect Channels"
+msgstr "Ανίχνευση καναλιών"
+
+#: drakdvb:150
+#, c-format
+msgid "View Channel"
+msgstr "Προβολή Καναλιού"
+
+#: drakedm:41
+#, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "GDM (Διαχειριστής σύνδεσης GNOME)"
+
+#: drakedm:42
+#, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr "SDDM (Απλός διαχειριστής σύνδεσης συνεδρίας)"
+
+#: drakedm:43
+#, c-format
+msgid "XDM (X Display Manager)"
+msgstr "XDM (Διαχειριστής σύνδεσης X)"
+
+#: drakedm:54
+#, c-format
+msgid "Choosing a display manager"
+msgstr "Επιλογή ενός διαχειριστή σύνδεσης"
+
+#: drakedm:55
+#, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr ""
+"Ο διαχειριστής σύνδεσης X11 σας επιτρέπει να συνδεθείτε\n"
+"με γραφικό περιβάλλον στο σύστημά σας με το σύστημα παραθύρου Χ να "
+"υποστηρίζει\n"
+"ταυτόχρονες διαφορετικές συνεδρίες Χ στο μηχάνημά σας."
+
+#: drakedm:74
+#, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "Η αλλαγή πραγματοποιήθηκε, θέλετε να επανεκκινήσετε την υπηρεσία dm ;"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+"Πρόκειται να κλείσετε όλα τα τρέχοντα προγράμματα και την τρέχουσα συνεδρία. "
+"Θέλετε σίγουρα να επανεκκινήσετε την υπηρεσία dm ;"
+
+#: drakfont:187
+#, c-format
+msgid "Search installed fonts"
+msgstr "Αναζήτηση εγκατεστημένων γραμματοσειρών"
+
+#: drakfont:189
+#, c-format
+msgid "Unselect fonts installed"
+msgstr "Αποεπιλέξτε τις εγκατεστημένες γραμματοσειρές"
+
+#: drakfont:213
+#, c-format
+msgid "No fonts found"
+msgstr "Δεν βρέθηκαν γραμματοσειρές"
+
+#: drakfont:217
+#, c-format
+msgid "parse all fonts"
+msgstr "ανάλυση όλων των γραμματοσειρών"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "έγινε"
+
+#: drakfont:226
+#, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "Δεν βρέθηκαν γραμματοσειρές στις προσαρτημένες κατατμήσεις"
+
+#: drakfont:261
+#, c-format
+msgid "Reselect correct fonts"
+msgstr "Επιλέξτε ξανά τις σωστές γραμματοσειρές"
+
+#: drakfont:264
+#, c-format
+msgid "Could not find any font.\n"
+msgstr "Δεν βρέθηκε καμία γραμματοσειρά.\n"
+
+#: drakfont:274
+#, c-format
+msgid "Search for fonts in installed list"
+msgstr "Αναζήτηση στις εγκατεστημένες γραμματοσειρές"
+
+#: drakfont:298
+#, c-format
+msgid "%s fonts conversion"
+msgstr "μετατροπή γραμματοσειρών %s"
+
+#: drakfont:337
+#, c-format
+msgid "Fonts copy"
+msgstr "Αντιγραφή γραμματοσειρών"
+
+#: drakfont:340
+#, c-format
+msgid "True Type fonts installation"
+msgstr "Εγκατάσταση γραμματοσειρών True Type"
+
+#: drakfont:348
+#, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "παρακαλώ περιμένετε κατά τη διάρκεια «ttmkfdir»..."
+
+#: drakfont:349
+#, c-format
+msgid "True Type install done"
+msgstr "Η εγκατάσταση True Type ολοκληρώθηκε"
+
+#: drakfont:355 drakfont:370
+#, c-format
+msgid "type1inst building"
+msgstr "δημιουργία type1inst"
+
+#: drakfont:364
+#, c-format
+msgid "Ghostscript referencing"
+msgstr "Εγγραφή στο Ghostscript"
+
+#: drakfont:381
+#, c-format
+msgid "Suppress Temporary Files"
+msgstr "Διαγραφή των προσωρινών αρχείων"
+
+#: drakfont:426 drakfont:432
+#, c-format
+msgid "Suppress Fonts Files"
+msgstr "Διαγραφή των αρχείων γραμματοσειρών"
+
+#: drakfont:440
+#, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr ""
+"Πριν εγκαταστήσετε τις γραμματοσειρές, βεβαιωθείτε ότι έχετε το δικαίωμα να "
+"κάνετε χρήση αυτών των γραμματοσειρών καθώς και να τις εγκαταστήσετε στον "
+"υπολογιστή σας.\n"
+"\n"
+"Μπορείτε να εγκαταστήσετε τις γραμματοσειρές με τον τυπικό τρόπο. Σε σπάνιες "
+"περιπτώσεις, εικονικές γραμματοσειρές μπορούν να παγώσουν τον εξυπηρετητή Χ."
+
+#: drakfont:479
+#, c-format
+msgid "Font Installation"
+msgstr "Εγκατάσταση γραμματοσειρών"
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakFont"
+
+#: drakfont:491 drakfont:640
+#, c-format
+msgid "Font List"
+msgstr "Λίστα γραμματοσειρών"
+
+#: drakfont:494
+#, c-format
+msgid "Get Windows Fonts"
+msgstr "Λήψη γραμματοσειρών των Windows"
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "Σχετικά"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "Επιλογές"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: drakfont:521
+#, c-format
+msgid "Drakfont"
+msgstr "Drakfont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Πνευματικά δικαιώματα %s από τη %s"
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr "Εγκαταστάτης γραμματοσειρών."
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+"Νίκος Νύκταρης <niktarin@yahoo.com>\n"
+"Δημήτριος Γλενταδάκης <dglent@gmail.com>\n"
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr "Επιλέξτε τις εφαρμογές που θα υποστηρίζουν οι γραμματοσειρές :"
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "Abiword"
+
+#: drakfont:555
+#, c-format
+msgid "Generic Printers"
+msgstr "Γενικοί εκτυπωτές"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "Εντάξει"
+
+#: drakfont:569
+#, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr ""
+"Επιλέξτε το αρχείο γραμματοσειρές ή τον κατάλογο και κάντε κλικ στο "
+"«Προσθήκη»"
+
+#: drakfont:570
+#, c-format
+msgid "File Selection"
+msgstr "Επιλογή αρχείου"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "Γραμματοσειρές"
+
+#: drakfont:638 draksec:185
+#, c-format
+msgid "Import fonts"
+msgstr "Εισαγωγή γραμματοσειρών"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr "Θέλετε σίγουρα να απεγκαταστήσετε τις παρακάτω γραμματοσειρές;"
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "Ναι"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "Όχι"
+
+#: drakfont:728
+#, c-format
+msgid "Unselect All"
+msgstr "Αποεπιλογή όλων"
+
+#: drakfont:731
+#, c-format
+msgid "Select All"
+msgstr "Επιλογή όλων"
+
+#: drakfont:748
+#, c-format
+msgid "Importing fonts"
+msgstr "Εισαγωγή των γραμματοσειρών"
+
+#: drakfont:752 drakfont:772
+#, c-format
+msgid "Initial tests"
+msgstr "Αρχικές δοκιμές"
+
+#: drakfont:753
+#, c-format
+msgid "Copy fonts on your system"
+msgstr "Αντιγραφή γραμματοσειρών στο σύστημά σας"
+
+#: drakfont:754
+#, c-format
+msgid "Install & convert Fonts"
+msgstr "Εγκατάσταση & μετατροπή γραμματοσειρών"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "Τελική εγκατάσταση"
+
+#: drakfont:767
+#, c-format
+msgid "Removing fonts"
+msgstr "Απομάκρυνση των γραμματοσειρών"
+
+#: drakfont:773
+#, c-format
+msgid "Remove fonts on your system"
+msgstr "Αφαίρεση γραμματοσειρών από το σύστημά σας"
+
+#: drakfont:774
+#, c-format
+msgid "Post Uninstall"
+msgstr "Τελική απεγκατάσταση"
+
+#: drakhelp:17
+#, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+" drakhelp 0.1\n"
+"Πνευματικά δικαιώματα © %s Mandriva.\n"
+"Πνευματικά δικαιώματα © %s Mageia.\n"
+"Αυτό το πρόγραμμα ανήκει στην κατηγορία του ελεύθερου λογισμικού και "
+"επιτρέπεται\n"
+"η αναδιανομή σύμφωνα με τους όρους της άδειας GNU GPL.\n"
+"\n"
+"Χρήση : \n"
+
+#: drakhelp:23
+#, c-format
+msgid "  --help                - display this help     \n"
+msgstr " --help                - εμφάνιση αυτού του μηνύματος     \n"
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+" --id <id_label>       - εμφάνιση της σελίδας βοήθειας html που αναφέρεται "
+"στο id_label\n"
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+" --doc <link>          - σύνδεσμος προς μία άλλη ιστοσελίδα (για το "
+"περιβάλλον καλωσορίσματος του WM)\n"
+
+#: drakhelp:53
+#, c-format
+msgid "%s Help Center"
+msgstr "Κέντρο βοήθειας της %s"
+
+#: drakhelp:53
+#, c-format
+msgid "No Help entry for %s\n"
+msgstr "Καμία καταχώρηση βοήθειας για %s\n"
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "Ρυθμίσεις συστήματος"
+
+#: drakperm:24
+#, c-format
+msgid "Custom settings"
+msgstr "Προσαρμοσμένες ρυθμίσεις"
+
+#: drakperm:25
+#, c-format
+msgid "Custom & system settings"
+msgstr "Προσαρμοσμένες ρυθμίσεις & ρυθμίσεις του συστήματος"
+
+#: drakperm:33
+#, c-format
+msgid "Security Permissions"
+msgstr "Άδειες ασφαλείας"
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "Επεξεργάσιμο"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "Διαδρομή"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "Χρήστης"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "Ομάδα"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "Άδειες"
+
+#: drakperm:60
+#, c-format
+msgid "Add a new rule"
+msgstr "Προσθήκη νέου κανόνα"
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, c-format
+msgid "Edit current rule"
+msgstr "Επεξεργασία κανόνα"
+
+#: drakperm:108
+#, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr ""
+"Εδώ έχετε την δυνατότητα να δείτε τα αρχεία προς χρήση για να διορθώσετε τις "
+"άδειες, τους ιδιοκτήτες και τις ομάδες με το msec.\n"
+"Μπορείτε επίσης να ρυθμίσετε τους δικούς σας κανόνες οι οποίοι θα "
+"αντικαταστήσουν τους προκαθορισμένους."
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+"Το τρέχον επίπεδο ασφαλείας είναι %s.\n"
+"Επιλέξτε τις άδειες για εμφάνιση/επεξεργασία"
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "Πάνω"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr "Μετακίνηση του επιλεγμένου κανόνα ένα επίπεδο πάνω"
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "Κάτω"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr "Μετακίνηση του επιλεγμένου κανόνα ένα επίπεδο κάτω"
+
+#: drakperm:124
+#, c-format
+msgid "Add a rule"
+msgstr "Προσθήκη ενός κανόνα"
+
+#: drakperm:124
+#, c-format
+msgid "Add a new rule at the end"
+msgstr "Προσθήκη νέου κανόνα στο τέλος"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: drakperm:125
+#, c-format
+msgid "Delete selected rule"
+msgstr "Διαγραφή επιλεγμένου κανόνα"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: drakperm:239
+#, c-format
+msgid "browse"
+msgstr "περιήγηση"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "χρήστης"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "ομάδα"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "άλλο"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "Άλλο"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "Αναγνωσμένα"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "Επιτρέπει στο «%s» να διαβάσει το αρχείο"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "Εγγραφή"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "Επιτρέπει στο «%s» να τροποποιήσει το αρχείο"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "Εκτέλεση"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "Επιτρέπει στο «%s» να εκτελέσει το αρχείο"
+
+#: drakperm:269
+#, c-format
+msgid "Sticky-bit"
+msgstr "Sticky-bit"
+
+#: drakperm:269
+#, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"Χρησιμοποιείται για τους καταλόγους:\n"
+" μόνο ο ιδιοκτήτης του φακέλου ή αρχείου σε αυτόν τον κατάλογο μπορεί να το "
+"διαγράψει"
+
+#: drakperm:270
+#, c-format
+msgid "Set-UID"
+msgstr "Ορισμός UID"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr "Χρήση του id ιδιοκτήτη κατά την εκτέλεση"
+
+#: drakperm:271
+#, c-format
+msgid "Set-GID"
+msgstr "Ορισμός GID"
+
+#: drakperm:271
+#, c-format
+msgid "Use group id for execution"
+msgstr "Χρήση του id της ομάδας κατά την εκτέλεση"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "Χρήστης:"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "Ομάδα:"
+
+#: drakperm:293
+#, c-format
+msgid "Current user"
+msgstr "Τρέχων χρήστης"
+
+#: drakperm:294
+#, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr ""
+"Όταν είναι επιλεγμένο, ο ιδιοκτήτης και η ομάδα δεν θα τροποποιούνται πλέον"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "Επιλογή διαδρομής"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "Ιδιότητα"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+"Ο πρώτος χαρακτήρας της διαδρομής πρέπει να είναι μια κάθετος (\"/\"):\n"
+"\"%s\""
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr "Το όνομα του χρήστη και της ομάδας πρέπει να είναι έγκυρα !"
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr "Χρήστης : %s"
+
+#: drakperm:383
+#, c-format
+msgid "Group: %s"
+msgstr "Ομάδα : %s"
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "ΟΛΑ"
+
+#: draksec:54
+#, c-format
+msgid "LOCAL"
+msgstr "ΤΟΠΙΚΑ"
+
+#: draksec:55
+#, c-format
+msgid "NONE"
+msgstr "ΚΑΝΕΝΑ"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "Προκαθορισμένο"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "Αγνόηση"
+
+#: draksec:87
+#, c-format
+msgid "Security Level and Checks"
+msgstr "Επίπεδο ασφαλείας και περιοδικοί έλεγχοι"
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr ""
+"Ρυθμίστε την πιστοποίηση που απαιτείται για την πρόσβαση στα εργαλεία %s"
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "Χωρίς κωδικό πρόσβασης"
+
+#: draksec:115
+#, c-format
+msgid "Administrator password"
+msgstr "Κωδικός πρόσβασης root"
+
+#: draksec:116
+#, c-format
+msgid "User password"
+msgstr "Κωδικός πρόσβασης χρήστη"
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "Διαχείριση λογισμικού"
+
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "Ενημέρωση %s"
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "Διαχειριστής μέσων λογισμικού"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "Ρύθμιση των εφέ της επιφάνειας εργασίας 3D"
+
+#: draksec:172
+#, c-format
+msgid "Graphical Server Configuration"
+msgstr "Ρύθμιση του εξυπηρετητή γραφικών"
+
+#: draksec:173
+#, c-format
+msgid "Mouse Configuration"
+msgstr "Ρύθμιση του ποντικιού"
+
+#: draksec:174
+#, c-format
+msgid "Keyboard Configuration"
+msgstr "Ρύθμιση του πληκτρολογίου"
+
+#: draksec:175
+#, c-format
+msgid "UPS Configuration"
+msgstr "Ρύθμιση του UPS"
+
+#: draksec:176
+#, c-format
+msgid "Network Configuration"
+msgstr "Ρύθμιση του δικτύου"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr "Καθορισμός των υπολογιστών"
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "Κέντρο δικτύου"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr "Περιαγωγή ασύρματου δικτύου"
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr "VPN"
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "Ρύθμιση διαμεσολαβητή"
+
+#: draksec:182
+#, c-format
+msgid "Connection Sharing"
+msgstr "Κοινή χρήση της σύνδεσης"
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "Αντίγραφα ασφαλείας "
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "Καταγραφές"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+#: draksec:188
+#, c-format
+msgid "Users"
+msgstr "Χρήστες"
+
+#: draksec:190
+#, c-format
+msgid "Boot Configuration"
+msgstr "Ρύθμιση της εκκίνησης"
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "Υλικό"
+
+#: draksec:224
+#, c-format
+msgid "Network"
+msgstr "Δίκτυο"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "Σύστημα"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "Εκκίνηση"
+
+#: draksound:48
+#, c-format
+msgid "No Sound Card detected!"
+msgstr "Δεν βρέθηκε κάρτα ήχου!"
+
+#: draksound:50
+#, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+"Δεν εντοπίστηκε καμιά κάρτα ήχου στον υπολογιστή σας. Παρακαλώ βεβαιωθείτε "
+"ότι μια κάρτα ήχου που υποστηρίζεται από το Linux είναι συνδεδεμένη σωστά."
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr "Συνδεδεμένο μέσω σειριακής θύρας ή καλώδιο usb"
+
+#: drakups:72
+#, c-format
+msgid "Manual configuration"
+msgstr "Χειροκίνητη ρύθμιση"
+
+#: drakups:78
+#, c-format
+msgid "Add an UPS device"
+msgstr "Προσθήκη μιας συσκευής UPS"
+
+#: drakups:81
+#, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr ""
+"Καλώς ήλθατε στο εργαλείο ρύθμισης του UPS.\n"
+"\n"
+"Εδώ, θα μπορέσετε να προσθέσετε μια νέα συσκευή UPS στο σύστημά σας.\n"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+"Πρόκειται να προσθέσουμε μια συσκευή UPS.\n"
+"\n"
+"Θέλετε να γίνει αυτόματη ανίχνευση των συσκευών UPS που είναι συνδεδεμένες "
+"στον υπολογιστή σας ή θέλετε να επιλέξετε χειροκίνητα ;"
+
+#: drakups:91
+#, c-format
+msgid "Autodetection"
+msgstr "Αυτόματη ανίχνευση"
+
+#: drakups:99 harddrake2:362
+#, c-format
+msgid "Detection in progress"
+msgstr "Ανίχνευση σε εξέλιξη"
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "Συγχαρητήρια"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr "Ο οδηγός πρόσθεσε τις ακόλουθες συσκευές UPS με επιτυχία :"
+
+#: drakups:121
+#, c-format
+msgid "No new UPS devices was found"
+msgstr "Δεν βρέθηκε νέες συσκευές UPS"
+
+#: drakups:126 drakups:138
+#, c-format
+msgid "UPS driver configuration"
+msgstr "Ρύθμιση του οδηγού UPS"
+
+#: drakups:126
+#, c-format
+msgid "Please select your UPS model."
+msgstr "Παρακαλώ επιλέξτε το μοντέλο του UPS σας"
+
+#: drakups:127
+#, c-format
+msgid "Manufacturer / Model:"
+msgstr "Κατασκευαστής / μοντέλο :"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+"Γίνεται διαμόρφωση του UPS «%s» από «%s».\n"
+"Παρακαλώ συμπληρώστε το όνομά του, τον οδηγό και την θύρα του."
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: drakups:143
+#, c-format
+msgid "The name of your ups"
+msgstr "Το όνομα του UPS σας"
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "Οδηγός:"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr "Ο οδηγός που διαχειρίζεται το UPS σας"
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "Θύρα:"
+
+#: drakups:147
+#, c-format
+msgid "The port on which is connected your ups"
+msgstr "Η θύρα στην οποία είναι συνδεδεμένο το UPS"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr "Ο οδηγός εγκατέστησε την νέα συσκευή UPS «%s» με επιτυχία. "
+
+#: drakups:248
+#, c-format
+msgid "UPS devices"
+msgstr "Συσκευές UPS"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "Όνομα"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "Οδηγός"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "Θύρα"
+
+#: drakups:267
+#, c-format
+msgid "UPS users"
+msgstr "Χρήστες του UPS"
+
+#: drakups:283
+#, c-format
+msgid "Access Control Lists"
+msgstr "Λίστες ελέγχου πρόσβασης"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "Διεύθυνση IP"
+
+#: drakups:284
+#, c-format
+msgid "IP mask"
+msgstr "Μάσκα ΙΡ"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "Κανόνες"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "Επίπεδο"
+
+#: drakups:297
+#, c-format
+msgid "ACL name"
+msgstr "Όνομα ACL"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: drakups:329
+#, c-format
+msgid "UPS Management"
+msgstr "Διαχείριση των UPS"
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "Καλώς ήλθατε στα εργαλεία ρύθμισης του UPS"
+
+#: drakxtv:66
+#, c-format
+msgid "No TV Card detected!"
+msgstr "Δεν βρέθηκε καμιά κάρτα τηλεόρασης!"
+
+#: drakxtv:67
+#, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+"Δεν βρέθηκε καμιά κάρτα τηλεόρασης στον υπολογιστή σας. Παρακαλώ βεβαιωθείτε "
+"ότι μια κάρτα βίντεο/τηλεόρασης που υποστηρίζεται από το Linux είναι "
+"συνδεδεμένη σωστά."
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "Πληκτρολόγιο"
+
+#: finish-install:61
+#, c-format
+msgid "Please choose your keyboard layout."
+msgstr "Παρακαλώ, επιλέξτε την διάταξη του πληκτρολογίου σας."
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr "Δοκιμή της σύνδεσής σας... "
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, c-format
+msgid "Encrypted home partition"
+msgstr "Κρυπτογραφημένη κατάτμηση home"
+
+#: finish-install:199
+#, c-format
+msgid "Please enter a password for the %s user"
+msgstr "Παρακαλώ εισάγετε έναν κωδικό πρόσβασης για τον χρήστη %s"
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "Κωδικός πρόσβασης (ξανά)"
+
+#: finish-install:217
+#, c-format
+msgid "Creating encrypted home partition"
+msgstr "Δημιουργία κρυπτογραφημένης κατάτμησης home σε εξέλιξη"
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr "Μορφοποίηση της κρυπτογραφημένης κατάτμησης home"
+
+#: harddrake2:30
+#, c-format
+msgid "Alternative drivers"
+msgstr "Εναλλακτικοί οδηγοί"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr "η λίστα με τους εναλλακτικούς οδηγούς για την κάρτα ήχου σας"
+
+#: harddrake2:33 harddrake2:129
+#, c-format
+msgid "Bus"
+msgstr "Δίαυλος"
+
+#: harddrake2:34
+#, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr ""
+"αυτή είναι η φυσική θέση στην οποία είναι συνδεδεμένη η συσκευή (π.χ. PCI, "
+"USB, ...)"
+
+#: harddrake2:36 harddrake2:155
+#, c-format
+msgid "Bus identification"
+msgstr "Ταυτοποίηση διαύλου"
+
+#: harddrake2:37
+#, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr ""
+"- συσκευές PCI και USB : εμφάνιση της λίστας του αναγνωριστικού προμηθευτή, "
+"συσκευών, υπό-προμηθευτή, και υπό-συσκευών PCI/USB"
+
+#: harddrake2:39
+#, c-format
+msgid "Location on the bus"
+msgstr "Θέση του διαύλου"
+
+#: harddrake2:40
+#, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr ""
+"- συσκευές pci: η θύρα PCI, η συσκευή και η λειτουργία αυτής της κάρτας\n"
+"- συσκευές eide: αυτή η συσκευή είναι είτε slave είτε master\n"
+"- συσκευές scsi: ο δίαυλος scsi και το αναγνωριστικό της συσκευής scsi"
+
+#: harddrake2:43
+#, c-format
+msgid "Drive capacity"
+msgstr "Χαρακτηριστικά του οδηγού"
+
+#: harddrake2:43
+#, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr "ειδικά χαρακτηριστικά του οδηγού (ικανότητα εγγραφής ή ανάγνωσης DVD)"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: harddrake2:44
+#, c-format
+msgid "this field describes the device"
+msgstr "αυτό το πεδίο περιγράφει τη συσκευή"
+
+#: harddrake2:45
+#, c-format
+msgid "Old device file"
+msgstr "Παλαιό όνομα της συσκευής"
+
+#: harddrake2:46
+#, c-format
+msgid "old static device name used in dev package"
+msgstr "παλαιό στατικό όνομα της συσκευής που χρησιμοποιείται στο πακέτο dev"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "Άρθρωμα"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr "το άρθρωμα (module) του πυρήνα GNU/Linux που διαχειρίζεται τη συσκευή"
+
+#: harddrake2:50
+#, c-format
+msgid "Extended partitions"
+msgstr "Εκτεταμένες κατατμήσεις"
+
+#: harddrake2:50
+#, c-format
+msgid "the number of extended partitions"
+msgstr "ο αριθμός των εκτεταμένων κατατμήσεων"
+
+#: harddrake2:51
+#, c-format
+msgid "Geometry"
+msgstr "Γεωμετρία"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr "Η γεωμετρία των κυλίνδρων/κεφαλών/τομέων του δίσκου"
+
+#: harddrake2:52
+#, c-format
+msgid "Disk controller"
+msgstr "Ελεγκτής δίσκου"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr "ο ελεγκτής δίσκου στην πλευρά του υπολογιστή"
+
+#: harddrake2:53
+#, c-format
+msgid "Identifier"
+msgstr "Αναγνωριστικό"
+
+#: harddrake2:53
+#, c-format
+msgid "usually the device serial number"
+msgstr "συνήθως ο σειραϊκός αριθμός"
+
+#: harddrake2:54
+#, c-format
+msgid "Media class"
+msgstr "Κλάση υλικού"
+
+#: harddrake2:54
+#, c-format
+msgid "class of hardware device"
+msgstr "η κλάση της συσκευής "
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "Μοντέλο"
+
+#: harddrake2:55
+#, c-format
+msgid "hard disk model"
+msgstr "το μοντέλο του σκληρού δίσκου"
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "θύρα του εκτυπωτή δικτύου"
+
+#: harddrake2:57
+#, c-format
+msgid "Primary partitions"
+msgstr "Κύριες κατατμήσεις"
+
+#: harddrake2:57
+#, c-format
+msgid "the number of the primary partitions"
+msgstr "ο αριθμός των κύριων κατατμήσεων"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "Κατασκευαστής"
+
+#: harddrake2:58
+#, c-format
+msgid "the vendor name of the device"
+msgstr "το όνομα του κατασκευαστή της συσκευής"
+
+#: harddrake2:59
+#, c-format
+msgid "PCI domain"
+msgstr "Τομέας PCI"
+
+#: harddrake2:59 harddrake2:60
+#, c-format
+msgid "the PCI domain of the device"
+msgstr "ο τομέας PCI της συσκευής"
+
+#: harddrake2:60
+#, c-format
+msgid "PCI revision"
+msgstr "Αναθεώρηση PCI"
+
+#: harddrake2:61
+#, c-format
+msgid "Bus PCI #"
+msgstr "Δίαυλος PCI #"
+
+#: harddrake2:61
+#, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "ο δίαυλος PCI στον οποίο είναι συνδεδεμένη η συσκευή"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device #"
+msgstr "Συσκευή PCI #"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device number"
+msgstr "ο αριθμός της συσκευής PCI"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function #"
+msgstr "Λειτουργία PCI #"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function number"
+msgstr "ο αριθμός της λειτουργίας PCI"
+
+#: harddrake2:64
+#, c-format
+msgid "Vendor ID"
+msgstr "Αναγνωριστικό κατασκευαστή"
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr "αυτό είναι το στάνταρ αριθμητικό αναγνωριστικό του κατασκευαστή"
+
+#: harddrake2:65
+#, c-format
+msgid "Device ID"
+msgstr "Αναγνωριστικό συσκευής"
+
+#: harddrake2:65
+#, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "αυτό είναι το αριθμητικό αναγνωριστικό της συσκευής"
+
+#: harddrake2:66
+#, c-format
+msgid "Sub vendor ID"
+msgstr "Αναγνωριστικό υπο-κατασκευαστή"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr "αυτό είναι το μικρό αριθμητικό αναγνωριστικό του κατασκευαστή"
+
+#: harddrake2:67
+#, c-format
+msgid "Sub device ID"
+msgstr "Αναγνωριστικό υπο-συσκευής"
+
+#: harddrake2:67
+#, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "αυτό είναι το μικρό αριθμητικό αναγνωριστικό της συσκευής"
+
+#: harddrake2:68
+#, c-format
+msgid "Device USB ID"
+msgstr "Αναγνωριστικό συσκευής USB"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomips"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+"ο πυρήνας GNU/Linux χρειάζεται να εκτελέσει ένα βρόγχο υπολογισμού κατά την "
+"εκκίνηση για την αρχικοποίηση ενός χρονομετρητή. Το αποτέλεσμα αποθηκεύεται "
+"σε μορφή bogomips για να χρησιμοποιηθεί ως μια αναφορά απόδοσης του "
+"επεξεργαστή."
+
+#: harddrake2:75
+#, c-format
+msgid "Cache size"
+msgstr "Μέγεθος λανθάνουσας μνήμης"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr "μέγεθος της (δευτέρου επιπέδου) λανθάνουσας μνήμης του επεξεργαστή"
+
+#: harddrake2:76
+#, c-format
+msgid "Cpuid family"
+msgstr "Οικογένεια cpuid"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr "οικογένεια του επεξεργαστή (π.χ. 6 για κλάση i686)"
+
+#: harddrake2:77
+#, c-format
+msgid "Cpuid level"
+msgstr "Επίπεδο cpuid"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr "επίπεδο πληροφοριών που μπορεί να αποκτηθεί μέσω της εντολής cpuid"
+
+#: harddrake2:78
+#, c-format
+msgid "Frequency (MHz)"
+msgstr "Συχνότητα (MHz)"
+
+#: harddrake2:78
+#, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr ""
+"η συχνότητα επεξεργαστή σε MHZ (Megahertz που σε πρώτη προσέγγιση μπορεί "
+"χοντρικά να συγκριθεί με τον αριθμό των εντολών που ο επεξεργαστής είναι σε "
+"θέση να εκτελέσει ανά δευτερόλεπτο)"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "Σημαίες"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr "Σημαίες του επεξεργαστή που αναφέρθηκαν από τον πυρήνα"
+
+#: harddrake2:80 harddrake2:148
+#, c-format
+msgid "Cores"
+msgstr "Πυρήνες"
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr "Πυρήνες επεξεργαστή"
+
+#: harddrake2:81
+#, c-format
+msgid "Core ID"
+msgstr "Αναγνωριστικό του πυρήνα"
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr "Φυσικό αναγνωριστικό"
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr "Αναγνωριστικό ACPI"
+
+#: harddrake2:84
+#, c-format
+msgid "Siblings"
+msgstr "Αδέρφια"
+
+#: harddrake2:85
+#, c-format
+msgid "sub generation of the cpu"
+msgstr "υπο γενιά του επεξεργαστή"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr "γενιά του επεξεργαστή (π.χ. 8 για Pentium III, ...)"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "Model name"
+msgstr "Όνομα μοντέλου"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr "το επίσημο όνομα κατασκευαστή του επεξεργαστή"
+
+#: harddrake2:89
+#, c-format
+msgid "the name of the CPU"
+msgstr "το όνομα του επεξεργαστή"
+
+#: harddrake2:90
+#, c-format
+msgid "Processor ID"
+msgstr "Αναγνωριστικό του επεξεργαστή"
+
+#: harddrake2:90
+#, c-format
+msgid "the number of the processor"
+msgstr "Ο αριθμός του επεξεργαστή"
+
+#: harddrake2:91
+#, c-format
+msgid "Model stepping"
+msgstr "Αριθμός μοντέλου"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr "αριθμός του υπό μοντέλου του επεξεργαστή (stepping)"
+
+#: harddrake2:92
+#, c-format
+msgid "the vendor name of the processor"
+msgstr "το όνομα του πωλητή του επεξεργαστή"
+
+#: harddrake2:93
+#, c-format
+msgid "Write protection"
+msgstr "Προστασία εγγραφής"
+
+#: harddrake2:93
+#, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr ""
+"η σημαία WP στο μητρώο CR0 του επεξεργαστή ενεργοποιεί την προστασία "
+"πρόσβασης εγγραφής στη μνήμη, και προστατεύει επίσης από σφάλματα του πυρήνα "
+"γράφοντας απευθείας στην μνήμη των διεργασιών χρηστών (bug guard)"
+
+#: harddrake2:97
+#, c-format
+msgid "Floppy format"
+msgstr "Μορφή δισκέτας"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr "τύπος δισκετών που υποστηρίζει ο οδηγός"
+
+#: harddrake2:101
+#, c-format
+msgid "EIDE/SCSI channel"
+msgstr "Κανάλι EIDE/SCSI"
+
+#: harddrake2:102
+#, c-format
+msgid "Disk identifier"
+msgstr "Αναγνωριστικό δίσκου"
+
+#: harddrake2:102
+#, c-format
+msgid "usually the disk serial number"
+msgstr "συνήθως ο σειραϊκός αριθμός του δίσκου"
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr "Αριθμός αναγνωριστικού του στόχου"
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr "το αναγνωριστικό του στόχου SCSI"
+
+#: harddrake2:104
+#, c-format
+msgid "Logical unit number"
+msgstr "Αριθμός λογικής μονάδας"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+"o αριθμός λογικής μονάδας SCSI (LUN). Οι συσκευές SCSI που είναι "
+"συνδεδεμένες σε έναν υπολογιστή είναι μοναδικά αναγνωρισμένες\n"
+"από έναν αριθμό καναλιού, ένα αναγνωριστικό στόχου και έναν αριθμό λογικής "
+"μονάδας"
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, c-format
+msgid "Installed size"
+msgstr "Εγκατεστημένο μέγεθος"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr "Εγκατεστημένο μέγεθος κάρτας μνήμης"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled Size"
+msgstr "Ενεργοποιημένο μέγεθος"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr "Ενεργοποιημένο μέγεθος της κάρτας μνήμης"
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "Τύπος"
+
+#: harddrake2:113
+#, c-format
+msgid "type of the memory device"
+msgstr "ο τύπος συστατικού στοιχείου της μνήμης"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed of the memory bank"
+msgstr "Ταχύτητα της κάρτας μνήμης"
+
+#: harddrake2:115
+#, c-format
+msgid "Bank connections"
+msgstr "Σύνδεση καρτών μνήμης"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr "Υποδοχέας της κάρτας μνήμης"
+
+#: harddrake2:118
+#, c-format
+msgid "Location"
+msgstr "Θέση"
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: harddrake2:119
+#, c-format
+msgid "Size of the memory device"
+msgstr "Το μέγεθος του συστατικού στοιχείου της μνήμης"
+
+#: harddrake2:124
+#, c-format
+msgid "Device file"
+msgstr "Αρχείο συσκευής"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr ""
+"το αρχείο της συσκευής που χρησιμοποιείται για να  επικοινωνήσει με τον "
+"οδηγό του πυρήνα για το ποντίκι "
+
+#: harddrake2:125
+#, c-format
+msgid "Emulated wheel"
+msgstr "Εξομοιωμένη ροδέλα ποντικιού"
+
+#: harddrake2:125
+#, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "αν η ροδέλα είναι εξομοιωμένη ή όχι"
+
+#: harddrake2:126
+#, c-format
+msgid "the type of the mouse"
+msgstr "ο τύπος του ποντικιού"
+
+#: harddrake2:127
+#, c-format
+msgid "the name of the mouse"
+msgstr "το όνομα του ποντικιού"
+
+#: harddrake2:128
+#, c-format
+msgid "Number of buttons"
+msgstr "Αριθμός κουμπιών"
+
+#: harddrake2:128
+#, c-format
+msgid "the number of buttons the mouse has"
+msgstr "Ο αριθμός των κουμπιών που διαθέτει το ποντίκι"
+
+#: harddrake2:129
+#, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "Ο τύπος του διαύλου στον οποίο είναι συνδεδεμένο το ποντίκι"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr "Το πρωτόκολλο του ποντικιού που χρησιμοποιείται από το X11"
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr ""
+"το πρωτόκολλο που χρησιμοποιείται από το γραφικό περιβάλλον εργασίας με το "
+"ποντίκι"
+
+#: harddrake2:134
+#, c-format
+msgid "Identification"
+msgstr "Ταυτοποίηση"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "Σύνδεση"
+
+#: harddrake2:149
+#, c-format
+msgid "Performances"
+msgstr "Επιδόσεις"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "Συσκευή"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "Κατατμήσεις"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "Χαρακτηριστικά"
+
+#: harddrake2:183
+#, c-format
+msgid "Autodetect _modems"
+msgstr "Αυτόματος εντοπισμός _μόντεμ"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr "Αυτόματος εντοπισμός παράλληλων οδηγών _zip"
+
+#: harddrake2:188
+#, c-format
+msgid "Hardware Configuration"
+msgstr "Ρύθμιση υλικού"
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "_Επιλογές"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: harddrake2:199
+#, c-format
+msgid "<control>H"
+msgstr "<control>H"
+
+#: harddrake2:200
+#, c-format
+msgid "_Fields description"
+msgstr "_Περιγραφή των πεδίων"
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "_Αναφορά σφάλματος"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "_Σχετικά με..."
+
+#: harddrake2:246
+#, c-format
+msgid "Detected hardware"
+msgstr "Υλικό που ανιχνεύθηκε"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Πληροφορίες"
+
+#: harddrake2:251
+#, c-format
+msgid "Set current driver options"
+msgstr "Καθορίστε τις επιλογές του τρέχοντος οδηγού "
+
+#: harddrake2:257
+#, c-format
+msgid "Run config tool"
+msgstr "Εκτέλεση του εργαλείου ρύθμισης"
+
+#: harddrake2:284
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr ""
+"Κάντε κλικ σε μια συσκευή στο αριστερό δέντρο ώστε να εμφανίσετε εδώ τις "
+"πληροφορίες της."
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "άγνωστο"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "Διάφορα"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "δευτερεύουσα"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "πρωτεύουσα"
+
+#: harddrake2:412
+#, c-format
+msgid "burner"
+msgstr "εγγραφέας"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Τα παρακάτω πακέτα χρειάζεται να εγκατασταθούν:\n"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "Αυτό είναι το HardDrake, ένα εργαλείο ρύθμισης των συσκευών της %s."
+
+#: harddrake2:543
+#, c-format
+msgid "Harddrake help"
+msgstr "Βοήθεια Harddrake"
+
+#: harddrake2:544
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Περιγραφή των πεδίων:\n"
+"\n"
+
+#: harddrake2:551
+#, c-format
+msgid "Select a device!"
+msgstr "Επιλέξτε μια συσκευή !"
+
+#: harddrake2:551
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Μόλις επιλέξετε μια συσκευή, θα μπορείτε να δείτε τις πληροφορίες στα πεδία "
+"που θα εμφανιστούν στο δεξί τμήμα («Πληροφορίες»)"
+
+#: localedrake:38
+#, c-format
+msgid "LocaleDrake"
+msgstr "LocaleDrake"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr "Θα πρέπει να εγκαταστήσετε τα ακόλουθα πακέτα : %s"
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr "Καταγραφές των εργαλείων της %s"
+
+#: logdrake:69
+#, c-format
+msgid "Show only for the selected day"
+msgstr "Εμφάνιση μόνο για την επιλεγμένη ημέρα"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr "Ταυτοποίηση"
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr "Χρήστης"
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr "Μηνύματα"
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr "Syslog"
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "αναζήτηση"
+
+#: logdrake:136
+#, c-format
+msgid "A tool to monitor your logs"
+msgstr "Ένα εργαλείο για να βλέπετε τις καταγραφές σας"
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "Ταιριάζει"
+
+#: logdrake:142
+#, c-format
+msgid "but not matching"
+msgstr "αλλά δεν ταιριάζει"
+
+#: logdrake:145
+#, c-format
+msgid "Choose file"
+msgstr "Επιλέξτε αρχείο"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "Ημερολόγιο"
+
+#: logdrake:166
+#, c-format
+msgid "Content of the file"
+msgstr "Περιεχόμενο του αρχείου"
+
+#: logdrake:170 logdrake:415
+#, c-format
+msgid "Mail alert"
+msgstr "Συναγερμός μέσω αλληλογραφίας"
+
+#: logdrake:177
+#, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "Ο οδηγός συναγερμών μέσω ηλ. αλληλογραφίας απέτυχε απρόσμενα :"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: logdrake:230
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "παρακαλώ περιμένετε, ανάλυση του αρχείου: %s"
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr "Δυστυχώς, το αρχείο καταγραφών δεν είναι διαθέσιμο !"
+
+#: logdrake:300
+#, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr "Σφάλμα κατά το άνοιγμα του αρχείου καταγραφών «%s» : %s\n"
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr "Εξυπηρετητής ιστού Apache"
+
+#: logdrake:394
+#, c-format
+msgid "Domain Name Resolver"
+msgstr "Αναλυτής του ονόματος τομέα"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "Εξυπηρετητής FTP"
+
+#: logdrake:396
+#, c-format
+msgid "Postfix Mail Server"
+msgstr "Εξυπηρετητής αλληλογραφίας Postfix"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "Εξυπηρετητής Samba"
+
+#: logdrake:398
+#, c-format
+msgid "SSH Server"
+msgstr "Εξυπηρετητής SSH"
+
+#: logdrake:399
+#, c-format
+msgid "Webmin Service"
+msgstr "Υπηρεσία Webmin"
+
+#: logdrake:400
+#, c-format
+msgid "Xinetd Service"
+msgstr "Υπηρεσία Xinetd"
+
+#: logdrake:409
+#, c-format
+msgid "Configure the mail alert system"
+msgstr "Ρύθμιση του συστήματος συναγερμών μέσω αλληλογραφίας"
+
+#: logdrake:410
+#, c-format
+msgid "Stop the mail alert system"
+msgstr "Τερματισμός του συστήματος συναγερμών μέσω αλληλογραφίας"
+
+#: logdrake:418
+#, c-format
+msgid "Mail alert configuration"
+msgstr "Ρύθμιση των συναγερμών μέσω αλληλογραφίας"
+
+#: logdrake:419
+#, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr ""
+"Καλώς ήλθατε στο εργαλείο ρύθμισης της αλληλογραφίας.\n"
+"\n"
+"Εδώ, θα μπορέσετε να ρυθμίσετε το σύστημα συναγερμών.\n"
+
+#: logdrake:422
+#, c-format
+msgid "What do you want to do?"
+msgstr "Τι θέλετε να κάνετε;"
+
+#: logdrake:429
+#, c-format
+msgid "Services settings"
+msgstr "Ρυθμίσεις υπηρεσιών"
+
+#: logdrake:430
+#, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr ""
+"Θα λάβετε μια ειδοποίηση εάν μια από τις επιλεγμένες υπηρεσίες πάψει να "
+"εκτελείται"
+
+#: logdrake:437
+#, c-format
+msgid "Load setting"
+msgstr "Φόρτωση ρυθμίσεων"
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr ""
+"Θα λάβετε μια ειδοποίηση εάν το φορτίο είναι υψηλότερο από αυτή την τιμή"
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr "Φορτίο"
+
+#: logdrake:444
+#, c-format
+msgid "Alert configuration"
+msgstr "Ρύθμιση συναγερμών"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr "Παρακαλώ εισάγετε τη διεύθυνση της ηλ. αλληλογραφίας σας"
+
+#: logdrake:446
+#, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr ""
+"και εισάγετε το όνομα (ή την διεύθυνση IP) του διακομιστή SMTP που "
+"επιθυμείτε να χρησιμοποιήσετε"
+
+#: logdrake:448
+#, c-format
+msgid "Email address"
+msgstr "Διεύθυνση ηλ. αλληλογραφίας"
+
+#: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "Εξυπηρετητής ηλ. αλληλογραφίας"
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr ""
+"«%s» δεν είναι ούτε μία έγκυρη διεύθυνση ηλ. αλληλογραφίας ούτε ένας τοπικός "
+"χρήστης!"
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+"«%s» είναι ένας τοπικός χρήστης, αλλά δεν έχετε επιλέξει έναν τοπικό "
+"εξυπηρετητή SMTP, άρα πρέπει να χρησιμοποιήσετε μια πλήρη διεύθυνση ηλ. "
+"αλληλογραφίας!"
+
+#: logdrake:465
+#, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr ""
+"Ο οδηγός ολοκλήρωσε με επιτυχία τη ρύθμιση συναγερμών μέσω αλληλογραφίας."
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr ""
+"Ο οδηγός απενεργοποίησε με επιτυχία τους συναγερμούς μέσω αλληλογραφίας."
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "Αποθήκευση ως..."
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr "Ρύθμιση οδηγού απεικόνισης"
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr "Έγινε αυτόματη εναλλαγή του οδηγού απεικόνισης σε «%s»."
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr "Αιτία: %s."
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+"Πρέπει να εγκατασταθούν τα πακέτα SANE για μπορέσετε να κάνετε χρήση των "
+"σαρωτών.\n"
+"\n"
+"Θέλετε να εγκαταστήσετε τα πακέτα SANE ;"
+
+#: scannerdrake:52
+#, c-format
+msgid "Aborting Scannerdrake."
+msgstr "Εγκατάλειψη του Scannerdrake."
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr ""
+"Αδύνατη η εγκατάσταση των απαραίτητων πακέτων για την ρύθμιση ενός σαρωτή με "
+"ScannerDrake."
+
+#: scannerdrake:58
+#, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "Το Sannerdrake δεν θα εκκινήσει τώρα αμέσως."
+
+#: scannerdrake:64 scannerdrake:502
+#, c-format
+msgid "Searching for configured scanners..."
+msgstr "Γίνεται αναζήτηση για ρυθμισμένους σαρωτές..."
+
+#: scannerdrake:68 scannerdrake:506
+#, c-format
+msgid "Searching for new scanners..."
+msgstr "Γίνεται αναζήτηση για νέους σαρωτές..."
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr "Επαναδημιουργία της λίστας με τους ρυθμισμένους σαρωτές..."
+
+#: scannerdrake:98
+#, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "Το %s δεν υποστηρίζεται από αυτή την έκδοση του %s."
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr "Επιβεβαίωση"
+
+#: scannerdrake:101
+#, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "Το %s βρέθηκε στο %s, να ρυθμιστεί αυτόματα;"
+
+#: scannerdrake:113
+#, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr ""
+"το %s δεν είναι στη βάση δεδομένων των σαρωτών, να ρυθμιστεί χειροκίνητα;"
+
+#: scannerdrake:127
+#, c-format
+msgid "Scanner configuration"
+msgstr "Ρύθμιση σαρωτών"
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr "Επιλέξτε ένα μοντέλο σαρωτή (Εντοπίστηκε το μοντέλο : %s, θύρα : %s)"
+
+#: scannerdrake:130
+#, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr "Επιλέξτε ένα μοντέλο σαρωτή (Εντοπίστηκε το μοντέλο: %s)"
+
+#: scannerdrake:131
+#, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr "Επιλέξτε ένα μοντέλο σαρωτή (Θύρα: %s)"
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr " (ΔΕΝ ΥΠΟΣΤΗΡΙΖΕΤΑΙ)"
+
+#: scannerdrake:139
+#, c-format
+msgid "The %s is not supported under Linux."
+msgstr "Το %s δεν υποστηρίζεται από το Linux."
+
+#: scannerdrake:166 scannerdrake:180
+#, c-format
+msgid "Do not install firmware file"
+msgstr "Να μην εγκατασταθεί το αρχείο υλικολογισμικού (firmware)"
+
+#: scannerdrake:169 scannerdrake:219
+#, c-format
+msgid "Scanner Firmware"
+msgstr "Υλικολογισμικό σαρωτή"
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr ""
+"Ίσως το %s απαιτεί να φορτώνεται το υλικολογισμικό του κάθε φορά που το "
+"θέτετε σε λειτουργία."
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr "Σε αυτή την περίπτωση, αυτό μπορεί να γίνεται αυτόματα."
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+"Για να γίνει αυτό, πρέπει να έχετε το υλικολογισμικό του σαρωτή σας ώστε να "
+"το εγκαταστήσετε."
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+"Θα βρείτε το αρχείο στο CD ή τη δισκέτα που παρέχεται με το σαρωτή, στην "
+"ιστοσελίδα του κατασκευαστή ή στην κατάτμησή σας των Windows."
+
+#: scannerdrake:175 scannerdrake:234
+#, c-format
+msgid "Install firmware file from"
+msgstr "Εγκατάσταση αρχείου υλικολογισμικού από"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, c-format
+msgid "Floppy Disk"
+msgstr "Δισκέτα"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, c-format
+msgid "Other place"
+msgstr "Άλλη τοποθεσία"
+
+#: scannerdrake:195
+#, c-format
+msgid "Select firmware file"
+msgstr "Επιλέξτε ένα αρχείο υλικολογισμικού"
+
+#: scannerdrake:198 scannerdrake:257
+#, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr "Το αρχείο υλικολογισμικού %s δεν υπάρχει ή δεν είναι αναγνώσιμο!"
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr ""
+"Είναι πιθανό οι σαρωτές σας να χρειάζονται το υλικολογισμικό τους να "
+"φορτώνεται κάθε φορά που τους θέτετε σε λειτουργία."
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+"Για να γίνει αυτό, πρέπει να έχετε τα αρχεία υλικολογισμικού των σαρωτών σας "
+"ώστε να τα εγκαταστήσετε."
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+"Εάν έχετε ήδη εγκαταστήσει το υλικολογισμικό του σαρωτή σας μπορείτε να το "
+"αναβαθμίσετε εδώ εφόσον έχετε την νέα έκδοση του υλικολογισμικού."
+
+#: scannerdrake:230
+#, c-format
+msgid "Install firmware for the"
+msgstr "Εγκατάσταση υλικολογισμικού για το"
+
+#: scannerdrake:253
+#, c-format
+msgid "Select firmware file for the %s"
+msgstr "Επιλέξτε αρχείο υλικολογισμικού για το %s"
+
+#: scannerdrake:271
+#, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "Αδύνατη η εγκατάσταση του αρχείου υλικολογισμικού για το %s !"
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr "Το αρχείο υλικολογισμικού για το %s εγκαταστάθηκε με επιτυχία."
+
+#: scannerdrake:294
+#, c-format
+msgid "The %s is unsupported"
+msgstr "Το %s δεν υποστηρίζεται"
+
+#: scannerdrake:299
+#, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr ""
+"Το %s πρέπει να ρυθμιστεί από το system-config-printer.\n"
+"Μπορείτε να εκκινήσετε το system-config-printer από το κέντρο ελέγχου %s "
+"στην ενότητα Υλικό."
+
+#: scannerdrake:317
+#, c-format
+msgid "Setting up kernel modules..."
+msgstr "Ρύθμιση αρθρωμάτων πυρήνα..."
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, c-format
+msgid "Auto-detect available ports"
+msgstr "Αυτόματος εντοπισμός των διαθέσιμων θυρών"
+
+#: scannerdrake:328 scannerdrake:374
+#, c-format
+msgid "Device choice"
+msgstr "Επιλογή συσκευής"
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr "Παρακαλώ επιλέξτε την συσκευή στην οποία το %s είναι συνδεδεμένο"
+
+#: scannerdrake:330
+#, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr ""
+"(Σημείωση: Δεν μπορεί να γίνει αυτόματος εντοπισμός των παράλληλων θυρών)"
+
+#: scannerdrake:332 scannerdrake:377
+#, c-format
+msgid "choose device"
+msgstr "επιλέξτε τη συσκευή"
+
+#: scannerdrake:366
+#, c-format
+msgid "Searching for scanners..."
+msgstr "Γίνεται αναζήτηση για σαρωτές..."
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr "Προσοχή!"
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+"Το %s δεν μπορεί να ρυθμιστεί πλήρως αυτόματα.\n"
+"\n"
+"Είναι απαραίτητο να κάνετε κάποιες ρυθμίσεις χειροκίνητα. Παρακαλώ "
+"επεξεργαστείτε το αρχείο /etc/sane.d/%s.conf."
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+"Περισσότερες πληροφορίες στη σελίδα τεκμηρίωσης του οδηγού. Εκτελέστε την "
+"εντολή «man sane- %s» για να τη διαβάσετε."
+
+#: scannerdrake:406 scannerdrake:415
+#, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Έπειτα μπορείτε να σαρώσετε έγγραφα με το «XSane» ή το «%s» από το μενού "
+"Εφαρμογές -> Γραφικά."
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr ""
+"Το %s ρυθμίστηκε, αλλά είναι πιθανό κάποιες πρόσθετες ρυθμίσεις να πρέπει να "
+"γίνουν χειροκίνητα για την σωστή λειτουργία του."
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+"Εάν δεν φαίνεται στην λίστα με τους ρυθμισμένους σαρωτές στο κεντρικό "
+"παράθυρο του Scannerdrake ή αν δεν λειτουργεί σωστά, "
+
+#: scannerdrake:412
+#, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr "επεξεργαστείτε το αρχείο ρυθμίσεων /etc/sane.d/%s.conf. "
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "Συγχαρητήρια !"
+
+#: scannerdrake:418
+#, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Το %s έχει ρυθμιστεί. \n"
+"Μπορείτε τώρα να σαρώσετε έγγραφα με το «XSane» ή το «%s» από το μενού "
+"Εφαρμογές -> Γραφικά."
+
+#: scannerdrake:443
+#, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr ""
+"Οι παρακάτω σαρωτές\n"
+"\n"
+"%s\n"
+"είναι διαθέσιμοι στο σύστημά σας.\n"
+
+#: scannerdrake:444
+#, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr ""
+"Ο παρακάτω σαρωτής\n"
+"\n"
+"%s\n"
+"είναι διαθέσιμος στο σύστημά σας.\n"
+
+#: scannerdrake:446 scannerdrake:449
+#, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "Δεν βρέθηκαν διαθέσιμοι σαρωτές στο σύστημά σας.\n"
+
+#: scannerdrake:457
+#, c-format
+msgid "Scanner Management"
+msgstr "Διαχείριση σαρωτών"
+
+#: scannerdrake:463
+#, c-format
+msgid "Search for new scanners"
+msgstr "Αναζήτηση για νέους σαρωτές"
+
+#: scannerdrake:469
+#, c-format
+msgid "Add a scanner manually"
+msgstr "Προσθήκη σαρωτή χειροκίνητα"
+
+#: scannerdrake:476
+#, c-format
+msgid "Install/Update firmware files"
+msgstr "Εγκατάσταση/ενημέρωση αρχείων υλικολογισμικού"
+
+#: scannerdrake:482
+#, c-format
+msgid "Scanner sharing"
+msgstr "Κοινή χρήση σαρωτή"
+
+#: scannerdrake:541 scannerdrake:706
+#, c-format
+msgid "All remote machines"
+msgstr "Όλα τα απομακρυσμένα μηχανήματα"
+
+#: scannerdrake:553 scannerdrake:856
+#, c-format
+msgid "This machine"
+msgstr "Αυτό το μηχάνημα"
+
+#: scannerdrake:592
+#, c-format
+msgid "Scanner Sharing"
+msgstr "Κοινή χρήση σαρωτή"
+
+#: scannerdrake:593
+#, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr ""
+"Εδώ μπορείτε να επιλέξετε αν οι συνδεδεμένοι σαρωτές αυτού το μηχανήματος θα "
+"είναι προσβάσιμοι από απομακρυσμένα μηχανήματα και από ποια."
+
+#: scannerdrake:594
+#, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr ""
+"Επίσης εδώ μπορείτε να ορίσετε αν σαρωτές που βρίσκονται σε απομακρυσμένα "
+"μηχανήματα θα είναι διαθέσιμα σε αυτό το μηχάνημα."
+
+#: scannerdrake:597
+#, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr ""
+"Οι σαρωτές αυτού του μηχανήματος είναι διαθέσιμοι σε άλλους υπολογιστές"
+
+#: scannerdrake:599
+#, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "Κοινόχρηστοι σαρωτές στους υπολογιστές: "
+
+#: scannerdrake:604 scannerdrake:621
+#, c-format
+msgid "No remote machines"
+msgstr "Κανένας απομακρυσμένος υπολογιστής"
+
+#: scannerdrake:613
+#, c-format
+msgid "Use scanners on remote computers"
+msgstr "Χρήση σαρωτών σε απομακρυσμένους υπολογιστές"
+
+#: scannerdrake:616
+#, c-format
+msgid "Use the scanners on hosts: "
+msgstr "Χρήση των σαρωτών στους υπολογιστές: "
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, c-format
+msgid "Sharing of local scanners"
+msgstr "Κοινή χρήση τοπικών σαρωτών"
+
+#: scannerdrake:644
+#, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr ""
+"Αυτά είναι τα μηχανήματα όπου οι τοπικά συνδεδεμένοι σαρωτές θα είναι "
+"διαθέσιμοι:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "Προσθήκη υπολογιστή"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "Επεξεργασία επιλεγμένου υπολογιστή"
+
+#: scannerdrake:670 scannerdrake:820
+#, c-format
+msgid "Remove selected host"
+msgstr "Αφαίρεση επιλεγμένου υπολογιστή"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "Έγινε"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, c-format
+msgid "Name/IP address of host:"
+msgstr "Όνομα/IP διεύθυνση του υπολογιστή:"
+
+#: scannerdrake:716 scannerdrake:866
+#, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr ""
+"Επιλέξτε τον υπολογιστή του οποίου οι τοπικοί σαρωτές θα είναι διαθέσιμοι:"
+
+#: scannerdrake:727 scannerdrake:877
+#, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "Πρέπει να ορίστε το όνομα υπολογιστή ή τη διεύθυνση IP.\n"
+
+#: scannerdrake:738 scannerdrake:888
+#, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr ""
+"Ο υπολογιστής είναι ήδη στη λίστα, δεν μπορείτε να τον προσθέσετε ξανά.\n"
+
+#: scannerdrake:793
+#, c-format
+msgid "Usage of remote scanners"
+msgstr "Χρήση των απομακρυσμένων σαρωτών"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr ""
+"Αυτά είναι τα μηχανήματα από όπου οι τοπικοί σαρωτές θα είναι διαθέσιμοι:"
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+"Το πακέτο saned χρειάζεται να εγκατασταθεί για την κοινή χρήση των τοπικών "
+"σαρωτών.\n"
+"\n"
+"Θέλετε να εγκαταστήσετε το πακέτο saned ;"
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr "Οι σαρωτές σας δεν θα είναι διαθέσιμοι στο δίκτυο."
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"Αδύνατη η εγκατάσταση των απαραίτητων πακέτων για την κοινή χρήση των "
+"σαρωτών σας."
+
+#: service_harddrake:157
+#, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr "Η κάρτα γραφικών «%s» δεν υποστηρίζεται πια από τον οδηγό «%s»"
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr "Νέα έκδοση, επαναρύθμιση του X για τη %s"
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr "Δεν βρέθηκε ο ιδιόκτητος οδηγός πυρήνα για τον οδηγό X.org «%s»"
+
+#: service_harddrake:297
+#, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr "Ορισμένες συσκευές που εμφανίζονται στην κλάση «%s» αφαιρέθηκαν:\n"
+
+#: service_harddrake:298
+#, c-format
+msgid "- %s was removed\n"
+msgstr "- %s αφαιρέθηκε\n"
+
+#: service_harddrake:301
+#, c-format
+msgid "Some devices were added: %s\n"
+msgstr "Ορισμένες συσκευές προστέθηκαν: %s\n"
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- %s προστέθηκε\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr "Τροποποίηση υλικού στην κλάση «%s» (%s δευτερόλεπτα για απάντηση)"
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "Θέλετε να εκτελέσετε το κατάλληλο εργαλείο ρύθμισης ;"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "Εντοπισμός υλικού σε εξέλιξη"
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr "Πρόβλημα με τον οδηγό απεικόνισης"
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+"Ο οδηγός απεικόνισης που έχει ρυθμιστεί απαιτεί να χρησιμοποιήσετε την "
+"επιλογή εκκίνησης «nokmsboot»  για την αποτροπή φόρτωσης του οδηγού KMS του "
+"πυρήνα κατά την εκκίνηση. Η εκκίνηση του εξυπηρετητή X μπορεί τώρα να "
+"αποτύχει αφού αυτή η επιλογή δεν έχει καθοριστεί."
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+"Εντοπίστηκε ένα φορτωμένο άρθρωμα πυρήνα οδηγού απεικόνισης το οποίο "
+"συγκρούεται με τον οδηγό που έχει ρυθμιστεί να χρησιμοποιεί ο εξυπηρετητής "
+"X. Η εκκίνηση του εξυπηρετητή X μπορεί τώρα να αποτύχει."
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr ""
+"Θα πρέπει να κάνετε επανεκκίνηση του συστήματος λόγω μιας αλλαγής στον οδηγό "
+"απεικόνισης."
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr "Πατήστε Ακύρωση  σε %d δευτερόλεπτα για να εγκαταλείψετε."
+
+#: ../menu/harddrake.desktop.in.h:1
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr "Εργαλείο ρυθμίσεων και πληροφοριών υλικού"
+
+#: ../menu/harddrake.desktop.in.h:3
+msgid "Hardware Configuration Tool"
+msgstr "Εργαλείο ρυθμίσεων υλικού"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Ρυθμίσεις τοπικότητας του συστήματος"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Ρύθμιση της γλώσσας και της χώρας του συστήματος"
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr "Ρυθμίσεις τοπικότητας"
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr "Ρύθμιση της γλώσσας και της χώρας"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+msgid "Run Mageia Authentication Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Πιστοποίησης Mageia"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Πιστοποίησης Mageia"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+msgid "Run Mageia Boot Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Εκκίνησης Mageia"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Εκκίνησης Mageia"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+msgid "Run Mageia Date and Time Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Ημερομηνίας και Ώρας Mageia"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Ημερομηνίας και Ώρας "
+"Mageia"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr "Εκτέλεση του Επεξεργαστή Διάταξης Δίσκων Mageia"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση του Επεξεργαστή Διάταξης Δίσκων "
+"Mageia"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+msgid "Run Mageia Login Manager Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης του Διαχειριστή Σύνδεσης Mageia"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης του Διαχειριστή "
+"Σύνδεσης Mageia"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+msgid "Run Mageia Font Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Γραμματοσειρών Mageia"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Γραμματοσειρών Mageia"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+msgid "Run Mageia Hardware Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Υλικού Mageia"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υλικού Mageia"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr "Εκτέλεση του Προβολέα Καταγραφών Mageia"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr "Απαιτείται πιστοποίηση για την εκτέλεση του Προβολέα Καταγραφών Mageia"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+msgid "Run Mageia Security Permissions Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Αδειών Ασφαλείας Mageia"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Αδειών Ασφαλείας "
+"Mageia"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+msgid "Run Mageia Scanner Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Σαρωτή Mageia"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Σαρωτή Mageia"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+msgid "Run Mageia Application Security Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Ασφαλείας Εφαρμογών Mageia"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Ασφαλείας Εφαρμογών "
+"Mageia"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+msgid "Run Mageia UPS Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης UPS Mageia"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης UPS Mageia"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+msgid "Run Mageia Service Configuration"
+msgstr "Εκτέλεση της Διαμόρφωσης Υπηρεσιών Mageia"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υπηρεσιών Mageia"
+
+#~ msgid "Text only"
+#~ msgstr "Μόνο κείμενο"
+
+#~ msgid "Silent"
+#~ msgstr "Μόνο Γραφικό"
+
+#~ msgid ""
+#~ "Your system bootloader is not in framebuffer mode. To activate graphical "
+#~ "boot, select a graphic video mode from the bootloader configuration tool."
+#~ msgstr ""
+#~ "Το πρόγραμμα εκκίνησης δεν είναι σε κατάσταση «frame buffer». Για να "
+#~ "ενεργοποιήσετε την εκκίνηση με γραφικό θέμα, επιλέξτε ένα με το εργαλείο "
+#~ "ρύθμισης εκκίνησης."
+
+#~ msgid "Do you want to configure it now?"
+#~ msgstr "Θέλετε να το ρυθμίσετε τώρα ;"
+
+#~ msgid "Install themes"
+#~ msgstr "Εγκατάσταση θεμάτων"
+
+#~ msgid "Graphical boot theme selection"
+#~ msgstr "Επιλογή γραφικού θέματος εκκίνησης"
+
+#~ msgid "Graphical boot mode:"
+#~ msgstr "Γραφικό θέμα εκκίνησης :"
+
+#~ msgid "Theme"
+#~ msgstr "Θέμα"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Ρύθμιση του στυλ εκκίνησης"
+
+#~ msgid "Video mode"
+#~ msgstr "Ανάλυση οθόνης"
+
+#~ msgid ""
+#~ "Please choose a video mode, it will be applied to each of the boot "
+#~ "entries selected below.\n"
+#~ "Be sure your video card supports the mode you choose."
+#~ msgstr ""
+#~ "Παρακαλώ επιλέξτε μία ανάλυση γραφικών, θα εφαρμόζεται σε κάθε καταχώρηση "
+#~ "εκκίνησης απο τις παρακάτω επιλογές.\n"
+#~ "Σιγουρευτείτε πως η κάρτα γραφικών σας υποστηρίζει την ανάλυση που θα "
+#~ "επιλέξτε."
+
+#~ msgid "Finishing install"
+#~ msgstr "Ολοκλήρωση εγκατάστασης"
+
+#~ msgid ""
+#~ "This system will be rebooted\n"
+#~ "for the changes to take effect!"
+#~ msgstr ""
+#~ "Θα γίνει επανεκκίνηση του συστήματος\n"
+#~ "για να ληφθούν υπόψη οι αλλαγές!"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "Note: if you've an ISA PnP sound card, you'll have to use the alsaconf or "
+#~ "the sndconfig program.  Just type \"alsaconf\" or \"sndconfig\" in a "
+#~ "console."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "Σημείωση: Αν έχετε μια κάρτα ήχου ISA PnP, θα πρέπει να εκτελέσετε το "
+#~ "πρόγραμμα alsaconf ή sndconfig. Απλά πληκτρολογείστε «alsaconf» ή "
+#~ "«sndconfig» σε μια κονσόλα."
+
+#~ msgid "File/_Quit"
+#~ msgstr "Αρχείο/Έ_ξοδος"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "Αυτόματος εντοπισμός _οδηγών jaz"
+
+#~ msgid "File/_New"
+#~ msgstr "Αρχείο/_Νέο"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "File/_Open"
+#~ msgstr "Αρχείο/Ά_νοιγμα"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "File/_Save"
+#~ msgstr "Αρχείο/Απο_θήκευση"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Αρχείο/Αποθήκευση _Ως"
+
+#~ msgid "File/-"
+#~ msgstr "Αρχείο/-"
+
+#~ msgid "Options/Test"
+#~ msgstr "Επιλογές/Δοκιμή"
+
+#~ msgid "Help/_About..."
+#~ msgstr "Βοήθεια/_Σχετικά με..."
+
+#~ msgid "Verbose"
+#~ msgstr "Γραφικό με κείμενο"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "Αυτόματος εντοπισμός _εκτυπωτών"
+
+#~ msgid "Its GDB trace is:"
+#~ msgstr "Το ίχνος GDB είναι :"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid ""
+#~ "The proprietary driver for your graphic card cannot be found, the system "
+#~ "is now using the free software driver (%s)."
+#~ msgstr ""
+#~ "Ο ιδιόκτητος οδηγός για την κάρτα γραφικών σας δεν βρέθηκε, το σύστημα "
+#~ "χρησιμοποιεί τώρα τον ανοιχτού κώδικα οδηγό (%s)."

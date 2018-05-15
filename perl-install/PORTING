@@ -1,0 +1,4 @@
+This file list the API changes done in mageia:
+
+The function  mandrake_release_info()  is now called mageia_release_info().
+The function  mandrake_release  is now called mageia_release().

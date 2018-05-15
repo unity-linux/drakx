@@ -1,0 +1,64 @@
+#!/bin/sh
+
+[ $# -lt 1 ] && { 
+    echo "usage: make_partimage_save_rest_all <partimage server> [<partimage dir> <data dirs>]" ; 
+    exit 1
+}
+
+server=$1 ; shift
+partimage_dir=$1 ; shift
+data_dir=$1 ; shift
+
+if [ -n "$partimage_dir" ]; then
+    first_data_dir="$partimage_dir$data_dir"
+
+    [ -d "$first_data_dir" ] || {
+	echo "can't find $first_data_dir"
+	exit 1
+    }
+    [ -r "$first_data_dir/lst" ] || {
+	echo "can't read $first_data_dir/*"
+	exit 1
+    }
+fi
+
+rm -rf .tmp
+mkdir -p .tmp/isolinux
+cp -f /usr/lib/syslinux/isolinux.bin ../images/isolinux/alt0/* .tmp/isolinux
+
+DISTRIB_DESCR="partimage save/restore all" ./make_rescue_img || exit 1
+mkdir -p .tmp/install/stage2
+mv -f rescue.sqfs .tmp/install/stage2
+
+common_para="rescue automatic=method:cdrom"
+# hda=4864,255,63 acpi=ht
+
+for action in save_all rest_all; do
+
+    cat <<EOF > .tmp/isolinux/isolinux.cfg
+default $action
+prompt 1
+timeout 150
+
+label save_all
+  kernel vmlinuz
+  append initrd=all.rdz $common_para save_all pserver=$server
+label rest_all
+  kernel vmlinuz
+  append initrd=all.rdz $common_para rest_all keepmounted BOX=$data_dir pserver=$server
+label rescue
+  kernel vmlinuz
+  append initrd=all.rdz $common_para
+EOF
+
+    if [ $action = rest_all -a -n "$partimage_dir" ]; then
+	dir=`dirname $data_dir`
+	mkdir -p .tmp$dir
+	ln -s $partimage_dir$data_dir .tmp$dir
+    fi
+
+    genisoimage -f -o part_$action.iso -r -J -hide-rr-moved -nobak -cache-inodes -publisher Mageia -V 'part save/rest' -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table .tmp    
+    mkcd --addmd5 part_$action.iso
+done
+ 
+rm -rf .tmp

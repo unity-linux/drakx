@@ -1,0 +1,20 @@
+[Unit]
+Description=Mageia Rescue
+DefaultDependencies=no
+Conflicts=shutdown.target
+After=sysinit.target plymouth-start.service
+Before=shutdown.target
+
+[Service]
+Environment=HOME=/
+WorkingDirectory=/
+ExecStartPre=-/bin/plymouth quit
+ExecStart=/usr/bin/mageia-rescue
+ExecStopPost=-/usr/bin/systemctl --fail --no-block reboot
+Type=idle
+StandardInput=tty-force
+StandardOutput=inherit
+StandardError=inherit
+KillMode=process
+IgnoreSIGPIPE=no
+SendSIGHUP=yes

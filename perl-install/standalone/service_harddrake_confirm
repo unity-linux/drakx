@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+use lib qw(/usr/lib/libDrakX);
+use common;
+use interactive;
+
+my $in = interactive->vnew;
+my $res;
+
+if ($ARGV[0] eq "warn") {
+    $res = $in->ask_warn($ARGV[1], $ARGV[2]);
+} elsif ($ARGV[0] eq "yesorno") {
+    $res = $in->ask_yesorno($ARGV[1], $ARGV[2], 1);
+} elsif ($ARGV[0] eq "okcancel") {
+    $res = $in->ask_okcancel($ARGV[1], $ARGV[2], 1);
+}
+
+$in->exit($res);

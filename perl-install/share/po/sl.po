@@ -1,0 +1,6979 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Aljoša Ločičnik <aljosa.locicnik@mandrakeprinas.org>, 2005
+# Filip Komar <filip.komar@gmail.com>, 2011-2017
+# Gregor Pirnaver <gregor.pirnaver@sdm-si.org>, 2002,2004-2005
+# Jure Repinc <jlp@holodeck1.com>, 2005-2010
+# Matej Štrovs <matej.strovs@gmail.com>, 2006
+# Matjaž Kaše <matjaz.kase@g-kabel.si>, 2004
+# Matjaž Kaše <matjaz.kase@telemach.net>, 2006
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-12-12 23:00+0100\n"
+"PO-Revision-Date: 2017-04-15 20:07+0000\n"
+"Last-Translator: Filip Komar <filip.komar@gmail.com>\n"
+"Language-Team: Slovenian (http://www.transifex.com/MageiaLinux/mageia/"
+"language/sl/)\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+
+#: any.pm:263 any.pm:1026 diskdrake/interactive.pm:650
+#: diskdrake/interactive.pm:874 diskdrake/interactive.pm:936
+#: diskdrake/interactive.pm:1028 diskdrake/interactive.pm:1055
+#: diskdrake/interactive.pm:1286 diskdrake/interactive.pm:1344 do_pkgs.pm:342
+#: do_pkgs.pm:387 interactive.pm:712 pkgs.pm:293
+#, c-format
+msgid "Please wait"
+msgstr "Počakajte ..."
+
+#: any.pm:263
+#, c-format
+msgid "Bootloader installation in progress"
+msgstr "Poteka nameščanje zagonskega nalagalnika."
+
+#: any.pm:274
+#, c-format
+msgid ""
+"LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+"the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+"error.\n"
+"This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+"\n"
+"Assign a new Volume ID?"
+msgstr ""
+"LILO želi nastaviti nov ID enoti pogona %s. Vendar je preminjanje ID enote "
+"zagonskega diska za Windows NT, 2000 ali XP za Windows usodna napaka.\n"
+"To opozorilo ne velja za Windows 95 ali 98, oz. podatkovne diske NT.\n"
+"\n"
+"Nastavim nov ID enoti?"
+
+#: any.pm:285
+#, c-format
+msgid "Installation of bootloader failed. The following error occurred:"
+msgstr ""
+"Namestitev zagonskega nalagalnika ni uspela. Prišlo je do naslednje napake:"
+
+#: any.pm:325
+#, c-format
+msgid ""
+"You decided to install the bootloader on a partition.\n"
+"This implies you already have a bootloader on the hard disk drive you boot "
+"(eg: System Commander).\n"
+"\n"
+"On which drive are you booting?"
+msgstr ""
+"Odločili ste se za namestitev zagonskega nalagalnika na razdelek.\n"
+"Torej imate na trdem disku že nameščen zagonski nalagalnik.\n"
+"\n"
+"Kako se zaganja vaš računalnik?"
+
+#: any.pm:336
+#, c-format
+msgid "Bootloader Installation"
+msgstr "Namestitev zagonskega nalagalnika"
+
+#: any.pm:340
+#, c-format
+msgid "Where do you want to install the bootloader?"
+msgstr "Kam želite namestiti zagonski nalagalnik?"
+
+#: any.pm:356
+#, c-format
+msgid "First sector (MBR) of drive %s"
+msgstr "Na prvi sektor (MBR) pogona %s"
+
+#: any.pm:358
+#, c-format
+msgid "First sector of drive (MBR)"
+msgstr "Na prvi sektor (MBR) pogona"
+
+#: any.pm:360
+#, c-format
+msgid "First sector of the root partition"
+msgstr "Na prvi sektor korenskega razdelka"
+
+#: any.pm:362
+#, c-format
+msgid "On Floppy"
+msgstr "Na zagonsko disketo"
+
+#: any.pm:364 pkgs.pm:289 ugtk2.pm:526 ugtk3.pm:600
+#, c-format
+msgid "Skip"
+msgstr "Preskoči"
+
+#: any.pm:392
+#, c-format
+msgid "Boot Style Configuration"
+msgstr "Nastavitev zagonskega stila"
+
+#: any.pm:396
+#, c-format
+msgid "EFI System Partition"
+msgstr "sistemski razdelek EFI"
+
+#: any.pm:411
+#, c-format
+msgid "Bootloader main options"
+msgstr "Glavne možnosti zagonskega nalagalnika"
+
+#: any.pm:415
+#, c-format
+msgid "Bootloader"
+msgstr "Zagonski nalagalnik"
+
+#: any.pm:416
+#, c-format
+msgid "Bootloader to use"
+msgstr "Kateri zagonski nalagalnik želite uporabiti?"
+
+#: any.pm:418
+#, c-format
+msgid "Boot device"
+msgstr "Zagonska naprava"
+
+#: any.pm:420
+#, c-format
+msgid "Main options"
+msgstr "Glavne nastavitve"
+
+#: any.pm:421
+#, c-format
+msgid "Delay before booting default image"
+msgstr "Premor pred zaganjanjem privzete slike"
+
+#: any.pm:422
+#, c-format
+msgid "Enable ACPI"
+msgstr "Omogoči ACPI"
+
+#: any.pm:423
+#, c-format
+msgid "Enable SMP"
+msgstr "Omogoči SMP"
+
+#: any.pm:424
+#, c-format
+msgid "Enable APIC"
+msgstr "Omogoči APIC"
+
+#: any.pm:426
+#, c-format
+msgid "Enable Local APIC"
+msgstr "Omogoči krajevni APIC"
+
+#: any.pm:427 security/level.pm:63
+#, c-format
+msgid "Security"
+msgstr "Varnost"
+
+#: any.pm:428 any.pm:950 any.pm:969 authentication.pm:249
+#: diskdrake/smbnfs_gtk.pm:181
+#, c-format
+msgid "Password"
+msgstr "Geslo"
+
+#: any.pm:431 authentication.pm:260
+#, c-format
+msgid "The passwords do not match"
+msgstr "Gesli se ne ujemata."
+
+#: any.pm:431 authentication.pm:260 diskdrake/interactive.pm:1513
+#, c-format
+msgid "Please try again"
+msgstr "Poskusite znova"
+
+#: any.pm:433
+#, c-format
+msgid "You cannot use a password with %s"
+msgstr "Za %s ne morete uporabiti gesla"
+
+#: any.pm:437 any.pm:953 any.pm:971 authentication.pm:250
+#, c-format
+msgid "Password (again)"
+msgstr "Geslo (ponovno)"
+
+#: any.pm:502
+#, c-format
+msgid "Image"
+msgstr "Slika"
+
+#: any.pm:503 any.pm:515
+#, c-format
+msgid "Root"
+msgstr "Korenski razdelek"
+
+#: any.pm:504 any.pm:642
+#, c-format
+msgid "Append"
+msgstr "Pripni"
+
+#: any.pm:506
+#, c-format
+msgid "Xen append"
+msgstr "Pripni za Xen"
+
+#: any.pm:508
+#, c-format
+msgid "Requires password to boot"
+msgstr "Za zagon potrebuje geslo"
+
+#: any.pm:509 any.pm:643
+#, c-format
+msgid "Video mode"
+msgstr "Grafični način"
+
+#: any.pm:510
+#, c-format
+msgid "Initrd"
+msgstr "Initrd"
+
+#: any.pm:511
+#, c-format
+msgid "Network profile"
+msgstr "Omrežni profil"
+
+#: any.pm:519 diskdrake/interactive.pm:411
+#, c-format
+msgid "Label"
+msgstr "Oznaka"
+
+#: any.pm:521 any.pm:640 harddrake/v4l.pm:438
+#, c-format
+msgid "Default"
+msgstr "Privzeto"
+
+#: any.pm:529
+#, c-format
+msgid "Empty label not allowed"
+msgstr "Oznaka ne sme biti prazna"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a kernel image"
+msgstr "Določiti morate sliko jedra."
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a root partition"
+msgstr "Določiti morate korenski razdelek."
+
+#: any.pm:531
+#, c-format
+msgid "This label is already used"
+msgstr "Ta oznaka je že uporabljena."
+
+#: any.pm:549
+#, c-format
+msgid "Which type of entry do you want to add?"
+msgstr "Kakšno vrsto vnosa želite dodati?"
+
+#: any.pm:550
+#, c-format
+msgid "Linux"
+msgstr "Linux"
+
+#: any.pm:550
+#, c-format
+msgid "Other OS (Windows...)"
+msgstr "Drug OS (Windows …)"
+
+#: any.pm:597 any.pm:636
+#, c-format
+msgid "Bootloader Configuration"
+msgstr "Nastavitev zagonskega nalagalnika"
+
+#: any.pm:598
+#, c-format
+msgid ""
+"Here are the entries on your boot menu so far.\n"
+"You can create additional entries or change the existing ones."
+msgstr ""
+"To so dosedanje možnosti zagona.\n"
+"Lahko dodajate nove ali spreminjate obstoječe."
+
+#: any.pm:645
+#, c-format
+msgid "Do not touch ESP or MBR"
+msgstr ""
+"Brez sprememb ESP - sistemskega razdelka EFI ali MBR - zagonskega sektorja"
+
+#: any.pm:647 diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:458
+#: diskdrake/interactive.pm:305 diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:605 diskdrake/interactive.pm:820
+#: diskdrake/interactive.pm:885 diskdrake/interactive.pm:1053
+#: diskdrake/interactive.pm:1095 diskdrake/interactive.pm:1096
+#: diskdrake/interactive.pm:1329 diskdrake/interactive.pm:1367
+#: diskdrake/interactive.pm:1512 do_pkgs.pm:45 do_pkgs.pm:74 do_pkgs.pm:100
+#: do_pkgs.pm:137
+#, c-format
+msgid "Warning"
+msgstr "Opozorilo"
+
+#: any.pm:648
+#, c-format
+msgid ""
+"Not installing on ESP or MBR means that the installation is not bootable "
+"unless chain loaded from another OS!"
+msgstr ""
+"Namestitev brez sprememb ESP ali MBR pomeni, da se nameščen sistem ne bo "
+"mogel zagnati brez dodatnega zagonskega nalagalnika npr. z drugega "
+"operacijskega sistema!"
+
+#: any.pm:652
+#, c-format
+msgid "Probe Foreign OS"
+msgstr "Preizkus ostalih operacijskih sistemov"
+
+#: any.pm:653
+#, c-format
+msgid ""
+"If grub2 takes too long to install, you can use this option to skip "
+"detecting other OSes and make it fast"
+msgstr ""
+"Če grub2 potrebuje veliko časa za namestitev, lahko za pohitritev uporabite "
+"to možnost izklopa zaznavanja drugih operacijskih sistemov."
+
+#: any.pm:909
+#, c-format
+msgid "access to X programs"
+msgstr "dostop do programov X"
+
+#: any.pm:910
+#, c-format
+msgid "access to rpm tools"
+msgstr "dostop do rpm orodij"
+
+#: any.pm:911
+#, c-format
+msgid "allow \"su\""
+msgstr "omogoči nadomestnega uporabnika »su«"
+
+#: any.pm:912
+#, c-format
+msgid "access to administrative files"
+msgstr "dostop do upraviteljskih datotek"
+
+#: any.pm:913
+#, c-format
+msgid "access to network tools"
+msgstr "dostop do mrežnih orodij"
+
+#: any.pm:914
+#, c-format
+msgid "access to compilation tools"
+msgstr "dostop do orodij za prevajanje (compilation tools)"
+
+#: any.pm:920
+#, c-format
+msgid "(already added %s)"
+msgstr "(že dodano %s)"
+
+#: any.pm:926
+#, c-format
+msgid "Please give a user name"
+msgstr "Vnesite uporabniško ime:"
+
+#: any.pm:927
+#, c-format
+msgid ""
+"The user name must start with a lower case letter followed by only lower "
+"cased letters, numbers, `-' and `_'"
+msgstr ""
+"Uporabniško ime se mora začeti z malo črko in mora vsebovati samo male črke, "
+"številke, »-« in »_«"
+
+#: any.pm:928
+#, c-format
+msgid "The user name is too long"
+msgstr "Uporabniško ime je predolgo."
+
+#: any.pm:929
+#, c-format
+msgid "This user name has already been added"
+msgstr "To uporabniško ime je že dodano."
+
+#: any.pm:935 any.pm:973
+#, c-format
+msgid "User ID"
+msgstr "ID uporabnika"
+
+#: any.pm:935 any.pm:974
+#, c-format
+msgid "Group ID"
+msgstr "ID skupine"
+
+#: any.pm:936
+#, c-format
+msgid "%s must be a number"
+msgstr "%s mora biti številka!"
+
+#: any.pm:937
+#, c-format
+msgid "%s should be above 1000. Accept anyway?"
+msgstr "%s naj bi bilo več kot 1000. Naj vseeno sprejmem?"
+
+#: any.pm:941
+#, c-format
+msgid "User management"
+msgstr "Upravljanje uporabnikov"
+
+#: any.pm:947
+#, c-format
+msgid "Enable guest account"
+msgstr "Omogoči račun za gosta"
+
+#: any.pm:949 authentication.pm:236
+#, c-format
+msgid "Set administrator (root) password"
+msgstr "Nastavite geslo skrbnika (uporabnika root)"
+
+#: any.pm:955
+#, c-format
+msgid "Enter a user"
+msgstr "Dodajte uporabnika"
+
+#: any.pm:957
+#, c-format
+msgid "Icon"
+msgstr "Ikona"
+
+#: any.pm:960
+#, c-format
+msgid "Real name"
+msgstr "Pravo ime"
+
+#: any.pm:967
+#, c-format
+msgid "Login name"
+msgstr "Ime za prijavo"
+
+#: any.pm:972
+#, c-format
+msgid "Shell"
+msgstr "Lupina"
+
+#: any.pm:976
+#, c-format
+msgid "Extra Groups:"
+msgstr "Dodatne skupine:"
+
+#: any.pm:1026
+#, c-format
+msgid "Please wait, adding media..."
+msgstr "Počakajte. Dodajanje vira …"
+
+#: any.pm:1078 security/l10n.pm:14
+#, c-format
+msgid "Autologin"
+msgstr "Samodejna prijava"
+
+#: any.pm:1079
+#, c-format
+msgid "I can set up your computer to automatically log on one user."
+msgstr "Izbrani uporabnik je lahko ob zagonu samodejno prijavljen."
+
+#: any.pm:1080
+#, c-format
+msgid "Use this feature"
+msgstr "Uporabi to možnost"
+
+#: any.pm:1081
+#, c-format
+msgid "Choose the default user:"
+msgstr "Izberite privzetega uporabnika:"
+
+#: any.pm:1082
+#, c-format
+msgid "Choose the window manager to run:"
+msgstr "Izberite okenskega upravitelja, ki naj se zažene:"
+
+#: any.pm:1093 any.pm:1108 any.pm:1177
+#, c-format
+msgid "Release Notes"
+msgstr "Opombe ob izdaji"
+
+#: any.pm:1115 any.pm:1476 interactive/gtk.pm:820
+#, c-format
+msgid "Close"
+msgstr "Zapri"
+
+#: any.pm:1163
+#, c-format
+msgid "License agreement"
+msgstr "Licenčna pogodba"
+
+#: any.pm:1165 diskdrake/dav.pm:26 mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Quit"
+msgstr "Izhod"
+
+#: any.pm:1172
+#, c-format
+msgid "Do you accept this license ?"
+msgstr "Ali sprejmete te licenčne pogoje?"
+
+#: any.pm:1173
+#, c-format
+msgid "Accept"
+msgstr "Sprejmem"
+
+#: any.pm:1173
+#, c-format
+msgid "Refuse"
+msgstr "Zavračam"
+
+#: any.pm:1199 any.pm:1262
+#, c-format
+msgid "Please choose a language to use"
+msgstr "Izberite jezik namestitve"
+
+#: any.pm:1227
+#, c-format
+msgid ""
+"%s can support multiple languages. Select\n"
+"the languages you would like to install. They will be available\n"
+"when your installation is complete and you restart your system."
+msgstr ""
+"%s omogoča večjezično podporo. Izberite\n"
+"jezike, ki jih želite namestiti. Nameščeni jeziki bodo dosegljivi,\n"
+"ko boste zaključili namestitev in znova zagnali računalnik."
+
+#: any.pm:1229 fs/partitioning_wizard.pm:194
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: any.pm:1230
+#, c-format
+msgid "Multiple languages"
+msgstr "Več jezikov"
+
+#: any.pm:1231
+#, c-format
+msgid "Select Additional Languages"
+msgstr "Izbira dodatnih jezikov"
+
+#: any.pm:1240 any.pm:1271
+#, c-format
+msgid "Old compatibility (non UTF-8) encoding"
+msgstr "Staro (ne UTF-8) združljivo kodiranje"
+
+#: any.pm:1241
+#, c-format
+msgid "All languages"
+msgstr "Vsi jeziki"
+
+#: any.pm:1263
+#, c-format
+msgid "Language choice"
+msgstr "Izbira jezika"
+
+#: any.pm:1317
+#, c-format
+msgid "Country / Region"
+msgstr "Država"
+
+#: any.pm:1318
+#, c-format
+msgid "Please choose your country"
+msgstr "Izberite državo:"
+
+#: any.pm:1320
+#, c-format
+msgid "Here is the full list of available countries"
+msgstr "Izbirate lahko med naslednjimi državami:"
+
+#: any.pm:1321
+#, c-format
+msgid "Other Countries"
+msgstr "Druge države"
+
+#: any.pm:1321 interactive.pm:491 interactive/gtk.pm:444
+#, c-format
+msgid "Advanced"
+msgstr "Napredno"
+
+#: any.pm:1327
+#, c-format
+msgid "Input method:"
+msgstr "Način vnosa:"
+
+#: any.pm:1330
+#, c-format
+msgid "None"
+msgstr "Ne"
+
+#: any.pm:1421
+#, c-format
+msgid "No sharing"
+msgstr "Brez skupne rabe"
+
+#: any.pm:1421
+#, c-format
+msgid "Allow all users"
+msgstr "Dovoli vsem uporabnikom"
+
+#: any.pm:1421
+#, c-format
+msgid "Custom"
+msgstr "Po želji"
+
+#: any.pm:1425
+#, c-format
+msgid ""
+"Would you like to allow users to share some of their directories?\n"
+"Allowing this will permit users to simply click on \"Share\" in konqueror "
+"and nautilus.\n"
+"\n"
+"\"Custom\" permit a per-user granularity.\n"
+msgstr ""
+"Ali želite uporabnikom omogočiti, da dajo svoje mape v skupno rabo?\n"
+"Uporabniki lahko potem preprosto iz priročnega menija za mapo izberejo "
+"»Skupna raba«.\n"
+"\n"
+"»Po želji« omogoča nastavljanje za vsakega uporabnika posebej.\n"
+
+#: any.pm:1437
+#, c-format
+msgid ""
+"NFS: the traditional Unix file sharing system, with less support on Mac and "
+"Windows."
+msgstr "NFS je tradicionalni UNIXov sistem za datoteke v skupni rabi."
+
+#: any.pm:1440
+#, c-format
+msgid ""
+"SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
+"systems."
+msgstr ""
+"SMB je sistem za datoteke v skupni rabi, ki ga uporabljajo Windows, Mac OS X "
+"in drugi moderni operacijski sistemi."
+
+#: any.pm:1448
+#, c-format
+msgid ""
+"You can export using NFS or SMB. Please select which you would like to use."
+msgstr ""
+"Za datoteke v skupni rabi lahko uporabljate sistema NFS in SMB. Izberite, "
+"katerega želite uporabiti."
+
+#: any.pm:1476
+#, c-format
+msgid "Launch userdrake"
+msgstr "Zaženi upravitelja uporabnikov (userdrake)."
+
+#: any.pm:1478
+#, c-format
+msgid ""
+"The per-user sharing uses the group \"fileshare\". \n"
+"You can use userdrake to add a user to this group."
+msgstr ""
+"Skupno rabo datotek uporablja skupina »fileshare«. \n"
+"Tej skupini lahko dodate uporabnika s pomočjo upravitelja uporabnikov."
+
+#: any.pm:1585
+#, c-format
+msgid ""
+"You need to logout and back in again for changes to take effect. Press OK to "
+"logout now."
+msgstr ""
+"Za uveljavitev sprememb se morate odjaviti in ponovno prijaviti. Za "
+"takojšnjo odjavo, kliknite gumb »V redu«."
+
+#: any.pm:1589
+#, c-format
+msgid "You need to log out and back in again for changes to take effect"
+msgstr "Za uveljavitev sprememb se morate odjaviti in ponovno prijaviti."
+
+#: any.pm:1624
+#, c-format
+msgid "Timezone"
+msgstr "Časovni pas"
+
+#: any.pm:1624
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Izberite vaš časovni pas:"
+
+#: any.pm:1647 any.pm:1649
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Nastavitev datuma, ure in časovnega pasu"
+
+#: any.pm:1650
+#, c-format
+msgid "What is the best time?"
+msgstr "Kateri čas je najbolj ustrezen?"
+
+#: any.pm:1654
+#, c-format
+msgid "%s (hardware clock set to UTC)"
+msgstr "%s (računalnikova ura nastavljena na UTC)"
+
+#: any.pm:1655
+#, c-format
+msgid "%s (hardware clock set to local time)"
+msgstr "%s (računalnikova ura nastavljena na krajevni čas)"
+
+#: any.pm:1657
+#, c-format
+msgid "NTP Server"
+msgstr "Strežnik NTP"
+
+#: any.pm:1658
+#, c-format
+msgid "Automatic time synchronization (using NTP)"
+msgstr "Samodejna sinhronizacija časa s pomočjo NTP"
+
+#: authentication.pm:24
+#, c-format
+msgid "Local file"
+msgstr "Krajevna datoteka"
+
+#: authentication.pm:25
+#, c-format
+msgid "LDAP"
+msgstr "LDAP (Lightweight Directory Access Protocol)"
+
+#: authentication.pm:26
+#, c-format
+msgid "NIS"
+msgstr "NIS (Network Information Service)\t"
+
+#: authentication.pm:27
+#, c-format
+msgid "Smart Card"
+msgstr "Pametna kartica (Smart Card)"
+
+#: authentication.pm:28 authentication.pm:215
+#, c-format
+msgid "Windows Domain"
+msgstr "Windows domena"
+
+#: authentication.pm:29
+#, c-format
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: authentication.pm:65
+#, c-format
+msgid "Local file:"
+msgstr "Krajevna datoteka:"
+
+#: authentication.pm:65
+#, c-format
+msgid ""
+"Use local for all authentication and information user tell in local file"
+msgstr "Uporabi krajevno datoteko za vse overjanje in podatke o uporabnikih"
+
+#: authentication.pm:66
+#, c-format
+msgid "LDAP:"
+msgstr "LDAP:"
+
+#: authentication.pm:66
+#, c-format
+msgid ""
+"Tells your computer to use LDAP for some or all authentication. LDAP "
+"consolidates certain types of information within your organization."
+msgstr ""
+"Določi, naj ta računalnik za vsa ali za nekatera overjanja uporabi LDAP. "
+"LDAP združuje določene vrste podatkov znotraj vaše organizacije."
+
+#: authentication.pm:67
+#, c-format
+msgid "NIS:"
+msgstr "NIS:"
+
+#: authentication.pm:67
+#, c-format
+msgid ""
+"Allows you to run a group of computers in the same Network Information "
+"Service domain with a common password and group file."
+msgstr ""
+"Omogoča poganjanje skupine računalnikov znotraj iste domene NIS (Network "
+"Information Service), tako da uporabljajo isto datoteko za uporabnike, gesla "
+"in skupine."
+
+#: authentication.pm:68
+#, c-format
+msgid "Windows Domain:"
+msgstr "Domena za Windows:"
+
+#: authentication.pm:68
+#, c-format
+msgid ""
+"Winbind allows the system to retrieve information and authenticate users in "
+"a Windows domain."
+msgstr ""
+"Winbind sistemu omogoča, da pridobi podatke in overi uporabnike v domeni za "
+"Windows."
+
+#: authentication.pm:69
+#, c-format
+msgid "Kerberos 5 :"
+msgstr "Kerberos 5:"
+
+#: authentication.pm:69
+#, c-format
+msgid "With Kerberos and LDAP for authentication in Active Directory Server "
+msgstr "S Kerberos in LDAP za overjanje na strežniku Active Directory "
+
+#: authentication.pm:106 authentication.pm:140 authentication.pm:159
+#: authentication.pm:160 authentication.pm:186 authentication.pm:210
+#: authentication.pm:881
+#, c-format
+msgid " "
+msgstr " "
+
+#: authentication.pm:107 authentication.pm:141 authentication.pm:187
+#: authentication.pm:211
+#, c-format
+msgid "Welcome to the Authentication Wizard"
+msgstr "Dobrodošli v čarovniku za overjanje"
+
+#: authentication.pm:109
+#, c-format
+msgid ""
+"You have selected LDAP authentication. Please review the configuration "
+"options below "
+msgstr "Izbrali ste overjanje z LDAP. Preglejte spodnje nastavitvene možnosti "
+
+#: authentication.pm:111 authentication.pm:166
+#, c-format
+msgid "LDAP Server"
+msgstr "Strežnik LDAP"
+
+#: authentication.pm:112 authentication.pm:167
+#, c-format
+msgid "Base dn"
+msgstr "Osnovno ime domene"
+
+#: authentication.pm:113
+#, c-format
+msgid "Fetch base Dn "
+msgstr "Pridobi osnovno ime domene "
+
+#: authentication.pm:115 authentication.pm:170
+#, c-format
+msgid "Use encrypt connection with TLS "
+msgstr "Uporabi povezavo šifrirano s TLS "
+
+#: authentication.pm:116 authentication.pm:171
+#, c-format
+msgid "Download CA Certificate "
+msgstr "Prejmi potrdilo CA "
+
+#: authentication.pm:118 authentication.pm:151
+#, c-format
+msgid "Use Disconnect mode "
+msgstr "Uporabi način brez povezave "
+
+#: authentication.pm:119 authentication.pm:172
+#, c-format
+msgid "Use anonymous BIND "
+msgstr "Uporabi anonimni BIND "
+
+#: authentication.pm:120 authentication.pm:123 authentication.pm:125
+#: authentication.pm:129
+#, c-format
+msgid "  "
+msgstr "  "
+
+#: authentication.pm:121 authentication.pm:173
+#, c-format
+msgid "Bind DN "
+msgstr "Ime domene za BIND "
+
+#: authentication.pm:122 authentication.pm:174
+#, c-format
+msgid "Bind Password "
+msgstr "Geslo za BIND "
+
+#: authentication.pm:124
+#, c-format
+msgid "Advanced path for group "
+msgstr "Napredna pot za skupino "
+
+#: authentication.pm:126
+#, c-format
+msgid "Password base"
+msgstr "Baza za gesla"
+
+#: authentication.pm:127
+#, c-format
+msgid "Group base"
+msgstr "Baza za skupine"
+
+#: authentication.pm:128
+#, c-format
+msgid "Shadow base"
+msgstr "Baza za prikrivanje (Shadow)"
+
+#: authentication.pm:143
+#, c-format
+msgid ""
+"You have selected Kerberos 5 authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Izbrali ste overjanje s Kerberos 5. Preglejte spodnje nastavitvene možnosti "
+
+#: authentication.pm:145
+#, c-format
+msgid "Realm "
+msgstr "Področje "
+
+#: authentication.pm:147
+#, c-format
+msgid "KDCs Servers"
+msgstr "Strežniki KDC"
+
+#: authentication.pm:149
+#, c-format
+msgid "Use DNS to locate KDC for the realm"
+msgstr "Za ugotovitev KDC-ja za področje uporabi DNS"
+
+#: authentication.pm:150
+#, c-format
+msgid "Use DNS to locate realms"
+msgstr "Za ugotovitev področij uporabi DNS"
+
+#: authentication.pm:155
+#, c-format
+msgid "Use local file for users information"
+msgstr "Za podatke o uporabnikih uporabi krajevno datoteko"
+
+#: authentication.pm:156
+#, c-format
+msgid "Use LDAP for users information"
+msgstr "Za podatke o uporabnikih uporabi LDAP"
+
+#: authentication.pm:162
+#, c-format
+msgid ""
+"You have selected Kerberos 5 for authentication, now you must choose the "
+"type of users information "
+msgstr ""
+"Za overjanje ste izbrali Kerberos 5. Sedaj morate izbrati vrsto podatkov o "
+"uporabnikih "
+
+#: authentication.pm:168
+#, c-format
+msgid "Fecth base Dn "
+msgstr "Pridobi osnovno ime domene"
+
+#: authentication.pm:189
+#, c-format
+msgid ""
+"You have selected NIS authentication. Please review the configuration "
+"options below "
+msgstr "Izbrali ste overjanje z NIS. Preglejte spodnje nastavitvene možnosti "
+
+#: authentication.pm:191
+#, c-format
+msgid "NIS Domain"
+msgstr "Domena NIS "
+
+#: authentication.pm:192
+#, c-format
+msgid "NIS Server"
+msgstr "Strežnik NIS"
+
+#: authentication.pm:213
+#, c-format
+msgid ""
+"You have selected Windows Domain authentication. Please review the "
+"configuration options below "
+msgstr ""
+"Izbrali ste overjanje z Windows domenami. Preglejte spodnje nastavitvene "
+"možnosti "
+
+#: authentication.pm:217
+#, c-format
+msgid "Domain Model "
+msgstr "Model domene "
+
+#: authentication.pm:219
+#, c-format
+msgid "Active Directory Realm "
+msgstr "Področje za Active Directory "
+
+#: authentication.pm:220
+#, c-format
+msgid "DNS Domain"
+msgstr "Domena DNS"
+
+#: authentication.pm:221
+#, c-format
+msgid "DC Server"
+msgstr "Strežnik DC"
+
+#: authentication.pm:235 authentication.pm:251
+#, c-format
+msgid "Authentication"
+msgstr "Overjanje"
+
+#: authentication.pm:237
+#, c-format
+msgid "Authentication method"
+msgstr "Način overjanja"
+
+#. -PO: keep this short or else the buttons will not fit in the window
+#: authentication.pm:242
+#, c-format
+msgid "No password"
+msgstr "Brez gesla"
+
+#: authentication.pm:263
+#, c-format
+msgid "This password is too short (it must be at least %d characters long)"
+msgstr "Geslo je prekratko (imeti mora najmanj %d znakov)."
+
+#: authentication.pm:375
+#, c-format
+msgid "Cannot use broadcast with no NIS domain"
+msgstr "Brez domene NIS oddajanje ni mogoče."
+
+#: authentication.pm:876
+#, c-format
+msgid "Select file"
+msgstr "Izberite datoteko"
+
+#: authentication.pm:882
+#, c-format
+msgid "Domain Windows for authentication : "
+msgstr "Domena Windows za overjanje: "
+
+#: authentication.pm:884
+#, c-format
+msgid "Domain Admin User Name"
+msgstr "Uporabniško ime skrbnika domene"
+
+#: authentication.pm:885
+#, c-format
+msgid "Domain Admin Password"
+msgstr "Geslo skrbnika domene"
+
+#. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
+#: bootloader.pm:1122
+#, c-format
+msgid ""
+"Welcome to the operating system chooser!\n"
+"\n"
+"Choose an operating system from the list above or\n"
+"wait for default boot.\n"
+"\n"
+msgstr ""
+"Izbor zagona operacijskega sistema!\n"
+"\n"
+"Med njimi lahko izbirate s seznama\n"
+"pred samodejnim zagonom privzetega sistema.\n"
+
+#: bootloader.pm:1287
+#, c-format
+msgid "LILO with text menu"
+msgstr "LILO v besedilnem načinu."
+
+#: bootloader.pm:1288
+#, c-format
+msgid "GRUB2 with graphical menu"
+msgstr "GRUB2 v grafičnem načinu"
+
+#: bootloader.pm:1289
+#, c-format
+msgid "GRUB2 with text menu"
+msgstr "GRUB2 v besedilnem načinu"
+
+#: bootloader.pm:1290
+#, c-format
+msgid "GRUB with graphical menu"
+msgstr "GRUB v grafičnem načinu"
+
+#: bootloader.pm:1291
+#, c-format
+msgid "GRUB with text menu"
+msgstr "GRUB v besedilnem načinu"
+
+#: bootloader.pm:1378
+#, c-format
+msgid "not enough room in /boot"
+msgstr "V mapi /boot ni dovolj prostora."
+
+#: bootloader.pm:2393
+#, c-format
+msgid ""
+"Your bootloader configuration must be updated because partition has been "
+"renumbered"
+msgstr ""
+"Nastavitve zagonskega nalagalnika je potrebno posodobiti zaradi "
+"preštevilčenja razdelkov."
+
+#: bootloader.pm:2406
+#, c-format
+msgid ""
+"The bootloader cannot be installed correctly. You have to boot rescue and "
+"choose \"%s\""
+msgstr ""
+"Zagonskega nalagalnika ni mogoče namestiti pravilno. Izvesti morate zagon za "
+"reševanje sistema in izbrati »%s«."
+
+#: bootloader.pm:2407
+#, c-format
+msgid "Re-install Boot Loader"
+msgstr "Ponovno namesti zagonski nalagalnik."
+
+#: common.pm:271
+#, c-format
+msgid "B"
+msgstr "B"
+
+#: common.pm:271
+#, c-format
+msgid "KB"
+msgstr "KB"
+
+#: common.pm:271
+#, c-format
+msgid "MB"
+msgstr "MB"
+
+#: common.pm:271
+#, c-format
+msgid "GB"
+msgstr "GB"
+
+#: common.pm:271 common.pm:280
+#, c-format
+msgid "TB"
+msgstr "TB"
+
+#. -PO: here, "2:30" is remaining installation time (eg: "2:30" == 2 hour & 30 minutes)
+#: common.pm:288
+#, c-format
+msgid "%02d:%02d"
+msgstr "%2d:%02d"
+
+#: common.pm:290
+#, c-format
+msgid "%d minutes"
+msgstr "%d minut"
+
+#: common.pm:292
+#, c-format
+msgid "1 minute"
+msgstr "1 minuta"
+
+#: common.pm:294
+#, c-format
+msgid "%d seconds"
+msgstr "%d sekund"
+
+#: diskdrake/dav.pm:17
+#, c-format
+msgid ""
+"WebDAV is a protocol that allows you to mount a web server's directory\n"
+"locally, and treat it like a local filesystem (provided the web server is\n"
+"configured as a WebDAV server). If you would like to add WebDAV mount\n"
+"points, select \"New\"."
+msgstr ""
+"S pomočjo protokola WebDAV lahko mapo z omrežnega strežnika priklopite\n"
+"krajevno in jo obravnavate kot krajevno mapo (mrežni strežnik mora biti\n"
+"nastavljen kot WebDAV strežnik). Za dodajanje WebDAV priklopnih točk, "
+"izberite »Dodaj«."
+
+#: diskdrake/dav.pm:25
+#, c-format
+msgid "New"
+msgstr "Dodaj"
+
+#: diskdrake/dav.pm:63 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:75
+#, c-format
+msgid "Unmount"
+msgstr "Odklopi"
+
+#: diskdrake/dav.pm:64 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:76
+#, c-format
+msgid "Mount"
+msgstr "Priklopi"
+
+#: diskdrake/dav.pm:65
+#, c-format
+msgid "Server"
+msgstr "Strežnik"
+
+#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
+#: diskdrake/interactive.pm:727 diskdrake/interactive.pm:745
+#: diskdrake/interactive.pm:749 diskdrake/removable.pm:23
+#: diskdrake/smbnfs_gtk.pm:79
+#, c-format
+msgid "Mount point"
+msgstr "Priklopna točka"
+
+#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
+#: diskdrake/interactive.pm:1182 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:80
+#, c-format
+msgid "Options"
+msgstr "Možnosti"
+
+#: diskdrake/dav.pm:68 interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Remove"
+msgstr "Odstrani"
+
+#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:221 diskdrake/removable.pm:26
+#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
+#, c-format
+msgid "Done"
+msgstr "Opravljeno"
+
+#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:153 diskdrake/hd_gtk.pm:323
+#: diskdrake/interactive.pm:246 diskdrake/interactive.pm:259
+#: diskdrake/interactive.pm:460 diskdrake/interactive.pm:535
+#: diskdrake/interactive.pm:553 diskdrake/interactive.pm:558
+#: diskdrake/interactive.pm:717 diskdrake/interactive.pm:1020
+#: diskdrake/interactive.pm:1073 diskdrake/interactive.pm:1229
+#: diskdrake/interactive.pm:1242 diskdrake/interactive.pm:1245
+#: diskdrake/interactive.pm:1513 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:49
+#: do_pkgs.pm:54 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:108 do_pkgs.pm:142
+#: fsedit.pm:266 interactive/http.pm:117 interactive/http.pm:118
+#: modules/interactive.pm:19 scanner.pm:94 scanner.pm:105 scanner.pm:112
+#: scanner.pm:119 wizards.pm:95 wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "Napaka"
+
+#: diskdrake/dav.pm:86
+#, c-format
+msgid "Please enter the WebDAV server URL"
+msgstr "Vnesite URL naslov WebDAV strežnika"
+
+#: diskdrake/dav.pm:90
+#, c-format
+msgid "The URL must begin with http:// or https://"
+msgstr "URL naslov se mora pričeti s http:// ali s https://"
+
+#: diskdrake/dav.pm:106
+#, c-format
+msgid "Are you sure you want to delete this mount point?"
+msgstr "Ali res želite izbrisati to priklopno točko?"
+
+#: diskdrake/dav.pm:124
+#, c-format
+msgid "Server: "
+msgstr "Strežnik: "
+
+#: diskdrake/dav.pm:125 diskdrake/interactive.pm:505
+#: diskdrake/interactive.pm:1391 diskdrake/interactive.pm:1473
+#, c-format
+msgid "Mount point: "
+msgstr "Priklopna točka: "
+
+#: diskdrake/dav.pm:126 diskdrake/interactive.pm:1480
+#, c-format
+msgid "Options: %s"
+msgstr "Možnosti: %s"
+
+#: diskdrake/hd_gtk.pm:61 diskdrake/interactive.pm:300
+#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:113
+#: fs/partitioning_wizard.pm:66 fs/partitioning_wizard.pm:264
+#: fs/partitioning_wizard.pm:272 fs/partitioning_wizard.pm:310
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:529
+#: fs/partitioning_wizard.pm:614 fs/partitioning_wizard.pm:617
+#, c-format
+msgid "Partitioning"
+msgstr "Razdelitev diska"
+
+#: diskdrake/hd_gtk.pm:74
+#, c-format
+msgid "Click on a partition, choose a filesystem type then choose an action"
+msgstr "Izberite razdelek, vrsto datotečnega sistema in dejanje"
+
+#: diskdrake/hd_gtk.pm:133 diskdrake/interactive.pm:1203
+#: diskdrake/interactive.pm:1213 diskdrake/interactive.pm:1267
+#, c-format
+msgid "Read carefully"
+msgstr "Pazljivo preberite"
+
+#: diskdrake/hd_gtk.pm:133
+#, c-format
+msgid "Please make a backup of your data first"
+msgstr "Najprej naredite varnostno kopijo podatkov"
+
+#: diskdrake/hd_gtk.pm:134 diskdrake/interactive.pm:239
+#, c-format
+msgid "Exit"
+msgstr "Izhod"
+
+#: diskdrake/hd_gtk.pm:134
+#, c-format
+msgid "Continue"
+msgstr "Nadaljuj"
+
+#: diskdrake/hd_gtk.pm:216 fs/partitioning_wizard.pm:590 interactive.pm:778
+#: interactive/gtk.pm:812 interactive/gtk.pm:830 interactive/gtk.pm:862
+#: ugtk2.pm:934 ugtk3.pm:1030
+#, c-format
+msgid "Help"
+msgstr "Pomoč"
+
+#: diskdrake/hd_gtk.pm:257
+#, c-format
+msgid ""
+"You have one big Microsoft Windows partition.\n"
+"I suggest you first resize that partition\n"
+"(click on it, then click on \"Resize\")"
+msgstr ""
+"Računalnik ima en velik razdelek FAT (navadno ga uporablja Windows).\n"
+"Priporočljivo je najprej spremeniti velikost tega razdelka.\n"
+"Kliknite nanj, nato pa na »Spremeni velikost«."
+
+#: diskdrake/hd_gtk.pm:259
+#, c-format
+msgid "Please click on a partition"
+msgstr "Kliknite na razdelek"
+
+#: diskdrake/hd_gtk.pm:273 diskdrake/smbnfs_gtk.pm:63
+#, c-format
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: diskdrake/hd_gtk.pm:323
+#, c-format
+msgid "No hard disk drives found"
+msgstr "Ne najdem trdega diska"
+
+#: diskdrake/hd_gtk.pm:362
+#, c-format
+msgid "Unknown"
+msgstr "Neznano"
+
+#: diskdrake/hd_gtk.pm:429
+#, c-format
+msgid "Ext4"
+msgstr "Ext4"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "XFS"
+msgstr "XFS"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Swap"
+msgstr "Swap"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Windows"
+msgstr "Windows"
+
+#: diskdrake/hd_gtk.pm:430 fs/partitioning_wizard.pm:437 services.pm:201
+#, c-format
+msgid "Other"
+msgstr "Drugo"
+
+#: diskdrake/hd_gtk.pm:430 diskdrake/interactive.pm:1397
+#: fs/partitioning_wizard.pm:437
+#, c-format
+msgid "Empty"
+msgstr "Prazno"
+
+#: diskdrake/hd_gtk.pm:437
+#, c-format
+msgid "Filesystem types:"
+msgstr "Vrste datotečnih sistemov:"
+
+#: diskdrake/hd_gtk.pm:458
+#, c-format
+msgid "This partition is already empty"
+msgstr "Ta razdelek je že prazen"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``Unmount'' first"
+msgstr "Najprej uporabite »Odklopi«"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``%s'' instead (in expert mode)"
+msgstr "Rajši uporabite »%s« (v naprednem načinu)"
+
+#: diskdrake/hd_gtk.pm:467 diskdrake/interactive.pm:409
+#: diskdrake/interactive.pm:644 diskdrake/removable.pm:25
+#: diskdrake/removable.pm:48
+#, c-format
+msgid "Type"
+msgstr "Vrsta"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose another partition"
+msgstr "Izberite drug razdelek"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose a partition"
+msgstr "Izberite razdelek"
+
+#: diskdrake/interactive.pm:272 diskdrake/interactive.pm:382
+#: interactive/curses.pm:532
+#, c-format
+msgid "More"
+msgstr "Več"
+
+#: diskdrake/interactive.pm:280 diskdrake/interactive.pm:293
+#: diskdrake/interactive.pm:1313 mygtk2.pm:1228 mygtk3.pm:1311
+#, c-format
+msgid "Confirmation"
+msgstr "Potrditev"
+
+#: diskdrake/interactive.pm:280
+#, c-format
+msgid "Continue anyway?"
+msgstr "Vseeno nadaljujem?"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without saving"
+msgstr "Zapri brez shranjevanja sprememb"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "Zapri brez zapisovanja razdelitvene tabele?"
+
+#: diskdrake/interactive.pm:293
+#, c-format
+msgid "Do you want to save the /etc/fstab modifications?"
+msgstr "Ali želite shraniti spremembe datoteke /etc/fstab?"
+
+#: diskdrake/interactive.pm:300 fs/partitioning_wizard.pm:310
+#, c-format
+msgid "You need to reboot for the partition table modifications to take effect"
+msgstr ""
+"Za uveljavitev sprememb razdelitvene tabele je potreben ponoven zagon "
+"računalnika."
+
+#: diskdrake/interactive.pm:305
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+"Razdelek %s bi morali formatirati.\n"
+"Drugače vnos za priklopno točko %s ne bo vpisan v nastavitveno datoteko "
+"fstab.\n"
+"Vseeno končam?"
+
+#: diskdrake/interactive.pm:318
+#, c-format
+msgid "Clear all"
+msgstr "Zbriši vse"
+
+#: diskdrake/interactive.pm:319
+#, c-format
+msgid "Auto allocate"
+msgstr "Razdeli samodejno"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Normal mode"
+msgstr "Normalni način"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Expert mode"
+msgstr "Napredni način"
+
+#: diskdrake/interactive.pm:337
+#, c-format
+msgid "Hard disk drive information"
+msgstr "Podatki o trdem disku"
+
+#: diskdrake/interactive.pm:371
+#, c-format
+msgid "All primary partitions are used"
+msgstr "Vsi primarni razdelki so že zasedeni (možni so samo štirje)"
+
+#: diskdrake/interactive.pm:372
+#, c-format
+msgid "I cannot add any more partitions"
+msgstr "Dodajanje novih razdelkov ni mogoče"
+
+#: diskdrake/interactive.pm:373
+#, c-format
+msgid ""
+"To have more partitions, please delete one to be able to create an extended "
+"partition"
+msgstr ""
+"Če želite imeti več razdelkov, morate enega primarnega izbrisati. Tako da bo "
+"možno ustvariti razširjen razdelek, ki lahko vsebuje več razdelkov."
+
+#: diskdrake/interactive.pm:384
+#, c-format
+msgid "Reload partition table"
+msgstr "Ponovno naloži razdelitveno tabelo"
+
+#: diskdrake/interactive.pm:391
+#, c-format
+msgid "Detailed information"
+msgstr "Podrobni podatki"
+
+#: diskdrake/interactive.pm:407
+#, c-format
+msgid "View"
+msgstr "Prikaži"
+
+#: diskdrake/interactive.pm:412 diskdrake/interactive.pm:833
+#, c-format
+msgid "Resize"
+msgstr "Spremeni velikost"
+
+#: diskdrake/interactive.pm:413
+#, c-format
+msgid "Format"
+msgstr "Formatiraj"
+
+#: diskdrake/interactive.pm:415 diskdrake/interactive.pm:983
+#, c-format
+msgid "Add to RAID"
+msgstr "Dodaj v RAID"
+
+#: diskdrake/interactive.pm:416 diskdrake/interactive.pm:1002
+#, c-format
+msgid "Add to LVM"
+msgstr "Dodaj v LVM"
+
+#: diskdrake/interactive.pm:417
+#, c-format
+msgid "Use"
+msgstr "Uporabi"
+
+#: diskdrake/interactive.pm:419
+#, c-format
+msgid "Delete"
+msgstr "Zbriši"
+
+#: diskdrake/interactive.pm:420
+#, c-format
+msgid "Remove from RAID"
+msgstr "Odstrani iz RAID"
+
+#: diskdrake/interactive.pm:421
+#, c-format
+msgid "Remove from LVM"
+msgstr "Odstrani iz LVM"
+
+#: diskdrake/interactive.pm:422
+#, c-format
+msgid "Remove from dm"
+msgstr "Odstrani iz dm"
+
+#: diskdrake/interactive.pm:423
+#, c-format
+msgid "Modify RAID"
+msgstr "Spremeni RAID"
+
+#: diskdrake/interactive.pm:424
+#, c-format
+msgid "Use for loopback"
+msgstr "Uporabi za povratno datoteko"
+
+#: diskdrake/interactive.pm:434
+#, c-format
+msgid "Create"
+msgstr "Ustvari"
+
+#: diskdrake/interactive.pm:460
+#, c-format
+msgid "Failed to mount partition"
+msgstr "Priklop razdelka ni uspel"
+
+#: diskdrake/interactive.pm:494 diskdrake/interactive.pm:496
+#, c-format
+msgid "Create a new partition"
+msgstr "Ustvarjanje novega razdelka"
+
+#: diskdrake/interactive.pm:498
+#, c-format
+msgid "Start sector: "
+msgstr "Začetni sektor: "
+
+#: diskdrake/interactive.pm:501 diskdrake/interactive.pm:1088
+#, c-format
+msgid "Size in MB: "
+msgstr "Velikost v MB: "
+
+#: diskdrake/interactive.pm:503 diskdrake/interactive.pm:1089
+#, c-format
+msgid "Filesystem type: "
+msgstr "Vrsta datotečnega sistema: "
+
+#: diskdrake/interactive.pm:513
+#, c-format
+msgid "Preference: "
+msgstr "Možnosti: "
+
+#: diskdrake/interactive.pm:516
+#, c-format
+msgid "Logical volume name "
+msgstr "Ime logičnega razdelka "
+
+#: diskdrake/interactive.pm:518
+#, c-format
+msgid "Encrypt partition"
+msgstr "Šifriraj razdelek"
+
+#: diskdrake/interactive.pm:519
+#, c-format
+msgid "Encryption key "
+msgstr "Šifrirni ključ "
+
+#: diskdrake/interactive.pm:520 diskdrake/interactive.pm:1517
+#, c-format
+msgid "Encryption key (again)"
+msgstr "Šifrirni ključ (ponovno)"
+
+#: diskdrake/interactive.pm:532 diskdrake/interactive.pm:1513
+#, c-format
+msgid "The encryption keys do not match"
+msgstr "Šifrirna ključa se ne ujemata"
+
+#: diskdrake/interactive.pm:533
+#, c-format
+msgid "Missing encryption key"
+msgstr "Manjka šifrirni ključ"
+
+#: diskdrake/interactive.pm:553
+#, c-format
+msgid ""
+"You cannot create a new partition\n"
+"(since you reached the maximal number of primary partitions).\n"
+"First remove a primary partition and create an extended partition."
+msgstr ""
+"Ne morete ustvariti novega razdelka\n"
+"(imate največje dopustno število primarnih razdelkov)\n"
+"Najprej odstranite en primarni razdelek in ustvarite razširjen razdelek."
+
+#: diskdrake/interactive.pm:605
+#, c-format
+msgid "Remove the loopback file?"
+msgstr "Ali izbrišem povratno datoteko?"
+
+#: diskdrake/interactive.pm:625
+#, c-format
+msgid ""
+"After changing type of partition %s, all data on this partition will be lost"
+msgstr ""
+"Po spremembi tipa razdelka %s, bodo vsi podatki na tem razdelku izgubljeni."
+
+#: diskdrake/interactive.pm:641
+#, c-format
+msgid "Change partition type"
+msgstr "Spremeni vrsto razdelka"
+
+#: diskdrake/interactive.pm:643 diskdrake/removable.pm:47
+#, c-format
+msgid "Which filesystem do you want?"
+msgstr "Kateri datotečni sistem želite?"
+
+#: diskdrake/interactive.pm:650
+#, c-format
+msgid "Switching from %s to %s"
+msgstr "Preklapljam z %s na %s"
+
+#: diskdrake/interactive.pm:685
+#, c-format
+msgid "Set volume label"
+msgstr "Nastavi oznako razdelka"
+
+#: diskdrake/interactive.pm:687
+#, c-format
+msgid "Beware, this will be written to disk as soon as you validate!"
+msgstr "Pazite, to bo zapisano na disk takoj po potrditvi."
+
+#: diskdrake/interactive.pm:688
+#, c-format
+msgid "Beware, this will be written to disk only after formatting!"
+msgstr "Pazite, to bo zapisano na disk samo po formatiranju."
+
+#: diskdrake/interactive.pm:690
+#, c-format
+msgid "Which volume label?"
+msgstr "Oznaka razdelka?"
+
+#: diskdrake/interactive.pm:691
+#, c-format
+msgid "Label:"
+msgstr "Oznaka:"
+
+#: diskdrake/interactive.pm:712
+#, c-format
+msgid "Where do you want to mount the loopback file %s?"
+msgstr "Kam želite priklopiti povratno datoteko %s?"
+
+#: diskdrake/interactive.pm:713
+#, c-format
+msgid "Where do you want to mount device %s?"
+msgstr "Kam želite priklopiti razdelek %s?"
+
+#: diskdrake/interactive.pm:718
+#, c-format
+msgid ""
+"Cannot unset mount point as this partition is used for loop back.\n"
+"Remove the loopback first"
+msgstr ""
+"Priklopne točke ni mogoče odstraniti, ker ta razdelek vsebuje povratno "
+"datoteko.\n"
+"Najprej odstranite povratno datoteko"
+
+#: diskdrake/interactive.pm:748
+#, c-format
+msgid "Where do you want to mount %s?"
+msgstr "Kam želite priklopiti %s?"
+
+#: diskdrake/interactive.pm:778 diskdrake/interactive.pm:874
+#: fs/partitioning_wizard.pm:151 fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing"
+msgstr "Spreminjanje velikosti"
+
+#: diskdrake/interactive.pm:778
+#, c-format
+msgid "Computing FAT filesystem bounds"
+msgstr "Računanje mej datotečnega sistema FAT"
+
+#: diskdrake/interactive.pm:820
+#, c-format
+msgid "This partition is not resizeable"
+msgstr "Temu razdelku ni mogoče spremeniti velikosti"
+
+#: diskdrake/interactive.pm:825
+#, c-format
+msgid "All data on this partition should be backed up"
+msgstr "Priporočljiva je varnostna kopija podatkov s tega razdelka"
+
+#: diskdrake/interactive.pm:827
+#, c-format
+msgid "After resizing partition %s, all data on this partition will be lost"
+msgstr ""
+"Po spremembi velikosti razdelka %s bodo vsi podatki na tem razdelku "
+"izgubljeni."
+
+#: diskdrake/interactive.pm:834
+#, c-format
+msgid "Choose the new size"
+msgstr "Izberite novo velikost"
+
+#: diskdrake/interactive.pm:835
+#, c-format
+msgid "New size in MB: "
+msgstr "Nova velikost v MB: "
+
+#: diskdrake/interactive.pm:836
+#, c-format
+msgid "Minimum size: %s MB"
+msgstr "Najmanjša velikost: %s MB"
+
+#: diskdrake/interactive.pm:837
+#, c-format
+msgid "Maximum size: %s MB"
+msgstr "Največja velikost: %s MB"
+
+#: diskdrake/interactive.pm:885 fs/partitioning_wizard.pm:241
+#, c-format
+msgid ""
+"To ensure data integrity after resizing the partition(s),\n"
+"filesystem checks will be run on your next boot into Microsoft Windows®"
+msgstr ""
+"Zaradi zagotovljanja celovitosti podatkov po spremembi velikosti \n"
+"razdelkov Windows® bo ob njegovem naslednjem zagonu zagnan program\n"
+"za preverjanje datotečnega sistema."
+
+#: diskdrake/interactive.pm:951 diskdrake/interactive.pm:1508
+#, c-format
+msgid "Filesystem encryption key"
+msgstr "Šifrirni ključ datotečnega sistema: "
+
+#: diskdrake/interactive.pm:952
+#, c-format
+msgid "Enter your filesystem encryption key"
+msgstr "Vnesite šifrirni ključ za datotečni sistem"
+
+#: diskdrake/interactive.pm:953 diskdrake/interactive.pm:1516
+#, c-format
+msgid "Encryption key"
+msgstr "Šifrirni ključ"
+
+#: diskdrake/interactive.pm:960
+#, c-format
+msgid "Invalid key"
+msgstr "Neveljaven ključ"
+
+#: diskdrake/interactive.pm:983
+#, c-format
+msgid "Choose an existing RAID to add to"
+msgstr "Izberite obstoječ RAID za dodajanje"
+
+#: diskdrake/interactive.pm:985 diskdrake/interactive.pm:1004
+#, c-format
+msgid "new"
+msgstr "nov"
+
+#: diskdrake/interactive.pm:1002
+#, c-format
+msgid "Choose an existing LVM to add to"
+msgstr "Izberite obstoječ LVM za dodajanje"
+
+#: diskdrake/interactive.pm:1014 diskdrake/interactive.pm:1023
+#, c-format
+msgid "LVM name"
+msgstr "Ime LVM"
+
+#: diskdrake/interactive.pm:1015
+#, c-format
+msgid "Enter a name for the new LVM volume group"
+msgstr "Vnesite ime nove skupine nosilca LVM"
+
+#: diskdrake/interactive.pm:1020
+#, c-format
+msgid "\"%s\" already exists"
+msgstr "»%s« že obstaja"
+
+#: diskdrake/interactive.pm:1028
+#, c-format
+msgid "Setting up LVM"
+msgstr "Nastavitev LVM"
+
+#: diskdrake/interactive.pm:1053
+#, c-format
+msgid ""
+"Physical volume %s is still in use.\n"
+"Do you want to move used physical extents on this volume to other volumes?"
+msgstr ""
+"Fizični nosilec %s je še vedno v uporabi.\n"
+"Želite premakniti uporabljane fizične razširitve s tega nosilca na druge "
+"nosilce?"
+
+#: diskdrake/interactive.pm:1055
+#, c-format
+msgid "Moving physical extents"
+msgstr "Premikanje fizičnih razširitev"
+
+#: diskdrake/interactive.pm:1073
+#, c-format
+msgid "This partition cannot be used for loopback"
+msgstr "Tega razdelka ne morete uporabiti za povratno datoteko."
+
+#: diskdrake/interactive.pm:1086
+#, c-format
+msgid "Loopback"
+msgstr "Povratna datoteka"
+
+#: diskdrake/interactive.pm:1087
+#, c-format
+msgid "Loopback file name: "
+msgstr "Ime povratne datoteke: "
+
+#: diskdrake/interactive.pm:1092
+#, c-format
+msgid "Give a file name"
+msgstr "Vnesite ime datoteke"
+
+#: diskdrake/interactive.pm:1095
+#, c-format
+msgid "File is already used by another loopback, choose another one"
+msgstr "Ta datoteka je že uporabljena kot povratna datoteka, izberite drugo."
+
+#: diskdrake/interactive.pm:1096
+#, c-format
+msgid "File already exists. Use it?"
+msgstr "Datoteka že obstaja. Jo uporabim?"
+
+#: diskdrake/interactive.pm:1128 diskdrake/interactive.pm:1131
+#, c-format
+msgid "Mount options"
+msgstr "Možnosti priklopa"
+
+#: diskdrake/interactive.pm:1138
+#, c-format
+msgid "Various"
+msgstr "Dodatne možnosti"
+
+#: diskdrake/interactive.pm:1184
+#, c-format
+msgid "device"
+msgstr "naprava"
+
+#: diskdrake/interactive.pm:1185
+#, c-format
+msgid "level"
+msgstr "raven"
+
+#: diskdrake/interactive.pm:1186
+#, c-format
+msgid "chunk size in KiB"
+msgstr "velikost dela v KiB"
+
+#: diskdrake/interactive.pm:1204
+#, c-format
+msgid "Be careful: this operation is dangerous."
+msgstr "Previdno: Ta operacija je nevarna."
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "Partitioning Type"
+msgstr "Vrsta razdelitve"
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "What type of partitioning?"
+msgstr "Vrsta razdelitve?"
+
+#: diskdrake/interactive.pm:1258
+#, c-format
+msgid "You'll need to reboot before the modification can take effect"
+msgstr "Za uveljavitev sprememb je potreben ponoven zagon računalnika."
+
+#: diskdrake/interactive.pm:1267
+#, c-format
+msgid "Partition table of drive %s is going to be written to disk"
+msgstr "Razdelitvena tabela pogona %s bo zapisana na disk"
+
+#: diskdrake/interactive.pm:1286 fs/format.pm:106 fs/format.pm:113
+#, c-format
+msgid "Formatting partition %s"
+msgstr "Formatiranje razdelka %s"
+
+#: diskdrake/interactive.pm:1299
+#, c-format
+msgid "After formatting partition %s, all data on this partition will be lost"
+msgstr ""
+"Po formatiranju razdelka %s bodo vsi podatki na tem razdelku izgubljeni."
+
+#: diskdrake/interactive.pm:1313 fs/partitioning.pm:48
+#, c-format
+msgid "Check for bad blocks?"
+msgstr "Ali želite preveriti obstoj slabih blokov?"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Move files to the new partition"
+msgstr "Premakni datoteke na novi razdelek"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Hide files"
+msgstr "Skrij datoteke"
+
+#: diskdrake/interactive.pm:1329
+#, c-format
+msgid ""
+"Directory %s already contains data\n"
+"(%s)\n"
+"\n"
+"You can either choose to move the files into the partition that will be "
+"mounted there or leave them where they are (which results in hiding them by "
+"the contents of the mounted partition)"
+msgstr ""
+"Mapa %s že vsebuje podatke\n"
+"(%s)\n"
+"\n"
+"Lahko jih premaknete na razdelek, ki bo priklopljen, lahko pa jih tudi "
+"pustite, kjer so. (V tem primeru jih bo prikrila vsebina priklopljenega "
+"razdelka.)"
+
+#: diskdrake/interactive.pm:1344
+#, c-format
+msgid "Moving files to the new partition"
+msgstr "Premikanje podatkov na novi razdelek"
+
+#: diskdrake/interactive.pm:1348
+#, c-format
+msgid "Copying %s"
+msgstr "Kopiranje %s"
+
+#: diskdrake/interactive.pm:1352
+#, c-format
+msgid "Removing %s"
+msgstr "Odstranjevanje %s"
+
+#: diskdrake/interactive.pm:1366
+#, c-format
+msgid "partition %s is now known as %s"
+msgstr "Razdelek %s ima novo oznako %s"
+
+#: diskdrake/interactive.pm:1367
+#, c-format
+msgid "Partitions have been renumbered: "
+msgstr "Razdelki so bili preštevilčeni"
+
+#: diskdrake/interactive.pm:1392 diskdrake/interactive.pm:1457
+#, c-format
+msgid "Device: "
+msgstr "Naprava: "
+
+#: diskdrake/interactive.pm:1393
+#, c-format
+msgid "Volume label: "
+msgstr "Oznaka razdelka: "
+
+#: diskdrake/interactive.pm:1394
+#, c-format
+msgid "UUID: "
+msgstr "UUID: "
+
+#: diskdrake/interactive.pm:1395
+#, c-format
+msgid "DOS drive letter: %s (just a guess)\n"
+msgstr "Črka pogona DOS: %s (ugibanje)\n"
+
+#: diskdrake/interactive.pm:1399 diskdrake/interactive.pm:1476
+#, c-format
+msgid "Type: "
+msgstr "Vrsta: "
+
+#: diskdrake/interactive.pm:1401
+#, c-format
+msgid "Start: sector %s\n"
+msgstr "Začetni sektor %s\n"
+
+#: diskdrake/interactive.pm:1403
+#, c-format
+msgid "Size: %s (%s%% of disk)"
+msgstr "Velikost: %s (%s%% od diska)"
+
+#: diskdrake/interactive.pm:1405
+#, c-format
+msgid "Size: %s"
+msgstr "Velikost: %s"
+
+#: diskdrake/interactive.pm:1407
+#, c-format
+msgid ", %s sectors"
+msgstr ", %s sektorjev"
+
+#: diskdrake/interactive.pm:1409
+#, c-format
+msgid "Cylinder %d to %d\n"
+msgstr "Cilinder %d do %d\n"
+
+#: diskdrake/interactive.pm:1410
+#, c-format
+msgid "Number of logical extents: %d\n"
+msgstr "Število logičnih razširitev: %d\n"
+
+#: diskdrake/interactive.pm:1411
+#, c-format
+msgid "Formatted\n"
+msgstr "Formatirano\n"
+
+#: diskdrake/interactive.pm:1412
+#, c-format
+msgid "Not formatted\n"
+msgstr "Neformatirano\n"
+
+#: diskdrake/interactive.pm:1413
+#, c-format
+msgid "Mounted\n"
+msgstr "Priklopljeno\n"
+
+#: diskdrake/interactive.pm:1414
+#, c-format
+msgid "RAID %s\n"
+msgstr "RAID %s\n"
+
+#: diskdrake/interactive.pm:1416
+#, c-format
+msgid "Encrypted"
+msgstr "Šifrirano"
+
+#: diskdrake/interactive.pm:1418
+#, c-format
+msgid " (mapped on %s)"
+msgstr " (preslikano na %s)"
+
+#: diskdrake/interactive.pm:1419
+#, c-format
+msgid " (to map on %s)"
+msgstr " (bo preslikano na %s)"
+
+#: diskdrake/interactive.pm:1420
+#, c-format
+msgid " (inactive)"
+msgstr " (nedejaven)"
+
+#: diskdrake/interactive.pm:1427
+#, c-format
+msgid ""
+"Loopback file(s):\n"
+"   %s\n"
+msgstr ""
+"Povratne datoteke:\n"
+"   %s\n"
+
+#: diskdrake/interactive.pm:1428
+#, c-format
+msgid ""
+"Partition booted by default\n"
+"    (for MS-DOS boot, not for lilo)\n"
+msgstr ""
+"Privzeti zagonski razdelek\n"
+"    (za zagon MS-DOS, ne za lilo)\n"
+
+#: diskdrake/interactive.pm:1430
+#, c-format
+msgid "Level %s\n"
+msgstr "Raven %s\n"
+
+#: diskdrake/interactive.pm:1431
+#, c-format
+msgid "Chunk size %d KiB\n"
+msgstr "Velikost dela %d KiB\n"
+
+#: diskdrake/interactive.pm:1432
+#, c-format
+msgid "RAID-disks %s\n"
+msgstr "RAID-diski %s\n"
+
+#: diskdrake/interactive.pm:1434
+#, c-format
+msgid "Loopback file name: %s"
+msgstr "Ime povratne datoteke: %s"
+
+#: diskdrake/interactive.pm:1437
+#, c-format
+msgid ""
+"\n"
+"Chances are, this partition is\n"
+"a Driver partition. You should\n"
+"probably leave it alone.\n"
+msgstr ""
+"\n"
+"Lahko, da je to razdelek\n"
+"z gonilniki. Najbolje bo,\n"
+"da ga ne spreminjate.\n"
+
+#: diskdrake/interactive.pm:1440
+#, c-format
+msgid ""
+"\n"
+"This special Bootstrap\n"
+"partition is for\n"
+"dual-booting your system.\n"
+msgstr ""
+"\n"
+"To je posebni razdelek\n"
+"za začetno nalaganje, ki\n"
+"se uporablja za dvojni zagon.\n"
+
+#: diskdrake/interactive.pm:1449
+#, c-format
+msgid "Free space on %s (%s)"
+msgstr "Prazen prostor na %s (%s)"
+
+#: diskdrake/interactive.pm:1458
+#, c-format
+msgid "Read-only"
+msgstr "Samo za branje"
+
+#: diskdrake/interactive.pm:1459
+#, c-format
+msgid "Size: %s\n"
+msgstr "Velikost: %s\n"
+
+#: diskdrake/interactive.pm:1460
+#, c-format
+msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+msgstr "Geometrija: %s cilindrov, %s glav, %s sektorjev\n"
+
+#: diskdrake/interactive.pm:1461
+#, c-format
+msgid "Name: "
+msgstr "Ime: "
+
+#: diskdrake/interactive.pm:1462
+#, c-format
+msgid "Medium type: "
+msgstr "Vrsta nosilca: "
+
+#: diskdrake/interactive.pm:1463
+#, c-format
+msgid "LVM-disks %s\n"
+msgstr "LVM-diski %s\n"
+
+#: diskdrake/interactive.pm:1464
+#, c-format
+msgid "Partition table type: %s\n"
+msgstr "Vrsta razdelitvene tabele: %s\n"
+
+#: diskdrake/interactive.pm:1465
+#, c-format
+msgid "on channel %d id %d\n"
+msgstr "na kanalu %d id %d\n"
+
+#: diskdrake/interactive.pm:1509
+#, c-format
+msgid "Choose your filesystem encryption key"
+msgstr "Izberite šifrirni ključ datotečnega sistema"
+
+#: diskdrake/interactive.pm:1512
+#, c-format
+msgid "This encryption key is too simple (must be at least %d characters long)"
+msgstr ""
+"Šifrirni ključ datotečnega sistema je preveč preprost.(vsebovati mora vsaj "
+"%d znakov)"
+
+#: diskdrake/interactive.pm:1519
+#, c-format
+msgid "Encryption algorithm"
+msgstr "Algoritem za šifriranje"
+
+#: diskdrake/removable.pm:46
+#, c-format
+msgid "Change type"
+msgstr "Spremeni vrsto"
+
+#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:120 interactive.pm:675
+#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
+#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846
+#: mygtk2.pm:1229 mygtk3.pm:928 mygtk3.pm:1312 ugtk2.pm:415 ugtk2.pm:517
+#: ugtk2.pm:526 ugtk2.pm:810 ugtk3.pm:501 ugtk3.pm:591 ugtk3.pm:600
+#: ugtk3.pm:906
+#, c-format
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: diskdrake/smbnfs_gtk.pm:164
+#, c-format
+msgid "Cannot login using username %s (bad password?)"
+msgstr "Z uporabniškim imenom %s se ni mogoče prijaviti (napačno geslo?)"
+
+#: diskdrake/smbnfs_gtk.pm:168 diskdrake/smbnfs_gtk.pm:177
+#, c-format
+msgid "Domain Authentication Required"
+msgstr "Potrebna je overitev domene."
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Which username"
+msgstr "Katero uporabniško ime?"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Another one"
+msgstr "Drugo"
+
+#: diskdrake/smbnfs_gtk.pm:178
+#, c-format
+msgid ""
+"Please enter your username, password and domain name to access this host."
+msgstr ""
+"Vnesite svoje uporabniško ime, geslo in domeno za dostop do gostitelja."
+
+#: diskdrake/smbnfs_gtk.pm:180
+#, c-format
+msgid "Username"
+msgstr "Uporabniško ime"
+
+#: diskdrake/smbnfs_gtk.pm:182
+#, c-format
+msgid "Domain"
+msgstr "Domena"
+
+#: diskdrake/smbnfs_gtk.pm:206
+#, c-format
+msgid "Search servers"
+msgstr "Iskanje strežnikov"
+
+#: diskdrake/smbnfs_gtk.pm:211
+#, c-format
+msgid "Search for new servers"
+msgstr "Iskanje novih strežnikov"
+
+#: do_pkgs.pm:45 do_pkgs.pm:100
+#, c-format
+msgid "The package %s needs to be installed. Do you want to install it?"
+msgstr "Potrebno je namestiti paket %s. Naj ga namestim?"
+
+#: do_pkgs.pm:49 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:142
+#, c-format
+msgid "Could not install the %s package!"
+msgstr "Paketa %s ni mogoče namestiti!"
+
+#: do_pkgs.pm:54 do_pkgs.pm:108
+#, c-format
+msgid "Mandatory package %s is missing"
+msgstr "Manjka nepogrešljivi paket %s."
+
+#: do_pkgs.pm:74 do_pkgs.pm:137
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Namestiti je treba naslednje pakete:\n"
+
+#: do_pkgs.pm:342
+#, c-format
+msgid "Installing packages..."
+msgstr "Nameščanje paketov …"
+
+#: do_pkgs.pm:387 pkgs.pm:293
+#, c-format
+msgid "Removing packages..."
+msgstr "Odstranjevanje paketov …"
+
+#: fs/any.pm:21
+#, c-format
+msgid ""
+"An error occurred - no valid devices were found on which to create new "
+"filesystems. Please check your hardware for the cause of this problem"
+msgstr ""
+"Napaka - ni nobene naprave, na kateri bi bilo mogoče ustvariti nov datotečni "
+"sistem. Preverite strojno opremo, če je vzrok za to."
+
+#: fs/any.pm:77 fs/partitioning_wizard.pm:77
+#, c-format
+msgid "You must have a ESP FAT32 partition mounted in /boot/EFI"
+msgstr "Imeti morate priklopljen razdelek ESP FAT32 na /boot/EFI"
+
+#: fs/any.pm:81 fs/partitioning_wizard.pm:82
+#, c-format
+msgid ""
+"You must have a BIOS boot partition for non-UEFI GPT-partitioned disks. "
+"Please create one before continuing."
+msgstr ""
+"če nameščate brez podpore načina UEFI, potrebujete za diske z razdelitvijo "
+"GPT še razdelek Boot BIOS. Ustvarite ga preden nadaljujete."
+
+#: fs/format.pm:110
+#, c-format
+msgid "Creating and formatting file %s"
+msgstr "Ustvarjanje in formatiranje datoteke %s"
+
+#: fs/format.pm:130
+#, c-format
+msgid "I do not know how to set label on %s with type %s"
+msgstr "Program ne more nastaviti oznake za %s, z vrsto %s"
+
+#: fs/format.pm:142
+#, c-format
+msgid "setting label on %s failed, is it formatted?"
+msgstr "nastavljanje oznake za %s ni uspelo. Ali je formatiran?"
+
+#: fs/format.pm:190
+#, c-format
+msgid "I do not know how to format %s in type %s"
+msgstr "Program ne more formatirati %s z vrsto %s. "
+
+#: fs/format.pm:195 fs/format.pm:197
+#, c-format
+msgid "%s formatting of %s failed"
+msgstr "%s formatiranje %s ni uspelo"
+
+#: fs/loopback.pm:24
+#, c-format
+msgid "Circular mounts %s\n"
+msgstr "Krožni priklop %s\n"
+
+#: fs/mount.pm:85
+#, c-format
+msgid "Mounting partition %s"
+msgstr "Priklapljanje razdelka %s"
+
+#: fs/mount.pm:87
+#, c-format
+msgid "mounting partition %s in directory %s failed"
+msgstr "Priklapljanje razdelka %s v mapo %s ni uspelo. "
+
+#: fs/mount.pm:92 fs/mount.pm:109
+#, c-format
+msgid "Checking %s"
+msgstr "Preverjanje %s"
+
+#: fs/mount.pm:126 partition_table.pm:399
+#, c-format
+msgid "error unmounting %s: %s"
+msgstr "napaka pri odklapljanju %s: %s"
+
+#: fs/mount.pm:141
+#, c-format
+msgid "Enabling swap partition %s"
+msgstr "Omogočanje izmenjalnega razdelka (swap) %s"
+
+#: fs/mount_options.pm:114
+#, c-format
+msgid "Enable POSIX Access Control Lists"
+msgstr "Omogoči sezname za nadzor dostopa (ACL) po standardu POSIX"
+
+#: fs/mount_options.pm:116
+#, c-format
+msgid "Flush write cache on file close"
+msgstr "Ob zaprtju datoteke zapis predpomnilnika za pisanje na disk"
+
+#: fs/mount_options.pm:118
+#, c-format
+msgid "Enable group disk quota accounting and optionally enforce limits"
+msgstr ""
+"Spremljanje omejitev prostora na diskih za skupine in izbirno uveljavitev "
+"omejitev."
+
+#: fs/mount_options.pm:120
+#, c-format
+msgid ""
+"Do not update inode access times on this filesystem\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"Brez sprememb časa dostopanja do podatkovne strukture (inode)\n"
+"na tem datotečnem sistemu.\n"
+"(npr. za hitrejši dostop do vrstilnika novic na novičarskih strežnikov)."
+
+#: fs/mount_options.pm:123
+#, c-format
+msgid ""
+"Update inode access times on this filesystem in a more efficient way\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"Posodabljanje časa dostopanja do podatkovne strukture (inode) na tem "
+"datotečnem sistemu na bolj učinkovit način.\n"
+"(n.pr. za hitrejši dostop do novičarskih strežnikov)."
+
+#: fs/mount_options.pm:126
+#, c-format
+msgid ""
+"Can only be mounted explicitly (i.e.,\n"
+"the -a option will not cause the filesystem to be mounted)."
+msgstr ""
+"Priklop mogoč samo na izrecno zahtevo\n"
+"(možnost -a ne bo povzročila priklopa tega datototečnega sistema)."
+
+#: fs/mount_options.pm:129
+#, c-format
+msgid "Do not interpret character or block special devices on the filesystem."
+msgstr ""
+"Brez tolmačenja znakovnih ali posebnih blokovnih naprav v datotečnem sistemu."
+
+#: fs/mount_options.pm:131
+#, c-format
+msgid ""
+"Do not allow execution of any binaries on the mounted\n"
+"filesystem. This option might be useful for a server that has filesystems\n"
+"containing binaries for architectures other than its own."
+msgstr ""
+"Ne dovoli zagona izvedljivih programov na priklopljenem datotečnem\n"
+"sistemu. Ta nastavitev je koristna pri strežnikih z datotečnimi sistemi,\n"
+"ki vsebujejo izvedljive programe za drugačno arhitekturo od njihove."
+
+#: fs/mount_options.pm:135
+#, c-format
+msgid ""
+"Do not allow set-user-identifier or set-group-identifier\n"
+"bits to take effect. (This seems safe, but is in fact rather unsafe if you\n"
+"have suidperl(1) installed.)"
+msgstr ""
+"Ne dovoli, da bita set-user-identifier in set-group-identifier delujeta.\n"
+"(To se zdi varno, a je pravzaprav nevarno, če imate nameščen\n"
+"suidperl(1).)"
+
+#: fs/mount_options.pm:139
+#, c-format
+msgid "Mount the filesystem read-only."
+msgstr "Datotečni sistem priklopi samo za branje."
+
+#: fs/mount_options.pm:141
+#, c-format
+msgid "All I/O to the filesystem should be done synchronously."
+msgstr ""
+"Vsa branja z in pisanja na datotečni sistem morajo biti izvedena usklajeno."
+
+#: fs/mount_options.pm:143
+#, c-format
+msgid "Allow every user to mount and umount the filesystem."
+msgstr "Dovoli priklop in odklop datotečnega sistema vsem uporabnikom."
+
+#: fs/mount_options.pm:145
+#, c-format
+msgid "Allow an ordinary user to mount the filesystem."
+msgstr "Dovoli priklop in odklop datotečnega sistema navadnemu uporabniku."
+
+#: fs/mount_options.pm:147
+#, c-format
+msgid "Enable user disk quota accounting, and optionally enforce limits"
+msgstr ""
+"Spremljanje omejitev prostora na diskih za uporabnike in izbirno uveljavitev "
+"omejitev."
+
+#: fs/mount_options.pm:149
+#, c-format
+msgid "Support \"user.\" extended attributes"
+msgstr "Podpora za razširjene lastnosti »user.« "
+
+#: fs/mount_options.pm:151
+#, c-format
+msgid "Give write access to ordinary users"
+msgstr "Dovoli zapisovanje navadnim uporabnikom"
+
+#: fs/mount_options.pm:153
+#, c-format
+msgid "Give read-only access to ordinary users"
+msgstr "Dovoli navadnim uporabnikom dostop samo za branje"
+
+#: fs/mount_point.pm:87
+#, c-format
+msgid "Duplicate mount point %s"
+msgstr "Podvojena priklopna točka %s"
+
+#: fs/mount_point.pm:102
+#, c-format
+msgid "No partition available"
+msgstr "Na voljo ni nobenega razdelka."
+
+#: fs/mount_point.pm:105
+#, c-format
+msgid "Scanning partitions to find mount points"
+msgstr "Pregledovanje priklopnih točk razdelkov."
+
+#: fs/mount_point.pm:112
+#, c-format
+msgid "Choose the mount points"
+msgstr "Izberite priklopne točke"
+
+#: fs/partitioning.pm:46
+#, c-format
+msgid "Choose the partitions you want to format"
+msgstr "Izberite razdelke, ki jih želite formatirati"
+
+#: fs/partitioning.pm:75
+#, c-format
+msgid ""
+"Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+"you can lose data)"
+msgstr ""
+"Preverjanje datotečnega sistema %s ni uspelo. Želite popraviti napake? "
+"(Previdno, to lahko povzroči izgubo podatkov!)"
+
+#: fs/partitioning.pm:78
+#, c-format
+msgid "Not enough swap space to fulfill installation, please add some"
+msgstr ""
+"Za nadaljevanje namestitve je premalo izmenjalnega prostora (swap); treba ga "
+"je dodati. "
+
+#: fs/partitioning_wizard.pm:66
+#, c-format
+msgid ""
+"You must have a root partition.\n"
+"To accomplish this, create a partition (or click on an existing one).\n"
+"Then choose action ``Mount point'' and set it to `/'"
+msgstr ""
+"Potrebujete korenski razdelek.\n"
+"Ustvarite nov razdelek (ali izberite obstoječega).\n"
+"Nato izberite »Priklopna točka« in jo nastavite na »/«."
+
+#: fs/partitioning_wizard.pm:72
+#, c-format
+msgid ""
+"You do not have a swap partition.\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"Nimate izmenjalnega razdelka (swap).\n"
+"\n"
+"Naj vseeno nadaljujem?"
+
+#: fs/partitioning_wizard.pm:115
+#, c-format
+msgid "Use free space"
+msgstr "Uporabi razpoložljivi prostor"
+
+#: fs/partitioning_wizard.pm:117
+#, c-format
+msgid "Not enough free space to allocate new partitions"
+msgstr "Za nov razdelek ni dovolj prostega prostora."
+
+#: fs/partitioning_wizard.pm:125
+#, c-format
+msgid "Use existing partitions"
+msgstr "Uporabi obstoječe razdelke"
+
+#: fs/partitioning_wizard.pm:127
+#, c-format
+msgid "There is no existing partition to use"
+msgstr "Nobenega obstoječega razdelka ni mogoče uporabiti."
+
+#: fs/partitioning_wizard.pm:151
+#, c-format
+msgid "Computing the size of the Microsoft Windows® partition"
+msgstr "Preračunavanje velikosti razdelka za Microsoft Windows®."
+
+#: fs/partitioning_wizard.pm:187
+#, c-format
+msgid "Use the free space on a Microsoft Windows® partition"
+msgstr "Uporabi razpoložljivi prostor v razdelku za Windows"
+
+#: fs/partitioning_wizard.pm:191
+#, c-format
+msgid "Which partition do you want to resize?"
+msgstr "Kateremu razdelku želite spremeniti velikost?"
+
+#: fs/partitioning_wizard.pm:194
+#, c-format
+msgid ""
+"Your Microsoft Windows® partition is too fragmented. Please reboot your "
+"computer under Microsoft Windows®, run the ``defrag'' utility, then restart "
+"the %s installation."
+msgstr ""
+"Vaš razdelek za Microsoft Windows® je preveč razdrobljen. Poženite »defrag« "
+"v okolju Microsoft Windows® in znova poskusite namestitev %s."
+
+#: fs/partitioning_wizard.pm:201
+#, c-format
+msgid "Failed to find the partition to resize (%d choices)"
+msgstr "Ni bilo možno najti razdelka za spremembo velikosti (%d izbire)"
+
+#: fs/partitioning_wizard.pm:208
+#, c-format
+msgid ""
+"WARNING!\n"
+"\n"
+"\n"
+"Your Microsoft Windows® partition will be now resized.\n"
+"\n"
+"\n"
+"Be careful: this operation is dangerous. If you have not already done so, "
+"you first need to exit the installation, run \"chkdsk c:\" from a Command "
+"Prompt under Microsoft Windows® (beware, running graphical program \"scandisk"
+"\" is not enough, be sure to use \"chkdsk\" in a Command Prompt!), "
+"optionally run defrag, then restart the installation. You should also backup "
+"your data.\n"
+"\n"
+"\n"
+"When sure, press %s."
+msgstr ""
+"OPOZORILO!\n"
+"\n"
+"\n"
+"DrakX bo sedaj spremenil velikost razdelka za Windows.\n"
+"\n"
+"\n"
+"Bodite previdni: ta operacija lahko povzroči izgubo podatkov. Zato je ta "
+"razdelek prej treba preveriti. Če tega še niste opravili, prekinite "
+"namestitev in v Microsoft Windows® iz ukazne vrstice zaženite "
+"»chdisk« (zagon »scandisk« v grafičnem načinu ne zadošča!). Priporočljiv je "
+"tudi zagon programa za defragmentiranje (defrag). Nato ponovno zaženite "
+"namestitev. Napravite tudi varnostno kopijo podatkov.\n"
+"\n"
+"\n"
+"Če ste prepričani, pritisnite »%s«."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: fs/partitioning_wizard.pm:217 fs/partitioning_wizard.pm:594
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Next"
+msgstr "Naprej"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Partitionning"
+msgstr "Razdelitev diska"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
+msgstr "Kako velik želite obdržati Microsoft Windows® razdelek %s?"
+
+#: fs/partitioning_wizard.pm:224
+#, c-format
+msgid "Size"
+msgstr "Velikost"
+
+#: fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing Microsoft Windows® partition"
+msgstr "Spreminjanje velikosti razdelka za Microsoft Windows®."
+
+#: fs/partitioning_wizard.pm:238
+#, c-format
+msgid "FAT resizing failed: %s"
+msgstr "Spreminjanje velikosti FAT je spodletelo: %s"
+
+#: fs/partitioning_wizard.pm:254
+#, c-format
+msgid "There is no FAT partition to resize (or not enough space left)"
+msgstr ""
+"Ni razdelka FAT, ki bi mu bilo mogoče spremeniti velikost ali za to ni "
+"dovolj prostora."
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Remove Microsoft Windows®"
+msgstr "Odstrani Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Erase and use entire disk"
+msgstr "Zbriši in uporabi celoten disk"
+
+#: fs/partitioning_wizard.pm:263
+#, c-format
+msgid ""
+"You have more than one hard disk drive, which one do you want the installer "
+"to use?"
+msgstr "Imate več trdih diskov. Katerega naj uporabi namestitev?"
+
+#: fs/partitioning_wizard.pm:271 fsedit.pm:638
+#, c-format
+msgid "ALL existing partitions and their data will be lost on drive %s"
+msgstr "VSI razdelki na disku %s in podatki na njih bodo izgubljeni."
+
+#: fs/partitioning_wizard.pm:284
+#, c-format
+msgid "Custom disk partitioning"
+msgstr "Razdeljevanje diska po meri"
+
+#: fs/partitioning_wizard.pm:290
+#, c-format
+msgid "Use fdisk"
+msgstr "Uporabi fdisk"
+
+#: fs/partitioning_wizard.pm:293
+#, c-format
+msgid ""
+"You can now partition %s.\n"
+"When you are done, do not forget to save using `w'"
+msgstr ""
+"Sedaj lahko razdelite %s.\n"
+"Ko zaključite, ne pozabite shraniti sprememb z ukazom »w«."
+
+#: fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Ext2/3/4"
+msgstr "Ext2/3/4"
+
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:614
+#, c-format
+msgid "I cannot find any room for installing"
+msgstr "Za namestitev ni dovolj prostora."
+
+#: fs/partitioning_wizard.pm:475 fs/partitioning_wizard.pm:621
+#, c-format
+msgid "The DrakX Partitioning wizard found the following solutions:"
+msgstr "Čarovnik za razdeljevanje diska je našel naslednje rešitve:"
+
+#: fs/partitioning_wizard.pm:545
+#, c-format
+msgid "Here is the content of your disk drive "
+msgstr "To je vsebina trdega diska "
+
+#: fs/partitioning_wizard.pm:632
+#, c-format
+msgid "Partitioning failed: %s"
+msgstr "Razdeljevanje je spodletelo: %s"
+
+#: fs/type.pm:382
+#, c-format
+msgid "You cannot use JFS for partitions smaller than 16MB"
+msgstr "Na razdelkih, manjših od 16MB, ne morete uporabiti JFS"
+
+#: fs/type.pm:383
+#, c-format
+msgid "You cannot use ReiserFS for partitions smaller than 32MB"
+msgstr "Na razdelkih, manjših od 32MB, ne morete uporabiti ReiserFS"
+
+#: fs/type.pm:384
+#, c-format
+msgid "You cannot use btrfs for partitions smaller than 256MB"
+msgstr "Na razdelkih, manjših od 256MB, ne morete uporabiti btrfs"
+
+#: fsedit.pm:25
+#, c-format
+msgid "simple"
+msgstr "preprosto"
+
+#: fsedit.pm:29
+#, c-format
+msgid "with /usr"
+msgstr "z /usr"
+
+#: fsedit.pm:34
+#, c-format
+msgid "server"
+msgstr "strežnik"
+
+#: fsedit.pm:157
+#, c-format
+msgid "BIOS software RAID detected on disks %s. Activate it?"
+msgstr "Na diskih %s je zaznan programski BIOS RAID. Naj ga omogočim?"
+
+#: fsedit.pm:267
+#, c-format
+msgid ""
+"I cannot read the partition table of device %s, it's too corrupted for me :"
+"(\n"
+"I can try to go on, erasing over bad partitions (ALL DATA will be lost!).\n"
+"The other solution is to not allow DrakX to modify the partition table.\n"
+"(the error is %s)\n"
+"\n"
+"Do you agree to lose all the partitions?\n"
+msgstr ""
+"Razdelitvene tabele naprave %s ni mogoče prebrati, ker ima preveč napak.\n"
+"Nadaljevanje je možno z brisanjem slabih razdelkov. (VSI PODATKI BODO "
+"IZGUBLJENI!).\n"
+"Druga možnost je, da orodju DrakX ne dovolite spreminjanja razdelitvene "
+"tabele.\n"
+"(Napaka je %s)\n"
+"\n"
+"Ali soglašate z izgubo vseh razdelkov?\n"
+
+#: fsedit.pm:450
+#, c-format
+msgid "Mount points must begin with a leading /"
+msgstr "Priklopne točke se morajo začeti z /"
+
+#: fsedit.pm:451
+#, c-format
+msgid "Mount points should contain only alphanumerical characters"
+msgstr "Priklopne točke smejo vsebovati samo alfanumerične znake."
+
+#: fsedit.pm:452
+#, c-format
+msgid "There is already a partition with mount point %s\n"
+msgstr "Razdelek s priklopno točko %s že obstaja.\n"
+
+#: fsedit.pm:455
+#, c-format
+msgid ""
+"You've selected an encrypted partition as root (/).\n"
+"No bootloader is able to handle this without a /boot partition.\n"
+"Please be sure to add a separate /boot partition"
+msgstr ""
+"Za korenski (/) razdelek ste izbrali šifriran razdelek.\n"
+"Nobeden zagonski nalagalnik ne podpira tega brez ločenega razdelka /boot.\n"
+"Ne pozabite ga dodati."
+
+#: fsedit.pm:461 fsedit.pm:472
+#, c-format
+msgid "You cannot use an encrypted filesystem for mount point %s"
+msgstr ""
+"Za priklopno točko %s ni mogoče uporabiti šifriranega datotečnega sistema."
+
+#: fsedit.pm:464 fsedit.pm:466
+#, c-format
+msgid "This directory should remain within the root filesystem"
+msgstr "Ta imenik bi moral ostati v okviru korenskega datotečnega sistema."
+
+#: fsedit.pm:468 fsedit.pm:470
+#, c-format
+msgid ""
+"You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
+"point\n"
+msgstr ""
+"Za to priklopno točko potrebujete pravi datotečni sistem (ext2/ext3, "
+"reiserfs, xfs, ali jfs)\n"
+
+#: fsedit.pm:538
+#, c-format
+msgid "Not enough free space for auto-allocating"
+msgstr "Za samodejno razdeljevanje ni dovolj prostora."
+
+#: fsedit.pm:540
+#, c-format
+msgid "Nothing to do"
+msgstr "Ni opravil."
+
+#: harddrake/data.pm:62
+#, c-format
+msgid "SATA controllers"
+msgstr "Krmilniki SATA"
+
+#: harddrake/data.pm:72
+#, c-format
+msgid "RAID controllers"
+msgstr "Krmilniki RAID"
+
+#: harddrake/data.pm:82
+#, c-format
+msgid "(E)IDE/ATA controllers"
+msgstr "Krmilniki (E)IDE/ATA"
+
+#: harddrake/data.pm:93
+#, c-format
+msgid "Card readers"
+msgstr "Bralniki kartic"
+
+#: harddrake/data.pm:102
+#, c-format
+msgid "Firewire controllers"
+msgstr "Krmilniki Firewire"
+
+#: harddrake/data.pm:111
+#, c-format
+msgid "PCMCIA controllers"
+msgstr "Krmilniki PCMCIA"
+
+#: harddrake/data.pm:120
+#, c-format
+msgid "SCSI controllers"
+msgstr "Krmilniki SCSI"
+
+#: harddrake/data.pm:129
+#, c-format
+msgid "USB controllers"
+msgstr "Krmilniki USB"
+
+#: harddrake/data.pm:138
+#, c-format
+msgid "USB ports"
+msgstr "Vrata USB"
+
+#: harddrake/data.pm:147
+#, c-format
+msgid "SMBus controllers"
+msgstr "Krmilniki SMBus"
+
+#: harddrake/data.pm:156
+#, c-format
+msgid "Bridges and system controllers"
+msgstr "Mostički in sistemski krmilniki"
+
+#: harddrake/data.pm:168
+#, c-format
+msgid "Floppy"
+msgstr "Disketna enota"
+
+#: harddrake/data.pm:178
+#, c-format
+msgid "Zip"
+msgstr "Zip"
+
+#: harddrake/data.pm:194
+#, c-format
+msgid "Hard Disk"
+msgstr "Trdi disk"
+
+#: harddrake/data.pm:204
+#, c-format
+msgid "USB Mass Storage Devices"
+msgstr "USB naprave za shranjevanje"
+
+#: harddrake/data.pm:213
+#, c-format
+msgid "CDROM"
+msgstr "CDROM"
+
+#: harddrake/data.pm:223
+#, c-format
+msgid "CD/DVD burners"
+msgstr "Zapisovalniki CD/DVD"
+
+#: harddrake/data.pm:233
+#, c-format
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: harddrake/data.pm:243
+#, c-format
+msgid "Tape"
+msgstr "Tračna enota"
+
+#: harddrake/data.pm:254
+#, c-format
+msgid "AGP controllers"
+msgstr "Krmilniki AGP"
+
+#: harddrake/data.pm:263
+#, c-format
+msgid "Videocard"
+msgstr "Grafična kartica"
+
+#: harddrake/data.pm:272
+#, c-format
+msgid "DVB card"
+msgstr "Kartica DVB"
+
+#: harddrake/data.pm:280
+#, c-format
+msgid "Tvcard"
+msgstr "TV kartica"
+
+#: harddrake/data.pm:290
+#, c-format
+msgid "Other MultiMedia devices"
+msgstr "Druge naprave za grafiko, video in zvok"
+
+#: harddrake/data.pm:299
+#, c-format
+msgid "Soundcard"
+msgstr "Zvočna kartica"
+
+#: harddrake/data.pm:313
+#, c-format
+msgid "Webcam"
+msgstr "Spletna kamera"
+
+#: harddrake/data.pm:328
+#, c-format
+msgid "Processors"
+msgstr "Procesne enote"
+
+#: harddrake/data.pm:338
+#, c-format
+msgid "ISDN adapters"
+msgstr "Vmesniki ISDN"
+
+#: harddrake/data.pm:349
+#, c-format
+msgid "USB sound devices"
+msgstr "Zvočne naprave USB"
+
+#: harddrake/data.pm:358
+#, c-format
+msgid "Radio cards"
+msgstr "Radijske kartice"
+
+#: harddrake/data.pm:367
+#, c-format
+msgid "ATM network cards"
+msgstr "Kartice za omrežja ATM"
+
+#: harddrake/data.pm:376
+#, c-format
+msgid "WAN network cards"
+msgstr "Kartice za omrežja WAN"
+
+#: harddrake/data.pm:385
+#, c-format
+msgid "Bluetooth devices"
+msgstr "Naprave Blootooth"
+
+#: harddrake/data.pm:394
+#, c-format
+msgid "Ethernetcard"
+msgstr "Mrežna kartica"
+
+#: harddrake/data.pm:412
+#, c-format
+msgid "Modem"
+msgstr "Modem"
+
+#: harddrake/data.pm:422
+#, c-format
+msgid "ADSL adapters"
+msgstr "Vmesniki ADSL"
+
+#: harddrake/data.pm:434
+#, c-format
+msgid "Memory"
+msgstr "Pomnilnik"
+
+#: harddrake/data.pm:443
+#, c-format
+msgid "Printer"
+msgstr "Tiskalnik"
+
+#. -PO: these are joysticks controllers:
+#: harddrake/data.pm:457
+#, c-format
+msgid "Game port controllers"
+msgstr "Krmilniki za igralna vrata"
+
+#: harddrake/data.pm:466
+#, c-format
+msgid "Joystick"
+msgstr "Igralna palica"
+
+#: harddrake/data.pm:476
+#, c-format
+msgid "Keyboard"
+msgstr "Tipkovnica"
+
+#: harddrake/data.pm:490
+#, c-format
+msgid "Tablet and touchscreen"
+msgstr "Tablični in zasloni, občutljivi na dotik"
+
+#: harddrake/data.pm:499
+#, c-format
+msgid "Mouse"
+msgstr "Miška"
+
+#: harddrake/data.pm:514
+#, c-format
+msgid "Biometry"
+msgstr "Biometrija"
+
+#: harddrake/data.pm:522
+#, c-format
+msgid "UPS"
+msgstr "Naprave za rezervno napajanje (UPS)"
+
+#: harddrake/data.pm:531
+#, c-format
+msgid "Scanner"
+msgstr "Optični bralnik"
+
+#: harddrake/data.pm:542
+#, c-format
+msgid "Unknown/Others"
+msgstr "Neznane naprave"
+
+#: harddrake/data.pm:572
+#, c-format
+msgid "cpu # "
+msgstr "Centralna procesna enota # "
+
+#: harddrake/sound.pm:80
+#, c-format
+msgid "No known driver"
+msgstr "Ni znanega gonilnika"
+
+#: harddrake/sound.pm:81
+#, c-format
+msgid "There's no known driver for your sound card (%s)"
+msgstr "Za to zvočno kartico ni znanega gonilnika (%s)"
+
+#: harddrake/sound.pm:110
+#, c-format
+msgid "Enable PulseAudio"
+msgstr "Omogoči PulseAudio"
+
+#: harddrake/sound.pm:115
+#, c-format
+msgid "Use Glitch-Free mode"
+msgstr "Uporabi način brez napak"
+
+#: harddrake/sound.pm:121
+#, c-format
+msgid "Reset sound mixer to default values"
+msgstr "Ponastavi mešalko na privzete vrednosti in glasnosti"
+
+#: harddrake/sound.pm:125
+#, c-format
+msgid "Troubleshooting"
+msgstr "Odpravljanje napak"
+
+#: harddrake/sound.pm:132
+#, c-format
+msgid "No alternative driver"
+msgstr "Ne najdem nadomestnega gonilnika"
+
+#: harddrake/sound.pm:133
+#, c-format
+msgid ""
+"There's no known OSS/ALSA alternative driver for your sound card (%s) which "
+"currently uses \"%s\""
+msgstr ""
+"Ne najdem OSS/ALSA nadomestnega gonilnika za zvočno kartico (%s), ki "
+"trenutno uporablja »%s« "
+
+#: harddrake/sound.pm:140
+#, c-format
+msgid "Sound configuration"
+msgstr "Nastavitve zvočnega sistema"
+
+#: harddrake/sound.pm:144
+#, c-format
+msgid "Your card uses the \"%s\" driver"
+msgstr "Strojna oprema uporablja gonilnik \"%s\""
+
+#: harddrake/sound.pm:156
+#, c-format
+msgid "Sound troubleshooting"
+msgstr "Odpravljanje napak pri zvoku"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: harddrake/sound.pm:159
+#, c-format
+msgid ""
+"Below are some basic tips to help debug audio problems, but for accurate and "
+"up-to-date tips and tricks, please see:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- General Recommendation: Enable PulseAudio. If you have opted to not to use "
+"PulseAudio, we would strongly advise you enable it. For the vast majority of "
+"desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pavucontrol"
+"\" (generic) will launch graphical applications to allow you to view your "
+"sound devices and adjust volume levels\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.\n"
+"\n"
+"\n"
+"- \"pactl stat\" will check that you can connect to the PulseAudio daemon "
+"correctly.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" will tell you which programs are currently "
+"playing sound via PulseAudio.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" will tell you the current state of the "
+"OSS Proxy Daemon. This is used to enable sound from legacy applications "
+"which use the OSS sound API. You should install the \"ossp\" package if you "
+"need this functionality.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" will give you a LOT of debug information about the current "
+"state of your audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver "
+"your card uses by default.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound "
+"related kernel modules (drivers) are loaded.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA "
+"mixer controls for first sound card\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are "
+"currently using the sound card directly (normally this should only show "
+"PulseAudio)\n"
+msgstr ""
+"Spodaj je nekaj osnovnih nasvetov za pomoč pri odpravljanju težav z zvokom, "
+"a natančne in sveže nasvete si oglejte na wiki strani:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- Splošno priporočilo: omogočite PulseAudio. To vam toplo priporočamo, tudi "
+"če ste se odločili, da ga ne boste uporabljali. Za veliko večino primerov "
+"uporabe namiznega računalnika je PulseAudio priporočljiva in najbolj podprta "
+"možnost.\n"
+"\n"
+"\n"
+"Ukaz:\n"
+"- »kmix« (za KDE), »gnome-control-center sound« (za GNOME) ali "
+"»pavucontrol« (za vsa namizna okolja) bo zagnal pripadajoč grafičen program "
+"za ogled vaših zvočnih naprav in nastavitev nivojev glasnosti,\n"
+"\n"
+"\n"
+"- »ps aux | grep pulseaudio« bo preveril, da PulseAudio teče,\n"
+"\n"
+"\n"
+"- »pactl stat« preveri ali je povezava z ozadnjim programom PulseAudio "
+"uspešna,\n"
+"\n"
+"\n"
+"- »pactl list sink-inputs« izpiše kateri programi trenutno predvajajo zvok "
+"prek programa PulseAudio,\n"
+"\n"
+"\n"
+"- »systemctl status osspd.service« vam bo povedal trenutno stanje ozadnjega "
+"programa »OSS Proxy«. Ta se uporablja pri starejših programov, ki kličejo le "
+"zvočni programski vmesnik OSS. Za to funkcionalnost morate namestiti paket "
+"»ossp«.\n"
+"\n"
+"\n"
+"- »pacmd ls« izpiše podrobne infomacije o trenutnem stanju zvočnega "
+"sistema,\n"
+"\n"
+"\n"
+"- »lspcidrake -v | grep -i audio« izpiše izpiše kateri nizkonivojski "
+"gonilnik privzeto uporablja zvočna kartica,\n"
+"\n"
+"\n"
+"- »/usr/sbin/lsmod | grep snd« izpiše naložene module (gonilnike) jedra, ki "
+"so povezani z zvokom,\n"
+"\n"
+"\n"
+"- »alsamixer -c 0« odpre tekstovno mešalko za nizkonivojsko kontrolo ALSA "
+"prve zvočne kartice,\n"
+"\n"
+"\n"
+"- »/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp« izpiše programe, ki trenutno "
+"direktno dostopajo do zvočne kartice (običajno naj bi bil le PulseAudio)\n"
+
+#: harddrake/v4l.pm:12
+#, c-format
+msgid "Auto-detect"
+msgstr "Samodejna zaznava"
+
+#: harddrake/v4l.pm:97 harddrake/v4l.pm:285 harddrake/v4l.pm:337
+#, c-format
+msgid "Unknown|Generic"
+msgstr "Neznano|Generično"
+
+#: harddrake/v4l.pm:130
+#, c-format
+msgid "Unknown|CPH05X (bt878) [many vendors]"
+msgstr "Neznano|CPH05X (bt878) [različni proizvajalci]"
+
+#: harddrake/v4l.pm:131
+#, c-format
+msgid "Unknown|CPH06X (bt878) [many vendors]"
+msgstr "Neznano|CPH06X (bt878) [različni proizvajalci]"
+
+#: harddrake/v4l.pm:475
+#, c-format
+msgid ""
+"For most modern TV cards, the bttv module of the GNU/Linux kernel just auto-"
+"detect the rights parameters.\n"
+"If your card is misdetected, you can force the right tuner and card types "
+"here. Just select your TV card parameters if needed."
+msgstr ""
+"Za večino sodobnih TV kartic, modul jedra bttv GNU/Linuxa samodejno zazna "
+"prave nastavitve.\n"
+"Če vaša kartica ni pravilno zaznana, lahko vsilite pravi sprejemnik in tip "
+"kartice. Po potrebi samo izberite nastavitve vaše TV kartice."
+
+#: harddrake/v4l.pm:478
+#, c-format
+msgid "Card model:"
+msgstr "Model kartice:"
+
+#: harddrake/v4l.pm:479
+#, c-format
+msgid "Tuner type:"
+msgstr "Tip tv kartice:"
+
+#: interactive.pm:119 interactive.pm:674 interactive/curses.pm:270
+#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
+#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
+#: mygtk3.pm:928 ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:810 ugtk2.pm:833
+#: ugtk3.pm:507 ugtk3.pm:593 ugtk3.pm:906 ugtk3.pm:929
+#, c-format
+msgid "Ok"
+msgstr "V redu"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "Yes"
+msgstr "Da"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#: interactive.pm:253
+#, c-format
+msgid "Choose a file"
+msgstr "Izberite datoteko"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Add"
+msgstr "Dodaj"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Modify"
+msgstr "Prilagodi"
+
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Finish"
+msgstr "Zaključi"
+
+#: interactive.pm:675 interactive/curses.pm:267 ugtk2.pm:517 ugtk3.pm:591
+#, c-format
+msgid "Previous"
+msgstr "Nazaj"
+
+#: interactive/curses.pm:576 ugtk2.pm:870 ugtk3.pm:966
+#, c-format
+msgid "No file chosen"
+msgstr "Izbrana ni nobena datoteka"
+
+#: interactive/curses.pm:580 ugtk2.pm:874 ugtk3.pm:970
+#, c-format
+msgid "You have chosen a directory, not a file"
+msgstr "Namesto datoteke ste izbrali mapo"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such directory"
+msgstr "Ta mapa ne obstaja"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such file"
+msgstr "Ta datoteka ne obstaja"
+
+#: interactive/gtk.pm:596
+#, c-format
+msgid "Beware, Caps Lock is enabled"
+msgstr "Pozor, omogočene so velike črke (Caps Lock)!"
+
+#: interactive/stdio.pm:29 interactive/stdio.pm:154
+#, c-format
+msgid "Bad choice, try again\n"
+msgstr "Slaba izbira, poskusite znova\n"
+
+#: interactive/stdio.pm:30 interactive/stdio.pm:155
+#, c-format
+msgid "Your choice? (default %s) "
+msgstr "Vaša izbira? (privzeto %s) "
+
+#: interactive/stdio.pm:54
+#, c-format
+msgid ""
+"Entries you'll have to fill:\n"
+"%s"
+msgstr ""
+"Vnosi, ki jih boste morali izpolniti:\n"
+"%s"
+
+#: interactive/stdio.pm:70
+#, c-format
+msgid "Your choice? (0/1, default `%s') "
+msgstr "Vaša izbira? (0/1, privzeto »%s«) "
+
+#: interactive/stdio.pm:97
+#, c-format
+msgid "Button `%s': %s"
+msgstr "Gumb »%s«: %s"
+
+#: interactive/stdio.pm:98
+#, c-format
+msgid "Do you want to click on this button?"
+msgstr "Ali želite klikniti na ta gumb?"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid "Your choice? (default `%s'%s) "
+msgstr "Vaša izbira? (privzeto »%s«%s) "
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid " enter `void' for void entry"
+msgstr "vnesite »void« za prazen vnos"
+
+#: interactive/stdio.pm:128
+#, c-format
+msgid "=> There are many things to choose from (%s).\n"
+msgstr "=> Izbirate lahko med mnogo stvarmi (%s).\n"
+
+#: interactive/stdio.pm:131
+#, c-format
+msgid ""
+"Please choose the first number of the 10-range you wish to edit,\n"
+"or just hit Enter to proceed.\n"
+"Your choice? "
+msgstr ""
+"Izberite prvo številko v obsegu do 10, ki jo želite urediti,\n"
+"ali pa pritisnite Enter za nadaljevanje.\n"
+"Kakšna je vaša izbira? "
+
+#: interactive/stdio.pm:144
+#, c-format
+msgid ""
+"=> Notice, a label changed:\n"
+"%s"
+msgstr ""
+"=> Opomba, oznaka se je spremenila:\n"
+"%s"
+
+#: interactive/stdio.pm:151
+#, c-format
+msgid "Re-submit"
+msgstr "Pošlji znova"
+
+#. -PO: the string "default:LTR" can be translated *ONLY* as "default:LTR"
+#. -PO: or as "default:RTL", depending if your language is written from
+#. -PO: left to right, or from right to left; any other string is wrong.
+#: lang.pm:247
+#, c-format
+msgid "default:LTR"
+msgstr "privzeto: LTR"
+
+#: lang.pm:301
+#, c-format
+msgid "Andorra"
+msgstr "Andora"
+
+#: lang.pm:302 timezone.pm:237
+#, c-format
+msgid "United Arab Emirates"
+msgstr "Združeni arabski emirati"
+
+#: lang.pm:303
+#, c-format
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: lang.pm:304
+#, c-format
+msgid "Antigua and Barbuda"
+msgstr "Antigva in Barbuda"
+
+#: lang.pm:305
+#, c-format
+msgid "Anguilla"
+msgstr "Angvila"
+
+#: lang.pm:306
+#, c-format
+msgid "Albania"
+msgstr "Albanija"
+
+#: lang.pm:307
+#, c-format
+msgid "Armenia"
+msgstr "Armenija"
+
+#: lang.pm:308
+#, c-format
+msgid "Netherlands Antilles"
+msgstr "Nizozemski Antili"
+
+#: lang.pm:309
+#, c-format
+msgid "Angola"
+msgstr "Angola"
+
+#: lang.pm:310
+#, c-format
+msgid "Antarctica"
+msgstr "Antarktika"
+
+#: lang.pm:311 timezone.pm:282
+#, c-format
+msgid "Argentina"
+msgstr "Argentina"
+
+#: lang.pm:312
+#, c-format
+msgid "American Samoa"
+msgstr "Ameriška Samoa"
+
+#: lang.pm:313 mirror.pm:22 timezone.pm:240
+#, c-format
+msgid "Austria"
+msgstr "Avstrija"
+
+#: lang.pm:314 mirror.pm:21 timezone.pm:278
+#, c-format
+msgid "Australia"
+msgstr "Avstralija"
+
+#: lang.pm:315
+#, c-format
+msgid "Aruba"
+msgstr "Aruba"
+
+#: lang.pm:316
+#, c-format
+msgid "Azerbaijan"
+msgstr "Azerbajdžan"
+
+#: lang.pm:317
+#, c-format
+msgid "Bosnia and Herzegovina"
+msgstr "Bosna in Hercegovina"
+
+#: lang.pm:318
+#, c-format
+msgid "Barbados"
+msgstr "Barbados"
+
+#: lang.pm:319 timezone.pm:222
+#, c-format
+msgid "Bangladesh"
+msgstr "Bangladeš"
+
+#: lang.pm:320 mirror.pm:23 timezone.pm:242
+#, c-format
+msgid "Belgium"
+msgstr "Belgija"
+
+#: lang.pm:321
+#, c-format
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: lang.pm:322 timezone.pm:243
+#, c-format
+msgid "Bulgaria"
+msgstr "Bolgarija"
+
+#: lang.pm:323
+#, c-format
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: lang.pm:324
+#, c-format
+msgid "Burundi"
+msgstr "Burundi"
+
+#: lang.pm:325
+#, c-format
+msgid "Benin"
+msgstr "Benin (Dahomej)"
+
+#: lang.pm:326
+#, c-format
+msgid "Bermuda"
+msgstr "Bermudi"
+
+#: lang.pm:327
+#, c-format
+msgid "Brunei Darussalam"
+msgstr "Brunej"
+
+#: lang.pm:328
+#, c-format
+msgid "Bolivia"
+msgstr "Bolivija"
+
+#: lang.pm:329 mirror.pm:24 timezone.pm:283
+#, c-format
+msgid "Brazil"
+msgstr "Brazilija"
+
+#: lang.pm:330
+#, c-format
+msgid "Bahamas"
+msgstr "Bahami"
+
+#: lang.pm:331
+#, c-format
+msgid "Bhutan"
+msgstr "Butan"
+
+#: lang.pm:332
+#, c-format
+msgid "Bouvet Island"
+msgstr "Bouvetov otok"
+
+#: lang.pm:333
+#, c-format
+msgid "Botswana"
+msgstr "Bocvana"
+
+#: lang.pm:334 timezone.pm:241
+#, c-format
+msgid "Belarus"
+msgstr "Belorusija"
+
+#: lang.pm:335
+#, c-format
+msgid "Belize"
+msgstr "Belize"
+
+#: lang.pm:336 mirror.pm:25 timezone.pm:272
+#, c-format
+msgid "Canada"
+msgstr "Kanada"
+
+#: lang.pm:337
+#, c-format
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosovo otočje"
+
+#: lang.pm:338
+#, c-format
+msgid "Congo (Kinshasa)"
+msgstr "Demokratična republika Kongo"
+
+#: lang.pm:339
+#, c-format
+msgid "Central African Republic"
+msgstr "Srednjeafriška republika"
+
+#: lang.pm:340
+#, c-format
+msgid "Congo (Brazzaville)"
+msgstr "Republika Kongo"
+
+#: lang.pm:341 mirror.pm:49 timezone.pm:266
+#, c-format
+msgid "Switzerland"
+msgstr "Švica"
+
+#: lang.pm:342
+#, c-format
+msgid "Cote d'Ivoire"
+msgstr "Slonokoščena obala"
+
+#: lang.pm:343
+#, c-format
+msgid "Cook Islands"
+msgstr "Cookovi otoki"
+
+#: lang.pm:344 timezone.pm:284
+#, c-format
+msgid "Chile"
+msgstr "Čile"
+
+#: lang.pm:345
+#, c-format
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: lang.pm:346 timezone.pm:223
+#, c-format
+msgid "China"
+msgstr "Kitajska"
+
+#: lang.pm:347
+#, c-format
+msgid "Colombia"
+msgstr "Kolumbija"
+
+#: lang.pm:348 mirror.pm:26
+#, c-format
+msgid "Costa Rica"
+msgstr "Kostarika"
+
+#: lang.pm:349
+#, c-format
+msgid "Serbia & Montenegro"
+msgstr "Srbija in Črna gora"
+
+#: lang.pm:350
+#, c-format
+msgid "Cuba"
+msgstr "Kuba"
+
+#: lang.pm:351
+#, c-format
+msgid "Cape Verde"
+msgstr "Kapverdski otoki"
+
+#: lang.pm:352
+#, c-format
+msgid "Christmas Island"
+msgstr "Božični otoki"
+
+#: lang.pm:353
+#, c-format
+msgid "Cyprus"
+msgstr "Ciper"
+
+#: lang.pm:354 mirror.pm:27 timezone.pm:244
+#, c-format
+msgid "Czech Republic"
+msgstr "Češka"
+
+#: lang.pm:355 mirror.pm:32 timezone.pm:249
+#, c-format
+msgid "Germany"
+msgstr "Nemčija"
+
+#: lang.pm:356
+#, c-format
+msgid "Djibouti"
+msgstr "Džibuti"
+
+#: lang.pm:357 mirror.pm:28 timezone.pm:245
+#, c-format
+msgid "Denmark"
+msgstr "Danska"
+
+#: lang.pm:358
+#, c-format
+msgid "Dominica"
+msgstr "Dominika"
+
+#: lang.pm:359
+#, c-format
+msgid "Dominican Republic"
+msgstr "Dominikanska republika"
+
+#: lang.pm:360
+#, c-format
+msgid "Algeria"
+msgstr "Alžirija"
+
+#: lang.pm:361
+#, c-format
+msgid "Ecuador"
+msgstr "Ekvador"
+
+#: lang.pm:362 mirror.pm:29 timezone.pm:246
+#, c-format
+msgid "Estonia"
+msgstr "Estonija"
+
+#: lang.pm:363
+#, c-format
+msgid "Egypt"
+msgstr "Egipt"
+
+#: lang.pm:364
+#, c-format
+msgid "Western Sahara"
+msgstr "Zahodna Sahara"
+
+#: lang.pm:365
+#, c-format
+msgid "Eritrea"
+msgstr "Eritreja"
+
+#: lang.pm:366 mirror.pm:47 timezone.pm:264
+#, c-format
+msgid "Spain"
+msgstr "Španija"
+
+#: lang.pm:367
+#, c-format
+msgid "Ethiopia"
+msgstr "Etiopija"
+
+#: lang.pm:368 mirror.pm:30 timezone.pm:247
+#, c-format
+msgid "Finland"
+msgstr "Finska"
+
+#: lang.pm:369
+#, c-format
+msgid "Fiji"
+msgstr "Fidži"
+
+#: lang.pm:370
+#, c-format
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandski otoki (Malvini)"
+
+#: lang.pm:371
+#, c-format
+msgid "Micronesia"
+msgstr "Mikronezija"
+
+#: lang.pm:372
+#, c-format
+msgid "Faroe Islands"
+msgstr "Farski otoki"
+
+#: lang.pm:373 mirror.pm:31 timezone.pm:248
+#, c-format
+msgid "France"
+msgstr "Francija"
+
+#: lang.pm:374
+#, c-format
+msgid "Gabon"
+msgstr "Gabon"
+
+#: lang.pm:375 timezone.pm:268
+#, c-format
+msgid "United Kingdom"
+msgstr "Združeno kraljestvo"
+
+#: lang.pm:376
+#, c-format
+msgid "Grenada"
+msgstr "Grenada"
+
+#: lang.pm:377
+#, c-format
+msgid "Georgia"
+msgstr "Gruzija"
+
+#: lang.pm:378
+#, c-format
+msgid "French Guiana"
+msgstr "Francoska Gvajana"
+
+#: lang.pm:379
+#, c-format
+msgid "Ghana"
+msgstr "Gana"
+
+#: lang.pm:380
+#, c-format
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: lang.pm:381
+#, c-format
+msgid "Greenland"
+msgstr "Grenlandija"
+
+#: lang.pm:382
+#, c-format
+msgid "Gambia"
+msgstr "Gambija"
+
+#: lang.pm:383
+#, c-format
+msgid "Guinea"
+msgstr "Gvineja"
+
+#: lang.pm:384
+#, c-format
+msgid "Guadeloupe"
+msgstr "Gvadelupe"
+
+#: lang.pm:385
+#, c-format
+msgid "Equatorial Guinea"
+msgstr "Ekvatorijalna Gvineja"
+
+#: lang.pm:386 mirror.pm:33 timezone.pm:250
+#, c-format
+msgid "Greece"
+msgstr "Grčija"
+
+#: lang.pm:387
+#, c-format
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Južna Georgija"
+
+#: lang.pm:388 timezone.pm:273
+#, c-format
+msgid "Guatemala"
+msgstr "Gvatemala"
+
+#: lang.pm:389
+#, c-format
+msgid "Guam"
+msgstr "Guam"
+
+#: lang.pm:390
+#, c-format
+msgid "Guinea-Bissau"
+msgstr "Gvineja Bissao"
+
+#: lang.pm:391
+#, c-format
+msgid "Guyana"
+msgstr "Gvajana"
+
+#: lang.pm:392
+#, c-format
+msgid "Hong Kong SAR (China)"
+msgstr "Hong Kong"
+
+#: lang.pm:393
+#, c-format
+msgid "Heard and McDonald Islands"
+msgstr "Heardovo in McDonaldovo otočje"
+
+#: lang.pm:394
+#, c-format
+msgid "Honduras"
+msgstr "Honduras"
+
+#: lang.pm:395
+#, c-format
+msgid "Croatia"
+msgstr "Hrvaška"
+
+#: lang.pm:396
+#, c-format
+msgid "Haiti"
+msgstr "Haiti"
+
+#: lang.pm:397 mirror.pm:34 timezone.pm:251
+#, c-format
+msgid "Hungary"
+msgstr "Madžarska"
+
+#: lang.pm:398 timezone.pm:226
+#, c-format
+msgid "Indonesia"
+msgstr "Indonezija"
+
+#: lang.pm:399 mirror.pm:35 timezone.pm:252
+#, c-format
+msgid "Ireland"
+msgstr "Irska"
+
+#: lang.pm:400 mirror.pm:36 timezone.pm:228
+#, c-format
+msgid "Israel"
+msgstr "Izrael"
+
+#: lang.pm:401 timezone.pm:225
+#, c-format
+msgid "India"
+msgstr "Indija"
+
+#: lang.pm:402
+#, c-format
+msgid "British Indian Ocean Territory"
+msgstr "Britanski teritorij Indijskega oceana"
+
+#: lang.pm:403
+#, c-format
+msgid "Iraq"
+msgstr "Irak"
+
+#: lang.pm:404 timezone.pm:227
+#, c-format
+msgid "Iran"
+msgstr "Iran"
+
+#: lang.pm:405
+#, c-format
+msgid "Iceland"
+msgstr "Islandija"
+
+#: lang.pm:406 mirror.pm:37 timezone.pm:253
+#, c-format
+msgid "Italy"
+msgstr "Italija"
+
+#: lang.pm:407
+#, c-format
+msgid "Jamaica"
+msgstr "Jamajka"
+
+#: lang.pm:408
+#, c-format
+msgid "Jordan"
+msgstr "Jordanija"
+
+#: lang.pm:409 mirror.pm:38 timezone.pm:229
+#, c-format
+msgid "Japan"
+msgstr "Japonska"
+
+#: lang.pm:410
+#, c-format
+msgid "Kenya"
+msgstr "Kenija"
+
+#: lang.pm:411
+#, c-format
+msgid "Kyrgyzstan"
+msgstr "Kirgizija"
+
+#: lang.pm:412
+#, c-format
+msgid "Cambodia"
+msgstr "Kambodža"
+
+#: lang.pm:413
+#, c-format
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: lang.pm:414
+#, c-format
+msgid "Comoros"
+msgstr "Komori"
+
+#: lang.pm:415
+#, c-format
+msgid "Saint Kitts and Nevis"
+msgstr "St. Kitts - Nevis"
+
+#: lang.pm:416
+#, c-format
+msgid "Korea (North)"
+msgstr "Severna Koreja"
+
+#: lang.pm:417 timezone.pm:230
+#, c-format
+msgid "Korea"
+msgstr "Južna Koreja"
+
+#: lang.pm:418
+#, c-format
+msgid "Kuwait"
+msgstr "Kuvajt"
+
+#: lang.pm:419
+#, c-format
+msgid "Cayman Islands"
+msgstr "Kajmanski otoki"
+
+#: lang.pm:420
+#, c-format
+msgid "Kazakhstan"
+msgstr "Kazahstan"
+
+#: lang.pm:421
+#, c-format
+msgid "Laos"
+msgstr "Laos"
+
+#: lang.pm:422
+#, c-format
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: lang.pm:423
+#, c-format
+msgid "Saint Lucia"
+msgstr "Sveta Lucija"
+
+#: lang.pm:424
+#, c-format
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: lang.pm:425
+#, c-format
+msgid "Sri Lanka"
+msgstr "Šrilanka"
+
+#: lang.pm:426
+#, c-format
+msgid "Liberia"
+msgstr "Liberija"
+
+#: lang.pm:427
+#, c-format
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: lang.pm:428 timezone.pm:254
+#, c-format
+msgid "Lithuania"
+msgstr "Litva"
+
+#: lang.pm:429 timezone.pm:255
+#, c-format
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+#: lang.pm:430
+#, c-format
+msgid "Latvia"
+msgstr "Latvija"
+
+#: lang.pm:431
+#, c-format
+msgid "Libya"
+msgstr "Libija"
+
+#: lang.pm:432
+#, c-format
+msgid "Morocco"
+msgstr "Maroko"
+
+#: lang.pm:433
+#, c-format
+msgid "Monaco"
+msgstr "Monako"
+
+#: lang.pm:434
+#, c-format
+msgid "Moldova"
+msgstr "Moldavija"
+
+#: lang.pm:435
+#, c-format
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: lang.pm:436
+#, c-format
+msgid "Marshall Islands"
+msgstr "Marshallovi otoki"
+
+#: lang.pm:437
+#, c-format
+msgid "Macedonia"
+msgstr "Makedonija"
+
+#: lang.pm:438
+#, c-format
+msgid "Mali"
+msgstr "Mali"
+
+#: lang.pm:439
+#, c-format
+msgid "Myanmar"
+msgstr "Mjanmar (Burma)"
+
+#: lang.pm:440
+#, c-format
+msgid "Mongolia"
+msgstr "Mongolija"
+
+#: lang.pm:441
+#, c-format
+msgid "Northern Mariana Islands"
+msgstr "Severni Marianski otoki"
+
+#: lang.pm:442
+#, c-format
+msgid "Martinique"
+msgstr "Martinique"
+
+#: lang.pm:443
+#, c-format
+msgid "Mauritania"
+msgstr "Mavretanija"
+
+#: lang.pm:444
+#, c-format
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: lang.pm:445
+#, c-format
+msgid "Malta"
+msgstr "Malta"
+
+#: lang.pm:446
+#, c-format
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: lang.pm:447
+#, c-format
+msgid "Maldives"
+msgstr "Maldivi"
+
+#: lang.pm:448
+#, c-format
+msgid "Malawi"
+msgstr "Malavi"
+
+#: lang.pm:449 timezone.pm:274
+#, c-format
+msgid "Mexico"
+msgstr "Mehika"
+
+#: lang.pm:450 timezone.pm:231
+#, c-format
+msgid "Malaysia"
+msgstr "Malezija"
+
+#: lang.pm:451
+#, c-format
+msgid "Mozambique"
+msgstr "Mozambik"
+
+#: lang.pm:452
+#, c-format
+msgid "Namibia"
+msgstr "Namibija"
+
+#: lang.pm:453
+#, c-format
+msgid "New Caledonia"
+msgstr "Nova Kaledonija"
+
+#: lang.pm:454
+#, c-format
+msgid "Niger"
+msgstr "Niger"
+
+#: lang.pm:455
+#, c-format
+msgid "Norfolk Island"
+msgstr "Norfolški otoki"
+
+#: lang.pm:456
+#, c-format
+msgid "Nigeria"
+msgstr "Nigerija"
+
+#: lang.pm:457
+#, c-format
+msgid "Nicaragua"
+msgstr "Nikaragva"
+
+#: lang.pm:458 mirror.pm:39 timezone.pm:256
+#, c-format
+msgid "Netherlands"
+msgstr "Nizozemska"
+
+#: lang.pm:459 mirror.pm:41 timezone.pm:257
+#, c-format
+msgid "Norway"
+msgstr "Norveška"
+
+#: lang.pm:460
+#, c-format
+msgid "Nepal"
+msgstr "Nepal"
+
+#: lang.pm:461
+#, c-format
+msgid "Nauru"
+msgstr "Nauru"
+
+#: lang.pm:462
+#, c-format
+msgid "Niue"
+msgstr "Niue"
+
+#: lang.pm:463 mirror.pm:40 timezone.pm:279
+#, c-format
+msgid "New Zealand"
+msgstr "Nova Zelandija"
+
+#: lang.pm:464
+#, c-format
+msgid "Oman"
+msgstr "Oman"
+
+#: lang.pm:465
+#, c-format
+msgid "Panama"
+msgstr "Panama"
+
+#: lang.pm:466
+#, c-format
+msgid "Peru"
+msgstr "Peru"
+
+#: lang.pm:467
+#, c-format
+msgid "French Polynesia"
+msgstr "Francoska Polinezija"
+
+#: lang.pm:468
+#, c-format
+msgid "Papua New Guinea"
+msgstr "Papua Nova Gvineja"
+
+#: lang.pm:469 timezone.pm:232
+#, c-format
+msgid "Philippines"
+msgstr "Filipini"
+
+#: lang.pm:470
+#, c-format
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: lang.pm:471 mirror.pm:42 timezone.pm:258
+#, c-format
+msgid "Poland"
+msgstr "Poljska"
+
+#: lang.pm:472
+#, c-format
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon"
+
+#: lang.pm:473
+#, c-format
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: lang.pm:474
+#, c-format
+msgid "Puerto Rico"
+msgstr "Portoriko"
+
+#: lang.pm:475
+#, c-format
+msgid "Palestine"
+msgstr "Palestina"
+
+#: lang.pm:476 mirror.pm:43 timezone.pm:259
+#, c-format
+msgid "Portugal"
+msgstr "Portugalska"
+
+#: lang.pm:477
+#, c-format
+msgid "Paraguay"
+msgstr "Paragvaj"
+
+#: lang.pm:478
+#, c-format
+msgid "Palau"
+msgstr "Palau"
+
+#: lang.pm:479
+#, c-format
+msgid "Qatar"
+msgstr "Katar"
+
+#: lang.pm:480
+#, c-format
+msgid "Reunion"
+msgstr "Reunion"
+
+#: lang.pm:481 timezone.pm:260
+#, c-format
+msgid "Romania"
+msgstr "Romunija"
+
+#: lang.pm:482 mirror.pm:44
+#, c-format
+msgid "Russia"
+msgstr "Rusija"
+
+#: lang.pm:483
+#, c-format
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: lang.pm:484
+#, c-format
+msgid "Saudi Arabia"
+msgstr "Saudska Arabija"
+
+#: lang.pm:485
+#, c-format
+msgid "Solomon Islands"
+msgstr "Salomonovi otoki"
+
+#: lang.pm:486
+#, c-format
+msgid "Seychelles"
+msgstr "Sejšeli"
+
+#: lang.pm:487
+#, c-format
+msgid "Sudan"
+msgstr "Sudan"
+
+#: lang.pm:488 mirror.pm:48 timezone.pm:265
+#, c-format
+msgid "Sweden"
+msgstr "Švedska"
+
+#: lang.pm:489 timezone.pm:233
+#, c-format
+msgid "Singapore"
+msgstr "Singapur"
+
+#: lang.pm:490
+#, c-format
+msgid "Saint Helena"
+msgstr "Sveta Helena"
+
+#: lang.pm:491 timezone.pm:263
+#, c-format
+msgid "Slovenia"
+msgstr "Slovenija"
+
+#: lang.pm:492
+#, c-format
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Svalbard in Jan Mayen"
+
+#: lang.pm:493 mirror.pm:45 timezone.pm:262
+#, c-format
+msgid "Slovakia"
+msgstr "Slovaška"
+
+#: lang.pm:494
+#, c-format
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: lang.pm:495
+#, c-format
+msgid "San Marino"
+msgstr "San Marino"
+
+#: lang.pm:496
+#, c-format
+msgid "Senegal"
+msgstr "Senegal"
+
+#: lang.pm:497
+#, c-format
+msgid "Somalia"
+msgstr "Somalija"
+
+#: lang.pm:498
+#, c-format
+msgid "Suriname"
+msgstr "Surinam"
+
+#: lang.pm:499
+#, c-format
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome in Principe"
+
+#: lang.pm:500
+#, c-format
+msgid "El Salvador"
+msgstr "Salvador"
+
+#: lang.pm:501
+#, c-format
+msgid "Syria"
+msgstr "Sirija"
+
+#: lang.pm:502
+#, c-format
+msgid "Swaziland"
+msgstr "Svazi"
+
+#: lang.pm:503
+#, c-format
+msgid "Turks and Caicos Islands"
+msgstr "Turks and Caicos Islands"
+
+#: lang.pm:504
+#, c-format
+msgid "Chad"
+msgstr "Čad"
+
+#: lang.pm:505
+#, c-format
+msgid "French Southern Territories"
+msgstr "Francoski južni teritorij"
+
+#: lang.pm:506
+#, c-format
+msgid "Togo"
+msgstr "Togo"
+
+#: lang.pm:507 mirror.pm:51 timezone.pm:235
+#, c-format
+msgid "Thailand"
+msgstr "Tajska"
+
+#: lang.pm:508
+#, c-format
+msgid "Tajikistan"
+msgstr "Tadžikistan"
+
+#: lang.pm:509
+#, c-format
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: lang.pm:510
+#, c-format
+msgid "East Timor"
+msgstr "Vzhodni Timor"
+
+#: lang.pm:511
+#, c-format
+msgid "Turkmenistan"
+msgstr "Turkmenija"
+
+#: lang.pm:512
+#, c-format
+msgid "Tunisia"
+msgstr "Tunizija"
+
+#: lang.pm:513
+#, c-format
+msgid "Tonga"
+msgstr "Tonga"
+
+#: lang.pm:514 timezone.pm:236
+#, c-format
+msgid "Turkey"
+msgstr "Turčija"
+
+#: lang.pm:515
+#, c-format
+msgid "Trinidad and Tobago"
+msgstr "Trinidad in Tobago"
+
+#: lang.pm:516
+#, c-format
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: lang.pm:517 mirror.pm:50 timezone.pm:234
+#, c-format
+msgid "Taiwan"
+msgstr "Tajvan"
+
+#: lang.pm:518 timezone.pm:219
+#, c-format
+msgid "Tanzania"
+msgstr "Tanzanija"
+
+#: lang.pm:519 timezone.pm:267
+#, c-format
+msgid "Ukraine"
+msgstr "Ukrajina"
+
+#: lang.pm:520
+#, c-format
+msgid "Uganda"
+msgstr "Uganda"
+
+#: lang.pm:521
+#, c-format
+msgid "United States Minor Outlying Islands"
+msgstr "Združene države Amerike - manjši okoliški otoki"
+
+#: lang.pm:522 mirror.pm:52 timezone.pm:275
+#, c-format
+msgid "United States"
+msgstr "Združene države Amerike"
+
+#: lang.pm:523
+#, c-format
+msgid "Uruguay"
+msgstr "Urugvaj"
+
+#: lang.pm:524
+#, c-format
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: lang.pm:525
+#, c-format
+msgid "Vatican"
+msgstr "Vatikan"
+
+#: lang.pm:526
+#, c-format
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent in Grenadine"
+
+#: lang.pm:527
+#, c-format
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: lang.pm:528
+#, c-format
+msgid "Virgin Islands (British)"
+msgstr "Deviški otoki (Britanski)"
+
+#: lang.pm:529
+#, c-format
+msgid "Virgin Islands (U.S.)"
+msgstr "Deviški otoki (ZDA)"
+
+#: lang.pm:530
+#, c-format
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: lang.pm:531
+#, c-format
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: lang.pm:532
+#, c-format
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna"
+
+#: lang.pm:533
+#, c-format
+msgid "Samoa"
+msgstr "Samoa"
+
+#: lang.pm:534
+#, c-format
+msgid "Yemen"
+msgstr "Jemen"
+
+#: lang.pm:535
+#, c-format
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: lang.pm:536 mirror.pm:46 timezone.pm:218
+#, c-format
+msgid "South Africa"
+msgstr "Južna Afrika"
+
+#: lang.pm:537
+#, c-format
+msgid "Zambia"
+msgstr "Zambija"
+
+#: lang.pm:538
+#, c-format
+msgid "Zimbabwe"
+msgstr "Zimbabve"
+
+#: lang.pm:1537
+#, c-format
+msgid "Welcome to %s"
+msgstr "Pozdravljeni v %s"
+
+#: lvm.pm:128
+#, c-format
+msgid "Moving used physical extents to other physical volumes failed"
+msgstr ""
+"Premikanje uporabljanih fizičnih razširitev na druge nosilce je spodletelo"
+
+#: lvm.pm:194
+#, c-format
+msgid "Physical volume %s is still in use"
+msgstr "Fizični nosilec %s je še vedno v uporabi"
+
+#: lvm.pm:204
+#, c-format
+msgid "Remove the logical volumes first\n"
+msgstr "Najprej zbrišite logične nosilce\n"
+
+#: lvm.pm:248
+#, c-format
+msgid "The bootloader can't handle /boot on multiple physical volumes"
+msgstr ""
+"Zagonski nalagalnik ne deluje, če je /boot na logičnem nosilcu, ki obsega "
+"več fizičnih nosilcev"
+
+#. -PO: Only write something if needed:
+#: messages.pm:11
+#, c-format
+msgid "_: You can warn about unofficial translation here"
+msgstr ""
+"Ta prevod licence je na voljo samo v informacijo, uradna, pravno veljavna "
+"verzija\n"
+"je v angleščini."
+
+#: messages.pm:18
+#, c-format
+msgid "Introduction"
+msgstr "Predstavitev"
+
+#: messages.pm:20
+#, c-format
+msgid ""
+"The operating system and the different components available in the Mageia "
+"distribution \n"
+"shall be called the \"Software Products\" hereafter. The Software Products "
+"include, but are not \n"
+"restricted to, the set of programs, methods, rules and documentation related "
+"to the operating \n"
+"system and the different components of the Mageia distribution, and any "
+"applications \n"
+"distributed with these products provided by Mageia's licensors or suppliers."
+msgstr ""
+"Operacijski sistem in razne komponente, ki so na voljo v distribuciji "
+"Mageia,\n"
+"se v nadaljevanju imenujejo »Programska oprema«. Programska oprema\n"
+"vključuje, vendar ni omejena na, nabor programov, metod, pravila in\n"
+"dokumentacijo v zvezi z operacijskim sistemom in različnimi komponentami\n"
+"distribucije Mageia, ter vse programe dodane tem izdelkom, ki jih razširja\n"
+"skupnost Mageia."
+
+#: messages.pm:27
+#, c-format
+msgid "1. License Agreement"
+msgstr "1. Licenčna pogodba"
+
+#: messages.pm:29
+#, c-format
+msgid ""
+"Please read this document carefully. This document is a license agreement "
+"between you and  \n"
+"Mageia which applies to the Software Products.\n"
+"By installing, duplicating or using any of the Software Products in any "
+"manner, you explicitly \n"
+"accept and fully agree to conform to the terms and conditions of this "
+"License. \n"
+"If you disagree with any portion of the License, you are not allowed to "
+"install, duplicate or use \n"
+"the Software Products. \n"
+"Any attempt to install, duplicate or use the Software Products in a manner "
+"which does not comply \n"
+"with the terms and conditions of this License is void and will terminate "
+"your rights under this \n"
+"License. Upon termination of the License,  you must immediately destroy all "
+"copies of the \n"
+"Software Products."
+msgstr ""
+"Pazljivo preberite ta dokument. Ta dokument je licenčna pogodba med vami\n"
+"in skupnostjo Mageia ter se nanaša na Programsko opremo.\n"
+"Z namestitvijo, kopiranjem ali z uporabo katerega koli dela Programske\n"
+"opreme na kateri koli način, izrecno sprejemate in se v celoti strinjate\n"
+"s pogoji te licence.\n"
+"Če se ne strinjate s katerim koli delom licence, ne smete namestiti,\n"
+"kopirati ali uporabljati Programske opreme.\n"
+"Vsak poskus namestitve, kopiranja ali uporabe Programske opreme\n"
+"na način, ki ni v skladu s pogoji te licence, je kršitev in bo prekinil\n"
+"vaše pravice pod to licenco.\n"
+"Po preklicu licence morate takoj uničiti vse kopije Programske opreme."
+
+#: messages.pm:41
+#, c-format
+msgid "2. Limited Warranty"
+msgstr "2. Omejena garancija"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: messages.pm:44
+#, c-format
+msgid ""
+"The Software Products and attached documentation are provided \"as is\", "
+"with no warranty, to the \n"
+"extent permitted by law.\n"
+"Neither Mageia nor its licensors or suppliers will, in any circumstances and "
+"to the extent \n"
+"permitted by law, be liable for any special, incidental, direct or indirect "
+"damages whatsoever \n"
+"(including without limitation damages for loss of business, interruption of "
+"business, financial \n"
+"loss, legal fees and penalties resulting from a court judgment, or any other "
+"consequential loss) \n"
+"arising out of  the use or inability to use the Software Products, even if "
+"Mageia or its \n"
+"licensors or suppliers have been advised of the possibility or occurrence of "
+"such damages.\n"
+"\n"
+"LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
+"COUNTRIES\n"
+"\n"
+"To the extent permitted by law, neither Mageia nor its licensors, suppliers "
+"or\n"
+"distributors will, in any circumstances, be liable for any special, "
+"incidental, direct or indirect \n"
+"damages whatsoever (including without limitation damages for loss of "
+"business, interruption of \n"
+"business, financial loss, legal fees and penalties resulting from a court "
+"judgment, or any \n"
+"other consequential loss) arising out of the possession and use of software "
+"components or \n"
+"arising out of  downloading software components from one of Mageia sites "
+"which are \n"
+"prohibited or restricted in some countries by local laws.\n"
+"This limited liability applies to, but is not restricted to, the strong "
+"cryptography components \n"
+"included in the Software Products.\n"
+"However, because some jurisdictions do not allow the exclusion or limitation "
+"of liability for \n"
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+"Programska oprema in priložena dokumentacija je ponujena »kakršna je«,\n"
+"brez kakršne koli garancije do obsega, ki ga dovoljuje zakonodaja.\n"
+"Skupnost Mageia v nobenem primeru in v obsegu, ki ga dovoljuje\n"
+"zakonodaja, ni odgovorna za kakršno koli posebno, naključno, neposredno\n"
+"ali posredno škodo (vključno brez omejitev odškodnine za izgubo posla,\n"
+"prekinitve poslovanja, finančno izgubo, sodne takse in kazni, ki izhajajo\n"
+"iz sodbe sodišča ali kateri koli drugo posledično izgubo), ki izhaja\n"
+"iz uporabe ali nezmožnosti uporabe Programske opreme, tudi če je bila\n"
+"skupnost Mageia opozorjena na nastanek ali možnost nastanka takšne\n"
+"škode.\n"
+"\n"
+"OMEJENA ODGOVORNOST, POVEZANA S POSEDOVANJEM ALI\n"
+"UPORABO PREPOVEDANE PROGRAMSKE OPREME V NEKATERIH\n"
+"DRŽAVAH\n"
+"\n"
+"V obsegu, ki ga dovoljuje zakonodaja, niti skupnost Mageia niti njeni\n"
+"ponudniki, v nobenem primeru niso odgovorni za kakršno koli posebno,\n"
+"naključno, neposredno ali posredno škodo (vključno brez omejitev\n"
+"odškodnine za izgubo posla, prekinitve poslovanja, finančno izgubo,\n"
+"sodne takse in kazni, ki izhajajo iz sodbe sodišča ali kateri koli drugo\n"
+"posledično izgubo), ki izhaja iz posesti in uporabe Programske opreme,\n"
+"ali izhajajo iz prenašanja Programske opreme iz ene od spletnih strani \n"
+"Mageia za prenos, ki so prepovedana ali omejena v nekaterih državah z\n"
+"njihovo krajevno zakonodajo.\n"
+"To omejena odgovornost se nanaša, vendar ni omejena na, močne\n"
+"kriptografske komponente, ki so vključene v Programsko opremo.\n"
+"Nekatere zakonodaje ne dovoljujejo izključitve ali omejitve obveznosti\n"
+"za posledično ali naključno škodo, zato zgornje omejitve morda ne\n"
+"veljajo za vas."
+
+#: messages.pm:68
+#, c-format
+msgid "3. The GPL License and Related Licenses"
+msgstr "3. Licenca GPL in povezane licence"
+
+#: messages.pm:70
+#, c-format
+msgid ""
+"The Software Products consist of components created by different persons or "
+"entities.\n"
+"Most of these licenses allow you to use, duplicate, adapt or redistribute "
+"the components which \n"
+"they cover. Please read carefully the terms and conditions of the license "
+"agreement for each component \n"
+"before using any component. Any question on a component license should be "
+"addressed to the component \n"
+"licensor or supplier and not to Mageia.\n"
+"The programs developed by Mageia are governed by the GPL License. "
+"Documentation written \n"
+"by Mageia is governed by \"%s\" License."
+msgstr ""
+"Programska oprema je sestavljena iz komponent, ki so jih ustvarile različne\n"
+"fizične ali pravne osebe.\n"
+"Vsaka komponenta ima svojo licenco. Večina teh licenc dovoljuje uporabo,\n"
+"kopiranje, prilagajanje ali razširjanje komponent, ki jih pokrivajo.\n"
+"Pazljivo preberite pogoje licenčne pogodbe za vsako komponento pred njeno\n"
+"uporabo.\n"
+"Vsa vprašanja v zvezi z licenco komponente je treba nasloviti na nosilca\n"
+"licence ali ponudnika komponente in ne na skupnost Mageia.\n"
+"Programe, ki jih je razvila skupnost Mageia, lahko razširjate in/ali\n"
+"spreminjate pod pogoji licence GPL.\n"
+"Pisno dokumentacijo, ki jo je napisala skupnost Mageia, ureja licenca\n"
+"»%s«."
+
+#: messages.pm:79
+#, c-format
+msgid "4. Intellectual Property Rights"
+msgstr "4. Pravice intelektualne lastnine"
+
+#: messages.pm:81
+#, c-format
+msgid ""
+"All rights to the components of the Software Products belong to their "
+"respective authors and are \n"
+"protected by intellectual property and copyright laws applicable to software "
+"programs.\n"
+"Mageia and its suppliers and licensors reserves their rights to modify or "
+"adapt the Software \n"
+"Products, as a whole or in parts, by all means and for all purposes.\n"
+"\"Mageia\" and associated logos are trademarks of %s"
+msgstr ""
+"Vse pravice komponent Programske opreme so last njihovih avtorjev in so\n"
+"zaščitene s pravicami intelektualne lastnine in avtorskih pravic, ki se\n"
+"nanašajo na programsko opremo.\n"
+"Skupnost Mageia in njeni ponudniki ter nosilci licenc si pridržujejo "
+"njihove\n"
+"pravice, da spremenijo ali prilagodijo Programsko opremo kot celoto ali po\n"
+"delih, s kakršnimi koli sredstvi in ​​za vse namene.\n"
+"Ime »Mageia« in s njim povezani logotipi so last blagovne znamke skupnosti\n"
+"%s."
+
+#: messages.pm:88
+#, c-format
+msgid "5. Governing Laws"
+msgstr "5. Zavezujoči predpisi"
+
+#: messages.pm:90
+#, c-format
+msgid ""
+"If any portion of this agreement is held void, illegal or inapplicable by a "
+"court judgment, this \n"
+"portion is excluded from this contract. You remain bound by the other "
+"applicable sections of the \n"
+"agreement.\n"
+"The terms and conditions of this License are governed by the Laws of "
+"France.\n"
+"All disputes on the terms of this license will preferably be settled out of "
+"court. As a last \n"
+"resort, the dispute will be referred to the appropriate Courts of Law of "
+"Paris - France.\n"
+"For any question on this document, please contact Mageia."
+msgstr ""
+"Če se katerikoli del tega sporazuma izkaže za neveljavnega, nezakonitega\n"
+"ali nezavezujočega s sodno odločbo, se ta del izključi iz te licenčne\n"
+"pogodbe.\n"
+"Preostali njeni deli vas še vedno zavezujejo.\n"
+"Pogoje te licenčne pogodbe urejajo zakoni Francije.\n"
+"Vsi spori o pogojih te licenčne pogodbe se bodo poskušali rešiti "
+"izvensodno.\n"
+"Kot zadnja možnost se bo spor predložil pristojnemu sodišču v Parizu\n"
+"v Franciji.\n"
+"Za vsa vprašanja o tem dokumentu, se obrnite na skupnost Mageia."
+
+#: messages.pm:102
+#, c-format
+msgid ""
+"Warning: Free Software may not necessarily be patent free, and some Free\n"
+"Software included may be covered by patents in your country. For example, "
+"the\n"
+"MP3 decoders included may require a license for further usage (see\n"
+"http://www.mp3licensing.com for more details). If you are unsure if a "
+"patent\n"
+"may be applicable to you, check your local laws."
+msgstr ""
+"Opozorilo: Mogoče je, da je sicer prosto programje zaščiteno s patentnimi\n"
+"pravicami. V takšnem primeru si morate za uporabo programja pridobiti\n"
+"dovoljenje lastnika patenta. Npr. vključeni odkodirniki MP3 lahko zahtevajo\n"
+"licenco za uporabo (glej http://www.mp3licensing.com za več informacij).\n"
+"Pred uporabo programja se prepričajte, kakšna je pravna ureditev\n"
+"patentiranja programske opreme v državi, na katere ozemlju nameravate\n"
+"uporabljati programje."
+
+#: messages.pm:111
+#, c-format
+msgid ""
+"Congratulations, installation is complete.\n"
+"Remove the boot media and press Enter to reboot."
+msgstr ""
+"Čestitamo, uspešno ste zaključili namestitev.\n"
+"Odstranite vir namestitve iz pogona in pritisnite »Enter« za ponovni zagon."
+
+#: messages.pm:113
+#, c-format
+msgid ""
+"For information on fixes which are available for this release of Mageia,\n"
+"consult the Errata available from:\n"
+"%s"
+msgstr ""
+"Informacije o popravkih, ki so na voljo za to različico Mageje preverite v "
+"dokumentu Errata, ki ga najdete:\n"
+"%s"
+
+#: messages.pm:115
+#, c-format
+msgid ""
+"After rebooting and logging into Mageia, you will see the MageiaWelcome "
+"screen.\n"
+"It is full of very useful information and links."
+msgstr ""
+"Po ponovnem zagonu in prijavi se bo prikazal program MageiaWelcome.\n"
+"V njem je polno koristnih informacij in povezav."
+
+#: modules/interactive.pm:19
+#, c-format
+msgid "This driver has no configuration parameter!"
+msgstr "Ta gonilnik ne vsebuje nobenih nastavitvenih parametrov!"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "Module configuration"
+msgstr "Nastavitve modula"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "You can configure each parameter of the module here."
+msgstr "Tukaj lahko nastavite vse parametre modula."
+
+#: modules/interactive.pm:64
+#, c-format
+msgid "Found %s interfaces"
+msgstr "Najdenih %s vmesnikov"
+
+#: modules/interactive.pm:65
+#, c-format
+msgid "Do you have another one?"
+msgstr "Imate še kakšnega?"
+
+#: modules/interactive.pm:66
+#, c-format
+msgid "Do you have any %s interfaces?"
+msgstr "Imate vmesnike %s?"
+
+#: modules/interactive.pm:72
+#, c-format
+msgid "See hardware info"
+msgstr "Glejte informacije o strojni opremi"
+
+#: modules/interactive.pm:83
+#, c-format
+msgid "Installing driver for USB controller"
+msgstr "Nameščanje gonilnika za krmilnik USB"
+
+#: modules/interactive.pm:84
+#, c-format
+msgid "Installing driver for firewire controller \"%s\""
+msgstr "Nameščanje gonilnika za krmilnik Firewire »%s«"
+
+#: modules/interactive.pm:85
+#, c-format
+msgid "Installing driver for hard disk drive controller \"%s\""
+msgstr "Nameščanje gonilnika za krmilnik trdega diska »%s«"
+
+#: modules/interactive.pm:86
+#, c-format
+msgid "Installing driver for ethernet controller \"%s\""
+msgstr "Nameščanje gonilnika za krmilnik mrežne kartice »%s«"
+
+#. -PO: the first %s is the card type (scsi, network, sound,...)
+#. -PO: the second is the vendor+model name
+#: modules/interactive.pm:97
+#, c-format
+msgid "Installing driver for %s card %s"
+msgstr "Namestitev gonilnika za %s kartico %s"
+
+#: modules/interactive.pm:100
+#, c-format
+msgid "Configuring Hardware"
+msgstr "Nastavljanje strojne opreme"
+
+#: modules/interactive.pm:111
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Note that any address should be entered with the prefix 0x like '0x123'"
+msgstr ""
+"Zdaj lahko nastavite možnosti modula %s.\n"
+"Vedite, da mora imeti vsak naslov predpono 0x (npr. »0x123«)"
+
+#: modules/interactive.pm:117
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Options are in format ``name=value name2=value2 ...''.\n"
+"For instance, ``io=0x300 irq=7''"
+msgstr ""
+"Sedaj lahko posredujete nastavitve za modul %s.\n"
+"Nastavitve so oblike »ime=vrednost ime2=vrednost2 …«.\n"
+"Na primer: »io=0x300 irq=7«"
+
+#: modules/interactive.pm:119
+#, c-format
+msgid "Module options:"
+msgstr "Nastavitve modula:"
+
+#. -PO: the %s is the driver type (scsi, network, sound,...)
+#: modules/interactive.pm:132
+#, c-format
+msgid "Which %s driver should I try?"
+msgstr "Kateri %s gonilnik naj poizkusim?"
+
+#: modules/interactive.pm:141
+#, c-format
+msgid ""
+"In some cases, the %s driver needs to have extra information to work\n"
+"properly, although it normally works fine without them. Would you like to "
+"specify\n"
+"extra options for it or allow the driver to probe your machine for the\n"
+"information it needs? Occasionally, probing will hang a computer, but it "
+"should\n"
+"not cause any damage."
+msgstr ""
+"V nekaterih primerih potrebuje gonilnik %s za pravilno delovanje dodatne\n"
+"informacije. Želite navesti dodatne nastavitve zanj ali dovolite gonilniku "
+"da\n"
+"poskusi pridobiti potrebne informacije samodejno? Lahko se zgodi, da se "
+"računalnik\n"
+"pri tem nepričakovano ustavi, kar pa ne bi smelo povzročiti nobene škode."
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Autoprobe"
+msgstr "Samodejna zaznava"
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Specify options"
+msgstr "Navedite nastavitve"
+
+#: modules/interactive.pm:157
+#, c-format
+msgid ""
+"Loading module %s failed.\n"
+"Do you want to try again with other parameters?"
+msgstr ""
+"Nalaganje modula %s ni uspelo.\n"
+"Ali želite poskusiti znova z drugimi parametri?"
+
+#: mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Are you sure you want to quit?"
+msgstr "Ali res želite prekiniti?"
+
+#: mygtk2.pm:1570 mygtk2.pm:1571 mygtk3.pm:1646 mygtk3.pm:1647
+#, c-format
+msgid "Password is trivial to guess"
+msgstr "Geslo je šibko"
+
+#: mygtk2.pm:1572 mygtk3.pm:1648
+#, c-format
+msgid "Password should be resistant to basic attacks"
+msgstr "Geslo bi moralo biti odporno na osnovne napade"
+
+#: mygtk2.pm:1573 mygtk2.pm:1574 mygtk3.pm:1649 mygtk3.pm:1650
+#, c-format
+msgid "Password seems secure"
+msgstr "Geslo je varno"
+
+#: partition_table.pm:405
+#, c-format
+msgid "mount failed: "
+msgstr "Priklop ni uspel: "
+
+#: partition_table.pm:531
+#, c-format
+msgid ""
+"You have a hole in your partition table but I cannot use it.\n"
+"The only solution is to move your primary partitions to have the hole next "
+"to the extended partitions."
+msgstr ""
+"V vaši razdelitveni tabeli je praznina, ki je ni mogoče uporabiti.\n"
+"Edina rešitev je, da premaknete primarne razdelke, tako da bo praznina ob "
+"razširjenih razdelkih."
+
+#: partition_table/raw.pm:293
+#, c-format
+msgid ""
+"Something bad is happening on your hard disk drive. \n"
+"A test to check the integrity of data has failed. \n"
+"It means writing anything on the disk will end up with random, corrupted "
+"data."
+msgstr ""
+"Nekaj je narobe z vašim pogonom.\n"
+"Test celovitosti podatkov ni uspel. \n"
+"To pomeni, da bi lahko vsak zapis na disk povzročil okvaro podatkov."
+
+#: pkgs.pm:260 pkgs.pm:263 pkgs.pm:276
+#, c-format
+msgid "Unused packages removal"
+msgstr "Odstranjevanje neuporabljenih paketov"
+
+#: pkgs.pm:260
+#, c-format
+msgid "Finding unused hardware packages..."
+msgstr "Iskanje neuporabljenih paketov za strojno opremo …"
+
+#: pkgs.pm:263
+#, c-format
+msgid "Finding unused localization packages..."
+msgstr "Iskanje neuporabljenih paketov s prevodi …"
+
+#: pkgs.pm:277
+#, c-format
+msgid ""
+"We have detected that some packages are not needed for your system "
+"configuration."
+msgstr ""
+"Zaznani so bili nekateri paketi, ki za to sestavo računalnika niso potrebni."
+
+#: pkgs.pm:278
+#, c-format
+msgid "We will remove the following packages, unless you choose otherwise:"
+msgstr "Če se ne odločite drugače, bodo naslednji paketi odstranjeni:"
+
+#: pkgs.pm:281 pkgs.pm:282
+#, c-format
+msgid "Unused hardware support"
+msgstr "Neuporabljena podpora za strojno opremo"
+
+#: pkgs.pm:285 pkgs.pm:286
+#, c-format
+msgid "Unused localization"
+msgstr "Neuporabljeni prevodi"
+
+#: raid.pm:59
+#, c-format
+msgid "Cannot add a partition to _formatted_ RAID %s"
+msgstr "V _formatiran_ RAID %s ni mogoče dodati razdelka"
+
+#: raid.pm:200
+#, c-format
+msgid "Not enough partitions for RAID level %d\n"
+msgstr "Za RAID stopnje %d ni dovolj razdelkov.\n"
+
+#: scanner.pm:95
+#, c-format
+msgid "Could not create directory /usr/share/sane/firmware!"
+msgstr "Mape /usr/share/sane/firmware ni bilo mogoče ustvariti!"
+
+#: scanner.pm:106
+#, c-format
+msgid "Could not create link /usr/share/sane/%s!"
+msgstr "Povezave /usr/share/sane/%s ni bilo mogoče ustvariti!"
+
+#: scanner.pm:113
+#, c-format
+msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+msgstr ""
+"Strojne programske opreme %s ni bilo mogoče kopirati v /usr/share/sane/"
+"firmware!"
+
+#: scanner.pm:120
+#, c-format
+msgid "Could not set permissions of firmware file %s!"
+msgstr "Dovoljenj za strojno programsko opremo %s ni bilo mogoče spremeniti!"
+
+#: scanner.pm:199
+#, c-format
+msgid "Scannerdrake"
+msgstr "Scannerdrake"
+
+#: scanner.pm:200
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"Paketov, ki so potrebni za skupno rabo optičnega bralnika, ni bilo mogoče "
+"namestiti."
+
+#: scanner.pm:201
+#, c-format
+msgid "Your scanner(s) will not be available for non-root users."
+msgstr "Optični bralnik navadnim uporabnikom ne bo dosegljiv."
+
+#: security/help.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages."
+msgstr "Sprejmi napačna sporočila o napakah IPv4."
+
+#: security/help.pm:13
+#, c-format
+msgid "Accept broadcasted icmp echo."
+msgstr "Sprejmi odmev ICMP, ki je bil oddan vsesmerno."
+
+#: security/help.pm:15
+#, c-format
+msgid "Accept icmp echo."
+msgstr "Sprejmi odmev ICMP."
+
+#: security/help.pm:17
+#, c-format
+msgid "Allow autologin."
+msgstr "Dovoli samodejno prijavo."
+
+#. -PO: here "ALL" is a value in a pull-down menu; translate it the same as "ALL" is
+#: security/help.pm:21
+#, c-format
+msgid ""
+"If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+"\n"
+"If set to \"None\", no issues are allowed.\n"
+"\n"
+"Else only /etc/issue is allowed."
+msgstr ""
+"Z nastavitvijo »VSI« boste dovolili obstoj datotek /etc/issue in /etc/issue."
+"net.\n"
+"\n"
+"Z nastavitvijo »NOBEN« boste prepovedali obstoj obeh datotek.\n"
+"\n"
+"Druge nastavitve dovoljujejo samo obstoj /etc/issue."
+
+#: security/help.pm:27
+#, c-format
+msgid "Allow reboot by the console user."
+msgstr "Dovoli ponovni zagon uporabniku konzole."
+
+#: security/help.pm:29
+#, c-format
+msgid "Allow remote root login."
+msgstr "Omogoči oddaljeno prijavo skrbnika."
+
+#: security/help.pm:31
+#, c-format
+msgid "Allow direct root login."
+msgstr "Dovoli neposredno prijavo skrbnika."
+
+#: security/help.pm:33
+#, c-format
+msgid ""
+"Allow the list of users on the system on display managers (kdm and gdm)."
+msgstr "Dovoli prikaz seznama uporabnikov v upravitelju prikaza (kdm in gdm)."
+
+#: security/help.pm:35
+#, c-format
+msgid ""
+"Allow to export display when\n"
+"passing from the root account to the other users.\n"
+"\n"
+"See pam_xauth(8) for more details.'"
+msgstr ""
+"Dovoli izvoz zaslona ob prehodu prijave\n"
+"s skrbnika na navadnega uporabnika.\n"
+"\n"
+"Za podrobnosti si oglejte pam_xauth(8)."
+
+#: security/help.pm:40
+#, c-format
+msgid ""
+"Allow X connections:\n"
+"\n"
+"- \"All\" (all connections are allowed),\n"
+"\n"
+"- \"Local\" (only connection from local machine),\n"
+"\n"
+"- \"None\" (no connection)."
+msgstr ""
+"Dovoli povezave s strežnikom X:\n"
+"\n"
+"- »Vse« (dovoljene so vse povezave),\n"
+"\n"
+"- »Krajevne« (dovoljene so le povezave s tega računalnika),\n"
+"\n"
+"- »Nobena« (nobena povezava ni dovoljena)."
+
+#: security/help.pm:48
+#, c-format
+msgid ""
+"The argument specifies if clients are authorized to connect\n"
+"to the X server from the network on the tcp port 6000 or not."
+msgstr ""
+"Vnešena vrednost določa, ali so odjemalci pooblaščeni\n"
+"za omrežno povezavo s strežnikom X na vratih tcp 6000."
+
+#. -PO: here "ALL", "Local" and "None" are values in a pull-down menu; translate them the same as they're
+#: security/help.pm:53
+#, c-format
+msgid ""
+"Authorize:\n"
+"\n"
+"- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+"set to \"ALL\",\n"
+"\n"
+"- only local ones if set to \"Local\"\n"
+"\n"
+"- none if set to \"None\".\n"
+"\n"
+"To authorize the services you need, use /etc/hosts.allow (see hosts."
+"allow(5))."
+msgstr ""
+"Odobri:\n"
+"\n"
+"- vse storitve, ki jih krmilijo »tcp_wrappers« (glej priročniško stran hosts."
+"deny(5)), če je nastavljeno na »Vse«,\n"
+"\n"
+"- samo krajevne, če je nastavljeno na »Krajevne«\n"
+"\n"
+"- nobenih, če je nastavljeno na »Nobena«.\n"
+"\n"
+"Za omogočanje storitev, ki jih potrebujete, uporabite /etc/hosts.allow "
+"(glejte priročniško stran hosts.allow(5))."
+
+#: security/help.pm:63
+#, c-format
+msgid ""
+"If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+"is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+"symlink /etc/security/msec/server to point to\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+"add a service if it is present in the file during the installation of\n"
+"packages."
+msgstr ""
+"Če je SERVER_LEVEL oz. SECURE_LEVEL (če manjka prvi)\n"
+"v /etc/security/msec/security.conf večji kot 3, ustvari\n"
+"simbolno povezavo /etc/security/msec/server, ki kaže na\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"Datoteko /etc/security/msec/server uporablja »chkconfig --add«,\n"
+"za odločanje o omogočanju storitve, če je navedena v datoteki\n"
+"med namestitvijo paketov."
+
+#: security/help.pm:72
+#, c-format
+msgid ""
+"Enable crontab and at for users.\n"
+"\n"
+"Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+"and crontab(1))."
+msgstr ""
+"Omogoči uporabnikom »crontab« in »at«.\n"
+"\n"
+"Vnesite uporabnike z dovoljenjem v /etc/cron.allow in v /etc/at.allow (več o "
+"tem v man at(1) in v man crontab(1))."
+
+#: security/help.pm:77
+#, c-format
+msgid "Enable syslog reports to console 12"
+msgstr "Omogoči poročila syslog na konzolo 12"
+
+#: security/help.pm:79
+#, c-format
+msgid ""
+"Enable name resolution spoofing protection.  If\n"
+"\"%s\" is true, also reports to syslog."
+msgstr ""
+"Omogoči zaščito pred lažnim predstavljanje pri\n"
+"razreševanju naslova. Če je omogočen »%s«,\n"
+"beleži tudi v syslog."
+
+#: security/help.pm:80
+#, c-format
+msgid "Security Alerts:"
+msgstr "Varnostna opozorila:"
+
+#: security/help.pm:82
+#, c-format
+msgid "Enable IP spoofing protection."
+msgstr "Omogoči zaščito pred lažnim predstavljanjem naslova IP."
+
+#: security/help.pm:84
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system."
+msgstr "Omogoči libsafe, če je nameščen na sistemu."
+
+#: security/help.pm:86
+#, c-format
+msgid "Enable the logging of IPv4 strange packets."
+msgstr "Omogoči beleženje čudnih paketov IPv4."
+
+#: security/help.pm:88
+#, c-format
+msgid "Enable msec hourly security check."
+msgstr "Omogoči urno varnostno preverjanje msec."
+
+#: security/help.pm:90
+#, c-format
+msgid ""
+"Enable su only from members of the wheel group. If set to no, allows su from "
+"any user."
+msgstr ""
+"Omogočanje možnosti, da lahko ukaz »su« uporabljajo le člani skupine »wheel« "
+"Če je možnost onemogočena, lahko ta ukaz uporabljajo vsi uporabniki."
+
+#: security/help.pm:92
+#, c-format
+msgid "Use password to authenticate users."
+msgstr "Za overjanje uporabnikov uporabi geslo."
+
+#: security/help.pm:94
+#, c-format
+msgid "Activate Ethernet cards promiscuity check."
+msgstr "Omogoči preverjanje promiskuitetnega delovanja omrežnih kartic."
+
+#: security/help.pm:96
+#, c-format
+msgid "Activate daily security check."
+msgstr "Omogoči dnevno preverjanje varnosti."
+
+#: security/help.pm:98
+#, c-format
+msgid "Enable sulogin(8) in single user level."
+msgstr "Omogoči sulogin(8) v eno-uporabniškem načinu."
+
+#: security/help.pm:100
+#, c-format
+msgid "Add the name as an exception to the handling of password aging by msec."
+msgstr "Dodajte ime pri katerem storitev msec ne omogoči staranja gesla."
+
+#: security/help.pm:102
+#, c-format
+msgid "Set password aging to \"max\" days and delay to change to \"inactive\"."
+msgstr ""
+"Nastavite staranje gesla na »max« dni in zamik spremembe v »neaktiven« "
+"uporabnik."
+
+#: security/help.pm:104
+#, c-format
+msgid "Set the password history length to prevent password reuse."
+msgstr ""
+"Nastavi velikost zgodovine gesel za preprečitev ponovne uporabe istega gesla."
+
+#: security/help.pm:106
+#, c-format
+msgid ""
+"Set the password minimum length and minimum number of digit and minimum "
+"number of capitalized letters."
+msgstr "Določi minimalno dolžino gesla in števila števk ter velikih črk."
+
+#: security/help.pm:108
+#, c-format
+msgid "Set the root's file mode creation mask."
+msgstr "Nastavi masko skrbnika za ustvarjanje datotek."
+
+#: security/help.pm:109
+#, c-format
+msgid "if set to yes, check open ports."
+msgstr "Če je nastavljeno na »da«, preveri odprta vrata."
+
+#: security/help.pm:110
+#, c-format
+msgid ""
+"if set to yes, check for:\n"
+"\n"
+"- empty passwords,\n"
+"\n"
+"- no password in /etc/shadow\n"
+"\n"
+"- for users with the 0 id other than root."
+msgstr ""
+"Če je nastavljeno na »da«, preveri ali:\n"
+"\n"
+"- se uporabljajo prazna gesla,\n"
+"\n"
+"- ni gesla v /etc/shadow\n"
+"\n"
+"- poleg uporabnika root obstajajo drugi uporabniki z ID 0."
+
+#: security/help.pm:117
+#, c-format
+msgid "if set to yes, check permissions of files in the users' home."
+msgstr ""
+"Če je nastavljeno na »da«, preveri dovoljenja datotek in uporabnikovih "
+"domačih map."
+
+#: security/help.pm:118
+#, c-format
+msgid "if set to yes, check if the network devices are in promiscuous mode."
+msgstr ""
+"Če je nastavljeno na »da«, preveri, če je omrežna naprava v promiskuitetnem "
+"načinu."
+
+#: security/help.pm:119
+#, c-format
+msgid "if set to yes, run the daily security checks."
+msgstr "Če je nastavljeno na »da«, poženi dnevno preverjanje varnosti."
+
+#: security/help.pm:120
+#, c-format
+msgid "if set to yes, check additions/removals of sgid files."
+msgstr ""
+"Če je nastavljeno na »da«, preveri, ali so bile dodane ali odstranjene "
+"datoteke sgid."
+
+#: security/help.pm:121
+#, c-format
+msgid "if set to yes, check empty password in /etc/shadow."
+msgstr ""
+"Če je nastavljeno na »da«, preveri ali obstajajo prazna gesla v /etc/shadow."
+
+#: security/help.pm:122
+#, c-format
+msgid "if set to yes, verify checksum of the suid/sgid files."
+msgstr "Če je nastavljeno na »da«, preveri kontrolno vsoto datotek suid/sgid."
+
+#: security/help.pm:123
+#, c-format
+msgid "if set to yes, check additions/removals of suid root files."
+msgstr ""
+"Če je nastavljeno na »da«, preveri, ali so bile dodane ali odstranjene "
+"datoteke suid uporabnika root."
+
+#: security/help.pm:124
+#, c-format
+msgid "if set to yes, report unowned files."
+msgstr "Če je nastavljeno na »da«, poročaj o datotekah brez lastnika."
+
+#: security/help.pm:125
+#, c-format
+msgid "if set to yes, check files/directories writable by everybody."
+msgstr ""
+"Če je nastavljeno na »da«, preveri datoteke in mape v katere lahko piše "
+"vsakdo."
+
+#: security/help.pm:126
+#, c-format
+msgid "if set to yes, run chkrootkit checks."
+msgstr "Če je nastavljeno na »da«, poženi preverjanje chkrootkit."
+
+#: security/help.pm:127
+#, c-format
+msgid ""
+"if set, send the mail report to this email address else send it to root."
+msgstr ""
+"Če je nastavljeno, pošlji e-poštno poročilo na ta e-poštni naslov, v "
+"nasprotnem primeru pošlji uporabniku »root«."
+
+#: security/help.pm:128
+#, c-format
+msgid "if set to yes, report check result by mail."
+msgstr "Če je nastavljeno na »da«, sporoči rezultate preverjanja po e-pošti."
+
+#: security/help.pm:129
+#, c-format
+msgid "Do not send mails if there's nothing to warn about"
+msgstr "Ne pošiljaj e-pošte, če ni opozoril"
+
+#: security/help.pm:130
+#, c-format
+msgid "if set to yes, run some checks against the rpm database."
+msgstr ""
+"Če je nastavljeno na »da«, poženi nekatera preverjanja podatkovne baze rpm."
+
+#: security/help.pm:131
+#, c-format
+msgid "if set to yes, report check result to syslog."
+msgstr "Če je nastavljeno na »da«, pošlji rezultate preverjanja v syslog."
+
+#: security/help.pm:132
+#, c-format
+msgid "if set to yes, reports check result to tty."
+msgstr "Če je nastavljeno na »da«, pošlji rezultate preverjanja v tty."
+
+#: security/help.pm:134
+#, c-format
+msgid "Set shell commands history size. A value of -1 means unlimited."
+msgstr "Velikost zgodovine lupinskih ukazov. Vrednost -1 pomeni neskončno."
+
+#: security/help.pm:136
+#, c-format
+msgid "Set the shell timeout. A value of zero means no timeout."
+msgstr "Določi časovno omejitev lupine. Vrednost nič pomeni, da omejitve ni."
+
+#: security/help.pm:136
+#, c-format
+msgid "Timeout unit is second"
+msgstr "Enota časovne omejitve je sekunda"
+
+#: security/help.pm:138
+#, c-format
+msgid "Set the user's file mode creation mask."
+msgstr "Nastavi masko trenutnega uporabnika za ustvarjanje datotek."
+
+#: security/l10n.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages"
+msgstr "Sprejmi nepravilna sporočila o napakah IPv4"
+
+#: security/l10n.pm:12
+#, c-format
+msgid "Accept broadcasted icmp echo"
+msgstr "Sprejmi posredovani ICMP odmev"
+
+#: security/l10n.pm:13
+#, c-format
+msgid "Accept icmp echo"
+msgstr "Sprejmi ICMP odmev"
+
+#: security/l10n.pm:15
+#, c-format
+msgid "/etc/issue* exist"
+msgstr "/etc/issue* obstaja"
+
+#: security/l10n.pm:16
+#, c-format
+msgid "Reboot by the console user"
+msgstr "Ponovni zagon s strani uporabnika konzole"
+
+#: security/l10n.pm:17
+#, c-format
+msgid "Allow remote root login"
+msgstr "Omogoči oddaljeno prijavo skrbnika (root)"
+
+#: security/l10n.pm:18
+#, c-format
+msgid "Direct root login"
+msgstr "Neposredna prijava skrbnika (root)"
+
+#: security/l10n.pm:19
+#, c-format
+msgid "List users on display managers (kdm and gdm)"
+msgstr "Prikaži seznam uporabnikov v upraviteljih prikaza (kdm in gdm)"
+
+#: security/l10n.pm:20
+#, c-format
+msgid "Export display when passing from root to the other users"
+msgstr "Izvozi prikazovalnik ob preklopu s skrbnika na drugega uporabnika"
+
+#: security/l10n.pm:21
+#, c-format
+msgid "Allow X Window connections"
+msgstr "Omogoči povezave X Window"
+
+#: security/l10n.pm:22
+#, c-format
+msgid "Authorize TCP connections to X Window"
+msgstr "Odobritev povezav TCP na X Window"
+
+#: security/l10n.pm:23
+#, c-format
+msgid "Authorize all services controlled by tcp_wrappers"
+msgstr "Odobritev vseh storitev, ki jih krmilijo »tcp_wrappers«"
+
+#: security/l10n.pm:24
+#, c-format
+msgid "Chkconfig obey msec rules"
+msgstr "Chkconfig spoštuje pravila msec"
+
+#: security/l10n.pm:25
+#, c-format
+msgid "Enable \"crontab\" and \"at\" for users"
+msgstr "Uporabnikom omogoči »crontab« in »at«"
+
+#: security/l10n.pm:26
+#, c-format
+msgid "Syslog reports to console 12"
+msgstr "Poročila syslog v konzolo 12"
+
+#: security/l10n.pm:27
+#, c-format
+msgid "Name resolution spoofing protection"
+msgstr "Zaščita pred lažnim predstavljanjem pri razreševanju naslova"
+
+#: security/l10n.pm:28
+#, c-format
+msgid "Enable IP spoofing protection"
+msgstr "Omogoči zaščito pred lažnim predstavljanjem naslova IP"
+
+#: security/l10n.pm:29
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system"
+msgstr "Omogoči libsafe, če je nameščen"
+
+#: security/l10n.pm:30
+#, c-format
+msgid "Enable the logging of IPv4 strange packets"
+msgstr "Omogoči beleženje čudnih paketov IPv4"
+
+#: security/l10n.pm:31
+#, c-format
+msgid "Enable msec hourly security check"
+msgstr "Omogoči urno varnostno preverjanje msec"
+
+#: security/l10n.pm:32
+#, c-format
+msgid "Enable su only from the wheel group members"
+msgstr ""
+"Omogoči možnost, da lahko ukaz »su« uporabljajo le člani skupine »wheel«"
+
+#: security/l10n.pm:33
+#, c-format
+msgid "Use password to authenticate users"
+msgstr "Za overjanje uporabnikov uporabi geslo"
+
+#: security/l10n.pm:34
+#, c-format
+msgid "Ethernet cards promiscuity check"
+msgstr "Preverjanje promiskuitetnega načina omrežnih kartic"
+
+#: security/l10n.pm:35
+#, c-format
+msgid "Daily security check"
+msgstr "Dnevno preverjanje varnosti"
+
+#: security/l10n.pm:36
+#, c-format
+msgid "Sulogin(8) in single user level"
+msgstr "Sulogin(8) v enouporabniški način"
+
+#: security/l10n.pm:37
+#, c-format
+msgid "No password aging for"
+msgstr "Brez staranja gesla za"
+
+#: security/l10n.pm:38
+#, c-format
+msgid "Set password expiration and account inactivation delays"
+msgstr "Določi zakasnitvi poteka gesla in deaktiviranja uporabniškega računa"
+
+#: security/l10n.pm:39
+#, c-format
+msgid "Password history length"
+msgstr "Dolžina zgodovine gesel"
+
+#: security/l10n.pm:40
+#, c-format
+msgid "Password minimum length and number of digits and upcase letters"
+msgstr "Minimalna dolžina gesla in število števk ter velikih črk"
+
+#: security/l10n.pm:41
+#, c-format
+msgid "Root umask"
+msgstr "Umask skrbnika (root)"
+
+#: security/l10n.pm:42
+#, c-format
+msgid "Shell history size"
+msgstr "Velikost zgodovine lupine"
+
+#: security/l10n.pm:43
+#, c-format
+msgid "Shell timeout"
+msgstr "Časovna omejitev lupine"
+
+#: security/l10n.pm:44
+#, c-format
+msgid "User umask"
+msgstr "Umask uporabnika"
+
+#: security/l10n.pm:45
+#, c-format
+msgid "Check open ports"
+msgstr "Preveri odprta vrata"
+
+#: security/l10n.pm:46
+#, c-format
+msgid "Check for unsecured accounts"
+msgstr "Poišči uporabniške račune, ki niso varni"
+
+#: security/l10n.pm:47
+#, c-format
+msgid "Check permissions of files in the users' home"
+msgstr "Preveri dovoljenja datotek v domačih mapah uporabnikov"
+
+#: security/l10n.pm:48
+#, c-format
+msgid "Check if the network devices are in promiscuous mode"
+msgstr "Preveri ali so omrežne naprave v promiskuitetnem načinu"
+
+#: security/l10n.pm:49
+#, c-format
+msgid "Run the daily security checks"
+msgstr "Izvedi dnevno preverjanje varnosti"
+
+#: security/l10n.pm:50
+#, c-format
+msgid "Check additions/removals of sgid files"
+msgstr "Preveri, ali so bile dodane ali odstranjene datoteke sgid."
+
+#: security/l10n.pm:51
+#, c-format
+msgid "Check empty password in /etc/shadow"
+msgstr "Preveri ali so v /etc/shadow prazna gesla"
+
+#: security/l10n.pm:52
+#, c-format
+msgid "Verify checksum of the suid/sgid files"
+msgstr "Preveri kontrolno vsoto datotek suid/sgid."
+
+#: security/l10n.pm:53
+#, c-format
+msgid "Check additions/removals of suid root files"
+msgstr "Preveri, ali so bile dodane ali odstranjene datoteke suid skrbnika."
+
+#: security/l10n.pm:54
+#, c-format
+msgid "Report unowned files"
+msgstr "Poročaj o datotekah brez lastnika."
+
+#: security/l10n.pm:55
+#, c-format
+msgid "Check files/directories writable by everybody"
+msgstr "Preveri datoteke in mape v katere lahko piše vsakdo."
+
+#: security/l10n.pm:56
+#, c-format
+msgid "Run chkrootkit checks"
+msgstr "Poženi preverjanje chkrootkit"
+
+#: security/l10n.pm:57
+#, c-format
+msgid "Do not send empty mail reports"
+msgstr "Ne pošiljaj praznih elektronskih sporočil"
+
+#: security/l10n.pm:58
+#, c-format
+msgid "If set, send the mail report to this email address else send it to root"
+msgstr ""
+"Če je nastavljeno, pošlji e-poštno poročilo na ta e-poštni naslov, v "
+"nasprotnem primeru ga pošlji skrbniku"
+
+#: security/l10n.pm:59
+#, c-format
+msgid "Report check result by mail"
+msgstr "Sporoči rezultate preverjanja po e-pošti."
+
+#: security/l10n.pm:60
+#, c-format
+msgid "Run some checks against the rpm database"
+msgstr "Poženi nekatera preverjanja podatkovne baze rpm."
+
+#: security/l10n.pm:61
+#, c-format
+msgid "Report check result to syslog"
+msgstr "Pošlji rezultate preverjanja v syslog."
+
+#: security/l10n.pm:62
+#, c-format
+msgid "Reports check result to tty"
+msgstr "Pošlji rezultate preverjanja v tty."
+
+#: security/level.pm:10
+#, c-format
+msgid "Disable msec"
+msgstr "Onemogoči msec"
+
+#: security/level.pm:11
+#, c-format
+msgid "Standard"
+msgstr "Standardno"
+
+#: security/level.pm:12
+#, c-format
+msgid "Secure"
+msgstr "Varno"
+
+#: security/level.pm:52
+#, c-format
+msgid ""
+"This level is to be used with care, as it disables all additional security\n"
+"provided by msec. Use it only when you want to take care of all aspects of "
+"system security\n"
+"on your own."
+msgstr ""
+"To stopnjo uporabljajte pazljivo, saj onemogoči vso dodatno varovanje, ki "
+"ga\n"
+"ponuja msec. Uporabljajte jo le, če želite varovanje v celoti vzeti v svoje "
+"roke."
+
+#: security/level.pm:55
+#, c-format
+msgid ""
+"This is the standard security recommended for a computer that will be used "
+"to connect to the Internet as a client."
+msgstr ""
+"To je normalna varnost, priporočeno za računalnike, ki bodo povezani v "
+"Internet kot odjemalci."
+
+#: security/level.pm:56
+#, c-format
+msgid ""
+"With this security level, the use of this system as a server becomes "
+"possible.\n"
+"The security is now high enough to use the system as a server which can "
+"accept\n"
+"connections from many clients. Note: if your machine is only a client on the "
+"Internet, you should choose a lower level."
+msgstr ""
+"Na tej varnostni stopnji postane uporaba sistema kot strežnika mogoča.\n"
+"Varnost je zdaj dovolj velika za uporabo sistema kot strežnika, s katerim se "
+"lahko\n"
+"povezujejo mnogi odjemalci. Opomba: če je vaš sistem na internetu le "
+"odjemalec, je priporočeno, da nastavite nižjo varnostno stopnjo."
+
+#: security/level.pm:63
+#, c-format
+msgid "DrakSec Basic Options"
+msgstr "Osnovne možnosti za DrakSec"
+
+#: security/level.pm:66
+#, c-format
+msgid "Please choose the desired security level"
+msgstr "Izberite željeno stopnjo varnosti"
+
+#. -PO: this string is used to properly format "<security level>: <level description>"
+#: security/level.pm:70
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: security/level.pm:73
+#, c-format
+msgid "Security Administrator:"
+msgstr "Varnostni administrator:"
+
+#: security/level.pm:74
+#, c-format
+msgid "Login or email:"
+msgstr "Prijava ali e-pošta:"
+
+#: services.pm:18
+#, c-format
+msgid "Listen and dispatch ACPI events from the kernel"
+msgstr "Prisluškuje in odpošilja dogodke ACPI jedra"
+
+#: services.pm:19
+#, c-format
+msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+msgstr "Zažene zvočni sistem ALSA (Advanced Linux Sound Architecture)"
+
+#: services.pm:20
+#, c-format
+msgid "Anacron is a periodic command scheduler."
+msgstr "Anacron omogoča ponavljajoč zagon programov ob določenem času."
+
+#: services.pm:21
+#, c-format
+msgid ""
+"apmd is used for monitoring battery status and logging it via syslog.\n"
+"It can also be used for shutting down the machine when the battery is low."
+msgstr ""
+"apmd se uporablja za nadzor baterij in beleženje stanja v syslog.\n"
+"Uporabi se lahko tudi za izklop računalnika pred izpraznitvijo baterije."
+
+#: services.pm:23
+#, c-format
+msgid ""
+"Runs commands scheduled by the at command at the time specified when\n"
+"at was run, and runs batch commands when the load average is low enough."
+msgstr ""
+"Izvede ukaze določene z ukazom at ob določenem času in\n"
+"omogoča, da se ukazi izvedejo, ko je računalnik manj obremenjen."
+
+#: services.pm:25
+#, c-format
+msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
+msgstr "Avahi je pritajeni program za ZeroConf, ki podpira sklad mDNS"
+
+#: services.pm:26
+#, c-format
+msgid "An NTP client/server"
+msgstr "Odjemalec/strežnik NTP"
+
+#: services.pm:27
+#, c-format
+msgid "Set CPU frequency settings"
+msgstr "Nastavlja hitrost procesorja"
+
+#: services.pm:28
+#, c-format
+msgid ""
+"cron is a standard UNIX program that runs user-specified programs\n"
+"at periodic scheduled times. vixie cron adds a number of features to the "
+"basic\n"
+"UNIX cron, including better security and more powerful configuration options."
+msgstr ""
+"cron je standardni UNIX program, za izvajanje programov periodično\n"
+"ob določenem času. vixie cron k temu doda še veliko dodatnih možnosti,\n"
+"med drugim boljšo varnost in večjo prilagodljivost."
+
+#: services.pm:31
+#, c-format
+msgid ""
+"Common UNIX Printing System (CUPS) is an advanced printer spooling system"
+msgstr "Common UNIX Printing System (CUPS) je napreden tiskalniški sistem"
+
+#: services.pm:32
+#, c-format
+msgid "Launches the graphical display manager"
+msgstr "Zažene grafični uporabniški vmesnik upravljalnika prikazovalnikov"
+
+#: services.pm:33
+#, c-format
+msgid ""
+"FAM is a file monitoring daemon. It is used to get reports when files "
+"change.\n"
+"It is used by GNOME and KDE"
+msgstr ""
+"FAM je ozadnji program, ki beleži spremembe datotek.\n"
+"Uporabljata ga tudi GNOME in KDE."
+
+#: services.pm:35
+#, c-format
+msgid ""
+"G15Daemon allows users access to all extra keys by decoding them and \n"
+"pushing them back into the kernel via the linux UINPUT driver. This driver "
+"must be loaded \n"
+"before g15daemon can be used for keyboard access. The G15 LCD is also "
+"supported. By default, \n"
+"with no other clients active, g15daemon will display a clock. Client "
+"applications and \n"
+"scripts can access the LCD via a simple API."
+msgstr ""
+"Ozadnji program G15Daemon uporabnikom omogoča dostop do do vseh dodatnih "
+"tipk,\n"
+"tako da jih dekodira in preda nazaj jedru s pomočjo gonilnika UINPUT. Da bi "
+"lahko\n"
+"bil uporabljen za tipkovnico mora biti gonilnik naložen pred g15daemon.\n"
+"Podprt je tudi G15 LCD. Privzeto, ko ni naložen noben drug odjemalec,\n"
+"g15daemon prikazuje uro. Odjemalci in skripti lahko do LCD-ja dostopajo s\n"
+"preprostim programskim vmesnikom."
+
+#: services.pm:40
+#, c-format
+msgid ""
+"GPM adds mouse support to text-based Linux applications such the\n"
+"Midnight Commander. It also allows mouse-based console cut-and-paste "
+"operations,\n"
+"and includes support for pop-up menus on the console."
+msgstr ""
+"Program GPM omogoča rabo miške tudi v besedilnem načinu v programih kot so\n"
+"Midnight Commander. Omogoča, da z miško opravljamo funkcije\n"
+"kopiraj-prilepi in vključuje podporo za menije v konzoli."
+
+#: services.pm:43
+#, c-format
+msgid "HAL is a daemon that collects and maintains information about hardware"
+msgstr "HAL je ozadnji program, ki zbira in vzdržuje podatke o strojni opremi"
+
+#: services.pm:44
+#, c-format
+msgid ""
+"HardDrake runs a hardware probe, and optionally configures\n"
+"new/changed hardware."
+msgstr ""
+"HardDrake preveri strojno opremo ter po potrebi nastavi\n"
+"novo ali spremenjeno strojno opremo."
+
+#: services.pm:46
+#, c-format
+msgid ""
+"Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+msgstr ""
+"Apache je spletni strežnik. Uporablja se za strežbo datotek HTML ter PHP in "
+"izvajanje programov CGI."
+
+#: services.pm:47
+#, c-format
+msgid ""
+"The internet superserver daemon (commonly called inetd) starts a\n"
+"variety of other internet services as needed. It is responsible for "
+"starting\n"
+"many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+"disables\n"
+"all of the services it is responsible for."
+msgstr ""
+"Nadzorni proces za internetne aplikacije (poznan kot inetd) skrbi za paleto\n"
+"z internetom povezanih storitev. Skrbi za zagon storitev, kot so telnet, "
+"ftp, rsh in rlogin.\n"
+"Izključitev inetd onemogoči programe, ki skrbijo za te storitve."
+
+#: services.pm:51
+#, c-format
+msgid "Automates a packet filtering firewall with ip6tables"
+msgstr "Avtomatizira požarni zid za filtriranje paketov z ip6tables"
+
+#: services.pm:52
+#, c-format
+msgid "Automates a packet filtering firewall with iptables"
+msgstr "Avtomatizira požarni zid za filtriranje paketov z iptables"
+
+#: services.pm:53
+#, c-format
+msgid ""
+"Evenly distributes IRQ load across multiple CPUs for enhanced performance"
+msgstr ""
+"Enakomerno porazdeli zahtevke IRQ med več procesorjev, kar izboljša hitrost "
+"delovanja"
+
+#: services.pm:54
+#, c-format
+msgid ""
+"This package loads the selected keyboard map as set in\n"
+"/etc/sysconfig/keyboard.  This can be selected using the kbdconfig utility.\n"
+"You should leave this enabled for most machines."
+msgstr ""
+"Ta paket naloži izbrano tipkovno razvrstitev, kot je zapisano v\n"
+"/etc/sysconfig/keyboard. Ta nastavitev se spremeni s programom kbdconfig.\n"
+"Na večini računalnikov naj bo storitev omogočena."
+
+#: services.pm:57
+#, c-format
+msgid ""
+"Automatic regeneration of kernel header in /boot for\n"
+"/usr/include/linux/{autoconf,version}.h"
+msgstr ""
+"Samodejna obnova zaglavij jedra v /boot za\n"
+"/usr/include/linux/{autoconf,version}.h"
+
+#: services.pm:59
+#, c-format
+msgid "Automatic detection and configuration of hardware at boot."
+msgstr "Samodejna zaznava in namestitev strojne opreme ob zagonu."
+
+#: services.pm:60
+#, c-format
+msgid "Tweaks system behavior to extend battery life"
+msgstr "Prilagodi obnašanje sistema za daljše trajanje baterije"
+
+#: services.pm:61
+#, c-format
+msgid ""
+"Linuxconf will sometimes arrange to perform various tasks\n"
+"at boot-time to maintain the system configuration."
+msgstr ""
+"Linuxconf samodejno nastavi izvajanje različnih opravil\n"
+"ob zagonu za vzdrževanje sistemskih nastavitev."
+
+#: services.pm:63
+#, c-format
+msgid ""
+"lpd is the print daemon required for lpr to work properly. It is\n"
+"basically a server that arbitrates print jobs to printer(s)."
+msgstr ""
+"Tiskalniški ozadnji program lpd je potreben za delovanje\n"
+"lpr. V osnovi je strežnik, ki razvršča opravila tiskalnikom."
+
+#: services.pm:65
+#, c-format
+msgid ""
+"Linux Virtual Server, used to build a high-performance and highly\n"
+"available server."
+msgstr ""
+"Linux Virtual Server, namenjen izgradnji visoko zmogljivega in vzdržljivega "
+"strežnika."
+
+#: services.pm:67
+#, c-format
+msgid "Monitors the network (Interactive Firewall and wireless"
+msgstr "Nadzoruje omrežje (interaktivni požarni zid in brezžično omrežje)"
+
+#: services.pm:68
+#, c-format
+msgid "Software RAID monitoring and management"
+msgstr "Nadzorovanje in upravljanje s programskim RAID-om"
+
+#: services.pm:69
+#, c-format
+msgid ""
+"DBUS is a daemon which broadcasts notifications of system events and other "
+"messages"
+msgstr ""
+"DBUS je ozadnji program, ki prenaša obvestila o sistemskih dogodkih in "
+"ostala sporočila"
+
+#: services.pm:70
+#, c-format
+msgid "Enables MSEC security policy on system startup"
+msgstr "Ob zagonu sistema omogoči varnostna pravila MSEC"
+
+#: services.pm:71
+#, c-format
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+"names to IP addresses."
+msgstr ""
+"named (BIND) je domenski (DNS) strežnik, ki imena strežnikov razrešuje v "
+"naslove IP."
+
+#: services.pm:72
+#, c-format
+msgid "Initializes network console logging"
+msgstr "Nastavlja začetne vrednosti beleženja dnevnika konzole prek omrežja"
+
+#: services.pm:73
+#, c-format
+msgid ""
+"Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+"Manager/Windows), and NCP (NetWare) mount points."
+msgstr ""
+"Priklopi in odkopi vse priklopne točke za omrežni datotečni sistem (NFS),\n"
+"SMB (LAN Manager/Windows) in NCP (NetWare)."
+
+#: services.pm:75
+#, c-format
+msgid ""
+"Activates/Deactivates all network interfaces configured to start\n"
+"at boot time."
+msgstr ""
+"Vključi/izključi vse mrežne vmesnike, ki so nastavljeni,\n"
+"da se vključijo ob zagonu."
+
+#: services.pm:77
+#, c-format
+msgid "Requires network to be up if enabled"
+msgstr "Če je omogočeno, zahteva delujoče omrežje"
+
+#: services.pm:78
+#, c-format
+msgid "Wait for the hotplugged network to be up"
+msgstr "Počakaj na delujoče omrežje"
+
+#: services.pm:79
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+"This service provides NFS server functionality, which is configured via the\n"
+"/etc/exports file."
+msgstr ""
+"NFS je priljubljen protokol za skupno rabo datotek po omrežjih TCP/IP.\n"
+"Storitev omogoča funkcije strežnika NFS, ki so nastavljene v datoteki\n"
+"/etc/exports."
+
+#: services.pm:82
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP\n"
+"networks. This service provides NFS file locking functionality."
+msgstr ""
+"NFS je priljubljen protokol za skupno rabo datotek po omrežjih TCP/IP.\n"
+"Ta storitev omogoča NFS zaklepanje posameznih datotek."
+
+#: services.pm:84
+#, c-format
+msgid "Synchronizes system time using the Network Time Protocol (NTP)"
+msgstr ""
+"Usklajuje sistemski čas z uporabo protokola NTP (Network Time Protocol)"
+
+#: services.pm:85
+#, c-format
+msgid ""
+"Automatically switch on numlock key locker under console\n"
+"and Xorg at boot."
+msgstr ""
+"Ob zagonu samodejno vklopi številčni del tipkovnice za konzolo in Xorg."
+
+#: services.pm:87
+#, c-format
+msgid "Support the OKI 4w and compatible winprinters."
+msgstr ""
+"Podpora za OKI 4w in združljive tiskalnike, ki so sicer omejeni le na "
+"Windows®."
+
+#: services.pm:88
+#, c-format
+msgid "Checks if a partition is close to full up"
+msgstr "Preverja ali je razdelek skoraj povsem poln"
+
+#: services.pm:89
+#, c-format
+msgid ""
+"PCMCIA support is usually to support things like ethernet and\n"
+"modems in laptops.  It will not get started unless configured so it is safe "
+"to have\n"
+"it installed on machines that do not need it."
+msgstr ""
+"PCMCIA podpora je običajno namenjena tovrstnim mrežnim karticam in modemom\n"
+"v prenosnikih. Zagnana bo samo v primeru, da je dejansko omogočena.\n"
+"Namestitev na računalnikih, ki je ne potrebujejo, je torej varna."
+
+#: services.pm:92
+#, c-format
+msgid ""
+"The portmapper manages RPC connections, which are used by\n"
+"protocols such as NFS and NIS. The portmap server must be running on "
+"machines\n"
+"which act as servers for protocols which make use of the RPC mechanism."
+msgstr ""
+"Strežnik portmapper nadzira povezave RPC, ki jih uporabljajo protokoli\n"
+"kot sta NFS in NIS. Zagnan mora biti na računalnikih, ki delujejo\n"
+"kot strežniki za protokole, ki uporabljajo mehanizem RPC."
+
+#: services.pm:95
+#, c-format
+msgid "Reserves some TCP ports"
+msgstr "Rezervira nekaj vrat TCP"
+
+#: services.pm:96
+#, c-format
+msgid ""
+"Postfix is a Mail Transport Agent, which is the program that moves mail from "
+"one machine to another."
+msgstr ""
+"Postfix je strežnik za elektronsko pošto, ki skrbi za prenos sporočil med "
+"strežniki."
+
+#: services.pm:97
+#, c-format
+msgid ""
+"Saves and restores system entropy pool for higher quality random\n"
+"number generation."
+msgstr "Skrbi za kvalitetnejše ustvarjanje naključnih števil."
+
+#: services.pm:99
+#, c-format
+msgid ""
+"Assign raw devices to block devices (such as hard disk drive\n"
+"partitions), for the use of applications such as Oracle or DVD players"
+msgstr ""
+"Priredi neposredne (raw) naprave bločnim napravam (kot so razdelki diska)\n"
+"za potrebe aplikacij kot so Oracle in DVD predvajalniki."
+
+#: services.pm:101
+#, c-format
+msgid "Nameserver information manager"
+msgstr "Upravljalnik podatkov imenskega strežnika"
+
+#: services.pm:102
+#, c-format
+msgid ""
+"The routed daemon allows for automatic IP router table updated via\n"
+"the RIP protocol. While RIP is widely used on small networks, more complex\n"
+"routing protocols are needed for complex networks."
+msgstr ""
+"Ozadnji program routed omogoča samodejno nastavljanje usmerjevalne tabele\n"
+"za IP, posodobljene preko protokola RIP. Medtem, ko je RIP široko zastopam "
+"pri\n"
+"manjših omrežjih, se za večja omrežja uporabljajo kompleksnejši protokoli."
+
+#: services.pm:105
+#, c-format
+msgid ""
+"The rstat protocol allows users on a network to retrieve\n"
+"performance metrics for any machine on that network."
+msgstr ""
+"Protokol rstat omogoča pridobivanje podatkov o zmogljivostih\n"
+"računalnikov priključenih v omrežje."
+
+#: services.pm:107
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages to various "
+"system log files.  It is a good idea to always run rsyslog."
+msgstr ""
+"Syslog je storitev, ki omogoča večim ozadnjim programom, da uporabljajo "
+"skupen sistem zapisovanja sporočil v dnevnike. Priporočeno je, da rsyslog "
+"vedno teče."
+
+#: services.pm:108
+#, c-format
+msgid ""
+"The rusers protocol allows users on a network to identify who is\n"
+"logged in on other responding machines."
+msgstr ""
+"Protokol rusers omogoča uporabnikom v krajevni mreži\n"
+"identifikacijo prijavljenih uporabnikov na drugih računalnikih."
+
+#: services.pm:110
+#, c-format
+msgid ""
+"The rwho protocol lets remote users get a list of all of the users\n"
+"logged into a machine running the rwho daemon (similar to finger)."
+msgstr ""
+"Protokol rwho omogoča oddaljenim uporabnikom, da pridobijo spisek "
+"uporabnikov,\n"
+"prijavljenih na računalnikih, na katerih teče rwho (podobno kot finger)."
+
+#: services.pm:112
+#, c-format
+msgid ""
+"SANE (Scanner Access Now Easy) enables to access scanners, video cameras, ..."
+msgstr ""
+"SANE (Scanner Access Now Easy) omogoča dostop do optičnih bralnikov, video "
+"kamer, …"
+
+#: services.pm:113
+#, c-format
+msgid "Packet filtering firewall"
+msgstr "Požarni zid za filtriranje paketov"
+
+#: services.pm:114
+#, c-format
+msgid "Packet filtering firewall for IPv6"
+msgstr "Požarni zid za filtriranje paketov prek IPv6"
+
+#: services.pm:115
+#, c-format
+msgid ""
+"The SMB/CIFS protocol enables to share access to files & printers and also "
+"integrates with a Windows Server domain"
+msgstr ""
+"Protokol SMB/CIFS omogoča skupno rabo datotek in tiskalnikov ter se lahko "
+"integrira v domeno strežnikov Windows"
+
+#: services.pm:116
+#, c-format
+msgid "Launch the sound system on your machine"
+msgstr "Zažene zvočni sistem na vašem računalniku"
+
+#: services.pm:117
+#, c-format
+msgid "layer for speech analysis"
+msgstr "Plast za analizo govora"
+
+#: services.pm:118
+#, c-format
+msgid ""
+"Secure Shell is a network protocol that allows data to be exchanged over a "
+"secure channel between two computers"
+msgstr ""
+"Varna lupina (Secure Shell) je omrežni protokol, ki omogoča izmenjavo "
+"podatkov prek varnega kanala med dvema računalnikoma"
+
+#: services.pm:119
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages\n"
+"to various system log files.  It is a good idea to always run syslog."
+msgstr ""
+"Syslog je storitev, ki omogoča večim ozadnjim programom, da uporabljajo "
+"skupen sistem zapisovanja sporočil v dnevnike. Priporočeno je, da syslog "
+"storitev vedno teče."
+
+#: services.pm:121
+#, c-format
+msgid "Moves the generated persistent udev rules to /etc/udev/rules.d"
+msgstr "Premakne ustvarjena trajna pravila za udev v /etc/udev/rules.d"
+
+#: services.pm:122
+#, c-format
+msgid "Load the drivers for your usb devices."
+msgstr "Naloži gonilnike za naprave USB."
+
+#: services.pm:123
+#, c-format
+msgid "A lightweight network traffic monitor"
+msgstr "Preprost nadzornik omrežnega prometa"
+
+#: services.pm:124
+#, c-format
+msgid "Starts the X Font Server."
+msgstr "Zažene strežnik pisav za X."
+
+#: services.pm:125
+#, c-format
+msgid "Starts other deamons on demand."
+msgstr "Zažene ostale ozadnje programe na zahtevo."
+
+#: services.pm:154
+#, c-format
+msgid "Printing"
+msgstr "Tiskanje"
+
+#: services.pm:157
+#, c-format
+msgid "Internet"
+msgstr "Internet"
+
+#: services.pm:162
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Networking"
+msgstr "Omrežje"
+
+#: services.pm:164
+#, c-format
+msgid "System"
+msgstr "Sistem"
+
+#: services.pm:171
+#, c-format
+msgid "Remote Administration"
+msgstr "Skrbništvo na daljavo"
+
+#: services.pm:180
+#, c-format
+msgid "Database Server"
+msgstr "Podatkovni strežnik"
+
+#: services.pm:191 services.pm:233
+#, c-format
+msgid "Services"
+msgstr "Storitve"
+
+#: services.pm:191
+#, c-format
+msgid "Choose which services should be automatically started at boot time"
+msgstr ""
+"Izberite, katere storitve naj se samodejno zaženejo ob zagonu računalnika"
+
+#: services.pm:214
+#, c-format
+msgid "%d activated for %d registered"
+msgstr "%d aktiviranih od %d registriranih"
+
+#: services.pm:237
+#, c-format
+msgid "running"
+msgstr "teče"
+
+#: services.pm:237
+#, c-format
+msgid "stopped"
+msgstr "ustavljeno"
+
+#: services.pm:242
+#, c-format
+msgid "Services and daemons"
+msgstr "Storitve in ozadnji programi"
+
+#: services.pm:248
+#, c-format
+msgid ""
+"No additional information\n"
+"about this service, sorry."
+msgstr ""
+"Žal o tej storitvi ni\n"
+"dodatnih informacij."
+
+#: services.pm:255
+#, c-format
+msgid "Start when requested"
+msgstr "Na zahtevo"
+
+#: services.pm:255
+#, c-format
+msgid "On boot"
+msgstr "Ob zagonu"
+
+#: services.pm:272
+#, c-format
+msgid "Start"
+msgstr "Zaženi"
+
+#: services.pm:272
+#, c-format
+msgid "Stop"
+msgstr "Ustavi"
+
+#: standalone.pm:27
+#, c-format
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+msgstr ""
+"To je prosto programje: lahko ga posredujete dalje in/ali ga\n"
+"spreminjate pod pogoji licence »GNU General Public License«,\n"
+"ki so jo objavili pri »Free Software Foundation«; lahko kot\n"
+"verzija 2 ali na željo višja.\n"
+"\n"
+"Ta program razširjamo v upanju da bo uporaben, toda BREZ\n"
+"KAKRŠNEGAKOLI JAMSTVA; celo brez posledičnega jamstva za\n"
+"CENOVNO VREDNOST ali PRIMERNOST DOLOČENEMU NAMENU. Za\n"
+"podrobnosti preberite licenco »GNU General Public License«.\n"
+"\n"
+"Kopijo licence »GNU General Public License« bi morali dobiti\n"
+"skupaj s programom; če je niste, pišite na naslov Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,\n"
+"MA 02110-1301, USA.\n"
+
+#: standalone.pm:46
+#, c-format
+msgid ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Backup and Restore application\n"
+"\n"
+"--default             : save default directories.\n"
+"--debug               : show all debug messages.\n"
+"--show-conf           : list of files or directories to backup.\n"
+"--config-info         : explain configuration file options (for non-X "
+"users).\n"
+"--daemon              : use daemon configuration. \n"
+"--help                : show this message.\n"
+"--version             : show version number.\n"
+msgstr ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Program za varnostno kopiranje in obnovo\n"
+"\n"
+"--default             : shrani privzete mape.\n"
+"--debug               : pokaži vsa razhroščevalna sporočila.\n"
+"--show-conf           : seznam datotek ali map za arhiviranje.\n"
+"--config-info         : pojasni lastnosti nastavitvene datoteke (za ne-X "
+"uporabnike).\n"
+"--daemon              : uporabi nastavitve ozadnjega programa. \n"
+"--help                : prikaži to sporočilo.\n"
+"--version             : prikaži številko različice.\n"
+
+#: standalone.pm:58
+#, c-format
+msgid ""
+"[--boot]\n"
+"OPTIONS:\n"
+"  --boot            - enable to configure boot loader\n"
+"default mode: offer to configure autologin feature"
+msgstr ""
+"[--boot]\n"
+"MOŽNOSTI:\n"
+"  --boot            - omogoči nastavljanje zagonskega nalagalnika\n"
+"privzeti način: omogoča nastavljanje samodejne prijave"
+
+#: standalone.pm:62
+#, c-format
+msgid ""
+"[OPTIONS] [PROGRAM_NAME]\n"
+"\n"
+"OPTIONS:\n"
+"  --help            - print this help message.\n"
+"  --report          - program should be one of %s tools\n"
+"  --incident        - program should be one of %s tools"
+msgstr ""
+"[MOŽNOSTI] [IME_PROGRAMA]\n"
+"\n"
+"MOŽNOSTI:\n"
+"  --help            - izpiši to sporočilo za pomoč.\n"
+"  --report          - program mora biti eno izmed orodij v distribuciji %s\n"
+"  --incident        - program mora biti eno izmed orodij v distribuciji %s"
+
+#: standalone.pm:68
+#, c-format
+msgid ""
+"[--add]\n"
+"  --add             - \"add a network interface\" wizard\n"
+"  --del             - \"delete a network interface\" wizard\n"
+"  --skip-wizard     - manage connections\n"
+"  --internet        - configure internet\n"
+"  --wizard          - like --add"
+msgstr ""
+"[--add]\n"
+"  --add             - čarovnik za »dodajanje omrežnega vmesnika«\n"
+"  --del             - čarovnik za »odstranjevanje omrežnega vmesnika«\n"
+"  --skip-wizard     - upravljanje s povezavami\n"
+"  --internet        - nastavljanje interneta\n"
+"  --wizard          - isto kot --add"
+
+#: standalone.pm:74
+#, c-format
+msgid ""
+"\n"
+"Font Importation and monitoring application\n"
+"\n"
+"OPTIONS:\n"
+"--windows_import : import from all available windows partitions.\n"
+"--xls_fonts      : show all fonts that already exist from xls\n"
+"--install        : accept any font file and any directory.\n"
+"--uninstall      : uninstall any font or any directory of font.\n"
+"--replace        : replace all font if already exist\n"
+"--application    : 0 none application.\n"
+"                 : 1 all application available supported.\n"
+"                 : name_of_application like  so for staroffice \n"
+"                 : and gs for ghostscript for only this one."
+msgstr ""
+"\n"
+"Program za uvoz in nadzor pisav.\n"
+"\n"
+"MOŽNOSTI:\n"
+"--windows_import : uvozi z vseh dostopnih razdelkov Windows.\n"
+"--xls_fonts      : pokaži vse pisave, ki so že v xls\n"
+"--install        : sprejmi vsako datoteko pisave ali mapo.\n"
+"--uninstall      : odstrani vsako datoteko ali mapo pisav.\n"
+"--replace        : zamenjaj vse pisave, če že obstajajo\n"
+"--application    : 0 v noben program.\n"
+"                 : 1 v vse podprte programe.\n"
+"                 : ime_programa kot npr. za libreoffice \n"
+"                 : in gs za ghostscript samo v ta program."
+
+#: standalone.pm:89
+#, c-format
+msgid ""
+"[OPTIONS]...\n"
+"%s Terminal Server Configurator\n"
+"--enable         : enable MTS\n"
+"--disable        : disable MTS\n"
+"--start          : start MTS\n"
+"--stop           : stop MTS\n"
+"--adduser        : add an existing system user to MTS (requires username)\n"
+"--deluser        : delete an existing system user from MTS (requires "
+"username)\n"
+"--addclient      : add a client machine to MTS (requires MAC address, IP, "
+"nbi image name)\n"
+"--delclient      : delete a client machine from MTS (requires MAC address, "
+"IP, nbi image name)"
+msgstr ""
+"[MOŽNOSTI] …\n"
+"Nastavitev terminalskega strežnika %s\n"
+"--enable         : omogoči MTS\n"
+"--disable        : onemogoči MTS\n"
+"--start          : poženi MTS\n"
+"--stop           : ustavi MTS\n"
+"--adduser        : dodaj že obstoječega sistemskega uporabnika v MTS "
+"(zahtevano je uporabniško ime)\n"
+"--deluser        : zbriši obstoječega sistemskega uporabnika iz MTS "
+"(zahtevano je uporabniško ime)\n"
+"--addclient      : dodaj odjemalca v MTS (zahtevan je naslov MAC, IP, ime "
+"slike nbi)\n"
+"--delclient      : zbriši odjemalca iz MTS (zahtevan je naslov MAC, IP, ime "
+"slike nbi)"
+
+#: standalone.pm:101
+#, c-format
+msgid "[keyboard]"
+msgstr "[tipkovnica]"
+
+#: standalone.pm:102
+#, c-format
+msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+msgstr ""
+"[--file=mojadatoteka] [--word=mojabeseda] [--explain=logičniizraz] [--alert]"
+
+#: standalone.pm:103
+#, c-format
+msgid ""
+"[OPTIONS]\n"
+"Network & Internet connection and monitoring application\n"
+"\n"
+"--defaultintf interface : show this interface by default\n"
+"--connect : connect to internet if not already connected\n"
+"--disconnect : disconnect to internet if already connected\n"
+"--force : used with (dis)connect : force (dis)connection.\n"
+"--status : returns 1 if connected 0 otherwise, then exit.\n"
+"--quiet : do not be interactive. To be used with (dis)connect."
+msgstr ""
+"[MOŽNOSTI]\n"
+"Program za omrežno in internetno povezovanje ter nadzor\n"
+"\n"
+"--defaultintf vmesnik : privzeto pokaži ta vmesnik\n"
+"--connect : poveži se na Internet, če povezava še ni vzpostavljena\n"
+"--disconnect : prekini povezavo z internetom, če je povezava že "
+"vzpostavljena\n"
+"--force : se uporablja z (dis)connect : prisili vzpostavitev / prekinitev "
+"povezave.\n"
+"--status : vrne 1, če je povezava vzpostavljena, drugače 0, potem konča\n"
+"--quiet : brez interaktivnosti. Uporablja se z --(dis)connect."
+
+#: standalone.pm:113
+#, c-format
+msgid ""
+"[OPTION]...\n"
+"  --no-confirmation      do not ask first confirmation question in %s Update "
+"mode\n"
+"  --no-verify-rpm        do not verify packages signatures\n"
+"  --changelog-first      display changelog before filelist in the "
+"description window\n"
+"  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+msgstr ""
+"[MOŽNOST] …\n"
+"  --no-confirmation      v %s Update načinu ne zahtevaj prve potrditve\n"
+"  --no-verify-rpm        brez preverjanja podpisov paketov\n"
+"  --changelog-first      v oknu z opisom prikaži dnevnik sprememb pred "
+"seznamom datotek\n"
+"  --merge-all-rpmnew     predlog za združitev vseh najdenih datotek ."
+"rpmnew / .rpmsave"
+
+#: standalone.pm:118
+#, c-format
+msgid ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+msgstr ""
+"[--manual] [--device=naprava] [--update-sane=izvorna_mapa_za_sane] [--update-"
+"usbtable] [--dynamic=naprava]"
+
+#: standalone.pm:119
+#, c-format
+msgid ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolution"
+msgstr ""
+" [vse]\n"
+"       XFdrake [--noauto] zaslon\n"
+"       XFdrake ločljivost"
+
+#: standalone.pm:156
+#, c-format
+msgid ""
+"\n"
+"Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+msgstr ""
+"\n"
+"Uporaba: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+
+#: timezone.pm:170 timezone.pm:171
+#, c-format
+msgid "All servers"
+msgstr "Vsi strežniki"
+
+#: timezone.pm:207
+#, c-format
+msgid "Global"
+msgstr "Globalni"
+
+#: timezone.pm:210
+#, c-format
+msgid "Africa"
+msgstr "Afrika"
+
+#: timezone.pm:211
+#, c-format
+msgid "Asia"
+msgstr "Azija"
+
+#: timezone.pm:212
+#, c-format
+msgid "Europe"
+msgstr "Evropa"
+
+#: timezone.pm:213
+#, c-format
+msgid "North America"
+msgstr "Severna Amerika"
+
+#: timezone.pm:214
+#, c-format
+msgid "Oceania"
+msgstr "Oceanija"
+
+#: timezone.pm:215
+#, c-format
+msgid "South America"
+msgstr "Južna Amerika"
+
+#: timezone.pm:224
+#, c-format
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: timezone.pm:261
+#, c-format
+msgid "Russian Federation"
+msgstr "Ruska Federacija"
+
+#: timezone.pm:269
+#, c-format
+msgid "Yugoslavia"
+msgstr "Jugoslavija"
+
+#: ugtk2.pm:810 ugtk3.pm:906
+#, c-format
+msgid "Is this correct?"
+msgstr "Pravilno?"
+
+#: ugtk2.pm:872 ugtk3.pm:968
+#, c-format
+msgid "You have chosen a file, not a directory"
+msgstr "Namesto mape ste izbrali datoteko"
+
+#: ugtk2.pm:922 ugtk3.pm:1018
+#, c-format
+msgid "Info"
+msgstr "Informacije"
+
+#: wizards.pm:95
+#, c-format
+msgid ""
+"%s is not installed\n"
+"Click \"Next\" to install or \"Cancel\" to quit"
+msgstr ""
+"%s ni nameščen\n"
+"Kliknite »Naprej« za namestitev oziroma »Prekliči« za prekinitev."
+
+#: wizards.pm:99
+#, c-format
+msgid "Installation failed"
+msgstr "Namestitev ni uspela"

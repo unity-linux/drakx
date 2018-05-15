@@ -1,0 +1,7015 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2013-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-12-12 23:00+0100\n"
+"PO-Revision-Date: 2017-01-16 18:29+0000\n"
+"Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
+"Language-Team: Romanian (http://www.transifex.com/MageiaLinux/mageia/"
+"language/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#: any.pm:263 any.pm:1026 diskdrake/interactive.pm:650
+#: diskdrake/interactive.pm:874 diskdrake/interactive.pm:936
+#: diskdrake/interactive.pm:1028 diskdrake/interactive.pm:1055
+#: diskdrake/interactive.pm:1286 diskdrake/interactive.pm:1344 do_pkgs.pm:342
+#: do_pkgs.pm:387 interactive.pm:712 pkgs.pm:293
+#, c-format
+msgid "Please wait"
+msgstr "Așteptați vă rog"
+
+#: any.pm:263
+#, c-format
+msgid "Bootloader installation in progress"
+msgstr "Se instalează încărcătorul de sistem"
+
+#: any.pm:274
+#, c-format
+msgid ""
+"LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+"the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+"error.\n"
+"This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+"\n"
+"Assign a new Volume ID?"
+msgstr ""
+"LILO vrea să atribuie un nou identificator de volum discului %s. Totuși, "
+"schimbarea\n"
+"identificatorului de volum al unei partiții de pornire Windows NT, 2000 sau "
+"XP provoacă\n"
+"o eroare Windows fatală. Aceasta nu se aplică discurilor de date Windows 95, "
+"98 sau NT.\n"
+"\n"
+"Doriți să atribuiți un nou identificator de volum?"
+
+#: any.pm:285
+#, c-format
+msgid "Installation of bootloader failed. The following error occurred:"
+msgstr ""
+"Instalarea încărcătorului de sistem a eșuat. S-a produs următoarea eroare:"
+
+#: any.pm:325
+#, c-format
+msgid ""
+"You decided to install the bootloader on a partition.\n"
+"This implies you already have a bootloader on the hard disk drive you boot "
+"(eg: System Commander).\n"
+"\n"
+"On which drive are you booting?"
+msgstr ""
+"Ați decis să instalați încărcătorul de sistem pe o partiție.\n"
+"Aceasta implică faptul că aveți deja instalat un încărcător de sistem pe "
+"discul dur de pe care porniți (ex: System Commander).\n"
+"\n"
+"De pe care disc porniți sistemul?"
+
+#: any.pm:336
+#, c-format
+msgid "Bootloader Installation"
+msgstr "Instalare încărcător de sistem"
+
+#: any.pm:340
+#, c-format
+msgid "Where do you want to install the bootloader?"
+msgstr "Unde doriți să instalați încărcătorul de sistem?"
+
+#: any.pm:356
+#, c-format
+msgid "First sector (MBR) of drive %s"
+msgstr "Primul sector (MBR) al discului %s"
+
+#: any.pm:358
+#, c-format
+msgid "First sector of drive (MBR)"
+msgstr "Primul sector al discului (MBR)"
+
+#: any.pm:360
+#, c-format
+msgid "First sector of the root partition"
+msgstr "Primul sector al partiției rădăcină"
+
+#: any.pm:362
+#, c-format
+msgid "On Floppy"
+msgstr "Pe dischetă"
+
+#: any.pm:364 pkgs.pm:289 ugtk2.pm:526 ugtk3.pm:600
+#, c-format
+msgid "Skip"
+msgstr "Omite etapa"
+
+#: any.pm:392
+#, c-format
+msgid "Boot Style Configuration"
+msgstr "Configurați stilul de pornire"
+
+#: any.pm:396
+#, c-format
+msgid "EFI System Partition"
+msgstr "Partiție de sistem EFI"
+
+#: any.pm:411
+#, c-format
+msgid "Bootloader main options"
+msgstr "Opțiunile principale ale încărcătorului de sistem"
+
+#: any.pm:415
+#, c-format
+msgid "Bootloader"
+msgstr "Încărcător de sistem"
+
+#: any.pm:416
+#, c-format
+msgid "Bootloader to use"
+msgstr "Încărcător de sistem utilizat"
+
+#: any.pm:418
+#, c-format
+msgid "Boot device"
+msgstr "Dispozitivul de pornire"
+
+#: any.pm:420
+#, c-format
+msgid "Main options"
+msgstr "Opțiuni principale"
+
+#: any.pm:421
+#, c-format
+msgid "Delay before booting default image"
+msgstr "Temporizare înaintea pornirii imaginii implicite"
+
+#: any.pm:422
+#, c-format
+msgid "Enable ACPI"
+msgstr "Activează ACPI"
+
+#: any.pm:423
+#, c-format
+msgid "Enable SMP"
+msgstr "Activează SMP"
+
+#: any.pm:424
+#, c-format
+msgid "Enable APIC"
+msgstr "Activează APIC"
+
+#: any.pm:426
+#, c-format
+msgid "Enable Local APIC"
+msgstr "Activează APIC local"
+
+#: any.pm:427 security/level.pm:63
+#, c-format
+msgid "Security"
+msgstr "Securitate"
+
+#: any.pm:428 any.pm:950 any.pm:969 authentication.pm:249
+#: diskdrake/smbnfs_gtk.pm:181
+#, c-format
+msgid "Password"
+msgstr "Parolă"
+
+#: any.pm:431 authentication.pm:260
+#, c-format
+msgid "The passwords do not match"
+msgstr "Parolele nu sînt identice"
+
+#: any.pm:431 authentication.pm:260 diskdrake/interactive.pm:1513
+#, c-format
+msgid "Please try again"
+msgstr "Încercați din nou"
+
+#: any.pm:433
+#, c-format
+msgid "You cannot use a password with %s"
+msgstr "Nu puteți utiliza o parolă cu %s"
+
+#: any.pm:437 any.pm:953 any.pm:971 authentication.pm:250
+#, c-format
+msgid "Password (again)"
+msgstr "Verificare parolă"
+
+#: any.pm:502
+#, c-format
+msgid "Image"
+msgstr "Imagine"
+
+#: any.pm:503 any.pm:515
+#, c-format
+msgid "Root"
+msgstr "Root"
+
+#: any.pm:504 any.pm:642
+#, c-format
+msgid "Append"
+msgstr "Opțiuni aplicate nucleului"
+
+#: any.pm:506
+#, c-format
+msgid "Xen append"
+msgstr "Opțiuni Xen aplicate nucleului"
+
+#: any.pm:508
+#, c-format
+msgid "Requires password to boot"
+msgstr "Necesită parolă pentru pornire"
+
+#: any.pm:509 any.pm:643
+#, c-format
+msgid "Video mode"
+msgstr "Mod video"
+
+#: any.pm:510
+#, c-format
+msgid "Initrd"
+msgstr "Initrd"
+
+#: any.pm:511
+#, c-format
+msgid "Network profile"
+msgstr "Profil de rețea"
+
+#: any.pm:519 diskdrake/interactive.pm:411
+#, c-format
+msgid "Label"
+msgstr "Etichetă"
+
+#: any.pm:521 any.pm:640 harddrake/v4l.pm:438
+#, c-format
+msgid "Default"
+msgstr "Opțiune implicită"
+
+#: any.pm:529
+#, c-format
+msgid "Empty label not allowed"
+msgstr "Nu este permisă o etichetă goală"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a kernel image"
+msgstr "Trebuie să specificați o imagine de nucleu"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a root partition"
+msgstr "Trebuie să specificați o partiție rădăcină"
+
+#: any.pm:531
+#, c-format
+msgid "This label is already used"
+msgstr "Această etichetă este deja utilizată"
+
+#: any.pm:549
+#, c-format
+msgid "Which type of entry do you want to add?"
+msgstr "Ce tip de sistem doriți să adăugați?"
+
+#: any.pm:550
+#, c-format
+msgid "Linux"
+msgstr "Linux"
+
+#: any.pm:550
+#, c-format
+msgid "Other OS (Windows...)"
+msgstr "Alt SO (Windows...)"
+
+#: any.pm:597 any.pm:636
+#, c-format
+msgid "Bootloader Configuration"
+msgstr "Configurare încărcător de sistem"
+
+#: any.pm:598
+#, c-format
+msgid ""
+"Here are the entries on your boot menu so far.\n"
+"You can create additional entries or change the existing ones."
+msgstr ""
+"Acestea sînt intrările din meniul de pornire.\n"
+"Puteți să mai adăugați și altele sau să le schimbați pe cele existente."
+
+#: any.pm:645
+#, c-format
+msgid "Do not touch ESP or MBR"
+msgstr "Nu modificați ESP sau MBR"
+
+#: any.pm:647 diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:458
+#: diskdrake/interactive.pm:305 diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:605 diskdrake/interactive.pm:820
+#: diskdrake/interactive.pm:885 diskdrake/interactive.pm:1053
+#: diskdrake/interactive.pm:1095 diskdrake/interactive.pm:1096
+#: diskdrake/interactive.pm:1329 diskdrake/interactive.pm:1367
+#: diskdrake/interactive.pm:1512 do_pkgs.pm:45 do_pkgs.pm:74 do_pkgs.pm:100
+#: do_pkgs.pm:137
+#, c-format
+msgid "Warning"
+msgstr "Avertisment"
+
+#: any.pm:648
+#, c-format
+msgid ""
+"Not installing on ESP or MBR means that the installation is not bootable "
+"unless chain loaded from another OS!"
+msgstr ""
+"Ne instalarea pe ESP sau MBR înseamnă că instalarea nu poate fi demarată "
+"decît dacă este lansată de un alt SO! "
+
+#: any.pm:652
+#, c-format
+msgid "Probe Foreign OS"
+msgstr "Probează SO străin"
+
+#: any.pm:653
+#, c-format
+msgid ""
+"If grub2 takes too long to install, you can use this option to skip "
+"detecting other OSes and make it fast"
+msgstr ""
+"Dacă instalarea grub2 durează prea mult, puteți utiliza această opțiune "
+"pentru a omite detectarea celorlalte sisteme de operare și a accelera "
+"procesul"
+
+#: any.pm:909
+#, c-format
+msgid "access to X programs"
+msgstr "acces la programele X"
+
+#: any.pm:910
+#, c-format
+msgid "access to rpm tools"
+msgstr "acces la uneltele rpm"
+
+#: any.pm:911
+#, c-format
+msgid "allow \"su\""
+msgstr "permite „su”"
+
+#: any.pm:912
+#, c-format
+msgid "access to administrative files"
+msgstr "acces la fișierele administrative"
+
+#: any.pm:913
+#, c-format
+msgid "access to network tools"
+msgstr "acces la uneltele de rețea"
+
+#: any.pm:914
+#, c-format
+msgid "access to compilation tools"
+msgstr "acces la uneltele de compilare"
+
+#: any.pm:920
+#, c-format
+msgid "(already added %s)"
+msgstr "(%s este deja adăugat)"
+
+#: any.pm:926
+#, c-format
+msgid "Please give a user name"
+msgstr "Introduceți un nume de utilizator"
+
+#: any.pm:927
+#, c-format
+msgid ""
+"The user name must start with a lower case letter followed by only lower "
+"cased letters, numbers, `-' and `_'"
+msgstr ""
+"Numele utilizatorului trebuie sa înceapă și să conțină numai caractere "
+"minuscule, numere, `-' și `_'"
+
+#: any.pm:928
+#, c-format
+msgid "The user name is too long"
+msgstr "Numele utilizatorului este prea lung"
+
+#: any.pm:929
+#, c-format
+msgid "This user name has already been added"
+msgstr "Acest nume de utilizator a fost deja adăugat"
+
+#: any.pm:935 any.pm:973
+#, c-format
+msgid "User ID"
+msgstr "ID utilizator"
+
+#: any.pm:935 any.pm:974
+#, c-format
+msgid "Group ID"
+msgstr "ID Grup"
+
+#: any.pm:936
+#, c-format
+msgid "%s must be a number"
+msgstr "%s trebuie să fie un număr"
+
+#: any.pm:937
+#, c-format
+msgid "%s should be above 1000. Accept anyway?"
+msgstr "%s trebuie să fie peste 1000. Acceptați totuși?"
+
+#: any.pm:941
+#, c-format
+msgid "User management"
+msgstr "Gestionare utilizatori"
+
+#: any.pm:947
+#, c-format
+msgid "Enable guest account"
+msgstr "Activează contul invitat"
+
+#: any.pm:949 authentication.pm:236
+#, c-format
+msgid "Set administrator (root) password"
+msgstr "Definiți parola administratorului (root)"
+
+#: any.pm:955
+#, c-format
+msgid "Enter a user"
+msgstr "Introduceți un utilizator"
+
+#: any.pm:957
+#, c-format
+msgid "Icon"
+msgstr "Pictogramă"
+
+#: any.pm:960
+#, c-format
+msgid "Real name"
+msgstr "Nume real"
+
+#: any.pm:967
+#, c-format
+msgid "Login name"
+msgstr "Nume de utilizator"
+
+#: any.pm:972
+#, c-format
+msgid "Shell"
+msgstr "Interpretor de comenzi"
+
+#: any.pm:976
+#, c-format
+msgid "Extra Groups:"
+msgstr "Grupuri extra:"
+
+#: any.pm:1026
+#, c-format
+msgid "Please wait, adding media..."
+msgstr "Așteptați, se adaugă mediul..."
+
+#: any.pm:1078 security/l10n.pm:14
+#, c-format
+msgid "Autologin"
+msgstr "Autentificare automată"
+
+#: any.pm:1079
+#, c-format
+msgid "I can set up your computer to automatically log on one user."
+msgstr "Se poate configura calculatorul să autentifice automat un utilizator."
+
+#: any.pm:1080
+#, c-format
+msgid "Use this feature"
+msgstr "Folosește această facilitate"
+
+#: any.pm:1081
+#, c-format
+msgid "Choose the default user:"
+msgstr "Alegeți utilizatorul implicit:"
+
+#: any.pm:1082
+#, c-format
+msgid "Choose the window manager to run:"
+msgstr "Alegeți gestionarul de ferestre:"
+
+#: any.pm:1093 any.pm:1108 any.pm:1177
+#, c-format
+msgid "Release Notes"
+msgstr "Nota ediției"
+
+#: any.pm:1115 any.pm:1476 interactive/gtk.pm:820
+#, c-format
+msgid "Close"
+msgstr "Închide"
+
+#: any.pm:1163
+#, c-format
+msgid "License agreement"
+msgstr "Contract de licență"
+
+#: any.pm:1165 diskdrake/dav.pm:26 mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Quit"
+msgstr "Terminare"
+
+#: any.pm:1172
+#, c-format
+msgid "Do you accept this license ?"
+msgstr "Acceptați această licență?"
+
+#: any.pm:1173
+#, c-format
+msgid "Accept"
+msgstr "Accept"
+
+#: any.pm:1173
+#, c-format
+msgid "Refuse"
+msgstr "Refuz"
+
+#: any.pm:1199 any.pm:1262
+#, c-format
+msgid "Please choose a language to use"
+msgstr "Alegeți limba ce va fi utilizată"
+
+#: any.pm:1227
+#, c-format
+msgid ""
+"%s can support multiple languages. Select\n"
+"the languages you would like to install. They will be available\n"
+"when your installation is complete and you restart your system."
+msgstr ""
+"%s poate suporta mai multe limbi. Selectați\n"
+"limbile pe care doriți să le instalați. Acestea vor fi\n"
+"disponibile după încheierea instalării și repornirea calculatorului."
+
+#: any.pm:1229 fs/partitioning_wizard.pm:194
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: any.pm:1230
+#, c-format
+msgid "Multiple languages"
+msgstr "Multilingv"
+
+#: any.pm:1231
+#, c-format
+msgid "Select Additional Languages"
+msgstr "Selectați limbile adiționale"
+
+#: any.pm:1240 any.pm:1271
+#, c-format
+msgid "Old compatibility (non UTF-8) encoding"
+msgstr "Compatibilitate cu codificarea veche (non UTF-8)"
+
+#: any.pm:1241
+#, c-format
+msgid "All languages"
+msgstr "Toate limbile"
+
+#: any.pm:1263
+#, c-format
+msgid "Language choice"
+msgstr "Alegerea limbii"
+
+#: any.pm:1317
+#, c-format
+msgid "Country / Region"
+msgstr "Țară / Regiune"
+
+#: any.pm:1318
+#, c-format
+msgid "Please choose your country"
+msgstr "Alegeți țara vă rog"
+
+#: any.pm:1320
+#, c-format
+msgid "Here is the full list of available countries"
+msgstr "Aici aveți lista tuturor țărilor disponibile"
+
+#: any.pm:1321
+#, c-format
+msgid "Other Countries"
+msgstr "Alte țări"
+
+#: any.pm:1321 interactive.pm:491 interactive/gtk.pm:444
+#, c-format
+msgid "Advanced"
+msgstr "Avansat"
+
+#: any.pm:1327
+#, c-format
+msgid "Input method:"
+msgstr "Metodă de intrare:"
+
+#: any.pm:1330
+#, c-format
+msgid "None"
+msgstr "Neant"
+
+#: any.pm:1421
+#, c-format
+msgid "No sharing"
+msgstr "Fără partajare"
+
+#: any.pm:1421
+#, c-format
+msgid "Allow all users"
+msgstr "Autorizează toți utilizatorii"
+
+#: any.pm:1421
+#, c-format
+msgid "Custom"
+msgstr "Personalizat"
+
+#: any.pm:1425
+#, c-format
+msgid ""
+"Would you like to allow users to share some of their directories?\n"
+"Allowing this will permit users to simply click on \"Share\" in konqueror "
+"and nautilus.\n"
+"\n"
+"\"Custom\" permit a per-user granularity.\n"
+msgstr ""
+"Doriți să lăsați utilizatorii să partajeze anumite directoare personale?\n"
+"Aceasta va permite utilizatorilor sa facă un simplu clic pe „Partajează” în "
+"konqueror și nautilus.\n"
+"\n"
+"„Personalizat” permite configurarea la nivel de utilizator.\n"
+
+#: any.pm:1437
+#, c-format
+msgid ""
+"NFS: the traditional Unix file sharing system, with less support on Mac and "
+"Windows."
+msgstr ""
+"NFS: sistemul de partajare de fișiere Unix tradițional, mai puțin suportat "
+"pe Mac și Windows. "
+
+#: any.pm:1440
+#, c-format
+msgid ""
+"SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
+"systems."
+msgstr ""
+"SMB: sistemul de partajare de fișiere utilizat de Windows, Mac OS X și multe "
+"sisteme Linux moderne. "
+
+#: any.pm:1448
+#, c-format
+msgid ""
+"You can export using NFS or SMB. Please select which you would like to use."
+msgstr ""
+"Puteți exporta fișiere folosind sistemul NFS sau SMB. Pe care îl alegeți?"
+
+#: any.pm:1476
+#, c-format
+msgid "Launch userdrake"
+msgstr "Lansează userdrake"
+
+#: any.pm:1478
+#, c-format
+msgid ""
+"The per-user sharing uses the group \"fileshare\". \n"
+"You can use userdrake to add a user to this group."
+msgstr ""
+"Utilizatorii ce-și pot partaja fișierele fac parte din grupul „fileshare”.\n"
+"Puteți folosi userdrake pentru adăuga un utilizator la acest grup."
+
+#: any.pm:1585
+#, c-format
+msgid ""
+"You need to logout and back in again for changes to take effect. Press OK to "
+"logout now."
+msgstr ""
+"Trebuie să vă deautentificați și reautentificați pentru a activa "
+"modificările. Apăsați OK pentru a vă deautentifica."
+
+#: any.pm:1589
+#, c-format
+msgid "You need to log out and back in again for changes to take effect"
+msgstr ""
+"Trebuie să vă deautentificați și reautentificați pentru a activa "
+"modificările."
+
+#: any.pm:1624
+#, c-format
+msgid "Timezone"
+msgstr "Fus orar"
+
+#: any.pm:1624
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Care vă este fusul orar?"
+
+#: any.pm:1647 any.pm:1649
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Configurări de dată, oră și fus orar"
+
+#: any.pm:1650
+#, c-format
+msgid "What is the best time?"
+msgstr "Care este ora exactă?"
+
+#: any.pm:1654
+#, c-format
+msgid "%s (hardware clock set to UTC)"
+msgstr "%s (ceas intern fixat pe GMT)"
+
+#: any.pm:1655
+#, c-format
+msgid "%s (hardware clock set to local time)"
+msgstr "%s (ceas intern fixat pe ora locală)"
+
+#: any.pm:1657
+#, c-format
+msgid "NTP Server"
+msgstr "Server NTP"
+
+#: any.pm:1658
+#, c-format
+msgid "Automatic time synchronization (using NTP)"
+msgstr "Sincronizare de timp automată (folosind NTP)"
+
+#: authentication.pm:24
+#, c-format
+msgid "Local file"
+msgstr "Fișier local"
+
+#: authentication.pm:25
+#, c-format
+msgid "LDAP"
+msgstr "LDAP"
+
+#: authentication.pm:26
+#, c-format
+msgid "NIS"
+msgstr "NIS"
+
+#: authentication.pm:27
+#, c-format
+msgid "Smart Card"
+msgstr "Smart Card"
+
+#: authentication.pm:28 authentication.pm:215
+#, c-format
+msgid "Windows Domain"
+msgstr "Domeniu Windows"
+
+#: authentication.pm:29
+#, c-format
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: authentication.pm:65
+#, c-format
+msgid "Local file:"
+msgstr "Fișier local:"
+
+#: authentication.pm:65
+#, c-format
+msgid ""
+"Use local for all authentication and information user tell in local file"
+msgstr "Autentificare și informații despre utilizatorii locali"
+
+#: authentication.pm:66
+#, c-format
+msgid "LDAP:"
+msgstr "LDAP:"
+
+#: authentication.pm:66
+#, c-format
+msgid ""
+"Tells your computer to use LDAP for some or all authentication. LDAP "
+"consolidates certain types of information within your organization."
+msgstr ""
+"Specificați calculatorului să folosească LDAP pentru toate sau doar pentru o "
+"parte din autentificări. LDAP centralizează anumite informații din "
+"organizația voastră."
+
+#: authentication.pm:67
+#, c-format
+msgid "NIS:"
+msgstr "NIS:"
+
+#: authentication.pm:67
+#, c-format
+msgid ""
+"Allows you to run a group of computers in the same Network Information "
+"Service domain with a common password and group file."
+msgstr ""
+"Aceasta vă permite să partajați același fișier de parole și grupuri într-un "
+"grup de calculatoare din același domeniu NIS (Network Information Service)."
+
+#: authentication.pm:68
+#, c-format
+msgid "Windows Domain:"
+msgstr "Domeniu Windows:"
+
+#: authentication.pm:68
+#, c-format
+msgid ""
+"Winbind allows the system to retrieve information and authenticate users in "
+"a Windows domain."
+msgstr ""
+"Winbind permite sistemului să recupereze informațiile și să autentifice "
+"utilizatorii într-un domeniu Windows."
+
+#: authentication.pm:69
+#, c-format
+msgid "Kerberos 5 :"
+msgstr "Kerberos 5:"
+
+#: authentication.pm:69
+#, c-format
+msgid "With Kerberos and LDAP for authentication in Active Directory Server "
+msgstr ""
+"Cu Kerberos și LDAP pentru autentificarea pe un server Active Directory "
+
+#: authentication.pm:106 authentication.pm:140 authentication.pm:159
+#: authentication.pm:160 authentication.pm:186 authentication.pm:210
+#: authentication.pm:881
+#, c-format
+msgid " "
+msgstr " "
+
+#: authentication.pm:107 authentication.pm:141 authentication.pm:187
+#: authentication.pm:211
+#, c-format
+msgid "Welcome to the Authentication Wizard"
+msgstr "Bun venit la asistentul de autentificare"
+
+#: authentication.pm:109
+#, c-format
+msgid ""
+"You have selected LDAP authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Ați selecționat LDAP pentru autentificare. Verificați opțiunile de "
+"configurare de mai jos "
+
+#: authentication.pm:111 authentication.pm:166
+#, c-format
+msgid "LDAP Server"
+msgstr "Server LDAP"
+
+#: authentication.pm:112 authentication.pm:167
+#, c-format
+msgid "Base dn"
+msgstr "DN rădăcină "
+
+#: authentication.pm:113
+#, c-format
+msgid "Fetch base Dn "
+msgstr "Recuperează DN rădăcină"
+
+#: authentication.pm:115 authentication.pm:170
+#, c-format
+msgid "Use encrypt connection with TLS "
+msgstr "Utilizează o conexiune criptată cu TLS"
+
+#: authentication.pm:116 authentication.pm:171
+#, c-format
+msgid "Download CA Certificate "
+msgstr "Descarcă certificatul CA"
+
+#: authentication.pm:118 authentication.pm:151
+#, c-format
+msgid "Use Disconnect mode "
+msgstr "Utilizează modul deconectat"
+
+#: authentication.pm:119 authentication.pm:172
+#, c-format
+msgid "Use anonymous BIND "
+msgstr "Utilizează BIND anonim"
+
+#: authentication.pm:120 authentication.pm:123 authentication.pm:125
+#: authentication.pm:129
+#, c-format
+msgid "  "
+msgstr "  "
+
+#: authentication.pm:121 authentication.pm:173
+#, c-format
+msgid "Bind DN "
+msgstr "Bind DN "
+
+#: authentication.pm:122 authentication.pm:174
+#, c-format
+msgid "Bind Password "
+msgstr "Parolă BIND "
+
+#: authentication.pm:124
+#, c-format
+msgid "Advanced path for group "
+msgstr "Precizați o cale pentru grup "
+
+#: authentication.pm:126
+#, c-format
+msgid "Password base"
+msgstr "Bază de parolă"
+
+#: authentication.pm:127
+#, c-format
+msgid "Group base"
+msgstr "Bază grup"
+
+#: authentication.pm:128
+#, c-format
+msgid "Shadow base"
+msgstr "Bază shadow"
+
+#: authentication.pm:143
+#, c-format
+msgid ""
+"You have selected Kerberos 5 authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Ați ales o autentificare Kerberos 5. Verificați opțiunile configurației de "
+"mai jos "
+
+#: authentication.pm:145
+#, c-format
+msgid "Realm "
+msgstr "REALM "
+
+#: authentication.pm:147
+#, c-format
+msgid "KDCs Servers"
+msgstr "Servere KDC"
+
+#: authentication.pm:149
+#, c-format
+msgid "Use DNS to locate KDC for the realm"
+msgstr "Utilizează DNS pentru localizarea KDC din REALM"
+
+#: authentication.pm:150
+#, c-format
+msgid "Use DNS to locate realms"
+msgstr "Utilizează DNS pentru localizarea REALM"
+
+#: authentication.pm:155
+#, c-format
+msgid "Use local file for users information"
+msgstr "Utilizează un fișier local pentru informațiile utilizatorilor"
+
+#: authentication.pm:156
+#, c-format
+msgid "Use LDAP for users information"
+msgstr "Utilizează LDAP pentru informațiile utilizatorilor"
+
+#: authentication.pm:162
+#, c-format
+msgid ""
+"You have selected Kerberos 5 for authentication, now you must choose the "
+"type of users information "
+msgstr ""
+"Ați ales Kerbesros 5 pentru autentificare, trebuie să alegeți acum tipul de "
+"informații utilizator "
+
+#: authentication.pm:168
+#, c-format
+msgid "Fecth base Dn "
+msgstr "Recuperează DN rădăcină"
+
+#: authentication.pm:189
+#, c-format
+msgid ""
+"You have selected NIS authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Ați ales o autentificare prin NIS. Verificați opțiunile de configurare de "
+"mai jos "
+
+#: authentication.pm:191
+#, c-format
+msgid "NIS Domain"
+msgstr "Domeniu NIS"
+
+#: authentication.pm:192
+#, c-format
+msgid "NIS Server"
+msgstr "Server NIS"
+
+#: authentication.pm:213
+#, c-format
+msgid ""
+"You have selected Windows Domain authentication. Please review the "
+"configuration options below "
+msgstr ""
+"Ați ales o autentificare printr-un domeniu Windows. Verificați opțiunile de "
+"configurare de mai jos "
+
+#: authentication.pm:217
+#, c-format
+msgid "Domain Model "
+msgstr "Model de domeniu"
+
+#: authentication.pm:219
+#, c-format
+msgid "Active Directory Realm "
+msgstr "Autentificare Active Directory "
+
+#: authentication.pm:220
+#, c-format
+msgid "DNS Domain"
+msgstr "Domeniu DNS"
+
+#: authentication.pm:221
+#, c-format
+msgid "DC Server"
+msgstr "Server DC"
+
+#: authentication.pm:235 authentication.pm:251
+#, c-format
+msgid "Authentication"
+msgstr "Autentificare"
+
+#: authentication.pm:237
+#, c-format
+msgid "Authentication method"
+msgstr "Metoda de autentificare"
+
+#. -PO: keep this short or else the buttons will not fit in the window
+#: authentication.pm:242
+#, c-format
+msgid "No password"
+msgstr "Fără parolă"
+
+#: authentication.pm:263
+#, c-format
+msgid "This password is too short (it must be at least %d characters long)"
+msgstr ""
+"Această parolă este prea scurtă (ar trebui să fie de cel puțin %d caractere)"
+
+#: authentication.pm:375
+#, c-format
+msgid "Cannot use broadcast with no NIS domain"
+msgstr "Nu se poate utiliza difuzarea fără nici un domeniu NIS"
+
+#: authentication.pm:876
+#, c-format
+msgid "Select file"
+msgstr "Selectați un fișier"
+
+#: authentication.pm:882
+#, c-format
+msgid "Domain Windows for authentication : "
+msgstr "Domeniul Windows pentru autentificare: "
+
+#: authentication.pm:884
+#, c-format
+msgid "Domain Admin User Name"
+msgstr "Numele administratorului de domeniu"
+
+#: authentication.pm:885
+#, c-format
+msgid "Domain Admin Password"
+msgstr "Parola administratorului de domeniu"
+
+#. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
+#: bootloader.pm:1122
+#, c-format
+msgid ""
+"Welcome to the operating system chooser!\n"
+"\n"
+"Choose an operating system from the list above or\n"
+"wait for default boot.\n"
+"\n"
+msgstr ""
+"Bun venit la gestionarul de sisteme de operare!\n"
+"\n"
+"Alegeți un sistem de operare din lista de mai sus sau\n"
+"așteptați pentru opțiunea implicită.\n"
+
+#: bootloader.pm:1287
+#, c-format
+msgid "LILO with text menu"
+msgstr "LILO cu meniu text"
+
+#: bootloader.pm:1288
+#, c-format
+msgid "GRUB2 with graphical menu"
+msgstr "GRUB2 cu meniu grafic"
+
+#: bootloader.pm:1289
+#, c-format
+msgid "GRUB2 with text menu"
+msgstr "GRUB2 cu meniu text"
+
+#: bootloader.pm:1290
+#, c-format
+msgid "GRUB with graphical menu"
+msgstr "GRUB cu meniu grafic"
+
+#: bootloader.pm:1291
+#, c-format
+msgid "GRUB with text menu"
+msgstr "GRUB cu meniu text"
+
+#: bootloader.pm:1378
+#, c-format
+msgid "not enough room in /boot"
+msgstr "spațiu insuficient în /boot"
+
+#: bootloader.pm:2393
+#, c-format
+msgid ""
+"Your bootloader configuration must be updated because partition has been "
+"renumbered"
+msgstr ""
+"Configurația încărcătorului de sistem trebuie actualizată deoarece partiția "
+"a fost renumerotată"
+
+#: bootloader.pm:2406
+#, c-format
+msgid ""
+"The bootloader cannot be installed correctly. You have to boot rescue and "
+"choose \"%s\""
+msgstr ""
+"Încărcătorul de sistem nu a putut fi instalat corect. Trebuie să porniți în "
+"regim de recuperare și să alegeți „%s”"
+
+#: bootloader.pm:2407
+#, c-format
+msgid "Re-install Boot Loader"
+msgstr "Reinstalare încărcător de sistem"
+
+#: common.pm:271
+#, c-format
+msgid "B"
+msgstr "o"
+
+#: common.pm:271
+#, c-format
+msgid "KB"
+msgstr "Ko"
+
+#: common.pm:271
+#, c-format
+msgid "MB"
+msgstr "Mo"
+
+#: common.pm:271
+#, c-format
+msgid "GB"
+msgstr "Go"
+
+#: common.pm:271 common.pm:280
+#, c-format
+msgid "TB"
+msgstr "To"
+
+#. -PO: here, "2:30" is remaining installation time (eg: "2:30" == 2 hour & 30 minutes)
+#: common.pm:288
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#: common.pm:290
+#, c-format
+msgid "%d minutes"
+msgstr "%d minute"
+
+#: common.pm:292
+#, c-format
+msgid "1 minute"
+msgstr "1 minut"
+
+#: common.pm:294
+#, c-format
+msgid "%d seconds"
+msgstr "%d secunde"
+
+#: diskdrake/dav.pm:17
+#, c-format
+msgid ""
+"WebDAV is a protocol that allows you to mount a web server's directory\n"
+"locally, and treat it like a local filesystem (provided the web server is\n"
+"configured as a WebDAV server). If you would like to add WebDAV mount\n"
+"points, select \"New\"."
+msgstr ""
+"WebDav este un protocol ce vă permite montarea locală a unui director\n"
+"de pe un server web și utilizarea acestuia ca un sistem de fișiere local\n"
+"(dacă serverul web este configurat ca server WebDav). Dacă doriți să\n"
+"adăugați puncte de montare WebDav, selectați „Nou”."
+
+#: diskdrake/dav.pm:25
+#, c-format
+msgid "New"
+msgstr "Nou"
+
+#: diskdrake/dav.pm:63 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:75
+#, c-format
+msgid "Unmount"
+msgstr "Demontează"
+
+#: diskdrake/dav.pm:64 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:76
+#, c-format
+msgid "Mount"
+msgstr "Montează"
+
+#: diskdrake/dav.pm:65
+#, c-format
+msgid "Server"
+msgstr "Server"
+
+#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
+#: diskdrake/interactive.pm:727 diskdrake/interactive.pm:745
+#: diskdrake/interactive.pm:749 diskdrake/removable.pm:23
+#: diskdrake/smbnfs_gtk.pm:79
+#, c-format
+msgid "Mount point"
+msgstr "Punct de montare"
+
+#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
+#: diskdrake/interactive.pm:1182 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:80
+#, c-format
+msgid "Options"
+msgstr "Opțiuni"
+
+#: diskdrake/dav.pm:68 interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Remove"
+msgstr "Înlătură"
+
+#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:221 diskdrake/removable.pm:26
+#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
+#, c-format
+msgid "Done"
+msgstr "Gata"
+
+#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:153 diskdrake/hd_gtk.pm:323
+#: diskdrake/interactive.pm:246 diskdrake/interactive.pm:259
+#: diskdrake/interactive.pm:460 diskdrake/interactive.pm:535
+#: diskdrake/interactive.pm:553 diskdrake/interactive.pm:558
+#: diskdrake/interactive.pm:717 diskdrake/interactive.pm:1020
+#: diskdrake/interactive.pm:1073 diskdrake/interactive.pm:1229
+#: diskdrake/interactive.pm:1242 diskdrake/interactive.pm:1245
+#: diskdrake/interactive.pm:1513 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:49
+#: do_pkgs.pm:54 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:108 do_pkgs.pm:142
+#: fsedit.pm:266 interactive/http.pm:117 interactive/http.pm:118
+#: modules/interactive.pm:19 scanner.pm:94 scanner.pm:105 scanner.pm:112
+#: scanner.pm:119 wizards.pm:95 wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "Eroare"
+
+#: diskdrake/dav.pm:86
+#, c-format
+msgid "Please enter the WebDAV server URL"
+msgstr "Introduceți adresa URL a serverului WebDAV"
+
+#: diskdrake/dav.pm:90
+#, c-format
+msgid "The URL must begin with http:// or https://"
+msgstr "Adresa URL trebuie să înceapă cu http:// sau https://"
+
+#: diskdrake/dav.pm:106
+#, c-format
+msgid "Are you sure you want to delete this mount point?"
+msgstr "Sigur doriți să ștergeți acest punct de montare?"
+
+#: diskdrake/dav.pm:124
+#, c-format
+msgid "Server: "
+msgstr "Server: "
+
+#: diskdrake/dav.pm:125 diskdrake/interactive.pm:505
+#: diskdrake/interactive.pm:1391 diskdrake/interactive.pm:1473
+#, c-format
+msgid "Mount point: "
+msgstr "Punct de montare: "
+
+#: diskdrake/dav.pm:126 diskdrake/interactive.pm:1480
+#, c-format
+msgid "Options: %s"
+msgstr "Opțiuni: %s"
+
+#: diskdrake/hd_gtk.pm:61 diskdrake/interactive.pm:300
+#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:113
+#: fs/partitioning_wizard.pm:66 fs/partitioning_wizard.pm:264
+#: fs/partitioning_wizard.pm:272 fs/partitioning_wizard.pm:310
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:529
+#: fs/partitioning_wizard.pm:614 fs/partitioning_wizard.pm:617
+#, c-format
+msgid "Partitioning"
+msgstr "Partiționare"
+
+#: diskdrake/hd_gtk.pm:74
+#, c-format
+msgid "Click on a partition, choose a filesystem type then choose an action"
+msgstr ""
+"Faceți clic pe o partiție, alegeți un tip de sistem de fișiere și apoi o "
+"acțiune"
+
+#: diskdrake/hd_gtk.pm:133 diskdrake/interactive.pm:1203
+#: diskdrake/interactive.pm:1213 diskdrake/interactive.pm:1267
+#, c-format
+msgid "Read carefully"
+msgstr "Citiți cu atenție"
+
+#: diskdrake/hd_gtk.pm:133
+#, c-format
+msgid "Please make a backup of your data first"
+msgstr ""
+"Înainte de a utiliza programul de partiționare a discurilor,\n"
+"este prudent să vă salvgardați datele!"
+
+#: diskdrake/hd_gtk.pm:134 diskdrake/interactive.pm:239
+#, c-format
+msgid "Exit"
+msgstr "Ieșire"
+
+#: diskdrake/hd_gtk.pm:134
+#, c-format
+msgid "Continue"
+msgstr "Continuă"
+
+#: diskdrake/hd_gtk.pm:216 fs/partitioning_wizard.pm:590 interactive.pm:778
+#: interactive/gtk.pm:812 interactive/gtk.pm:830 interactive/gtk.pm:862
+#: ugtk2.pm:934 ugtk3.pm:1030
+#, c-format
+msgid "Help"
+msgstr "Ajutor"
+
+#: diskdrake/hd_gtk.pm:257
+#, c-format
+msgid ""
+"You have one big Microsoft Windows partition.\n"
+"I suggest you first resize that partition\n"
+"(click on it, then click on \"Resize\")"
+msgstr ""
+"Dispuneți de o singură mare partiție Microsoft Windows.\n"
+"Va trebui s-o reduceți înainte de a putea crea alte partiții.\n"
+"(pentru asta faceți clic pe ea și apoi pe „Redimensionează”)"
+
+#: diskdrake/hd_gtk.pm:259
+#, c-format
+msgid "Please click on a partition"
+msgstr "Faceți clic pe o partiție"
+
+#: diskdrake/hd_gtk.pm:273 diskdrake/smbnfs_gtk.pm:63
+#, c-format
+msgid "Details"
+msgstr "Detalii"
+
+#: diskdrake/hd_gtk.pm:323
+#, c-format
+msgid "No hard disk drives found"
+msgstr "Nu s-a găsit nici un disc dur"
+
+#: diskdrake/hd_gtk.pm:362
+#, c-format
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: diskdrake/hd_gtk.pm:429
+#, c-format
+msgid "Ext4"
+msgstr "Ext4"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "XFS"
+msgstr "XFS"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Swap"
+msgstr "Swap"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Windows"
+msgstr "Windows"
+
+#: diskdrake/hd_gtk.pm:430 fs/partitioning_wizard.pm:437 services.pm:201
+#, c-format
+msgid "Other"
+msgstr "Alt tip"
+
+#: diskdrake/hd_gtk.pm:430 diskdrake/interactive.pm:1397
+#: fs/partitioning_wizard.pm:437
+#, c-format
+msgid "Empty"
+msgstr "Gol"
+
+#: diskdrake/hd_gtk.pm:437
+#, c-format
+msgid "Filesystem types:"
+msgstr "Tipuri de sisteme de fișiere:"
+
+#: diskdrake/hd_gtk.pm:458
+#, c-format
+msgid "This partition is already empty"
+msgstr "Această partiție este deja goală"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``Unmount'' first"
+msgstr "Apăsați mai întîi pe „Demontează”"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``%s'' instead (in expert mode)"
+msgstr "Utilizați mai de grabă „%s” (în modul expert)"
+
+#: diskdrake/hd_gtk.pm:467 diskdrake/interactive.pm:409
+#: diskdrake/interactive.pm:644 diskdrake/removable.pm:25
+#: diskdrake/removable.pm:48
+#, c-format
+msgid "Type"
+msgstr "Tip"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose another partition"
+msgstr "Alegeți o altă partiție"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose a partition"
+msgstr "Alegeți o partiție"
+
+#: diskdrake/interactive.pm:272 diskdrake/interactive.pm:382
+#: interactive/curses.pm:532
+#, c-format
+msgid "More"
+msgstr "Mai multe"
+
+#: diskdrake/interactive.pm:280 diskdrake/interactive.pm:293
+#: diskdrake/interactive.pm:1313 mygtk2.pm:1228 mygtk3.pm:1311
+#, c-format
+msgid "Confirmation"
+msgstr "Confirmare"
+
+#: diskdrake/interactive.pm:280
+#, c-format
+msgid "Continue anyway?"
+msgstr "Continuați totuși?"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without saving"
+msgstr "Ieșire fără salvare"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "Chiar doriți să ieșiți fără să se scrie în tabela de partiții?"
+
+#: diskdrake/interactive.pm:293
+#, c-format
+msgid "Do you want to save the /etc/fstab modifications?"
+msgstr "Doriți să se salveze modificările în /etc/fstab?"
+
+#: diskdrake/interactive.pm:300 fs/partitioning_wizard.pm:310
+#, c-format
+msgid "You need to reboot for the partition table modifications to take effect"
+msgstr "Trebuie să reporniți pentru a activa modificările tabelei de partiții"
+
+#: diskdrake/interactive.pm:305
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+"Ar trebui să formatați partiția %s.\n"
+"Altfel nu va fi scrisă în fstab nici o intrare pentru punctul de montare "
+"%s.\n"
+"Terminați oricum?"
+
+#: diskdrake/interactive.pm:318
+#, c-format
+msgid "Clear all"
+msgstr "Șterge toate partițiile"
+
+#: diskdrake/interactive.pm:319
+#, c-format
+msgid "Auto allocate"
+msgstr "Partiționare automată"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Normal mode"
+msgstr "Regim normal"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Expert mode"
+msgstr "Regim expert"
+
+#: diskdrake/interactive.pm:337
+#, c-format
+msgid "Hard disk drive information"
+msgstr "Informațiile discului dur"
+
+#: diskdrake/interactive.pm:371
+#, c-format
+msgid "All primary partitions are used"
+msgstr "Toate partițiile primare sînt alocate"
+
+#: diskdrake/interactive.pm:372
+#, c-format
+msgid "I cannot add any more partitions"
+msgstr "Nu se mai pot adăuga partiții"
+
+#: diskdrake/interactive.pm:373
+#, c-format
+msgid ""
+"To have more partitions, please delete one to be able to create an extended "
+"partition"
+msgstr ""
+"Pentru a avea mai multe partiții, ștergeți una din ele ca să puteți crea o "
+"partiție extinsă "
+
+#: diskdrake/interactive.pm:384
+#, c-format
+msgid "Reload partition table"
+msgstr "Reîncarcă tabela de partiții"
+
+#: diskdrake/interactive.pm:391
+#, c-format
+msgid "Detailed information"
+msgstr "Informații detaliate"
+
+#: diskdrake/interactive.pm:407
+#, c-format
+msgid "View"
+msgstr "Arată"
+
+#: diskdrake/interactive.pm:412 diskdrake/interactive.pm:833
+#, c-format
+msgid "Resize"
+msgstr "Redimensionează"
+
+#: diskdrake/interactive.pm:413
+#, c-format
+msgid "Format"
+msgstr "Formatează"
+
+#: diskdrake/interactive.pm:415 diskdrake/interactive.pm:983
+#, c-format
+msgid "Add to RAID"
+msgstr "Adaugă la RAID"
+
+#: diskdrake/interactive.pm:416 diskdrake/interactive.pm:1002
+#, c-format
+msgid "Add to LVM"
+msgstr "Adaugă la LVM"
+
+#: diskdrake/interactive.pm:417
+#, c-format
+msgid "Use"
+msgstr "Utilizează"
+
+#: diskdrake/interactive.pm:419
+#, c-format
+msgid "Delete"
+msgstr "Șterge"
+
+#: diskdrake/interactive.pm:420
+#, c-format
+msgid "Remove from RAID"
+msgstr "Înlătură din RAID"
+
+#: diskdrake/interactive.pm:421
+#, c-format
+msgid "Remove from LVM"
+msgstr "Înlătură din LVM"
+
+#: diskdrake/interactive.pm:422
+#, c-format
+msgid "Remove from dm"
+msgstr "Înlătură din dm"
+
+#: diskdrake/interactive.pm:423
+#, c-format
+msgid "Modify RAID"
+msgstr "Modifică RAID"
+
+#: diskdrake/interactive.pm:424
+#, c-format
+msgid "Use for loopback"
+msgstr "Utilizează pentru loopback"
+
+#: diskdrake/interactive.pm:434
+#, c-format
+msgid "Create"
+msgstr "Creează"
+
+#: diskdrake/interactive.pm:460
+#, c-format
+msgid "Failed to mount partition"
+msgstr "Montarea partiției a eșuat"
+
+#: diskdrake/interactive.pm:494 diskdrake/interactive.pm:496
+#, c-format
+msgid "Create a new partition"
+msgstr "Creează o partiție nouă"
+
+#: diskdrake/interactive.pm:498
+#, c-format
+msgid "Start sector: "
+msgstr "Sector de început: "
+
+#: diskdrake/interactive.pm:501 diskdrake/interactive.pm:1088
+#, c-format
+msgid "Size in MB: "
+msgstr "Mărime în Mo: "
+
+#: diskdrake/interactive.pm:503 diskdrake/interactive.pm:1089
+#, c-format
+msgid "Filesystem type: "
+msgstr "Tip sistem de fișiere: "
+
+#: diskdrake/interactive.pm:513
+#, c-format
+msgid "Preference: "
+msgstr "Preferință: "
+
+#: diskdrake/interactive.pm:516
+#, c-format
+msgid "Logical volume name "
+msgstr "Numele volumului logic "
+
+#: diskdrake/interactive.pm:518
+#, c-format
+msgid "Encrypt partition"
+msgstr "Criptează partiția"
+
+#: diskdrake/interactive.pm:519
+#, c-format
+msgid "Encryption key "
+msgstr "Cheia de criptare "
+
+#: diskdrake/interactive.pm:520 diskdrake/interactive.pm:1517
+#, c-format
+msgid "Encryption key (again)"
+msgstr "Verificare cheie de criptare"
+
+#: diskdrake/interactive.pm:532 diskdrake/interactive.pm:1513
+#, c-format
+msgid "The encryption keys do not match"
+msgstr "Cheile de criptare nu corespund"
+
+#: diskdrake/interactive.pm:533
+#, c-format
+msgid "Missing encryption key"
+msgstr "Cheie de criptare absentă"
+
+#: diskdrake/interactive.pm:553
+#, c-format
+msgid ""
+"You cannot create a new partition\n"
+"(since you reached the maximal number of primary partitions).\n"
+"First remove a primary partition and create an extended partition."
+msgstr ""
+"Nu mai puteți crea o partiție nouă\n"
+"(deoarece s-a atins numărul maxim de partiții primare).\n"
+"Ștergeți mai întîi o partiție primară și creați apoi una extinsă."
+
+#: diskdrake/interactive.pm:605
+#, c-format
+msgid "Remove the loopback file?"
+msgstr "Doriți ștergerea fișierului loopback?"
+
+#: diskdrake/interactive.pm:625
+#, c-format
+msgid ""
+"After changing type of partition %s, all data on this partition will be lost"
+msgstr ""
+"După schimbarea tipului partiției %s, toate datele de pe această partiție "
+"vor fi pierdute."
+
+#: diskdrake/interactive.pm:641
+#, c-format
+msgid "Change partition type"
+msgstr "Schimbă tipul partiției"
+
+#: diskdrake/interactive.pm:643 diskdrake/removable.pm:47
+#, c-format
+msgid "Which filesystem do you want?"
+msgstr "Ce sistem de fișiere doriți?"
+
+#: diskdrake/interactive.pm:650
+#, c-format
+msgid "Switching from %s to %s"
+msgstr "Se trece de la %s la %s"
+
+#: diskdrake/interactive.pm:685
+#, c-format
+msgid "Set volume label"
+msgstr "Definiți eticheta de volum"
+
+#: diskdrake/interactive.pm:687
+#, c-format
+msgid "Beware, this will be written to disk as soon as you validate!"
+msgstr "Atenție, acestea vor fi scrise pe disc imediat după ce validați!"
+
+#: diskdrake/interactive.pm:688
+#, c-format
+msgid "Beware, this will be written to disk only after formatting!"
+msgstr "Atenție, acestea vor fi scrise pe disc imediat după formatare!"
+
+#: diskdrake/interactive.pm:690
+#, c-format
+msgid "Which volume label?"
+msgstr "Care etichetă de volum?"
+
+#: diskdrake/interactive.pm:691
+#, c-format
+msgid "Label:"
+msgstr "Etichetă:"
+
+#: diskdrake/interactive.pm:712
+#, c-format
+msgid "Where do you want to mount the loopback file %s?"
+msgstr "Unde doriți să montați fișierul loopback %s?"
+
+#: diskdrake/interactive.pm:713
+#, c-format
+msgid "Where do you want to mount device %s?"
+msgstr "Unde doriți să montați dispozitivul %s?"
+
+#: diskdrake/interactive.pm:718
+#, c-format
+msgid ""
+"Cannot unset mount point as this partition is used for loop back.\n"
+"Remove the loopback first"
+msgstr ""
+"Nu se poate demonta punctul de montare pentru că această partiție este "
+"utilizată pentru loopback.\n"
+"Îndepărtați mai întîi loopback"
+
+#: diskdrake/interactive.pm:748
+#, c-format
+msgid "Where do you want to mount %s?"
+msgstr "Unde doriți să montați %s?"
+
+#: diskdrake/interactive.pm:778 diskdrake/interactive.pm:874
+#: fs/partitioning_wizard.pm:151 fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing"
+msgstr "Redimensionare"
+
+#: diskdrake/interactive.pm:778
+#, c-format
+msgid "Computing FAT filesystem bounds"
+msgstr "Se calculează limitele sistemului de fișiere FAT"
+
+#: diskdrake/interactive.pm:820
+#, c-format
+msgid "This partition is not resizeable"
+msgstr "Dimensiunea acestei partiții nu poate fi modificată"
+
+#: diskdrake/interactive.pm:825
+#, c-format
+msgid "All data on this partition should be backed up"
+msgstr "Toate datele de pe această partiție ar trebui salvate"
+
+#: diskdrake/interactive.pm:827
+#, c-format
+msgid "After resizing partition %s, all data on this partition will be lost"
+msgstr ""
+"După redimensionarea partiției %s, toate datele de pe această partiție vor "
+"fi pierdute"
+
+#: diskdrake/interactive.pm:834
+#, c-format
+msgid "Choose the new size"
+msgstr "Alegeți noua mărime"
+
+#: diskdrake/interactive.pm:835
+#, c-format
+msgid "New size in MB: "
+msgstr "Noua mărime în Mo: "
+
+#: diskdrake/interactive.pm:836
+#, c-format
+msgid "Minimum size: %s MB"
+msgstr "Mărime minimă: %s Mo"
+
+#: diskdrake/interactive.pm:837
+#, c-format
+msgid "Maximum size: %s MB"
+msgstr "Mărime maximă: %s Mo"
+
+#: diskdrake/interactive.pm:885 fs/partitioning_wizard.pm:241
+#, c-format
+msgid ""
+"To ensure data integrity after resizing the partition(s),\n"
+"filesystem checks will be run on your next boot into Microsoft Windows®"
+msgstr ""
+"Pentru a asigura integritatea datelor după redimensionarea\n"
+"partițiilor, verificări de sistem de fișiere vor fi lansate la următoarea "
+"pornire de Microsoft Windows®"
+
+#: diskdrake/interactive.pm:951 diskdrake/interactive.pm:1508
+#, c-format
+msgid "Filesystem encryption key"
+msgstr "Cheia de criptare pentru sistemul de fișiere"
+
+#: diskdrake/interactive.pm:952
+#, c-format
+msgid "Enter your filesystem encryption key"
+msgstr "Introduceți cheia de criptare pentru sistemul de fișiere"
+
+#: diskdrake/interactive.pm:953 diskdrake/interactive.pm:1516
+#, c-format
+msgid "Encryption key"
+msgstr "Cheia de criptare"
+
+#: diskdrake/interactive.pm:960
+#, c-format
+msgid "Invalid key"
+msgstr "Cheie invalidă"
+
+#: diskdrake/interactive.pm:983
+#, c-format
+msgid "Choose an existing RAID to add to"
+msgstr "Alegeți un RAID existent la care să adăugați"
+
+#: diskdrake/interactive.pm:985 diskdrake/interactive.pm:1004
+#, c-format
+msgid "new"
+msgstr "nou"
+
+#: diskdrake/interactive.pm:1002
+#, c-format
+msgid "Choose an existing LVM to add to"
+msgstr "Alegeți un LVM existent la care să adăugați"
+
+#: diskdrake/interactive.pm:1014 diskdrake/interactive.pm:1023
+#, c-format
+msgid "LVM name"
+msgstr "Nume LVM"
+
+#: diskdrake/interactive.pm:1015
+#, c-format
+msgid "Enter a name for the new LVM volume group"
+msgstr "Introduceți un nume pentru noul grup de volume LVM"
+
+#: diskdrake/interactive.pm:1020
+#, c-format
+msgid "\"%s\" already exists"
+msgstr "„%s” există deja"
+
+#: diskdrake/interactive.pm:1028
+#, c-format
+msgid "Setting up LVM"
+msgstr "Se configurează LVM"
+
+#: diskdrake/interactive.pm:1053
+#, c-format
+msgid ""
+"Physical volume %s is still in use.\n"
+"Do you want to move used physical extents on this volume to other volumes?"
+msgstr ""
+"Volumul fizic %s încă este utilizat.\n"
+"Doriți să deplasați unitățile de alocare fizice de pe acest volum pe alte "
+"volume?"
+
+#: diskdrake/interactive.pm:1055
+#, c-format
+msgid "Moving physical extents"
+msgstr "Deplasare de unități de alocare fizice"
+
+#: diskdrake/interactive.pm:1073
+#, c-format
+msgid "This partition cannot be used for loopback"
+msgstr "Această partiție nu poate fi utilizată pentru loopback"
+
+#: diskdrake/interactive.pm:1086
+#, c-format
+msgid "Loopback"
+msgstr "Loopback"
+
+#: diskdrake/interactive.pm:1087
+#, c-format
+msgid "Loopback file name: "
+msgstr "Numele fișierului loopback:"
+
+#: diskdrake/interactive.pm:1092
+#, c-format
+msgid "Give a file name"
+msgstr "Dați un nume de fișier"
+
+#: diskdrake/interactive.pm:1095
+#, c-format
+msgid "File is already used by another loopback, choose another one"
+msgstr "Fișierul este deja utilizat de un alt loopback, alegeți un altul."
+
+#: diskdrake/interactive.pm:1096
+#, c-format
+msgid "File already exists. Use it?"
+msgstr "Fișierul există deja. Să se utilizeze?"
+
+#: diskdrake/interactive.pm:1128 diskdrake/interactive.pm:1131
+#, c-format
+msgid "Mount options"
+msgstr "Opțiuni de montare"
+
+#: diskdrake/interactive.pm:1138
+#, c-format
+msgid "Various"
+msgstr "Diverse"
+
+#: diskdrake/interactive.pm:1184
+#, c-format
+msgid "device"
+msgstr "dispozitiv"
+
+#: diskdrake/interactive.pm:1185
+#, c-format
+msgid "level"
+msgstr "nivel"
+
+#: diskdrake/interactive.pm:1186
+#, c-format
+msgid "chunk size in KiB"
+msgstr "mărimea blocului în KiO"
+
+#: diskdrake/interactive.pm:1204
+#, c-format
+msgid "Be careful: this operation is dangerous."
+msgstr "Atenție: această operație este periculoasă."
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "Partitioning Type"
+msgstr "Tip de partiționare"
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "What type of partitioning?"
+msgstr "Ce tip de partiționare?"
+
+#: diskdrake/interactive.pm:1258
+#, c-format
+msgid "You'll need to reboot before the modification can take effect"
+msgstr "Va trebui să reporniți pentru a activa modificările"
+
+#: diskdrake/interactive.pm:1267
+#, c-format
+msgid "Partition table of drive %s is going to be written to disk"
+msgstr "Tabela de partiții a unității %s va fi scrisă pe disc"
+
+#: diskdrake/interactive.pm:1286 fs/format.pm:106 fs/format.pm:113
+#, c-format
+msgid "Formatting partition %s"
+msgstr "Se formatează partiția %s"
+
+#: diskdrake/interactive.pm:1299
+#, c-format
+msgid "After formatting partition %s, all data on this partition will be lost"
+msgstr ""
+"După formatarea partiției %s, toate datele de pe această partiție vor fi "
+"pierdute"
+
+#: diskdrake/interactive.pm:1313 fs/partitioning.pm:48
+#, c-format
+msgid "Check for bad blocks?"
+msgstr "Verificare pentru sectoare defecte?"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Move files to the new partition"
+msgstr "Mută fișierele pe partiția nouă"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Hide files"
+msgstr "Ascunde fișierele"
+
+#: diskdrake/interactive.pm:1329
+#, c-format
+msgid ""
+"Directory %s already contains data\n"
+"(%s)\n"
+"\n"
+"You can either choose to move the files into the partition that will be "
+"mounted there or leave them where they are (which results in hiding them by "
+"the contents of the mounted partition)"
+msgstr ""
+"Directorul %s conține deja date\n"
+"(%s)\n"
+"\n"
+"Puteți alege să deplasați fișierele pe partiția ce va fi montată, ori să le "
+"lăsați acolo unde sînt (ca rezultat ele vor fi ascunse conținutului "
+"partiției montate)"
+
+#: diskdrake/interactive.pm:1344
+#, c-format
+msgid "Moving files to the new partition"
+msgstr "Se mută fișierele pe partiția nouă"
+
+#: diskdrake/interactive.pm:1348
+#, c-format
+msgid "Copying %s"
+msgstr "Se copiază %s"
+
+#: diskdrake/interactive.pm:1352
+#, c-format
+msgid "Removing %s"
+msgstr "Se înlătură %s"
+
+#: diskdrake/interactive.pm:1366
+#, c-format
+msgid "partition %s is now known as %s"
+msgstr "partiția %s este cunoscută acum ca %s"
+
+#: diskdrake/interactive.pm:1367
+#, c-format
+msgid "Partitions have been renumbered: "
+msgstr "Partițiile au fost renumerotate: "
+
+#: diskdrake/interactive.pm:1392 diskdrake/interactive.pm:1457
+#, c-format
+msgid "Device: "
+msgstr "Dispozitiv: "
+
+#: diskdrake/interactive.pm:1393
+#, c-format
+msgid "Volume label: "
+msgstr "Etichetă volum: "
+
+#: diskdrake/interactive.pm:1394
+#, c-format
+msgid "UUID: "
+msgstr "UUID: "
+
+#: diskdrake/interactive.pm:1395
+#, c-format
+msgid "DOS drive letter: %s (just a guess)\n"
+msgstr "Litera unității DOS: %s (doar o presupunere)\n"
+
+#: diskdrake/interactive.pm:1399 diskdrake/interactive.pm:1476
+#, c-format
+msgid "Type: "
+msgstr "Tip: "
+
+#: diskdrake/interactive.pm:1401
+#, c-format
+msgid "Start: sector %s\n"
+msgstr "Început: sector %s\n"
+
+#: diskdrake/interactive.pm:1403
+#, c-format
+msgid "Size: %s (%s%% of disk)"
+msgstr "Mărime: %s (%s%% din disc)"
+
+#: diskdrake/interactive.pm:1405
+#, c-format
+msgid "Size: %s"
+msgstr "Mărime: %s"
+
+#: diskdrake/interactive.pm:1407
+#, c-format
+msgid ", %s sectors"
+msgstr ", %s sectoare"
+
+#: diskdrake/interactive.pm:1409
+#, c-format
+msgid "Cylinder %d to %d\n"
+msgstr "De la cilindrul %d la cilindrul %d\n"
+
+#: diskdrake/interactive.pm:1410
+#, c-format
+msgid "Number of logical extents: %d\n"
+msgstr "Numărul unităților logice de alocare: %d\n"
+
+#: diskdrake/interactive.pm:1411
+#, c-format
+msgid "Formatted\n"
+msgstr "Formatat\n"
+
+#: diskdrake/interactive.pm:1412
+#, c-format
+msgid "Not formatted\n"
+msgstr "Neformatat\n"
+
+#: diskdrake/interactive.pm:1413
+#, c-format
+msgid "Mounted\n"
+msgstr "Montat\n"
+
+#: diskdrake/interactive.pm:1414
+#, c-format
+msgid "RAID %s\n"
+msgstr "RAID %s\n"
+
+#: diskdrake/interactive.pm:1416
+#, c-format
+msgid "Encrypted"
+msgstr "Criptată"
+
+#: diskdrake/interactive.pm:1418
+#, c-format
+msgid " (mapped on %s)"
+msgstr " (asociat pe %s)"
+
+#: diskdrake/interactive.pm:1419
+#, c-format
+msgid " (to map on %s)"
+msgstr " (asociere pe %s)"
+
+#: diskdrake/interactive.pm:1420
+#, c-format
+msgid " (inactive)"
+msgstr " (inactiv)"
+
+#: diskdrake/interactive.pm:1427
+#, c-format
+msgid ""
+"Loopback file(s):\n"
+"   %s\n"
+msgstr ""
+"Fișiere loopback: \n"
+"   %s\n"
+
+#: diskdrake/interactive.pm:1428
+#, c-format
+msgid ""
+"Partition booted by default\n"
+"    (for MS-DOS boot, not for lilo)\n"
+msgstr ""
+"Partiția pornită implicit\n"
+"    (pentru DOS/Windows, nu pentru LILO)\n"
+
+#: diskdrake/interactive.pm:1430
+#, c-format
+msgid "Level %s\n"
+msgstr "Nivel %s\n"
+
+#: diskdrake/interactive.pm:1431
+#, c-format
+msgid "Chunk size %d KiB\n"
+msgstr "Mărime bloc %d KiB\n"
+
+#: diskdrake/interactive.pm:1432
+#, c-format
+msgid "RAID-disks %s\n"
+msgstr "Discuri-RAID %s\n"
+
+#: diskdrake/interactive.pm:1434
+#, c-format
+msgid "Loopback file name: %s"
+msgstr "Numele fișierului loopback: %s"
+
+#: diskdrake/interactive.pm:1437
+#, c-format
+msgid ""
+"\n"
+"Chances are, this partition is\n"
+"a Driver partition. You should\n"
+"probably leave it alone.\n"
+msgstr ""
+"\n"
+"Sînt șanse ca această partiție\n"
+"să conțină piloți, ar trebui\n"
+"probabil lăsată în pace.\n"
+
+#: diskdrake/interactive.pm:1440
+#, c-format
+msgid ""
+"\n"
+"This special Bootstrap\n"
+"partition is for\n"
+"dual-booting your system.\n"
+msgstr ""
+"\n"
+"Această partiție de pornire\n"
+"este necesară dacă aveți mai\n"
+"multe sisteme de operare.\n"
+
+#: diskdrake/interactive.pm:1449
+#, c-format
+msgid "Free space on %s (%s)"
+msgstr "Spațiu liber pe %s (%s)"
+
+#: diskdrake/interactive.pm:1458
+#, c-format
+msgid "Read-only"
+msgstr "Doar citire"
+
+#: diskdrake/interactive.pm:1459
+#, c-format
+msgid "Size: %s\n"
+msgstr "Mărime: %s\n"
+
+#: diskdrake/interactive.pm:1460
+#, c-format
+msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+msgstr "Geometrie: %s cilindri, %s capete, %s sectoare\n"
+
+#: diskdrake/interactive.pm:1461
+#, c-format
+msgid "Name: "
+msgstr "Nume: "
+
+#: diskdrake/interactive.pm:1462
+#, c-format
+msgid "Medium type: "
+msgstr "Tip de mediu: "
+
+#: diskdrake/interactive.pm:1463
+#, c-format
+msgid "LVM-disks %s\n"
+msgstr "Discuri-LVM %s\n"
+
+#: diskdrake/interactive.pm:1464
+#, c-format
+msgid "Partition table type: %s\n"
+msgstr "Tip de tabelă de partiții: %s\n"
+
+#: diskdrake/interactive.pm:1465
+#, c-format
+msgid "on channel %d id %d\n"
+msgstr "pe canalul %d id %d\n"
+
+#: diskdrake/interactive.pm:1509
+#, c-format
+msgid "Choose your filesystem encryption key"
+msgstr "Alegeți cheia de criptare a sistemului de fișiere"
+
+#: diskdrake/interactive.pm:1512
+#, c-format
+msgid "This encryption key is too simple (must be at least %d characters long)"
+msgstr ""
+"Această cheie este prea simplă (ar trebui să fie de cel puțin %d caractere)"
+
+#: diskdrake/interactive.pm:1519
+#, c-format
+msgid "Encryption algorithm"
+msgstr "Algoritm de criptare"
+
+#: diskdrake/removable.pm:46
+#, c-format
+msgid "Change type"
+msgstr "Schimbă tipul"
+
+#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:120 interactive.pm:675
+#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
+#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846
+#: mygtk2.pm:1229 mygtk3.pm:928 mygtk3.pm:1312 ugtk2.pm:415 ugtk2.pm:517
+#: ugtk2.pm:526 ugtk2.pm:810 ugtk3.pm:501 ugtk3.pm:591 ugtk3.pm:600
+#: ugtk3.pm:906
+#, c-format
+msgid "Cancel"
+msgstr "Anulează"
+
+#: diskdrake/smbnfs_gtk.pm:164
+#, c-format
+msgid "Cannot login using username %s (bad password?)"
+msgstr "Nu se poate autentifica cu %s (parolă greșită?)"
+
+#: diskdrake/smbnfs_gtk.pm:168 diskdrake/smbnfs_gtk.pm:177
+#, c-format
+msgid "Domain Authentication Required"
+msgstr "Domeniu de autentificare necesar"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Which username"
+msgstr "Numele utilizatorului"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Another one"
+msgstr "Un altul"
+
+#: diskdrake/smbnfs_gtk.pm:178
+#, c-format
+msgid ""
+"Please enter your username, password and domain name to access this host."
+msgstr ""
+"Introduceți utilizatorul, parola și domeniul pentru a accesa această gazdă."
+
+#: diskdrake/smbnfs_gtk.pm:180
+#, c-format
+msgid "Username"
+msgstr "Nume utilizator"
+
+#: diskdrake/smbnfs_gtk.pm:182
+#, c-format
+msgid "Domain"
+msgstr "Domeniu"
+
+#: diskdrake/smbnfs_gtk.pm:206
+#, c-format
+msgid "Search servers"
+msgstr "Caută servere"
+
+#: diskdrake/smbnfs_gtk.pm:211
+#, c-format
+msgid "Search for new servers"
+msgstr "Caută pentru servere noi"
+
+#: do_pkgs.pm:45 do_pkgs.pm:100
+#, c-format
+msgid "The package %s needs to be installed. Do you want to install it?"
+msgstr "Trebuie instalat pachetul %s. Doriți instalarea lui?"
+
+#: do_pkgs.pm:49 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:142
+#, c-format
+msgid "Could not install the %s package!"
+msgstr "Nu s-a putut instala pachetul %s!"
+
+#: do_pkgs.pm:54 do_pkgs.pm:108
+#, c-format
+msgid "Mandatory package %s is missing"
+msgstr "Lipsește pachetul obligatoriu %s"
+
+#: do_pkgs.pm:74 do_pkgs.pm:137
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Este necesară instalarea următoarelor pachetele: \n"
+
+#: do_pkgs.pm:342
+#, c-format
+msgid "Installing packages..."
+msgstr "Instalare de pachete..."
+
+#: do_pkgs.pm:387 pkgs.pm:293
+#, c-format
+msgid "Removing packages..."
+msgstr "Înlăturare pachete..."
+
+#: fs/any.pm:21
+#, c-format
+msgid ""
+"An error occurred - no valid devices were found on which to create new "
+"filesystems. Please check your hardware for the cause of this problem"
+msgstr ""
+"S-a produs o eroare: nu s-a găsit nici un dispozitiv valid pentru a crea "
+"noile sisteme de fișiere. Verificați componentele materiale pentru cauza "
+"problemei."
+
+#: fs/any.pm:77 fs/partitioning_wizard.pm:77
+#, c-format
+msgid "You must have a ESP FAT32 partition mounted in /boot/EFI"
+msgstr "Trebuie să aveți o partiție ESP FAT32 montată în /boot/EFI"
+
+#: fs/any.pm:81 fs/partitioning_wizard.pm:82
+#, c-format
+msgid ""
+"You must have a BIOS boot partition for non-UEFI GPT-partitioned disks. "
+"Please create one before continuing."
+msgstr ""
+"Trebuie să aveți o partiție de demaraj BIOS pentru discurile non-UEFI "
+"partiționate GPT. Creați una înainte de a continua."
+
+#: fs/format.pm:110
+#, c-format
+msgid "Creating and formatting file %s"
+msgstr "Se creează și formatează fișierul %s"
+
+#: fs/format.pm:130
+#, c-format
+msgid "I do not know how to set label on %s with type %s"
+msgstr "Imposibil de configurat eticheta de volum pe %s cu tipul %s"
+
+#: fs/format.pm:142
+#, c-format
+msgid "setting label on %s failed, is it formatted?"
+msgstr "personalizarea etichetei de volum pe %s a eșuat, este formatat?"
+
+#: fs/format.pm:190
+#, c-format
+msgid "I do not know how to format %s in type %s"
+msgstr "Nu se poate formata %s cu formatul %s"
+
+#: fs/format.pm:195 fs/format.pm:197
+#, c-format
+msgid "%s formatting of %s failed"
+msgstr "formatarea cu %s a lui %s a eșuat"
+
+#: fs/loopback.pm:24
+#, c-format
+msgid "Circular mounts %s\n"
+msgstr "Montări circulare %s\n"
+
+#: fs/mount.pm:85
+#, c-format
+msgid "Mounting partition %s"
+msgstr "Se montează partiția %s"
+
+#: fs/mount.pm:87
+#, c-format
+msgid "mounting partition %s in directory %s failed"
+msgstr "montarea partiției %s în directorul %s a eșuat"
+
+#: fs/mount.pm:92 fs/mount.pm:109
+#, c-format
+msgid "Checking %s"
+msgstr "Se verifică %s"
+
+#: fs/mount.pm:126 partition_table.pm:399
+#, c-format
+msgid "error unmounting %s: %s"
+msgstr "eroare la demontarea lui %s: %s"
+
+#: fs/mount.pm:141
+#, c-format
+msgid "Enabling swap partition %s"
+msgstr "Se activează partiția swap %s"
+
+#: fs/mount_options.pm:114
+#, c-format
+msgid "Enable POSIX Access Control Lists"
+msgstr "Activează listele POSIX de control al accesului"
+
+#: fs/mount_options.pm:116
+#, c-format
+msgid "Flush write cache on file close"
+msgstr "Golește zona de pre-tampon la închiderea fișierului"
+
+#: fs/mount_options.pm:118
+#, c-format
+msgid "Enable group disk quota accounting and optionally enforce limits"
+msgstr "Activează cota de disc a grupurilor și impune (opțional) limitele"
+
+#: fs/mount_options.pm:120
+#, c-format
+msgid ""
+"Do not update inode access times on this filesystem\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"Nu actualiza timpii de acces pe inode pentru acest sistem de fișiere\n"
+"(ex: pentru acces mai rapid la știri pe serverele de știri)."
+
+#: fs/mount_options.pm:123
+#, c-format
+msgid ""
+"Update inode access times on this filesystem in a more efficient way\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"Actualizează timpii de acces la inode într-un mod mai eficient pe acest "
+"sistem de fișiere\n"
+"(ex: pentru acces mai rapid la știri pe serverele de știri)."
+
+#: fs/mount_options.pm:126
+#, c-format
+msgid ""
+"Can only be mounted explicitly (i.e.,\n"
+"the -a option will not cause the filesystem to be mounted)."
+msgstr ""
+"Nu poate fi montat decît în mod explicit\n"
+"(ex: opțiunea -a nu va provoca montarea sistemului de fișiere)."
+
+#: fs/mount_options.pm:129
+#, c-format
+msgid "Do not interpret character or block special devices on the filesystem."
+msgstr ""
+"Ignoră fișierele speciale de tip caracter sau bloc pe sistemul de fișiere."
+
+#: fs/mount_options.pm:131
+#, c-format
+msgid ""
+"Do not allow execution of any binaries on the mounted\n"
+"filesystem. This option might be useful for a server that has filesystems\n"
+"containing binaries for architectures other than its own."
+msgstr ""
+"Interzice execuția fișierelor binare din sistemul de fișiere\n"
+"montat. Această opțiune poate fi utilă pentru un server ce conține\n"
+"fișiere binare pentru arhitecturi diferite de-a lui."
+
+#: fs/mount_options.pm:135
+#, c-format
+msgid ""
+"Do not allow set-user-identifier or set-group-identifier\n"
+"bits to take effect. (This seems safe, but is in fact rather unsafe if you\n"
+"have suidperl(1) installed.)"
+msgstr ""
+"Împiedică activarea biților SUID sau GUID.\n"
+"(Această metodă poate părea sigură, numai dacă nu aveți suidperl(1)\n"
+"instalat.)"
+
+#: fs/mount_options.pm:139
+#, c-format
+msgid "Mount the filesystem read-only."
+msgstr "Montează sistemul de fișier numai în citire."
+
+#: fs/mount_options.pm:141
+#, c-format
+msgid "All I/O to the filesystem should be done synchronously."
+msgstr "Toate I/E pe sistemul de fișiere trebuiesc făcute sincronizat."
+
+#: fs/mount_options.pm:143
+#, c-format
+msgid "Allow every user to mount and umount the filesystem."
+msgstr ""
+"Permite fiecărui utilizator să monteze și să demonteze sistemul de fișiere."
+
+#: fs/mount_options.pm:145
+#, c-format
+msgid "Allow an ordinary user to mount the filesystem."
+msgstr "Permite utilizatorilor obișnuiți să monteze sistemul de fișiere."
+
+#: fs/mount_options.pm:147
+#, c-format
+msgid "Enable user disk quota accounting, and optionally enforce limits"
+msgstr "Activează cota de disc utilizator și impune (opțional) limitele"
+
+#: fs/mount_options.pm:149
+#, c-format
+msgid "Support \"user.\" extended attributes"
+msgstr "Suport pentru atributele utilizator extinse"
+
+#: fs/mount_options.pm:151
+#, c-format
+msgid "Give write access to ordinary users"
+msgstr "Acordă acces în scris utilizatorilor obișnuiți"
+
+#: fs/mount_options.pm:153
+#, c-format
+msgid "Give read-only access to ordinary users"
+msgstr "Acordă acces doar în citire utilizatorilor obișnuiți"
+
+#: fs/mount_point.pm:87
+#, c-format
+msgid "Duplicate mount point %s"
+msgstr "Punct de montare duplicat: %s"
+
+#: fs/mount_point.pm:102
+#, c-format
+msgid "No partition available"
+msgstr "Nici o partiție disponibilă"
+
+#: fs/mount_point.pm:105
+#, c-format
+msgid "Scanning partitions to find mount points"
+msgstr "Se examinează partițiile pentru găsirea punctelor de montare"
+
+#: fs/mount_point.pm:112
+#, c-format
+msgid "Choose the mount points"
+msgstr "Alegeți punctele de montare"
+
+#: fs/partitioning.pm:46
+#, c-format
+msgid "Choose the partitions you want to format"
+msgstr "Alegeți partițiile pe care doriți să le formatați"
+
+#: fs/partitioning.pm:75
+#, c-format
+msgid ""
+"Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+"you can lose data)"
+msgstr ""
+"Verificarea sistemului de fișiere %s a eșuat. Doriți repararea erorilor? "
+"(atenție, se pot pierde date)"
+
+#: fs/partitioning.pm:78
+#, c-format
+msgid "Not enough swap space to fulfill installation, please add some"
+msgstr "Swap insuficient pentru a termina instalarea, vă rugăm să-l măriți"
+
+#: fs/partitioning_wizard.pm:66
+#, c-format
+msgid ""
+"You must have a root partition.\n"
+"To accomplish this, create a partition (or click on an existing one).\n"
+"Then choose action ``Mount point'' and set it to `/'"
+msgstr ""
+"Trebuie să aveți o partiție root.\n"
+"Pentru aceasta, creați o partiție (sau faceți clic pe una existentă).\n"
+"Alegeți apoi acțiunea „Punct de montare” și definiți-o ca „/”"
+
+#: fs/partitioning_wizard.pm:72
+#, c-format
+msgid ""
+"You do not have a swap partition.\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"Nu aveți nici o partiție swap\n"
+"\n"
+"Continuați totuși?"
+
+#: fs/partitioning_wizard.pm:115
+#, c-format
+msgid "Use free space"
+msgstr "Utilizează spațiul liber"
+
+#: fs/partitioning_wizard.pm:117
+#, c-format
+msgid "Not enough free space to allocate new partitions"
+msgstr "Spațiu liber insuficient pentru a crea partiții noi"
+
+#: fs/partitioning_wizard.pm:125
+#, c-format
+msgid "Use existing partitions"
+msgstr "Utilizează partițiile existente"
+
+#: fs/partitioning_wizard.pm:127
+#, c-format
+msgid "There is no existing partition to use"
+msgstr "Nu există partiții utilizabile"
+
+#: fs/partitioning_wizard.pm:151
+#, c-format
+msgid "Computing the size of the Microsoft Windows® partition"
+msgstr "Se calculează dimensiunea partiției Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:187
+#, c-format
+msgid "Use the free space on a Microsoft Windows® partition"
+msgstr "Utilizează spațiul liber de pe partiția Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:191
+#, c-format
+msgid "Which partition do you want to resize?"
+msgstr "Care partiție doriți s-o redimensionați?"
+
+#: fs/partitioning_wizard.pm:194
+#, c-format
+msgid ""
+"Your Microsoft Windows® partition is too fragmented. Please reboot your "
+"computer under Microsoft Windows®, run the ``defrag'' utility, then restart "
+"the %s installation."
+msgstr ""
+"Partiția Microsoft Windows ® este prea fragmentată. Vă rugăm să reporniți "
+"calculatorul în  Microsoft Windows ®, executați utilitarul „defrag”, apoi "
+"reporniţi instalarea %s."
+
+#: fs/partitioning_wizard.pm:201
+#, c-format
+msgid "Failed to find the partition to resize (%d choices)"
+msgstr "Căutarea partiției de redimensionat a eșuat (%d opțiuni)"
+
+#: fs/partitioning_wizard.pm:208
+#, c-format
+msgid ""
+"WARNING!\n"
+"\n"
+"\n"
+"Your Microsoft Windows® partition will be now resized.\n"
+"\n"
+"\n"
+"Be careful: this operation is dangerous. If you have not already done so, "
+"you first need to exit the installation, run \"chkdsk c:\" from a Command "
+"Prompt under Microsoft Windows® (beware, running graphical program \"scandisk"
+"\" is not enough, be sure to use \"chkdsk\" in a Command Prompt!), "
+"optionally run defrag, then restart the installation. You should also backup "
+"your data.\n"
+"\n"
+"\n"
+"When sure, press %s."
+msgstr ""
+"AVERTISMENT!\n"
+"\n"
+"\n"
+"Partiția Microsoft Windows® va fi redimensionată.\n"
+"\n"
+"\n"
+"Atenție: această operație este periculoasă. Dacă nu ați făcut-o deja, "
+"trebuie să părăsiți instalarea, să lansați „chkdsk c:” din linia de comandă "
+"din Microsoft Windows® (atenție, executarea programului grafic „scandisk” nu "
+"este suficientă, mai sigur folosiți „chkdsk” din linia de comandă!). "
+"Opțional puteți defragmenta partiția, iar apoi reîncepeți instalarea. Ar fi "
+"preferabil să vă salvgardați datele înainte.\n"
+"\n"
+"\n"
+"Cînd sînteți sigur, apăsați %s."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: fs/partitioning_wizard.pm:217 fs/partitioning_wizard.pm:594
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Next"
+msgstr "Înainte"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Partitionning"
+msgstr "Partiționare"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
+msgstr ""
+"Cît spațiu doriți să păstrați pentru Microsoft Windows® pe partiția %s?"
+
+#: fs/partitioning_wizard.pm:224
+#, c-format
+msgid "Size"
+msgstr "Mărime"
+
+#: fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing Microsoft Windows® partition"
+msgstr "Se redimensionează partiția Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:238
+#, c-format
+msgid "FAT resizing failed: %s"
+msgstr "Redimensionarea FAT a eșuat: %s"
+
+#: fs/partitioning_wizard.pm:254
+#, c-format
+msgid "There is no FAT partition to resize (or not enough space left)"
+msgstr ""
+"Nu se poare redimensiona nici o partiție FAT (sau spațiu liber insuficient)"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Remove Microsoft Windows®"
+msgstr "Înlătură Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Erase and use entire disk"
+msgstr "Șterge și utilizează tot discul"
+
+#: fs/partitioning_wizard.pm:263
+#, c-format
+msgid ""
+"You have more than one hard disk drive, which one do you want the installer "
+"to use?"
+msgstr "Aveți mai multe discuri dure, pe care din ele doriți să-l utilizați?"
+
+#: fs/partitioning_wizard.pm:271 fsedit.pm:638
+#, c-format
+msgid "ALL existing partitions and their data will be lost on drive %s"
+msgstr "TOATE partițiile existente și datele lor pe unitatea %s se vor pierde"
+
+#: fs/partitioning_wizard.pm:284
+#, c-format
+msgid "Custom disk partitioning"
+msgstr "Partiționare de disc personalizată"
+
+#: fs/partitioning_wizard.pm:290
+#, c-format
+msgid "Use fdisk"
+msgstr "Utilizează fdisk"
+
+#: fs/partitioning_wizard.pm:293
+#, c-format
+msgid ""
+"You can now partition %s.\n"
+"When you are done, do not forget to save using `w'"
+msgstr ""
+"Acum puteți partiționa discul %s \n"
+"Cînd ați terminat, nu uitați să înregistrați folosind „w”"
+
+#: fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Ext2/3/4"
+msgstr "Ext2/3/4"
+
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:614
+#, c-format
+msgid "I cannot find any room for installing"
+msgstr "Nu s-a găsit nici un spațiu pentru instalare"
+
+#: fs/partitioning_wizard.pm:475 fs/partitioning_wizard.pm:621
+#, c-format
+msgid "The DrakX Partitioning wizard found the following solutions:"
+msgstr "Asistentul de partiționare DrakX a găsit următoarele soluții:"
+
+#: fs/partitioning_wizard.pm:545
+#, c-format
+msgid "Here is the content of your disk drive "
+msgstr "Iată conținutul discului "
+
+#: fs/partitioning_wizard.pm:632
+#, c-format
+msgid "Partitioning failed: %s"
+msgstr "Partiționarea a eșuat: %s"
+
+#: fs/type.pm:382
+#, c-format
+msgid "You cannot use JFS for partitions smaller than 16MB"
+msgstr "Nu puteți utiliza JFS pentru partiții mai mici de 16Mo"
+
+#: fs/type.pm:383
+#, c-format
+msgid "You cannot use ReiserFS for partitions smaller than 32MB"
+msgstr "Nu puteți utiliza ReiserFS pentru partiții mai mici de 32Mo"
+
+#: fs/type.pm:384
+#, c-format
+msgid "You cannot use btrfs for partitions smaller than 256MB"
+msgstr "Nu puteți utiliza btrfs pe o partiție mai mică de 256Mo"
+
+#: fsedit.pm:25
+#, c-format
+msgid "simple"
+msgstr "simplu"
+
+#: fsedit.pm:29
+#, c-format
+msgid "with /usr"
+msgstr "cu /usr"
+
+#: fsedit.pm:34
+#, c-format
+msgid "server"
+msgstr "server"
+
+#: fsedit.pm:157
+#, c-format
+msgid "BIOS software RAID detected on disks %s. Activate it?"
+msgstr "S-a detectat RAID din BIOS pentru discurile %s. Doriți să-l activați?"
+
+#: fsedit.pm:267
+#, c-format
+msgid ""
+"I cannot read the partition table of device %s, it's too corrupted for me :"
+"(\n"
+"I can try to go on, erasing over bad partitions (ALL DATA will be lost!).\n"
+"The other solution is to not allow DrakX to modify the partition table.\n"
+"(the error is %s)\n"
+"\n"
+"Do you agree to lose all the partitions?\n"
+msgstr ""
+"Nu se poate citi tabela de partiții a unității %s, este prea coruptă :(\n"
+"Se poate continua, ștergîndu-se toate partițiile greșite (se vor pierde "
+"TOATE DATELE!).\n"
+"Cealaltă soluție ar fi să se interzică modificarea tabelei de partiții.\n"
+"(eroarea este %s)\n"
+"\n"
+"Sînteți de acord să pierdeți toate partițiile?\n"
+
+#: fsedit.pm:450
+#, c-format
+msgid "Mount points must begin with a leading /"
+msgstr "Punctele de montare trebuie sa înceapă cu un /"
+
+#: fsedit.pm:451
+#, c-format
+msgid "Mount points should contain only alphanumerical characters"
+msgstr "Punctele de montare trebuie să conțină doar caractere alfanumerice"
+
+#: fsedit.pm:452
+#, c-format
+msgid "There is already a partition with mount point %s\n"
+msgstr "Există deja o partiție cu punctul de montare %s\n"
+
+#: fsedit.pm:455
+#, c-format
+msgid ""
+"You've selected an encrypted partition as root (/).\n"
+"No bootloader is able to handle this without a /boot partition.\n"
+"Please be sure to add a separate /boot partition"
+msgstr ""
+"Ați selectat o partiție criptată pentru root (/).\n"
+"Nici un încărcător de sistem nu suportă această configurație fără o "
+"partiție /boot separată.\n"
+"Adăugați, deci, o partiție /boot"
+
+#: fsedit.pm:461 fsedit.pm:472
+#, c-format
+msgid "You cannot use an encrypted filesystem for mount point %s"
+msgstr ""
+"Nu puteți utiliza un sistem de fișiere criptat pentru punctul de montare %s"
+
+#: fsedit.pm:464 fsedit.pm:466
+#, c-format
+msgid "This directory should remain within the root filesystem"
+msgstr "Acest director ar trebui să rămînă pe partiția rădăcină (/)"
+
+#: fsedit.pm:468 fsedit.pm:470
+#, c-format
+msgid ""
+"You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
+"point\n"
+msgstr ""
+"Aveți nevoie de un sistem de fișiere adevărat (Ext2/Ext3, ReiserFS, XFS sau "
+"JFS) pentru acest punct de montare.\n"
+
+#: fsedit.pm:538
+#, c-format
+msgid "Not enough free space for auto-allocating"
+msgstr "Spațiu liber insuficient pentru partiționarea automată"
+
+#: fsedit.pm:540
+#, c-format
+msgid "Nothing to do"
+msgstr "Nimic de făcut"
+
+#: harddrake/data.pm:62
+#, c-format
+msgid "SATA controllers"
+msgstr "Controlere SATA"
+
+#: harddrake/data.pm:72
+#, c-format
+msgid "RAID controllers"
+msgstr "Controlere RAID"
+
+#: harddrake/data.pm:82
+#, c-format
+msgid "(E)IDE/ATA controllers"
+msgstr "Controlere (E)IDE/ATA"
+
+#: harddrake/data.pm:93
+#, c-format
+msgid "Card readers"
+msgstr "Cititoare de cartele"
+
+#: harddrake/data.pm:102
+#, c-format
+msgid "Firewire controllers"
+msgstr "Controlere Firewire"
+
+#: harddrake/data.pm:111
+#, c-format
+msgid "PCMCIA controllers"
+msgstr "Controlere PCMCIA"
+
+#: harddrake/data.pm:120
+#, c-format
+msgid "SCSI controllers"
+msgstr "Controlere SCSI"
+
+#: harddrake/data.pm:129
+#, c-format
+msgid "USB controllers"
+msgstr "Controlere USB"
+
+#: harddrake/data.pm:138
+#, c-format
+msgid "USB ports"
+msgstr "Porturi USB"
+
+#: harddrake/data.pm:147
+#, c-format
+msgid "SMBus controllers"
+msgstr "Controlere SMBus"
+
+#: harddrake/data.pm:156
+#, c-format
+msgid "Bridges and system controllers"
+msgstr "Punți și controlere de sistem"
+
+#: harddrake/data.pm:168
+#, c-format
+msgid "Floppy"
+msgstr "Unitate de dischetă"
+
+#: harddrake/data.pm:178
+#, c-format
+msgid "Zip"
+msgstr "Unitate ZIP"
+
+#: harddrake/data.pm:194
+#, c-format
+msgid "Hard Disk"
+msgstr "Disc dur"
+
+#: harddrake/data.pm:204
+#, c-format
+msgid "USB Mass Storage Devices"
+msgstr "Dispozitive de stocare USB"
+
+#: harddrake/data.pm:213
+#, c-format
+msgid "CDROM"
+msgstr "Unitate CD-ROM"
+
+#: harddrake/data.pm:223
+#, c-format
+msgid "CD/DVD burners"
+msgstr "Inscriptoare CD/DVD"
+
+#: harddrake/data.pm:233
+#, c-format
+msgid "DVD-ROM"
+msgstr "Unitate DVD-ROM"
+
+#: harddrake/data.pm:243
+#, c-format
+msgid "Tape"
+msgstr "Unitate de bandă"
+
+#: harddrake/data.pm:254
+#, c-format
+msgid "AGP controllers"
+msgstr "Controlere AGP"
+
+#: harddrake/data.pm:263
+#, c-format
+msgid "Videocard"
+msgstr "Placă video"
+
+#: harddrake/data.pm:272
+#, c-format
+msgid "DVB card"
+msgstr "Placă DVB"
+
+#: harddrake/data.pm:280
+#, c-format
+msgid "Tvcard"
+msgstr "Placă TV"
+
+#: harddrake/data.pm:290
+#, c-format
+msgid "Other MultiMedia devices"
+msgstr "Alte dispozitive multimedia"
+
+#: harddrake/data.pm:299
+#, c-format
+msgid "Soundcard"
+msgstr "Placă de sunet"
+
+#: harddrake/data.pm:313
+#, c-format
+msgid "Webcam"
+msgstr "Videocameră"
+
+#: harddrake/data.pm:328
+#, c-format
+msgid "Processors"
+msgstr "Procesoare"
+
+#: harddrake/data.pm:338
+#, c-format
+msgid "ISDN adapters"
+msgstr "Adaptoare ISDN"
+
+#: harddrake/data.pm:349
+#, c-format
+msgid "USB sound devices"
+msgstr "Dispozitive audio USB"
+
+#: harddrake/data.pm:358
+#, c-format
+msgid "Radio cards"
+msgstr "Plăci radio"
+
+#: harddrake/data.pm:367
+#, c-format
+msgid "ATM network cards"
+msgstr "Plăci de rețea ATM"
+
+#: harddrake/data.pm:376
+#, c-format
+msgid "WAN network cards"
+msgstr "Plăci de rețea WAN"
+
+#: harddrake/data.pm:385
+#, c-format
+msgid "Bluetooth devices"
+msgstr "Dispozitive Bluetooth"
+
+#: harddrake/data.pm:394
+#, c-format
+msgid "Ethernetcard"
+msgstr "Plăci de rețea Ethernet"
+
+#: harddrake/data.pm:412
+#, c-format
+msgid "Modem"
+msgstr "Modem"
+
+#: harddrake/data.pm:422
+#, c-format
+msgid "ADSL adapters"
+msgstr "Adaptoare ADSL"
+
+#: harddrake/data.pm:434
+#, c-format
+msgid "Memory"
+msgstr "Memorie"
+
+#: harddrake/data.pm:443
+#, c-format
+msgid "Printer"
+msgstr "Imprimantă"
+
+#. -PO: these are joysticks controllers:
+#: harddrake/data.pm:457
+#, c-format
+msgid "Game port controllers"
+msgstr "Controlere game port"
+
+#: harddrake/data.pm:466
+#, c-format
+msgid "Joystick"
+msgstr "Joystick"
+
+#: harddrake/data.pm:476
+#, c-format
+msgid "Keyboard"
+msgstr "Tastatură"
+
+#: harddrake/data.pm:490
+#, c-format
+msgid "Tablet and touchscreen"
+msgstr "Tabletă și ecran tactil"
+
+#: harddrake/data.pm:499
+#, c-format
+msgid "Mouse"
+msgstr "Maus"
+
+#: harddrake/data.pm:514
+#, c-format
+msgid "Biometry"
+msgstr "Biometrie"
+
+#: harddrake/data.pm:522
+#, c-format
+msgid "UPS"
+msgstr "UPS"
+
+#: harddrake/data.pm:531
+#, c-format
+msgid "Scanner"
+msgstr "Scaner"
+
+#: harddrake/data.pm:542
+#, c-format
+msgid "Unknown/Others"
+msgstr "Necunoscut/Altele"
+
+#: harddrake/data.pm:572
+#, c-format
+msgid "cpu # "
+msgstr "CPU # "
+
+#: harddrake/sound.pm:80
+#, c-format
+msgid "No known driver"
+msgstr "Nu există pilot cunoscut"
+
+#: harddrake/sound.pm:81
+#, c-format
+msgid "There's no known driver for your sound card (%s)"
+msgstr "Nu există un pilot cunoscut pentru placa de sunet (%s)"
+
+#: harddrake/sound.pm:110
+#, c-format
+msgid "Enable PulseAudio"
+msgstr "Activează PulseAudio"
+
+#: harddrake/sound.pm:115
+#, c-format
+msgid "Use Glitch-Free mode"
+msgstr "Utilizează modul Glitch-Free"
+
+#: harddrake/sound.pm:121
+#, c-format
+msgid "Reset sound mixer to default values"
+msgstr "Reinițializează mixerul de sunet cu valorile implicite"
+
+#: harddrake/sound.pm:125
+#, c-format
+msgid "Troubleshooting"
+msgstr "Depanare"
+
+#: harddrake/sound.pm:132
+#, c-format
+msgid "No alternative driver"
+msgstr "Nu există pilot alternativ"
+
+#: harddrake/sound.pm:133
+#, c-format
+msgid ""
+"There's no known OSS/ALSA alternative driver for your sound card (%s) which "
+"currently uses \"%s\""
+msgstr ""
+"Nu există un pilot OSS/ALSA alternativ cunoscut pentru placa de sunet (%s) "
+"ce utilizează actualmente „%s”"
+
+#: harddrake/sound.pm:140
+#, c-format
+msgid "Sound configuration"
+msgstr "Configurare sunet"
+
+#: harddrake/sound.pm:144
+#, c-format
+msgid "Your card uses the \"%s\" driver"
+msgstr "Placa utilizează pilotul „%s”"
+
+#: harddrake/sound.pm:156
+#, c-format
+msgid "Sound troubleshooting"
+msgstr "Depanarea sunetului"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: harddrake/sound.pm:159
+#, c-format
+msgid ""
+"Below are some basic tips to help debug audio problems, but for accurate and "
+"up-to-date tips and tricks, please see:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- General Recommendation: Enable PulseAudio. If you have opted to not to use "
+"PulseAudio, we would strongly advise you enable it. For the vast majority of "
+"desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pavucontrol"
+"\" (generic) will launch graphical applications to allow you to view your "
+"sound devices and adjust volume levels\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.\n"
+"\n"
+"\n"
+"- \"pactl stat\" will check that you can connect to the PulseAudio daemon "
+"correctly.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" will tell you which programs are currently "
+"playing sound via PulseAudio.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" will tell you the current state of the "
+"OSS Proxy Daemon. This is used to enable sound from legacy applications "
+"which use the OSS sound API. You should install the \"ossp\" package if you "
+"need this functionality.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" will give you a LOT of debug information about the current "
+"state of your audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver "
+"your card uses by default.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound "
+"related kernel modules (drivers) are loaded.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA "
+"mixer controls for first sound card\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are "
+"currently using the sound card directly (normally this should only show "
+"PulseAudio)\n"
+msgstr ""
+"Mai jos puteți găsi cîteva instrucțiuni simple pentru depanarea "
+"problemelelor de sunet, însă pentru instrucțiuni mai precise și la zi vă "
+"recomandăm să vizitați:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- Recomandare generală: activați PulseAudio. Dacă ați optat să nu utilizați "
+"PulseAudio, vă recomandăm cu insistență să-l activați. Pentru marea "
+"majoritate a cazurilor, PulseAudio este opțiunea cea mai suportată și "
+"recomandată.\n"
+"\n"
+"\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) și \"pavucontrol"
+"\" (generic) vor lansa aplicații grafice care vor afișa dispozitivele audio "
+"și vă vor permite reglarea volumelor.\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" va verifica dacă este lansat PulseAudio.\n"
+"\n"
+"\n"
+"- \"pactl stat\" va verifica dacă puteți conecta corect la serviciul "
+"PulseAudio.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" vă va spune care aplicații redau sunentul prin "
+"PulseAudio.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" vă va spune starea actuală a "
+"serviciului OSS Proxy. Acesta este utilizat pentru redarea sunetului în "
+"unele aplicații vechi care utilizează biblioteca de sunet OSS. Trebuie să "
+"instalați pachetul „ossp” dacă aveți nevoie de această funcționalitate.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" vă va oferi MULTE informații de depanare despre starea "
+"configurației audio actuale.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" vă va spune ce pilot de nivel jos este "
+"utilizat implicit de placa de sunet.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" vă va permite să verificați care module "
+"(piloți) de sunet sînt încărcate în nucleu.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" vă va oferi un panou de control ALSA în mod text pentru "
+"prima placă de sunet\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" vă va spune care aplicații "
+"utilizează placa de sunet în mod direct (în mod normal al trebui să afișeze "
+"numai PulseAudio)\n"
+
+#: harddrake/v4l.pm:12
+#, c-format
+msgid "Auto-detect"
+msgstr "Auto-detecție"
+
+#: harddrake/v4l.pm:97 harddrake/v4l.pm:285 harddrake/v4l.pm:337
+#, c-format
+msgid "Unknown|Generic"
+msgstr "Necunoscut|Generic"
+
+#: harddrake/v4l.pm:130
+#, c-format
+msgid "Unknown|CPH05X (bt878) [many vendors]"
+msgstr "Necunoscut|CPH05X (bt878) [numeroși producători]"
+
+#: harddrake/v4l.pm:131
+#, c-format
+msgid "Unknown|CPH06X (bt878) [many vendors]"
+msgstr "Necunoscut|CPH06X (bt878) [numeroși producători]"
+
+#: harddrake/v4l.pm:475
+#, c-format
+msgid ""
+"For most modern TV cards, the bttv module of the GNU/Linux kernel just auto-"
+"detect the rights parameters.\n"
+"If your card is misdetected, you can force the right tuner and card types "
+"here. Just select your TV card parameters if needed."
+msgstr ""
+"Pentru majoritatea plăcilor TV moderne, modulul bttv din nucleul GNU/Linux "
+"detectează automat parametri corecți.\n"
+"Dacă placa nu vă este detectată, puteți forța aici tipul plăcii și al "
+"decodorului. Dacă este necesar, selectați și parametrii plăcii TV."
+
+#: harddrake/v4l.pm:478
+#, c-format
+msgid "Card model:"
+msgstr "Modelul plăcii:"
+
+#: harddrake/v4l.pm:479
+#, c-format
+msgid "Tuner type:"
+msgstr "Tipul tunerului: "
+
+#: interactive.pm:119 interactive.pm:674 interactive/curses.pm:270
+#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
+#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
+#: mygtk3.pm:928 ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:810 ugtk2.pm:833
+#: ugtk3.pm:507 ugtk3.pm:593 ugtk3.pm:906 ugtk3.pm:929
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "Yes"
+msgstr "Da"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "No"
+msgstr "Nu"
+
+#: interactive.pm:253
+#, c-format
+msgid "Choose a file"
+msgstr "Alegeți un fișier"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Add"
+msgstr "Adaugă"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Modify"
+msgstr "Modifică"
+
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Finish"
+msgstr "Finalizare"
+
+#: interactive.pm:675 interactive/curses.pm:267 ugtk2.pm:517 ugtk3.pm:591
+#, c-format
+msgid "Previous"
+msgstr "Înapoi"
+
+#: interactive/curses.pm:576 ugtk2.pm:870 ugtk3.pm:966
+#, c-format
+msgid "No file chosen"
+msgstr "Nici un fișier ales"
+
+#: interactive/curses.pm:580 ugtk2.pm:874 ugtk3.pm:970
+#, c-format
+msgid "You have chosen a directory, not a file"
+msgstr "Ați ales un director, nu un fișier"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such directory"
+msgstr "Director inexistent"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such file"
+msgstr "Fișier inexistent"
+
+#: interactive/gtk.pm:596
+#, c-format
+msgid "Beware, Caps Lock is enabled"
+msgstr "Atenție, tasta Caps Lock este apăsată"
+
+#: interactive/stdio.pm:29 interactive/stdio.pm:154
+#, c-format
+msgid "Bad choice, try again\n"
+msgstr "Alegere greșită, încercați din nou\n"
+
+#: interactive/stdio.pm:30 interactive/stdio.pm:155
+#, c-format
+msgid "Your choice? (default %s) "
+msgstr "Ce alegeți? (implicit %s) "
+
+#: interactive/stdio.pm:54
+#, c-format
+msgid ""
+"Entries you'll have to fill:\n"
+"%s"
+msgstr ""
+"Intrări pe care trebuie să le completați:\n"
+"%s"
+
+#: interactive/stdio.pm:70
+#, c-format
+msgid "Your choice? (0/1, default `%s') "
+msgstr "Ce alegeți? (0/1, implicit „%s”) "
+
+#: interactive/stdio.pm:97
+#, c-format
+msgid "Button `%s': %s"
+msgstr "Buton „%s”: %s"
+
+#: interactive/stdio.pm:98
+#, c-format
+msgid "Do you want to click on this button?"
+msgstr "Vreți să apăsați pe acest buton?"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid "Your choice? (default `%s'%s) "
+msgstr "Ce alegeți? (implicit „%s”%s) "
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid " enter `void' for void entry"
+msgstr " introduceți „void” pentru o intrare vidă"
+
+#: interactive/stdio.pm:128
+#, c-format
+msgid "=> There are many things to choose from (%s).\n"
+msgstr "=> Sînt multe lucruri de ales (%s).\n"
+
+#: interactive/stdio.pm:131
+#, c-format
+msgid ""
+"Please choose the first number of the 10-range you wish to edit,\n"
+"or just hit Enter to proceed.\n"
+"Your choice? "
+msgstr ""
+"Alegeți primul număr din grupul de 10 pe care doriți să-l editați,\n"
+"sau apăsați „Enter” pentru a continua.\n"
+"Ce alegeți? "
+
+#: interactive/stdio.pm:144
+#, c-format
+msgid ""
+"=> Notice, a label changed:\n"
+"%s"
+msgstr ""
+"=> Remarcați că un mesaj s-a schimbat:\n"
+"%s"
+
+#: interactive/stdio.pm:151
+#, c-format
+msgid "Re-submit"
+msgstr "Retrimite"
+
+#. -PO: the string "default:LTR" can be translated *ONLY* as "default:LTR"
+#. -PO: or as "default:RTL", depending if your language is written from
+#. -PO: left to right, or from right to left; any other string is wrong.
+#: lang.pm:247
+#, c-format
+msgid "default:LTR"
+msgstr "default:LTR"
+
+#: lang.pm:301
+#, c-format
+msgid "Andorra"
+msgstr "Andora"
+
+#: lang.pm:302 timezone.pm:237
+#, c-format
+msgid "United Arab Emirates"
+msgstr "Emiratele Arabe Unite"
+
+#: lang.pm:303
+#, c-format
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: lang.pm:304
+#, c-format
+msgid "Antigua and Barbuda"
+msgstr "Antigua și Barbuda"
+
+#: lang.pm:305
+#, c-format
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: lang.pm:306
+#, c-format
+msgid "Albania"
+msgstr "Albania"
+
+#: lang.pm:307
+#, c-format
+msgid "Armenia"
+msgstr "Armenia"
+
+#: lang.pm:308
+#, c-format
+msgid "Netherlands Antilles"
+msgstr "Antilele olandeze"
+
+#: lang.pm:309
+#, c-format
+msgid "Angola"
+msgstr "Angola"
+
+#: lang.pm:310
+#, c-format
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: lang.pm:311 timezone.pm:282
+#, c-format
+msgid "Argentina"
+msgstr "Argentina"
+
+#: lang.pm:312
+#, c-format
+msgid "American Samoa"
+msgstr "Samoa americană"
+
+#: lang.pm:313 mirror.pm:22 timezone.pm:240
+#, c-format
+msgid "Austria"
+msgstr "Austria"
+
+#: lang.pm:314 mirror.pm:21 timezone.pm:278
+#, c-format
+msgid "Australia"
+msgstr "Australia"
+
+#: lang.pm:315
+#, c-format
+msgid "Aruba"
+msgstr "Aruba"
+
+#: lang.pm:316
+#, c-format
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: lang.pm:317
+#, c-format
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia și Herțegovina"
+
+#: lang.pm:318
+#, c-format
+msgid "Barbados"
+msgstr "Barbados"
+
+#: lang.pm:319 timezone.pm:222
+#, c-format
+msgid "Bangladesh"
+msgstr "Bangladeș"
+
+#: lang.pm:320 mirror.pm:23 timezone.pm:242
+#, c-format
+msgid "Belgium"
+msgstr "Belgia"
+
+#: lang.pm:321
+#, c-format
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: lang.pm:322 timezone.pm:243
+#, c-format
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: lang.pm:323
+#, c-format
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: lang.pm:324
+#, c-format
+msgid "Burundi"
+msgstr "Burundi"
+
+#: lang.pm:325
+#, c-format
+msgid "Benin"
+msgstr "Benin"
+
+#: lang.pm:326
+#, c-format
+msgid "Bermuda"
+msgstr "Bermude"
+
+#: lang.pm:327
+#, c-format
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: lang.pm:328
+#, c-format
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: lang.pm:329 mirror.pm:24 timezone.pm:283
+#, c-format
+msgid "Brazil"
+msgstr "Brazilia"
+
+#: lang.pm:330
+#, c-format
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: lang.pm:331
+#, c-format
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: lang.pm:332
+#, c-format
+msgid "Bouvet Island"
+msgstr "Insula Bouvet"
+
+#: lang.pm:333
+#, c-format
+msgid "Botswana"
+msgstr "Botswana"
+
+#: lang.pm:334 timezone.pm:241
+#, c-format
+msgid "Belarus"
+msgstr "Belarus"
+
+#: lang.pm:335
+#, c-format
+msgid "Belize"
+msgstr "Belize"
+
+#: lang.pm:336 mirror.pm:25 timezone.pm:272
+#, c-format
+msgid "Canada"
+msgstr "Canada"
+
+#: lang.pm:337
+#, c-format
+msgid "Cocos (Keeling) Islands"
+msgstr "Insulele Cocos (Keeling)"
+
+#: lang.pm:338
+#, c-format
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: lang.pm:339
+#, c-format
+msgid "Central African Republic"
+msgstr "Republica Centr-Africană"
+
+#: lang.pm:340
+#, c-format
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: lang.pm:341 mirror.pm:49 timezone.pm:266
+#, c-format
+msgid "Switzerland"
+msgstr "Elveția"
+
+#: lang.pm:342
+#, c-format
+msgid "Cote d'Ivoire"
+msgstr "Coasta de fildeș"
+
+#: lang.pm:343
+#, c-format
+msgid "Cook Islands"
+msgstr "Insulele Cook"
+
+#: lang.pm:344 timezone.pm:284
+#, c-format
+msgid "Chile"
+msgstr "Chile"
+
+#: lang.pm:345
+#, c-format
+msgid "Cameroon"
+msgstr "Camerun"
+
+#: lang.pm:346 timezone.pm:223
+#, c-format
+msgid "China"
+msgstr "China"
+
+#: lang.pm:347
+#, c-format
+msgid "Colombia"
+msgstr "Columbia"
+
+#: lang.pm:348 mirror.pm:26
+#, c-format
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: lang.pm:349
+#, c-format
+msgid "Serbia & Montenegro"
+msgstr "Serbia și Muntenegru"
+
+#: lang.pm:350
+#, c-format
+msgid "Cuba"
+msgstr "Cuba"
+
+#: lang.pm:351
+#, c-format
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: lang.pm:352
+#, c-format
+msgid "Christmas Island"
+msgstr "Insulele Crăciun"
+
+#: lang.pm:353
+#, c-format
+msgid "Cyprus"
+msgstr "Cipru"
+
+#: lang.pm:354 mirror.pm:27 timezone.pm:244
+#, c-format
+msgid "Czech Republic"
+msgstr "Republica Cehă"
+
+#: lang.pm:355 mirror.pm:32 timezone.pm:249
+#, c-format
+msgid "Germany"
+msgstr "Germania"
+
+#: lang.pm:356
+#, c-format
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: lang.pm:357 mirror.pm:28 timezone.pm:245
+#, c-format
+msgid "Denmark"
+msgstr "Danemarca"
+
+#: lang.pm:358
+#, c-format
+msgid "Dominica"
+msgstr "Dominica"
+
+#: lang.pm:359
+#, c-format
+msgid "Dominican Republic"
+msgstr "Republica Dominicană"
+
+#: lang.pm:360
+#, c-format
+msgid "Algeria"
+msgstr "Algeria"
+
+#: lang.pm:361
+#, c-format
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: lang.pm:362 mirror.pm:29 timezone.pm:246
+#, c-format
+msgid "Estonia"
+msgstr "Estonia"
+
+#: lang.pm:363
+#, c-format
+msgid "Egypt"
+msgstr "Egipt"
+
+#: lang.pm:364
+#, c-format
+msgid "Western Sahara"
+msgstr "Sahara de vest"
+
+#: lang.pm:365
+#, c-format
+msgid "Eritrea"
+msgstr "Eritreea"
+
+#: lang.pm:366 mirror.pm:47 timezone.pm:264
+#, c-format
+msgid "Spain"
+msgstr "Spania"
+
+#: lang.pm:367
+#, c-format
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+#: lang.pm:368 mirror.pm:30 timezone.pm:247
+#, c-format
+msgid "Finland"
+msgstr "Finlanda"
+
+#: lang.pm:369
+#, c-format
+msgid "Fiji"
+msgstr "Fiji"
+
+#: lang.pm:370
+#, c-format
+msgid "Falkland Islands (Malvinas)"
+msgstr "Insulele Falkland (Malvinas)"
+
+#: lang.pm:371
+#, c-format
+msgid "Micronesia"
+msgstr "Micronezia"
+
+#: lang.pm:372
+#, c-format
+msgid "Faroe Islands"
+msgstr "Insulele Feroe"
+
+#: lang.pm:373 mirror.pm:31 timezone.pm:248
+#, c-format
+msgid "France"
+msgstr "Franța"
+
+#: lang.pm:374
+#, c-format
+msgid "Gabon"
+msgstr "Gabon"
+
+#: lang.pm:375 timezone.pm:268
+#, c-format
+msgid "United Kingdom"
+msgstr "Marea Britanie"
+
+#: lang.pm:376
+#, c-format
+msgid "Grenada"
+msgstr "Grenada"
+
+#: lang.pm:377
+#, c-format
+msgid "Georgia"
+msgstr "Georgia"
+
+#: lang.pm:378
+#, c-format
+msgid "French Guiana"
+msgstr "Guyana franceză"
+
+#: lang.pm:379
+#, c-format
+msgid "Ghana"
+msgstr "Ghana"
+
+#: lang.pm:380
+#, c-format
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: lang.pm:381
+#, c-format
+msgid "Greenland"
+msgstr "Groenlanda"
+
+#: lang.pm:382
+#, c-format
+msgid "Gambia"
+msgstr "Gambia"
+
+#: lang.pm:383
+#, c-format
+msgid "Guinea"
+msgstr "Guineea"
+
+#: lang.pm:384
+#, c-format
+msgid "Guadeloupe"
+msgstr "Guadelupe"
+
+#: lang.pm:385
+#, c-format
+msgid "Equatorial Guinea"
+msgstr "Guineea ecuatorială"
+
+#: lang.pm:386 mirror.pm:33 timezone.pm:250
+#, c-format
+msgid "Greece"
+msgstr "Grecia"
+
+#: lang.pm:387
+#, c-format
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Insulele Georgia de Sud și Sandwich de Sud"
+
+#: lang.pm:388 timezone.pm:273
+#, c-format
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: lang.pm:389
+#, c-format
+msgid "Guam"
+msgstr "Guam"
+
+#: lang.pm:390
+#, c-format
+msgid "Guinea-Bissau"
+msgstr "Guineea-Bissau"
+
+#: lang.pm:391
+#, c-format
+msgid "Guyana"
+msgstr "Guyana"
+
+#: lang.pm:392
+#, c-format
+msgid "Hong Kong SAR (China)"
+msgstr "Hong Kong SAR (China)"
+
+#: lang.pm:393
+#, c-format
+msgid "Heard and McDonald Islands"
+msgstr "Insulele Heard și McDonald"
+
+#: lang.pm:394
+#, c-format
+msgid "Honduras"
+msgstr "Honduras"
+
+#: lang.pm:395
+#, c-format
+msgid "Croatia"
+msgstr "Croația"
+
+#: lang.pm:396
+#, c-format
+msgid "Haiti"
+msgstr "Haiti"
+
+#: lang.pm:397 mirror.pm:34 timezone.pm:251
+#, c-format
+msgid "Hungary"
+msgstr "Ungaria"
+
+#: lang.pm:398 timezone.pm:226
+#, c-format
+msgid "Indonesia"
+msgstr "Indonezia"
+
+#: lang.pm:399 mirror.pm:35 timezone.pm:252
+#, c-format
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: lang.pm:400 mirror.pm:36 timezone.pm:228
+#, c-format
+msgid "Israel"
+msgstr "Israel"
+
+#: lang.pm:401 timezone.pm:225
+#, c-format
+msgid "India"
+msgstr "India"
+
+#: lang.pm:402
+#, c-format
+msgid "British Indian Ocean Territory"
+msgstr "Teritoriul britanic din oceanul Indian"
+
+#: lang.pm:403
+#, c-format
+msgid "Iraq"
+msgstr "Irak"
+
+#: lang.pm:404 timezone.pm:227
+#, c-format
+msgid "Iran"
+msgstr "Iran"
+
+#: lang.pm:405
+#, c-format
+msgid "Iceland"
+msgstr "Islanda"
+
+#: lang.pm:406 mirror.pm:37 timezone.pm:253
+#, c-format
+msgid "Italy"
+msgstr "Italia"
+
+#: lang.pm:407
+#, c-format
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: lang.pm:408
+#, c-format
+msgid "Jordan"
+msgstr "Iordania"
+
+#: lang.pm:409 mirror.pm:38 timezone.pm:229
+#, c-format
+msgid "Japan"
+msgstr "Japonia"
+
+#: lang.pm:410
+#, c-format
+msgid "Kenya"
+msgstr "Kenya"
+
+#: lang.pm:411
+#, c-format
+msgid "Kyrgyzstan"
+msgstr "Kirghizstan"
+
+#: lang.pm:412
+#, c-format
+msgid "Cambodia"
+msgstr "Cambodgia"
+
+#: lang.pm:413
+#, c-format
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: lang.pm:414
+#, c-format
+msgid "Comoros"
+msgstr "Comore"
+
+#: lang.pm:415
+#, c-format
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts și Nevis"
+
+#: lang.pm:416
+#, c-format
+msgid "Korea (North)"
+msgstr "Coreea de nord"
+
+#: lang.pm:417 timezone.pm:230
+#, c-format
+msgid "Korea"
+msgstr "Coreea"
+
+#: lang.pm:418
+#, c-format
+msgid "Kuwait"
+msgstr "Kuweit"
+
+#: lang.pm:419
+#, c-format
+msgid "Cayman Islands"
+msgstr "Insulele Cayman"
+
+#: lang.pm:420
+#, c-format
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: lang.pm:421
+#, c-format
+msgid "Laos"
+msgstr "Laos"
+
+#: lang.pm:422
+#, c-format
+msgid "Lebanon"
+msgstr "Liban"
+
+#: lang.pm:423
+#, c-format
+msgid "Saint Lucia"
+msgstr "Sfînta Lucia"
+
+#: lang.pm:424
+#, c-format
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: lang.pm:425
+#, c-format
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: lang.pm:426
+#, c-format
+msgid "Liberia"
+msgstr "Liberia"
+
+#: lang.pm:427
+#, c-format
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: lang.pm:428 timezone.pm:254
+#, c-format
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: lang.pm:429 timezone.pm:255
+#, c-format
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: lang.pm:430
+#, c-format
+msgid "Latvia"
+msgstr "Letonia"
+
+#: lang.pm:431
+#, c-format
+msgid "Libya"
+msgstr "Libia"
+
+#: lang.pm:432
+#, c-format
+msgid "Morocco"
+msgstr "Maroc"
+
+#: lang.pm:433
+#, c-format
+msgid "Monaco"
+msgstr "Monaco"
+
+#: lang.pm:434
+#, c-format
+msgid "Moldova"
+msgstr "Moldova"
+
+#: lang.pm:435
+#, c-format
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: lang.pm:436
+#, c-format
+msgid "Marshall Islands"
+msgstr "Insulele Marshall"
+
+#: lang.pm:437
+#, c-format
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: lang.pm:438
+#, c-format
+msgid "Mali"
+msgstr "Mali"
+
+#: lang.pm:439
+#, c-format
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: lang.pm:440
+#, c-format
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: lang.pm:441
+#, c-format
+msgid "Northern Mariana Islands"
+msgstr "Insulele Mariane de nord"
+
+#: lang.pm:442
+#, c-format
+msgid "Martinique"
+msgstr "Martinica"
+
+#: lang.pm:443
+#, c-format
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: lang.pm:444
+#, c-format
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: lang.pm:445
+#, c-format
+msgid "Malta"
+msgstr "Malta"
+
+#: lang.pm:446
+#, c-format
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: lang.pm:447
+#, c-format
+msgid "Maldives"
+msgstr "Maldive"
+
+#: lang.pm:448
+#, c-format
+msgid "Malawi"
+msgstr "Malawi"
+
+#: lang.pm:449 timezone.pm:274
+#, c-format
+msgid "Mexico"
+msgstr "Mexic"
+
+#: lang.pm:450 timezone.pm:231
+#, c-format
+msgid "Malaysia"
+msgstr "Malaezia"
+
+#: lang.pm:451
+#, c-format
+msgid "Mozambique"
+msgstr "Mozambic"
+
+#: lang.pm:452
+#, c-format
+msgid "Namibia"
+msgstr "Namibia"
+
+#: lang.pm:453
+#, c-format
+msgid "New Caledonia"
+msgstr "Noua Caledonie"
+
+#: lang.pm:454
+#, c-format
+msgid "Niger"
+msgstr "Niger"
+
+#: lang.pm:455
+#, c-format
+msgid "Norfolk Island"
+msgstr "Insulele Norfolk"
+
+#: lang.pm:456
+#, c-format
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: lang.pm:457
+#, c-format
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: lang.pm:458 mirror.pm:39 timezone.pm:256
+#, c-format
+msgid "Netherlands"
+msgstr "Olanda"
+
+#: lang.pm:459 mirror.pm:41 timezone.pm:257
+#, c-format
+msgid "Norway"
+msgstr "Norvegia"
+
+#: lang.pm:460
+#, c-format
+msgid "Nepal"
+msgstr "Nepal"
+
+#: lang.pm:461
+#, c-format
+msgid "Nauru"
+msgstr "Nauru"
+
+#: lang.pm:462
+#, c-format
+msgid "Niue"
+msgstr "Niue"
+
+#: lang.pm:463 mirror.pm:40 timezone.pm:279
+#, c-format
+msgid "New Zealand"
+msgstr "Noua Zeelandă"
+
+#: lang.pm:464
+#, c-format
+msgid "Oman"
+msgstr "Oman"
+
+#: lang.pm:465
+#, c-format
+msgid "Panama"
+msgstr "Panama"
+
+#: lang.pm:466
+#, c-format
+msgid "Peru"
+msgstr "Peru"
+
+#: lang.pm:467
+#, c-format
+msgid "French Polynesia"
+msgstr "Polinezia franceză"
+
+#: lang.pm:468
+#, c-format
+msgid "Papua New Guinea"
+msgstr "Papua Noua Guinee"
+
+#: lang.pm:469 timezone.pm:232
+#, c-format
+msgid "Philippines"
+msgstr "Filipine"
+
+#: lang.pm:470
+#, c-format
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: lang.pm:471 mirror.pm:42 timezone.pm:258
+#, c-format
+msgid "Poland"
+msgstr "Polonia"
+
+#: lang.pm:472
+#, c-format
+msgid "Saint Pierre and Miquelon"
+msgstr "Sfîntu Petru și Miquelon"
+
+#: lang.pm:473
+#, c-format
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: lang.pm:474
+#, c-format
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: lang.pm:475
+#, c-format
+msgid "Palestine"
+msgstr "Palestina"
+
+#: lang.pm:476 mirror.pm:43 timezone.pm:259
+#, c-format
+msgid "Portugal"
+msgstr "Portugalia"
+
+#: lang.pm:477
+#, c-format
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: lang.pm:478
+#, c-format
+msgid "Palau"
+msgstr "Palau"
+
+#: lang.pm:479
+#, c-format
+msgid "Qatar"
+msgstr "Qatar"
+
+#: lang.pm:480
+#, c-format
+msgid "Reunion"
+msgstr "Reunion"
+
+#: lang.pm:481 timezone.pm:260
+#, c-format
+msgid "Romania"
+msgstr "România"
+
+#: lang.pm:482 mirror.pm:44
+#, c-format
+msgid "Russia"
+msgstr "Rusia"
+
+#: lang.pm:483
+#, c-format
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: lang.pm:484
+#, c-format
+msgid "Saudi Arabia"
+msgstr "Arabia Saudită"
+
+#: lang.pm:485
+#, c-format
+msgid "Solomon Islands"
+msgstr "Insulele Solomon"
+
+#: lang.pm:486
+#, c-format
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: lang.pm:487
+#, c-format
+msgid "Sudan"
+msgstr "Sudan"
+
+#: lang.pm:488 mirror.pm:48 timezone.pm:265
+#, c-format
+msgid "Sweden"
+msgstr "Suedia"
+
+#: lang.pm:489 timezone.pm:233
+#, c-format
+msgid "Singapore"
+msgstr "Singapore"
+
+#: lang.pm:490
+#, c-format
+msgid "Saint Helena"
+msgstr "Sfînta Elena"
+
+#: lang.pm:491 timezone.pm:263
+#, c-format
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: lang.pm:492
+#, c-format
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Insulele Svalbard și Jan Mayen"
+
+#: lang.pm:493 mirror.pm:45 timezone.pm:262
+#, c-format
+msgid "Slovakia"
+msgstr "Slovacia"
+
+#: lang.pm:494
+#, c-format
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: lang.pm:495
+#, c-format
+msgid "San Marino"
+msgstr "San Marino"
+
+#: lang.pm:496
+#, c-format
+msgid "Senegal"
+msgstr "Senegal"
+
+#: lang.pm:497
+#, c-format
+msgid "Somalia"
+msgstr "Somalia"
+
+#: lang.pm:498
+#, c-format
+msgid "Suriname"
+msgstr "Surinam"
+
+#: lang.pm:499
+#, c-format
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome și Principe"
+
+#: lang.pm:500
+#, c-format
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: lang.pm:501
+#, c-format
+msgid "Syria"
+msgstr "Siria"
+
+#: lang.pm:502
+#, c-format
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: lang.pm:503
+#, c-format
+msgid "Turks and Caicos Islands"
+msgstr "Insulele Turks și Caicos"
+
+#: lang.pm:504
+#, c-format
+msgid "Chad"
+msgstr "Ciad"
+
+#: lang.pm:505
+#, c-format
+msgid "French Southern Territories"
+msgstr "Teritoriile Franceze de Sud"
+
+#: lang.pm:506
+#, c-format
+msgid "Togo"
+msgstr "Togo"
+
+#: lang.pm:507 mirror.pm:51 timezone.pm:235
+#, c-format
+msgid "Thailand"
+msgstr "Tailanda"
+
+#: lang.pm:508
+#, c-format
+msgid "Tajikistan"
+msgstr "Tadjikistan"
+
+#: lang.pm:509
+#, c-format
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: lang.pm:510
+#, c-format
+msgid "East Timor"
+msgstr "Timorul de est"
+
+#: lang.pm:511
+#, c-format
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: lang.pm:512
+#, c-format
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: lang.pm:513
+#, c-format
+msgid "Tonga"
+msgstr "Tonga"
+
+#: lang.pm:514 timezone.pm:236
+#, c-format
+msgid "Turkey"
+msgstr "Turcia"
+
+#: lang.pm:515
+#, c-format
+msgid "Trinidad and Tobago"
+msgstr "Trinidad și Tobago"
+
+#: lang.pm:516
+#, c-format
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: lang.pm:517 mirror.pm:50 timezone.pm:234
+#, c-format
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: lang.pm:518 timezone.pm:219
+#, c-format
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: lang.pm:519 timezone.pm:267
+#, c-format
+msgid "Ukraine"
+msgstr "Ucraina"
+
+#: lang.pm:520
+#, c-format
+msgid "Uganda"
+msgstr "Uganda"
+
+#: lang.pm:521
+#, c-format
+msgid "United States Minor Outlying Islands"
+msgstr "Insulele minore de pe lîngă Statele Unite"
+
+#: lang.pm:522 mirror.pm:52 timezone.pm:275
+#, c-format
+msgid "United States"
+msgstr "Statele Unite"
+
+#: lang.pm:523
+#, c-format
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: lang.pm:524
+#, c-format
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: lang.pm:525
+#, c-format
+msgid "Vatican"
+msgstr "Vatican"
+
+#: lang.pm:526
+#, c-format
+msgid "Saint Vincent and the Grenadines"
+msgstr "Sfîntul Vincent și Grenadinele"
+
+#: lang.pm:527
+#, c-format
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: lang.pm:528
+#, c-format
+msgid "Virgin Islands (British)"
+msgstr "Insulele Virgine (engleze)"
+
+#: lang.pm:529
+#, c-format
+msgid "Virgin Islands (U.S.)"
+msgstr "Insulele Virgine (SUA)"
+
+#: lang.pm:530
+#, c-format
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: lang.pm:531
+#, c-format
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: lang.pm:532
+#, c-format
+msgid "Wallis and Futuna"
+msgstr "Insulele Wallis și Futuna"
+
+#: lang.pm:533
+#, c-format
+msgid "Samoa"
+msgstr "Samoa"
+
+#: lang.pm:534
+#, c-format
+msgid "Yemen"
+msgstr "Yemen"
+
+#: lang.pm:535
+#, c-format
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: lang.pm:536 mirror.pm:46 timezone.pm:218
+#, c-format
+msgid "South Africa"
+msgstr "Africa de sud"
+
+#: lang.pm:537
+#, c-format
+msgid "Zambia"
+msgstr "Zambia"
+
+#: lang.pm:538
+#, c-format
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: lang.pm:1537
+#, c-format
+msgid "Welcome to %s"
+msgstr "Bun  venit pe %s"
+
+#: lvm.pm:128
+#, c-format
+msgid "Moving used physical extents to other physical volumes failed"
+msgstr ""
+"Deplasarea unităților fizice se stocare către alte volume fizice a eșuat"
+
+#: lvm.pm:194
+#, c-format
+msgid "Physical volume %s is still in use"
+msgstr "Volumul fizic %s încă este utilizat"
+
+#: lvm.pm:204
+#, c-format
+msgid "Remove the logical volumes first\n"
+msgstr "Ștergeți întîi volumele logice\n"
+
+#: lvm.pm:248
+#, c-format
+msgid "The bootloader can't handle /boot on multiple physical volumes"
+msgstr ""
+"Încărcătorul de sistem nu poate gestiona partiția /boot repartizată pe mai "
+"multe volume fizice"
+
+#. -PO: Only write something if needed:
+#: messages.pm:11
+#, c-format
+msgid "_: You can warn about unofficial translation here"
+msgstr " "
+
+#: messages.pm:18
+#, c-format
+msgid "Introduction"
+msgstr "Introducere"
+
+#: messages.pm:20
+#, c-format
+msgid ""
+"The operating system and the different components available in the Mageia "
+"distribution \n"
+"shall be called the \"Software Products\" hereafter. The Software Products "
+"include, but are not \n"
+"restricted to, the set of programs, methods, rules and documentation related "
+"to the operating \n"
+"system and the different components of the Mageia distribution, and any "
+"applications \n"
+"distributed with these products provided by Mageia's licensors or suppliers."
+msgstr ""
+"Sistemul de operare și diferitele componente disponibile în distribuția "
+"Mageia vor fi \n"
+"denumite „Produse Informatice” în cele ce urmează. Produsele informatice "
+"includ, dar fără limitare \n"
+"la, un set de programe, metode, reguli și documentația relativă la sistemele "
+"de operare și a \n"
+"diferitelor componente ale distribuției Mageia, precum și oricare din "
+"aplicațiile \n"
+"distribuite cu aceste produse oferite de furnizori sau licențiați Mageia."
+
+#: messages.pm:27
+#, c-format
+msgid "1. License Agreement"
+msgstr "1. Contract de licență"
+
+#: messages.pm:29
+#, c-format
+msgid ""
+"Please read this document carefully. This document is a license agreement "
+"between you and  \n"
+"Mageia which applies to the Software Products.\n"
+"By installing, duplicating or using any of the Software Products in any "
+"manner, you explicitly \n"
+"accept and fully agree to conform to the terms and conditions of this "
+"License. \n"
+"If you disagree with any portion of the License, you are not allowed to "
+"install, duplicate or use \n"
+"the Software Products. \n"
+"Any attempt to install, duplicate or use the Software Products in a manner "
+"which does not comply \n"
+"with the terms and conditions of this License is void and will terminate "
+"your rights under this \n"
+"License. Upon termination of the License,  you must immediately destroy all "
+"copies of the \n"
+"Software Products."
+msgstr ""
+"Vă rugăm să citiți cu atenție acest document. Acest document este un "
+"contract de licență între dumneavoastră și  \n"
+"Mageia, care se aplică în cazul produselor informatice.\n"
+"Prin instalarea, duplicarea sau utilizarea oricăruia din produsele "
+"informatice, indiferent \n"
+"de maniera aleasă, atestă că ați luat la cunoștință în mod explicit și că "
+"acceptați să vă conformați \n"
+"în deplin de acord cu termenii și condițiile acestui contract de licență.\n"
+"Dacă nu sînteți de acord cu oricare porțiune de licență, nu sînteți "
+"autorizat să instalați, duplicați sau \n"
+"să utilizați acest produs.\n"
+"Contractul de licență va fi reziliat în mod automat și fără preaviz în cazul "
+"în care nu vă conformați \n"
+"dispozițiilor prezentului contract.\n"
+"În caz de reziliere,  sînteți obligat să distrugeți imediat toate "
+"exemplarele, toate copiile ale tuturor \n"
+"produselor informatice."
+
+#: messages.pm:41
+#, c-format
+msgid "2. Limited Warranty"
+msgstr "2. Garanție și limite de garanție"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: messages.pm:44
+#, c-format
+msgid ""
+"The Software Products and attached documentation are provided \"as is\", "
+"with no warranty, to the \n"
+"extent permitted by law.\n"
+"Neither Mageia nor its licensors or suppliers will, in any circumstances and "
+"to the extent \n"
+"permitted by law, be liable for any special, incidental, direct or indirect "
+"damages whatsoever \n"
+"(including without limitation damages for loss of business, interruption of "
+"business, financial \n"
+"loss, legal fees and penalties resulting from a court judgment, or any other "
+"consequential loss) \n"
+"arising out of  the use or inability to use the Software Products, even if "
+"Mageia or its \n"
+"licensors or suppliers have been advised of the possibility or occurrence of "
+"such damages.\n"
+"\n"
+"LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
+"COUNTRIES\n"
+"\n"
+"To the extent permitted by law, neither Mageia nor its licensors, suppliers "
+"or\n"
+"distributors will, in any circumstances, be liable for any special, "
+"incidental, direct or indirect \n"
+"damages whatsoever (including without limitation damages for loss of "
+"business, interruption of \n"
+"business, financial loss, legal fees and penalties resulting from a court "
+"judgment, or any \n"
+"other consequential loss) arising out of the possession and use of software "
+"components or \n"
+"arising out of  downloading software components from one of Mageia sites "
+"which are \n"
+"prohibited or restricted in some countries by local laws.\n"
+"This limited liability applies to, but is not restricted to, the strong "
+"cryptography components \n"
+"included in the Software Products.\n"
+"However, because some jurisdictions do not allow the exclusion or limitation "
+"of liability for \n"
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+"Produsele informatice și documentația care le însoțește sînt oferite „așa "
+"cum sînt”, fără nici o garanție, \n"
+"în măsura permisă de lege.\n"
+"Nici Mageia și nici licențiații sau furnizorii săi, în nici un caz nu vor fi "
+"responsabili, și în măsura permisă de \n"
+"lege, pentru daunele speciale, directe sau indirecte, sau incidentele "
+"(incluzînd fără limitări, daune \n"
+"pentru pierderi de afaceri, întrerupere de activitate, pierderi financiare, "
+"de taxele legale și de \n"
+"sancțiunile care pot rezulta dintr-o hotărîre judecătorească sau orice alte "
+"pierderi) care decurg \n"
+"din utilizarea sau incapacitatea de utilizare a produselor sale, chiar dacă "
+"Mageia sau licențiații și furnizorii săi \n"
+"au fost informați de apariția sau de posibilitatea unor astfel de daune.\n"
+"\n"
+"AVERTISMENT CU PRIVIRE LA DEȚINEREA SAU UTILIZAREA PROGRAMELOR INTERZISE ÎN "
+"ANUMITE ȚĂRI\n"
+"\n"
+"În măsura permisă de lege, nici Mageia, nici licențiații, furnizorii sau "
+"distribuitorii săi nu vor fi, în nici un caz, \n"
+"responsabili pentru orice un fel de daune speciale, incidente, directe sau "
+"indirecte (incluzînd fără \n"
+"limitări daunele pentru pierderi de afaceri, întrerupere de activitate, "
+"pierderi financiare, taxe legale \n"
+"și de sancțiuni rezultate dintr-o hotărîre judecătorească, sau orice alte "
+"pierderi) care decurg din \n"
+"deținerea și utilizarea programelor sau a componentelor descărcate de pe "
+"unul din siturile Mageia care sînt \n"
+"interzise sau restricționate de legile locale în unele țări.\n"
+"Această răspundere limitată se aplică, dar nu se limitează la, și nivelului "
+"de criptare inclus în produsele \n"
+"sale informatice.\n"
+"Cu toate acestea, deoarece unele jurisdicții nu permit excluderea, sau "
+"limitarea, sau răspunderea pentru \n"
+"consecințele sau daunele incidentale, limitarea de mai sus ar putea să nu se "
+"aplice în cazul dumneavoastră.  "
+
+#: messages.pm:68
+#, c-format
+msgid "3. The GPL License and Related Licenses"
+msgstr "3. Licența GPL și licențele asociate"
+
+#: messages.pm:70
+#, c-format
+msgid ""
+"The Software Products consist of components created by different persons or "
+"entities.\n"
+"Most of these licenses allow you to use, duplicate, adapt or redistribute "
+"the components which \n"
+"they cover. Please read carefully the terms and conditions of the license "
+"agreement for each component \n"
+"before using any component. Any question on a component license should be "
+"addressed to the component \n"
+"licensor or supplier and not to Mageia.\n"
+"The programs developed by Mageia are governed by the GPL License. "
+"Documentation written \n"
+"by Mageia is governed by \"%s\" License."
+msgstr ""
+"Produsele informatice sînt alcătuite din componente create de diferite "
+"persoane sau entități. \n"
+"Cele mai multe dintre aceste licențe vă permit să utilizați, duplicați, "
+"adaptați sau să redistribuiți \n"
+"componentele pe care le acoperă. Vă rugăm să citiți cu atenție termenii și "
+"condițiile din contractul \n"
+"de licență pentru fiecare componentă înainte de a-o utiliza. Orice întrebare "
+"cu privire la licența unei \n"
+"componente trebuie abordată cu autorul ei și nu cu Mageia.\n"
+"Programele dezvoltate de Mageia sînt reglementate de licența GPL. "
+"Documentația scrisă \n"
+"de Mageia este reglementată de licența „%s”."
+
+#: messages.pm:79
+#, c-format
+msgid "4. Intellectual Property Rights"
+msgstr "4. Drepturi de proprietate intelectuală"
+
+#: messages.pm:81
+#, c-format
+msgid ""
+"All rights to the components of the Software Products belong to their "
+"respective authors and are \n"
+"protected by intellectual property and copyright laws applicable to software "
+"programs.\n"
+"Mageia and its suppliers and licensors reserves their rights to modify or "
+"adapt the Software \n"
+"Products, as a whole or in parts, by all means and for all purposes.\n"
+"\"Mageia\" and associated logos are trademarks of %s"
+msgstr ""
+"Toate drepturile asupra componentelor produselor informatice aparțin "
+"autorilor respectivi și sînt \n"
+"protejate de drepturile proprietății intelectuale ce se aplică produselor "
+"informatice.\n"
+"Mageia, licențiații și furnizorii săi își rezervă dreptul de a modifica sau "
+"adapta produsele lor informatice,\n"
+"parțial sau în totalitate, prin orice mijloace și în orice scop.\n"
+"Mărcile „Mageia” cît și siglele asociate sînt mărci înregistrate ale "
+"asociației %s."
+
+#: messages.pm:88
+#, c-format
+msgid "5. Governing Laws"
+msgstr "5. Dispoziții diverse"
+
+#: messages.pm:90
+#, c-format
+msgid ""
+"If any portion of this agreement is held void, illegal or inapplicable by a "
+"court judgment, this \n"
+"portion is excluded from this contract. You remain bound by the other "
+"applicable sections of the \n"
+"agreement.\n"
+"The terms and conditions of this License are governed by the Laws of "
+"France.\n"
+"All disputes on the terms of this license will preferably be settled out of "
+"court. As a last \n"
+"resort, the dispute will be referred to the appropriate Courts of Law of "
+"Paris - France.\n"
+"For any question on this document, please contact Mageia."
+msgstr ""
+"Dacă o dispoziție din acest contract de licență este declarată nulă și "
+"neavenită, ilegală sau nu se \n"
+"poate aplica de o hotărîre a unei instanțe, această dispoziție va fi exclusă "
+"din acest contract.\n"
+"Veți avea obligația de a respecta celelalte secțiuni ale contractului.\n"
+"Termenii și condițiile acestei licențe sînt reglementate de legislația "
+"franceză.\n"
+"Toate disputele privind termenii acestei licențe vor fi rezolvate, de "
+"preferință, în mod amiabil.\n"
+"În caz de dezacord, litigiul va fi referit Instanței Judecătorești din Paris "
+"- Franța.\n"
+"Pentru orice întrebare cu privire la acest document, vă rugăm să contactați "
+"Mageia."
+
+#: messages.pm:102
+#, c-format
+msgid ""
+"Warning: Free Software may not necessarily be patent free, and some Free\n"
+"Software included may be covered by patents in your country. For example, "
+"the\n"
+"MP3 decoders included may require a license for further usage (see\n"
+"http://www.mp3licensing.com for more details). If you are unsure if a "
+"patent\n"
+"may be applicable to you, check your local laws."
+msgstr ""
+"Avertisment: nu toate programele libere (Free Software) sînt lipsite de "
+"licențe,\n"
+"iar unele dintre ele pot fi chiar protejate de brevete în țara voastră. De "
+"exemplu,\n"
+"decodoarele MP3 incluse, pot necesita o licență pentru o utilizare mai "
+"avansată\n"
+"(vizitați http://www.mp3licensing.com pentru mai multe detalii). În caz de\n"
+"incertitudine, vă invităm să verificați legile din țara voastră."
+
+#: messages.pm:111
+#, c-format
+msgid ""
+"Congratulations, installation is complete.\n"
+"Remove the boot media and press Enter to reboot."
+msgstr ""
+"Felicitări, instalarea este încheiată.\n"
+"Îndepărtați mediul de pe care s-a pornit și apăsați „Enter” pentru a reporni."
+
+#: messages.pm:113
+#, c-format
+msgid ""
+"For information on fixes which are available for this release of Mageia,\n"
+"consult the Errata available from:\n"
+"%s"
+msgstr ""
+"Pentru informații despre actualizările disponibile pentru această versiune "
+"de Mageia,\n"
+"consultați erata disponibilă la:\n"
+"%s"
+
+#: messages.pm:115
+#, c-format
+msgid ""
+"After rebooting and logging into Mageia, you will see the MageiaWelcome "
+"screen.\n"
+"It is full of very useful information and links."
+msgstr ""
+"După ce redemarați și vă autentificați în Mageia, veți vedea ecranul "
+"MageiaWelcome.\n"
+"Este plin de legături și de informații utile."
+
+#: modules/interactive.pm:19
+#, c-format
+msgid "This driver has no configuration parameter!"
+msgstr "Acest pilot nu are nici un parametru de configurare!"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "Module configuration"
+msgstr "Configurare modul"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "You can configure each parameter of the module here."
+msgstr "Aici puteți configura fiecare parametru al modulului."
+
+#: modules/interactive.pm:64
+#, c-format
+msgid "Found %s interfaces"
+msgstr "S-au găsit %s interfețe"
+
+#: modules/interactive.pm:65
+#, c-format
+msgid "Do you have another one?"
+msgstr "Mai aveți și altele?"
+
+#: modules/interactive.pm:66
+#, c-format
+msgid "Do you have any %s interfaces?"
+msgstr "Dispuneți de interfețe %s?"
+
+#: modules/interactive.pm:72
+#, c-format
+msgid "See hardware info"
+msgstr "Vedeți informațiile despre componenta materială"
+
+#: modules/interactive.pm:83
+#, c-format
+msgid "Installing driver for USB controller"
+msgstr "Se instalează pilotul pentru controlerul USB"
+
+#: modules/interactive.pm:84
+#, c-format
+msgid "Installing driver for firewire controller \"%s\""
+msgstr "Se instalează pilotul pentru controlerul Firewire \"%s\""
+
+#: modules/interactive.pm:85
+#, c-format
+msgid "Installing driver for hard disk drive controller \"%s\""
+msgstr "Se instalează pilotul pentru controlerul de disc dur \"%s\""
+
+#: modules/interactive.pm:86
+#, c-format
+msgid "Installing driver for ethernet controller \"%s\""
+msgstr "Se instalează pilotul pentru controlerul Ethernet \"%s\""
+
+#. -PO: the first %s is the card type (scsi, network, sound,...)
+#. -PO: the second is the vendor+model name
+#: modules/interactive.pm:97
+#, c-format
+msgid "Installing driver for %s card %s"
+msgstr "Se instalează pilotul pentru placa %s - %s"
+
+#: modules/interactive.pm:100
+#, c-format
+msgid "Configuring Hardware"
+msgstr "Se configurează componentele materiale"
+
+#: modules/interactive.pm:111
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Note that any address should be entered with the prefix 0x like '0x123'"
+msgstr ""
+"Acum puteți furniza opțiunile pentru modulul %s.\n"
+"Rețineți că orice adresă trebuie introdusă cu prefixul 0x ca în „0x123”"
+
+#: modules/interactive.pm:117
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Options are in format ``name=value name2=value2 ...''.\n"
+"For instance, ``io=0x300 irq=7''"
+msgstr ""
+"Puteți furniza acum opțiunile modulului %s.\n"
+"Opțiunile sînt în formatul „nume=valoare nume2=valoare2 ...”.\n"
+"de exemplu, „io=0x300 irq=7”"
+
+#: modules/interactive.pm:119
+#, c-format
+msgid "Module options:"
+msgstr "Opțiuni modul:"
+
+#. -PO: the %s is the driver type (scsi, network, sound,...)
+#: modules/interactive.pm:132
+#, c-format
+msgid "Which %s driver should I try?"
+msgstr "Care pilot %s să se încerce?"
+
+#: modules/interactive.pm:141
+#, c-format
+msgid ""
+"In some cases, the %s driver needs to have extra information to work\n"
+"properly, although it normally works fine without them. Would you like to "
+"specify\n"
+"extra options for it or allow the driver to probe your machine for the\n"
+"information it needs? Occasionally, probing will hang a computer, but it "
+"should\n"
+"not cause any damage."
+msgstr ""
+"În anumite cazuri, pilotul %s necesită informații suplimentare pentru a\n"
+"funcționa corect, dar funcționează bine și fără. Doriți să specificați\n"
+"opțiuni suplimentare sau îi permiteți să interogheze calculatorul pentru\n"
+"informațiile necesare? Ocazional, interogarea poate bloca calculatorul,\n"
+"dar n-ar trebui să producă nici o deteriorare."
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Autoprobe"
+msgstr "Detectare automată"
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Specify options"
+msgstr "Specificați opțiunile"
+
+#: modules/interactive.pm:157
+#, c-format
+msgid ""
+"Loading module %s failed.\n"
+"Do you want to try again with other parameters?"
+msgstr ""
+"Încărcarea modulului %s a eșuat.\n"
+"Doriți să încercați cu alți parametri?"
+
+#: mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Are you sure you want to quit?"
+msgstr "Sigur doriți să părăsiți?"
+
+#: mygtk2.pm:1570 mygtk2.pm:1571 mygtk3.pm:1646 mygtk3.pm:1647
+#, c-format
+msgid "Password is trivial to guess"
+msgstr "Parolă simplu de ghicit"
+
+#: mygtk2.pm:1572 mygtk3.pm:1648
+#, c-format
+msgid "Password should be resistant to basic attacks"
+msgstr "Parola ar trebui restrînsă la sarcinile de bază"
+
+#: mygtk2.pm:1573 mygtk2.pm:1574 mygtk3.pm:1649 mygtk3.pm:1650
+#, c-format
+msgid "Password seems secure"
+msgstr "Parola pare sigură"
+
+#: partition_table.pm:405
+#, c-format
+msgid "mount failed: "
+msgstr "montare eșuată: "
+
+#: partition_table.pm:531
+#, c-format
+msgid ""
+"You have a hole in your partition table but I cannot use it.\n"
+"The only solution is to move your primary partitions to have the hole next "
+"to the extended partitions."
+msgstr ""
+"Aveți un spațiu gol în tabela de partiții dar nu se poate utiliza.\n"
+"Singura soluție este să deplasați partiția principală pentru a avea spațiul "
+"gol lîngă partiția extinsă"
+
+#: partition_table/raw.pm:293
+#, c-format
+msgid ""
+"Something bad is happening on your hard disk drive. \n"
+"A test to check the integrity of data has failed. \n"
+"It means writing anything on the disk will end up with random, corrupted "
+"data."
+msgstr ""
+"Se întîmplă ceva neplăcut cu discul dur.\n"
+"Testul de verificare a integrității datelor a eșuat.\n"
+"Asta înseamnă că, aleator, datele înregistrate vor fi corupte."
+
+#: pkgs.pm:260 pkgs.pm:263 pkgs.pm:276
+#, c-format
+msgid "Unused packages removal"
+msgstr "Îndepărtare de pachete neutilizate"
+
+#: pkgs.pm:260
+#, c-format
+msgid "Finding unused hardware packages..."
+msgstr "Se caută pachetele componentelor materiale neutilizate..."
+
+#: pkgs.pm:263
+#, c-format
+msgid "Finding unused localization packages..."
+msgstr "Se caută pachetele localizărilor neutilizate..."
+
+#: pkgs.pm:277
+#, c-format
+msgid ""
+"We have detected that some packages are not needed for your system "
+"configuration."
+msgstr ""
+"Unele pachete au fost detectate ca nefiind folosite în configurația "
+"sistemului utilizat."
+
+#: pkgs.pm:278
+#, c-format
+msgid "We will remove the following packages, unless you choose otherwise:"
+msgstr "Următoarele pachete vor fi înlăturate, dacă nu faceți altă alegere:"
+
+#: pkgs.pm:281 pkgs.pm:282
+#, c-format
+msgid "Unused hardware support"
+msgstr "Suportul pentru componentele materiale neutilizate"
+
+#: pkgs.pm:285 pkgs.pm:286
+#, c-format
+msgid "Unused localization"
+msgstr "Localizările neutilizate"
+
+#: raid.pm:59
+#, c-format
+msgid "Cannot add a partition to _formatted_ RAID %s"
+msgstr "Nu se poate adăuga o partiție la RAID %s formatat"
+
+#: raid.pm:200
+#, c-format
+msgid "Not enough partitions for RAID level %d\n"
+msgstr "Nu aveți destule partiții pentru RAID de nivel %d\n"
+
+#: scanner.pm:95
+#, c-format
+msgid "Could not create directory /usr/share/sane/firmware!"
+msgstr "Nu s-a putut crea directorul /usr/share/sane/firmware!"
+
+#: scanner.pm:106
+#, c-format
+msgid "Could not create link /usr/share/sane/%s!"
+msgstr "Nu se poate crea legătura /usr/share/sane/%s!"
+
+#: scanner.pm:113
+#, c-format
+msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+msgstr "Nu se poate copia fișierul %s în /usr/share/sane/firmware!"
+
+#: scanner.pm:120
+#, c-format
+msgid "Could not set permissions of firmware file %s!"
+msgstr "Nu se pot configura permisiunile fișierului firmware %s!"
+
+#: scanner.pm:199
+#, c-format
+msgid "Scannerdrake"
+msgstr "Scannerdrake"
+
+#: scanner.pm:200
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"Nu se pot instala pachetele necesare pentru a vă putea partaja scanerele."
+
+#: scanner.pm:201
+#, c-format
+msgid "Your scanner(s) will not be available for non-root users."
+msgstr "Scanerele nu vă vor fi disponibile pentru utilizatorii non-root."
+
+#: security/help.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages."
+msgstr "Acceptă mesaje de eroare IPv4 fictive."
+
+#: security/help.pm:13
+#, c-format
+msgid "Accept broadcasted icmp echo."
+msgstr "Acceptă difuzarea de ecou icmp."
+
+#: security/help.pm:15
+#, c-format
+msgid "Accept icmp echo."
+msgstr "Acceptă ecou icmp."
+
+#: security/help.pm:17
+#, c-format
+msgid "Allow autologin."
+msgstr "Permite autentificarea automată."
+
+#. -PO: here "ALL" is a value in a pull-down menu; translate it the same as "ALL" is
+#: security/help.pm:21
+#, c-format
+msgid ""
+"If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+"\n"
+"If set to \"None\", no issues are allowed.\n"
+"\n"
+"Else only /etc/issue is allowed."
+msgstr ""
+"Dacă se alege „TOT”, existența lui /etc/issue și /etc/issue.net este "
+"permisă.\n"
+"\n"
+"Dacă se alege „Nici unul”, nici unul din fișiere nu este autorizat.\n"
+"\n"
+"Altfel numai /etc/issue este permis."
+
+#: security/help.pm:27
+#, c-format
+msgid "Allow reboot by the console user."
+msgstr "Permite repornirea din consolă de către utilizator."
+
+#: security/help.pm:29
+#, c-format
+msgid "Allow remote root login."
+msgstr "Permite autentificarea distantă cu root."
+
+#: security/help.pm:31
+#, c-format
+msgid "Allow direct root login."
+msgstr "Permite autentificarea directă cu root."
+
+#: security/help.pm:33
+#, c-format
+msgid ""
+"Allow the list of users on the system on display managers (kdm and gdm)."
+msgstr ""
+"Autorizează lista utilizatorilor din sistem în gestionarii de ecran (kdm și "
+"gdm)."
+
+#: security/help.pm:35
+#, c-format
+msgid ""
+"Allow to export display when\n"
+"passing from the root account to the other users.\n"
+"\n"
+"See pam_xauth(8) for more details.'"
+msgstr ""
+"Permite exportarea ecranului\n"
+"la trecerea din contul root în alte conturi utilizator.\n"
+"\n"
+"Vedeți pam_xauth(8) pentru mai multe detalii.'"
+
+#: security/help.pm:40
+#, c-format
+msgid ""
+"Allow X connections:\n"
+"\n"
+"- \"All\" (all connections are allowed),\n"
+"\n"
+"- \"Local\" (only connection from local machine),\n"
+"\n"
+"- \"None\" (no connection)."
+msgstr ""
+"Autorizează conexiunile X11:\n"
+"\n"
+"- „TOATE” (toate conexiunile sînt autorizate),\n"
+"\n"
+"- „Locale” (autorizează numai conexiunile de pe mașina locală),\n"
+"\n"
+"- „Nici una” (nici o conexiune nu este autorizată)."
+
+#: security/help.pm:48
+#, c-format
+msgid ""
+"The argument specifies if clients are authorized to connect\n"
+"to the X server from the network on the tcp port 6000 or not."
+msgstr ""
+"Argumentul specifică dacă clienții sînt autorizați să se\n"
+"conecteze sau nu prin rețea la serverul X11 pe portul 6000."
+
+#. -PO: here "ALL", "Local" and "None" are values in a pull-down menu; translate them the same as they're
+#: security/help.pm:53
+#, c-format
+msgid ""
+"Authorize:\n"
+"\n"
+"- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+"set to \"ALL\",\n"
+"\n"
+"- only local ones if set to \"Local\"\n"
+"\n"
+"- none if set to \"None\".\n"
+"\n"
+"To authorize the services you need, use /etc/hosts.allow (see hosts."
+"allow(5))."
+msgstr ""
+"Autorizează:\n"
+"\n"
+"- toate serviciile controlate de tcp_wrappers (vezi pagina de manual hosts."
+"deny(5)) dacă este reglat pe „TOATE”,\n"
+"\n"
+"- numai cele locale dacă este reglat pe „Locale”\n"
+"\n"
+"- nici unul dacă este reglat pe „Nici unul”.\n"
+"\n"
+"Pentru a vă autoriza serviciile necesare, utilizați /etc/hosts.allow (vezi "
+"hosts.allow(5))."
+
+#: security/help.pm:63
+#, c-format
+msgid ""
+"If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+"is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+"symlink /etc/security/msec/server to point to\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+"add a service if it is present in the file during the installation of\n"
+"packages."
+msgstr ""
+"Dacă SERVER_LEVEL (sau SECURE_LEVEL este absent)\n"
+"este superior lui 3 în /etc/security/msec/security.conf, se creează\n"
+"legătura simbolică /etc/security/msec/server către\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"/etc/security/msec/server este utilizat de chkconfig --add pentru a decide\n"
+"adăugarea unui serviciu dacă este prezent în fișier în timpul instalării\n"
+"pachetelor."
+
+#: security/help.pm:72
+#, c-format
+msgid ""
+"Enable crontab and at for users.\n"
+"\n"
+"Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+"and crontab(1))."
+msgstr ""
+"Activează planificatorul de sarcini (crontab și at) pentru utilizatori.\n"
+"\n"
+"Pune utilizatorii autorizați în /etc/cron.allow și /etc/at.allow (vezi "
+"pagina\n"
+"de manual at(1) și crontab(1))."
+
+#: security/help.pm:77
+#, c-format
+msgid "Enable syslog reports to console 12"
+msgstr "Activează rapoartele syslog pe consola 12"
+
+#: security/help.pm:79
+#, c-format
+msgid ""
+"Enable name resolution spoofing protection.  If\n"
+"\"%s\" is true, also reports to syslog."
+msgstr ""
+"Activează protecția împotriva uzurpării rezoluției de nume. Dacă\n"
+"valoarea lui „%s” este adevărată, se raportează și în syslog."
+
+#: security/help.pm:80
+#, c-format
+msgid "Security Alerts:"
+msgstr "Alerte de securitate:"
+
+#: security/help.pm:82
+#, c-format
+msgid "Enable IP spoofing protection."
+msgstr "Activați protecția împotriva uzurpării de adresă IP."
+
+#: security/help.pm:84
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system."
+msgstr "Activează biblioteca libsafe dacă este găsită în sistem."
+
+#: security/help.pm:86
+#, c-format
+msgid "Enable the logging of IPv4 strange packets."
+msgstr "Activează înregistrarea în jurnal a pachetelor IPv4 bizare."
+
+#: security/help.pm:88
+#, c-format
+msgid "Enable msec hourly security check."
+msgstr "Activează verificări orare de securitate cu msec."
+
+#: security/help.pm:90
+#, c-format
+msgid ""
+"Enable su only from members of the wheel group. If set to no, allows su from "
+"any user."
+msgstr ""
+"Activează su numai pentru membrii grupului wheel. Dacă este pus pe nu, "
+"permite su pentru orice utilizator."
+
+#: security/help.pm:92
+#, c-format
+msgid "Use password to authenticate users."
+msgstr "Utilizați parole pentru autentificarea utilizatorilor."
+
+#: security/help.pm:94
+#, c-format
+msgid "Activate Ethernet cards promiscuity check."
+msgstr "Activați verificarea modului spion pentru plăcile de rețea."
+
+#: security/help.pm:96
+#, c-format
+msgid "Activate daily security check."
+msgstr "Activați verificările cotidiene de securitate."
+
+#: security/help.pm:98
+#, c-format
+msgid "Enable sulogin(8) in single user level."
+msgstr "Activează sulogin(8) în mod mono-utilizator."
+
+#: security/help.pm:100
+#, c-format
+msgid "Add the name as an exception to the handling of password aging by msec."
+msgstr "Exclude „numele” din gestiunea parolelor de către msec."
+
+#: security/help.pm:102
+#, c-format
+msgid "Set password aging to \"max\" days and delay to change to \"inactive\"."
+msgstr ""
+"Reglează durata de viață a parolei pe „max” și intervalul său de schimbare "
+"pe „inactive”."
+
+#: security/help.pm:104
+#, c-format
+msgid "Set the password history length to prevent password reuse."
+msgstr ""
+"Reglați lungimea istoricului de parole pentru a preveni reutilizarea lor."
+
+#: security/help.pm:106
+#, c-format
+msgid ""
+"Set the password minimum length and minimum number of digit and minimum "
+"number of capitalized letters."
+msgstr ""
+"Reglați lungimea minimă a parolei, numărul minim de cifre și numărul minim "
+"de majuscule conținute."
+
+#: security/help.pm:108
+#, c-format
+msgid "Set the root's file mode creation mask."
+msgstr "Configurați masca modului de creare a fișierelor pentru root."
+
+#: security/help.pm:109
+#, c-format
+msgid "if set to yes, check open ports."
+msgstr "dacă da, se verifică porturile deschise din rețea."
+
+#: security/help.pm:110
+#, c-format
+msgid ""
+"if set to yes, check for:\n"
+"\n"
+"- empty passwords,\n"
+"\n"
+"- no password in /etc/shadow\n"
+"\n"
+"- for users with the 0 id other than root."
+msgstr ""
+"dacă da, se verifică:\n"
+"\n"
+"- parolele vide,\n"
+"\n"
+"- parolele absente din /etc/shadow\n"
+"\n"
+"- utilizatorii, diferiți de root, cu identificator 0."
+
+#: security/help.pm:117
+#, c-format
+msgid "if set to yes, check permissions of files in the users' home."
+msgstr ""
+"dacă da, se verifică drepturile fișierelor din directoarele personale ale "
+"utilizatorilor."
+
+#: security/help.pm:118
+#, c-format
+msgid "if set to yes, check if the network devices are in promiscuous mode."
+msgstr "dacă da, se verifică dacă dispozitivele de rețea sînt în mod spion."
+
+#: security/help.pm:119
+#, c-format
+msgid "if set to yes, run the daily security checks."
+msgstr "dacă da, se execută verificările zilnice de securitate."
+
+#: security/help.pm:120
+#, c-format
+msgid "if set to yes, check additions/removals of sgid files."
+msgstr ""
+"dacă da, se verifică adăugările/înlăturările fișierelor cu permisiunea sgid."
+
+#: security/help.pm:121
+#, c-format
+msgid "if set to yes, check empty password in /etc/shadow."
+msgstr "dacă da, se verifică parolele vide din /etc/shadow."
+
+#: security/help.pm:122
+#, c-format
+msgid "if set to yes, verify checksum of the suid/sgid files."
+msgstr ""
+"dacă da, se verifică suma de control a fișierelor cu permisiunea suid/sgid."
+
+#: security/help.pm:123
+#, c-format
+msgid "if set to yes, check additions/removals of suid root files."
+msgstr "dacă da, se verifică adăugarea/înlăturarea fișierelor suid root."
+
+#: security/help.pm:124
+#, c-format
+msgid "if set to yes, report unowned files."
+msgstr "dacă da, se raportează fișierele fără proprietar."
+
+#: security/help.pm:125
+#, c-format
+msgid "if set to yes, check files/directories writable by everybody."
+msgstr ""
+"dacă da, se verifică fișierele/directoarele cu drepturi de scriere pentru "
+"toată lumea."
+
+#: security/help.pm:126
+#, c-format
+msgid "if set to yes, run chkrootkit checks."
+msgstr "dacă da, se lansează verificările chkrootkit."
+
+#: security/help.pm:127
+#, c-format
+msgid ""
+"if set, send the mail report to this email address else send it to root."
+msgstr ""
+"dacă da, se trimite raportul la adresa electronică indicată, altfel se "
+"trimite utilizatorului root."
+
+#: security/help.pm:128
+#, c-format
+msgid "if set to yes, report check result by mail."
+msgstr "dacă da, se trimite pe e-mail raportul verificărilor."
+
+#: security/help.pm:129
+#, c-format
+msgid "Do not send mails if there's nothing to warn about"
+msgstr "Nu se trimit e-mailuri dacă nu este nimic de avertizat"
+
+#: security/help.pm:130
+#, c-format
+msgid "if set to yes, run some checks against the rpm database."
+msgstr "dacă da, se lansează verificări pe baza de date a pachetelor rpm."
+
+#: security/help.pm:131
+#, c-format
+msgid "if set to yes, report check result to syslog."
+msgstr "dacă da, se raportează rezultatul verificărilor în syslog."
+
+#: security/help.pm:132
+#, c-format
+msgid "if set to yes, reports check result to tty."
+msgstr "dacă da, se raportează rezultatul verificărilor la tty."
+
+#: security/help.pm:134
+#, c-format
+msgid "Set shell commands history size. A value of -1 means unlimited."
+msgstr ""
+"Reglează profunzimea istoricului interpretorului de comenzi. O valoare de -1 "
+"înseamnă nelimitat."
+
+#: security/help.pm:136
+#, c-format
+msgid "Set the shell timeout. A value of zero means no timeout."
+msgstr ""
+"Reglează perioada de expirare a interpretorului de comenzi. Zero înseamnă "
+"fără expirare."
+
+#: security/help.pm:136
+#, c-format
+msgid "Timeout unit is second"
+msgstr "Unitatea perioadei de expirare este secunda"
+
+#: security/help.pm:138
+#, c-format
+msgid "Set the user's file mode creation mask."
+msgstr "Configurați masca modului de creare a fișierelor pentru utilizatori."
+
+#: security/l10n.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages"
+msgstr "Acceptă mesaje de eroare IPv4 fictive"
+
+#: security/l10n.pm:12
+#, c-format
+msgid "Accept broadcasted icmp echo"
+msgstr "Acceptă ecou ICMP difuzat"
+
+#: security/l10n.pm:13
+#, c-format
+msgid "Accept icmp echo"
+msgstr "Acceptă ecou ICMP"
+
+#: security/l10n.pm:15
+#, c-format
+msgid "/etc/issue* exist"
+msgstr "/etc/issue* există"
+
+#: security/l10n.pm:16
+#, c-format
+msgid "Reboot by the console user"
+msgstr "Utilizatorul poate reporni calculatorul din consolă"
+
+#: security/l10n.pm:17
+#, c-format
+msgid "Allow remote root login"
+msgstr "Permite autentificarea distantă cu root"
+
+#: security/l10n.pm:18
+#, c-format
+msgid "Direct root login"
+msgstr "Autentificare root directă"
+
+#: security/l10n.pm:19
+#, c-format
+msgid "List users on display managers (kdm and gdm)"
+msgstr "Afișează utilizatorii în gestionarii de ecran (kdm și gdm)"
+
+#: security/l10n.pm:20
+#, c-format
+msgid "Export display when passing from root to the other users"
+msgstr "Exportă ecranul la trecerea din root la alți utilizatori"
+
+#: security/l10n.pm:21
+#, c-format
+msgid "Allow X Window connections"
+msgstr "Permite conexiuni X Window"
+
+#: security/l10n.pm:22
+#, c-format
+msgid "Authorize TCP connections to X Window"
+msgstr "Autorizează conexiunile la X Window via TCP"
+
+#: security/l10n.pm:23
+#, c-format
+msgid "Authorize all services controlled by tcp_wrappers"
+msgstr "Autorizează toate serviciile controlate de tcp_wrappers"
+
+#: security/l10n.pm:24
+#, c-format
+msgid "Chkconfig obey msec rules"
+msgstr "Chkconfig respectă regulile msec"
+
+#: security/l10n.pm:25
+#, c-format
+msgid "Enable \"crontab\" and \"at\" for users"
+msgstr "Activează „crontab” și „at” pentru utilizatori"
+
+#: security/l10n.pm:26
+#, c-format
+msgid "Syslog reports to console 12"
+msgstr "Syslog raportează în consola 12"
+
+#: security/l10n.pm:27
+#, c-format
+msgid "Name resolution spoofing protection"
+msgstr "Protecție împotriva uzurpării rezoluției de nume"
+
+#: security/l10n.pm:28
+#, c-format
+msgid "Enable IP spoofing protection"
+msgstr "Activează protecția împotriva uzurpării de adresă IP"
+
+#: security/l10n.pm:29
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system"
+msgstr "Activează biblioteca libsafe dacă este găsită în sistem"
+
+#: security/l10n.pm:30
+#, c-format
+msgid "Enable the logging of IPv4 strange packets"
+msgstr "Activează trasarea pachetelor IPv4 ciudate"
+
+#: security/l10n.pm:31
+#, c-format
+msgid "Enable msec hourly security check"
+msgstr "Activează verificările orare de securitate msec"
+
+#: security/l10n.pm:32
+#, c-format
+msgid "Enable su only from the wheel group members"
+msgstr "Activează su numai pentru membrii grupului wheel"
+
+#: security/l10n.pm:33
+#, c-format
+msgid "Use password to authenticate users"
+msgstr "Utilizați parole pentru autentificarea utilizatorilor"
+
+#: security/l10n.pm:34
+#, c-format
+msgid "Ethernet cards promiscuity check"
+msgstr "Activează verificarea modului spion pentru plăcile de rețea"
+
+#: security/l10n.pm:35
+#, c-format
+msgid "Daily security check"
+msgstr "Verificări de securitate cotidiene"
+
+#: security/l10n.pm:36
+#, c-format
+msgid "Sulogin(8) in single user level"
+msgstr "Activează sulogin(8) în mod mono-utilizator"
+
+#: security/l10n.pm:37
+#, c-format
+msgid "No password aging for"
+msgstr "Parola nu expiră pentru"
+
+#: security/l10n.pm:38
+#, c-format
+msgid "Set password expiration and account inactivation delays"
+msgstr "Reglați durata de viață a parolei și perioada de inactivare a contului"
+
+#: security/l10n.pm:39
+#, c-format
+msgid "Password history length"
+msgstr "Lungime istoric parolă"
+
+#: security/l10n.pm:40
+#, c-format
+msgid "Password minimum length and number of digits and upcase letters"
+msgstr "Lungimea minimă, de cifre și de majuscule conținute de parolă"
+
+#: security/l10n.pm:41
+#, c-format
+msgid "Root umask"
+msgstr "Umask root"
+
+#: security/l10n.pm:42
+#, c-format
+msgid "Shell history size"
+msgstr "Mărimea istoricului interpretorului de comenzi"
+
+#: security/l10n.pm:43
+#, c-format
+msgid "Shell timeout"
+msgstr "Perioada de expirare a interpretorului de comenzi"
+
+#: security/l10n.pm:44
+#, c-format
+msgid "User umask"
+msgstr "Umask utilizator"
+
+#: security/l10n.pm:45
+#, c-format
+msgid "Check open ports"
+msgstr "Verifică porturile deschise"
+
+#: security/l10n.pm:46
+#, c-format
+msgid "Check for unsecured accounts"
+msgstr "Căutare de conturi nesecurizate"
+
+#: security/l10n.pm:47
+#, c-format
+msgid "Check permissions of files in the users' home"
+msgstr "Verifică drepturile fișierelor din directoarele personale"
+
+#: security/l10n.pm:48
+#, c-format
+msgid "Check if the network devices are in promiscuous mode"
+msgstr "Verifică dacă dispozitivele de rețea sînt în mod spion"
+
+#: security/l10n.pm:49
+#, c-format
+msgid "Run the daily security checks"
+msgstr "Execută verificările de securitate cotidiene"
+
+#: security/l10n.pm:50
+#, c-format
+msgid "Check additions/removals of sgid files"
+msgstr "Verifică adăugările/înlăturările de fișiere sgid"
+
+#: security/l10n.pm:51
+#, c-format
+msgid "Check empty password in /etc/shadow"
+msgstr "Verifică parolele vide din /etc/shadow"
+
+#: security/l10n.pm:52
+#, c-format
+msgid "Verify checksum of the suid/sgid files"
+msgstr "Verifică suma de control a fișierelor suid/sgid"
+
+#: security/l10n.pm:53
+#, c-format
+msgid "Check additions/removals of suid root files"
+msgstr "Verifică adăugarea/înlăturarea fișierelor cu permisiunea „suid root”"
+
+#: security/l10n.pm:54
+#, c-format
+msgid "Report unowned files"
+msgstr "Raportează fișierele fără proprietar"
+
+#: security/l10n.pm:55
+#, c-format
+msgid "Check files/directories writable by everybody"
+msgstr "Verifică fișierele/directoarele cu drept de scriere pentru toată lumea"
+
+#: security/l10n.pm:56
+#, c-format
+msgid "Run chkrootkit checks"
+msgstr "Execută verificări chkrootkit"
+
+#: security/l10n.pm:57
+#, c-format
+msgid "Do not send empty mail reports"
+msgstr "Nu se trimit rapoarte goale pe e-mail"
+
+#: security/l10n.pm:58
+#, c-format
+msgid "If set, send the mail report to this email address else send it to root"
+msgstr ""
+"dacă da, se trimite raportul la adresa electronică indicată, altfel se "
+"trimite utilizatorului root"
+
+#: security/l10n.pm:59
+#, c-format
+msgid "Report check result by mail"
+msgstr "Raportează pe e-mail rezultatul verificărilor"
+
+#: security/l10n.pm:60
+#, c-format
+msgid "Run some checks against the rpm database"
+msgstr "Execută verificări ale bazei de pachete rpm"
+
+#: security/l10n.pm:61
+#, c-format
+msgid "Report check result to syslog"
+msgstr "Raportează rezultatele verificării in syslog"
+
+#: security/l10n.pm:62
+#, c-format
+msgid "Reports check result to tty"
+msgstr "Raportează rezultatul verificărilor la tty"
+
+#: security/level.pm:10
+#, c-format
+msgid "Disable msec"
+msgstr "Dezactivează msec"
+
+#: security/level.pm:11
+#, c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: security/level.pm:12
+#, c-format
+msgid "Secure"
+msgstr "Securizat"
+
+#: security/level.pm:52
+#, c-format
+msgid ""
+"This level is to be used with care, as it disables all additional security\n"
+"provided by msec. Use it only when you want to take care of all aspects of "
+"system security\n"
+"on your own."
+msgstr ""
+"Acest nivel trebuie utilizat cu precauție, deoarece dezactivează toate\n"
+"măsurile de securitate furnizate de msec. Utilizați-l numai dacă doriți să "
+"gestionați\n"
+"în mod personal securitatea sistemului."
+
+#: security/level.pm:55
+#, c-format
+msgid ""
+"This is the standard security recommended for a computer that will be used "
+"to connect to the Internet as a client."
+msgstr ""
+"Acesta este nivelul de securitate standard recomandat pentru un calculator "
+"ce va fi conectat la Internet ca și client."
+
+#: security/level.pm:56
+#, c-format
+msgid ""
+"With this security level, the use of this system as a server becomes "
+"possible.\n"
+"The security is now high enough to use the system as a server which can "
+"accept\n"
+"connections from many clients. Note: if your machine is only a client on the "
+"Internet, you should choose a lower level."
+msgstr ""
+"Cu acest nivel de securitate, utilizarea calculatorului ca server\n"
+"devine posibilă. Securitatea este destul de ridicată pentru a folosi acest\n"
+"sistem ca server care acceptă conexiuni de la mulți clienți. Notă: dacă "
+"mașina este numai un client simplu la Internet, folosiți un nivel mai scăzut."
+
+#: security/level.pm:63
+#, c-format
+msgid "DrakSec Basic Options"
+msgstr "Opțiuni de bază DrakSec"
+
+#: security/level.pm:66
+#, c-format
+msgid "Please choose the desired security level"
+msgstr "Alegeți nivelul de securitate dorit"
+
+#. -PO: this string is used to properly format "<security level>: <level description>"
+#: security/level.pm:70
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: security/level.pm:73
+#, c-format
+msgid "Security Administrator:"
+msgstr "Administrator de securitate:"
+
+#: security/level.pm:74
+#, c-format
+msgid "Login or email:"
+msgstr "Cont utilizator sau adresă electronică:"
+
+#: services.pm:18
+#, c-format
+msgid "Listen and dispatch ACPI events from the kernel"
+msgstr "Urmărește și expediază evenimentele ACPI din nucleu"
+
+#: services.pm:19
+#, c-format
+msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+msgstr "Lansează sistemul de sunet ALSA (Advanced Linux Sound Architecture)"
+
+#: services.pm:20
+#, c-format
+msgid "Anacron is a periodic command scheduler."
+msgstr "Anacron este un planificator de comenzi periodice"
+
+#: services.pm:21
+#, c-format
+msgid ""
+"apmd is used for monitoring battery status and logging it via syslog.\n"
+"It can also be used for shutting down the machine when the battery is low."
+msgstr ""
+"APMD este folosit pentru a supraveghea și înregistra starea bateriei via "
+"syslog.\n"
+"De asemenea, poate fi folosit pentru oprirea calculatorului dacă bateria "
+"este slabă."
+
+#: services.pm:23
+#, c-format
+msgid ""
+"Runs commands scheduled by the at command at the time specified when\n"
+"at was run, and runs batch commands when the load average is low enough."
+msgstr ""
+"Serviciu ce permite executarea unei comenzi la o oră precisă. Fiecare "
+"sarcină\n"
+"trebuie creată cu comanda „at”, apoi la ora indicată serviciul „atd” "
+"execută\n"
+"sarcina. De exemplu, pentru a opri calculatorul în mod automat la ora "
+"23:59,\n"
+"tastați într-o consolă „at 23:59” apoi „halt” și <Ctrl-D>."
+
+#: services.pm:25
+#, c-format
+msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
+msgstr "Avahi este un demon ZeroConf ce implementează o stivă mDNS"
+
+#: services.pm:26
+#, c-format
+msgid "An NTP client/server"
+msgstr "Un client/server NTP"
+
+#: services.pm:27
+#, c-format
+msgid "Set CPU frequency settings"
+msgstr "Configurează parametrii de frecvență ai procesorului"
+
+#: services.pm:28
+#, c-format
+msgid ""
+"cron is a standard UNIX program that runs user-specified programs\n"
+"at periodic scheduled times. vixie cron adds a number of features to the "
+"basic\n"
+"UNIX cron, including better security and more powerful configuration options."
+msgstr ""
+"Cron este un planificator de sarcini. Spre deosebire de Anacron, sarcinile "
+"sînt\n"
+"executate la momente precise, iar calculatorul trebuie să fie pornit. „Vixie "
+"cron”\n"
+"adaugă funcționalități suplimentare versiunii UNIX de „cron”, precum o\n"
+"securitate îmbunătățită și opțiuni de configurare mai avansate."
+
+#: services.pm:31
+#, c-format
+msgid ""
+"Common UNIX Printing System (CUPS) is an advanced printer spooling system"
+msgstr ""
+"CUPS (Common UNIX Printing System) este un sistem avansat de gestiune a "
+"tipăririi"
+
+#: services.pm:32
+#, c-format
+msgid "Launches the graphical display manager"
+msgstr "Lansează gestionarul de ecran grafic"
+
+#: services.pm:33
+#, c-format
+msgid ""
+"FAM is a file monitoring daemon. It is used to get reports when files "
+"change.\n"
+"It is used by GNOME and KDE"
+msgstr ""
+"FAM este un demon de supraveghere de fișiere. Vă permite să fiți alertat\n"
+"cînd fișierele sînt modificate. Este utilizat de GNOME sau KDE"
+
+#: services.pm:35
+#, c-format
+msgid ""
+"G15Daemon allows users access to all extra keys by decoding them and \n"
+"pushing them back into the kernel via the linux UINPUT driver. This driver "
+"must be loaded \n"
+"before g15daemon can be used for keyboard access. The G15 LCD is also "
+"supported. By default, \n"
+"with no other clients active, g15daemon will display a clock. Client "
+"applications and \n"
+"scripts can access the LCD via a simple API."
+msgstr ""
+"G15Daemon permite utilizatorilor să acceseze toate tastele suplimentare "
+"prin \n"
+"decodarea și trimiterea lor înapoi la nucleu cu ajutorul pilotului Linux "
+"UINPUT. Acest pilot trebuie \n"
+"încărcat înainte de utilizarea lui g15daemon pentru accesarea tastaturii. "
+"G15 LCD este și el suportat. \n"
+"Implicit, fără alți clienți activi, g15daemon va afișa un ceas. Aplicațiile "
+"și scripturile client \n"
+"pot accesa LCD printr-un API simplu."
+
+#: services.pm:40
+#, c-format
+msgid ""
+"GPM adds mouse support to text-based Linux applications such the\n"
+"Midnight Commander. It also allows mouse-based console cut-and-paste "
+"operations,\n"
+"and includes support for pop-up menus on the console."
+msgstr ""
+"GPM adaugă suport de maus la aplicațiile text în Linux ca Midnight "
+"Commander.\n"
+"De asemenea, permite operații de copiere/lipire cu mausul și suport\n"
+"pentru meniurile contextuale în consolă."
+
+#: services.pm:43
+#, c-format
+msgid "HAL is a daemon that collects and maintains information about hardware"
+msgstr ""
+"HAL este un demon care colectează și reține informațiile despre componentele "
+"materiale"
+
+#: services.pm:44
+#, c-format
+msgid ""
+"HardDrake runs a hardware probe, and optionally configures\n"
+"new/changed hardware."
+msgstr ""
+"HardDrake detectează componentele materiale și configurează eventual\n"
+"componentele noi/înlocuite."
+
+#: services.pm:46
+#, c-format
+msgid ""
+"Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+msgstr ""
+"Apache este un server Web. Este folosit pentru a servi fișiere HTML și CGI."
+
+#: services.pm:47
+#, c-format
+msgid ""
+"The internet superserver daemon (commonly called inetd) starts a\n"
+"variety of other internet services as needed. It is responsible for "
+"starting\n"
+"many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+"disables\n"
+"all of the services it is responsible for."
+msgstr ""
+"Super-procesul Internet (numit în mod normal inetd) pornește o sumedenie\n"
+"de servicii, incluzînd telnet, ftp, rsh și rlogin. Dezactivarea lui telnet\n"
+"se aplică tuturor serviciilor de care telnet este responsabil."
+
+#: services.pm:51
+#, c-format
+msgid "Automates a packet filtering firewall with ip6tables"
+msgstr "Automatizați cu ip6tables un parafoc cu filtrare de pachete"
+
+#: services.pm:52
+#, c-format
+msgid "Automates a packet filtering firewall with iptables"
+msgstr "Automatizați cu iptables un parafoc cu filtrare de pachete"
+
+#: services.pm:53
+#, c-format
+msgid ""
+"Evenly distributes IRQ load across multiple CPUs for enhanced performance"
+msgstr ""
+"Distribuie sarcina IRQ în mod egal peste procesoare multiple pentru o "
+"performanță îmbunătățită"
+
+#: services.pm:54
+#, c-format
+msgid ""
+"This package loads the selected keyboard map as set in\n"
+"/etc/sysconfig/keyboard.  This can be selected using the kbdconfig utility.\n"
+"You should leave this enabled for most machines."
+msgstr ""
+"Acest pachet încarcă dispunerea tastaturii așa cum este specificată în\n"
+"/etc/sysconfig/keyboard. Dispunerea poate fi modificată folosind kbdconfig.\n"
+"Acest serviciu trebuie lăsat activat pentru majoritatea calculatoarelor."
+
+#: services.pm:57
+#, c-format
+msgid ""
+"Automatic regeneration of kernel header in /boot for\n"
+"/usr/include/linux/{autoconf,version}.h"
+msgstr ""
+"Regenerarea automată a antetelor de nucleu în /boot pentru\n"
+"/usr/include/linux/{autoconf, versiune}.h"
+
+#: services.pm:59
+#, c-format
+msgid "Automatic detection and configuration of hardware at boot."
+msgstr ""
+"Detecția și configurarea automată a componentelor materiale la pornire."
+
+#: services.pm:60
+#, c-format
+msgid "Tweaks system behavior to extend battery life"
+msgstr "Ajustează comportamentul sistemului pentru a extinde viața bateriei"
+
+#: services.pm:61
+#, c-format
+msgid ""
+"Linuxconf will sometimes arrange to perform various tasks\n"
+"at boot-time to maintain the system configuration."
+msgstr ""
+"Linucxonf va executa din cînd în cînd diferite sarcini la pornire\n"
+"pentru mentenanța configurației sistemului."
+
+#: services.pm:63
+#, c-format
+msgid ""
+"lpd is the print daemon required for lpr to work properly. It is\n"
+"basically a server that arbitrates print jobs to printer(s)."
+msgstr ""
+"Lpd este serverul de tipărire și gestionează coada de așteptare și cererile\n"
+"de tipărire, necesar pentru ca lpr să funcționeze corect."
+
+#: services.pm:65
+#, c-format
+msgid ""
+"Linux Virtual Server, used to build a high-performance and highly\n"
+"available server."
+msgstr ""
+"Linux Virtual Server, este folosit pentru construirea unui server de\n"
+"înaltă performanță și disponibilitate."
+
+#: services.pm:67
+#, c-format
+msgid "Monitors the network (Interactive Firewall and wireless"
+msgstr "Supraveghează rețeaua (parafoc interactiv și fără-fir"
+
+#: services.pm:68
+#, c-format
+msgid "Software RAID monitoring and management"
+msgstr "Gestionare si supraveghere de RAID Software"
+
+#: services.pm:69
+#, c-format
+msgid ""
+"DBUS is a daemon which broadcasts notifications of system events and other "
+"messages"
+msgstr ""
+"DBUS este un serviciu care difuzează înștiințări despre evenimentele din "
+"sistem și alte mesaje"
+
+#: services.pm:70
+#, c-format
+msgid "Enables MSEC security policy on system startup"
+msgstr "Activează politica de securitate MSEC la pornirea sistemului"
+
+#: services.pm:71
+#, c-format
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+"names to IP addresses."
+msgstr ""
+"Named (BIND) este un server de nume de domeniu (DNS) folosit la rezolvarea "
+"asocierii numelor cu adresele IP."
+
+#: services.pm:72
+#, c-format
+msgid "Initializes network console logging"
+msgstr "Inițializează conectarea la consolă prin rețea"
+
+#: services.pm:73
+#, c-format
+msgid ""
+"Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+"Manager/Windows), and NCP (NetWare) mount points."
+msgstr ""
+"Montează și demontează toate punctele de montare a fișierelor sistem de "
+"rețea\n"
+"(NFS), SMB (LanManager/Windows) și NCP (NetWare)."
+
+#: services.pm:75
+#, c-format
+msgid ""
+"Activates/Deactivates all network interfaces configured to start\n"
+"at boot time."
+msgstr ""
+"Activează/Dezactivează toate interfețele de rețea configurate pentru a fi\n"
+"inițializate la pornire."
+
+#: services.pm:77
+#, c-format
+msgid "Requires network to be up if enabled"
+msgstr "Necesită ca rețeaua să fie disponibilă dacă este activat"
+
+#: services.pm:78
+#, c-format
+msgid "Wait for the hotplugged network to be up"
+msgstr "Așteptați ca rețeaua să fie disponibilă"
+
+#: services.pm:79
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+"This service provides NFS server functionality, which is configured via the\n"
+"/etc/exports file."
+msgstr ""
+"NFS este un protocol popular pentru a partaja fișiere de-a lungul rețelelor\n"
+"TCP/IP. Acest serviciu furnizează această funcționalitate. Lista "
+"directoarelor\n"
+"partajate se află în fișierul /etc/exports."
+
+#: services.pm:82
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP\n"
+"networks. This service provides NFS file locking functionality."
+msgstr ""
+"NFS este un protocol popular pentru a partaja fișiere de-a lungul rețelelor\n"
+"TCP/IP. Acest serviciu permite blocarea fișierelor NFS."
+
+#: services.pm:84
+#, c-format
+msgid "Synchronizes system time using the Network Time Protocol (NTP)"
+msgstr "Sincronizați ora sistemului prin rețea utilizînd protocolul NTP"
+
+#: services.pm:85
+#, c-format
+msgid ""
+"Automatically switch on numlock key locker under console\n"
+"and Xorg at boot."
+msgstr ""
+"Activare automată la pornire a tastei „Num Lock” de pe\n"
+"tastatura numerică, în consolă și Xorg."
+
+#: services.pm:87
+#, c-format
+msgid "Support the OKI 4w and compatible winprinters."
+msgstr "Suport pentru imprimante OKI 4w winprinters și compatibile."
+
+#: services.pm:88
+#, c-format
+msgid "Checks if a partition is close to full up"
+msgstr "Verifică dacă o partiție este aproape plină"
+
+#: services.pm:89
+#, c-format
+msgid ""
+"PCMCIA support is usually to support things like ethernet and\n"
+"modems in laptops.  It will not get started unless configured so it is safe "
+"to have\n"
+"it installed on machines that do not need it."
+msgstr ""
+"PCMCIA permite utilizarea dispozitivelor PCCARD precum plăcile Ethernet și\n"
+"modemuri în calculatoarele portabile. Nu va porni decît dacă este "
+"configurat,\n"
+"deci nu este nici o problemă dacă este activat pe calculatoare fără PCMCIA."
+
+#: services.pm:92
+#, c-format
+msgid ""
+"The portmapper manages RPC connections, which are used by\n"
+"protocols such as NFS and NIS. The portmap server must be running on "
+"machines\n"
+"which act as servers for protocols which make use of the RPC mechanism."
+msgstr ""
+"Portmapper gestionează conexiunile RPC, care sînt folosite de protocoalele\n"
+"ca NFS și NIS. Serverul portmap trebuie pornit pe calculatoarele care \n"
+"funcționează ca servere pentru protocoale ce folosesc mecanismul RPC."
+
+#: services.pm:95
+#, c-format
+msgid "Reserves some TCP ports"
+msgstr "Rezervă cîteva porturi TCP"
+
+#: services.pm:96
+#, c-format
+msgid ""
+"Postfix is a Mail Transport Agent, which is the program that moves mail from "
+"one machine to another."
+msgstr ""
+"Postfix este un agent de transportat mesaje (MTA, programul care\n"
+"permite deplasarea e-mailului de la un calculator la altul)."
+
+#: services.pm:97
+#, c-format
+msgid ""
+"Saves and restores system entropy pool for higher quality random\n"
+"number generation."
+msgstr ""
+"Salvează și restaurează entropia sistemului pentru generarea numerelor\n"
+"aleatoare de mai bună calitate."
+
+#: services.pm:99
+#, c-format
+msgid ""
+"Assign raw devices to block devices (such as hard disk drive\n"
+"partitions), for the use of applications such as Oracle or DVD players"
+msgstr ""
+"Atribuie dispozitivele brute cu acces direct (RAW) la dispozitivele\n"
+"de tip bloc (precum partițiile discului dur), pentru a fi utilizate\n"
+"de aplicații precum Oracle sau cititoarele de DVD"
+
+#: services.pm:101
+#, c-format
+msgid "Nameserver information manager"
+msgstr "Gestionar de informații de server de nume"
+
+#: services.pm:102
+#, c-format
+msgid ""
+"The routed daemon allows for automatic IP router table updated via\n"
+"the RIP protocol. While RIP is widely used on small networks, more complex\n"
+"routing protocols are needed for complex networks."
+msgstr ""
+"Serviciul de rutare permite actualizarea automată a tabelei de rutare IP\n"
+"prin protocolul RIP. În timp de RIP este folosit pentru rețele mici,\n"
+"alte protocoale mai complexe sînt folosite pentru rețele mai complexe."
+
+#: services.pm:105
+#, c-format
+msgid ""
+"The rstat protocol allows users on a network to retrieve\n"
+"performance metrics for any machine on that network."
+msgstr ""
+"Protocolul rstat permite utilizatorilor unei rețele să recupereze\n"
+"performanțele măsurate de la orice calculator din rețea."
+
+#: services.pm:107
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages to various "
+"system log files.  It is a good idea to always run rsyslog."
+msgstr ""
+"Syslog este facilitatea pe care multe procese o folosesc pentru a scrie "
+"mesaje în numeroasele fișiere jurnal ale sistemului. Este o idee bună să "
+"porniți întotdeauna rsyslog."
+
+#: services.pm:108
+#, c-format
+msgid ""
+"The rusers protocol allows users on a network to identify who is\n"
+"logged in on other responding machines."
+msgstr ""
+"Protocolul rusers permite utilizatorilor unei rețele să identifice\n"
+"cine este conectat la calculatoarele care răspund interogării."
+
+#: services.pm:110
+#, c-format
+msgid ""
+"The rwho protocol lets remote users get a list of all of the users\n"
+"logged into a machine running the rwho daemon (similar to finger)."
+msgstr ""
+"Protocolul rwho permite utilizatorului să recupereze lista tuturor\n"
+"utilizatorului conectați la un calculator ce folosește procesul rwho\n"
+"(similar cu finger)."
+
+#: services.pm:112
+#, c-format
+msgid ""
+"SANE (Scanner Access Now Easy) enables to access scanners, video cameras, ..."
+msgstr ""
+"SANE (Scanner Access Now Easy) permite accesarea scanerelor, camerelor "
+"video, ..."
+
+#: services.pm:113
+#, c-format
+msgid "Packet filtering firewall"
+msgstr "Parafoc cu filtrare de pachete"
+
+#: services.pm:114
+#, c-format
+msgid "Packet filtering firewall for IPv6"
+msgstr "Parafoc cu filtrare de pachete pentru IPv6"
+
+#: services.pm:115
+#, c-format
+msgid ""
+"The SMB/CIFS protocol enables to share access to files & printers and also "
+"integrates with a Windows Server domain"
+msgstr ""
+"Protocolul SMB/CIFS vă permite să partajați accesul la fișiere și "
+"imprimante, cît și integrarea într-un domeniu Windows "
+
+#: services.pm:116
+#, c-format
+msgid "Launch the sound system on your machine"
+msgstr "Lansează sistemul de sunet pe această mașină"
+
+#: services.pm:117
+#, c-format
+msgid "layer for speech analysis"
+msgstr "nivel pentru analizarea vorbirii"
+
+#: services.pm:118
+#, c-format
+msgid ""
+"Secure Shell is a network protocol that allows data to be exchanged over a "
+"secure channel between two computers"
+msgstr ""
+"Secure Shell este un protocol de rețea ce permite schimbul de date între "
+"două calculatoare printr-un canal securizat"
+
+#: services.pm:119
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages\n"
+"to various system log files.  It is a good idea to always run syslog."
+msgstr ""
+"Syslog este facilitatea pe care multe procese o folosesc pentru a scrie\n"
+"mesaje în numeroasele fișiere jurnal ale sistemului. Este o idee\n"
+"bună să porniți întotdeauna syslog."
+
+#: services.pm:121
+#, c-format
+msgid "Moves the generated persistent udev rules to /etc/udev/rules.d"
+msgstr "Mută regulile persistente udev generate în /etc/udev/rules.d"
+
+#: services.pm:122
+#, c-format
+msgid "Load the drivers for your usb devices."
+msgstr "Încarcă piloții pentru dispozitivele USB."
+
+#: services.pm:123
+#, c-format
+msgid "A lightweight network traffic monitor"
+msgstr "Un monitor lejer de trafic în rețea"
+
+#: services.pm:124
+#, c-format
+msgid "Starts the X Font Server."
+msgstr "Pornește serverul de fonturi."
+
+#: services.pm:125
+#, c-format
+msgid "Starts other deamons on demand."
+msgstr "Pornește alți demoni la cerere."
+
+#: services.pm:154
+#, c-format
+msgid "Printing"
+msgstr "Tipărire"
+
+#: services.pm:157
+#, c-format
+msgid "Internet"
+msgstr "Internet"
+
+#: services.pm:162
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Networking"
+msgstr "Rețea"
+
+#: services.pm:164
+#, c-format
+msgid "System"
+msgstr "Sistem"
+
+#: services.pm:171
+#, c-format
+msgid "Remote Administration"
+msgstr "Administrare de la distanță"
+
+#: services.pm:180
+#, c-format
+msgid "Database Server"
+msgstr "Server de baze de date"
+
+#: services.pm:191 services.pm:233
+#, c-format
+msgid "Services"
+msgstr "Servicii"
+
+#: services.pm:191
+#, c-format
+msgid "Choose which services should be automatically started at boot time"
+msgstr "Alegeți ce servicii doriți să fie lansate automat la pornire"
+
+#: services.pm:214
+#, c-format
+msgid "%d activated for %d registered"
+msgstr "%d activate pentru %d înregistrate"
+
+#: services.pm:237
+#, c-format
+msgid "running"
+msgstr "rulează"
+
+#: services.pm:237
+#, c-format
+msgid "stopped"
+msgstr "oprit"
+
+#: services.pm:242
+#, c-format
+msgid "Services and daemons"
+msgstr "Servicii și daemoni"
+
+#: services.pm:248
+#, c-format
+msgid ""
+"No additional information\n"
+"about this service, sorry."
+msgstr ""
+"Regrete, nici o informație suplimentară\n"
+"despre acest serviciu."
+
+#: services.pm:255
+#, c-format
+msgid "Start when requested"
+msgstr "Pornește la cerere"
+
+#: services.pm:255
+#, c-format
+msgid "On boot"
+msgstr "La pornire"
+
+#: services.pm:272
+#, c-format
+msgid "Start"
+msgstr "Pornește"
+
+#: services.pm:272
+#, c-format
+msgid "Stop"
+msgstr "Oprește"
+
+#: standalone.pm:27
+#, c-format
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+msgstr ""
+"Acest program este liber; îl puteți redistribui și/sau modifica\n"
+"în conformitate cu termenii Licenței Publice Generale GNU, așa cum este\n"
+"publicată de Free Software Foundation; fie versiunea 2 a licenței, fie\n"
+"(la latitudinea voastră) orice versiune ulterioară.\n"
+"\n"
+"Acest program este distribuit cu speranța că va fi util,\n"
+"dar FĂRĂ NICI O GARANȚIE; fără garanție implicită de\n"
+"vandabilitate și conformitate pentru un anumit scop. Citiți\n"
+"Licența Publică Generală GNU pentru detalii.\n"
+"\n"
+"Ar trebui să fi primit o copie a Licenței Publice Generale GNU\n"
+"împreună cu acest program; dacă nu, scrieți la Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+
+#: standalone.pm:46
+#, c-format
+msgid ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Backup and Restore application\n"
+"\n"
+"--default             : save default directories.\n"
+"--debug               : show all debug messages.\n"
+"--show-conf           : list of files or directories to backup.\n"
+"--config-info         : explain configuration file options (for non-X "
+"users).\n"
+"--daemon              : use daemon configuration. \n"
+"--help                : show this message.\n"
+"--version             : show version number.\n"
+msgstr ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Aplicație de salvgardare și restaurare\n"
+"\n"
+"--default             : salvează directoarele implicite.\n"
+"--debug               : afișează toate mesajele de eroare.\n"
+"--show-conf           : listează fișierele sau directoarele de salvgardat.\n"
+"--config-info         : explică opțiunile fișierului de configurare (în mod "
+"text).\n"
+"--daemon              : utilizează configurația salvgardărilor periodice.\n"
+"--help                : afișează acest mesaj.\n"
+"--version             : afișează numărul versiunii.\n"
+
+#: standalone.pm:58
+#, c-format
+msgid ""
+"[--boot]\n"
+"OPTIONS:\n"
+"  --boot            - enable to configure boot loader\n"
+"default mode: offer to configure autologin feature"
+msgstr ""
+"[--boot]\n"
+"OPTIONS:\n"
+"  --boot            - permite configurarea încărcătorului de sistem\n"
+"mod implicit: configurează autentificarea automată"
+
+#: standalone.pm:62
+#, c-format
+msgid ""
+"[OPTIONS] [PROGRAM_NAME]\n"
+"\n"
+"OPTIONS:\n"
+"  --help            - print this help message.\n"
+"  --report          - program should be one of %s tools\n"
+"  --incident        - program should be one of %s tools"
+msgstr ""
+"[OPȚIUNI] [NUME_PROGRAM]\n"
+"\n"
+"OPȚIUNI:\n"
+"  --help            - afișează acest mesaj.\n"
+"  --report          - programul trebuie să fie una din uneltele %s\n"
+"  --incident        - programul trebuie să fie una din uneltele %s"
+
+#: standalone.pm:68
+#, c-format
+msgid ""
+"[--add]\n"
+"  --add             - \"add a network interface\" wizard\n"
+"  --del             - \"delete a network interface\" wizard\n"
+"  --skip-wizard     - manage connections\n"
+"  --internet        - configure internet\n"
+"  --wizard          - like --add"
+msgstr ""
+"[--add]\n"
+"  --add             - asistentul „adaugă o interfață de rețea”\n"
+"  --del             - asistentul „înlătură o interfață de rețea”\n"
+"  --skip-wizard     - gestionează conexiunile\n"
+"  --internet        - configurează Internet\n"
+"  --wizard          - precum --add"
+
+#: standalone.pm:74
+#, c-format
+msgid ""
+"\n"
+"Font Importation and monitoring application\n"
+"\n"
+"OPTIONS:\n"
+"--windows_import : import from all available windows partitions.\n"
+"--xls_fonts      : show all fonts that already exist from xls\n"
+"--install        : accept any font file and any directory.\n"
+"--uninstall      : uninstall any font or any directory of font.\n"
+"--replace        : replace all font if already exist\n"
+"--application    : 0 none application.\n"
+"                 : 1 all application available supported.\n"
+"                 : name_of_application like  so for staroffice \n"
+"                 : and gs for ghostscript for only this one."
+msgstr ""
+"\n"
+"Aplicație de supraveghere și importare de fonturi\n"
+"\n"
+"OPTIONS:\n"
+"--windows_import : importă de pe toate partițiile Windows disponibile.\n"
+"--xls_fonts      : afișează toate fonturile existente din xls\n"
+"--install        : acceptă orice fișier și director de fonturi.\n"
+"--uninstall      : dezinstalează orice fișier sau director de fonturi.\n"
+"--replace        : înlocuiește toate fonturile deja existente\n"
+"--application    : 0 = nici o aplicație.\n"
+"                 : 1 = toate aplicațiile disponibile și suportate.\n"
+"                 : nume_aplicație = staroffice de exemplu\n"
+"                 : și gs pentru ghostscript (numai pentru aceasta)."
+
+#: standalone.pm:89
+#, c-format
+msgid ""
+"[OPTIONS]...\n"
+"%s Terminal Server Configurator\n"
+"--enable         : enable MTS\n"
+"--disable        : disable MTS\n"
+"--start          : start MTS\n"
+"--stop           : stop MTS\n"
+"--adduser        : add an existing system user to MTS (requires username)\n"
+"--deluser        : delete an existing system user from MTS (requires "
+"username)\n"
+"--addclient      : add a client machine to MTS (requires MAC address, IP, "
+"nbi image name)\n"
+"--delclient      : delete a client machine from MTS (requires MAC address, "
+"IP, nbi image name)"
+msgstr ""
+"[OPȚIUNI]...\n"
+"Configurator %s Terminal Server\n"
+"--enable         : activează MTS\n"
+"--disable        : dezactivează MTS\n"
+"--start          : pornește MTS\n"
+"--stop           : oprește MTS\n"
+"--adduser        : adaugă la MTS un utilizator existent (necesită nume de "
+"utilizator)\n"
+"--deluser        : șterge din MTS un utilizator al sistemului (necesită nume "
+"de utilizator)\n"
+"--addclient      : adaugă la MTS o mașină client (necesită adresă MAC, IP și "
+"nume imagine nbi)\n"
+"--delclient      : șterge din MTS o mașină client (necesită adresă MAC, IP "
+"și nume imagine nbi)"
+
+#: standalone.pm:101
+#, c-format
+msgid "[keyboard]"
+msgstr "[tastatură]"
+
+#: standalone.pm:102
+#, c-format
+msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+msgstr "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+
+#: standalone.pm:103
+#, c-format
+msgid ""
+"[OPTIONS]\n"
+"Network & Internet connection and monitoring application\n"
+"\n"
+"--defaultintf interface : show this interface by default\n"
+"--connect : connect to internet if not already connected\n"
+"--disconnect : disconnect to internet if already connected\n"
+"--force : used with (dis)connect : force (dis)connection.\n"
+"--status : returns 1 if connected 0 otherwise, then exit.\n"
+"--quiet : do not be interactive. To be used with (dis)connect."
+msgstr ""
+"[OPȚIUNI]\n"
+"Aplicație de supraveghere a conexiunii de rețea și Internet\n"
+"\n"
+"--defaultintf interface : afișează implicit această interfață\n"
+"--connect : se conectează la Internet (dacă nu este conectat)\n"
+"--disconnect : se deconectează de la Internet, dacă este conectat\n"
+"--force : utilizat cu (de)conectat : forțează (de)conectarea\n"
+"--status : întoarce 1 dacă este conectat, altfel întoarce 0, apoi iese\n"
+"--quiet : mod neinteractiv, a se utiliza cu (de)conectat"
+
+#: standalone.pm:113
+#, c-format
+msgid ""
+"[OPTION]...\n"
+"  --no-confirmation      do not ask first confirmation question in %s Update "
+"mode\n"
+"  --no-verify-rpm        do not verify packages signatures\n"
+"  --changelog-first      display changelog before filelist in the "
+"description window\n"
+"  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+msgstr ""
+"[OPȚIUNI]...\n"
+"  --no-confirmation      nu cere prima confirmare în modul %s Update\n"
+"  --no-verify-rpm        nu se verifică semnăturile pachetelor\n"
+"  --changelog-first      afișează istoricul modificărilor înaintea "
+"fișierelor în fereastra descriptivă\n"
+"  --merge-all-rpmnew     propune fuzionarea tuturor fișierelor .rpmnew/."
+"rpmsave întîlnite"
+
+#: standalone.pm:118
+#, c-format
+msgid ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+msgstr ""
+"[--manual] [--device=disp] [--update-sane=dir_sursă_sane] [--update-"
+"usbtable] [--dynamic=disp]"
+
+#: standalone.pm:119
+#, c-format
+msgid ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolution"
+msgstr ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolution"
+
+#: standalone.pm:156
+#, c-format
+msgid ""
+"\n"
+"Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+msgstr ""
+"\n"
+"Utilizare: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+
+#: timezone.pm:170 timezone.pm:171
+#, c-format
+msgid "All servers"
+msgstr "Toate serverele"
+
+#: timezone.pm:207
+#, c-format
+msgid "Global"
+msgstr "Global"
+
+#: timezone.pm:210
+#, c-format
+msgid "Africa"
+msgstr "Africa"
+
+#: timezone.pm:211
+#, c-format
+msgid "Asia"
+msgstr "Asia"
+
+#: timezone.pm:212
+#, c-format
+msgid "Europe"
+msgstr "Europa"
+
+#: timezone.pm:213
+#, c-format
+msgid "North America"
+msgstr "America de nord"
+
+#: timezone.pm:214
+#, c-format
+msgid "Oceania"
+msgstr "Oceania"
+
+#: timezone.pm:215
+#, c-format
+msgid "South America"
+msgstr "America de sud"
+
+#: timezone.pm:224
+#, c-format
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: timezone.pm:261
+#, c-format
+msgid "Russian Federation"
+msgstr "Federația Rusă"
+
+#: timezone.pm:269
+#, c-format
+msgid "Yugoslavia"
+msgstr "Iugoslavia"
+
+#: ugtk2.pm:810 ugtk3.pm:906
+#, c-format
+msgid "Is this correct?"
+msgstr "Este corect?"
+
+#: ugtk2.pm:872 ugtk3.pm:968
+#, c-format
+msgid "You have chosen a file, not a directory"
+msgstr "Ați ales un fișier, nu un director"
+
+#: ugtk2.pm:922 ugtk3.pm:1018
+#, c-format
+msgid "Info"
+msgstr "Info"
+
+#: wizards.pm:95
+#, c-format
+msgid ""
+"%s is not installed\n"
+"Click \"Next\" to install or \"Cancel\" to quit"
+msgstr ""
+"%s nu este instalat\n"
+"Apăsați „Înainte” pentru instalare sau „Anulează” pentru părăsire"
+
+#: wizards.pm:99
+#, c-format
+msgid "Installation failed"
+msgstr "Instalarea a eșuat"

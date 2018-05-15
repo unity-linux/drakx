@@ -1,0 +1,74 @@
+#!/usr/bin/perl
+#
+# Guillaume Cottenceau
+#
+# Copyright 2001-2005 Mandriva
+#
+# This software may be freely redistributed under the terms of the GNU
+# public license.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+
+use lib qw(/usr/lib/libDrakX);
+use common;
+use bootloader;
+use fs;
+
+my $auto;
+if ($ARGV[0] eq '--auto') {
+    $auto = shift @ARGV;
+}
+
+$::prefix = '/mnt';
+
+my $release = common::mageia_release($::prefix) || 
+  do {
+      system('guessmounts') == 0 or die 'guessmounts failed';
+      common::mageia_release($::prefix);
+  };
+
+if ($release) {
+    $release =~ /Mageia|Mandriva/ or die "release file doesn't contain '%s', exiting.\n";
+} elsif (fs::get::mntpoint2part($::prefix, [ fs::read_fstab('', '/proc/mounts') ])) {
+    die "unknown distribution mounted in $::prefix\n";
+} else {
+    die "Your root device isn't mounted on $::prefix\n";
+}
+
+my @main_methods = bootloader::configured_main_methods();
+
+my $main_method;
+if (@main_methods == 0) {
+    die "Cannot find a configured boot loader\n";
+} elsif (@main_methods == 1) {
+    ($main_method) = @main_methods;
+} else {
+    while (1) {
+	print "Configuration files for Boot Loaders ", join(' and ', @main_methods), " were found.\n";
+	print "Which one one should be installed? ";
+	chomp($main_method = <STDIN>);
+	if (member($main_method, @main_methods)) {
+	    last;
+	} else {
+	    print "bad choice\n";
+	}
+    }
+}
+
+my $install = $bootloader::{'install_raw_' . $main_method} or die "unknown bootloader method install_raw_$main_method\n";
+
+print "About to re-install Boot Loader $main_method of following Mageia distribution:\n\t",
+  $release, "\n";
+if (!$auto) {
+    print "=> ok? <press Enter to continue, 'n' and Enter to cancel> ";
+    <STDIN> =~ /^n/i and exit 0;
+}
+
+run_program::run('mount', '--bind', '/dev', "$::prefix/dev");
+run_program::run('mount', '--bind', '/sys', "$::prefix/sys");
+$install->();
+run_program::run('umount', "$::prefix/sys");
+run_program::run('umount', "$::prefix/dev");

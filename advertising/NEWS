@@ -1,0 +1,78 @@
+- Version 6 - 8 May 2017
+
+- Mageia 6
+
+Version 5.1 - 18 December 2014
+
+- Fix badly exported 03_IM_mageia.png
+
+Version 5 - 17 December 2014
+
+- Mageia 5
+
+Version 4 - 8 January 2014
+
+- Mageia 4
+
+Version 3 - 6 april 2013
+
+- Mageia 3
+
+Version 2 - 25 april 2011
+
+- make it more generic for Mageia 2
+
+Version 1 - 12 March 2011
+
+- new advertising for Mageia 1
+
+Version 2011.0 - 13 Oct 2010
+
+- bump version
+
+Version 2010.1 - 02 May 2010
+
+- 2010.1 images
+
+Version 2010.0 - 28 October 2009
+
+- 2010.0 images
+
+Version 2009.1 - 7 March 2009
+
+- 2009.1 images
+
+Version 2009.0 - 11 September 2008
+
+- 2009.0 images
+
+Version 2008.1.1 - 21 March 2008
+
+- 2008.1 titles
+
+Version 2008.1 - 26 February 2008
+
+- 2008.1 images
+
+Version 0.6 - 18 September 2007, by Pascal "Pixel" Rigaux
+
+- really add titles for 2008.0 adversting
+
+Version 0.5 - 18 September 2007, by Pascal "Pixel" Rigaux
+
+- fix 02IM_MIGRATION.png screenshot
+
+Version 0.4 - 17 September 2007, by Pascal "Pixel" Rigaux
+
+- add titles for 2008.0 adversting
+
+Version 0.3 - 14 September 2007, by Pascal "Pixel" Rigaux
+
+- 2008.0 advertising images
+- drop *.pl files, not used by drakx-installer-stage2 anymore
+
+Version 0.2 - 4 April 2007, by Pascal "Pixel" Rigaux
+
+- 2007.1 advertising images
+- move advertising out of drakx-installer-stage2 into drakx-installer-advertising
+

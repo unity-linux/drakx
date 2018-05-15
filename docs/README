@@ -1,0 +1,208 @@
+Well here is a little description of what DrakX needs to work
+
+********************************************************************************
+* VCS **************************************************************************
+********************************************************************************
+Like all good free software, DrakX is in SVN :)
+
+You can access it at http://svnweb.mageia.org/soft/drakx/trunk/
+
+or via
+
+svn co svn+ssh://svn.mageia.org/svn/soft/drakx/trunk
+
+
+This is only read-only access. If you want more, tell me (pixel)
+
+********************************************************************************
+* Making your custom install ***************************************************
+********************************************************************************
+If you have your own rpms you want to add, or make your own updated cdrom, you
+just have to issue:
+
+% gendistrib --noclean --distrib <DIR>
+
+Where <DIR> is the root of all the distribution.
+
+``gendistrib'' will scan the file media/media_info/media.cfg to search for all
+media used. Typically you use media/main for RPM packages repository.
+
+Optionnally, you can modify ``media/media_info/rpmsrate''; this file manages
+the relative importance of the files, and thus their installation or not.
+
+To modify the code of stage2, use "misc/mdkinst_stage2_tool --uncompress
+install/stage2" to generate "install/stage2/live". When you are done, use
+"misc/mdkinst_stage2_tool --clean --compress install/stage2".
+See below for information about these files.
+
+********************************************************************************
+* FILES ************************************************************************
+********************************************************************************
+First here are the different things needed :
+
+media/media_info/media.cfg
+	description of the available install media.
+	cf MDV::Distribconf(3)
+
+media/media_info/hdlist*.cz
+	table of rpm's headers, referred by ``media.cfg''
+	their contents can be listed using ``packdrake -l <hdlist_file>'' or
+	or ``parsehdlist <hdlist_file>''.
+	! Need to be remade when media/main changes (with ``gendistrib'') !
+
+media/media_info/compssUsers.pl
+
+media/media_info/rpmsrate
+	ranks and classify packages, so that the installer will know which
+        ones to install. format is :
+		<intern_group>
+			<level> <packages>
+	where <intern_group> is a symbolic name used in media/media_info/compssUsers* files,
+	and <level> defines importance level as described below :
+		5	mandatory
+		4	important
+		3	interesting
+		2	nice
+		1	maybe
+	installer selects packages for level 4 (important) and 5 (mandatory).
+ 	packages in other level (3, 2, 1) can only be selected using
+	individual package selection.
+
+install/stage2/mdkinst.sqfs
+	for the compressed loopback of install.
+	generated from install/stage2/live tree using misc/mdkinst_stage2_tool
+
+install/stage2/rescue.sqfs
+	rescue ramdisk. create_compressed_fs iso file
+	this is the ramdisk loaded when typing rescue on boot prompt.
+
+install/images/all.img
+	fat16 image to dd on a partition (hint: sda1)
+
+install/images/boot.iso
+	iso image to burn enabling any install (cdrom/hd/nfs/ftp)
+
+  To boot from cdrom, use boot.iso
+  To boot from network, use isolinux/alt0/all.rdz + vmlinuz via pxe
+  To boot from hd (esp. usb key), use all.img.
+
+  NB for usb boot: 
+    - it seems some bioses don't use the code on MBR (sda), 
+      or at least skip it when it's blanked
+      (eg: "dd if=/dev/zero of=/dev/sda bs=1 count=446")
+    - some bioses need it. I had some luck using
+      dd if=/usr/lib/extipl/aldebaran.bin of=/dev/sda
+      (install package extipl first)
+
+********************************************************************************
+* logs *************************************************************************
+********************************************************************************
+During install, a lot of interesting stuff can be found in different places:
+in consoles and in files. To switch to console 2 for example, do Ctrl-Alt-F2
+from the X install.
+- alt-F1: the stdout of the install. Not very interesting stuff
+- alt-F2: simple shell. Quite a lot of commands are available but as they are
+written in perl (for space), they do not handle the very same options as normal.
+After install, you can do ``chroot /mnt'' to see your system just like after
+rebooting. ``rpm -qa'' works for example.
+- alt-F3: a lot of interesting things. Be carefull, some ``ERROR'' messages are
+not interesting.
+- alt-F4: kernel's place. aka the output of dmesg.
+- alt-F7: the graphical install lives there
+
+- command "bug" puts on floppy/usb-key lots of interesting stuff.
+- /tmp/stage1.log: same as alt-F3 part when stage1 run (e.g. actions
+  before graphical install really begins)
+- /tmp/ddebug.log: (nearly the) same as latter alt-F3 part
+- /tmp/syslog: same as alt-F4
+- /mnt/root/drakx/ddebug.log: at the end of each step, DrakX tries to backup
+  /tmp/ddebug.log to /mnt/root/drakx. Available only after mounting of /.
+- /mnt/root/drakx/install.log: the log of the installation (or upgrade) of the rpms
+(just like rpm's /mnt/tmp/(install|upgrade).log)
+- /mnt/root/drakx/auto_inst.cfg.pl: a kickstart file generated at the end of each
+step. Can be used in 2 ways: kickstart install or ``defcfg'' install. Hopefully
+you know about kickstart. ``defcfg'' is a way to customize the default values in
+install. For example, French can be the default language with a qwerty keyboard,
+the auto-partitionning partitions can be changed, the default user class can be
+set to developer (!)...
+
+********************************************************************************
+* modules **********************************************************************
+********************************************************************************
+To manually install a module during install, switch to console #2
+and type "modprobe <modulename>". The modprobe program is a perl
+wrapper around /usr/bin/insmod.
+
+********************************************************************************
+* Making screenshots ***********************************************************
+********************************************************************************
+1. easy solution: press "F2"!
+
+2. On a test machine, make a network install, switch to console (ctrl-alt-F2), enter:
+% xhost+
+then, on another computer:
+% DISPLAY=test_machine:0 xwd -root | convert - screenshot.png
+
+********************************************************************************
+* Auto install *****************************************************************
+********************************************************************************
+A powerful auto-install system is available. It allows performing
+an install without any human interaction.
+
+To feed automatic parameters to the stage1 part (the textmode
+part - might not be necessary for you if you plan to do
+cdrom-based auto-installs, but mostly highly needed when doing
+network installs), please refer to ../mdk-stage1/doc/TECH-INFOS.
+
+About the stage2 part (the actual installer, at the time you're
+(usually) running in graphical mode), please refer to the nice
+documentation written by David Eastcott. Either install the
+package "drakx-autoinstall-doc" from contrib, or browse:
+
+http://members.shaw.ca/Mandrake2/drakx/9.2/AutoInstall-9.2.2.html
+
+The previous document will explain you how to setup the contents
+of the auto_inst.cfg file. Note that you have 3 alternatives for
+providing this file:
+- from a floppy disk; use "kickstart=floppy" as kernel parameter,
+  as explained in the document
+- from the installation volume itself; put the file in the
+  "install" directory of the installation volume; use
+  "kickstart" only, or "kickstart=filename" to specify another
+  filename than auto_inst.cfg
+- specified by the network; setup your DHCP server to provide the
+  "bootfile" parameter, this file will be used as the
+  "auto_inst.cfg" file; in this case you also need to provide the
+  "netauto" boot parameter
+
+In any case, if the specified file ends with -IP or -IP.pl, IP
+will be substituted by the IP address of the machine, when doing
+a network install. Might be useful so that you can control all
+your auto installs from your server.
+
+********************************************************************************
+* Miscellaneous ****************************************************************
+********************************************************************************
+>  o Media access methods: nfs, ftp, http, hd, cdrom
+>  o Stages: init, stage1, stage2
+>    - What exactly each stage does
+
+init loads stage1
+stage1 loads stage2, from various medium type
+
+>    - How one stage terminates and another begins. i.e., How does
+>      stage1 find, mount, and launch stage2?
+
+  /sbin/init just starts /sbin/stage1, and monitors its
+execution; it's here to cleanly umount the partitions when stage1
+or stage2 dies/finished
+
+  /sbin/stage1 takes care of mounting stage2 (in ramdisk if
+necessary) then it execs /usr/bin/runinstall2 (thus, stage2
+replaces stage1, and init then monitors stage2)
+
+>  o Text and Graphic mode installers
+>    - Architectural overview of each
+
+have a look at drakx/docs/object_class.fig
+

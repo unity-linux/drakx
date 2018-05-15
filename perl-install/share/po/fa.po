@@ -1,0 +1,6785 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Abbas Izad <abbasizad@hotmail.com>, 2003-2005
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-12-12 23:00+0100\n"
+"PO-Revision-Date: 2015-07-05 06:47+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Persian (http://www.transifex.com/MageiaLinux/mageia/language/"
+"fa/)\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: any.pm:263 any.pm:1026 diskdrake/interactive.pm:650
+#: diskdrake/interactive.pm:874 diskdrake/interactive.pm:936
+#: diskdrake/interactive.pm:1028 diskdrake/interactive.pm:1055
+#: diskdrake/interactive.pm:1286 diskdrake/interactive.pm:1344 do_pkgs.pm:342
+#: do_pkgs.pm:387 interactive.pm:712 pkgs.pm:293
+#, c-format
+msgid "Please wait"
+msgstr "لطفاً صبر کنید"
+
+#: any.pm:263
+#, c-format
+msgid "Bootloader installation in progress"
+msgstr "نصب بارگذارآغازگر در پیشروی است"
+
+#: any.pm:274
+#, c-format
+msgid ""
+"LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+"the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+"error.\n"
+"This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+"\n"
+"Assign a new Volume ID?"
+msgstr ""
+"برنامه LILO میخواهد که شناسه‌ی جدید حجمی را به گرداننده‌ی %s بگذارد.  هرچند "
+"که\n"
+"تغییر شناسه‌ی حجم دیسک آغازگری یک ویندوز NT، ۲۰۰۰ یا XP خطای مهلک ویندوز است\n"
+"این احتیاط درباره دیسکهای داده‌ای ویندوز ۹۵ یا ۹۸ یا NT اعمال نمیشود.\n"
+"\n"
+"شناسه‌ی جدید حجم گذارده شود؟ "
+
+#: any.pm:285
+#, c-format
+msgid "Installation of bootloader failed. The following error occurred:"
+msgstr "نصب بارگذار آغازگر شکست خورد. خطای بدنبال آمده رخ داد:"
+
+#: any.pm:325
+#, c-format
+msgid ""
+"You decided to install the bootloader on a partition.\n"
+"This implies you already have a bootloader on the hard disk drive you boot "
+"(eg: System Commander).\n"
+"\n"
+"On which drive are you booting?"
+msgstr ""
+"شما تصمیم بر نصب بارگذارآغازگر بر روی یک قسمت‌بندی دارید. \n"
+"این بدین معنی است که شما از قبل بارگذارآغازگری بر روی دیسکی که آغازگر است "
+"دارید(مثل: فرمانده‌ی سیستم). \n"
+"\n"
+"شما از روی کدام دستگاه آغازگری می‌کنید؟"
+
+#: any.pm:336
+#, c-format
+msgid "Bootloader Installation"
+msgstr ""
+
+#: any.pm:340
+#, c-format
+msgid "Where do you want to install the bootloader?"
+msgstr "کجا می‌خواهید بارگذارآغازگر را نصب کنید؟"
+
+#: any.pm:356
+#, c-format
+msgid "First sector (MBR) of drive %s"
+msgstr ""
+
+#: any.pm:358
+#, c-format
+msgid "First sector of drive (MBR)"
+msgstr "اولین بند گرداننده (MBR)"
+
+#: any.pm:360
+#, c-format
+msgid "First sector of the root partition"
+msgstr "اولین بند قسمت‌بندی ریشه"
+
+#: any.pm:362
+#, c-format
+msgid "On Floppy"
+msgstr "بر دیسکچه"
+
+#: any.pm:364 pkgs.pm:289 ugtk2.pm:526 ugtk3.pm:600
+#, c-format
+msgid "Skip"
+msgstr "پرش"
+
+#: any.pm:392
+#, c-format
+msgid "Boot Style Configuration"
+msgstr "پیکربندی سبک آغازگری"
+
+#: any.pm:396
+#, c-format
+msgid "EFI System Partition"
+msgstr ""
+
+#: any.pm:411
+#, c-format
+msgid "Bootloader main options"
+msgstr "گزینه‌های اصلی بارگذارآغازگری"
+
+#: any.pm:415
+#, c-format
+msgid "Bootloader"
+msgstr "بارگذار آغازگر"
+
+#: any.pm:416
+#, c-format
+msgid "Bootloader to use"
+msgstr "بارگذارآغازگری برای استفاده"
+
+#: any.pm:418
+#, c-format
+msgid "Boot device"
+msgstr "دستگاه آغازگری"
+
+#: any.pm:420
+#, c-format
+msgid "Main options"
+msgstr ""
+
+#: any.pm:421
+#, c-format
+msgid "Delay before booting default image"
+msgstr "تأخیر قبل از آغازگری تصویر پیش‌فرض"
+
+#: any.pm:422
+#, c-format
+msgid "Enable ACPI"
+msgstr "بکار انداختن ACPI"
+
+#: any.pm:423
+#, c-format
+msgid "Enable SMP"
+msgstr ""
+
+#: any.pm:424
+#, c-format
+msgid "Enable APIC"
+msgstr ""
+
+#: any.pm:426
+#, c-format
+msgid "Enable Local APIC"
+msgstr ""
+
+#: any.pm:427 security/level.pm:63
+#, c-format
+msgid "Security"
+msgstr "امنیت"
+
+#: any.pm:428 any.pm:950 any.pm:969 authentication.pm:249
+#: diskdrake/smbnfs_gtk.pm:181
+#, c-format
+msgid "Password"
+msgstr "گذرواژه"
+
+#: any.pm:431 authentication.pm:260
+#, c-format
+msgid "The passwords do not match"
+msgstr "گذرواژه‌ها مطابقت نمی‌کنند"
+
+#: any.pm:431 authentication.pm:260 diskdrake/interactive.pm:1513
+#, c-format
+msgid "Please try again"
+msgstr "لطفاً دوباره امتحان کنید"
+
+#: any.pm:433
+#, c-format
+msgid "You cannot use a password with %s"
+msgstr ""
+
+#: any.pm:437 any.pm:953 any.pm:971 authentication.pm:250
+#, c-format
+msgid "Password (again)"
+msgstr "گذرواژه (دوباره)"
+
+#: any.pm:502
+#, c-format
+msgid "Image"
+msgstr "تصویر"
+
+#: any.pm:503 any.pm:515
+#, c-format
+msgid "Root"
+msgstr "ریشه"
+
+#: any.pm:504 any.pm:642
+#, c-format
+msgid "Append"
+msgstr "پیوست به انتها"
+
+#: any.pm:506
+#, c-format
+msgid "Xen append"
+msgstr ""
+
+#: any.pm:508
+#, c-format
+msgid "Requires password to boot"
+msgstr ""
+
+#: any.pm:509 any.pm:643
+#, c-format
+msgid "Video mode"
+msgstr "حالت ویدیوئی"
+
+#: any.pm:510
+#, c-format
+msgid "Initrd"
+msgstr "Initrd"
+
+#: any.pm:511
+#, c-format
+msgid "Network profile"
+msgstr "نمایه‌ی شبکه"
+
+#: any.pm:519 diskdrake/interactive.pm:411
+#, c-format
+msgid "Label"
+msgstr "برچسب"
+
+#: any.pm:521 any.pm:640 harddrake/v4l.pm:438
+#, c-format
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: any.pm:529
+#, c-format
+msgid "Empty label not allowed"
+msgstr "برچسب خالی اجازه داده نمی‌شود"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a kernel image"
+msgstr "تصویر هسته‌ایی را باید مشخص کنید"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a root partition"
+msgstr "قسمت‌بندی ریشه‌ایی را باید مشخص کنید"
+
+#: any.pm:531
+#, c-format
+msgid "This label is already used"
+msgstr "این جدول از قبل مورد استفاده است"
+
+#: any.pm:549
+#, c-format
+msgid "Which type of entry do you want to add?"
+msgstr "چه نوع از ورودیی را می‌خواهید اضافه کنید؟"
+
+#: any.pm:550
+#, c-format
+msgid "Linux"
+msgstr "لینوکس"
+
+#: any.pm:550
+#, c-format
+msgid "Other OS (Windows...)"
+msgstr "سیستم عامل دیگر (ویندوز...)"
+
+#: any.pm:597 any.pm:636
+#, c-format
+msgid "Bootloader Configuration"
+msgstr ""
+
+#: any.pm:598
+#, c-format
+msgid ""
+"Here are the entries on your boot menu so far.\n"
+"You can create additional entries or change the existing ones."
+msgstr ""
+"اینها فعلاً ورودی‌های منوی آغازگری شما هستند.\n"
+"می‌توانید ورودی‌های بیشتری را ایجاد کرده یا ورودی‌های موجود را تغییر دهید."
+
+#: any.pm:645
+#, c-format
+msgid "Do not touch ESP or MBR"
+msgstr ""
+
+#: any.pm:647 diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:458
+#: diskdrake/interactive.pm:305 diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:605 diskdrake/interactive.pm:820
+#: diskdrake/interactive.pm:885 diskdrake/interactive.pm:1053
+#: diskdrake/interactive.pm:1095 diskdrake/interactive.pm:1096
+#: diskdrake/interactive.pm:1329 diskdrake/interactive.pm:1367
+#: diskdrake/interactive.pm:1512 do_pkgs.pm:45 do_pkgs.pm:74 do_pkgs.pm:100
+#: do_pkgs.pm:137
+#, c-format
+msgid "Warning"
+msgstr "هشدار"
+
+#: any.pm:648
+#, c-format
+msgid ""
+"Not installing on ESP or MBR means that the installation is not bootable "
+"unless chain loaded from another OS!"
+msgstr ""
+
+#: any.pm:652
+#, c-format
+msgid "Probe Foreign OS"
+msgstr ""
+
+#: any.pm:653
+#, c-format
+msgid ""
+"If grub2 takes too long to install, you can use this option to skip "
+"detecting other OSes and make it fast"
+msgstr ""
+
+#: any.pm:909
+#, c-format
+msgid "access to X programs"
+msgstr "دستیابی به برنامه‌های X"
+
+#: any.pm:910
+#, c-format
+msgid "access to rpm tools"
+msgstr "دستیابی به ابزارهای rpm"
+
+#: any.pm:911
+#, c-format
+msgid "allow \"su\""
+msgstr "اجازه دادن به \"su\""
+
+#: any.pm:912
+#, c-format
+msgid "access to administrative files"
+msgstr "دستیابی به پرونده‌های مدیریت"
+
+#: any.pm:913
+#, c-format
+msgid "access to network tools"
+msgstr "دستیابی به ابزارهای شبکه"
+
+#: any.pm:914
+#, c-format
+msgid "access to compilation tools"
+msgstr "دستیابی به ابزارهای کمپایل کردن"
+
+#: any.pm:920
+#, c-format
+msgid "(already added %s)"
+msgstr "(%s از قبل اضافه شده است)"
+
+#: any.pm:926
+#, c-format
+msgid "Please give a user name"
+msgstr "لطفاً نام کاربریی را بدهید"
+
+#: any.pm:927
+#, c-format
+msgid ""
+"The user name must start with a lower case letter followed by only lower "
+"cased letters, numbers, `-' and `_'"
+msgstr ""
+
+#: any.pm:928
+#, c-format
+msgid "The user name is too long"
+msgstr "نام کاربر بسیار طولانی است"
+
+#: any.pm:929
+#, c-format
+msgid "This user name has already been added"
+msgstr "این نام کاربر از قبل اضافه شده است"
+
+#: any.pm:935 any.pm:973
+#, c-format
+msgid "User ID"
+msgstr "شناسه‌ی کاربر"
+
+#: any.pm:935 any.pm:974
+#, c-format
+msgid "Group ID"
+msgstr "شناسه‌ی گروه"
+
+#: any.pm:936
+#, c-format
+msgid "%s must be a number"
+msgstr ""
+
+#: any.pm:937
+#, c-format
+msgid "%s should be above 1000. Accept anyway?"
+msgstr ""
+
+#: any.pm:941
+#, c-format
+msgid "User management"
+msgstr ""
+
+#: any.pm:947
+#, c-format
+msgid "Enable guest account"
+msgstr ""
+
+#: any.pm:949 authentication.pm:236
+#, c-format
+msgid "Set administrator (root) password"
+msgstr "تعیین گذرواژه‌ی مدیر"
+
+#: any.pm:955
+#, c-format
+msgid "Enter a user"
+msgstr ""
+
+#: any.pm:957
+#, c-format
+msgid "Icon"
+msgstr "شمایل"
+
+#: any.pm:960
+#, c-format
+msgid "Real name"
+msgstr "نام واقعی"
+
+#: any.pm:967
+#, c-format
+msgid "Login name"
+msgstr "نام ثبت‌ورود"
+
+#: any.pm:972
+#, c-format
+msgid "Shell"
+msgstr "پوسته"
+
+#: any.pm:976
+#, c-format
+msgid "Extra Groups:"
+msgstr ""
+
+#: any.pm:1026
+#, c-format
+msgid "Please wait, adding media..."
+msgstr "لطفا صبر کنید، در حال افزودن رسانه..."
+
+#: any.pm:1078 security/l10n.pm:14
+#, c-format
+msgid "Autologin"
+msgstr "ثبت‌ورود خودکار"
+
+#: any.pm:1079
+#, c-format
+msgid "I can set up your computer to automatically log on one user."
+msgstr "می‌توانم رایانه‌اتان را برای ثبت‌ورود خودکار یک کاربر برپاسازی کنم."
+
+#: any.pm:1080
+#, c-format
+msgid "Use this feature"
+msgstr ""
+
+#: any.pm:1081
+#, c-format
+msgid "Choose the default user:"
+msgstr "انتخاب کردن کاربر پیش‌فرض:"
+
+#: any.pm:1082
+#, c-format
+msgid "Choose the window manager to run:"
+msgstr "انتخاب کردن مدیر پنجره‌ی برای اجرا:"
+
+#: any.pm:1093 any.pm:1108 any.pm:1177
+#, c-format
+msgid "Release Notes"
+msgstr "یادداشتهای پخش"
+
+#: any.pm:1115 any.pm:1476 interactive/gtk.pm:820
+#, c-format
+msgid "Close"
+msgstr "بستن"
+
+#: any.pm:1163
+#, c-format
+msgid "License agreement"
+msgstr "توافق‌نامه‌ی مجوز"
+
+#: any.pm:1165 diskdrake/dav.pm:26 mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Quit"
+msgstr "ترک"
+
+#: any.pm:1172
+#, c-format
+msgid "Do you accept this license ?"
+msgstr ""
+
+#: any.pm:1173
+#, c-format
+msgid "Accept"
+msgstr "پذیرش"
+
+#: any.pm:1173
+#, c-format
+msgid "Refuse"
+msgstr "امتناع"
+
+#: any.pm:1199 any.pm:1262
+#, c-format
+msgid "Please choose a language to use"
+msgstr "لطفاً زبان برای استفاده را انتخاب کنید"
+
+#: any.pm:1227
+#, c-format
+msgid ""
+"%s can support multiple languages. Select\n"
+"the languages you would like to install. They will be available\n"
+"when your installation is complete and you restart your system."
+msgstr ""
+
+#: any.pm:1229 fs/partitioning_wizard.pm:194
+#, c-format
+msgid "Mageia"
+msgstr "ماندریبا لینوکس"
+
+#: any.pm:1230
+#, c-format
+msgid "Multiple languages"
+msgstr ""
+
+#: any.pm:1231
+#, c-format
+msgid "Select Additional Languages"
+msgstr ""
+
+#: any.pm:1240 any.pm:1271
+#, c-format
+msgid "Old compatibility (non UTF-8) encoding"
+msgstr ""
+
+#: any.pm:1241
+#, c-format
+msgid "All languages"
+msgstr "همه‌ی زبان‌ها"
+
+#: any.pm:1263
+#, c-format
+msgid "Language choice"
+msgstr "گزینش زبان"
+
+#: any.pm:1317
+#, c-format
+msgid "Country / Region"
+msgstr "کشور / منطقه"
+
+#: any.pm:1318
+#, c-format
+msgid "Please choose your country"
+msgstr "لطفاً کشور خود را انتخاب کنید"
+
+#: any.pm:1320
+#, c-format
+msgid "Here is the full list of available countries"
+msgstr "این لیست کامل کشورهای در دسترس می‌باشد"
+
+#: any.pm:1321
+#, c-format
+msgid "Other Countries"
+msgstr "کشورهای دیگر"
+
+#: any.pm:1321 interactive.pm:491 interactive/gtk.pm:444
+#, c-format
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: any.pm:1327
+#, c-format
+msgid "Input method:"
+msgstr "روش درونداد:"
+
+#: any.pm:1330
+#, c-format
+msgid "None"
+msgstr "هيچکدام"
+
+#: any.pm:1421
+#, c-format
+msgid "No sharing"
+msgstr "بدون اشتراک"
+
+#: any.pm:1421
+#, c-format
+msgid "Allow all users"
+msgstr "اجازه دادن به تمام کاربرها"
+
+#: any.pm:1421
+#, c-format
+msgid "Custom"
+msgstr "سفارشی"
+
+#: any.pm:1425
+#, c-format
+msgid ""
+"Would you like to allow users to share some of their directories?\n"
+"Allowing this will permit users to simply click on \"Share\" in konqueror "
+"and nautilus.\n"
+"\n"
+"\"Custom\" permit a per-user granularity.\n"
+msgstr ""
+"آیا می‌خواهید به کاربرها اجازه‌ی اشتراک شاخه‌هایشان را بدهید؟\n"
+"با اجازه دادن این مورد کاربرها براحتی اجازه خواهند داشت که بر \"اشتراک\" در "
+"konqueror و nautilus کلیک کنند.\n"
+"\n"
+"\"سفارشی\" اجازه‌ی هر-کاربر تکی را می‌دهد.\n"
+
+#: any.pm:1437
+#, c-format
+msgid ""
+"NFS: the traditional Unix file sharing system, with less support on Mac and "
+"Windows."
+msgstr ""
+"NFS: سیستم سنتی اشتراک پرونده یونیکس، با پشتیبانی کمتر بر Mac و ویندوز."
+
+#: any.pm:1440
+#, c-format
+msgid ""
+"SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
+"systems."
+msgstr ""
+"SMB: سیستم اشتراک پرونده که بوسیله ویندوز، Mac OS X و بسیاری از سیستم‌‌های "
+"مدرن لینوکس استفاده می‌گردد."
+
+#: any.pm:1448
+#, c-format
+msgid ""
+"You can export using NFS or SMB. Please select which you would like to use."
+msgstr ""
+"می‌توانید با استفاده از NFS یا SMB صادر کنید. لطفاً آن را که می‌خواهید استفاده "
+"کنید را انتخاب کنید."
+
+#: any.pm:1476
+#, c-format
+msgid "Launch userdrake"
+msgstr "راه‌اندازی userdrake"
+
+#: any.pm:1478
+#, c-format
+msgid ""
+"The per-user sharing uses the group \"fileshare\". \n"
+"You can use userdrake to add a user to this group."
+msgstr ""
+"اشتراک هر-کاربر از گروه \"fileshare\" استفاده می‌کند. \n"
+"برای افزودن کاربری به این گروه می‌توانید از userdrake استفاده کنید."
+
+#: any.pm:1585
+#, c-format
+msgid ""
+"You need to logout and back in again for changes to take effect. Press OK to "
+"logout now."
+msgstr ""
+
+#: any.pm:1589
+#, c-format
+msgid "You need to log out and back in again for changes to take effect"
+msgstr "باید ثبت خروج کرده و باز برگردید برای اینکه تغییرات تأثیر کنند"
+
+#: any.pm:1624
+#, c-format
+msgid "Timezone"
+msgstr "زمان منطقه‌ای"
+
+#: any.pm:1624
+#, c-format
+msgid "Which is your timezone?"
+msgstr "منطقه‌ی زمانی شما کدام است؟"
+
+#: any.pm:1647 any.pm:1649
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr ""
+
+#: any.pm:1650
+#, c-format
+msgid "What is the best time?"
+msgstr ""
+
+#: any.pm:1654
+#, c-format
+msgid "%s (hardware clock set to UTC)"
+msgstr ""
+
+#: any.pm:1655
+#, c-format
+msgid "%s (hardware clock set to local time)"
+msgstr ""
+
+#: any.pm:1657
+#, c-format
+msgid "NTP Server"
+msgstr "کارگزار NTP"
+
+#: any.pm:1658
+#, c-format
+msgid "Automatic time synchronization (using NTP)"
+msgstr "هم‌گاه‌سازی خودکار زمان (با استفاده از NTP)"
+
+#: authentication.pm:24
+#, c-format
+msgid "Local file"
+msgstr "پرونده محلی"
+
+#: authentication.pm:25
+#, c-format
+msgid "LDAP"
+msgstr "LDAP"
+
+#: authentication.pm:26
+#, c-format
+msgid "NIS"
+msgstr "NIS"
+
+#: authentication.pm:27
+#, c-format
+msgid "Smart Card"
+msgstr "کارت هوشمند"
+
+#: authentication.pm:28 authentication.pm:215
+#, c-format
+msgid "Windows Domain"
+msgstr "دامنه‌ی ویندوز"
+
+#: authentication.pm:29
+#, c-format
+msgid "Kerberos 5"
+msgstr ""
+
+#: authentication.pm:65
+#, c-format
+msgid "Local file:"
+msgstr "پرونده محلی:"
+
+#: authentication.pm:65
+#, c-format
+msgid ""
+"Use local for all authentication and information user tell in local file"
+msgstr ""
+"استفاده محلی برای همه تأیید هویتها و اطلاعات کاربری که در پرونده‌ی محلی گفته "
+"میشود"
+
+#: authentication.pm:66
+#, c-format
+msgid "LDAP:"
+msgstr "LDAP:"
+
+#: authentication.pm:66
+#, c-format
+msgid ""
+"Tells your computer to use LDAP for some or all authentication. LDAP "
+"consolidates certain types of information within your organization."
+msgstr ""
+"به رایانه‌ی شما میگوید که از LDAP برای بعضی یا همه تأیید هویت‌‌ها استفاده کند. "
+"LDAP انواع مشخصی از اطلاعات را در سازمان‌تان همپیوندی می‌دهد."
+
+#: authentication.pm:67
+#, c-format
+msgid "NIS:"
+msgstr "NIS:"
+
+#: authentication.pm:67
+#, c-format
+msgid ""
+"Allows you to run a group of computers in the same Network Information "
+"Service domain with a common password and group file."
+msgstr ""
+"به شما اجازه میدهد تا گروهی از رایانه‌ها را در یک دامنه سرویس اطلاعات شبکه با "
+"گذرواژه یکسان و پرونده‌ی گروه اجرا کنید."
+
+#: authentication.pm:68
+#, c-format
+msgid "Windows Domain:"
+msgstr "دامنه‌ی ویندوز:"
+
+#: authentication.pm:68
+#, c-format
+msgid ""
+"Winbind allows the system to retrieve information and authenticate users in "
+"a Windows domain."
+msgstr ""
+"برنامه Winbind به سیستم اجازه میدهد تا اطلاعات را دریافت کرده و کاربران در "
+"یک دامنه‌ی ویندوز را تأیید هویت کند."
+
+#: authentication.pm:69
+#, c-format
+msgid "Kerberos 5 :"
+msgstr ""
+
+#: authentication.pm:69
+#, c-format
+msgid "With Kerberos and LDAP for authentication in Active Directory Server "
+msgstr ""
+
+#: authentication.pm:106 authentication.pm:140 authentication.pm:159
+#: authentication.pm:160 authentication.pm:186 authentication.pm:210
+#: authentication.pm:881
+#, c-format
+msgid " "
+msgstr ""
+
+#: authentication.pm:107 authentication.pm:141 authentication.pm:187
+#: authentication.pm:211
+#, c-format
+msgid "Welcome to the Authentication Wizard"
+msgstr ""
+
+#: authentication.pm:109
+#, c-format
+msgid ""
+"You have selected LDAP authentication. Please review the configuration "
+"options below "
+msgstr ""
+
+#: authentication.pm:111 authentication.pm:166
+#, c-format
+msgid "LDAP Server"
+msgstr "کارگزار LDAP "
+
+#: authentication.pm:112 authentication.pm:167
+#, c-format
+msgid "Base dn"
+msgstr ""
+
+#: authentication.pm:113
+#, c-format
+msgid "Fetch base Dn "
+msgstr ""
+
+#: authentication.pm:115 authentication.pm:170
+#, c-format
+msgid "Use encrypt connection with TLS "
+msgstr ""
+
+#: authentication.pm:116 authentication.pm:171
+#, c-format
+msgid "Download CA Certificate "
+msgstr ""
+
+#: authentication.pm:118 authentication.pm:151
+#, c-format
+msgid "Use Disconnect mode "
+msgstr ""
+
+#: authentication.pm:119 authentication.pm:172
+#, c-format
+msgid "Use anonymous BIND "
+msgstr ""
+
+#: authentication.pm:120 authentication.pm:123 authentication.pm:125
+#: authentication.pm:129
+#, c-format
+msgid "  "
+msgstr ""
+
+#: authentication.pm:121 authentication.pm:173
+#, c-format
+msgid "Bind DN "
+msgstr ""
+
+#: authentication.pm:122 authentication.pm:174
+#, c-format
+msgid "Bind Password "
+msgstr ""
+
+#: authentication.pm:124
+#, c-format
+msgid "Advanced path for group "
+msgstr ""
+
+#: authentication.pm:126
+#, c-format
+msgid "Password base"
+msgstr ""
+
+#: authentication.pm:127
+#, c-format
+msgid "Group base"
+msgstr ""
+
+#: authentication.pm:128
+#, c-format
+msgid "Shadow base"
+msgstr ""
+
+#: authentication.pm:143
+#, c-format
+msgid ""
+"You have selected Kerberos 5 authentication. Please review the configuration "
+"options below "
+msgstr ""
+
+#: authentication.pm:145
+#, c-format
+msgid "Realm "
+msgstr ""
+
+#: authentication.pm:147
+#, c-format
+msgid "KDCs Servers"
+msgstr ""
+
+#: authentication.pm:149
+#, c-format
+msgid "Use DNS to locate KDC for the realm"
+msgstr ""
+
+#: authentication.pm:150
+#, c-format
+msgid "Use DNS to locate realms"
+msgstr ""
+
+#: authentication.pm:155
+#, c-format
+msgid "Use local file for users information"
+msgstr ""
+
+#: authentication.pm:156
+#, c-format
+msgid "Use LDAP for users information"
+msgstr ""
+
+#: authentication.pm:162
+#, c-format
+msgid ""
+"You have selected Kerberos 5 for authentication, now you must choose the "
+"type of users information "
+msgstr ""
+
+#: authentication.pm:168
+#, c-format
+msgid "Fecth base Dn "
+msgstr ""
+
+#: authentication.pm:189
+#, c-format
+msgid ""
+"You have selected NIS authentication. Please review the configuration "
+"options below "
+msgstr ""
+
+#: authentication.pm:191
+#, c-format
+msgid "NIS Domain"
+msgstr "دامنه‌ی NIS "
+
+#: authentication.pm:192
+#, c-format
+msgid "NIS Server"
+msgstr "کارگزار NIS"
+
+#: authentication.pm:213
+#, c-format
+msgid ""
+"You have selected Windows Domain authentication. Please review the "
+"configuration options below "
+msgstr ""
+
+#: authentication.pm:217
+#, c-format
+msgid "Domain Model "
+msgstr ""
+
+#: authentication.pm:219
+#, c-format
+msgid "Active Directory Realm "
+msgstr ""
+
+#: authentication.pm:220
+#, c-format
+msgid "DNS Domain"
+msgstr ""
+
+#: authentication.pm:221
+#, c-format
+msgid "DC Server"
+msgstr ""
+
+#: authentication.pm:235 authentication.pm:251
+#, c-format
+msgid "Authentication"
+msgstr "تأیید هویت"
+
+#: authentication.pm:237
+#, c-format
+msgid "Authentication method"
+msgstr "روش تأیید هویت"
+
+#. -PO: keep this short or else the buttons will not fit in the window
+#: authentication.pm:242
+#, c-format
+msgid "No password"
+msgstr "بدون گذرواژه"
+
+#: authentication.pm:263
+#, c-format
+msgid "This password is too short (it must be at least %d characters long)"
+msgstr "این گذرواژه خیلی کوتاه است (باید حداقل %d نویسه‌ای باشد)"
+
+#: authentication.pm:375
+#, c-format
+msgid "Cannot use broadcast with no NIS domain"
+msgstr "نمی‌توان از پخش همگانی بدون دامنه‌ی NIS استفاده کرد"
+
+#: authentication.pm:876
+#, c-format
+msgid "Select file"
+msgstr "انتخاب پرونده"
+
+#: authentication.pm:882
+#, c-format
+msgid "Domain Windows for authentication : "
+msgstr ""
+
+#: authentication.pm:884
+#, c-format
+msgid "Domain Admin User Name"
+msgstr "نام کاربر مدیر دامنه"
+
+#: authentication.pm:885
+#, c-format
+msgid "Domain Admin Password"
+msgstr "گذرواژه‌ی مدیریت دامنه"
+
+#. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
+#: bootloader.pm:1122
+#, c-format
+msgid ""
+"Welcome to the operating system chooser!\n"
+"\n"
+"Choose an operating system from the list above or\n"
+"wait for default boot.\n"
+"\n"
+msgstr ""
+"Welcome to the operating system chooser!\n"
+"\n"
+"Choose an operating system from the list above or\n"
+"wait for default boot.\n"
+"\n"
+
+#: bootloader.pm:1287
+#, c-format
+msgid "LILO with text menu"
+msgstr "LILO با منوی متنی"
+
+#: bootloader.pm:1288
+#, c-format
+msgid "GRUB2 with graphical menu"
+msgstr ""
+
+#: bootloader.pm:1289
+#, fuzzy, c-format
+msgid "GRUB2 with text menu"
+msgstr "LILO با منوی متنی"
+
+#: bootloader.pm:1290
+#, c-format
+msgid "GRUB with graphical menu"
+msgstr ""
+
+#: bootloader.pm:1291
+#, c-format
+msgid "GRUB with text menu"
+msgstr ""
+
+#: bootloader.pm:1378
+#, c-format
+msgid "not enough room in /boot"
+msgstr "فضای کافی در شاخه‌ی /boot وجود ندارد"
+
+#: bootloader.pm:2393
+#, c-format
+msgid ""
+"Your bootloader configuration must be updated because partition has been "
+"renumbered"
+msgstr ""
+"پیکربندی بارگذار آغازگر باید بروزسازی شود برای اینکه قسمت‌بندی شماره‌گذاری "
+"مجدد گردیده است"
+
+#: bootloader.pm:2406
+#, c-format
+msgid ""
+"The bootloader cannot be installed correctly. You have to boot rescue and "
+"choose \"%s\""
+msgstr ""
+"بارگذار آغازگر نمی‌تواند بدرستی نصب گردد. شما باید با گزینه‌ی نجات آغازگری "
+"کرده و \"%s\" را انتخاب کنید"
+
+#: bootloader.pm:2407
+#, c-format
+msgid "Re-install Boot Loader"
+msgstr "نصب-مجدد بارگذار آغازگر"
+
+#: common.pm:271
+#, c-format
+msgid "B"
+msgstr ""
+
+#: common.pm:271
+#, c-format
+msgid "KB"
+msgstr "کیلو‌بایت"
+
+#: common.pm:271
+#, c-format
+msgid "MB"
+msgstr "مگابایت"
+
+#: common.pm:271
+#, c-format
+msgid "GB"
+msgstr "گیگابایت"
+
+#: common.pm:271 common.pm:280
+#, c-format
+msgid "TB"
+msgstr "ترابایت"
+
+#. -PO: here, "2:30" is remaining installation time (eg: "2:30" == 2 hour & 30 minutes)
+#: common.pm:288
+#, c-format
+msgid "%02d:%02d"
+msgstr ""
+
+#: common.pm:290
+#, c-format
+msgid "%d minutes"
+msgstr "%d دقیقه"
+
+#: common.pm:292
+#, c-format
+msgid "1 minute"
+msgstr "۱ دقیقه"
+
+#: common.pm:294
+#, c-format
+msgid "%d seconds"
+msgstr "%d ثانیه"
+
+#: diskdrake/dav.pm:17
+#, c-format
+msgid ""
+"WebDAV is a protocol that allows you to mount a web server's directory\n"
+"locally, and treat it like a local filesystem (provided the web server is\n"
+"configured as a WebDAV server). If you would like to add WebDAV mount\n"
+"points, select \"New\"."
+msgstr ""
+"پایان نامه‌ی WebDAV به شما اجازه‌ی سوار کردن یک شاخه‌ی کارگزار اینترنت را بطور\n"
+"محلی می‌دهد، و با آن مانند یک پرونده سیستم محلی رفتار می‌کند (در صورتی که "
+"کارگزار\n"
+"وب مانند یک کارگزار WebDAV پیکربندی شده باشد). اگر شما مایل به افزودن نقاط "
+"سوار\n"
+" WebDAV هستید، \"جدید\" را انتخاب کنید."
+
+#: diskdrake/dav.pm:25
+#, c-format
+msgid "New"
+msgstr "جدید"
+
+#: diskdrake/dav.pm:63 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:75
+#, c-format
+msgid "Unmount"
+msgstr "پیاده کردن"
+
+#: diskdrake/dav.pm:64 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:76
+#, c-format
+msgid "Mount"
+msgstr "سوار کردن"
+
+#: diskdrake/dav.pm:65
+#, c-format
+msgid "Server"
+msgstr "کارگزار"
+
+#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
+#: diskdrake/interactive.pm:727 diskdrake/interactive.pm:745
+#: diskdrake/interactive.pm:749 diskdrake/removable.pm:23
+#: diskdrake/smbnfs_gtk.pm:79
+#, c-format
+msgid "Mount point"
+msgstr "نقطه‌ی سوارکردن"
+
+#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
+#: diskdrake/interactive.pm:1182 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:80
+#, c-format
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: diskdrake/dav.pm:68 interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Remove"
+msgstr "برداشتن"
+
+#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:221 diskdrake/removable.pm:26
+#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
+#, c-format
+msgid "Done"
+msgstr "انجام شد"
+
+#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:153 diskdrake/hd_gtk.pm:323
+#: diskdrake/interactive.pm:246 diskdrake/interactive.pm:259
+#: diskdrake/interactive.pm:460 diskdrake/interactive.pm:535
+#: diskdrake/interactive.pm:553 diskdrake/interactive.pm:558
+#: diskdrake/interactive.pm:717 diskdrake/interactive.pm:1020
+#: diskdrake/interactive.pm:1073 diskdrake/interactive.pm:1229
+#: diskdrake/interactive.pm:1242 diskdrake/interactive.pm:1245
+#: diskdrake/interactive.pm:1513 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:49
+#: do_pkgs.pm:54 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:108 do_pkgs.pm:142
+#: fsedit.pm:266 interactive/http.pm:117 interactive/http.pm:118
+#: modules/interactive.pm:19 scanner.pm:94 scanner.pm:105 scanner.pm:112
+#: scanner.pm:119 wizards.pm:95 wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "خطا"
+
+#: diskdrake/dav.pm:86
+#, c-format
+msgid "Please enter the WebDAV server URL"
+msgstr "لطفاً آدرس اینترنتی کارگزار WebDAV را وارد کنید"
+
+#: diskdrake/dav.pm:90
+#, c-format
+msgid "The URL must begin with http:// or https://"
+msgstr "نشانی اینترنتی باید با http:// یا https:// شروع گردد"
+
+#: diskdrake/dav.pm:106
+#, c-format
+msgid "Are you sure you want to delete this mount point?"
+msgstr ""
+
+#: diskdrake/dav.pm:124
+#, c-format
+msgid "Server: "
+msgstr "کارگزار‌: "
+
+#: diskdrake/dav.pm:125 diskdrake/interactive.pm:505
+#: diskdrake/interactive.pm:1391 diskdrake/interactive.pm:1473
+#, c-format
+msgid "Mount point: "
+msgstr "نقطه‌ی سوارسازی: "
+
+#: diskdrake/dav.pm:126 diskdrake/interactive.pm:1480
+#, c-format
+msgid "Options: %s"
+msgstr "گزینه‌ها: %s"
+
+#: diskdrake/hd_gtk.pm:61 diskdrake/interactive.pm:300
+#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:113
+#: fs/partitioning_wizard.pm:66 fs/partitioning_wizard.pm:264
+#: fs/partitioning_wizard.pm:272 fs/partitioning_wizard.pm:310
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:529
+#: fs/partitioning_wizard.pm:614 fs/partitioning_wizard.pm:617
+#, c-format
+msgid "Partitioning"
+msgstr "قسمت‌بندی"
+
+#: diskdrake/hd_gtk.pm:74
+#, c-format
+msgid "Click on a partition, choose a filesystem type then choose an action"
+msgstr ""
+
+#: diskdrake/hd_gtk.pm:133 diskdrake/interactive.pm:1203
+#: diskdrake/interactive.pm:1213 diskdrake/interactive.pm:1267
+#, c-format
+msgid "Read carefully"
+msgstr "بدقت بخوانید"
+
+#: diskdrake/hd_gtk.pm:133
+#, c-format
+msgid "Please make a backup of your data first"
+msgstr "لطفاً نخست ذخیره‌ی پشتیبانی از داده‌های خود تهیه کنید"
+
+#: diskdrake/hd_gtk.pm:134 diskdrake/interactive.pm:239
+#, c-format
+msgid "Exit"
+msgstr "خروج"
+
+#: diskdrake/hd_gtk.pm:134
+#, c-format
+msgid "Continue"
+msgstr "ادامه"
+
+#: diskdrake/hd_gtk.pm:216 fs/partitioning_wizard.pm:590 interactive.pm:778
+#: interactive/gtk.pm:812 interactive/gtk.pm:830 interactive/gtk.pm:862
+#: ugtk2.pm:934 ugtk3.pm:1030
+#, c-format
+msgid "Help"
+msgstr "راهنما"
+
+#: diskdrake/hd_gtk.pm:257
+#, c-format
+msgid ""
+"You have one big Microsoft Windows partition.\n"
+"I suggest you first resize that partition\n"
+"(click on it, then click on \"Resize\")"
+msgstr ""
+"شما یک قسمت‌بندی بزرگ ویندوز مایکروسافت دارید. \n"
+"پیشنهاد می‌کنم اندازه‌ی آن قسمت‌بندی را نخست تغییر دهید \n"
+"(بر آن کلیک کرده، سپس بر \"تغییر اندازه\" کلیک کنید)"
+
+#: diskdrake/hd_gtk.pm:259
+#, c-format
+msgid "Please click on a partition"
+msgstr "لطفاً بر یک قسمت‌بندی کلیک کنید"
+
+#: diskdrake/hd_gtk.pm:273 diskdrake/smbnfs_gtk.pm:63
+#, c-format
+msgid "Details"
+msgstr "جزئیات"
+
+#: diskdrake/hd_gtk.pm:323
+#, c-format
+msgid "No hard disk drives found"
+msgstr "هیچ دیسک سختی یافت نشد"
+
+#: diskdrake/hd_gtk.pm:362
+#, c-format
+msgid "Unknown"
+msgstr "نامعلوم"
+
+#: diskdrake/hd_gtk.pm:429
+#, c-format
+msgid "Ext4"
+msgstr ""
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "XFS"
+msgstr ""
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Swap"
+msgstr "حافظه‌ی مبادله"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Windows"
+msgstr "ویندوز"
+
+#: diskdrake/hd_gtk.pm:430 fs/partitioning_wizard.pm:437 services.pm:201
+#, c-format
+msgid "Other"
+msgstr "دیگری"
+
+#: diskdrake/hd_gtk.pm:430 diskdrake/interactive.pm:1397
+#: fs/partitioning_wizard.pm:437
+#, c-format
+msgid "Empty"
+msgstr "خالی"
+
+#: diskdrake/hd_gtk.pm:437
+#, c-format
+msgid "Filesystem types:"
+msgstr "انواع سیستم‌های پرونده:"
+
+#: diskdrake/hd_gtk.pm:458
+#, c-format
+msgid "This partition is already empty"
+msgstr ""
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``Unmount'' first"
+msgstr "نخست از ``Unmount'' استفاده کنید"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``%s'' instead (in expert mode)"
+msgstr ""
+
+#: diskdrake/hd_gtk.pm:467 diskdrake/interactive.pm:409
+#: diskdrake/interactive.pm:644 diskdrake/removable.pm:25
+#: diskdrake/removable.pm:48
+#, c-format
+msgid "Type"
+msgstr "نوع"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose another partition"
+msgstr "انتخاب یک قسمت‌بندی دیگر"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose a partition"
+msgstr "انتخاب یک قسمت‌بندی"
+
+#: diskdrake/interactive.pm:272 diskdrake/interactive.pm:382
+#: interactive/curses.pm:532
+#, c-format
+msgid "More"
+msgstr "بیشتر"
+
+#: diskdrake/interactive.pm:280 diskdrake/interactive.pm:293
+#: diskdrake/interactive.pm:1313 mygtk2.pm:1228 mygtk3.pm:1311
+#, c-format
+msgid "Confirmation"
+msgstr ""
+
+#: diskdrake/interactive.pm:280
+#, c-format
+msgid "Continue anyway?"
+msgstr "در هر حال ادامه می‌دهید؟"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without saving"
+msgstr "ترک کردن بدون ذخیره کردن"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "ترک کردن بدون نوشتن جدول قسمت‌بندی؟"
+
+#: diskdrake/interactive.pm:293
+#, c-format
+msgid "Do you want to save the /etc/fstab modifications?"
+msgstr "آیا می خواهید پیرایشگری‌های /etc/fstab را ذخیره کنید؟"
+
+#: diskdrake/interactive.pm:300 fs/partitioning_wizard.pm:310
+#, c-format
+msgid "You need to reboot for the partition table modifications to take effect"
+msgstr "برای تأثیر یافتن پیرایشگری جدول قسمت‌بندی احتیاج به آغازگری مجدد دارید"
+
+#: diskdrake/interactive.pm:305
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+"شما باید قسمت‌بندی %s را قالب‌بندی کنید.\n"
+"در غیر این صورت هیچ ورودی برای نقطه سوارسازی %s در fstb نوشته نخواهد شد.\n"
+"با این حال ترک می‌کنید؟"
+
+#: diskdrake/interactive.pm:318
+#, c-format
+msgid "Clear all"
+msgstr "پاک کردن همه"
+
+#: diskdrake/interactive.pm:319
+#, c-format
+msgid "Auto allocate"
+msgstr "جایابی خودکار"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Normal mode"
+msgstr "الت عادی"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Expert mode"
+msgstr " حالت کارشناسی"
+
+#: diskdrake/interactive.pm:337
+#, c-format
+msgid "Hard disk drive information"
+msgstr "اطلاعات دیسک سخت"
+
+#: diskdrake/interactive.pm:371
+#, c-format
+msgid "All primary partitions are used"
+msgstr "تمام قسمت‌بندی‌های اولیه استفاده شده‌اند"
+
+#: diskdrake/interactive.pm:372
+#, c-format
+msgid "I cannot add any more partitions"
+msgstr "نمی‌توانم قسمت‌بندی بیشتری را اضافه کنم"
+
+#: diskdrake/interactive.pm:373
+#, c-format
+msgid ""
+"To have more partitions, please delete one to be able to create an extended "
+"partition"
+msgstr ""
+"برای داشتن قسمت‌بندی‌های بیشتر، لطفاً یکی از آنها را برای ایجاد قسمت‌بندی مضاعف "
+"حذف کنید"
+
+#: diskdrake/interactive.pm:384
+#, c-format
+msgid "Reload partition table"
+msgstr "بارگذاری مجدد جدول قسمت‌بندی"
+
+#: diskdrake/interactive.pm:391
+#, c-format
+msgid "Detailed information"
+msgstr "اطلاعات مفصل"
+
+#: diskdrake/interactive.pm:407
+#, c-format
+msgid "View"
+msgstr "نما"
+
+#: diskdrake/interactive.pm:412 diskdrake/interactive.pm:833
+#, c-format
+msgid "Resize"
+msgstr "تغییر اندازه"
+
+#: diskdrake/interactive.pm:413
+#, c-format
+msgid "Format"
+msgstr "قالب"
+
+#: diskdrake/interactive.pm:415 diskdrake/interactive.pm:983
+#, c-format
+msgid "Add to RAID"
+msgstr "افزودن به RAID"
+
+#: diskdrake/interactive.pm:416 diskdrake/interactive.pm:1002
+#, c-format
+msgid "Add to LVM"
+msgstr "افزودن به LVM"
+
+#: diskdrake/interactive.pm:417
+#, c-format
+msgid "Use"
+msgstr ""
+
+#: diskdrake/interactive.pm:419
+#, c-format
+msgid "Delete"
+msgstr "حذف کردن"
+
+#: diskdrake/interactive.pm:420
+#, c-format
+msgid "Remove from RAID"
+msgstr "برداشتن از RAID"
+
+#: diskdrake/interactive.pm:421
+#, c-format
+msgid "Remove from LVM"
+msgstr "برداشتن از LVM"
+
+#: diskdrake/interactive.pm:422
+#, c-format
+msgid "Remove from dm"
+msgstr ""
+
+#: diskdrake/interactive.pm:423
+#, c-format
+msgid "Modify RAID"
+msgstr "پیرایشگری RAID"
+
+#: diskdrake/interactive.pm:424
+#, c-format
+msgid "Use for loopback"
+msgstr "استفاده برای loopback"
+
+#: diskdrake/interactive.pm:434
+#, c-format
+msgid "Create"
+msgstr "ایجاد کردن"
+
+#: diskdrake/interactive.pm:460
+#, c-format
+msgid "Failed to mount partition"
+msgstr ""
+
+#: diskdrake/interactive.pm:494 diskdrake/interactive.pm:496
+#, c-format
+msgid "Create a new partition"
+msgstr "ایجاد قسمت‌بندی جدیدی"
+
+#: diskdrake/interactive.pm:498
+#, c-format
+msgid "Start sector: "
+msgstr "بند شروع:"
+
+#: diskdrake/interactive.pm:501 diskdrake/interactive.pm:1088
+#, c-format
+msgid "Size in MB: "
+msgstr "اندازه در مگابایت: "
+
+#: diskdrake/interactive.pm:503 diskdrake/interactive.pm:1089
+#, c-format
+msgid "Filesystem type: "
+msgstr "نوع سیستم پرونده: "
+
+#: diskdrake/interactive.pm:513
+#, c-format
+msgid "Preference: "
+msgstr "ترجیح: "
+
+#: diskdrake/interactive.pm:516
+#, c-format
+msgid "Logical volume name "
+msgstr "نام حجم منطقی "
+
+#: diskdrake/interactive.pm:518
+#, c-format
+msgid "Encrypt partition"
+msgstr ""
+
+#: diskdrake/interactive.pm:519
+#, c-format
+msgid "Encryption key "
+msgstr ""
+
+#: diskdrake/interactive.pm:520 diskdrake/interactive.pm:1517
+#, c-format
+msgid "Encryption key (again)"
+msgstr "کلید رمزی (دوباره)"
+
+#: diskdrake/interactive.pm:532 diskdrake/interactive.pm:1513
+#, c-format
+msgid "The encryption keys do not match"
+msgstr "کلیدهای رمزی مطابقت نمی‌کنند"
+
+#: diskdrake/interactive.pm:533
+#, c-format
+msgid "Missing encryption key"
+msgstr ""
+
+#: diskdrake/interactive.pm:553
+#, c-format
+msgid ""
+"You cannot create a new partition\n"
+"(since you reached the maximal number of primary partitions).\n"
+"First remove a primary partition and create an extended partition."
+msgstr ""
+"نمی‌توانید قسمت‌بندی جدیدی را ایجاد کنید\n"
+"(چون حداکثر تعداد قسمت‌بندیهای اولیه بدست آمده است). \n"
+"ابتدا قسمت‌بندی اولیه‌ای را برداشته و سپس یک قسمت‌بندی مضاعف ایجاد کنید."
+
+#: diskdrake/interactive.pm:605
+#, c-format
+msgid "Remove the loopback file?"
+msgstr "آیا پرونده‌ی loopback برداشته شود؟"
+
+#: diskdrake/interactive.pm:625
+#, c-format
+msgid ""
+"After changing type of partition %s, all data on this partition will be lost"
+msgstr ""
+"بعد از تغییر نوع قسمت‌بندی %s، تمام داده‌ها بر این قسمت‌بندی از دست خواهند رفت"
+
+#: diskdrake/interactive.pm:641
+#, c-format
+msgid "Change partition type"
+msgstr "تغییر دادن نوع قسمت‌بندی"
+
+#: diskdrake/interactive.pm:643 diskdrake/removable.pm:47
+#, c-format
+msgid "Which filesystem do you want?"
+msgstr "چه سیستم پرونده‌ای را‌ می‌خواهید؟"
+
+#: diskdrake/interactive.pm:650
+#, c-format
+msgid "Switching from %s to %s"
+msgstr ""
+
+#: diskdrake/interactive.pm:685
+#, c-format
+msgid "Set volume label"
+msgstr ""
+
+#: diskdrake/interactive.pm:687
+#, c-format
+msgid "Beware, this will be written to disk as soon as you validate!"
+msgstr ""
+
+#: diskdrake/interactive.pm:688
+#, c-format
+msgid "Beware, this will be written to disk only after formatting!"
+msgstr ""
+
+#: diskdrake/interactive.pm:690
+#, c-format
+msgid "Which volume label?"
+msgstr ""
+
+#: diskdrake/interactive.pm:691
+#, c-format
+msgid "Label:"
+msgstr ""
+
+#: diskdrake/interactive.pm:712
+#, c-format
+msgid "Where do you want to mount the loopback file %s?"
+msgstr "در کجا می‌خواهید پرونده‌ی loopback %s را سوار کنید؟"
+
+#: diskdrake/interactive.pm:713
+#, c-format
+msgid "Where do you want to mount device %s?"
+msgstr "در کجا می خواهید دستگاه %s را سوار کنید؟"
+
+#: diskdrake/interactive.pm:718
+#, c-format
+msgid ""
+"Cannot unset mount point as this partition is used for loop back.\n"
+"Remove the loopback first"
+msgstr ""
+"نمی‌توان نقطه‌ی سوارسازی را برداشت چرا که این قسمت‌بندی برای loop back استفاده "
+"می‌گردد.\n"
+"ابتدا loopback را بردارید"
+
+#: diskdrake/interactive.pm:748
+#, c-format
+msgid "Where do you want to mount %s?"
+msgstr "در کجا می‌خواهید %s را سوار کنید؟"
+
+#: diskdrake/interactive.pm:778 diskdrake/interactive.pm:874
+#: fs/partitioning_wizard.pm:151 fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing"
+msgstr "تغییر اندازه"
+
+#: diskdrake/interactive.pm:778
+#, c-format
+msgid "Computing FAT filesystem bounds"
+msgstr "حساب کردن حدود سیستم پرونده‌ی FAT"
+
+#: diskdrake/interactive.pm:820
+#, c-format
+msgid "This partition is not resizeable"
+msgstr "این قسمت‌بندی قابل تغییراندازه نیست"
+
+#: diskdrake/interactive.pm:825
+#, c-format
+msgid "All data on this partition should be backed up"
+msgstr "تمام داده‌ها بر این قسمت‌بندی باید ذخیره‌ی پشتیبان شوند"
+
+#: diskdrake/interactive.pm:827
+#, c-format
+msgid "After resizing partition %s, all data on this partition will be lost"
+msgstr ""
+"بعد از تغییراندازه‌ی قسمت‌بندی %s، تمام داده‌های روی این قسمت‌بندی از دست خواهند "
+"رفت"
+
+#: diskdrake/interactive.pm:834
+#, c-format
+msgid "Choose the new size"
+msgstr "انتخاب اندازه‌ی جدید"
+
+#: diskdrake/interactive.pm:835
+#, c-format
+msgid "New size in MB: "
+msgstr "اندازه‌ی جدید به مگابایت: "
+
+#: diskdrake/interactive.pm:836
+#, c-format
+msgid "Minimum size: %s MB"
+msgstr ""
+
+#: diskdrake/interactive.pm:837
+#, c-format
+msgid "Maximum size: %s MB"
+msgstr ""
+
+#: diskdrake/interactive.pm:885 fs/partitioning_wizard.pm:241
+#, c-format
+msgid ""
+"To ensure data integrity after resizing the partition(s),\n"
+"filesystem checks will be run on your next boot into Microsoft Windows®"
+msgstr ""
+
+#: diskdrake/interactive.pm:951 diskdrake/interactive.pm:1508
+#, c-format
+msgid "Filesystem encryption key"
+msgstr "کلید رمزگذاری سیستم پرونده"
+
+#: diskdrake/interactive.pm:952
+#, c-format
+msgid "Enter your filesystem encryption key"
+msgstr ""
+
+#: diskdrake/interactive.pm:953 diskdrake/interactive.pm:1516
+#, c-format
+msgid "Encryption key"
+msgstr "کلید رمزی"
+
+#: diskdrake/interactive.pm:960
+#, c-format
+msgid "Invalid key"
+msgstr ""
+
+#: diskdrake/interactive.pm:983
+#, c-format
+msgid "Choose an existing RAID to add to"
+msgstr "انتخاب یک RAID موجود برای اضافه کردن به آن"
+
+#: diskdrake/interactive.pm:985 diskdrake/interactive.pm:1004
+#, c-format
+msgid "new"
+msgstr "جدید"
+
+#: diskdrake/interactive.pm:1002
+#, c-format
+msgid "Choose an existing LVM to add to"
+msgstr "انتخاب یک LVM موجود برای اضافه کردن به آن"
+
+#: diskdrake/interactive.pm:1014 diskdrake/interactive.pm:1023
+#, c-format
+msgid "LVM name"
+msgstr ""
+
+#: diskdrake/interactive.pm:1015
+#, c-format
+msgid "Enter a name for the new LVM volume group"
+msgstr ""
+
+#: diskdrake/interactive.pm:1020
+#, c-format
+msgid "\"%s\" already exists"
+msgstr ""
+
+#: diskdrake/interactive.pm:1028
+#, c-format
+msgid "Setting up LVM"
+msgstr ""
+
+#: diskdrake/interactive.pm:1053
+#, c-format
+msgid ""
+"Physical volume %s is still in use.\n"
+"Do you want to move used physical extents on this volume to other volumes?"
+msgstr ""
+
+#: diskdrake/interactive.pm:1055
+#, c-format
+msgid "Moving physical extents"
+msgstr ""
+
+#: diskdrake/interactive.pm:1073
+#, c-format
+msgid "This partition cannot be used for loopback"
+msgstr "این قسمت‌بندی نمی‌تواند برای loopback استفاده گردد"
+
+#: diskdrake/interactive.pm:1086
+#, c-format
+msgid "Loopback"
+msgstr "Loopback"
+
+#: diskdrake/interactive.pm:1087
+#, c-format
+msgid "Loopback file name: "
+msgstr "نام پرونده‌ی Loopback: "
+
+#: diskdrake/interactive.pm:1092
+#, c-format
+msgid "Give a file name"
+msgstr "نام پرونده‌ای را بدهید"
+
+#: diskdrake/interactive.pm:1095
+#, c-format
+msgid "File is already used by another loopback, choose another one"
+msgstr ""
+"پرونده از قبل توسط loopback دیگری مورد استفاده است، یکی دیگر را انتخاب کنید"
+
+#: diskdrake/interactive.pm:1096
+#, c-format
+msgid "File already exists. Use it?"
+msgstr "پرونده از قبل وجود دارد. از آن استفاده شود؟"
+
+#: diskdrake/interactive.pm:1128 diskdrake/interactive.pm:1131
+#, c-format
+msgid "Mount options"
+msgstr "گزینه‌های سوارسازی"
+
+#: diskdrake/interactive.pm:1138
+#, c-format
+msgid "Various"
+msgstr "گوناگون"
+
+#: diskdrake/interactive.pm:1184
+#, c-format
+msgid "device"
+msgstr "دستگاه"
+
+#: diskdrake/interactive.pm:1185
+#, c-format
+msgid "level"
+msgstr "سطح"
+
+#: diskdrake/interactive.pm:1186
+#, c-format
+msgid "chunk size in KiB"
+msgstr "اندازه‌ی تکه در کیلوبایت"
+
+#: diskdrake/interactive.pm:1204
+#, c-format
+msgid "Be careful: this operation is dangerous."
+msgstr "دقت کنید: این عملیات خطرناک است."
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "Partitioning Type"
+msgstr ""
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "What type of partitioning?"
+msgstr "چه نوعی از قسمت‌بندی؟"
+
+#: diskdrake/interactive.pm:1258
+#, c-format
+msgid "You'll need to reboot before the modification can take effect"
+msgstr "احتیاج به آغازگری مجدد دارید تا پیرایشگری بتواند مؤثر واقع گردد"
+
+#: diskdrake/interactive.pm:1267
+#, c-format
+msgid "Partition table of drive %s is going to be written to disk"
+msgstr "جدول قسمت‌بندی دستگاه %s به روی دیسک نوشته خواهد شد"
+
+#: diskdrake/interactive.pm:1286 fs/format.pm:106 fs/format.pm:113
+#, c-format
+msgid "Formatting partition %s"
+msgstr "قالب‌بندی قسمت‌بندی %s"
+
+#: diskdrake/interactive.pm:1299
+#, c-format
+msgid "After formatting partition %s, all data on this partition will be lost"
+msgstr ""
+"بعد از قالب‌بندی قسمت‌بندی %s، تمام داده‌های روی این قسمت‌بندی از دست خواهند رفت"
+
+#: diskdrake/interactive.pm:1313 fs/partitioning.pm:48
+#, c-format
+msgid "Check for bad blocks?"
+msgstr "بررسی کردن بلوک‌های خراب؟"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Move files to the new partition"
+msgstr "انتقال پرونده‌ها به قسمت‌بندی جدید"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Hide files"
+msgstr "پنهان کردن پرونده‌ها"
+
+#: diskdrake/interactive.pm:1329
+#, c-format
+msgid ""
+"Directory %s already contains data\n"
+"(%s)\n"
+"\n"
+"You can either choose to move the files into the partition that will be "
+"mounted there or leave them where they are (which results in hiding them by "
+"the contents of the mounted partition)"
+msgstr ""
+
+#: diskdrake/interactive.pm:1344
+#, c-format
+msgid "Moving files to the new partition"
+msgstr "انتقال پرونده‌ها به قسمت‌بندی جدید"
+
+#: diskdrake/interactive.pm:1348
+#, c-format
+msgid "Copying %s"
+msgstr "کپی کردن %s"
+
+#: diskdrake/interactive.pm:1352
+#, c-format
+msgid "Removing %s"
+msgstr "برداشتن %s"
+
+#: diskdrake/interactive.pm:1366
+#, c-format
+msgid "partition %s is now known as %s"
+msgstr "قسمت‌بندی %s اکنون مانند %s شناخته می‌شود"
+
+#: diskdrake/interactive.pm:1367
+#, c-format
+msgid "Partitions have been renumbered: "
+msgstr "قسمت‌بندیها شماره‌گذاری مجدد شده‌اند: "
+
+#: diskdrake/interactive.pm:1392 diskdrake/interactive.pm:1457
+#, c-format
+msgid "Device: "
+msgstr "دستگاه: "
+
+#: diskdrake/interactive.pm:1393
+#, c-format
+msgid "Volume label: "
+msgstr "برچسب حجم: "
+
+#: diskdrake/interactive.pm:1394
+#, c-format
+msgid "UUID: "
+msgstr ""
+
+#: diskdrake/interactive.pm:1395
+#, c-format
+msgid "DOS drive letter: %s (just a guess)\n"
+msgstr "نویسه‌ی دستگاه DOS : %s (حدس)\n"
+
+#: diskdrake/interactive.pm:1399 diskdrake/interactive.pm:1476
+#, c-format
+msgid "Type: "
+msgstr "نوع: "
+
+#: diskdrake/interactive.pm:1401
+#, c-format
+msgid "Start: sector %s\n"
+msgstr "شروع: بند %s\n"
+
+#: diskdrake/interactive.pm:1403
+#, c-format
+msgid "Size: %s (%s%% of disk)"
+msgstr ""
+
+#: diskdrake/interactive.pm:1405
+#, c-format
+msgid "Size: %s"
+msgstr "اندازه: %s"
+
+#: diskdrake/interactive.pm:1407
+#, c-format
+msgid ", %s sectors"
+msgstr ", %s بندها"
+
+#: diskdrake/interactive.pm:1409
+#, c-format
+msgid "Cylinder %d to %d\n"
+msgstr "سیلندر %d به %d\n"
+
+#: diskdrake/interactive.pm:1410
+#, c-format
+msgid "Number of logical extents: %d\n"
+msgstr ""
+
+#: diskdrake/interactive.pm:1411
+#, c-format
+msgid "Formatted\n"
+msgstr "قالب‌بندی شده\n"
+
+#: diskdrake/interactive.pm:1412
+#, c-format
+msgid "Not formatted\n"
+msgstr "قالب‌بندی نشده\n"
+
+#: diskdrake/interactive.pm:1413
+#, c-format
+msgid "Mounted\n"
+msgstr "سوار شده\n"
+
+#: diskdrake/interactive.pm:1414
+#, c-format
+msgid "RAID %s\n"
+msgstr "RAID %s\n"
+
+#: diskdrake/interactive.pm:1416
+#, c-format
+msgid "Encrypted"
+msgstr ""
+
+#: diskdrake/interactive.pm:1418
+#, c-format
+msgid " (mapped on %s)"
+msgstr ""
+
+#: diskdrake/interactive.pm:1419
+#, c-format
+msgid " (to map on %s)"
+msgstr ""
+
+#: diskdrake/interactive.pm:1420
+#, c-format
+msgid " (inactive)"
+msgstr ""
+
+#: diskdrake/interactive.pm:1427
+#, c-format
+msgid ""
+"Loopback file(s):\n"
+"   %s\n"
+msgstr ""
+"پرونده(های) loopback:\n"
+"   %s\n"
+
+#: diskdrake/interactive.pm:1428
+#, c-format
+msgid ""
+"Partition booted by default\n"
+"    (for MS-DOS boot, not for lilo)\n"
+msgstr ""
+"قسمت‌بندی آغاز شده بوسیله‌ی پیش‌فرض\n"
+"    (برای آغازگری MS-DOS ، نه برای lilo)\n"
+
+#: diskdrake/interactive.pm:1430
+#, c-format
+msgid "Level %s\n"
+msgstr "سطح %s\n"
+
+#: diskdrake/interactive.pm:1431
+#, c-format
+msgid "Chunk size %d KiB\n"
+msgstr "اندازه‌ی تکه %d کیلوبایت\n"
+
+#: diskdrake/interactive.pm:1432
+#, c-format
+msgid "RAID-disks %s\n"
+msgstr "دیسک‌های-RAID %s\n"
+
+#: diskdrake/interactive.pm:1434
+#, c-format
+msgid "Loopback file name: %s"
+msgstr "نام پرونده Loopback: %s "
+
+#: diskdrake/interactive.pm:1437
+#, c-format
+msgid ""
+"\n"
+"Chances are, this partition is\n"
+"a Driver partition. You should\n"
+"probably leave it alone.\n"
+msgstr ""
+"\n"
+"ممکن است این قسمت‌بندی, \n"
+"قسمت‌بندی یک دستگاه باشد. شما باید\n"
+"آن را بحال خود بگذارید.\n"
+
+#: diskdrake/interactive.pm:1440
+#, c-format
+msgid ""
+"\n"
+"This special Bootstrap\n"
+"partition is for\n"
+"dual-booting your system.\n"
+msgstr ""
+"\n"
+"این قسمت‌بندی Bootstrap \n"
+"مخصوص برای أغازگری دوگانه‌ی\n"
+"سیستم شما می‌باشد.\n"
+
+#: diskdrake/interactive.pm:1449
+#, c-format
+msgid "Free space on %s (%s)"
+msgstr ""
+
+#: diskdrake/interactive.pm:1458
+#, c-format
+msgid "Read-only"
+msgstr "فقط‌-خواندن"
+
+#: diskdrake/interactive.pm:1459
+#, c-format
+msgid "Size: %s\n"
+msgstr "اندازه: %s\n"
+
+#: diskdrake/interactive.pm:1460
+#, c-format
+msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+msgstr "هندسه: %s سیلندر‌ها، %s سرها، %s بندها\n"
+
+#: diskdrake/interactive.pm:1461
+#, c-format
+msgid "Name: "
+msgstr "نام: "
+
+#: diskdrake/interactive.pm:1462
+#, c-format
+msgid "Medium type: "
+msgstr ""
+
+#: diskdrake/interactive.pm:1463
+#, c-format
+msgid "LVM-disks %s\n"
+msgstr "LVM-disks %s\n"
+
+#: diskdrake/interactive.pm:1464
+#, c-format
+msgid "Partition table type: %s\n"
+msgstr "نوع جدول قسمت‌بندی: %s\n"
+
+#: diskdrake/interactive.pm:1465
+#, c-format
+msgid "on channel %d id %d\n"
+msgstr "روی کانال %d شناسه %d\n"
+
+#: diskdrake/interactive.pm:1509
+#, c-format
+msgid "Choose your filesystem encryption key"
+msgstr "کلید رمزگذاری سیستم پرونده خود را انتخاب کنید"
+
+#: diskdrake/interactive.pm:1512
+#, c-format
+msgid "This encryption key is too simple (must be at least %d characters long)"
+msgstr "این کلید رمز خیلی ساده است ( باید حداقل %d نویسه طولانی باشد)"
+
+#: diskdrake/interactive.pm:1519
+#, c-format
+msgid "Encryption algorithm"
+msgstr "الگوریتم رمزگذاری"
+
+#: diskdrake/removable.pm:46
+#, c-format
+msgid "Change type"
+msgstr "تغییر نوع"
+
+#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:120 interactive.pm:675
+#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
+#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846
+#: mygtk2.pm:1229 mygtk3.pm:928 mygtk3.pm:1312 ugtk2.pm:415 ugtk2.pm:517
+#: ugtk2.pm:526 ugtk2.pm:810 ugtk3.pm:501 ugtk3.pm:591 ugtk3.pm:600
+#: ugtk3.pm:906
+#, c-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: diskdrake/smbnfs_gtk.pm:164
+#, c-format
+msgid "Cannot login using username %s (bad password?)"
+msgstr "نمی‌توان با استفاده از نام کاربر %s ثبت‌ورود کرد (گذرواژه‌ی بد؟)"
+
+#: diskdrake/smbnfs_gtk.pm:168 diskdrake/smbnfs_gtk.pm:177
+#, c-format
+msgid "Domain Authentication Required"
+msgstr "تأیید هویت دامنه لازم است"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Which username"
+msgstr "کدام نام‌کاربر"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Another one"
+msgstr "یکی دیگر"
+
+#: diskdrake/smbnfs_gtk.pm:178
+#, c-format
+msgid ""
+"Please enter your username, password and domain name to access this host."
+msgstr ""
+"لطفاً نام‌کاربری، گذرواژه و نام دامنه‌ی خود را برای دستیابی به این میزبان وارد "
+"کنید."
+
+#: diskdrake/smbnfs_gtk.pm:180
+#, c-format
+msgid "Username"
+msgstr "نام‌کاربر"
+
+#: diskdrake/smbnfs_gtk.pm:182
+#, c-format
+msgid "Domain"
+msgstr "دامنه"
+
+#: diskdrake/smbnfs_gtk.pm:206
+#, c-format
+msgid "Search servers"
+msgstr "جستجوی کارگزارها"
+
+#: diskdrake/smbnfs_gtk.pm:211
+#, c-format
+msgid "Search for new servers"
+msgstr "جستجوی کارگزارهای جدید"
+
+#: do_pkgs.pm:45 do_pkgs.pm:100
+#, c-format
+msgid "The package %s needs to be installed. Do you want to install it?"
+msgstr "بسته‌ی %s لازم است نصب شود. آیا می‌خواهید آن را نصب کنید؟"
+
+#: do_pkgs.pm:49 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:142
+#, c-format
+msgid "Could not install the %s package!"
+msgstr "بسته‌ی %s نتوانست نصب گردد!"
+
+#: do_pkgs.pm:54 do_pkgs.pm:108
+#, c-format
+msgid "Mandatory package %s is missing"
+msgstr "بسته‌ی ضروری %s حضور ندارد"
+
+#: do_pkgs.pm:74 do_pkgs.pm:137
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "بسته‌های بدنبال آمده لازم است نصب شوند:\n"
+
+#: do_pkgs.pm:342
+#, c-format
+msgid "Installing packages..."
+msgstr "نصب بسته‌ها..."
+
+#: do_pkgs.pm:387 pkgs.pm:293
+#, c-format
+msgid "Removing packages..."
+msgstr "حذف بسته‌ها..."
+
+#: fs/any.pm:21
+#, c-format
+msgid ""
+"An error occurred - no valid devices were found on which to create new "
+"filesystems. Please check your hardware for the cause of this problem"
+msgstr ""
+"خطائی رخ داد - هیچ دستگاه معتبری یافت نشد که بر آن سیستم‌های پرونده ایجاد "
+"گردد. لطفاً سخت‌افزار خود را برای یافتن علت این اشکال بررسی کنید."
+
+#: fs/any.pm:77 fs/partitioning_wizard.pm:77
+#, c-format
+msgid "You must have a ESP FAT32 partition mounted in /boot/EFI"
+msgstr "شما باید یک قسمت‌بندی ESP FAT32 سوار شده در /boot/EFI داشته باشید"
+
+#: fs/any.pm:81 fs/partitioning_wizard.pm:82
+#, c-format
+msgid ""
+"You must have a BIOS boot partition for non-UEFI GPT-partitioned disks. "
+"Please create one before continuing."
+msgstr ""
+
+#: fs/format.pm:110
+#, c-format
+msgid "Creating and formatting file %s"
+msgstr "ایجاد و قالب‌بندی پرونده %s"
+
+#: fs/format.pm:130
+#, c-format
+msgid "I do not know how to set label on %s with type %s"
+msgstr ""
+
+#: fs/format.pm:142
+#, c-format
+msgid "setting label on %s failed, is it formatted?"
+msgstr ""
+
+#: fs/format.pm:190
+#, c-format
+msgid "I do not know how to format %s in type %s"
+msgstr "نمی‌دانم چگونه %s را با نوع %s قالب‌بندی کنم"
+
+#: fs/format.pm:195 fs/format.pm:197
+#, c-format
+msgid "%s formatting of %s failed"
+msgstr "%s قالب‌بندی %s ناموفق بود"
+
+#: fs/loopback.pm:24
+#, c-format
+msgid "Circular mounts %s\n"
+msgstr "سوارسازی دایره‌ای %s\n"
+
+#: fs/mount.pm:85
+#, c-format
+msgid "Mounting partition %s"
+msgstr "سوار کردن قسمت‌بندی %s"
+
+#: fs/mount.pm:87
+#, c-format
+msgid "mounting partition %s in directory %s failed"
+msgstr "سوار کردن قسمت‌بندی %s در شاخه‌ی %s شکست خورد"
+
+#: fs/mount.pm:92 fs/mount.pm:109
+#, c-format
+msgid "Checking %s"
+msgstr "بررسی %s"
+
+#: fs/mount.pm:126 partition_table.pm:399
+#, c-format
+msgid "error unmounting %s: %s"
+msgstr "خطا در پیاده کردن %s: %s"
+
+#: fs/mount.pm:141
+#, c-format
+msgid "Enabling swap partition %s"
+msgstr "بکار انداختن قسمت‌بندی حافظه‌ی مبادله %s"
+
+#: fs/mount_options.pm:114
+#, c-format
+msgid "Enable POSIX Access Control Lists"
+msgstr ""
+
+#: fs/mount_options.pm:116
+#, c-format
+msgid "Flush write cache on file close"
+msgstr ""
+
+#: fs/mount_options.pm:118
+#, c-format
+msgid "Enable group disk quota accounting and optionally enforce limits"
+msgstr ""
+
+#: fs/mount_options.pm:120
+#, c-format
+msgid ""
+"Do not update inode access times on this filesystem\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"زمان دستیابی inode در این سیستم پرونده بروزسازی نگردد\n"
+"(برای دستیابی سریع‌تر بر spool اخبار و سرعت دادن به کارگزاران اخبار)."
+
+#: fs/mount_options.pm:123
+#, c-format
+msgid ""
+"Update inode access times on this filesystem in a more efficient way\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+
+#: fs/mount_options.pm:126
+#, c-format
+msgid ""
+"Can only be mounted explicitly (i.e.,\n"
+"the -a option will not cause the filesystem to be mounted)."
+msgstr ""
+"فقط می‌تواند بطور صریح سوار گردد (\n"
+"گزینه -a باعث سوار شدن سیستم پرونده‌ای نخواهد شد)."
+
+#: fs/mount_options.pm:129
+#, c-format
+msgid "Do not interpret character or block special devices on the filesystem."
+msgstr "نویسه‌ یا دستگاه‌های مخصوص بلوک روی سیستم پرونده‌ای تعبیر نشوند."
+
+#: fs/mount_options.pm:131
+#, c-format
+msgid ""
+"Do not allow execution of any binaries on the mounted\n"
+"filesystem. This option might be useful for a server that has filesystems\n"
+"containing binaries for architectures other than its own."
+msgstr ""
+"اجازه‌ی اجرای هر دوگانی بر سیستم پرونده‌ی سوارشده داده نشود.\n"
+"این گزینه ممکن است برای کارگزاری که دارای سیستم پرونده‌ی حاوی دوگانی‌هایی "
+"برای\n"
+"ساختاری غیر از ساختار خود است مفید باشد."
+
+#: fs/mount_options.pm:135
+#, c-format
+msgid ""
+"Do not allow set-user-identifier or set-group-identifier\n"
+"bits to take effect. (This seems safe, but is in fact rather unsafe if you\n"
+"have suidperl(1) installed.)"
+msgstr ""
+"عدم اجازه‌ی تأثیرپذیری بیت‌های set-user-identifier یا set-group-identifier\n"
+" (این بنظر امن می‌رسد، ولی در حقیقت اگر شما suidperl(1) را نصب \n"
+"کرده‌اید ناامن است )"
+
+#: fs/mount_options.pm:139
+#, c-format
+msgid "Mount the filesystem read-only."
+msgstr "سوار کردن سیستم پرونده بطور فقط-خواندن."
+
+#: fs/mount_options.pm:141
+#, c-format
+msgid "All I/O to the filesystem should be done synchronously."
+msgstr "همه‌ی I/O به سیستم پرونده بایستی بطور هم‌گاه انجام گیرد."
+
+#: fs/mount_options.pm:143
+#, c-format
+msgid "Allow every user to mount and umount the filesystem."
+msgstr ""
+
+#: fs/mount_options.pm:145
+#, c-format
+msgid "Allow an ordinary user to mount the filesystem."
+msgstr ""
+
+#: fs/mount_options.pm:147
+#, c-format
+msgid "Enable user disk quota accounting, and optionally enforce limits"
+msgstr ""
+
+#: fs/mount_options.pm:149
+#, c-format
+msgid "Support \"user.\" extended attributes"
+msgstr ""
+
+#: fs/mount_options.pm:151
+#, c-format
+msgid "Give write access to ordinary users"
+msgstr "دادن حق نگارش به کاربران عادی"
+
+#: fs/mount_options.pm:153
+#, c-format
+msgid "Give read-only access to ordinary users"
+msgstr "دادن حق خواندن به کاربران عادی"
+
+#: fs/mount_point.pm:87
+#, c-format
+msgid "Duplicate mount point %s"
+msgstr "تکثیر نقطه‌ی سوارسازی %s"
+
+#: fs/mount_point.pm:102
+#, c-format
+msgid "No partition available"
+msgstr "هیچ قسمت‌بندی وجود ندارد"
+
+#: fs/mount_point.pm:105
+#, c-format
+msgid "Scanning partitions to find mount points"
+msgstr "پویش قسمت‌بندی‌ها برای یافتن نقاط سوارسازی"
+
+#: fs/mount_point.pm:112
+#, c-format
+msgid "Choose the mount points"
+msgstr "انتخاب کردن نقاط سوارسازی"
+
+#: fs/partitioning.pm:46
+#, c-format
+msgid "Choose the partitions you want to format"
+msgstr "قسمت‌بندیی را که می‌خواهید قالب‌بندی کنید انتخاب کنید"
+
+#: fs/partitioning.pm:75
+#, c-format
+msgid ""
+"Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+"you can lose data)"
+msgstr ""
+"شکست در بررسی سیستم پرونده‌ی %s. می‌خواهید خطاها را تعمیر کنید؟ (توجه کنید، "
+"شما می‌توانید اطلاعات خود را از دست بدهید)"
+
+#: fs/partitioning.pm:78
+#, c-format
+msgid "Not enough swap space to fulfill installation, please add some"
+msgstr ""
+"فضای کافی حافظه‌ی مبادله برای تکمیل نصب وجود ندارد، لطفاً مقداری اضافه کنید"
+
+#: fs/partitioning_wizard.pm:66
+#, c-format
+msgid ""
+"You must have a root partition.\n"
+"To accomplish this, create a partition (or click on an existing one).\n"
+"Then choose action ``Mount point'' and set it to `/'"
+msgstr ""
+"باید یک قسمت‌بندی ریشه داشته باشید.\n"
+"برای این کار،یک قسمت‌بندی ایجاد کنید (یا روی یک قسمت‌بندی موجود کلیک کنید).\n"
+"سپس ``نقطه‌ی سوارسازی'' را انتخاب کرده و آن را به `/' تغییر دهید"
+
+#: fs/partitioning_wizard.pm:72
+#, c-format
+msgid ""
+"You do not have a swap partition.\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"شما قسمت‌بندی حافظه‌ی مبادله را ندارید.\n"
+"\n"
+"در هر حال ادامه می‌دهید؟"
+
+#: fs/partitioning_wizard.pm:115
+#, c-format
+msgid "Use free space"
+msgstr "استفاده از فضای آزاد"
+
+#: fs/partitioning_wizard.pm:117
+#, c-format
+msgid "Not enough free space to allocate new partitions"
+msgstr "فضای آزاد کافی برای جای دادن قسمت‌بندهای جدید وجود ندارد"
+
+#: fs/partitioning_wizard.pm:125
+#, c-format
+msgid "Use existing partitions"
+msgstr "استفاده از قسمت‌بندی‌های موجود"
+
+#: fs/partitioning_wizard.pm:127
+#, c-format
+msgid "There is no existing partition to use"
+msgstr "قسمت‌بندیی برای استفاده وجود ندارد"
+
+#: fs/partitioning_wizard.pm:151
+#, c-format
+msgid "Computing the size of the Microsoft Windows® partition"
+msgstr "حساب کردن اندازه‌ی قسمت‌بندی ویندوز"
+
+#: fs/partitioning_wizard.pm:187
+#, c-format
+msgid "Use the free space on a Microsoft Windows® partition"
+msgstr ""
+
+#: fs/partitioning_wizard.pm:191
+#, c-format
+msgid "Which partition do you want to resize?"
+msgstr "کدام قسمت‌بندی را می‌خواهید تغییر اندازه دهید؟"
+
+#: fs/partitioning_wizard.pm:194
+#, c-format
+msgid ""
+"Your Microsoft Windows® partition is too fragmented. Please reboot your "
+"computer under Microsoft Windows®, run the ``defrag'' utility, then restart "
+"the %s installation."
+msgstr ""
+
+#: fs/partitioning_wizard.pm:201
+#, c-format
+msgid "Failed to find the partition to resize (%d choices)"
+msgstr ""
+
+#: fs/partitioning_wizard.pm:208
+#, c-format
+msgid ""
+"WARNING!\n"
+"\n"
+"\n"
+"Your Microsoft Windows® partition will be now resized.\n"
+"\n"
+"\n"
+"Be careful: this operation is dangerous. If you have not already done so, "
+"you first need to exit the installation, run \"chkdsk c:\" from a Command "
+"Prompt under Microsoft Windows® (beware, running graphical program \"scandisk"
+"\" is not enough, be sure to use \"chkdsk\" in a Command Prompt!), "
+"optionally run defrag, then restart the installation. You should also backup "
+"your data.\n"
+"\n"
+"\n"
+"When sure, press %s."
+msgstr ""
+"هشدار!\n"
+"\n"
+"\n"
+"برنامه درایک‌ایکس اکنون قسمت‌بندی ویندوز شما را تغییر اندازه می‌دهد.\n"
+"\n"
+"\n"
+"دقت کنید: این عملیات خطرناکی است. اگر قبلًا این کار را نکرده‌اید، باید نخست از "
+"نصب خارج شده، برنامه‌ی \"chkdsk c:\" را از یک اعلان فرمان در ویندوز اجرا کرده "
+"(توجه داشته باشید که اجرای برنامه‌ی گرافیکی \"scandisk\"کافی نیست، مطمئن شوید "
+"که از \"chkdsk\" در یک اعلان فرمان استفاده می‌کنید), بد نیست که برنامه‌ی "
+"defrag را نیز اجرا کنید، سپس نصب را راه‌اندازی مجدد کنید. شما باید داده‌های "
+"خود را ذخیره پشتیبانی کنید.\n"
+"\n"
+"\n"
+"وقتی مطمئن شدید، %s را فشار دهید."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: fs/partitioning_wizard.pm:217 fs/partitioning_wizard.pm:594
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Next"
+msgstr "بعدی"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Partitionning"
+msgstr ""
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
+msgstr "چه اندازه‌ای را می‌خواهید برای ویندوز نگهدارید قسمت‌بندی %s؟"
+
+#: fs/partitioning_wizard.pm:224
+#, c-format
+msgid "Size"
+msgstr "اندازه"
+
+#: fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing Microsoft Windows® partition"
+msgstr "تغییر اندازه‌ی قسمت‌بندی ویندوز"
+
+#: fs/partitioning_wizard.pm:238
+#, c-format
+msgid "FAT resizing failed: %s"
+msgstr "تغییر اندازه FAT شکست خورد: %s"
+
+#: fs/partitioning_wizard.pm:254
+#, c-format
+msgid "There is no FAT partition to resize (or not enough space left)"
+msgstr ""
+"هیچ قسمت‌بندی FAT برای تغییر اندازه وجود ندارد (یا فضای کافی آزاد باقی نمانده)"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Remove Microsoft Windows®"
+msgstr "برداشتن Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Erase and use entire disk"
+msgstr ""
+
+#: fs/partitioning_wizard.pm:263
+#, c-format
+msgid ""
+"You have more than one hard disk drive, which one do you want the installer "
+"to use?"
+msgstr ""
+
+#: fs/partitioning_wizard.pm:271 fsedit.pm:638
+#, c-format
+msgid "ALL existing partitions and their data will be lost on drive %s"
+msgstr "همه‌ی قسمت‌بندی‌ها و داده‌های آنها بر دستگاه %s از دست خواهند رفت"
+
+#: fs/partitioning_wizard.pm:284
+#, c-format
+msgid "Custom disk partitioning"
+msgstr "قسمت‌بندی اختصاصی دیسک"
+
+#: fs/partitioning_wizard.pm:290
+#, c-format
+msgid "Use fdisk"
+msgstr "استفاده از fdisk"
+
+#: fs/partitioning_wizard.pm:293
+#, c-format
+msgid ""
+"You can now partition %s.\n"
+"When you are done, do not forget to save using `w'"
+msgstr ""
+"اکنون می‌توانید %s را قسمت‌بندی کنید.\n"
+"وقتی آن را انجام دادید، فراموش نکنید که آن را با `w' ذخیره کنید"
+
+#: fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Ext2/3/4"
+msgstr ""
+
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:614
+#, c-format
+msgid "I cannot find any room for installing"
+msgstr "نمی‌توانم هیچ فضائی را برای نصب پیدا کنم"
+
+#: fs/partitioning_wizard.pm:475 fs/partitioning_wizard.pm:621
+#, c-format
+msgid "The DrakX Partitioning wizard found the following solutions:"
+msgstr "جادوگر قسمت‌بندی درایک‌ایکس راه حل‌های بدنبال آمده را یافت:"
+
+#: fs/partitioning_wizard.pm:545
+#, c-format
+msgid "Here is the content of your disk drive "
+msgstr ""
+
+#: fs/partitioning_wizard.pm:632
+#, c-format
+msgid "Partitioning failed: %s"
+msgstr "قسمت‌بندی ناموفق بود: %s"
+
+#: fs/type.pm:382
+#, c-format
+msgid "You cannot use JFS for partitions smaller than 16MB"
+msgstr "نمی‌توانید از JFS برای قسمت‌بندی‌های کوچکتر از ۱۶ مگابایت استفاده کنید"
+
+#: fs/type.pm:383
+#, c-format
+msgid "You cannot use ReiserFS for partitions smaller than 32MB"
+msgstr ""
+"نمی‌توانید از ReiserFS برای قسمت‌بندی‌های کوچکتر از ۳۲ مگابایت استفاده کنید"
+
+#: fs/type.pm:384
+#, c-format
+msgid "You cannot use btrfs for partitions smaller than 256MB"
+msgstr ""
+
+#: fsedit.pm:25
+#, c-format
+msgid "simple"
+msgstr "ساده"
+
+#: fsedit.pm:29
+#, c-format
+msgid "with /usr"
+msgstr "با /کاربر"
+
+#: fsedit.pm:34
+#, c-format
+msgid "server"
+msgstr "کارگزار"
+
+#: fsedit.pm:157
+#, c-format
+msgid "BIOS software RAID detected on disks %s. Activate it?"
+msgstr ""
+
+#: fsedit.pm:267
+#, c-format
+msgid ""
+"I cannot read the partition table of device %s, it's too corrupted for me :"
+"(\n"
+"I can try to go on, erasing over bad partitions (ALL DATA will be lost!).\n"
+"The other solution is to not allow DrakX to modify the partition table.\n"
+"(the error is %s)\n"
+"\n"
+"Do you agree to lose all the partitions?\n"
+msgstr ""
+"نمیتوانم جدول قسمت‌بندی دستگاه %s را بخوانم، بیش از حد من خراب شده است: \n"
+"می‌توانم با پاک کردن قسمت‌های بد (تمام داده‌ها از دست خواهد رفت) سعی کنم ادامه "
+"دهم.\n"
+" راه حل دیگر این است که به DrakX اجازه‌ی تغییر جدول قسمت‌بندی را ندهم. \n"
+"(خطا %s می‌باشد) \n"
+"\n"
+"آیا موافق به از دست دادن تمام قسمت‌بندی‌ها می‌باشید؟\n"
+
+#: fsedit.pm:450
+#, c-format
+msgid "Mount points must begin with a leading /"
+msgstr "نقاط سوارسازی باید با یک / شروع شوند"
+
+#: fsedit.pm:451
+#, c-format
+msgid "Mount points should contain only alphanumerical characters"
+msgstr "نقاط سوارسازی فقط باید حاوی نویسه‌های الفبا باشند"
+
+#: fsedit.pm:452
+#, c-format
+msgid "There is already a partition with mount point %s\n"
+msgstr "قسمت‌بندیی با نقطه‌ی سوارسازی %s از قبل وجود دارد\n"
+
+#: fsedit.pm:455
+#, c-format
+msgid ""
+"You've selected an encrypted partition as root (/).\n"
+"No bootloader is able to handle this without a /boot partition.\n"
+"Please be sure to add a separate /boot partition"
+msgstr ""
+
+#: fsedit.pm:461 fsedit.pm:472
+#, c-format
+msgid "You cannot use an encrypted filesystem for mount point %s"
+msgstr ""
+"نمی‌توانید از سیستم پرونده‌ی رمزگذاری شده برای نقطه سوارسازی %s استفاده کنید"
+
+#: fsedit.pm:464 fsedit.pm:466
+#, c-format
+msgid "This directory should remain within the root filesystem"
+msgstr "این شاخه باید درون سیستم پرونده‌ی ریشه باقی بماند"
+
+#: fsedit.pm:468 fsedit.pm:470
+#, c-format
+msgid ""
+"You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
+"point\n"
+msgstr ""
+"شما به یک سیستم پرونده‌ی واقعی (ext2/3/4, reiserfs, xfs, یا jfs) برای این "
+"نقطه سوارسازی احتیاج دارید\n"
+
+#: fsedit.pm:538
+#, c-format
+msgid "Not enough free space for auto-allocating"
+msgstr "فضای آزاد کافی برای جاسازی-خودکار وجود ندارد"
+
+#: fsedit.pm:540
+#, c-format
+msgid "Nothing to do"
+msgstr "کاری برای انجام نیست"
+
+#: harddrake/data.pm:62
+#, c-format
+msgid "SATA controllers"
+msgstr "کنترل‌گر‌های SATA"
+
+#: harddrake/data.pm:72
+#, c-format
+msgid "RAID controllers"
+msgstr "کنترل‌گر‌های RAID"
+
+#: harddrake/data.pm:82
+#, c-format
+msgid "(E)IDE/ATA controllers"
+msgstr "کنترل‌گر‌های (E)IDE/ATA "
+
+#: harddrake/data.pm:93
+#, c-format
+msgid "Card readers"
+msgstr ""
+
+#: harddrake/data.pm:102
+#, c-format
+msgid "Firewire controllers"
+msgstr "کنترل‌گر‌های Firewire "
+
+#: harddrake/data.pm:111
+#, c-format
+msgid "PCMCIA controllers"
+msgstr "کنترل‌گر‌های PCMCIA "
+
+#: harddrake/data.pm:120
+#, c-format
+msgid "SCSI controllers"
+msgstr "کنترل‌گر‌های SCSI "
+
+#: harddrake/data.pm:129
+#, c-format
+msgid "USB controllers"
+msgstr "کنترل‌گر‌های USB"
+
+#: harddrake/data.pm:138
+#, c-format
+msgid "USB ports"
+msgstr "درگاه‌های USB"
+
+#: harddrake/data.pm:147
+#, c-format
+msgid "SMBus controllers"
+msgstr "کنترل‌گر‌های SMBus "
+
+#: harddrake/data.pm:156
+#, c-format
+msgid "Bridges and system controllers"
+msgstr "پل‌ها وکنترل‌گر‌های سیستم"
+
+#: harddrake/data.pm:168
+#, c-format
+msgid "Floppy"
+msgstr "دیسکچه"
+
+#: harddrake/data.pm:178
+#, c-format
+msgid "Zip"
+msgstr "زیپ"
+
+#: harddrake/data.pm:194
+#, c-format
+msgid "Hard Disk"
+msgstr "دیسک"
+
+#: harddrake/data.pm:204
+#, c-format
+msgid "USB Mass Storage Devices"
+msgstr ""
+
+#: harddrake/data.pm:213
+#, c-format
+msgid "CDROM"
+msgstr "سی‌دی‌رم"
+
+#: harddrake/data.pm:223
+#, c-format
+msgid "CD/DVD burners"
+msgstr "نگارشگرهای سی‌دی/دی‌وی‌دی"
+
+#: harddrake/data.pm:233
+#, c-format
+msgid "DVD-ROM"
+msgstr "دی‌وی‌دی-رم"
+
+#: harddrake/data.pm:243
+#, c-format
+msgid "Tape"
+msgstr "نوار"
+
+#: harddrake/data.pm:254
+#, c-format
+msgid "AGP controllers"
+msgstr "کنترل‌گر‌های AGP"
+
+#: harddrake/data.pm:263
+#, c-format
+msgid "Videocard"
+msgstr "کارت ویدیو"
+
+#: harddrake/data.pm:272
+#, c-format
+msgid "DVB card"
+msgstr ""
+
+#: harddrake/data.pm:280
+#, c-format
+msgid "Tvcard"
+msgstr "کارت‌تلویزیون"
+
+#: harddrake/data.pm:290
+#, c-format
+msgid "Other MultiMedia devices"
+msgstr "دیگر دستگاه‌های چندرسانه‌ای"
+
+#: harddrake/data.pm:299
+#, c-format
+msgid "Soundcard"
+msgstr "کارت صوت"
+
+#: harddrake/data.pm:313
+#, c-format
+msgid "Webcam"
+msgstr "دوربین وب"
+
+#: harddrake/data.pm:328
+#, c-format
+msgid "Processors"
+msgstr "پردازنده‌ها"
+
+#: harddrake/data.pm:338
+#, c-format
+msgid "ISDN adapters"
+msgstr "سازوارگرهای ISDN "
+
+#: harddrake/data.pm:349
+#, c-format
+msgid "USB sound devices"
+msgstr ""
+
+#: harddrake/data.pm:358
+#, c-format
+msgid "Radio cards"
+msgstr ""
+
+#: harddrake/data.pm:367
+#, c-format
+msgid "ATM network cards"
+msgstr ""
+
+#: harddrake/data.pm:376
+#, c-format
+msgid "WAN network cards"
+msgstr ""
+
+#: harddrake/data.pm:385
+#, c-format
+msgid "Bluetooth devices"
+msgstr ""
+
+#: harddrake/data.pm:394
+#, c-format
+msgid "Ethernetcard"
+msgstr "کارت ایثرنت"
+
+#: harddrake/data.pm:412
+#, c-format
+msgid "Modem"
+msgstr "مودم"
+
+#: harddrake/data.pm:422
+#, c-format
+msgid "ADSL adapters"
+msgstr "سازوارگرهای ADSL"
+
+#: harddrake/data.pm:434
+#, c-format
+msgid "Memory"
+msgstr "حافظه"
+
+#: harddrake/data.pm:443
+#, c-format
+msgid "Printer"
+msgstr "چاپگر"
+
+#. -PO: these are joysticks controllers:
+#: harddrake/data.pm:457
+#, c-format
+msgid "Game port controllers"
+msgstr ""
+
+#: harddrake/data.pm:466
+#, c-format
+msgid "Joystick"
+msgstr "Joystick"
+
+#: harddrake/data.pm:476
+#, c-format
+msgid "Keyboard"
+msgstr "صفحه‌کلید"
+
+#: harddrake/data.pm:490
+#, c-format
+msgid "Tablet and touchscreen"
+msgstr ""
+
+#: harddrake/data.pm:499
+#, c-format
+msgid "Mouse"
+msgstr "موشی"
+
+#: harddrake/data.pm:514
+#, c-format
+msgid "Biometry"
+msgstr ""
+
+#: harddrake/data.pm:522
+#, c-format
+msgid "UPS"
+msgstr "UPS"
+
+#: harddrake/data.pm:531
+#, c-format
+msgid "Scanner"
+msgstr "پویشگر"
+
+#: harddrake/data.pm:542
+#, c-format
+msgid "Unknown/Others"
+msgstr "ناشناس/دیگران"
+
+#: harddrake/data.pm:572
+#, c-format
+msgid "cpu # "
+msgstr "cpu # "
+
+#: harddrake/sound.pm:80
+#, c-format
+msgid "No known driver"
+msgstr "هیچ راه‌انداز آشنایی"
+
+#: harddrake/sound.pm:81
+#, c-format
+msgid "There's no known driver for your sound card (%s)"
+msgstr "راه‌انداز شناخته شده‌ای برای کارت صوت (%s) شما وجود ندارد"
+
+#: harddrake/sound.pm:110
+#, c-format
+msgid "Enable PulseAudio"
+msgstr ""
+
+#: harddrake/sound.pm:115
+#, c-format
+msgid "Use Glitch-Free mode"
+msgstr ""
+
+#: harddrake/sound.pm:121
+#, c-format
+msgid "Reset sound mixer to default values"
+msgstr ""
+
+#: harddrake/sound.pm:125
+#, c-format
+msgid "Troubleshooting"
+msgstr "مشکل گشایی"
+
+#: harddrake/sound.pm:132
+#, c-format
+msgid "No alternative driver"
+msgstr "هیچ راه‌انداز دیگر"
+
+#: harddrake/sound.pm:133
+#, c-format
+msgid ""
+"There's no known OSS/ALSA alternative driver for your sound card (%s) which "
+"currently uses \"%s\""
+msgstr ""
+"هیچ راه‌انداز شناخته شده‌‌ی OSS/ALSA دیگری برای کارت صوتی شما (%s) که در حال "
+"حاضر از \"%s\" استفاده می‌کند وجود ندارد"
+
+#: harddrake/sound.pm:140
+#, c-format
+msgid "Sound configuration"
+msgstr "پیکربندی صوت"
+
+#: harddrake/sound.pm:144
+#, c-format
+msgid "Your card uses the \"%s\" driver"
+msgstr ""
+
+#: harddrake/sound.pm:156
+#, c-format
+msgid "Sound troubleshooting"
+msgstr "اشکال‌زدایی صوت"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: harddrake/sound.pm:159
+#, c-format
+msgid ""
+"Below are some basic tips to help debug audio problems, but for accurate and "
+"up-to-date tips and tricks, please see:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- General Recommendation: Enable PulseAudio. If you have opted to not to use "
+"PulseAudio, we would strongly advise you enable it. For the vast majority of "
+"desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pavucontrol"
+"\" (generic) will launch graphical applications to allow you to view your "
+"sound devices and adjust volume levels\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.\n"
+"\n"
+"\n"
+"- \"pactl stat\" will check that you can connect to the PulseAudio daemon "
+"correctly.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" will tell you which programs are currently "
+"playing sound via PulseAudio.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" will tell you the current state of the "
+"OSS Proxy Daemon. This is used to enable sound from legacy applications "
+"which use the OSS sound API. You should install the \"ossp\" package if you "
+"need this functionality.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" will give you a LOT of debug information about the current "
+"state of your audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver "
+"your card uses by default.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound "
+"related kernel modules (drivers) are loaded.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA "
+"mixer controls for first sound card\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are "
+"currently using the sound card directly (normally this should only show "
+"PulseAudio)\n"
+msgstr ""
+
+#: harddrake/v4l.pm:12
+#, c-format
+msgid "Auto-detect"
+msgstr "کشف-خودکار"
+
+#: harddrake/v4l.pm:97 harddrake/v4l.pm:285 harddrake/v4l.pm:337
+#, c-format
+msgid "Unknown|Generic"
+msgstr "ناشناس|عمومی"
+
+#: harddrake/v4l.pm:130
+#, c-format
+msgid "Unknown|CPH05X (bt878) [many vendors]"
+msgstr "ناشناس|CPH05X (bt878) [فروشنده‌های متعدد]"
+
+#: harddrake/v4l.pm:131
+#, c-format
+msgid "Unknown|CPH06X (bt878) [many vendors]"
+msgstr "CPH06X (bt878) ناشناس [فروشنده‌های متعدد]"
+
+#: harddrake/v4l.pm:475
+#, c-format
+msgid ""
+"For most modern TV cards, the bttv module of the GNU/Linux kernel just auto-"
+"detect the rights parameters.\n"
+"If your card is misdetected, you can force the right tuner and card types "
+"here. Just select your TV card parameters if needed."
+msgstr ""
+"برای بیشتر کارت‌های تلویزیون، بخش bttv در هسته‌ی لینوکس/GNU پارامترهای درست را "
+"بطور خودکارشناسائی می‌کند.\n"
+"اگر کارت شما اشتباهی شناسائی شد، می‌توانید انواع درست کارت و میزان کننده را "
+"در اینجا اجباری کنید. فقط پارامترهای کارت خود را در صورت لزوم انتخاب کنید."
+
+#: harddrake/v4l.pm:478
+#, c-format
+msgid "Card model:"
+msgstr "مدل کارت:"
+
+#: harddrake/v4l.pm:479
+#, c-format
+msgid "Tuner type:"
+msgstr "نوع گیرنده:"
+
+#: interactive.pm:119 interactive.pm:674 interactive/curses.pm:270
+#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
+#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
+#: mygtk3.pm:928 ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:810 ugtk2.pm:833
+#: ugtk3.pm:507 ugtk3.pm:593 ugtk3.pm:906 ugtk3.pm:929
+#, c-format
+msgid "Ok"
+msgstr "تأیید"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "Yes"
+msgstr "بله"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "No"
+msgstr "نه"
+
+#: interactive.pm:253
+#, c-format
+msgid "Choose a file"
+msgstr "انتخاب پرونده‌ای"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Add"
+msgstr "افزودن"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Modify"
+msgstr "تغییر"
+
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Finish"
+msgstr "پایان"
+
+#: interactive.pm:675 interactive/curses.pm:267 ugtk2.pm:517 ugtk3.pm:591
+#, c-format
+msgid "Previous"
+msgstr "پیشین"
+
+#: interactive/curses.pm:576 ugtk2.pm:870 ugtk3.pm:966
+#, c-format
+msgid "No file chosen"
+msgstr "هیچ پرونده‌ای انتخاب نشده است"
+
+#: interactive/curses.pm:580 ugtk2.pm:874 ugtk3.pm:970
+#, c-format
+msgid "You have chosen a directory, not a file"
+msgstr "شما یک شاخه را انتخاب کرده‌اید، نه یک پرونده را"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such directory"
+msgstr "چنین شاخه‌ای نیست"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such file"
+msgstr "چنین پرونده‌ای نیست"
+
+#: interactive/gtk.pm:596
+#, c-format
+msgid "Beware, Caps Lock is enabled"
+msgstr ""
+
+#: interactive/stdio.pm:29 interactive/stdio.pm:154
+#, c-format
+msgid "Bad choice, try again\n"
+msgstr "انتخاب بد، دوباره امتحان کنید\n"
+
+#: interactive/stdio.pm:30 interactive/stdio.pm:155
+#, c-format
+msgid "Your choice? (default %s) "
+msgstr "انتخاب شما؟ (پیش‌فرض %s)"
+
+#: interactive/stdio.pm:54
+#, c-format
+msgid ""
+"Entries you'll have to fill:\n"
+"%s"
+msgstr ""
+"ورودی‌هایی که باید پر کنید: \n"
+"%s"
+
+#: interactive/stdio.pm:70
+#, c-format
+msgid "Your choice? (0/1, default `%s') "
+msgstr "انتخاب شما؟ (0/1, پیش‌فرض `%s')"
+
+#: interactive/stdio.pm:97
+#, c-format
+msgid "Button `%s': %s"
+msgstr "دکمه‌ی `%s': %s"
+
+#: interactive/stdio.pm:98
+#, c-format
+msgid "Do you want to click on this button?"
+msgstr "آیا می‌خواهید بر این دکمه کلیک کنید؟"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid "Your choice? (default `%s'%s) "
+msgstr "انتخاب شما؟ (پیش‌فرض `%s'%s)"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid " enter `void' for void entry"
+msgstr " برای ورودی `void' لطفاً void را وارد کنید"
+
+#: interactive/stdio.pm:128
+#, c-format
+msgid "=> There are many things to choose from (%s).\n"
+msgstr "=> چیزهای زیادی برای انتخاب از (%s) وجود دارند.\n"
+
+#: interactive/stdio.pm:131
+#, c-format
+msgid ""
+"Please choose the first number of the 10-range you wish to edit,\n"
+"or just hit Enter to proceed.\n"
+"Your choice? "
+msgstr ""
+"لطفاً اولین شماره از ۱۰-گستره را که می‌خواهید ویرایش کنید انتخاب کنید،\n"
+"یا برای ادامه فقط دکمه‌ی ورود را فشار دهید.\n"
+"انتخاب شما؟ "
+
+#: interactive/stdio.pm:144
+#, c-format
+msgid ""
+"=> Notice, a label changed:\n"
+"%s"
+msgstr ""
+"=> توجه, برچسبی تغییر کرد:\n"
+"%s"
+
+#: interactive/stdio.pm:151
+#, c-format
+msgid "Re-submit"
+msgstr "ارسال-مجدد"
+
+#. -PO: the string "default:LTR" can be translated *ONLY* as "default:LTR"
+#. -PO: or as "default:RTL", depending if your language is written from
+#. -PO: left to right, or from right to left; any other string is wrong.
+#: lang.pm:247
+#, c-format
+msgid "default:LTR"
+msgstr "default:RTL"
+
+#: lang.pm:301
+#, c-format
+msgid "Andorra"
+msgstr "آندورا"
+
+#: lang.pm:302 timezone.pm:237
+#, c-format
+msgid "United Arab Emirates"
+msgstr "امارات متحده‌ی عربی"
+
+#: lang.pm:303
+#, c-format
+msgid "Afghanistan"
+msgstr "افغانستان"
+
+#: lang.pm:304
+#, c-format
+msgid "Antigua and Barbuda"
+msgstr "انتیگوا و باربودا"
+
+#: lang.pm:305
+#, c-format
+msgid "Anguilla"
+msgstr "آنگیلا"
+
+#: lang.pm:306
+#, c-format
+msgid "Albania"
+msgstr "آلبانی"
+
+#: lang.pm:307
+#, c-format
+msgid "Armenia"
+msgstr "ارمنستان"
+
+#: lang.pm:308
+#, c-format
+msgid "Netherlands Antilles"
+msgstr "هلند انتیلز"
+
+#: lang.pm:309
+#, c-format
+msgid "Angola"
+msgstr "آنگولا"
+
+#: lang.pm:310
+#, c-format
+msgid "Antarctica"
+msgstr "ان‌تارک‌تیکا"
+
+#: lang.pm:311 timezone.pm:282
+#, c-format
+msgid "Argentina"
+msgstr "آرژانتین"
+
+#: lang.pm:312
+#, c-format
+msgid "American Samoa"
+msgstr "ساموای آمریکا"
+
+#: lang.pm:313 mirror.pm:22 timezone.pm:240
+#, c-format
+msgid "Austria"
+msgstr "اطریش"
+
+#: lang.pm:314 mirror.pm:21 timezone.pm:278
+#, c-format
+msgid "Australia"
+msgstr "استرالیا"
+
+#: lang.pm:315
+#, c-format
+msgid "Aruba"
+msgstr "آروبا"
+
+#: lang.pm:316
+#, c-format
+msgid "Azerbaijan"
+msgstr "آذربایجان"
+
+#: lang.pm:317
+#, c-format
+msgid "Bosnia and Herzegovina"
+msgstr "بوسنی هرسه‌گوینا"
+
+#: lang.pm:318
+#, c-format
+msgid "Barbados"
+msgstr "باربادوس"
+
+#: lang.pm:319 timezone.pm:222
+#, c-format
+msgid "Bangladesh"
+msgstr "بنگلادش"
+
+#: lang.pm:320 mirror.pm:23 timezone.pm:242
+#, c-format
+msgid "Belgium"
+msgstr "بلژیک"
+
+#: lang.pm:321
+#, c-format
+msgid "Burkina Faso"
+msgstr "بورکینا فاسو"
+
+#: lang.pm:322 timezone.pm:243
+#, c-format
+msgid "Bulgaria"
+msgstr "بلغارستان"
+
+#: lang.pm:323
+#, c-format
+msgid "Bahrain"
+msgstr "بحرین"
+
+#: lang.pm:324
+#, c-format
+msgid "Burundi"
+msgstr "بوروندی"
+
+#: lang.pm:325
+#, c-format
+msgid "Benin"
+msgstr "بنین"
+
+#: lang.pm:326
+#, c-format
+msgid "Bermuda"
+msgstr "برمودا"
+
+#: lang.pm:327
+#, c-format
+msgid "Brunei Darussalam"
+msgstr "برونای داروسلام"
+
+#: lang.pm:328
+#, c-format
+msgid "Bolivia"
+msgstr "بولیوی"
+
+#: lang.pm:329 mirror.pm:24 timezone.pm:283
+#, c-format
+msgid "Brazil"
+msgstr "برزیل"
+
+#: lang.pm:330
+#, c-format
+msgid "Bahamas"
+msgstr "باهاما"
+
+#: lang.pm:331
+#, c-format
+msgid "Bhutan"
+msgstr "بوتان"
+
+#: lang.pm:332
+#, c-format
+msgid "Bouvet Island"
+msgstr "جزیره بووت"
+
+#: lang.pm:333
+#, c-format
+msgid "Botswana"
+msgstr "بوتسوانا"
+
+#: lang.pm:334 timezone.pm:241
+#, c-format
+msgid "Belarus"
+msgstr "بلاروس"
+
+#: lang.pm:335
+#, c-format
+msgid "Belize"
+msgstr "بلایز"
+
+#: lang.pm:336 mirror.pm:25 timezone.pm:272
+#, c-format
+msgid "Canada"
+msgstr "کانادا"
+
+#: lang.pm:337
+#, c-format
+msgid "Cocos (Keeling) Islands"
+msgstr "جزایر کوکوس (کیلینگ)"
+
+#: lang.pm:338
+#, c-format
+msgid "Congo (Kinshasa)"
+msgstr "کونگو (کین‌شاسا)"
+
+#: lang.pm:339
+#, c-format
+msgid "Central African Republic"
+msgstr "جمهوری مرکزی آفریقا"
+
+#: lang.pm:340
+#, c-format
+msgid "Congo (Brazzaville)"
+msgstr "کونگو (برازاویله)"
+
+#: lang.pm:341 mirror.pm:49 timezone.pm:266
+#, c-format
+msgid "Switzerland"
+msgstr "سوئیس"
+
+#: lang.pm:342
+#, c-format
+msgid "Cote d'Ivoire"
+msgstr "کوته د'آی‌وری"
+
+#: lang.pm:343
+#, c-format
+msgid "Cook Islands"
+msgstr "جزایر کوک"
+
+#: lang.pm:344 timezone.pm:284
+#, c-format
+msgid "Chile"
+msgstr "شیلی"
+
+#: lang.pm:345
+#, c-format
+msgid "Cameroon"
+msgstr "کامرون"
+
+#: lang.pm:346 timezone.pm:223
+#, c-format
+msgid "China"
+msgstr "چین"
+
+#: lang.pm:347
+#, c-format
+msgid "Colombia"
+msgstr "کلمبیا"
+
+#: lang.pm:348 mirror.pm:26
+#, c-format
+msgid "Costa Rica"
+msgstr "کوستا ریکا"
+
+#: lang.pm:349
+#, c-format
+msgid "Serbia & Montenegro"
+msgstr "صربستان و مونته‌نگرو"
+
+#: lang.pm:350
+#, c-format
+msgid "Cuba"
+msgstr "کوبا"
+
+#: lang.pm:351
+#, c-format
+msgid "Cape Verde"
+msgstr "کیپ ورده"
+
+#: lang.pm:352
+#, c-format
+msgid "Christmas Island"
+msgstr "جزایر کریسمس"
+
+#: lang.pm:353
+#, c-format
+msgid "Cyprus"
+msgstr "قبرس"
+
+#: lang.pm:354 mirror.pm:27 timezone.pm:244
+#, c-format
+msgid "Czech Republic"
+msgstr "جمهوری چک"
+
+#: lang.pm:355 mirror.pm:32 timezone.pm:249
+#, c-format
+msgid "Germany"
+msgstr "آلمان"
+
+#: lang.pm:356
+#, c-format
+msgid "Djibouti"
+msgstr "جیبوتی"
+
+#: lang.pm:357 mirror.pm:28 timezone.pm:245
+#, c-format
+msgid "Denmark"
+msgstr "دانمارک"
+
+#: lang.pm:358
+#, c-format
+msgid "Dominica"
+msgstr "دومینیک"
+
+#: lang.pm:359
+#, c-format
+msgid "Dominican Republic"
+msgstr "جمهوری دومینیک"
+
+#: lang.pm:360
+#, c-format
+msgid "Algeria"
+msgstr "الجزایر"
+
+#: lang.pm:361
+#, c-format
+msgid "Ecuador"
+msgstr "اکوآدور"
+
+#: lang.pm:362 mirror.pm:29 timezone.pm:246
+#, c-format
+msgid "Estonia"
+msgstr "استونی"
+
+#: lang.pm:363
+#, c-format
+msgid "Egypt"
+msgstr "مصر"
+
+#: lang.pm:364
+#, c-format
+msgid "Western Sahara"
+msgstr "صحرای غربی"
+
+#: lang.pm:365
+#, c-format
+msgid "Eritrea"
+msgstr "اریتره"
+
+#: lang.pm:366 mirror.pm:47 timezone.pm:264
+#, c-format
+msgid "Spain"
+msgstr "اسپانیا"
+
+#: lang.pm:367
+#, c-format
+msgid "Ethiopia"
+msgstr "اتیوپی"
+
+#: lang.pm:368 mirror.pm:30 timezone.pm:247
+#, c-format
+msgid "Finland"
+msgstr "فنلاند"
+
+#: lang.pm:369
+#, c-format
+msgid "Fiji"
+msgstr "فیجی"
+
+#: lang.pm:370
+#, c-format
+msgid "Falkland Islands (Malvinas)"
+msgstr "جزایر فالک‌لند (مالویناس)"
+
+#: lang.pm:371
+#, c-format
+msgid "Micronesia"
+msgstr "میکرونه‌سیا"
+
+#: lang.pm:372
+#, c-format
+msgid "Faroe Islands"
+msgstr "جزایر فارئو"
+
+#: lang.pm:373 mirror.pm:31 timezone.pm:248
+#, c-format
+msgid "France"
+msgstr "فرانسه"
+
+#: lang.pm:374
+#, c-format
+msgid "Gabon"
+msgstr "گابن"
+
+#: lang.pm:375 timezone.pm:268
+#, c-format
+msgid "United Kingdom"
+msgstr "بریتانیا"
+
+#: lang.pm:376
+#, c-format
+msgid "Grenada"
+msgstr "گرانادا"
+
+#: lang.pm:377
+#, c-format
+msgid "Georgia"
+msgstr "گرجستان"
+
+#: lang.pm:378
+#, c-format
+msgid "French Guiana"
+msgstr "گینه‌ی فرانسوی"
+
+#: lang.pm:379
+#, c-format
+msgid "Ghana"
+msgstr "غنا"
+
+#: lang.pm:380
+#, c-format
+msgid "Gibraltar"
+msgstr "جیبرالتا"
+
+#: lang.pm:381
+#, c-format
+msgid "Greenland"
+msgstr "گرین‌لند"
+
+#: lang.pm:382
+#, c-format
+msgid "Gambia"
+msgstr "گامبیا"
+
+#: lang.pm:383
+#, c-format
+msgid "Guinea"
+msgstr "گینه"
+
+#: lang.pm:384
+#, c-format
+msgid "Guadeloupe"
+msgstr "گوادلوپ"
+
+#: lang.pm:385
+#, c-format
+msgid "Equatorial Guinea"
+msgstr "گینه‌ی استوایی"
+
+#: lang.pm:386 mirror.pm:33 timezone.pm:250
+#, c-format
+msgid "Greece"
+msgstr "یونان"
+
+#: lang.pm:387
+#, c-format
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "جزایر جورجیو و ساندیویچ جنوبی"
+
+#: lang.pm:388 timezone.pm:273
+#, c-format
+msgid "Guatemala"
+msgstr "گواتمالا"
+
+#: lang.pm:389
+#, c-format
+msgid "Guam"
+msgstr "گوام"
+
+#: lang.pm:390
+#, c-format
+msgid "Guinea-Bissau"
+msgstr "گینه-بیساو"
+
+#: lang.pm:391
+#, c-format
+msgid "Guyana"
+msgstr "گویانا"
+
+#: lang.pm:392
+#, c-format
+msgid "Hong Kong SAR (China)"
+msgstr "چین (هنگ‌ کنگ)"
+
+#: lang.pm:393
+#, c-format
+msgid "Heard and McDonald Islands"
+msgstr "جزایر هرد و مک‌دونالد "
+
+#: lang.pm:394
+#, c-format
+msgid "Honduras"
+msgstr "هوندوراس"
+
+#: lang.pm:395
+#, c-format
+msgid "Croatia"
+msgstr "کروآسی"
+
+#: lang.pm:396
+#, c-format
+msgid "Haiti"
+msgstr "هایی‌تی"
+
+#: lang.pm:397 mirror.pm:34 timezone.pm:251
+#, c-format
+msgid "Hungary"
+msgstr "مجارستان"
+
+#: lang.pm:398 timezone.pm:226
+#, c-format
+msgid "Indonesia"
+msgstr "اندونزی"
+
+#: lang.pm:399 mirror.pm:35 timezone.pm:252
+#, c-format
+msgid "Ireland"
+msgstr "ایرلند"
+
+#: lang.pm:400 mirror.pm:36 timezone.pm:228
+#, c-format
+msgid "Israel"
+msgstr "اسرائیل"
+
+#: lang.pm:401 timezone.pm:225
+#, c-format
+msgid "India"
+msgstr "هند"
+
+#: lang.pm:402
+#, c-format
+msgid "British Indian Ocean Territory"
+msgstr "منطقه‌ی بریتانیایی اقیانوس هند"
+
+#: lang.pm:403
+#, c-format
+msgid "Iraq"
+msgstr "عراق"
+
+#: lang.pm:404 timezone.pm:227
+#, c-format
+msgid "Iran"
+msgstr "ایران"
+
+#: lang.pm:405
+#, c-format
+msgid "Iceland"
+msgstr "آیس‌لند"
+
+#: lang.pm:406 mirror.pm:37 timezone.pm:253
+#, c-format
+msgid "Italy"
+msgstr "ایتالیا"
+
+#: lang.pm:407
+#, c-format
+msgid "Jamaica"
+msgstr "جامائیکا"
+
+#: lang.pm:408
+#, c-format
+msgid "Jordan"
+msgstr "اردن"
+
+#: lang.pm:409 mirror.pm:38 timezone.pm:229
+#, c-format
+msgid "Japan"
+msgstr "ژاپن"
+
+#: lang.pm:410
+#, c-format
+msgid "Kenya"
+msgstr "کنیا"
+
+#: lang.pm:411
+#, c-format
+msgid "Kyrgyzstan"
+msgstr "قرقیزستان"
+
+#: lang.pm:412
+#, c-format
+msgid "Cambodia"
+msgstr "کامبوج"
+
+#: lang.pm:413
+#, c-format
+msgid "Kiribati"
+msgstr "کیریباتی"
+
+#: lang.pm:414
+#, c-format
+msgid "Comoros"
+msgstr "کوموروس"
+
+#: lang.pm:415
+#, c-format
+msgid "Saint Kitts and Nevis"
+msgstr "سنت کیتز و نویز"
+
+#: lang.pm:416
+#, c-format
+msgid "Korea (North)"
+msgstr "کره (شمال)"
+
+#: lang.pm:417 timezone.pm:230
+#, c-format
+msgid "Korea"
+msgstr "کره"
+
+#: lang.pm:418
+#, c-format
+msgid "Kuwait"
+msgstr "کویت"
+
+#: lang.pm:419
+#, c-format
+msgid "Cayman Islands"
+msgstr "جزایر کی‌من"
+
+#: lang.pm:420
+#, c-format
+msgid "Kazakhstan"
+msgstr "قزاقستان"
+
+#: lang.pm:421
+#, c-format
+msgid "Laos"
+msgstr "لائوس"
+
+#: lang.pm:422
+#, c-format
+msgid "Lebanon"
+msgstr "لبنان"
+
+#: lang.pm:423
+#, c-format
+msgid "Saint Lucia"
+msgstr "سنت لوشیا"
+
+#: lang.pm:424
+#, c-format
+msgid "Liechtenstein"
+msgstr "لیختن‌اشتاین"
+
+#: lang.pm:425
+#, c-format
+msgid "Sri Lanka"
+msgstr "سریلانکا"
+
+#: lang.pm:426
+#, c-format
+msgid "Liberia"
+msgstr "لیبریا"
+
+#: lang.pm:427
+#, c-format
+msgid "Lesotho"
+msgstr "لوسوتو"
+
+#: lang.pm:428 timezone.pm:254
+#, c-format
+msgid "Lithuania"
+msgstr "لیت‌وانی"
+
+#: lang.pm:429 timezone.pm:255
+#, c-format
+msgid "Luxembourg"
+msgstr "لوکزامبورگ"
+
+#: lang.pm:430
+#, c-format
+msgid "Latvia"
+msgstr "لاتویا"
+
+#: lang.pm:431
+#, c-format
+msgid "Libya"
+msgstr "لیبی"
+
+#: lang.pm:432
+#, c-format
+msgid "Morocco"
+msgstr "مراکش"
+
+#: lang.pm:433
+#, c-format
+msgid "Monaco"
+msgstr "موناکو"
+
+#: lang.pm:434
+#, c-format
+msgid "Moldova"
+msgstr "مولدووا"
+
+#: lang.pm:435
+#, c-format
+msgid "Madagascar"
+msgstr "ماداگاسکار"
+
+#: lang.pm:436
+#, c-format
+msgid "Marshall Islands"
+msgstr "جزایر مارشال"
+
+#: lang.pm:437
+#, c-format
+msgid "Macedonia"
+msgstr "مقدونیه"
+
+#: lang.pm:438
+#, c-format
+msgid "Mali"
+msgstr "مالی"
+
+#: lang.pm:439
+#, c-format
+msgid "Myanmar"
+msgstr "موانمار"
+
+#: lang.pm:440
+#, c-format
+msgid "Mongolia"
+msgstr "مغولستان"
+
+#: lang.pm:441
+#, c-format
+msgid "Northern Mariana Islands"
+msgstr "جزایر ماریان شمالی"
+
+#: lang.pm:442
+#, c-format
+msgid "Martinique"
+msgstr "مارتینیک"
+
+#: lang.pm:443
+#, c-format
+msgid "Mauritania"
+msgstr "موریتانیا"
+
+#: lang.pm:444
+#, c-format
+msgid "Montserrat"
+msgstr "مونت‌سرات"
+
+#: lang.pm:445
+#, c-format
+msgid "Malta"
+msgstr "مالتا"
+
+#: lang.pm:446
+#, c-format
+msgid "Mauritius"
+msgstr "ماریسی"
+
+#: lang.pm:447
+#, c-format
+msgid "Maldives"
+msgstr "مالدیوز"
+
+#: lang.pm:448
+#, c-format
+msgid "Malawi"
+msgstr "مالاوی"
+
+#: lang.pm:449 timezone.pm:274
+#, c-format
+msgid "Mexico"
+msgstr "مکزیک"
+
+#: lang.pm:450 timezone.pm:231
+#, c-format
+msgid "Malaysia"
+msgstr "مالزی"
+
+#: lang.pm:451
+#, c-format
+msgid "Mozambique"
+msgstr "موزامبیک"
+
+#: lang.pm:452
+#, c-format
+msgid "Namibia"
+msgstr "نامیبیا"
+
+#: lang.pm:453
+#, c-format
+msgid "New Caledonia"
+msgstr "کله‌دونیای جدید"
+
+#: lang.pm:454
+#, c-format
+msgid "Niger"
+msgstr "نیجر"
+
+#: lang.pm:455
+#, c-format
+msgid "Norfolk Island"
+msgstr "جزایر نورفولک"
+
+#: lang.pm:456
+#, c-format
+msgid "Nigeria"
+msgstr "نیجریه"
+
+#: lang.pm:457
+#, c-format
+msgid "Nicaragua"
+msgstr "نیکاراگوئه"
+
+#: lang.pm:458 mirror.pm:39 timezone.pm:256
+#, c-format
+msgid "Netherlands"
+msgstr "هلند"
+
+#: lang.pm:459 mirror.pm:41 timezone.pm:257
+#, c-format
+msgid "Norway"
+msgstr "نروژ"
+
+#: lang.pm:460
+#, c-format
+msgid "Nepal"
+msgstr "نپال"
+
+#: lang.pm:461
+#, c-format
+msgid "Nauru"
+msgstr "ناورو"
+
+#: lang.pm:462
+#, c-format
+msgid "Niue"
+msgstr "نی‌وه"
+
+#: lang.pm:463 mirror.pm:40 timezone.pm:279
+#, c-format
+msgid "New Zealand"
+msgstr "زلاندنو"
+
+#: lang.pm:464
+#, c-format
+msgid "Oman"
+msgstr "عمان"
+
+#: lang.pm:465
+#, c-format
+msgid "Panama"
+msgstr "پاناما"
+
+#: lang.pm:466
+#, c-format
+msgid "Peru"
+msgstr "پرو"
+
+#: lang.pm:467
+#, c-format
+msgid "French Polynesia"
+msgstr "پولی‌نسیای فرانسوی"
+
+#: lang.pm:468
+#, c-format
+msgid "Papua New Guinea"
+msgstr "گینه‌ی جدید پاپائو "
+
+#: lang.pm:469 timezone.pm:232
+#, c-format
+msgid "Philippines"
+msgstr "فیلیپین"
+
+#: lang.pm:470
+#, c-format
+msgid "Pakistan"
+msgstr "پاکستان"
+
+#: lang.pm:471 mirror.pm:42 timezone.pm:258
+#, c-format
+msgid "Poland"
+msgstr "لهستان"
+
+#: lang.pm:472
+#, c-format
+msgid "Saint Pierre and Miquelon"
+msgstr "سنت پی‌یر و میگوئل"
+
+#: lang.pm:473
+#, c-format
+msgid "Pitcairn"
+msgstr "پیت‌کایرن"
+
+#: lang.pm:474
+#, c-format
+msgid "Puerto Rico"
+msgstr "پورتو ریکو"
+
+#: lang.pm:475
+#, c-format
+msgid "Palestine"
+msgstr "فلسطین"
+
+#: lang.pm:476 mirror.pm:43 timezone.pm:259
+#, c-format
+msgid "Portugal"
+msgstr "پرتغال"
+
+#: lang.pm:477
+#, c-format
+msgid "Paraguay"
+msgstr "پاراگوئه"
+
+#: lang.pm:478
+#, c-format
+msgid "Palau"
+msgstr "پالاو"
+
+#: lang.pm:479
+#, c-format
+msgid "Qatar"
+msgstr "قطر"
+
+#: lang.pm:480
+#, c-format
+msgid "Reunion"
+msgstr "اتحاد مجدد"
+
+#: lang.pm:481 timezone.pm:260
+#, c-format
+msgid "Romania"
+msgstr "رومانی"
+
+#: lang.pm:482 mirror.pm:44
+#, c-format
+msgid "Russia"
+msgstr "روسیه"
+
+#: lang.pm:483
+#, c-format
+msgid "Rwanda"
+msgstr "روآندا"
+
+#: lang.pm:484
+#, c-format
+msgid "Saudi Arabia"
+msgstr "عربستان سعودی"
+
+#: lang.pm:485
+#, c-format
+msgid "Solomon Islands"
+msgstr "جزایر سولومون"
+
+#: lang.pm:486
+#, c-format
+msgid "Seychelles"
+msgstr "سیشلز"
+
+#: lang.pm:487
+#, c-format
+msgid "Sudan"
+msgstr "سودان"
+
+#: lang.pm:488 mirror.pm:48 timezone.pm:265
+#, c-format
+msgid "Sweden"
+msgstr "سوئد"
+
+#: lang.pm:489 timezone.pm:233
+#, c-format
+msgid "Singapore"
+msgstr "سنگاپور"
+
+#: lang.pm:490
+#, c-format
+msgid "Saint Helena"
+msgstr "سنت هلن"
+
+#: lang.pm:491 timezone.pm:263
+#, c-format
+msgid "Slovenia"
+msgstr "اسلوونی"
+
+#: lang.pm:492
+#, c-format
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "سوآل‌بارد و جان ماین"
+
+#: lang.pm:493 mirror.pm:45 timezone.pm:262
+#, c-format
+msgid "Slovakia"
+msgstr "اسلواکی"
+
+#: lang.pm:494
+#, c-format
+msgid "Sierra Leone"
+msgstr "سیه‌رآ ليونه"
+
+#: lang.pm:495
+#, c-format
+msgid "San Marino"
+msgstr "سن مارینو"
+
+#: lang.pm:496
+#, c-format
+msgid "Senegal"
+msgstr "سنگال"
+
+#: lang.pm:497
+#, c-format
+msgid "Somalia"
+msgstr "سومالی"
+
+#: lang.pm:498
+#, c-format
+msgid "Suriname"
+msgstr "سورینام"
+
+#: lang.pm:499
+#, c-format
+msgid "Sao Tome and Principe"
+msgstr "سايو توم و پرینسیپ"
+
+#: lang.pm:500
+#, c-format
+msgid "El Salvador"
+msgstr "ال‌سالوادور"
+
+#: lang.pm:501
+#, c-format
+msgid "Syria"
+msgstr "سوریه"
+
+#: lang.pm:502
+#, c-format
+msgid "Swaziland"
+msgstr "سوازیلند"
+
+#: lang.pm:503
+#, c-format
+msgid "Turks and Caicos Islands"
+msgstr "جزایر ترک‌ها و کایکو‌ها"
+
+#: lang.pm:504
+#, c-format
+msgid "Chad"
+msgstr "چاد"
+
+#: lang.pm:505
+#, c-format
+msgid "French Southern Territories"
+msgstr "مناطق جنوبی فرانسوی"
+
+#: lang.pm:506
+#, c-format
+msgid "Togo"
+msgstr "توگو"
+
+#: lang.pm:507 mirror.pm:51 timezone.pm:235
+#, c-format
+msgid "Thailand"
+msgstr "تایلند"
+
+#: lang.pm:508
+#, c-format
+msgid "Tajikistan"
+msgstr "تاجیکستان"
+
+#: lang.pm:509
+#, c-format
+msgid "Tokelau"
+msgstr "توکل‌آو"
+
+#: lang.pm:510
+#, c-format
+msgid "East Timor"
+msgstr "تیمور شرقی"
+
+#: lang.pm:511
+#, c-format
+msgid "Turkmenistan"
+msgstr "ترکمنستان"
+
+#: lang.pm:512
+#, c-format
+msgid "Tunisia"
+msgstr "تونس"
+
+#: lang.pm:513
+#, c-format
+msgid "Tonga"
+msgstr "تونگا"
+
+#: lang.pm:514 timezone.pm:236
+#, c-format
+msgid "Turkey"
+msgstr "ترکیه"
+
+#: lang.pm:515
+#, c-format
+msgid "Trinidad and Tobago"
+msgstr "ترینیداد و توباگو"
+
+#: lang.pm:516
+#, c-format
+msgid "Tuvalu"
+msgstr "تووالو"
+
+#: lang.pm:517 mirror.pm:50 timezone.pm:234
+#, c-format
+msgid "Taiwan"
+msgstr "چینی (تایوان)"
+
+#: lang.pm:518 timezone.pm:219
+#, c-format
+msgid "Tanzania"
+msgstr "تانزانیا"
+
+#: lang.pm:519 timezone.pm:267
+#, c-format
+msgid "Ukraine"
+msgstr "اوکراین"
+
+#: lang.pm:520
+#, c-format
+msgid "Uganda"
+msgstr "اوگاندا"
+
+#: lang.pm:521
+#, c-format
+msgid "United States Minor Outlying Islands"
+msgstr "جزایر متفرقه کوچک ایالات متحده"
+
+#: lang.pm:522 mirror.pm:52 timezone.pm:275
+#, c-format
+msgid "United States"
+msgstr "ایالات متحده"
+
+#: lang.pm:523
+#, c-format
+msgid "Uruguay"
+msgstr "اروگوئه"
+
+#: lang.pm:524
+#, c-format
+msgid "Uzbekistan"
+msgstr "ازبکستان"
+
+#: lang.pm:525
+#, c-format
+msgid "Vatican"
+msgstr "واتیکان"
+
+#: lang.pm:526
+#, c-format
+msgid "Saint Vincent and the Grenadines"
+msgstr "سنت وینسنت و گرنادینز"
+
+#: lang.pm:527
+#, c-format
+msgid "Venezuela"
+msgstr "ونزوئلا"
+
+#: lang.pm:528
+#, c-format
+msgid "Virgin Islands (British)"
+msgstr "جزایر ویرجین (بریتانیایی)"
+
+#: lang.pm:529
+#, c-format
+msgid "Virgin Islands (U.S.)"
+msgstr "جزایر ویرجین (آمریکا)"
+
+#: lang.pm:530
+#, c-format
+msgid "Vietnam"
+msgstr "ویتنام"
+
+#: lang.pm:531
+#, c-format
+msgid "Vanuatu"
+msgstr "وانوآتو"
+
+#: lang.pm:532
+#, c-format
+msgid "Wallis and Futuna"
+msgstr "والیس و فوتونا"
+
+#: lang.pm:533
+#, c-format
+msgid "Samoa"
+msgstr "ساموآ"
+
+#: lang.pm:534
+#, c-format
+msgid "Yemen"
+msgstr "یمن"
+
+#: lang.pm:535
+#, c-format
+msgid "Mayotte"
+msgstr "مایوت‌ته"
+
+#: lang.pm:536 mirror.pm:46 timezone.pm:218
+#, c-format
+msgid "South Africa"
+msgstr "آفریقای جنوبی"
+
+#: lang.pm:537
+#, c-format
+msgid "Zambia"
+msgstr "زامبیا"
+
+#: lang.pm:538
+#, c-format
+msgid "Zimbabwe"
+msgstr "زیمبابوه"
+
+#: lang.pm:1537
+#, c-format
+msgid "Welcome to %s"
+msgstr "به %s خوش آمدید"
+
+#: lvm.pm:128
+#, c-format
+msgid "Moving used physical extents to other physical volumes failed"
+msgstr ""
+
+#: lvm.pm:194
+#, c-format
+msgid "Physical volume %s is still in use"
+msgstr ""
+
+#: lvm.pm:204
+#, c-format
+msgid "Remove the logical volumes first\n"
+msgstr "نخست حجم‌های منطقی برداشته شوند\n"
+
+#: lvm.pm:248
+#, c-format
+msgid "The bootloader can't handle /boot on multiple physical volumes"
+msgstr ""
+
+#. -PO: Only write something if needed:
+#: messages.pm:11
+#, c-format
+msgid "_: You can warn about unofficial translation here"
+msgstr ""
+
+#: messages.pm:18
+#, c-format
+msgid "Introduction"
+msgstr "معرفی"
+
+#: messages.pm:20
+#, c-format
+msgid ""
+"The operating system and the different components available in the Mageia "
+"distribution \n"
+"shall be called the \"Software Products\" hereafter. The Software Products "
+"include, but are not \n"
+"restricted to, the set of programs, methods, rules and documentation related "
+"to the operating \n"
+"system and the different components of the Mageia distribution, and any "
+"applications \n"
+"distributed with these products provided by Mageia's licensors or suppliers."
+msgstr ""
+"سیستم عامل و اجزای دیگر موجود در پخش لینوکس ماندریبا از این به بعد\n"
+"  \"محصولات نرم‌افزاری\" خوانده خواهند شد. محصولات نرم‌افزاری شامل\n"
+"یک مجموعه از نرم‌افزار‌ها، روش‌ها، قواعد و نوشتارهای مربوط به سیستم عامل\n"
+"و اجزای مختلف پخش لینوکس ماندریبا می‌باشد."
+
+#: messages.pm:27
+#, c-format
+msgid "1. License Agreement"
+msgstr "۱. توافق‌نامه‌ی مجوز"
+
+#: messages.pm:29
+#, c-format
+msgid ""
+"Please read this document carefully. This document is a license agreement "
+"between you and  \n"
+"Mageia which applies to the Software Products.\n"
+"By installing, duplicating or using any of the Software Products in any "
+"manner, you explicitly \n"
+"accept and fully agree to conform to the terms and conditions of this "
+"License. \n"
+"If you disagree with any portion of the License, you are not allowed to "
+"install, duplicate or use \n"
+"the Software Products. \n"
+"Any attempt to install, duplicate or use the Software Products in a manner "
+"which does not comply \n"
+"with the terms and conditions of this License is void and will terminate "
+"your rights under this \n"
+"License. Upon termination of the License,  you must immediately destroy all "
+"copies of the \n"
+"Software Products."
+msgstr ""
+"لطفاً این نوشتار را با دقت بخوانید. این نوشتار یک توافق‌نامه‌ی مجوز بین شما و \n"
+"شرکت Mageiaمی‌باشد که شامل محصولات نرم‌افزاری می‌شود.\n"
+"با نصب کردن، تکثیر یا استفاده از محصولات نرم‌افزاری به هر طریق، شما شروط\n"
+"این مجوز را صریحاُ پذیرفته و قبول کرده‌اید. اگر موافق با هر قسمت از مجوز "
+"نیستید،\n"
+"اجازه‌ی نصب، تکثیر‌ یا استفاده از محصولات نرم‌افزاری را ندارید.\n"
+"هر تلاشی برای نصب، تکثیر یا استفاده از محصولات نرم‌افزاری به طوری\n"
+"که با شروط این مجوز تطابق نداشته باشد هیچ ‌شده و به امتیازات شما در\n"
+"این مجوز پایان می‌بخشد. با باطل شدن مجوز، باید بیدرنگ تمام کپی‌های\n"
+"محصولات نرم‌افزاری را نابود کنید."
+
+#: messages.pm:41
+#, c-format
+msgid "2. Limited Warranty"
+msgstr "۲. ضمانت محدود"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: messages.pm:44
+#, c-format
+msgid ""
+"The Software Products and attached documentation are provided \"as is\", "
+"with no warranty, to the \n"
+"extent permitted by law.\n"
+"Neither Mageia nor its licensors or suppliers will, in any circumstances and "
+"to the extent \n"
+"permitted by law, be liable for any special, incidental, direct or indirect "
+"damages whatsoever \n"
+"(including without limitation damages for loss of business, interruption of "
+"business, financial \n"
+"loss, legal fees and penalties resulting from a court judgment, or any other "
+"consequential loss) \n"
+"arising out of  the use or inability to use the Software Products, even if "
+"Mageia or its \n"
+"licensors or suppliers have been advised of the possibility or occurrence of "
+"such damages.\n"
+"\n"
+"LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
+"COUNTRIES\n"
+"\n"
+"To the extent permitted by law, neither Mageia nor its licensors, suppliers "
+"or\n"
+"distributors will, in any circumstances, be liable for any special, "
+"incidental, direct or indirect \n"
+"damages whatsoever (including without limitation damages for loss of "
+"business, interruption of \n"
+"business, financial loss, legal fees and penalties resulting from a court "
+"judgment, or any \n"
+"other consequential loss) arising out of the possession and use of software "
+"components or \n"
+"arising out of  downloading software components from one of Mageia sites "
+"which are \n"
+"prohibited or restricted in some countries by local laws.\n"
+"This limited liability applies to, but is not restricted to, the strong "
+"cryptography components \n"
+"included in the Software Products.\n"
+"However, because some jurisdictions do not allow the exclusion or limitation "
+"of liability for \n"
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+"محصولات نرم‌افزاری و نوشتار همراه بطور \"همینطوری\"، بدون هیچ ضمانتی\n"
+"و تا جایی که قانون اجازه می‌دهد، عرضه شده‌اند.\n"
+"شرکت Mageia در هیچ شرایطی و تا جایی که قانون اجازه می‌دهد،\n"
+"مسئول هر اتفاق مخصوص، هر خرابی مستقیم یا غیر مستقیم (شامل خرابی‌های نامحدود\n"
+"برای از دست دادن شغل، اشکالات شغلی، ضرر مالی و جریمه‌های از طرف یک دادگاه\n"
+"یا هر ضرر متعاقب دیگر) در پی‌ استفاده یا ناتوانی در استفاده از محصولات "
+"نرم‌افزاری،\n"
+"حتی اگر Mageiaاز احتمال یا پیش‌آمد چنین خرابی‌هایی مطلع شده باشد\n"
+"نخواهد بود.\n"
+"\n"
+"مسئولیت محدود مربوط به داشتن یا استفاده از نرم‌افزار ممنوعه در بعضی از "
+"کشورها\n"
+"\n"
+"شرکت Mageia یا توزیع کنندگان آن در هیچ شرایطی و تا جایی که قانون اجازه "
+"می‌دهد،\n"
+"مسئول هر اتفاق مخصوص، هر خرابی مستقیم یا غیر مستقیم (شامل خرابی‌های نامحدود\n"
+"برای از دست دادن شغل، اشکالات شغلی، ضرر مالی و جریمه‌های از طرف یک دادگاه\n"
+"یا هر ضرر متعاقب دیگر) برای داشتن و استفاده یا بارگیری محصولات نرم‌افزاری از "
+"یکی \n"
+"از پایگاه‌های لینوکس ماندریبا که در بعضی از کشورها بوسیله قانون محلی ممنوع یا "
+"محدود می‌باشند \n"
+"نخواهد بود. این مسئولیت محدود برای اجزای رمزگذاری قوی، ولی نه تنها آنها، که "
+"در\n"
+"محصولات نرم‌افزاری وجود دارند می‌باشد."
+
+#: messages.pm:68
+#, c-format
+msgid "3. The GPL License and Related Licenses"
+msgstr "۳. مجوز GPL و مجوزهای مربوطه"
+
+#: messages.pm:70
+#, c-format
+msgid ""
+"The Software Products consist of components created by different persons or "
+"entities.\n"
+"Most of these licenses allow you to use, duplicate, adapt or redistribute "
+"the components which \n"
+"they cover. Please read carefully the terms and conditions of the license "
+"agreement for each component \n"
+"before using any component. Any question on a component license should be "
+"addressed to the component \n"
+"licensor or supplier and not to Mageia.\n"
+"The programs developed by Mageia are governed by the GPL License. "
+"Documentation written \n"
+"by Mageia is governed by \"%s\" License."
+msgstr ""
+
+#: messages.pm:79
+#, c-format
+msgid "4. Intellectual Property Rights"
+msgstr "۴. حقوق مالکیت نبوغی"
+
+#: messages.pm:81
+#, c-format
+msgid ""
+"All rights to the components of the Software Products belong to their "
+"respective authors and are \n"
+"protected by intellectual property and copyright laws applicable to software "
+"programs.\n"
+"Mageia and its suppliers and licensors reserves their rights to modify or "
+"adapt the Software \n"
+"Products, as a whole or in parts, by all means and for all purposes.\n"
+"\"Mageia\" and associated logos are trademarks of %s"
+msgstr ""
+"تمام حقوق برنامه‌های محصولات نرم‌افزاری به نویسندگان هر یک از آنها تعلق داشته "
+"و بوسیله \n"
+"مالکیت نبوغی و قوانین حق امتیاز برنامه‌های نرم‌افزاری حفاظت می‌شوند. \n"
+"شرکت Mageiaحقوق امتیازی خود را برای تغییر یا وفق دادن محصولات نرم‌افزاری \n"
+"بطور کامل یا قسمت‌هایی از آنها، در هر صورت و برای هر منظور محفوظ می‌دارد. \n"
+"\"Mageia\" و علائم مربوطه آرم‌های بازرگانی %s می باشند."
+
+#: messages.pm:88
+#, c-format
+msgid "5. Governing Laws"
+msgstr "۵. اجرای قوانین"
+
+#: messages.pm:90
+#, c-format
+msgid ""
+"If any portion of this agreement is held void, illegal or inapplicable by a "
+"court judgment, this \n"
+"portion is excluded from this contract. You remain bound by the other "
+"applicable sections of the \n"
+"agreement.\n"
+"The terms and conditions of this License are governed by the Laws of "
+"France.\n"
+"All disputes on the terms of this license will preferably be settled out of "
+"court. As a last \n"
+"resort, the dispute will be referred to the appropriate Courts of Law of "
+"Paris - France.\n"
+"For any question on this document, please contact Mageia."
+msgstr ""
+"اگر هر قسمت از این توافق‌نامه توسط حکم دادگاهی نادیده، غیرقانونی یا غیر قابل "
+"اجرا تشخیص داده شود، \n"
+"این قسمت از این قرارداد حذف می‌گردد. شما در قسمت‌های دیگر قابل اجرای قرارداد "
+"مسئول باقی\n"
+"خواهید ماند.\n"
+"شروط این مجوز توسط قوانین کشور فرانسه تصویب و اجرا می‌شوند. \n"
+"هر اختلافی در شروط این مجوز ترجیحاً توسط دادگاه حل خواهد گردید. در آخرین \n"
+"مرحله، اختلاف به دادسرای قانون پاریس - فرانسه ارجاع داده خواهد شد. \n"
+"برای هر سؤالی درباره این نوشتار لطفاً با Mageia تماس بگیرید."
+
+#: messages.pm:102
+#, c-format
+msgid ""
+"Warning: Free Software may not necessarily be patent free, and some Free\n"
+"Software included may be covered by patents in your country. For example, "
+"the\n"
+"MP3 decoders included may require a license for further usage (see\n"
+"http://www.mp3licensing.com for more details). If you are unsure if a "
+"patent\n"
+"may be applicable to you, check your local laws."
+msgstr ""
+"هشدار: نرم‌افزار آزاد ممکن است بدون patent نباشد، و بعضی از نرم‌افزارهای ضمیمه "
+"ممکن است در کشور شما زیر پوشش patent قرار داشته باشند. برای مثال، رمزگشاهای "
+"ام‌پی‌۳ ضمیمه ممکن است بر ای استفاده احتیاج به مجوز داشته باشد (برای جزئیات به "
+"پایگاه http://www.mp3licensing.com مراجعه کنید). اگر در این باره مطمئن "
+"نیستید به قوانین محل اقامت خود مراجعه کنید."
+
+#: messages.pm:111
+#, c-format
+msgid ""
+"Congratulations, installation is complete.\n"
+"Remove the boot media and press Enter to reboot."
+msgstr ""
+"تبریک میگوییم، نصب تکمیل شده است.\n"
+"رسانه‌ی آغازگر را برداشته و برگشت را برای آغازگری مجدد فشار دهید."
+
+#: messages.pm:113
+#, c-format
+msgid ""
+"For information on fixes which are available for this release of Mageia,\n"
+"consult the Errata available from:\n"
+"%s"
+msgstr ""
+"برای اطلاعات درباره تعمیرات موجود برای این انتشار لینوکس مان‌درایک\n"
+"با Errata مشورت کنید:\n"
+"%s"
+
+#: messages.pm:115
+#, c-format
+msgid ""
+"After rebooting and logging into Mageia, you will see the MageiaWelcome "
+"screen.\n"
+"It is full of very useful information and links."
+msgstr ""
+
+#: modules/interactive.pm:19
+#, c-format
+msgid "This driver has no configuration parameter!"
+msgstr ""
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "Module configuration"
+msgstr "پیکربندی بخش"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "You can configure each parameter of the module here."
+msgstr "می‌توانید هر پارامتر بخش را در اینجا پیکربندی کنید."
+
+#: modules/interactive.pm:64
+#, c-format
+msgid "Found %s interfaces"
+msgstr "واسط‌های %s یافت شد"
+
+#: modules/interactive.pm:65
+#, c-format
+msgid "Do you have another one?"
+msgstr "یکی دیگر دارید؟"
+
+#: modules/interactive.pm:66
+#, c-format
+msgid "Do you have any %s interfaces?"
+msgstr "آیا هیچ واسط‌های %s دارید؟"
+
+#: modules/interactive.pm:72
+#, c-format
+msgid "See hardware info"
+msgstr "اطلاعات سخت‌افزار را ببینید"
+
+#: modules/interactive.pm:83
+#, c-format
+msgid "Installing driver for USB controller"
+msgstr "در حال نصب راه‌انداز برای کنترل‌گر USB"
+
+#: modules/interactive.pm:84
+#, c-format
+msgid "Installing driver for firewire controller \"%s\""
+msgstr "در حال نصب راه‌انداز برای کنترل‌گر دیوارآتش \"%s\""
+
+#: modules/interactive.pm:85
+#, c-format
+msgid "Installing driver for hard disk drive controller \"%s\""
+msgstr "در حال نصب راه‌انداز برای کنترل‌گر دیسک \"%s\""
+
+#: modules/interactive.pm:86
+#, c-format
+msgid "Installing driver for ethernet controller \"%s\""
+msgstr "در حال نصب راه‌انداز برای کنترل‌گر ابثرنت \"%s\""
+
+#. -PO: the first %s is the card type (scsi, network, sound,...)
+#. -PO: the second is the vendor+model name
+#: modules/interactive.pm:97
+#, c-format
+msgid "Installing driver for %s card %s"
+msgstr "نصب راه‌انداز برای %s کارت %s"
+
+#: modules/interactive.pm:100
+#, c-format
+msgid "Configuring Hardware"
+msgstr ""
+
+#: modules/interactive.pm:111
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Note that any address should be entered with the prefix 0x like '0x123'"
+msgstr ""
+"اکنون ممکن است گزینه‌ها را به بخش %s ارائه کنید. \n"
+"توجه کنید که هر نشانی باید با پیشوند 0x مانند '0x123' وارد شود"
+
+#: modules/interactive.pm:117
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Options are in format ``name=value name2=value2 ...''.\n"
+"For instance, ``io=0x300 irq=7''"
+msgstr ""
+"اکنون ممکن است گزینه‌ها را به بخش  %s ارائه کنید.\n"
+"گزینه‌ها به شکل ``name=value name2=value2 ...'' هستند.\n"
+"برای مثال, ``io=0x300 irq=7''"
+
+#: modules/interactive.pm:119
+#, c-format
+msgid "Module options:"
+msgstr "گزینه‌های بخش:"
+
+#. -PO: the %s is the driver type (scsi, network, sound,...)
+#: modules/interactive.pm:132
+#, c-format
+msgid "Which %s driver should I try?"
+msgstr "کدام راه‌انداز %s را باید امتحان کنم؟"
+
+#: modules/interactive.pm:141
+#, c-format
+msgid ""
+"In some cases, the %s driver needs to have extra information to work\n"
+"properly, although it normally works fine without them. Would you like to "
+"specify\n"
+"extra options for it or allow the driver to probe your machine for the\n"
+"information it needs? Occasionally, probing will hang a computer, but it "
+"should\n"
+"not cause any damage."
+msgstr ""
+"در بعضی موارد، راه‌انداز %s نیاز به اطلاعات بیشتری برای درست کار کردن دارد، \n"
+"هرچند که معمولاً بدون آنها نیز بخوبی کار می‌کند. آیا می‌خواهید گزینه‌های \n"
+"بیشتری را مشخص کنید یا به راه‌انداز اجازه می‌دهید تا ماشین شما را برای "
+"اطلاعات \n"
+"مورد نیاز خود بگردد؟ بعضی وقتها، این جستجو باعث ایست رایانه خواهد شد، ولی \n"
+"آن نبایستی باعث هیچ خرابی گردد."
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Autoprobe"
+msgstr "وارسی خودکار"
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Specify options"
+msgstr "مشخص کردن گزینه‌ها"
+
+#: modules/interactive.pm:157
+#, c-format
+msgid ""
+"Loading module %s failed.\n"
+"Do you want to try again with other parameters?"
+msgstr ""
+"بارگذاری بخش %s شکست خورد.\n"
+"آیا می‌خواهید با پارامترهای دیگری دوباره امتحان کنید؟"
+
+#: mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+#: mygtk2.pm:1570 mygtk2.pm:1571 mygtk3.pm:1646 mygtk3.pm:1647
+#, c-format
+msgid "Password is trivial to guess"
+msgstr ""
+
+#: mygtk2.pm:1572 mygtk3.pm:1648
+#, c-format
+msgid "Password should be resistant to basic attacks"
+msgstr ""
+
+#: mygtk2.pm:1573 mygtk2.pm:1574 mygtk3.pm:1649 mygtk3.pm:1650
+#, c-format
+msgid "Password seems secure"
+msgstr ""
+
+#: partition_table.pm:405
+#, c-format
+msgid "mount failed: "
+msgstr "سوارسازی شکست خورد: "
+
+#: partition_table.pm:531
+#, c-format
+msgid ""
+"You have a hole in your partition table but I cannot use it.\n"
+"The only solution is to move your primary partitions to have the hole next "
+"to the extended partitions."
+msgstr ""
+"سوراخی در جدول قسمت‌بندی وجود دارد ولی نمی‌توانم از آن استفاده کنم. تنها راه "
+"حل، انتقال قسمت‌بندی‌های اولیه‌ی شما بنحوی است که آن سوراخ نزدیک به قسمت‌بندی‌های "
+"مضاعف قرار داده شود."
+
+#: partition_table/raw.pm:293
+#, c-format
+msgid ""
+"Something bad is happening on your hard disk drive. \n"
+"A test to check the integrity of data has failed. \n"
+"It means writing anything on the disk will end up with random, corrupted "
+"data."
+msgstr ""
+"اتفاق بدی در حال رخ دادن بر روی دستگاهتان است.\n"
+"آزمایشی برای بررسی بی‌عیب بودن داده‌ها شکست خورد. \n"
+"این بدین معنی است که هر چه بر روی دیسک بنویسید اطلاعات شانسی و خراب خواهد شد."
+
+#: pkgs.pm:260 pkgs.pm:263 pkgs.pm:276
+#, c-format
+msgid "Unused packages removal"
+msgstr ""
+
+#: pkgs.pm:260
+#, c-format
+msgid "Finding unused hardware packages..."
+msgstr ""
+
+#: pkgs.pm:263
+#, c-format
+msgid "Finding unused localization packages..."
+msgstr ""
+
+#: pkgs.pm:277
+#, c-format
+msgid ""
+"We have detected that some packages are not needed for your system "
+"configuration."
+msgstr ""
+
+#: pkgs.pm:278
+#, c-format
+msgid "We will remove the following packages, unless you choose otherwise:"
+msgstr ""
+
+#: pkgs.pm:281 pkgs.pm:282
+#, c-format
+msgid "Unused hardware support"
+msgstr ""
+
+#: pkgs.pm:285 pkgs.pm:286
+#, c-format
+msgid "Unused localization"
+msgstr ""
+
+#: raid.pm:59
+#, c-format
+msgid "Cannot add a partition to _formatted_ RAID %s"
+msgstr "نمیتوان قسمت‌بندی را به _formatted_ RAID %s اضافه کرد"
+
+#: raid.pm:200
+#, c-format
+msgid "Not enough partitions for RAID level %d\n"
+msgstr "قسمت‌بندی‌های کافی برای سطح RAID %d وجود ندارد\n"
+
+#: scanner.pm:95
+#, c-format
+msgid "Could not create directory /usr/share/sane/firmware!"
+msgstr "شاخه‌ی /usr/share/sane/firmware نتوانست ایجاد گردد!"
+
+#: scanner.pm:106
+#, c-format
+msgid "Could not create link /usr/share/sane/%s!"
+msgstr "شاخه‌ی /usr/share/sane/%s نتوانست ایجاد گردد!"
+
+#: scanner.pm:113
+#, c-format
+msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+msgstr "پرونده‌ی ثابت‌افزار %s نتوانست به /usr/share/sane/firmware کپی گردد!"
+
+#: scanner.pm:120
+#, c-format
+msgid "Could not set permissions of firmware file %s!"
+msgstr "اجازه‌های پرونده‌ی ثابت‌افزار %s نتوانست گذارده شوند!"
+
+#: scanner.pm:199
+#, c-format
+msgid "Scannerdrake"
+msgstr "پویشگردرایک"
+
+#: scanner.pm:200
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr "نمی‌توان بسته‌های لازم را برای اشتراک پویشگر(های) شما نصب کرد."
+
+#: scanner.pm:201
+#, c-format
+msgid "Your scanner(s) will not be available for non-root users."
+msgstr "پویشگر(های) شما برای کاربرهای غیر-مدیر در دسترس نخواهد بود."
+
+#: security/help.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages."
+msgstr ""
+
+#: security/help.pm:13
+#, c-format
+msgid "Accept broadcasted icmp echo."
+msgstr ""
+
+#: security/help.pm:15
+#, c-format
+msgid "Accept icmp echo."
+msgstr ""
+
+#: security/help.pm:17
+#, c-format
+msgid "Allow autologin."
+msgstr ""
+
+#. -PO: here "ALL" is a value in a pull-down menu; translate it the same as "ALL" is
+#: security/help.pm:21
+#, c-format
+msgid ""
+"If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+"\n"
+"If set to \"None\", no issues are allowed.\n"
+"\n"
+"Else only /etc/issue is allowed."
+msgstr ""
+
+#: security/help.pm:27
+#, c-format
+msgid "Allow reboot by the console user."
+msgstr ""
+
+#: security/help.pm:29
+#, c-format
+msgid "Allow remote root login."
+msgstr ""
+
+#: security/help.pm:31
+#, c-format
+msgid "Allow direct root login."
+msgstr ""
+
+#: security/help.pm:33
+#, fuzzy, c-format
+msgid ""
+"Allow the list of users on the system on display managers (kdm and gdm)."
+msgstr "فهرست کاربران بر مدیران نمایش (sddm and gdm)"
+
+#: security/help.pm:35
+#, c-format
+msgid ""
+"Allow to export display when\n"
+"passing from the root account to the other users.\n"
+"\n"
+"See pam_xauth(8) for more details.'"
+msgstr ""
+
+#: security/help.pm:40
+#, c-format
+msgid ""
+"Allow X connections:\n"
+"\n"
+"- \"All\" (all connections are allowed),\n"
+"\n"
+"- \"Local\" (only connection from local machine),\n"
+"\n"
+"- \"None\" (no connection)."
+msgstr ""
+
+#: security/help.pm:48
+#, c-format
+msgid ""
+"The argument specifies if clients are authorized to connect\n"
+"to the X server from the network on the tcp port 6000 or not."
+msgstr ""
+"این آرگومان مشخص می‌کند که آیا کارگیرها برای اتصال به کارگزار X \n"
+"بر درگاه ۶۰۰۰ tcp مجازند یا نه."
+
+#. -PO: here "ALL", "Local" and "None" are values in a pull-down menu; translate them the same as they're
+#: security/help.pm:53
+#, c-format
+msgid ""
+"Authorize:\n"
+"\n"
+"- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+"set to \"ALL\",\n"
+"\n"
+"- only local ones if set to \"Local\"\n"
+"\n"
+"- none if set to \"None\".\n"
+"\n"
+"To authorize the services you need, use /etc/hosts.allow (see hosts."
+"allow(5))."
+msgstr ""
+
+#: security/help.pm:63
+#, c-format
+msgid ""
+"If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+"is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+"symlink /etc/security/msec/server to point to\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+"add a service if it is present in the file during the installation of\n"
+"packages."
+msgstr ""
+"اگر SERVER_LEVEL (یا SECURE_LEVEL اگر غایب باشد)\n"
+" بزرگتر است از ۳ در /etc/security/msec/security.conf، \n"
+"یک پیوند نمادی /etc/security/msec/server ایجاد کرده که\n"
+"به /etc/security/msec/server اشاره می‌کند.<SERVER_LEVEL>.\n"
+"\n"
+"این /etc/security/msec/server بوسیله‌ی chkconfig --add برای\n"
+"تصمیم به افزودن یک سرویس اگر آن در پرونده هنگام نصب\n"
+"بسته حاضر باشد استفاده می‌شود."
+
+#: security/help.pm:72
+#, c-format
+msgid ""
+"Enable crontab and at for users.\n"
+"\n"
+"Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+"and crontab(1))."
+msgstr ""
+
+#: security/help.pm:77
+#, c-format
+msgid "Enable syslog reports to console 12"
+msgstr ""
+
+#: security/help.pm:79
+#, c-format
+msgid ""
+"Enable name resolution spoofing protection.  If\n"
+"\"%s\" is true, also reports to syslog."
+msgstr ""
+
+#: security/help.pm:80
+#, c-format
+msgid "Security Alerts:"
+msgstr "هشدارهای امنیتی:"
+
+#: security/help.pm:82
+#, c-format
+msgid "Enable IP spoofing protection."
+msgstr ""
+
+#: security/help.pm:84
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system."
+msgstr ""
+
+#: security/help.pm:86
+#, c-format
+msgid "Enable the logging of IPv4 strange packets."
+msgstr ""
+
+#: security/help.pm:88
+#, c-format
+msgid "Enable msec hourly security check."
+msgstr ""
+
+#: security/help.pm:90
+#, c-format
+msgid ""
+"Enable su only from members of the wheel group. If set to no, allows su from "
+"any user."
+msgstr ""
+
+#: security/help.pm:92
+#, c-format
+msgid "Use password to authenticate users."
+msgstr "برای تأیید هویت کاربران از گذرواژه استفاده شود."
+
+#: security/help.pm:94
+#, c-format
+msgid "Activate Ethernet cards promiscuity check."
+msgstr ""
+
+#: security/help.pm:96
+#, c-format
+msgid "Activate daily security check."
+msgstr ""
+
+#: security/help.pm:98
+#, c-format
+msgid "Enable sulogin(8) in single user level."
+msgstr ""
+
+#: security/help.pm:100
+#, c-format
+msgid "Add the name as an exception to the handling of password aging by msec."
+msgstr "نام را مثل یک استثنا برای اداره‌ی عمر گذرواژه بوسیله msec اضافه کنید."
+
+#: security/help.pm:102
+#, c-format
+msgid "Set password aging to \"max\" days and delay to change to \"inactive\"."
+msgstr ""
+"گذاردن عمر گذرواژه به \"حداکثر\" روزها و تاخیر برای تغییر به \"غیرفعال\"."
+
+#: security/help.pm:104
+#, c-format
+msgid "Set the password history length to prevent password reuse."
+msgstr "گذاردن مدت تاریخ گذرواژه برای جلوگیری از استفاده‌ی مجدد گذرواژه."
+
+#: security/help.pm:106
+#, c-format
+msgid ""
+"Set the password minimum length and minimum number of digit and minimum "
+"number of capitalized letters."
+msgstr "گذاردن حداقل طول و حداقل تعداد ارقام و حداقل تعداد حروف بزرگ گذرواژه."
+
+#: security/help.pm:108
+#, c-format
+msgid "Set the root's file mode creation mask."
+msgstr ""
+
+#: security/help.pm:109
+#, c-format
+msgid "if set to yes, check open ports."
+msgstr "اگر به بله گذارده شده، درگاه‌های باز را بررسی کنید."
+
+#: security/help.pm:110
+#, c-format
+msgid ""
+"if set to yes, check for:\n"
+"\n"
+"- empty passwords,\n"
+"\n"
+"- no password in /etc/shadow\n"
+"\n"
+"- for users with the 0 id other than root."
+msgstr ""
+"اگر به بله گذارده شده، بررسی شود:\n"
+"\n"
+"- گذرواژه‌های خالی،\n"
+"\n"
+"- هیچ گذرواژه در /etc/shadow\n"
+"\n"
+"- برای کاربران با شناسه صفر غیر از مدیر."
+
+#: security/help.pm:117
+#, c-format
+msgid "if set to yes, check permissions of files in the users' home."
+msgstr ""
+"اگر به بله گذارده شده، اجازه‌های پرونده‌ها را در خانه‌ی کاربران بررسی کنید."
+
+#: security/help.pm:118
+#, c-format
+msgid "if set to yes, check if the network devices are in promiscuous mode."
+msgstr ""
+"اگر به بله گذاشته شده، بررسی کنید که آیا دستگاه‌های شبکه در حالت بی‌قاعده "
+"هستند."
+
+#: security/help.pm:119
+#, c-format
+msgid "if set to yes, run the daily security checks."
+msgstr "اگر به بله گذاشته شده، بررسی امنیتی روزانه را اجرا کنید."
+
+#: security/help.pm:120
+#, c-format
+msgid "if set to yes, check additions/removals of sgid files."
+msgstr "اگر به بله گذاشته شده، افزودن/برداشتن پرونده‌های sgid را بررسی کنید."
+
+#: security/help.pm:121
+#, c-format
+msgid "if set to yes, check empty password in /etc/shadow."
+msgstr ""
+"اگر به بله گذاشته شده، گذرواژه‌ی خالی در پرونده /etc/shadow را بررسی کنید."
+
+#: security/help.pm:122
+#, c-format
+msgid "if set to yes, verify checksum of the suid/sgid files."
+msgstr ""
+"اگر به بله گذاشته شده، درستی checksum پرونده‌های suid/sgid را تصدیق کنید."
+
+#: security/help.pm:123
+#, c-format
+msgid "if set to yes, check additions/removals of suid root files."
+msgstr ""
+"اگر به بله گذاشته شده، افزودن/برداشتن امتیازات پرونده‌های مدیریت را بررسی "
+"کنید."
+
+#: security/help.pm:124
+#, c-format
+msgid "if set to yes, report unowned files."
+msgstr "اگر به بله گذاشته شده، پرونده‌های بدون صاحب گزارش شود."
+
+#: security/help.pm:125
+#, c-format
+msgid "if set to yes, check files/directories writable by everybody."
+msgstr ""
+"اگر به بله گذاشته شده، پرونده‌ها/شاخه‌های قابل نگارش بوسیله‌ی هر که را بررسی "
+"کنید."
+
+#: security/help.pm:126
+#, c-format
+msgid "if set to yes, run chkrootkit checks."
+msgstr "اگر به بله گذاشته شده، بررسی‌های chkrootkit را اجرا کنید."
+
+#: security/help.pm:127
+#, c-format
+msgid ""
+"if set, send the mail report to this email address else send it to root."
+msgstr "اگر گذاشته شده، گزارش پستی را به این نشانی وگرنه به مدیر بفرستید."
+
+#: security/help.pm:128
+#, c-format
+msgid "if set to yes, report check result by mail."
+msgstr "اگر به بله گذاشته شده، نتیجه‌ی بررسی را بوسیله‌ی پست گزارش دهید."
+
+#: security/help.pm:129
+#, c-format
+msgid "Do not send mails if there's nothing to warn about"
+msgstr "اگر چیزی برای هشدار دادن وجود ندارد پست نفرستید"
+
+#: security/help.pm:130
+#, c-format
+msgid "if set to yes, run some checks against the rpm database."
+msgstr "اگر به بله گذاشته شده، بعضی بررسی‌ها بر بانک اطلاعات rpm اجرا می‌شود."
+
+#: security/help.pm:131
+#, c-format
+msgid "if set to yes, report check result to syslog."
+msgstr "اگر به بله گذاشته شده، نتیجه کنترل به syslog گزارش شود."
+
+#: security/help.pm:132
+#, c-format
+msgid "if set to yes, reports check result to tty."
+msgstr "اگر به بله گذاشته شده، نتایج بررسی به tty گزارش می‌شود."
+
+#: security/help.pm:134
+#, c-format
+msgid "Set shell commands history size. A value of -1 means unlimited."
+msgstr "تعیین اندازه‌ی تاریخ فرمان‌های پوسته. یک ارزش ۱- به معنی نامحدود می‌باشد."
+
+#: security/help.pm:136
+#, c-format
+msgid "Set the shell timeout. A value of zero means no timeout."
+msgstr "تعیین مدت تاخیر پوسته. صفر بمعنی هیچ تاخیر."
+
+#: security/help.pm:136
+#, c-format
+msgid "Timeout unit is second"
+msgstr "واحد زمان وقفه ثانیه است"
+
+#: security/help.pm:138
+#, c-format
+msgid "Set the user's file mode creation mask."
+msgstr ""
+
+#: security/l10n.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages"
+msgstr "پذیرش پیغام‌های خطای bogus IPv4"
+
+#: security/l10n.pm:12
+#, c-format
+msgid "Accept broadcasted icmp echo"
+msgstr "پذیرش پخش همگانی انعکاس icmp"
+
+#: security/l10n.pm:13
+#, c-format
+msgid "Accept icmp echo"
+msgstr "پذیرش پژواک icmp"
+
+#: security/l10n.pm:15
+#, c-format
+msgid "/etc/issue* exist"
+msgstr "/etc/issue* وجود دارد"
+
+#: security/l10n.pm:16
+#, c-format
+msgid "Reboot by the console user"
+msgstr "آغازگری مجدد توسط کاربر کنسول"
+
+#: security/l10n.pm:17
+#, c-format
+msgid "Allow remote root login"
+msgstr "اجازه‌ی ثبت‌ورود از راه دور مدیر"
+
+#: security/l10n.pm:18
+#, c-format
+msgid "Direct root login"
+msgstr "ثبت‌ورود مستقیم مدیر"
+
+#: security/l10n.pm:19
+#, fuzzy, c-format
+msgid "List users on display managers (kdm and gdm)"
+msgstr "فهرست کاربران بر مدیران نمایش (sddm and gdm)"
+
+#: security/l10n.pm:20
+#, c-format
+msgid "Export display when passing from root to the other users"
+msgstr "صدور نمایش هنگامیکه از مدیر به کاربران دیگر عبور داده میشود"
+
+#: security/l10n.pm:21
+#, c-format
+msgid "Allow X Window connections"
+msgstr "اجازه‌ی اتصالات پنجره‌ی ایکس"
+
+#: security/l10n.pm:22
+#, c-format
+msgid "Authorize TCP connections to X Window"
+msgstr "اجازه‌ی اتصالات TCP پنجره‌ی ایکس"
+
+#: security/l10n.pm:23
+#, c-format
+msgid "Authorize all services controlled by tcp_wrappers"
+msgstr "اجازه دادن به تمام سرویس‌های کنترل شده توسط tcp_wrappers"
+
+#: security/l10n.pm:24
+#, c-format
+msgid "Chkconfig obey msec rules"
+msgstr "اطاعت Chkconfig از قواعد msec "
+
+#: security/l10n.pm:25
+#, c-format
+msgid "Enable \"crontab\" and \"at\" for users"
+msgstr "بکار انداختن \"crontab\" و \"at\" برای کاربران"
+
+#: security/l10n.pm:26
+#, c-format
+msgid "Syslog reports to console 12"
+msgstr "گزارش‌های Syslog به کنسول ۱۲"
+
+#: security/l10n.pm:27
+#, c-format
+msgid "Name resolution spoofing protection"
+msgstr "حفاظت از spoofing نام‌یابی"
+
+#: security/l10n.pm:28
+#, c-format
+msgid "Enable IP spoofing protection"
+msgstr "بکاراندازی حفاظت IP spoofing"
+
+#: security/l10n.pm:29
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system"
+msgstr "بکار انداختن libsafe اگر libsafe در سیستم یافت شود"
+
+#: security/l10n.pm:30
+#, c-format
+msgid "Enable the logging of IPv4 strange packets"
+msgstr "بکار انداختن ثبت پاکت‌های عجیب IPv4"
+
+#: security/l10n.pm:31
+#, c-format
+msgid "Enable msec hourly security check"
+msgstr "بکار انداختن بررسی ساعتی امنیت msec"
+
+#: security/l10n.pm:32
+#, c-format
+msgid "Enable su only from the wheel group members"
+msgstr ""
+
+#: security/l10n.pm:33
+#, c-format
+msgid "Use password to authenticate users"
+msgstr "استفاده از گذرواژه برای تأیید هویت کاربران"
+
+#: security/l10n.pm:34
+#, c-format
+msgid "Ethernet cards promiscuity check"
+msgstr "بررسی بی‌نظم کارت‌های شبکه"
+
+#: security/l10n.pm:35
+#, c-format
+msgid "Daily security check"
+msgstr "بررسی روزانه‌ی امنیت"
+
+#: security/l10n.pm:36
+#, c-format
+msgid "Sulogin(8) in single user level"
+msgstr "sulogin(8) در سطح کاربر تکی"
+
+#: security/l10n.pm:37
+#, c-format
+msgid "No password aging for"
+msgstr "هیچ عمر گذرواژه برای‌"
+
+#: security/l10n.pm:38
+#, c-format
+msgid "Set password expiration and account inactivation delays"
+msgstr "گذاردن تاریخ اعتبار گذرواژه و تأخیرهای غیرفعالی حساب"
+
+#: security/l10n.pm:39
+#, c-format
+msgid "Password history length"
+msgstr "طول تاریخچه‌ی گذرواژه"
+
+#: security/l10n.pm:40
+#, c-format
+msgid "Password minimum length and number of digits and upcase letters"
+msgstr "حداقل طول و تعداد نویسه و حروف بزرگ گذرواژه"
+
+#: security/l10n.pm:41
+#, c-format
+msgid "Root umask"
+msgstr "umask مدیر"
+
+#: security/l10n.pm:42
+#, c-format
+msgid "Shell history size"
+msgstr "اندازه‌ی تاریخچه‌ی پوسته"
+
+#: security/l10n.pm:43
+#, c-format
+msgid "Shell timeout"
+msgstr "مدت تاخیر پوسته"
+
+#: security/l10n.pm:44
+#, c-format
+msgid "User umask"
+msgstr "umask کاربران"
+
+#: security/l10n.pm:45
+#, c-format
+msgid "Check open ports"
+msgstr "بررسی درگاه‌های باز"
+
+#: security/l10n.pm:46
+#, c-format
+msgid "Check for unsecured accounts"
+msgstr "بررسی حساب‌های غیر امن"
+
+#: security/l10n.pm:47
+#, c-format
+msgid "Check permissions of files in the users' home"
+msgstr "اجازه‌های پرونده‌ها را در آغازه‌ی کاربران بررسی کنید"
+
+#: security/l10n.pm:48
+#, c-format
+msgid "Check if the network devices are in promiscuous mode"
+msgstr "بررسی کنید که آیا دستگاه‌های شبکه در حالت بی قاعده هستند"
+
+#: security/l10n.pm:49
+#, c-format
+msgid "Run the daily security checks"
+msgstr "اجرای بررسی روزانه‌ی امنیت"
+
+#: security/l10n.pm:50
+#, c-format
+msgid "Check additions/removals of sgid files"
+msgstr "بررسی افزودن/برداشتن پرونده‌های sgid"
+
+#: security/l10n.pm:51
+#, c-format
+msgid "Check empty password in /etc/shadow"
+msgstr "بررسی گذرواژه‌ی خالی در پرونده‌ی /etc/shadow"
+
+#: security/l10n.pm:52
+#, c-format
+msgid "Verify checksum of the suid/sgid files"
+msgstr "تصدیق checksum برای پرونده‌های suid/sgid"
+
+#: security/l10n.pm:53
+#, c-format
+msgid "Check additions/removals of suid root files"
+msgstr "بررسی افزودن/برداشتن suid پرونده‌های ریشه"
+
+#: security/l10n.pm:54
+#, c-format
+msgid "Report unowned files"
+msgstr "گزارش پرونده‌های بی‌صاحب"
+
+#: security/l10n.pm:55
+#, c-format
+msgid "Check files/directories writable by everybody"
+msgstr "بررسی پرونده‌ها/شاخه‌های قابل نگارش بوسیله‌ی هرکس"
+
+#: security/l10n.pm:56
+#, c-format
+msgid "Run chkrootkit checks"
+msgstr "اجرای بررسی‌های chkrootkit"
+
+#: security/l10n.pm:57
+#, c-format
+msgid "Do not send empty mail reports"
+msgstr ""
+
+#: security/l10n.pm:58
+#, c-format
+msgid "If set, send the mail report to this email address else send it to root"
+msgstr "اگر گذارده شده، گزارش پستی را به این نشانی وگرنه به مدیر بفرستید"
+
+#: security/l10n.pm:59
+#, c-format
+msgid "Report check result by mail"
+msgstr "گزارش نتیجه‌ی بررسی بوسیله‌ی پست"
+
+#: security/l10n.pm:60
+#, c-format
+msgid "Run some checks against the rpm database"
+msgstr "اجرای چندین بررسی بر بانک اطلاعات rpm"
+
+#: security/l10n.pm:61
+#, c-format
+msgid "Report check result to syslog"
+msgstr "گزارش نتیجه‌ی بررسی به syslog"
+
+#: security/l10n.pm:62
+#, c-format
+msgid "Reports check result to tty"
+msgstr "گزارش نتایج بررسی به tty"
+
+#: security/level.pm:10
+#, c-format
+msgid "Disable msec"
+msgstr ""
+
+#: security/level.pm:11
+#, c-format
+msgid "Standard"
+msgstr "استاندارد"
+
+#: security/level.pm:12
+#, c-format
+msgid "Secure"
+msgstr ""
+
+#: security/level.pm:52
+#, c-format
+msgid ""
+"This level is to be used with care, as it disables all additional security\n"
+"provided by msec. Use it only when you want to take care of all aspects of "
+"system security\n"
+"on your own."
+msgstr ""
+
+#: security/level.pm:55
+#, c-format
+msgid ""
+"This is the standard security recommended for a computer that will be used "
+"to connect to the Internet as a client."
+msgstr ""
+"این امنیت استاندارد سفارش شده برای رایانه‌ای است که برای اتصال با اینترنت "
+"مانند یک کارگیر استفاده می‌گردد."
+
+#: security/level.pm:56
+#, c-format
+msgid ""
+"With this security level, the use of this system as a server becomes "
+"possible.\n"
+"The security is now high enough to use the system as a server which can "
+"accept\n"
+"connections from many clients. Note: if your machine is only a client on the "
+"Internet, you should choose a lower level."
+msgstr ""
+"با این سطح امنیتی، استفاده از این سیستم مانند یک کارگزار ممکن می‌شود. \n"
+"امنیت به اندازه‌ی کافی بالا است که بتوان از این سیستم مانند یک کارگزار که\n"
+"بتواند اتصالات بسیاری را از کارگیرها بپذیرد استفاده کرد. توجه: اگر "
+"رایانه‌اتان فقط کارگیری در اینترنت است، باید سطح پایین‌تری را انتخاب کنید."
+
+#: security/level.pm:63
+#, c-format
+msgid "DrakSec Basic Options"
+msgstr "گزینه‌های پایه‌ی DrakSec"
+
+#: security/level.pm:66
+#, c-format
+msgid "Please choose the desired security level"
+msgstr "لطفاً سطح امنیتی مورد نظر را انتخاب کنید"
+
+#. -PO: this string is used to properly format "<security level>: <level description>"
+#: security/level.pm:70
+#, c-format
+msgid "%s: %s"
+msgstr ""
+
+#: security/level.pm:73
+#, c-format
+msgid "Security Administrator:"
+msgstr "مدیر امنیت:"
+
+#: security/level.pm:74
+#, c-format
+msgid "Login or email:"
+msgstr ""
+
+#: services.pm:18
+#, c-format
+msgid "Listen and dispatch ACPI events from the kernel"
+msgstr ""
+
+#: services.pm:19
+#, c-format
+msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+msgstr "راه‌اندازی سیستم صوتی ALSA (ساختار پیشرفته صوتی لینوکس) "
+
+#: services.pm:20
+#, c-format
+msgid "Anacron is a periodic command scheduler."
+msgstr "Anacron یک برنامه‌ریز فرمانی دوره‌ای است."
+
+#: services.pm:21
+#, c-format
+msgid ""
+"apmd is used for monitoring battery status and logging it via syslog.\n"
+"It can also be used for shutting down the machine when the battery is low."
+msgstr ""
+"شبح apmd برای مراقبت از وضعیت باتری و ثبت آن از طریق syslog استفاده می‌شود.\n"
+"همچنین می‌توان از آن برای خاموش کردن رایانه وقتی باتری ضعیف شده است استفاده "
+"گردد."
+
+#: services.pm:23
+#, c-format
+msgid ""
+"Runs commands scheduled by the at command at the time specified when\n"
+"at was run, and runs batch commands when the load average is low enough."
+msgstr ""
+"فرمان‌های زمان‌بندی شده را بوسیله‌ی فرمان at در زمان مشخص شده وقتی at\n"
+"اجرا شود، و فرمان‌های دسته‌ای را وقتی میانگین بارگذاری کم باشد اجرا می‌کند."
+
+#: services.pm:25
+#, c-format
+msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
+msgstr ""
+
+#: services.pm:26
+#, c-format
+msgid "An NTP client/server"
+msgstr ""
+
+#: services.pm:27
+#, c-format
+msgid "Set CPU frequency settings"
+msgstr ""
+
+#: services.pm:28
+#, c-format
+msgid ""
+"cron is a standard UNIX program that runs user-specified programs\n"
+"at periodic scheduled times. vixie cron adds a number of features to the "
+"basic\n"
+"UNIX cron, including better security and more powerful configuration options."
+msgstr ""
+"cron یک برنامه‌ی استاندارد یونیکس است که برنامه‌های مشخص-کاربری را در اوقات\n"
+"زمان‌بندی شده‌ی متناوب اجرا می‌کند. vixie cron تعدادی از قابلیت‌ها را به cron "
+"پایه‌ی یونیکس\n"
+"شامل امنیت بهتر و گزینه‌های قدرتمندتر پیکربندی اضافه می‌کند."
+
+#: services.pm:31
+#, c-format
+msgid ""
+"Common UNIX Printing System (CUPS) is an advanced printer spooling system"
+msgstr ""
+
+#: services.pm:32
+#, c-format
+msgid "Launches the graphical display manager"
+msgstr ""
+
+#: services.pm:33
+#, c-format
+msgid ""
+"FAM is a file monitoring daemon. It is used to get reports when files "
+"change.\n"
+"It is used by GNOME and KDE"
+msgstr ""
+"FAM شبح پایشگری پرونده است. آن برای دریافت گزارش‌های تغییرات پرونده استفاده "
+"می‌گردد.\n"
+"آن بوسیله‌ی گنوم و کدئی استفاده می‌شود"
+
+#: services.pm:35
+#, c-format
+msgid ""
+"G15Daemon allows users access to all extra keys by decoding them and \n"
+"pushing them back into the kernel via the linux UINPUT driver. This driver "
+"must be loaded \n"
+"before g15daemon can be used for keyboard access. The G15 LCD is also "
+"supported. By default, \n"
+"with no other clients active, g15daemon will display a clock. Client "
+"applications and \n"
+"scripts can access the LCD via a simple API."
+msgstr ""
+
+#: services.pm:40
+#, c-format
+msgid ""
+"GPM adds mouse support to text-based Linux applications such the\n"
+"Midnight Commander. It also allows mouse-based console cut-and-paste "
+"operations,\n"
+"and includes support for pop-up menus on the console."
+msgstr ""
+"برنامه GPM پشتیبانی موشی را به برنامه‌های متنی لینوکس مانند Midnight "
+"Commander \n"
+"اضافه می‌کند. آن همچنین اجازه‌ی عملیات برش-چسباندن را در کنسول‌های بر \n"
+"اساس-موشی را داده و پشتیبانی منو‌های واشو را شامل می‌گردد."
+
+#: services.pm:43
+#, c-format
+msgid "HAL is a daemon that collects and maintains information about hardware"
+msgstr ""
+
+#: services.pm:44
+#, c-format
+msgid ""
+"HardDrake runs a hardware probe, and optionally configures\n"
+"new/changed hardware."
+msgstr ""
+"برنامه‌ی HardDrake یک حس‌گری سخت‌افزار را اجرا می‌کند، و بطور \n"
+"اختیاری سخت‌افزار جدید/تغییر کرده را پیکربندی می‌کند."
+
+#: services.pm:46
+#, c-format
+msgid ""
+"Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+msgstr ""
+"آپاچی یک کارگزار تارنمای پهناور گیتی است. آن برای عرضه‌ی پرونده‌های HTML و CGI "
+"استفاده می‌شود."
+
+#: services.pm:47
+#, c-format
+msgid ""
+"The internet superserver daemon (commonly called inetd) starts a\n"
+"variety of other internet services as needed. It is responsible for "
+"starting\n"
+"many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+"disables\n"
+"all of the services it is responsible for."
+msgstr ""
+"شبح کارگزار اینترنت (معروف به inetd ) سرویس‌های گوناگون اینترنت \n"
+"مورد نیاز دیگر را راه‌اندازی می‌کند. آن مسئول راه‌اندازی سرویس‌های\n"
+"بسیاری از قبیل telnet, ftp, rsh, و rlogin می‌باشد. از کار انداختن inetd \n"
+"باعث از کار افتادن تمام این سرویس‌ها می‌گردد."
+
+#: services.pm:51
+#, c-format
+msgid "Automates a packet filtering firewall with ip6tables"
+msgstr ""
+
+#: services.pm:52
+#, c-format
+msgid "Automates a packet filtering firewall with iptables"
+msgstr ""
+
+#: services.pm:53
+#, c-format
+msgid ""
+"Evenly distributes IRQ load across multiple CPUs for enhanced performance"
+msgstr ""
+
+#: services.pm:54
+#, c-format
+msgid ""
+"This package loads the selected keyboard map as set in\n"
+"/etc/sysconfig/keyboard.  This can be selected using the kbdconfig utility.\n"
+"You should leave this enabled for most machines."
+msgstr ""
+"این بسته نقشه‌ی صفحه‌کلید انتخاب شده‌ایی را که در /etc/sysconfig/keyboard \n"
+"گذاشته شده بارگذاری می‌کند. این می‌تواند با استفاده از ابزار kbdconfig انتخاب "
+"گردد.\n"
+"شما باید این را برای بیشتر ماشین‌ها بکار افتاده باقی بگذارید."
+
+#: services.pm:57
+#, c-format
+msgid ""
+"Automatic regeneration of kernel header in /boot for\n"
+"/usr/include/linux/{autoconf,version}.h"
+msgstr ""
+"تولید مجدد خودکار سرآیند هسته در شاخه‌ی /boot برای \n"
+"/usr/include/linux/{autoconf,version}.h"
+
+#: services.pm:59
+#, c-format
+msgid "Automatic detection and configuration of hardware at boot."
+msgstr "شناسایی و پیکربندی خودکار سخت‌افزار در آغازگری."
+
+#: services.pm:60
+#, c-format
+msgid "Tweaks system behavior to extend battery life"
+msgstr ""
+
+#: services.pm:61
+#, c-format
+msgid ""
+"Linuxconf will sometimes arrange to perform various tasks\n"
+"at boot-time to maintain the system configuration."
+msgstr ""
+"برنامه‌ی Linuxconf بعضی مواقع کارهایی را در زمان-آغازگری \n"
+"برای نگهداری از پیکربندی سیستم انجام خواهد ‌داد."
+
+#: services.pm:63
+#, c-format
+msgid ""
+"lpd is the print daemon required for lpr to work properly. It is\n"
+"basically a server that arbitrates print jobs to printer(s)."
+msgstr ""
+"lpd یک شبح چاپ لازم برای کار کرد مناسب lpr است. آن کارگزاری\n"
+"است که کارهای چاپ را به چاپگر(ها) فیصل می‌دهد."
+
+#: services.pm:65
+#, c-format
+msgid ""
+"Linux Virtual Server, used to build a high-performance and highly\n"
+"available server."
+msgstr ""
+"کارگزار مجازی لینوکس، برای ساختن کارگزاری توانا و همیشه در \n"
+"دسترس استفاده می‌شود."
+
+#: services.pm:67
+#, c-format
+msgid "Monitors the network (Interactive Firewall and wireless"
+msgstr ""
+
+#: services.pm:68
+#, c-format
+msgid "Software RAID monitoring and management"
+msgstr ""
+
+#: services.pm:69
+#, c-format
+msgid ""
+"DBUS is a daemon which broadcasts notifications of system events and other "
+"messages"
+msgstr ""
+
+#: services.pm:70
+#, c-format
+msgid "Enables MSEC security policy on system startup"
+msgstr ""
+
+#: services.pm:71
+#, c-format
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+"names to IP addresses."
+msgstr ""
+"named (BIND) یک کارگزار نام دامنه Domain Name Server (DNS) می‌باشد که برای "
+"بازیافتن نام میزبان‌ها به نشانی‌های اینترنتی استفاده می‌شود."
+
+#: services.pm:72
+#, c-format
+msgid "Initializes network console logging"
+msgstr ""
+
+#: services.pm:73
+#, c-format
+msgid ""
+"Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+"Manager/Windows), and NCP (NetWare) mount points."
+msgstr ""
+"سوار و پیاده کردن همه‌ی نقاط سوارسازی سیستم پرونده‌ی شبکه (NFS), SMB (مدیر\n"
+"شبکه محلی/Windows), و NCP (NetWare)."
+
+#: services.pm:75
+#, c-format
+msgid ""
+"Activates/Deactivates all network interfaces configured to start\n"
+"at boot time."
+msgstr ""
+"فعال/غیرفعال سازی تمام واسط‌های شبکه که برای شروع در زمان آغازگری \n"
+"پیکربندی شده‌اند."
+
+#: services.pm:77
+#, c-format
+msgid "Requires network to be up if enabled"
+msgstr ""
+
+#: services.pm:78
+#, c-format
+msgid "Wait for the hotplugged network to be up"
+msgstr ""
+
+#: services.pm:79
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+"This service provides NFS server functionality, which is configured via the\n"
+"/etc/exports file."
+msgstr ""
+"پایان‌نامه‌ی NFS برای اشتراک پرونده در طول شبکه‌های TCP/IP است.\n"
+"این سرویس عمل کرد کارگزار NFS را عرضه کرده، که از طریق پرونده‌ی /etc/exports\n"
+"پیکربندی می‌شود."
+
+#: services.pm:82
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP\n"
+"networks. This service provides NFS file locking functionality."
+msgstr ""
+"NFS یک پایان نامه معروف برای اشتراک پرونده در‌ شبکه TCP/IP\n"
+"می‌باشد. این سرویس توانایی قفل کردن پرونده NFS را عرضه می‌دارد."
+
+#: services.pm:84
+#, c-format
+msgid "Synchronizes system time using the Network Time Protocol (NTP)"
+msgstr ""
+
+#: services.pm:85
+#, c-format
+msgid ""
+"Automatically switch on numlock key locker under console\n"
+"and Xorg at boot."
+msgstr ""
+"روشن کردن خودکار کلید قفل اعداد، numlock، در کنسول و Xorg \n"
+"هنگام آغازگری."
+
+#: services.pm:87
+#, c-format
+msgid "Support the OKI 4w and compatible winprinters."
+msgstr "حمایت OKI 4w وwinprinters همخوان."
+
+#: services.pm:88
+#, c-format
+msgid "Checks if a partition is close to full up"
+msgstr ""
+
+#: services.pm:89
+#, c-format
+msgid ""
+"PCMCIA support is usually to support things like ethernet and\n"
+"modems in laptops.  It will not get started unless configured so it is safe "
+"to have\n"
+"it installed on machines that do not need it."
+msgstr ""
+"حمایت PCMCIA معمولاً برای حمایت چیزهایی مانند کارت شبکه و مودم \n"
+"در رایانه همراه می‌باشد. آن تا پیکربندی نگردد راه‌اندازی نخواهد شد بنابرین\n"
+"نصب آن بر ماشین‌هایی که به آن احتیاج ندارند امن است."
+
+#: services.pm:92
+#, c-format
+msgid ""
+"The portmapper manages RPC connections, which are used by\n"
+"protocols such as NFS and NIS. The portmap server must be running on "
+"machines\n"
+"which act as servers for protocols which make use of the RPC mechanism."
+msgstr ""
+"برنامه portmapper اتصالات RPC را مدیریت می‌کند، که بوسیله پایان‌نامه‌هایی\n"
+"نظیر NFS و NIS استفاده می‌شود. کارگزار portmap باید بر روی ماشین‌هایی\n"
+"که مانند کارگزارهایی با پایان‌نامه‌هایی که از روش RPC استفاده می‌کنند اجرا گردد."
+
+#: services.pm:95
+#, c-format
+msgid "Reserves some TCP ports"
+msgstr ""
+
+#: services.pm:96
+#, c-format
+msgid ""
+"Postfix is a Mail Transport Agent, which is the program that moves mail from "
+"one machine to another."
+msgstr ""
+"برنامه Postfix مامور انتقال پست می‌باشد، که برنامه‌ای است که پست را از یک "
+"ماشین به ماشین دیگر منتقل می‌کند."
+
+#: services.pm:97
+#, c-format
+msgid ""
+"Saves and restores system entropy pool for higher quality random\n"
+"number generation."
+msgstr ""
+"ذخیره‌سازی و بازسازی entropy pool سیستم برای تولید اعداد شانسی با کیفیت "
+"بالاتر."
+
+#: services.pm:99
+#, c-format
+msgid ""
+"Assign raw devices to block devices (such as hard disk drive\n"
+"partitions), for the use of applications such as Oracle or DVD players"
+msgstr ""
+"واگذاری دستگاه‌های خام به دستگاه‌های بلوک (مانند قسمت‌بندی‌های دیسک‌سخت)، برای "
+"استفاده از برنامه‌هایی مانند Oracle یا DVD players"
+
+#: services.pm:101
+#, c-format
+msgid "Nameserver information manager"
+msgstr ""
+
+#: services.pm:102
+#, c-format
+msgid ""
+"The routed daemon allows for automatic IP router table updated via\n"
+"the RIP protocol. While RIP is widely used on small networks, more complex\n"
+"routing protocols are needed for complex networks."
+msgstr ""
+"شبح routed اجازه‌ی بروزسازی جدول مسیریاب آی‌پی خودکار از طریق پایان‌نامه RIP "
+"را\n"
+"می‌دهد. در حالی که RIP بطور گسترده در شبکه‌های کوچک استفاده می‌شود، برای\n"
+"شبکه‌های پیچیده پایان‌نامه‌های مسیریابی پیچیده‌تری لازم است."
+
+#: services.pm:105
+#, c-format
+msgid ""
+"The rstat protocol allows users on a network to retrieve\n"
+"performance metrics for any machine on that network."
+msgstr ""
+"پایان‌نامه rstat به کاربران روی یک شبکه اجازه می‌دهد که اندازه‌ی اجرایی هر یک "
+"از ماشین‌های بر آن شبکه را دریافت کنند."
+
+#: services.pm:107
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages to various "
+"system log files.  It is a good idea to always run rsyslog."
+msgstr ""
+
+#: services.pm:108
+#, c-format
+msgid ""
+"The rusers protocol allows users on a network to identify who is\n"
+"logged in on other responding machines."
+msgstr ""
+"پایان‌نامه rusers به کاربران یک شبکه اجازه می‌دهد که کسانی را که در \n"
+"ماشین‌های دیگر آن شبکه هستند شناسایی کنند."
+
+#: services.pm:110
+#, c-format
+msgid ""
+"The rwho protocol lets remote users get a list of all of the users\n"
+"logged into a machine running the rwho daemon (similar to finger)."
+msgstr ""
+"پایان‌نامه‌ی rwho به کاربران از راه دور اجازه گرفتن لیستی از کاربرانی که در یک "
+"ماشین که شبح rwho را اجرا می‌کند می‌دهد (شبیه به finger)."
+
+#: services.pm:112
+#, c-format
+msgid ""
+"SANE (Scanner Access Now Easy) enables to access scanners, video cameras, ..."
+msgstr ""
+
+#: services.pm:113
+#, c-format
+msgid "Packet filtering firewall"
+msgstr ""
+
+#: services.pm:114
+#, c-format
+msgid "Packet filtering firewall for IPv6"
+msgstr ""
+
+#: services.pm:115
+#, c-format
+msgid ""
+"The SMB/CIFS protocol enables to share access to files & printers and also "
+"integrates with a Windows Server domain"
+msgstr ""
+
+#: services.pm:116
+#, c-format
+msgid "Launch the sound system on your machine"
+msgstr "راه‌اندازی سیستم صوتی بر ماشین شما"
+
+#: services.pm:117
+#, c-format
+msgid "layer for speech analysis"
+msgstr ""
+
+#: services.pm:118
+#, c-format
+msgid ""
+"Secure Shell is a network protocol that allows data to be exchanged over a "
+"secure channel between two computers"
+msgstr ""
+
+#: services.pm:119
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages\n"
+"to various system log files.  It is a good idea to always run syslog."
+msgstr ""
+"Syslog وسیله‌ای است که بسیاری از شبح‌ها برای ثبت پیغام‌ها به پرونده‌های \n"
+"ثبت سیستم استفاده می‌کنند. این فکر خوبی است که همیشه syslog را اجرا کرد."
+
+#: services.pm:121
+#, c-format
+msgid "Moves the generated persistent udev rules to /etc/udev/rules.d"
+msgstr ""
+
+#: services.pm:122
+#, c-format
+msgid "Load the drivers for your usb devices."
+msgstr "بارگذاری راه‌اندازها برای دستگاه‌های usb شما."
+
+#: services.pm:123
+#, c-format
+msgid "A lightweight network traffic monitor"
+msgstr ""
+
+#: services.pm:124
+#, c-format
+msgid "Starts the X Font Server."
+msgstr ""
+
+#: services.pm:125
+#, c-format
+msgid "Starts other deamons on demand."
+msgstr ""
+
+#: services.pm:154
+#, c-format
+msgid "Printing"
+msgstr "چاپ"
+
+#: services.pm:157
+#, c-format
+msgid "Internet"
+msgstr "اینترنت"
+
+#: services.pm:162
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Networking"
+msgstr "شبکه‌کاری"
+
+#: services.pm:164
+#, c-format
+msgid "System"
+msgstr "سیستم"
+
+#: services.pm:171
+#, c-format
+msgid "Remote Administration"
+msgstr "مدیریت از راه دور"
+
+#: services.pm:180
+#, c-format
+msgid "Database Server"
+msgstr "کارگزار‌ بانک اطلاعات"
+
+#: services.pm:191 services.pm:233
+#, c-format
+msgid "Services"
+msgstr "سرویس‌ها"
+
+#: services.pm:191
+#, c-format
+msgid "Choose which services should be automatically started at boot time"
+msgstr "انتخاب سرویس‌هایی که باید بطور خودکار در زمان آغازگری راه‌اندازی شوند"
+
+#: services.pm:214
+#, c-format
+msgid "%d activated for %d registered"
+msgstr "%d فعال شده برای %d ثبت شده"
+
+#: services.pm:237
+#, c-format
+msgid "running"
+msgstr "در حال اجرا است"
+
+#: services.pm:237
+#, c-format
+msgid "stopped"
+msgstr "متوقف شد."
+
+#: services.pm:242
+#, c-format
+msgid "Services and daemons"
+msgstr "سرویس‌ها و شبح‌ها"
+
+#: services.pm:248
+#, c-format
+msgid ""
+"No additional information\n"
+"about this service, sorry."
+msgstr ""
+"هیچ اطلاعات بیشتری\n"
+"درباره‌ی این سرویس، متأسفم."
+
+#: services.pm:255
+#, c-format
+msgid "Start when requested"
+msgstr "شروع در صورت تقاضا"
+
+#: services.pm:255
+#, c-format
+msgid "On boot"
+msgstr "در آغازگری"
+
+#: services.pm:272
+#, c-format
+msgid "Start"
+msgstr "شروع"
+
+#: services.pm:272
+#, c-format
+msgid "Stop"
+msgstr "ایست"
+
+#: standalone.pm:27
+#, c-format
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+msgstr ""
+"این برنامه نرم‌افزار آزاد است; شما می‌توانید آن را پخش مجدد و/یا تغییر دهید،\n"
+"البته تحت شرایط GNU General Public License که توسط \n"
+"the Free Software Foundation; یا نسخه ۲ ٬یا (به دلخواه شما)\n"
+"هر نسخه‌ی بعدی..\n"
+"\n"
+"این برنامه به امید مفید بودن پخش شده است,\n"
+"ولی بدون ضمانت؛ حتی بدون ضمانت تجاری یا \n"
+"شایستگی برای منظور خاصی. برای تشریحات بیشتر \n"
+"به GNU General Public License مراجعه نمایید.\n"
+"\n"
+"شما باید یک کپی از GNU General Public License\n"
+"را همراه این برنامه دریافت کرده باشید؛ اگر نه، نامه‌ای بنویسید به Free "
+"Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+
+#: standalone.pm:46
+#, c-format
+msgid ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Backup and Restore application\n"
+"\n"
+"--default             : save default directories.\n"
+"--debug               : show all debug messages.\n"
+"--show-conf           : list of files or directories to backup.\n"
+"--config-info         : explain configuration file options (for non-X "
+"users).\n"
+"--daemon              : use daemon configuration. \n"
+"--help                : show this message.\n"
+"--version             : show version number.\n"
+msgstr ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"برنامه ذخیره پشتیبان و بازسازی\n"
+"\n"
+"--default             : ذخیره شاخه‌های پیش‌فرض.\n"
+"--debug              : نشان دادن تمام پیغام‌های اشکال‌زدایی.\n"
+"--show-conf         : فهرست پرونده‌ها و شاخه‌ها برای ذخیره.\n"
+"--config-info        : تشریح گزینه‌های پرونده تنظیم (برای کاربران بدون-X ).\n"
+"--daemon            : استفاده از شبح تنظیم. \n"
+"--help                 : نمایش این پیغام .\n"
+"--version             : نمایش شماره نسخه.\n"
+
+#: standalone.pm:58
+#, c-format
+msgid ""
+"[--boot]\n"
+"OPTIONS:\n"
+"  --boot            - enable to configure boot loader\n"
+"default mode: offer to configure autologin feature"
+msgstr ""
+"[--boot]\n"
+"گزینه‌ها:\n"
+"  --boot            - قادر ساختن پیکربندی بارگذار آغازگر\n"
+"حالت پیش‌فرض: پیکربندی قابلیت ثبت‌ورود خودکار را عرضه می‌دارد"
+
+#: standalone.pm:62
+#, c-format
+msgid ""
+"[OPTIONS] [PROGRAM_NAME]\n"
+"\n"
+"OPTIONS:\n"
+"  --help            - print this help message.\n"
+"  --report          - program should be one of %s tools\n"
+"  --incident        - program should be one of %s tools"
+msgstr ""
+
+#: standalone.pm:68
+#, c-format
+msgid ""
+"[--add]\n"
+"  --add             - \"add a network interface\" wizard\n"
+"  --del             - \"delete a network interface\" wizard\n"
+"  --skip-wizard     - manage connections\n"
+"  --internet        - configure internet\n"
+"  --wizard          - like --add"
+msgstr ""
+"[--add]\n"
+"  --add             - جادوگر \"افزودن واسط شبکه\"\n"
+"  --del             - جادوگر \"حذف واسط شبکه\"\n"
+"  --skip-wizard     - سازمان‌دهی اتصالات\n"
+"  --internet        - پیکربندی اینترنت\n"
+"  --wizard          - مانند --add"
+
+#: standalone.pm:74
+#, c-format
+msgid ""
+"\n"
+"Font Importation and monitoring application\n"
+"\n"
+"OPTIONS:\n"
+"--windows_import : import from all available windows partitions.\n"
+"--xls_fonts      : show all fonts that already exist from xls\n"
+"--install        : accept any font file and any directory.\n"
+"--uninstall      : uninstall any font or any directory of font.\n"
+"--replace        : replace all font if already exist\n"
+"--application    : 0 none application.\n"
+"                 : 1 all application available supported.\n"
+"                 : name_of_application like  so for staroffice \n"
+"                 : and gs for ghostscript for only this one."
+msgstr ""
+"\n"
+"برنامه‌ی پایشگری و واردات قلم نگارش                                     \n"
+"\n"
+"گزینه‌ها:\n"
+"--واردات_ویندوز : واردات از تمام قسمت‌بندی‌های موجود ویندوز.\n"
+"--قلم‌هاـxls      : همه قلم‌هایی که از قبل از xls وجود دارد را نشان می‌دهد\n"
+"--نصب        : پذیرش هر پرونده‌ی قلم و هر شاخه‌ای.\n"
+"--نصب‌برداری      : نصب‌برداری هر قلمی یا شاخه‌ی قلم.\n"
+"--جایگزینی        : جایگزینی همه قلم‌هایی که قبلاً وجود دارند\n"
+"--برنامه    : صفر هیچ برنامه.\n"
+"                 : 1 همه برنامه‌های موجود حمایت شده.\n"
+"                 : نام_برنامه مانند so برای staroffice \n"
+"                 : و gs برای ghostscript فقط برای این یکی."
+
+#: standalone.pm:89
+#, c-format
+msgid ""
+"[OPTIONS]...\n"
+"%s Terminal Server Configurator\n"
+"--enable         : enable MTS\n"
+"--disable        : disable MTS\n"
+"--start          : start MTS\n"
+"--stop           : stop MTS\n"
+"--adduser        : add an existing system user to MTS (requires username)\n"
+"--deluser        : delete an existing system user from MTS (requires "
+"username)\n"
+"--addclient      : add a client machine to MTS (requires MAC address, IP, "
+"nbi image name)\n"
+"--delclient      : delete a client machine from MTS (requires MAC address, "
+"IP, nbi image name)"
+msgstr ""
+
+#: standalone.pm:101
+#, c-format
+msgid "[keyboard]"
+msgstr "[صفحه‌کلید]"
+
+#: standalone.pm:102
+#, c-format
+msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+msgstr "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+
+#: standalone.pm:103
+#, c-format
+msgid ""
+"[OPTIONS]\n"
+"Network & Internet connection and monitoring application\n"
+"\n"
+"--defaultintf interface : show this interface by default\n"
+"--connect : connect to internet if not already connected\n"
+"--disconnect : disconnect to internet if already connected\n"
+"--force : used with (dis)connect : force (dis)connection.\n"
+"--status : returns 1 if connected 0 otherwise, then exit.\n"
+"--quiet : do not be interactive. To be used with (dis)connect."
+msgstr ""
+"[گزینه‌ها]\n"
+"برنامه‌ی پایشگری و اتصال شبکه & اینترنت\n"
+"\n"
+"--واسط پیش‌فرض : این واسط را بوسیله پیش‌فرض نشان می‌دهد\n"
+"--اتصال             : اتصال به اینترنت اگر قبلاً اتصالی وجود ندارد\n"
+"--قطع اتصال       : قطع اتصال از اینترنت اگر قبلاً اتصال وجود دارد\n"
+"--اجبار              : با استفاده از (قطع)اتصال : اجبار (قطع)اتصال.\n"
+"--وضعیت           : اگر اتصال برقرار است ۱ وگرنه ۰ برگشت داده شده، سپس خارج "
+"شود.\n"
+"--ساکت             : بدون تداخل با کاربر. با (قطع)اتصال استفاده شود."
+
+#: standalone.pm:113
+#, c-format
+msgid ""
+"[OPTION]...\n"
+"  --no-confirmation      do not ask first confirmation question in %s Update "
+"mode\n"
+"  --no-verify-rpm        do not verify packages signatures\n"
+"  --changelog-first      display changelog before filelist in the "
+"description window\n"
+"  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+msgstr ""
+
+#: standalone.pm:118
+#, c-format
+msgid ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+msgstr ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+
+#: standalone.pm:119
+#, c-format
+msgid ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolution"
+msgstr ""
+" [همه چیز]\n"
+"       XFdrake [--noauto] نمایشگر\n"
+"       XFdrake تفکیک‌پذیری"
+
+#: standalone.pm:156
+#, c-format
+msgid ""
+"\n"
+"Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+msgstr ""
+"\n"
+"طرز استفاده: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+
+#: timezone.pm:170 timezone.pm:171
+#, c-format
+msgid "All servers"
+msgstr ""
+
+#: timezone.pm:207
+#, c-format
+msgid "Global"
+msgstr ""
+
+#: timezone.pm:210
+#, c-format
+msgid "Africa"
+msgstr ""
+
+#: timezone.pm:211
+#, c-format
+msgid "Asia"
+msgstr ""
+
+#: timezone.pm:212
+#, c-format
+msgid "Europe"
+msgstr ""
+
+#: timezone.pm:213
+#, c-format
+msgid "North America"
+msgstr ""
+
+#: timezone.pm:214
+#, c-format
+msgid "Oceania"
+msgstr "اقیانوسیه"
+
+#: timezone.pm:215
+#, c-format
+msgid "South America"
+msgstr ""
+
+#: timezone.pm:224
+#, c-format
+msgid "Hong Kong"
+msgstr "هنگ‌ کنگ"
+
+#: timezone.pm:261
+#, c-format
+msgid "Russian Federation"
+msgstr "فدراسیون روسیه"
+
+#: timezone.pm:269
+#, c-format
+msgid "Yugoslavia"
+msgstr "یوگوسلاوی"
+
+#: ugtk2.pm:810 ugtk3.pm:906
+#, c-format
+msgid "Is this correct?"
+msgstr "آیا این درست است؟"
+
+#: ugtk2.pm:872 ugtk3.pm:968
+#, c-format
+msgid "You have chosen a file, not a directory"
+msgstr "شما پرونده‌ای را انتخاب کرده‌اید، نه یک شاخه را"
+
+#: ugtk2.pm:922 ugtk3.pm:1018
+#, c-format
+msgid "Info"
+msgstr "اطلاعات"
+
+#: wizards.pm:95
+#, c-format
+msgid ""
+"%s is not installed\n"
+"Click \"Next\" to install or \"Cancel\" to quit"
+msgstr ""
+"%s نصب نشده است\n"
+"بر \"بعدی\" برای نصب کردن یا بر \"لغو\" برای لغو کردن کلیک کنید"
+
+#: wizards.pm:99
+#, c-format
+msgid "Installation failed"
+msgstr "نصب شکست خورد"
+
+#~ msgid "You cannot install the bootloader on a %s partition\n"
+#~ msgstr "نمی‌توانید بارگذارآغازگر را بر یک قسمت‌بندی %s نصب کنید\n"
+
+#, fuzzy
+#~ msgid "You must have a Boot BIOS partition"
+#~ msgstr "قسمت‌بندی ریشه‌ایی را باید مشخص کنید"
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "لطفاً صبر کنید... در حال بکار بستن پیکربندی"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS API\n"
+#~ "- the new ALSA API that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "برنامه OSS (سیستم صوتی آزاد) اولین API صوتی بود. آن یک API صوتی غیر "
+#~ "وابسته به سیستم عامل است (در بیشتر سیستم‌های یونیکس موجود است) ولی آن یک "
+#~ "API خیلی ساده و محدود است.\n"
+#~ " دیگر اینکه همه‌ی راه‌انداز‌های OSS چرخ را دوباره اختراع می‌کنند.\n"
+#~ "\n"
+#~ "برنامه ALSA (ساختار صوتی پیشرفته لینوکس) یک معماری تشکیل شده از بخش‌ها را "
+#~ "دارا است که \n"
+#~ "از یک گستره‌ی وسیعی از کارت‌های PCI ،USB و ISA پشتیبانی می‌کند.\n"
+#~ "\n"
+#~ "آن همچنین یک API بالاتری از OSS عرضه می‌کند.\n"
+#~ "\n"
+#~ "برای استفاده از alsa, شما می‌توانید یکی از دو روش زیر را انتخاب نمایید:\n"
+#~ "- روش قدیمی همخوان با OSS API \n"
+#~ "- ALSA API جدید که قابلیت‌های بهینه شده‌ی بسیاری را عرضه می‌دارد ولی با لزوم "
+#~ "استفاده از کتابخانه ALSA .\n"
+
+#~ msgid "Driver:"
+#~ msgstr "راه‌انداز:"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "اجازه بده تا هر راه‌اندازی را انتخاب کنم"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "انتخاب یک راه‌انداز دلخواه"

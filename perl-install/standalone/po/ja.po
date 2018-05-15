@@ -1,0 +1,3369 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Masanori Kakura <kakurasan@gmail.com>, 2017
+# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2003-2004,2006
+# YAMAGATA Hiroo <hiyori13@alum.mit.edu>, 2000
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2004-2009
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2018-01-28 13:33+0000\n"
+"Last-Translator: Masanori Kakura <kakurasan@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/MageiaLinux/mageia/"
+"language/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "ヘルプ"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "閉じる"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "認証"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213 drakfont:226
+#: drakfont:264 finish-install:136 logdrake:177 logdrake:453 logdrake:458
+#: scannerdrake:56 scannerdrake:98 scannerdrake:139 scannerdrake:197
+#: scannerdrake:256 scannerdrake:726 scannerdrake:737 scannerdrake:876
+#: scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "エラー"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "終了(_Q)"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: drakautologin:100
+#, c-format
+msgid "Default user"
+msgstr "既定のユーザ"
+
+#: drakautologin:101
+#, c-format
+msgid "Default desktop"
+msgstr "既定のデスクトップ"
+
+#: drakautologin:104
+#, c-format
+msgid "No, I do not want autologin"
+msgstr "自動ログインを使わない"
+
+#: drakautologin:105
+#, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr "以下のユーザとデスクトップで自動的にログインする"
+
+#: drakautologin:112
+#, c-format
+msgid "System mode"
+msgstr "システム モード"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr "システム開始時にグラフィカル環境を起動する"
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr "ブート ローダが見つかりません。新しい設定を作成します。"
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr "プログラム \"%s\" が以下のエラーでクラッシュしました:"
+
+#: drakbug:62
+#, c-format
+msgid "%s Bug Report Tool"
+msgstr "%s バグ報告ツール"
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "%s コントロール センター"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr "初回設定ウィザード"
+
+#: drakbug:69
+#, c-format
+msgid "Synchronization tool"
+msgstr "同期ツール"
+
+#: drakbug:70 drakbug:206
+#, c-format
+msgid "Standalone Tools"
+msgstr "独立型ツール"
+
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s Online"
+
+#: drakbug:74
+#, c-format
+msgid "Remote Control"
+msgstr "リモート コントロール"
+
+#: drakbug:75
+#, c-format
+msgid "Software Manager"
+msgstr "ソフトウェア マネージャ"
+
+#: drakbug:76
+#, c-format
+msgid "Windows Migration tool"
+msgstr "Windows 移行ツール"
+
+#: drakbug:77
+#, c-format
+msgid "Configuration Wizards"
+msgstr "設定ウィザード"
+
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "%s のツールを選択:"
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+"またはアプリケーション名\n"
+"(またはフル パス):"
+
+#: drakbug:103
+#, c-format
+msgid "Find Package"
+msgstr "パッケージを検索"
+
+#: drakbug:104
+#, c-format
+msgid "Browse"
+msgstr "参照"
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "パッケージ: "
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "カーネル: "
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr ""
+"プログラム \"%s\" が以下のエラーでセグメンテーション違反を起こしました:"
+
+#: drakbug:144
+#, c-format
+msgid "Used theme: %s"
+msgstr "使用テーマ: %s"
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+"バグを報告するには、報告ボタンをクリックしてください。\n"
+"%s がウェブ ブラウザのウィンドウに開き、入力フォームが表示されます。\n"
+"上に表示されている情報がサーバに転送されます。"
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] "以下のコマンドの出力を添付していただけると大変役立ちます: %s"
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr "'%s'"
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr "以下のファイルも添付してください: %s と %s"
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr "クラッシュしたときに行っていたことを記述してください:"
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "報告"
+
+#: drakbug:213
+#, c-format
+msgid "Not installed"
+msgstr "未インストール"
+
+#: drakbug:226
+#, c-format
+msgid "Package not installed"
+msgstr "パッケージがインストールされていません"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "警告"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+"開発者がバグを再現し、修正しやすくするために、この不具合が起こったときに行っ"
+"ていたことを記述してください。"
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr "ありがとうございます。"
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "日付、時刻とタイム ゾーンの設定"
+
+#: drakclock:38
+#, c-format
+msgid "not defined"
+msgstr "設定されていません"
+
+#: drakclock:40
+#, c-format
+msgid "Change Time Zone"
+msgstr "タイム ゾーンを変更"
+
+#: drakclock:45
+#, c-format
+msgid "Timezone - DrakClock"
+msgstr "タイム ゾーン - DrakClock"
+
+#: drakclock:45
+#, c-format
+msgid "Which is your timezone?"
+msgstr "最も近い場所はどこですか?"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:47
+#, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "ハードウェア クロックを GMT に設定しますか?"
+
+#: drakclock:75
+#, c-format
+msgid "Network Time Protocol"
+msgstr "ネットワーク タイム プロトコル"
+
+#: drakclock:77
+#, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"NTP を用いたリモート タイム サーバで\n"
+"マシンの時計を同期させることができます"
+
+#: drakclock:78
+#, c-format
+msgid "Enable Network Time Protocol"
+msgstr "ネットワーク タイム プロトコルを有効にする"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "サーバ:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "タイム ゾーン"
+
+#: drakclock:117
+#, c-format
+msgid "Please enter a valid NTP server address."
+msgstr "有効な NTP サーバのアドレスを入力してください。"
+
+#: drakclock:141
+#, c-format
+msgid "Could not synchronize with %s."
+msgstr "%s と同期できませんでした。"
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "終了"
+
+#: drakclock:143
+#, c-format
+msgid "Retry"
+msgstr "再試行"
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "リセット"
+
+#: drakdvb:30
+#, c-format
+msgid "DVB"
+msgstr "DVB"
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "チャンネル"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr "%s は既に存在し、その内容が失われます"
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr "利用可能なチャンネルの一覧を取得できませんでした"
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "お待ちください"
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr "DVB チャンネルを検出しています。これには数分かかります。"
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: drakdvb:148
+#, c-format
+msgid "Detect Channels"
+msgstr "チャンネルを検出"
+
+#: drakdvb:150
+#, c-format
+msgid "View Channel"
+msgstr "チャンネルを見る"
+
+#: drakedm:41
+#, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "GDM (GNOME Display Manager)"
+
+#: drakedm:42
+#, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr "SDDM (Simple Desktop Display Manager)"
+
+#: drakedm:43
+#, c-format
+msgid "XDM (X Display Manager)"
+msgstr "XDM (X Display Manager)"
+
+#: drakedm:54
+#, c-format
+msgid "Choosing a display manager"
+msgstr "ディスプレイ マネージャを選択してください"
+
+#: drakedm:55
+#, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr ""
+"X11 ディスプレイ マネージャは、X ウィンドウ システムへのグラフィカル ログイン"
+"を可能にします。\n"
+"また、ローカル マシン上で同時に複数の X セッションを実行できるようになりま"
+"す。\n"
+"ディスプレイ マネージャを選んでください。"
+
+#: drakedm:74
+#, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "変更しました。dm サービスを再起動しますか?"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+"実行中のプログラムをすべて閉じて現在のセッションを終了します。本当に dm サー"
+"ビスを再起動しますか?"
+
+#: drakfont:187
+#, c-format
+msgid "Search installed fonts"
+msgstr "インストール済みのフォントを検索"
+
+#: drakfont:189
+#, c-format
+msgid "Unselect fonts installed"
+msgstr "インストール済みのフォントの選択を解除"
+
+#: drakfont:213
+#, c-format
+msgid "No fonts found"
+msgstr "フォントが見つかりません"
+
+#: drakfont:217
+#, c-format
+msgid "parse all fonts"
+msgstr "すべてのフォントを分析"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "完了"
+
+#: drakfont:226
+#, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "マウントされているパーティションにはフォントがありません"
+
+#: drakfont:261
+#, c-format
+msgid "Reselect correct fonts"
+msgstr "正しいフォントを再選択"
+
+#: drakfont:264
+#, c-format
+msgid "Could not find any font.\n"
+msgstr "フォントが見つかりません。\n"
+
+#: drakfont:274
+#, c-format
+msgid "Search for fonts in installed list"
+msgstr "インストール済みのリストからフォントを探す"
+
+#: drakfont:298
+#, c-format
+msgid "%s fonts conversion"
+msgstr "%s フォントの変換"
+
+#: drakfont:337
+#, c-format
+msgid "Fonts copy"
+msgstr "フォントをコピー"
+
+#: drakfont:340
+#, c-format
+msgid "True Type fonts installation"
+msgstr "True Type フォントをインストール"
+
+#: drakfont:348
+#, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "ttmkfdir を実行中です。お待ちください..."
+
+#: drakfont:349
+#, c-format
+msgid "True Type install done"
+msgstr "True Type をインストールしました"
+
+#: drakfont:355 drakfont:370
+#, c-format
+msgid "type1inst building"
+msgstr "type1inst がファイルを作成しています"
+
+#: drakfont:364
+#, c-format
+msgid "Ghostscript referencing"
+msgstr "Ghostscript を参照しています"
+
+#: drakfont:381
+#, c-format
+msgid "Suppress Temporary Files"
+msgstr "一時ファイルを作成しない"
+
+#: drakfont:426 drakfont:432
+#, c-format
+msgid "Suppress Fonts Files"
+msgstr "フォント ファイルを作成しない"
+
+#: drakfont:440
+#, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr ""
+"フォントをインストールする前に、これらのフォントを使用/インストールする権利が"
+"あることを確認してください。\n"
+"\n"
+"フォントはたいてい問題なくインストールされますが、まれに不良なフォントで X "
+"サーバが固まる場合があります。"
+
+#: drakfont:479
+#, c-format
+msgid "Font Installation"
+msgstr "フォントのインストール"
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakFont"
+
+#: drakfont:491 drakfont:640
+#, c-format
+msgid "Font List"
+msgstr "フォントの一覧"
+
+#: drakfont:494
+#, c-format
+msgid "Get Windows Fonts"
+msgstr "Windows のフォントをインポート"
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "情報"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "オプション"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "アンインストール"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "インポート"
+
+#: drakfont:521
+#, c-format
+msgid "Drakfont"
+msgstr "Drakfont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright (C) %s by %s"
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr "フォントのインストーラです。"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+"UTUMI Hirosi <utuhiro78@yahoo.co.jp>\n"
+"Yukiko BANDO <ybando@k6.dion.ne.jp>\n"
+"Masanori Kakura <kakurasan@gmail.com>\n"
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr "このフォントを使用するアプリケーションを選んでください:"
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "Abiword"
+
+#: drakfont:555
+#, c-format
+msgid "Generic Printers"
+msgstr "一般プリンタ"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#: drakfont:569
+#, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr ""
+"フォント ファイルかディレクトリを選択して '追加' をクリックしてください"
+
+#: drakfont:570
+#, c-format
+msgid "File Selection"
+msgstr "ファイルを選択"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "フォント"
+
+#: drakfont:638 draksec:185
+#, c-format
+msgid "Import fonts"
+msgstr "フォントをインポート"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "追加"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "削除"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "インストール"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr "本当に以下のフォントをアンインストールしますか?"
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "はい"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "いいえ"
+
+#: drakfont:728
+#, c-format
+msgid "Unselect All"
+msgstr "すべて選択解除"
+
+#: drakfont:731
+#, c-format
+msgid "Select All"
+msgstr "すべて選択"
+
+#: drakfont:748
+#, c-format
+msgid "Importing fonts"
+msgstr "フォントをインポート"
+
+#: drakfont:752 drakfont:772
+#, c-format
+msgid "Initial tests"
+msgstr "初期テスト"
+
+#: drakfont:753
+#, c-format
+msgid "Copy fonts on your system"
+msgstr "システム上のフォントをコピー"
+
+#: drakfont:754
+#, c-format
+msgid "Install & convert Fonts"
+msgstr "フォントのインストールと変換"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "インストール後の処理"
+
+#: drakfont:767
+#, c-format
+msgid "Removing fonts"
+msgstr "フォントの削除"
+
+#: drakfont:773
+#, c-format
+msgid "Remove fonts on your system"
+msgstr "システムからフォントを削除"
+
+#: drakfont:774
+#, c-format
+msgid "Post Uninstall"
+msgstr "アンインストール後の処理"
+
+#: drakhelp:17
+#, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"これはフリー ソフトウェアであり、GNU GPL のもとで再頒布することができます。\n"
+"\n"
+"使い方: \n"
+
+#: drakhelp:23
+#, c-format
+msgid "  --help                - display this help     \n"
+msgstr "  --help                - このヘルプを表示     \n"
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+" --id <id_label>       - id_label を参照する HTML 形式のヘルプ ページを読み込"
+"む\n"
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+" --doc <link>          - 他のウェブ ページにリンク (WM welcome frontend 向"
+"け)\n"
+
+#: drakhelp:53
+#, c-format
+msgid "%s Help Center"
+msgstr "%s ヘルプ センター"
+
+#: drakhelp:53
+#, c-format
+msgid "No Help entry for %s\n"
+msgstr "%s のヘルプはありません\n"
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "システム設定"
+
+#: drakperm:24
+#, c-format
+msgid "Custom settings"
+msgstr "カスタム設定"
+
+#: drakperm:25
+#, c-format
+msgid "Custom & system settings"
+msgstr "カスタム設定とシステム設定"
+
+#: drakperm:33
+#, c-format
+msgid "Security Permissions"
+msgstr "セキュリティのための権限設定"
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "編集可"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "パス"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "ユーザ"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "グループ"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "権限"
+
+#: drakperm:60
+#, c-format
+msgid "Add a new rule"
+msgstr "新しいルールを追加"
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, c-format
+msgid "Edit current rule"
+msgstr "現在のルールを編集"
+
+#: drakperm:108
+#, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr ""
+"ここでは、権限/所有者/グループの設定を変更する際に msec が使用するファイルを"
+"一覧できます。\n"
+"デフォルトの設定を上書きする自分のルールを編集することもできます。"
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+"現在のセキュリティ レベルは %s です。\n"
+"閲覧/編集する権限を選んでください。"
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "上へ"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr "選んだルールのレベルをひとつ上げる"
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "下へ"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr "選んだルールのレベルをひとつ下げる"
+
+#: drakperm:124
+#, c-format
+msgid "Add a rule"
+msgstr "ルールを追加"
+
+#: drakperm:124
+#, c-format
+msgid "Add a new rule at the end"
+msgstr "新しいルールを末尾に追加"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "削除"
+
+#: drakperm:125
+#, c-format
+msgid "Delete selected rule"
+msgstr "選んだルールを削除"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "編集"
+
+#: drakperm:239
+#, c-format
+msgid "browse"
+msgstr "参照"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "ユーザ"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "グループ"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "その他"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "その他"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "読み取り"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "ファイルを読み込むために %s を有効にする"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "書き込み"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "ファイルに書き込むために %s を有効にする"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "実行"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "ファイルを実行するために %s を有効にする"
+
+#: drakperm:269
+#, c-format
+msgid "Sticky-bit"
+msgstr "スティッキー ビット"
+
+#: drakperm:269
+#, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"ディレクトリ用:\n"
+" ディレクトリやファイルの所有者だけが削除できます"
+
+#: drakperm:270
+#, c-format
+msgid "Set-UID"
+msgstr "SetUID"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr "実行に所有者の ID を使う"
+
+#: drakperm:271
+#, c-format
+msgid "Set-GID"
+msgstr "SetGID"
+
+#: drakperm:271
+#, c-format
+msgid "Use group id for execution"
+msgstr "実行にグループの ID を使う"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "ユーザ:"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "グループ:"
+
+#: drakperm:293
+#, c-format
+msgid "Current user"
+msgstr "現在のユーザ"
+
+#: drakperm:294
+#, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr "チェックの際に、所有者とグループを変更しません"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "パスを選択"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "プロパティ"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+"パスの最初の文字はスラッシュ (\"/\") でなければなりません:\n"
+" \"%s\""
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr "ユーザ名とグループ名の両方が有効でなければなりません!"
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr "ユーザ: %s"
+
+#: drakperm:383
+#, c-format
+msgid "Group: %s"
+msgstr "グループ: %s"
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "すべて"
+
+#: draksec:54
+#, c-format
+msgid "LOCAL"
+msgstr "ローカル"
+
+#: draksec:55
+#, c-format
+msgid "NONE"
+msgstr "なし"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "既定"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "無視"
+
+#: draksec:87
+#, c-format
+msgid "Security Level and Checks"
+msgstr "セキュリティ レベルとチェック"
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr "%s のツールを使用するために必要な認証を設定します"
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "パスワードなし"
+
+#: draksec:115
+#, c-format
+msgid "Administrator password"
+msgstr "root のパスワード"
+
+#: draksec:116
+#, c-format
+msgid "User password"
+msgstr "ユーザのパスワード"
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "ソフトウェアの管理"
+
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "%s の更新"
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "ソフトウェア メディア マネージャ"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "3D デスクトップ効果を設定"
+
+#: draksec:172
+#, c-format
+msgid "Graphical Server Configuration"
+msgstr "グラフィカル サーバの設定"
+
+#: draksec:173
+#, c-format
+msgid "Mouse Configuration"
+msgstr "マウスの設定"
+
+#: draksec:174
+#, c-format
+msgid "Keyboard Configuration"
+msgstr "キーボードの設定"
+
+#: draksec:175
+#, c-format
+msgid "UPS Configuration"
+msgstr "UPS の設定"
+
+#: draksec:176
+#, c-format
+msgid "Network Configuration"
+msgstr "ネットワークの設定"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr "ホストの定義"
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "ネットワーク センター"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr "無線ネットワーク ローミング"
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr "VPN"
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "プロキシを設定"
+
+#: draksec:182
+#, c-format
+msgid "Connection Sharing"
+msgstr "接続の共有"
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "バックアップ"
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "ログ"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "サービス"
+
+#: draksec:188
+#, c-format
+msgid "Users"
+msgstr "ユーザ"
+
+#: draksec:190
+#, c-format
+msgid "Boot Configuration"
+msgstr "起動の設定"
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "ハードウェア"
+
+#: draksec:224
+#, c-format
+msgid "Network"
+msgstr "ネットワーク"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "システム"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "起動"
+
+#: draksound:48
+#, c-format
+msgid "No Sound Card detected!"
+msgstr "サウンド カードを検出できませんでした!"
+
+#: draksound:50
+#, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+"このマシン上にはサウンド カードは検出されませんでした。Linux によってサポート"
+"されているサウンド カードが正しく差し込まれているかを確認してください"
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr "シリアル ポートもしくは USB ケーブル経由で接続"
+
+#: drakups:72
+#, c-format
+msgid "Manual configuration"
+msgstr "手動設定"
+
+#: drakups:78
+#, c-format
+msgid "Add an UPS device"
+msgstr "UPS デバイスを追加"
+
+#: drakups:81
+#, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr ""
+"UPS 設定ユーティリティへようこそ。\n"
+"\n"
+"ここではお使いのシステムに UPS を追加します。\n"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+"UPS デバイスを追加します。\n"
+"\n"
+"このマシンに接続されている UPS デバイスを自動検出するか、手動で選んでくださ"
+"い。"
+
+#: drakups:91
+#, c-format
+msgid "Autodetection"
+msgstr "自動検出"
+
+#: drakups:99 harddrake2:362
+#, c-format
+msgid "Detection in progress"
+msgstr "検出中です"
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "おめでとうございます"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr "以下の UPS デバイスを追加しました:"
+
+#: drakups:121
+#, c-format
+msgid "No new UPS devices was found"
+msgstr "新しい UPS デバイスが見つかりません"
+
+#: drakups:126 drakups:138
+#, c-format
+msgid "UPS driver configuration"
+msgstr "UPS ドライバの設定"
+
+#: drakups:126
+#, c-format
+msgid "Please select your UPS model."
+msgstr "UPS モデルを選んでください。"
+
+#: drakups:127
+#, c-format
+msgid "Manufacturer / Model:"
+msgstr "メーカー/モデル:"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+"\"%s\" の \"%s\" UPS を設定しています。\n"
+"名前, ドライバ, ポートを入力してください。"
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "名前:"
+
+#: drakups:143
+#, c-format
+msgid "The name of your ups"
+msgstr "UPS の名前"
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "ドライバ:"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr "UPS のドライバ"
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "ポート:"
+
+#: drakups:147
+#, c-format
+msgid "The port on which is connected your ups"
+msgstr "UPS が接続されているポート"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr "新しい \"%s\" UPS デバイスを設定しました。"
+
+#: drakups:248
+#, c-format
+msgid "UPS devices"
+msgstr "UPS デバイス"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "名前"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "ドライバ"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "ポート"
+
+#: drakups:267
+#, c-format
+msgid "UPS users"
+msgstr "UPS ユーザ"
+
+#: drakups:283
+#, c-format
+msgid "Access Control Lists"
+msgstr "アクセス制御リスト"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "IP アドレス"
+
+#: drakups:284
+#, c-format
+msgid "IP mask"
+msgstr "IP マスク"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "ルール"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "アクション"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "レベル"
+
+#: drakups:297
+#, c-format
+msgid "ACL name"
+msgstr "ACL の名前"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "パスワード"
+
+#: drakups:329
+#, c-format
+msgid "UPS Management"
+msgstr "UPS の管理"
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "UPS 設定ツールへようこそ"
+
+#: drakxtv:66
+#, c-format
+msgid "No TV Card detected!"
+msgstr "テレビ カードが見つかりません!"
+
+#: drakxtv:67
+#, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+"このマシン上にはテレビ カードが検出されませんでした。Linux によってサポートさ"
+"れている ビデオ/テレビ カードが正しく差し込まれているかを確認してください。"
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "キーボード"
+
+#: finish-install:61
+#, c-format
+msgid "Please choose your keyboard layout."
+msgstr "キーボードの配列を選んでください。"
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr "接続をテストしています..."
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, c-format
+msgid "Encrypted home partition"
+msgstr "暗号化された home パーティション"
+
+#: finish-install:199
+#, c-format
+msgid "Please enter a password for the %s user"
+msgstr "ユーザ %s のパスワードを入力してください"
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "パスワード (再入力)"
+
+#: finish-install:217
+#, c-format
+msgid "Creating encrypted home partition"
+msgstr "暗号化された home パーティションを作成"
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr "暗号化された home パーティションをフォーマットしています"
+
+#: harddrake2:30
+#, c-format
+msgid "Alternative drivers"
+msgstr "代替ドライバ"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr "このサウンドカード用の代替ドライバの一覧"
+
+#: harddrake2:33 harddrake2:129
+#, c-format
+msgid "Bus"
+msgstr "バス"
+
+#: harddrake2:34
+#, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr "デバイスを差し込む物理バス (PCI, USB など)"
+
+#: harddrake2:36 harddrake2:155
+#, c-format
+msgid "Bus identification"
+msgstr "バスの識別"
+
+#: harddrake2:37
+#, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr ""
+"- PCI と USB のデバイス: ベンダ, デバイス, サブ ベンダ, サブ デバイスの PCI/"
+"USB の ID を表示します。"
+
+#: harddrake2:39
+#, c-format
+msgid "Location on the bus"
+msgstr "バス上の位置"
+
+#: harddrake2:40
+#, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr ""
+"- pci デバイス: このカードの PCI スロット, デバイス, 機能を表示します\n"
+"- eide デバイス: デバイスはスレーブかマスターのいずれかです\n"
+"- scsi デバイス: scsi バスと scsi デバイスの ID です"
+
+#: harddrake2:43
+#, c-format
+msgid "Drive capacity"
+msgstr "ドライブの機能"
+
+#: harddrake2:43
+#, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr "このドライブの特別な機能 (書き込み機能や DVD サポート)"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "説明"
+
+#: harddrake2:44
+#, c-format
+msgid "this field describes the device"
+msgstr "デバイスの説明を表示します"
+
+#: harddrake2:45
+#, c-format
+msgid "Old device file"
+msgstr "古いデバイス ファイル"
+
+#: harddrake2:46
+#, c-format
+msgid "old static device name used in dev package"
+msgstr "dev パッケージで使われた古い静的デバイス名"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "モジュール"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr "デバイスを扱う GNU/Linux カーネルのモジュール"
+
+#: harddrake2:50
+#, c-format
+msgid "Extended partitions"
+msgstr "拡張パーティション"
+
+#: harddrake2:50
+#, c-format
+msgid "the number of extended partitions"
+msgstr "拡張パーティションの番号"
+
+#: harddrake2:51
+#, c-format
+msgid "Geometry"
+msgstr "ジオメトリ"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr "ディスクのシリンダ/ヘッド/セクタ ジオメトリ"
+
+#: harddrake2:52
+#, c-format
+msgid "Disk controller"
+msgstr "ディスク コントローラ"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr "ホスト側のディスク コントローラ"
+
+#: harddrake2:53
+#, c-format
+msgid "Identifier"
+msgstr "識別子"
+
+#: harddrake2:53
+#, c-format
+msgid "usually the device serial number"
+msgstr "通常はデバイスのシリアル番号"
+
+#: harddrake2:54
+#, c-format
+msgid "Media class"
+msgstr "メディア クラス"
+
+#: harddrake2:54
+#, c-format
+msgid "class of hardware device"
+msgstr "ハードウェア デバイスのクラス"
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "モデル"
+
+#: harddrake2:55
+#, c-format
+msgid "hard disk model"
+msgstr "ハード ディスクのモデル"
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "ネットワーク プリンタのポート"
+
+#: harddrake2:57
+#, c-format
+msgid "Primary partitions"
+msgstr "プライマリ パーティション"
+
+#: harddrake2:57
+#, c-format
+msgid "the number of the primary partitions"
+msgstr "プライマリ パーティションの番号"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "ベンダ"
+
+#: harddrake2:58
+#, c-format
+msgid "the vendor name of the device"
+msgstr "デバイスのベンダ名"
+
+#: harddrake2:59
+#, c-format
+msgid "PCI domain"
+msgstr "PCI ドメイン"
+
+#: harddrake2:59 harddrake2:60
+#, c-format
+msgid "the PCI domain of the device"
+msgstr "デバイスの PCI ドメイン"
+
+#: harddrake2:60
+#, c-format
+msgid "PCI revision"
+msgstr "PCI リビジョン"
+
+#: harddrake2:61
+#, c-format
+msgid "Bus PCI #"
+msgstr "バス PCI #"
+
+#: harddrake2:61
+#, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "デバイスが挿入されている PCI バス"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device #"
+msgstr "PCI デバイス #"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device number"
+msgstr "PCI デバイスの番号"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function #"
+msgstr "PCI ファンクション #"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function number"
+msgstr "PCI ファンクションの番号"
+
+#: harddrake2:64
+#, c-format
+msgid "Vendor ID"
+msgstr "ベンダ ID"
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr "ベンダの識別子"
+
+#: harddrake2:65
+#, c-format
+msgid "Device ID"
+msgstr "デバイス ID"
+
+#: harddrake2:65
+#, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "デバイスの識別子"
+
+#: harddrake2:66
+#, c-format
+msgid "Sub vendor ID"
+msgstr "サブ ベンダ ID"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr "ベンダのマイナー識別子"
+
+#: harddrake2:67
+#, c-format
+msgid "Sub device ID"
+msgstr "サブ デバイス ID"
+
+#: harddrake2:67
+#, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "デバイスのマイナー識別子"
+
+#: harddrake2:68
+#, c-format
+msgid "Device USB ID"
+msgstr "デバイス USB ID"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomips"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+"GNU/Linux のカーネルは、タイマーのカウンターを初期化するために起動時に計算"
+"ループを実行します。その結果は bogomips として保存され、CPU 処理速度のベンチ"
+"マークに使われます。"
+
+#: harddrake2:75
+#, c-format
+msgid "Cache size"
+msgstr "キャッシュ サイズ"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr "CPU の二次キャッシュのサイズ"
+
+#: harddrake2:76
+#, c-format
+msgid "Cpuid family"
+msgstr "Cpuid ファミリ"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr "CPU のファミリ (例: i686 クラスなら 6)"
+
+#: harddrake2:77
+#, c-format
+msgid "Cpuid level"
+msgstr "Cpuid レベル"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr "cpuid の説明に含まれる情報のレベル"
+
+#: harddrake2:78
+#, c-format
+msgid "Frequency (MHz)"
+msgstr "周波数 (MHz)"
+
+#: harddrake2:78
+#, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr ""
+"MHz 単位の CPU 周波数 (メガヘルツ単位でまず得られたこの結果はこの cpu が一秒"
+"あたりに実行可能な命令数と大体同じです)"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "フラグ"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr "カーネルが報告する CPU フラグ"
+
+#: harddrake2:80 harddrake2:148
+#, c-format
+msgid "Cores"
+msgstr "コア数"
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr "CPU コア数"
+
+#: harddrake2:81
+#, c-format
+msgid "Core ID"
+msgstr "コア ID"
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr "物理 ID"
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr "ACPI ID"
+
+#: harddrake2:84
+#, c-format
+msgid "Siblings"
+msgstr "物理 CPU あたりの合計論理コア数"
+
+#: harddrake2:85
+#, c-format
+msgid "sub generation of the cpu"
+msgstr "CPU サブ ジェネレーション"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr "CPU のジェネレーション (例: Pentium III だと 8)"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "Model name"
+msgstr "モデル名"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr "CPU の公式ベンダ名"
+
+#: harddrake2:89
+#, c-format
+msgid "the name of the CPU"
+msgstr "CPU の名前"
+
+#: harddrake2:90
+#, c-format
+msgid "Processor ID"
+msgstr "プロセッサ ID"
+
+#: harddrake2:90
+#, c-format
+msgid "the number of the processor"
+msgstr "プロセッサの番号"
+
+#: harddrake2:91
+#, c-format
+msgid "Model stepping"
+msgstr "モデル ステッピング"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr "CPU のステッピング (サブ モデル (世代) 番号)"
+
+#: harddrake2:92
+#, c-format
+msgid "the vendor name of the processor"
+msgstr "プロセッサのベンダ名"
+
+#: harddrake2:93
+#, c-format
+msgid "Write protection"
+msgstr "書き込み保護"
+
+#: harddrake2:93
+#, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr ""
+"CPU の CR0 レジスタの WP (書き込みポインタ) フラグはメモリ ページ レベルで書"
+"き込み保護を強制します。これにより、プロセッサはユーザ メモリにカーネルが無検"
+"査のままアクセスするのを防ぐことができます。(バグ対策の一種です)"
+
+#: harddrake2:97
+#, c-format
+msgid "Floppy format"
+msgstr "フロッピーの形式"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr "ドライブがサポートしているフロッピーの形式"
+
+#: harddrake2:101
+#, c-format
+msgid "EIDE/SCSI channel"
+msgstr "EIDE/SCSI チャンネル"
+
+#: harddrake2:102
+#, c-format
+msgid "Disk identifier"
+msgstr "ディスクの識別子"
+
+#: harddrake2:102
+#, c-format
+msgid "usually the disk serial number"
+msgstr "通常はディスクのシリアル番号"
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr "ターゲット id 番号"
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr "SCSI ターゲット識別子"
+
+#: harddrake2:104
+#, c-format
+msgid "Logical unit number"
+msgstr "論理ユニット番号"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+"SCSI 論理ユニット番号 (LUN)。ホストに接続されている SCSI デバイスはチャンネル"
+"番号,\n"
+"ターゲット id, 論理ユニット番号によって一意に識別されます"
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, c-format
+msgid "Installed size"
+msgstr "インストールされているサイズ"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr "メモリ バンクのインストールされているサイズ"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled Size"
+msgstr "有効になっているサイズ"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr "メモリ バンクの有効になっているサイズ"
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "種類"
+
+#: harddrake2:113
+#, c-format
+msgid "type of the memory device"
+msgstr "メモリ デバイスの種類"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "速度"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed of the memory bank"
+msgstr "メモリ バンクの速度"
+
+#: harddrake2:115
+#, c-format
+msgid "Bank connections"
+msgstr "バンクの接続"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr "メモリ バンクのソケット指定"
+
+#: harddrake2:118
+#, c-format
+msgid "Location"
+msgstr "位置"
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "サイズ"
+
+#: harddrake2:119
+#, c-format
+msgid "Size of the memory device"
+msgstr "メモリ デバイスのサイズ"
+
+#: harddrake2:124
+#, c-format
+msgid "Device file"
+msgstr "デバイス ファイル"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr "このデバイス ファイルはマウス用のカーネル ドライバとの通信に使います"
+
+#: harddrake2:125
+#, c-format
+msgid "Emulated wheel"
+msgstr "ホイールをエミュレート"
+
+#: harddrake2:125
+#, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "ホイールをエミュレートするかどうか"
+
+#: harddrake2:126
+#, c-format
+msgid "the type of the mouse"
+msgstr "マウスの種類"
+
+#: harddrake2:127
+#, c-format
+msgid "the name of the mouse"
+msgstr "マウスの名前"
+
+#: harddrake2:128
+#, c-format
+msgid "Number of buttons"
+msgstr "ボタンの数"
+
+#: harddrake2:128
+#, c-format
+msgid "the number of buttons the mouse has"
+msgstr "マウス ボタンの数"
+
+#: harddrake2:129
+#, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "マウスを接続しているバスの種類"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr "X11 が使用するマウス プロトコル"
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr "グラフィカル デスクトップが使用するマウス プロトコル"
+
+#: harddrake2:134
+#, c-format
+msgid "Identification"
+msgstr "識別"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "接続"
+
+#: harddrake2:149
+#, c-format
+msgid "Performances"
+msgstr "パフォーマンス"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "デバイス"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "パーティション"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "機能"
+
+#: harddrake2:183
+#, c-format
+msgid "Autodetect _modems"
+msgstr "モデムを自動検出(_M)"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr "パラレル Zip ドライブを自動検出(_Z)"
+
+#: harddrake2:188
+#, c-format
+msgid "Hardware Configuration"
+msgstr "ハードウェアの設定"
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "オプション(_O)"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: harddrake2:199
+#, c-format
+msgid "<control>H"
+msgstr "<control>H"
+
+#: harddrake2:200
+#, c-format
+msgid "_Fields description"
+msgstr "項目の説明(_F)"
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "バグを報告(_R)"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "情報(_A)..."
+
+#: harddrake2:246
+#, c-format
+msgid "Detected hardware"
+msgstr "検出したハードウェア"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "情報"
+
+#: harddrake2:251
+#, c-format
+msgid "Set current driver options"
+msgstr "現在のドライバのオプションを設定"
+
+#: harddrake2:257
+#, c-format
+msgid "Run config tool"
+msgstr "設定ツールを実行"
+
+#: harddrake2:284
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "情報を表示するには左のデバイスをクリックしてください。"
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "不明"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "不明"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "その他"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "二次"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "一次"
+
+#: harddrake2:412
+#, c-format
+msgid "burner"
+msgstr "書き込み可能光学ドライブ"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "以下のパッケージをインストールします:\n"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "これは HardDrake %s ハードウェア設定ツールです。"
+
+#: harddrake2:543
+#, c-format
+msgid "Harddrake help"
+msgstr "Harddrake のヘルプ"
+
+#: harddrake2:544
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"項目の説明:\n"
+"\n"
+
+#: harddrake2:551
+#, c-format
+msgid "Select a device!"
+msgstr "デバイスを選んでください"
+
+#: harddrake2:551
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr "デバイスを選択すると右のフレームにデバイスの情報が表示されます。"
+
+#: localedrake:38
+#, c-format
+msgid "LocaleDrake"
+msgstr "LocaleDrake"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr "次のパッケージをインストールしてください: %s"
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr "%s ツールのログ"
+
+#: logdrake:69
+#, c-format
+msgid "Show only for the selected day"
+msgstr "指定した日の分だけを表示"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr "/var/log/auth.log"
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr "/var/log/user.log"
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr "/var/log/messages"
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr "/var/log/syslog"
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "検索"
+
+#: logdrake:136
+#, c-format
+msgid "A tool to monitor your logs"
+msgstr "ログ監視ツール"
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "設定"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "以下に一致する"
+
+#: logdrake:142
+#, c-format
+msgid "but not matching"
+msgstr "かつ以下に一致しない"
+
+#: logdrake:145
+#, c-format
+msgid "Choose file"
+msgstr "ファイルを選択"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: logdrake:166
+#, c-format
+msgid "Content of the file"
+msgstr "ファイルの内容"
+
+#: logdrake:170 logdrake:415
+#, c-format
+msgid "Mail alert"
+msgstr "メール警告"
+
+#: logdrake:177
+#, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "警告ウィザードが異常終了しました:"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "保存"
+
+#: logdrake:230
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "ファイル %s を探しています。お待ちください.."
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr "ログ ファイルが利用できません。"
+
+#: logdrake:300
+#, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr "ログ ファイル \"%s\" を開く際にエラーが発生しました: %s\n"
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr "Apache WWW サーバ"
+
+#: logdrake:394
+#, c-format
+msgid "Domain Name Resolver"
+msgstr "ドメイン名リゾルバ"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "FTP サーバ"
+
+#: logdrake:396
+#, c-format
+msgid "Postfix Mail Server"
+msgstr "Postfix メールサーバ"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "samba サーバ"
+
+#: logdrake:398
+#, c-format
+msgid "SSH Server"
+msgstr "SSH サーバ"
+
+#: logdrake:399
+#, c-format
+msgid "Webmin Service"
+msgstr "Webmin サービス"
+
+#: logdrake:400
+#, c-format
+msgid "Xinetd Service"
+msgstr "Xinetd サービス"
+
+#: logdrake:409
+#, c-format
+msgid "Configure the mail alert system"
+msgstr "メール警告システムを設定"
+
+#: logdrake:410
+#, c-format
+msgid "Stop the mail alert system"
+msgstr "メール警告システムを停止"
+
+#: logdrake:418
+#, c-format
+msgid "Mail alert configuration"
+msgstr "メール警告を設定"
+
+#: logdrake:419
+#, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr ""
+"メール設定ユーティリティへようこそ。\n"
+"\n"
+"ここでは警告システムを設定します。\n"
+
+#: logdrake:422
+#, c-format
+msgid "What do you want to do?"
+msgstr "何をしますか?"
+
+#: logdrake:429
+#, c-format
+msgid "Services settings"
+msgstr "サービスの設定"
+
+#: logdrake:430
+#, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr "選択したサービスが停止すると警告します"
+
+#: logdrake:437
+#, c-format
+msgid "Load setting"
+msgstr "負荷の設定"
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr "負荷がこの値より大きくなると警告します"
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr "ロード"
+
+#: logdrake:444
+#, c-format
+msgid "Alert configuration"
+msgstr "警告の設定"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr "メール アドレスを入力してください"
+
+#: logdrake:446
+#, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr "使用する SMTP サーバの名前 (または IP) を入力"
+
+#: logdrake:448
+#, c-format
+msgid "Email address"
+msgstr "メール アドレス"
+
+#: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "メール サーバ"
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr "\"%s\" は有効なメールアドレス/ローカル ユーザ名ではありません"
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+"\"%s\" は有効なローカル ユーザ名ですが、ローカル smtp が選択されていないの"
+"で、有効なメール アドレスを指定してください。"
+
+#: logdrake:465
+#, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr "メール警告の設定が完了しました。"
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr "メール警告を無効にしました。"
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "名前を付けて保存"
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr "ディスプレイ ドライバ設定"
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr "ディスプレイ ドライバは自動的に '%s' に切り替えられました。"
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr "理由: %s"
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+"スキャナを使うには SANE パッケージが必要です。\n"
+"\n"
+"SANE パッケージをインストールしますか?"
+
+#: scannerdrake:52
+#, c-format
+msgid "Aborting Scannerdrake."
+msgstr "Scannerdrake を中止します。"
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr ""
+"Scannerdrake でスキャナを設定するのに必要なファイルをインストールできません。"
+
+#: scannerdrake:58
+#, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "Scannerdrake は起動しません。"
+
+#: scannerdrake:64 scannerdrake:502
+#, c-format
+msgid "Searching for configured scanners..."
+msgstr "設定済みのスキャナを検索中..."
+
+#: scannerdrake:68 scannerdrake:506
+#, c-format
+msgid "Searching for new scanners..."
+msgstr "新しいスキャナを検索中..."
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr "設定済みのスキャナのリストを再生成中..."
+
+#: scannerdrake:98
+#, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "%s はこのバージョンの %s ではサポートしていません。"
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr "確認"
+
+#: scannerdrake:101
+#, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "%s が %s に見つかりました。自動的に設定しますか?"
+
+#: scannerdrake:113
+#, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr "%s はスキャナのデータベースにありません。手動で設定しますか?"
+
+#: scannerdrake:127
+#, c-format
+msgid "Scanner configuration"
+msgstr "スキャナの設定"
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr "スキャナのモデルを選択 (検出したモデル : %s, ポート: %s)"
+
+#: scannerdrake:130
+#, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr "スキャナのモデルを選択 (検出したモデル : %s)"
+
+#: scannerdrake:131
+#, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr "スキャナのモデルを選択 (ポート: %s)"
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr " (サポートなし)"
+
+#: scannerdrake:139
+#, c-format
+msgid "The %s is not supported under Linux."
+msgstr "%s は Linux ではサポートされていません。"
+
+#: scannerdrake:166 scannerdrake:180
+#, c-format
+msgid "Do not install firmware file"
+msgstr "ファームウェア ファイルをインストールしない"
+
+#: scannerdrake:169 scannerdrake:219
+#, c-format
+msgid "Scanner Firmware"
+msgstr "スキャナのファームウェア"
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr ""
+"お使いの %s は使用するたびにファームウェアをアップロードする必要があるかもし"
+"れません。"
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr "その場合は、これを自動的に行うように設定することができます。"
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+"そうするためには、お使いのスキャナ用のファームウェアをインストールする必要が"
+"あります。"
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+"ファイルはスキャナ付属の CD/フロッピー, メーカーのホーム ページまたは "
+"Windows のパーティションにあります。"
+
+#: scannerdrake:175 scannerdrake:234
+#, c-format
+msgid "Install firmware file from"
+msgstr "以下からファームウェアをインストール"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, c-format
+msgid "Floppy Disk"
+msgstr "フロッピー ディスク"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, c-format
+msgid "Other place"
+msgstr "その他の場所"
+
+#: scannerdrake:195
+#, c-format
+msgid "Select firmware file"
+msgstr "ファームウェア ファイルを選択"
+
+#: scannerdrake:198 scannerdrake:257
+#, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr "ファームウェア ファイル %s は存在しないか読めません!"
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr ""
+"お使いのスキャナは使用するたびにファームウェアをアップロードする必要があるか"
+"もしれません。"
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+"そうするためには、お使いのスキャナ用のファームウェアをインストールする必要が"
+"あります。"
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+"既にスキャナのファームウェアがインストールされている場合は、新しいファーム"
+"ウェア ファイルを供給してアップデートすることができます。"
+
+#: scannerdrake:230
+#, c-format
+msgid "Install firmware for the"
+msgstr "以下からファームウェアをインストール"
+
+#: scannerdrake:253
+#, c-format
+msgid "Select firmware file for the %s"
+msgstr "%s のファームウェア ファイルを選択"
+
+#: scannerdrake:271
+#, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "%s のファームウェア ファイルをインストールできませんでした!"
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr "%s のファームウェア ファイルを正常にインストールしました。"
+
+#: scannerdrake:294
+#, c-format
+msgid "The %s is unsupported"
+msgstr "%s はサポートされていません"
+
+#: scannerdrake:299
+#, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr ""
+"%s は system-config-printer で設定してください。\n"
+"system-config-printerは %s コントロール センターのハードウェア セクションから"
+"起動できます。"
+
+#: scannerdrake:317
+#, c-format
+msgid "Setting up kernel modules..."
+msgstr "カーネル モジュールを設定しています..."
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, c-format
+msgid "Auto-detect available ports"
+msgstr "利用可能なポートを自動的に検出"
+
+#: scannerdrake:328 scannerdrake:374
+#, c-format
+msgid "Device choice"
+msgstr "デバイスの選択"
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr "%s が接続されているデバイスを選んでください"
+
+#: scannerdrake:330
+#, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr ""
+" \n"
+"(注意: パラレル ポートは自動検出されません)"
+
+#: scannerdrake:332 scannerdrake:377
+#, c-format
+msgid "choose device"
+msgstr "デバイスを選択"
+
+#: scannerdrake:366
+#, c-format
+msgid "Searching for scanners..."
+msgstr "スキャナを検索中..."
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr "注意!"
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+"お使いの %s は全自動では設定できません。\n"
+"\n"
+"手動で調整する必要があります。設定ファイル /etc/sane.d/%s.conf. を編集してく"
+"ださい。"
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+"詳しくはドライバのマニュアルを参照してください。コマンド \"man sane-%s\" で読"
+"むことができます。"
+
+#: scannerdrake:406 scannerdrake:415
+#, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"この後、アプリケーション メニューの マルチメディア/グラフィックス 内の "
+"\"XSane\" か \"%s\" を用いてドキュメントをスキャンすることができます。"
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr ""
+"お使いの %s の設定が完了しましたが正常に動作させるためには手動で設定を調整す"
+"る必要があるかもしれません。"
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+"Scannerdrake の設定済みスキャナのリストにない場合または正常に動作しない場合は"
+
+#: scannerdrake:412
+#, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr "設定ファイル /etc/sane.d/%s.conf. を編集してください。"
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "おめでとうございます!"
+
+#: scannerdrake:418
+#, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"あなたの %s は設定されました。\n"
+"アプリケーション メニューの マルチメディア/グラフィックス 内の \"XSane\" か "
+"\"%s\" を用いてドキュメントをスキャンすることができます。"
+
+#: scannerdrake:443
+#, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr ""
+"以下のスキャナ\n"
+"\n"
+"%s\n"
+"がこのシステムで利用できます。\n"
+
+#: scannerdrake:444
+#, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr ""
+"以下のスキャナ\n"
+"\n"
+"%s\n"
+"がこのシステムで利用できます。\n"
+
+#: scannerdrake:446 scannerdrake:449
+#, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "このシステムには利用可能なスキャナがありません。\n"
+
+#: scannerdrake:457
+#, c-format
+msgid "Scanner Management"
+msgstr "スキャナの管理"
+
+#: scannerdrake:463
+#, c-format
+msgid "Search for new scanners"
+msgstr "新しいスキャナを検索"
+
+#: scannerdrake:469
+#, c-format
+msgid "Add a scanner manually"
+msgstr "手動でスキャナを追加"
+
+#: scannerdrake:476
+#, c-format
+msgid "Install/Update firmware files"
+msgstr "ファームウェア ファイルをインストール/更新"
+
+#: scannerdrake:482
+#, c-format
+msgid "Scanner sharing"
+msgstr "スキャナを共有"
+
+#: scannerdrake:541 scannerdrake:706
+#, c-format
+msgid "All remote machines"
+msgstr "すべてのリモート マシン"
+
+#: scannerdrake:553 scannerdrake:856
+#, c-format
+msgid "This machine"
+msgstr "このマシン"
+
+#: scannerdrake:592
+#, c-format
+msgid "Scanner Sharing"
+msgstr "スキャナを共有"
+
+#: scannerdrake:593
+#, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr ""
+"リモート マシンからこのマシンのスキャナへのアクセスを許可するかどうか、\n"
+"また、どのリモート マシンに許可するかを設定します。"
+
+#: scannerdrake:594
+#, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr ""
+" \n"
+"さらに、このマシンからリモート マシンのスキャナを利用できるようにするか\n"
+"どうかも、ここで設定できます。"
+
+#: scannerdrake:597
+#, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr "このマシンのスキャナをリモート マシンで利用可能にする"
+
+#: scannerdrake:599
+#, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "以下のホストにスキャナを共有させる: "
+
+#: scannerdrake:604 scannerdrake:621
+#, c-format
+msgid "No remote machines"
+msgstr "リモート マシンがありません"
+
+#: scannerdrake:613
+#, c-format
+msgid "Use scanners on remote computers"
+msgstr "リモート マシンのスキャナを利用する"
+
+#: scannerdrake:616
+#, c-format
+msgid "Use the scanners on hosts: "
+msgstr "以下のホストのスキャナを利用する: "
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, c-format
+msgid "Sharing of local scanners"
+msgstr "ローカル スキャナを共有"
+
+#: scannerdrake:644
+#, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr "ローカルに接続されたスキャナを以下のマシンで利用可能にする:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "ホストを追加"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "選択されたホストを編集"
+
+#: scannerdrake:670 scannerdrake:820
+#, c-format
+msgid "Remove selected host"
+msgstr "選択されたホストを削除"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "完了"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, c-format
+msgid "Name/IP address of host:"
+msgstr "ホストの名前/IP アドレス:"
+
+#: scannerdrake:716 scannerdrake:866
+#, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr "ローカル スキャナを利用可能にするホストを選んでください:"
+
+#: scannerdrake:727 scannerdrake:877
+#, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "ホスト名か IP アドレスを入力してください。\n"
+
+#: scannerdrake:738 scannerdrake:888
+#, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr "このホストは既にリストにあります。追加できません。\n"
+
+#: scannerdrake:793
+#, c-format
+msgid "Usage of remote scanners"
+msgstr "リモート スキャナの使用"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr "スキャナを利用できるリモート マシン:"
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+"ローカル スキャナの共有には saned が必要です。\n"
+"\n"
+"saned パッケージをインストールしますか?"
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr "お使いのスキャナはネットワークで使用できません。"
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr "スキャナを共有するために必要なパッケージをインストールできません"
+
+#: service_harddrake:157
+#, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr ""
+"グラフィックス カード '%s' はもう '%s' ドライバによってサポートされていません"
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr "新しいリリースに切り替わりました。X を %s 向けに再設定します"
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr ""
+"X.org の '%s' ドライバ向けのプロプライエタリなカーネル ドライバは見つかりませ"
+"んでした"
+
+#: service_harddrake:297
+#, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr "%s ハードウェア クラスのデバイスの一部を削除しました:\n"
+
+#: service_harddrake:298
+#, c-format
+msgid "- %s was removed\n"
+msgstr "- %s を削除しました\n"
+
+#: service_harddrake:301
+#, c-format
+msgid "Some devices were added: %s\n"
+msgstr "いくつかのデバイスを追加しました: %s\n"
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- %s を追加しました\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr "%s クラスのハードウェアの変更 (%s 秒以内に答えてください）"
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "適切な設定ツールを起動しますか?"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "ハードウェアを検出しています"
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr "ディスプレイ ドライバの問題"
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+"現在設定されているディスプレイ ドライバはブート プロセスにおいて KMS ドライバ"
+"が使用されないように 'nokmsboot' のブート オプションを使用することを要求しま"
+"す。このオプションを指定せずに X サーバを起動すると失敗するかもしれません。"
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+"X サーバが用いるよう設定されているドライバと衝突するディスプレイ ドライバの"
+"カーネル モジュールが読み込まれているようです。X サーバを起動すると失敗するか"
+"もしれません。"
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr "ディスプレイ ドライバの変更により、システムの再起動が必要です。"
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr "中止するには、%d 秒以内に キャンセル を押してください。"
+
+#: ../menu/harddrake.desktop.in.h:1
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr "ハードウェアの設定/情報閲覧ツール"
+
+#: ../menu/harddrake.desktop.in.h:3
+msgid "Hardware Configuration Tool"
+msgstr "ハードウェア設定ツール"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "システムの言語と国の設定"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "システム全体の言語と国の設定"
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr "地域の設定"
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr "言語と国の設定"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+msgid "Run Mageia Authentication Configuration"
+msgstr "Mageia 認証の設定"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr "Mageia 認証の設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+msgid "Run Mageia Boot Configuration"
+msgstr "Mageia 起動の設定"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr "Mageia 起動の設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+msgid "Run Mageia Date and Time Configuration"
+msgstr "Mageia 日付と時刻の設定を実行"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr "Mageia 日付と時刻の設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr "Mageia ディスク レイアウト エディタ"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr "Mageia ディスク レイアウト エディタの実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+msgid "Run Mageia Login Manager Configuration"
+msgstr "Mageia ログイン マネージャ設定を実行"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr "Mageia ログイン マネージャ設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+msgid "Run Mageia Font Configuration"
+msgstr "Mageia フォント設定"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr "Mageia フォント設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+msgid "Run Mageia Hardware Configuration"
+msgstr "Mageia ハードウェア設定"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr "Mageia ハードウェア設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr "Mageia ログ ビューアを実行"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr "Mageia ログ ビューアの実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+msgid "Run Mageia Security Permissions Configuration"
+msgstr "Mageia セキュリティ許可の設定"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr "Mageia セキュリティ許可の設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+msgid "Run Mageia Scanner Configuration"
+msgstr "Mageia スキャナ設定"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr "Mageia スキャナ設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+msgid "Run Mageia Application Security Configuration"
+msgstr "Mageia アプリケーション セキュリティ設定"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr "Mageia アプリケーション セキュリティ設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+msgid "Run Mageia UPS Configuration"
+msgstr "Mageia UPS 設定を実行"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr "Mageia UPS 設定の実行には認証が必要です"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+msgid "Run Mageia Service Configuration"
+msgstr "Mageia サービス設定を実行"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr "Mageia サービス設定の実行には認証が必要です"

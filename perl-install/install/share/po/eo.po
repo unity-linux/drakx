@@ -1,0 +1,1710 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# D. Dale Gulledge <dsplat@rochester.rr.com>, 2000
+# Vilhelmo Lutermano <vlutermano@free.fr>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-22 02:36+0200\n"
+"PO-Revision-Date: 2016-02-09 08:39+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Esperanto (http://www.transifex.com/MageiaLinux/mageia/"
+"language/eo/)\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../advertising/01_IM_mageia.pl:1
+#, c-format
+msgid "Join Us!"
+msgstr ""
+
+#: ../../advertising/02_IM_mageia.pl:1
+#, c-format
+msgid "Make it yours!"
+msgstr ""
+
+#: ../../advertising/03_IM_mageia.pl:1
+#, c-format
+msgid "Your choice!"
+msgstr ""
+
+#: ../../advertising/04_IM_mageia.pl:1
+#, c-format
+msgid "Office tools"
+msgstr ""
+
+#: ../../advertising/05_IM_mageia.pl:1
+#, c-format
+msgid "Home entertainment"
+msgstr ""
+
+#: ../../advertising/06_IM_mageia.pl:1
+#, c-format
+msgid "For kids"
+msgstr ""
+
+#: ../../advertising/07_IM_mageia.pl:1
+#, c-format
+msgid "For family!"
+msgstr ""
+
+#: ../../advertising/08_IM_mageia.pl:1
+#, c-format
+msgid "For developers!"
+msgstr ""
+
+#: ../../advertising/09_IM_mageia.pl:1
+#, c-format
+msgid "Thank you!"
+msgstr ""
+
+#: ../../advertising/10_IM_mageia.pl:1
+#, c-format
+msgid "Be Free!"
+msgstr ""
+
+#: any.pm:151
+#, c-format
+msgid "Do you have further supplementary media?"
+msgstr "Ĉu vi havas plian kroman datenportilon?"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:154
+#, c-format
+msgid ""
+"The following media have been found and will be used during install: %s.\n"
+"\n"
+"\n"
+"Do you have a supplementary installation medium to configure?"
+msgstr ""
+"La sekva datenportilo estas trovita kaj estas uzota dum instalado: %s.\n"
+"\n"
+"\n"
+"Ĉu vi havas kroman instalan datenportilon por konfiguri? "
+
+#: any.pm:162
+#, c-format
+msgid "Network (HTTP)"
+msgstr "Reto (HTTP)"
+
+#: any.pm:163
+#, c-format
+msgid "Network (FTP)"
+msgstr "Reto (FTP)"
+
+#: any.pm:164
+#, c-format
+msgid "Network (NFS)"
+msgstr "Reto (NFS)"
+
+#: any.pm:223
+#, c-format
+msgid "URL of the mirror?"
+msgstr "URL de la spegulo?"
+
+#: any.pm:229
+#, c-format
+msgid "URL must start with ftp:// or http://"
+msgstr "URL devas komenci per ftp:// aŭ http://"
+
+#: any.pm:247
+#, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
+msgstr ""
+"Mi kontaktas la %s Linuksan retpaĝon por havigi la liston de disponeblaj "
+"speguloj..."
+
+#: any.pm:252
+#, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
+msgstr ""
+"Mi malsukcesis kontakti la %s Linuksan retpaĝon por havigi la liston de "
+"disponeblaj speguloj..."
+
+#: any.pm:262
+#, c-format
+msgid "Choose a mirror from which to get the packages"
+msgstr "Elektu spegulon de kiu havigi la pakaĵojn"
+
+#: any.pm:290
+#, c-format
+msgid "NFS setup"
+msgstr "NFS-agordo"
+
+#: any.pm:291
+#, c-format
+msgid "Please enter the hostname and directory of your NFS media"
+msgstr "Bonvole enigu la nomon kaj dosierujon de via NSF-datenportilo"
+
+#: any.pm:295
+#, c-format
+msgid "Hostname missing"
+msgstr "Nomo mankas"
+
+#: any.pm:296
+#, c-format
+msgid "Directory must begin with \"/\""
+msgstr "Dosierujo devas komenci per \"/\""
+
+#: any.pm:300
+#, c-format
+msgid "Hostname of the NFS mount ?"
+msgstr "Nomo de la NFS surmeto?"
+
+#: any.pm:301
+#, c-format
+msgid "Directory"
+msgstr "Dosierujo"
+
+#: any.pm:331
+#, c-format
+msgid "Supplementary"
+msgstr "Kroma"
+
+#: any.pm:366
+#, c-format
+msgid ""
+"Can't find a package list file on this mirror. Make sure the location is "
+"correct."
+msgstr ""
+"Mi ne trovas pakaĵlistan dosieron sur tiu spegulo. Certiĝu ke la adreso "
+"estas ĝusta."
+
+#: any.pm:391
+#, c-format
+msgid "Core Release"
+msgstr ""
+
+#: any.pm:393
+#, c-format
+msgid "Tainted Release"
+msgstr ""
+
+#: any.pm:395
+#, c-format
+msgid "Nonfree Release"
+msgstr ""
+
+#: any.pm:433
+#, c-format
+msgid ""
+"Some hardware on your machine needs some non free firmwares in order for the "
+"free software drivers to work."
+msgstr ""
+
+#: any.pm:434
+#, c-format
+msgid "You should enable \"%s\""
+msgstr ""
+
+#: any.pm:472
+#, c-format
+msgid "\"%s\" contains the various pieces of the systems and its applications"
+msgstr ""
+
+#: any.pm:473
+#, c-format
+msgid "\"%s\" contains non free software.\n"
+msgstr ""
+
+#: any.pm:474
+#, c-format
+msgid ""
+"It also contains firmwares needed for certain devices to operate (eg: some "
+"ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
+msgstr ""
+
+#: any.pm:475
+#, c-format
+msgid ""
+"\"%s\" contains software that can not be distributed in every country due to "
+"software patents."
+msgstr ""
+
+#: any.pm:476
+#, c-format
+msgid ""
+"It also contains software from \"%s\" rebuild with additional capabilities."
+msgstr ""
+
+#: any.pm:482
+#, c-format
+msgid "Here you can enable more media if you want."
+msgstr ""
+
+#: any.pm:499
+#, c-format
+msgid "This medium provides package updates for medium \"%s\""
+msgstr ""
+
+#: any.pm:597
+#, c-format
+msgid "Looking at packages already installed..."
+msgstr "Rigardante jam instalitajn pakaĵojn..."
+
+#: any.pm:631
+#, c-format
+msgid "Finding packages to upgrade..."
+msgstr "Trovadas pakaĵojn por promocii"
+
+#: any.pm:650
+#, c-format
+msgid "Removing packages prior to upgrade..."
+msgstr "Mi forigas pakaĵojn antaŭ ol ĝisdatigi..."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: any.pm:881
+#, c-format
+msgid ""
+"The following packages will be removed to allow upgrading your system: %s\n"
+"\n"
+"\n"
+"Do you really want to remove these packages?\n"
+msgstr ""
+"Sekvaj pakaĵoj estos forigitaj por ebligi ĝisdatigon de via sistemo: %s\n"
+"\n"
+"\n"
+"Ĉu vi vere deziras forigi tiujn pakaĵojn?\n"
+
+#: any.pm:1096
+#, c-format
+msgid "Error reading file %s"
+msgstr ""
+
+#: any.pm:1304
+#, c-format
+msgid "The following disk(s) were renamed:"
+msgstr "La sekva(j) disko(j) estas alinomitaj:"
+
+#: any.pm:1306
+#, c-format
+msgid "%s (previously named as %s)"
+msgstr "%s (antaŭe nomitaj kiel %s)"
+
+#: any.pm:1363
+#, c-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: any.pm:1363
+#, c-format
+msgid "FTP"
+msgstr "FTP"
+
+#: any.pm:1363
+#, c-format
+msgid "NFS"
+msgstr "NFS"
+
+#: any.pm:1382 steps_interactive.pm:973
+#, c-format
+msgid "Network"
+msgstr "Reto"
+
+#: any.pm:1386
+#, c-format
+msgid "Please choose a media"
+msgstr "Bonvole elektu datenportilon"
+
+#: any.pm:1402
+#, c-format
+msgid "File already exists. Overwrite it?"
+msgstr "Dosiero jam ekzistas.  Ĉu surskribi ĝin?"
+
+#: any.pm:1406
+#, c-format
+msgid "Permission denied"
+msgstr "Permeso rifuzita"
+
+#: any.pm:1454
+#, c-format
+msgid "Bad NFS name"
+msgstr "Malĝusta NFS-nomo"
+
+#: any.pm:1475
+#, c-format
+msgid "Bad media %s"
+msgstr "Malbona datenportilo %s"
+
+#: any.pm:1519
+#, c-format
+msgid "Cannot make screenshots before partitioning"
+msgstr "Mi ne povas fari ekranfotojn antaŭ ol subdiskigi"
+
+#: any.pm:1530
+#, c-format
+msgid "Screenshots will be available after install in %s"
+msgstr "Ekranfotoj haveblos post instalado en %s"
+
+#: gtk.pm:135
+#, c-format
+msgid "Installation"
+msgstr "Instalado"
+
+#: gtk.pm:139 share/meta-task/compssUsers.pl:48
+#, c-format
+msgid "Configuration"
+msgstr "Konfigurado"
+
+#: install2.pm:211
+#, c-format
+msgid "You must also format %s"
+msgstr "Vi devas ankaŭ formati %s"
+
+#: interactive.pm:16
+#, c-format
+msgid ""
+"Some hardware on your computer needs ``proprietary'' drivers to work.\n"
+"You can find some information about them at: %s"
+msgstr ""
+"Iuj aparatoj sur via komputilo bezonas \"proprietajn\" pelilojn por "
+"funkcii.\n"
+"Vi povas trovi iun informon pri ili ĉe: %s"
+
+#: interactive.pm:22
+#, c-format
+msgid "Bringing up the network"
+msgstr "Startado de la reto"
+
+#: interactive.pm:27
+#, c-format
+msgid "Bringing down the network"
+msgstr "Haltas de la reto"
+
+#: media.pm:407
+#, c-format
+msgid "Please wait, retrieving file"
+msgstr ""
+
+#: media.pm:714
+#, c-format
+msgid "unable to add medium"
+msgstr ""
+
+#: media.pm:754
+#, c-format
+msgid "Copying some packages on disks for future use"
+msgstr "Mi kopias kelkajn pakaĵojn sur diskoj por estonta uzo"
+
+#: media.pm:807
+#, c-format
+msgid "Copying in progress"
+msgstr "Mi estas kopianta"
+
+#: pkgs.pm:32
+#, c-format
+msgid "must have"
+msgstr "havenda"
+
+#: pkgs.pm:33
+#, c-format
+msgid "important"
+msgstr "grava(j)"
+
+#: pkgs.pm:34
+#, c-format
+msgid "very nice"
+msgstr "tre agrabla(j)"
+
+#: pkgs.pm:35
+#, c-format
+msgid "nice"
+msgstr "agrabla(j)"
+
+#: pkgs.pm:36
+#, c-format
+msgid "maybe"
+msgstr "elbe"
+
+#: pkgs.pm:102
+#, c-format
+msgid "Getting package information from XML meta-data..."
+msgstr ""
+
+#: pkgs.pm:111
+#, c-format
+msgid "No xml info for medium \"%s\", only partial result for package %s"
+msgstr ""
+"Nenia xml-informo por aŭdvidaĵo \"%s\", nur parta rezulto por pakaĵo %s"
+
+#: pkgs.pm:119
+#, c-format
+msgid "No description"
+msgstr "Nenia priskribo"
+
+#: pkgs.pm:288
+#, c-format
+msgid ""
+"Some packages requested by %s cannot be installed:\n"
+"%s"
+msgstr ""
+"Kelkaj pakaĵoj bezonataj de %s ne instaleblas:\n"
+"%s"
+
+#: pkgs.pm:384 pkgs.pm:411
+#, c-format
+msgid "An error occurred:"
+msgstr "Eraro okazis:"
+
+#: pkgs.pm:403
+#, c-format
+msgid "A fatal error occurred: %s."
+msgstr "Okazis fatala eraro: %s."
+
+#: pkgs.pm:897 pkgs.pm:939
+#, c-format
+msgid "Do not ask again"
+msgstr ""
+
+#: pkgs.pm:913
+#, c-format
+msgid "%d installation transactions failed"
+msgstr "%d instal-transakcioj malsukcesis"
+
+#: pkgs.pm:914
+#, c-format
+msgid "Installation of packages failed:"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:16
+#, c-format
+msgid "Workstation"
+msgstr "Laborstacio"
+
+#: share/meta-task/compssUsers.pl:18
+#, c-format
+msgid "Office Workstation"
+msgstr "Oficeja laborstacio"
+
+#: share/meta-task/compssUsers.pl:20
+#, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr ""
+"Oficejaj programoj: tekstiloj (LibreOffice Writer, Verkilo [Kword]), "
+"tabelkalkuliloj (LibreOffice Calc, Kspread), PDF-vidigiloj, ktp."
+
+#: share/meta-task/compssUsers.pl:26
+#, c-format
+msgid "Game station"
+msgstr "Ludstacio"
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc"
+msgstr "Amuz-programoj: arcade, tabuloj [boards], strategio, ktp."
+
+#: share/meta-task/compssUsers.pl:30
+#, c-format
+msgid "Multimedia station"
+msgstr "Plurmediaj stacio"
+
+#: share/meta-task/compssUsers.pl:31
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr "Programoj por ludi/prilabori son- kaj video-programojn"
+
+#: share/meta-task/compssUsers.pl:36
+#, c-format
+msgid "Internet station"
+msgstr "Interreta stacio"
+
+#: share/meta-task/compssUsers.pl:37
+#, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr ""
+"Agordiloj por legi kaj sendi retpoŝt-mesaĝojn kaj novaĵojn (mutt, tin...) "
+"kaj por krozi tra la ttt"
+
+#: share/meta-task/compssUsers.pl:42
+#, c-format
+msgid "Network Computer (client)"
+msgstr "Reta computilo (kliento)"
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr "Klientoj por diversaj protokoloj inklude de ssh"
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr "Iloj por faciligi la konfiguradon de via komputilo"
+
+#: share/meta-task/compssUsers.pl:53
+#, c-format
+msgid "Console Tools"
+msgstr "Konsoliloj"
+
+#: share/meta-task/compssUsers.pl:54
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr "Redaktiloj, ŝeloj, dosieriloj, terminaloj"
+
+#: share/meta-task/compssUsers.pl:58 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "Programado"
+
+#: share/meta-task/compssUsers.pl:59 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr "C kaj C++ programadaj bibliotekoj, programoj kaj ĉapdosieroj"
+
+#: share/meta-task/compssUsers.pl:63 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "Dokumentaro"
+
+#: share/meta-task/compssUsers.pl:64 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr "Libroj kaj Kielfari pri Linukso kaj libera programaro"
+
+#: share/meta-task/compssUsers.pl:68 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "LSB"
+
+#: share/meta-task/compssUsers.pl:69 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr "Linux Standard Base. Subteno por triaflankaj aplikaĵoj"
+
+#: share/meta-task/compssUsers.pl:79
+#, c-format
+msgid "Web Server"
+msgstr "Interret-servilo"
+
+#: share/meta-task/compssUsers.pl:80
+#, c-format
+msgid "Apache"
+msgstr "Apache"
+
+#: share/meta-task/compssUsers.pl:84
+#, c-format
+msgid "Groupware"
+msgstr "Grupa programaro"
+
+#: share/meta-task/compssUsers.pl:85
+#, c-format
+msgid "Kolab Server"
+msgstr "Kolab Servilo"
+
+#: share/meta-task/compssUsers.pl:88 share/meta-task/compssUsers.pl:138
+#, c-format
+msgid "Firewall/Router"
+msgstr "Fajroŝirmilo/enkursigilo"
+
+#: share/meta-task/compssUsers.pl:89 share/meta-task/compssUsers.pl:139
+#, c-format
+msgid "Internet gateway"
+msgstr "Interreta kluzo"
+
+#: share/meta-task/compssUsers.pl:92
+#, c-format
+msgid "Mail/News"
+msgstr "Poŝto/Novaĵoj"
+
+#: share/meta-task/compssUsers.pl:93
+#, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr "Postfix poŝta servilo, Inn novaĵaj servilo"
+
+#: share/meta-task/compssUsers.pl:97
+#, c-format
+msgid "Directory Server"
+msgstr "Dosierujo-servilo"
+
+#: share/meta-task/compssUsers.pl:102
+#, c-format
+msgid "FTP Server"
+msgstr "FTP Servilo"
+
+#: share/meta-task/compssUsers.pl:103
+#, c-format
+msgid "ProFTPd"
+msgstr "ProFTPd"
+
+#: share/meta-task/compssUsers.pl:107
+#, c-format
+msgid "DNS/NIS"
+msgstr "DNS/NIS"
+
+#: share/meta-task/compssUsers.pl:108
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr "Domajn-noma kaj ret-informa servilo"
+
+#: share/meta-task/compssUsers.pl:112
+#, c-format
+msgid "File and Printer Sharing Server"
+msgstr "Dosier- kaj printil-kundivida servilo"
+
+#: share/meta-task/compssUsers.pl:113
+#, c-format
+msgid "NFS Server, Samba server"
+msgstr "NFS servilo, Samba servilo"
+
+#: share/meta-task/compssUsers.pl:117 share/meta-task/compssUsers.pl:133
+#, c-format
+msgid "Database"
+msgstr "Datumbazoj"
+
+#: share/meta-task/compssUsers.pl:118
+#, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr "Datenbaz-serviloj PostgreSQL kaj MariaDB"
+
+#: share/meta-task/compssUsers.pl:123
+#, c-format
+msgid "Web/FTP"
+msgstr "TTT/FTP"
+
+#: share/meta-task/compssUsers.pl:124
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "Apache, Pro-ftpd"
+
+#: share/meta-task/compssUsers.pl:128
+#, c-format
+msgid "Mail"
+msgstr "Poŝto"
+
+#: share/meta-task/compssUsers.pl:129
+#, c-format
+msgid "Postfix mail server"
+msgstr "Postfix poŝta servilo"
+
+#: share/meta-task/compssUsers.pl:134
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "Datenbaz-servilo PostgreSQL aŭ MariaDB"
+
+#: share/meta-task/compssUsers.pl:142
+#, c-format
+msgid "Network Computer server"
+msgstr "Reta computilo (servilo)"
+
+#: share/meta-task/compssUsers.pl:143
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr "NFS-servilo, SMB-servilo, prokur-servilo, ssh-servilo"
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Graphical Environment"
+msgstr "Grafika medio"
+
+#: share/meta-task/compssUsers.pl:152
+#, c-format
+msgid "Plasma Workstation"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:153
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr "La tabula medio K, la baza grafika medio kun kolekto da akompanaj iloj"
+
+#: share/meta-task/compssUsers.pl:158
+#, c-format
+msgid "GNOME Workstation"
+msgstr "Gnoma Laborstacio"
+
+#: share/meta-task/compssUsers.pl:159 share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr "Grafika medio kun uzfacila aplikaĵaro kaj tabul-iloj"
+
+#: share/meta-task/compssUsers.pl:164
+#, c-format
+msgid "XFCE Workstation"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:165
+#, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:169
+#, c-format
+msgid "MATE Workstation"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:174
+#, c-format
+msgid "Cinnamon Workstation"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:175
+#, c-format
+msgid "A graphical environment based on GNOME"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:179
+#, c-format
+msgid "LXQt Desktop"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:181
+#, c-format
+msgid "A next generation QT port of the lightweight desktop environment"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:184
+#, c-format
+msgid "Enlightenment e21 Desktop"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:186
+#, c-format
+msgid "A lightweight fast graphical environment with a dedicated following"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:189
+#, c-format
+msgid "LXDE Desktop"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:191
+#, c-format
+msgid "A lightweight fast graphical environment"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:194
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "Aliaj grafikaj labortabuloj"
+
+#: share/meta-task/compssUsers.pl:195
+#, c-format
+msgid "Window Maker, Fvwm, etc"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr "Iloj"
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, c-format
+msgid "SSH Server"
+msgstr "SSH servilo"
+
+#: share/meta-task/compssUsers.pl:225
+#, c-format
+msgid "Webmin"
+msgstr "Webmin"
+
+#: share/meta-task/compssUsers.pl:226
+#, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr "Servilo de fora konfigurado Webmin"
+
+#: share/meta-task/compssUsers.pl:230
+#, c-format
+msgid "Network Utilities/Monitoring"
+msgstr "Retaj utilaĵoj/monitorado"
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr "Monitoriloj, proces-kalkuliloj, tcpdump, nmap, ..."
+
+#: share/meta-task/compssUsers.pl:235
+#, c-format
+msgid "Mageia Wizards"
+msgstr "Sorĉiloj de Mageia"
+
+#: share/meta-task/compssUsers.pl:236
+#, c-format
+msgid "Wizards to configure server"
+msgstr "Sorĉiloj por konfiguri servilon"
+
+#: steps.pm:85
+#, c-format
+msgid ""
+"An error occurred, but I do not know how to handle it nicely.\n"
+"Continue at your own risk."
+msgstr ""
+"Eraro okazis, sed mi ne scias kiel trakti ĝin bone.\n"
+"Daŭri je via propra risko."
+
+#: steps.pm:460
+#, c-format
+msgid ""
+"Some important packages did not get installed properly.\n"
+"Either your cdrom drive or your cdrom is defective.\n"
+"Check the cdrom on an installed computer using \"rpm -qpl media/main/*.rpm"
+"\"\n"
+msgstr ""
+"Iuj gravaj pakaĵoj ne estis taŭge instalata.\n"
+"Aŭ via KDROM drajvo aŭ via KDROM disko estas difektita.\n"
+"Kontrolu la KDROM sur instalata komputilo per\n"
+"\"rpm -qpl media/main/*.rpm\"\n"
+
+#: steps_auto_install.pm:71 steps_stdio.pm:27
+#, c-format
+msgid "Entering step `%s'\n"
+msgstr "Eniras paŝon `%s'\n"
+
+#: steps_curses.pm:22
+#, c-format
+msgid "%s Installation %s"
+msgstr "%s Instalado %s"
+
+#: steps_curses.pm:32
+#, c-format
+msgid "<Tab>/<Alt-Tab> between elements"
+msgstr "<Tab>/<Alt-Tab> inter elementoj"
+
+#: steps_gtk.pm:147
+#, c-format
+msgid "Xorg server is slow to start. Please wait..."
+msgstr ""
+
+#: steps_gtk.pm:212
+#, c-format
+msgid ""
+"Your system is low on resources. You may have some problem installing\n"
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
+msgstr ""
+"Via sistemo havas malmulte da risurcoj.  Eble vi havos problemojn pri\n"
+"instali %s.  Se tio okazos, vi povos anstataŭ provi tekstan\n"
+"instaladon.  Por ĉi tio, premu `F1' kiam vi startas de KDROM, kaj sekve\n"
+"tajpu `text'."
+
+#: steps_gtk.pm:242 steps_gtk.pm:754
+#, c-format
+msgid "Media Selection"
+msgstr ""
+
+#: steps_gtk.pm:253
+#, fuzzy, c-format
+msgid "Install %s Plasma Desktop"
+msgstr "Instalo de la labortablo %s KDE"
+
+#: steps_gtk.pm:254
+#, c-format
+msgid "Install %s GNOME Desktop"
+msgstr "Instalo de la labortablo %s GNOME"
+
+#: steps_gtk.pm:255
+#, c-format
+msgid "Custom install"
+msgstr "Persona instalado"
+
+#: steps_gtk.pm:276
+#, c-format
+msgid "Plasma Desktop"
+msgstr ""
+
+#: steps_gtk.pm:277
+#, c-format
+msgid "GNOME Desktop"
+msgstr ""
+
+#: steps_gtk.pm:278
+#, c-format
+msgid "Custom Desktop"
+msgstr ""
+
+#: steps_gtk.pm:284
+#, c-format
+msgid "Here's a preview of the '%s' desktop."
+msgstr ""
+
+#: steps_gtk.pm:311
+#, c-format
+msgid "Click on images in order to see a bigger preview"
+msgstr ""
+
+#: steps_gtk.pm:327 steps_interactive.pm:605 steps_list.pm:30
+#, c-format
+msgid "Package Group Selection"
+msgstr "Elektado de Pakaĵaj Grupoj"
+
+#: steps_gtk.pm:350 steps_interactive.pm:622
+#, c-format
+msgid "Individual package selection"
+msgstr "Elektado de individuaj pakaĵoj"
+
+#: steps_gtk.pm:357
+#, c-format
+msgid "Unselect All"
+msgstr ""
+
+#: steps_gtk.pm:376 steps_interactive.pm:534
+#, c-format
+msgid "Total size: %d / %d MB"
+msgstr "Tuta grandeco: %d / %d MB"
+
+#: steps_gtk.pm:421
+#, c-format
+msgid "Version: "
+msgstr "Versio: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "Size: "
+msgstr "Grandeco: "
+
+#: steps_gtk.pm:422
+#, c-format
+msgid "%d KB\n"
+msgstr "%d KB\n"
+
+#: steps_gtk.pm:423
+#, c-format
+msgid "Importance: "
+msgstr "Graveco: "
+
+#: steps_gtk.pm:458
+#, c-format
+msgid "You cannot select/unselect this package"
+msgstr "Vi ne povas elektu/malelektu ĉi tiun pakaĵon"
+
+#: steps_gtk.pm:462
+#, c-format
+msgid "due to missing %s"
+msgstr "pro mankanta %s"
+
+#: steps_gtk.pm:463
+#, c-format
+msgid "due to unsatisfied %s"
+msgstr "pro neplenumita %s"
+
+#: steps_gtk.pm:464
+#, c-format
+msgid "trying to promote %s"
+msgstr "mi provas disponigi %s"
+
+#: steps_gtk.pm:465
+#, c-format
+msgid "in order to keep %s"
+msgstr "por konservi %s"
+
+#: steps_gtk.pm:470
+#, c-format
+msgid ""
+"You cannot select this package as there is not enough space left to install "
+"it"
+msgstr ""
+"Vi ne povas elekti ĉi tiun pakaĵon ĉar ne estas sufiĉe da spaco por instali\n"
+"ĝin."
+
+#: steps_gtk.pm:473
+#, c-format
+msgid "The following packages are going to be installed"
+msgstr "La sekvaj pakaĵoj estos instalataj"
+
+#: steps_gtk.pm:474
+#, c-format
+msgid "The following packages are going to be removed"
+msgstr "La sekvaj pakaĵoj estos malinstalataj"
+
+#: steps_gtk.pm:500
+#, c-format
+msgid "This is a mandatory package, it cannot be unselected"
+msgstr "Ĉi tiu estas deviga pakaĵo, vi ne povas malelekti ĝin"
+
+#: steps_gtk.pm:502
+#, c-format
+msgid "You cannot unselect this package. It is already installed"
+msgstr "Vi ne povas malelekti ĉi tiun pakaĵon.  Ĝi estas jam instalita."
+
+#: steps_gtk.pm:504
+#, c-format
+msgid "You cannot unselect this package. It must be upgraded"
+msgstr "Vi ne povas malelekti ĉi tiun pakaĵon.  Ĝi devus esti promociata."
+
+#: steps_gtk.pm:508
+#, c-format
+msgid "Show automatically selected packages"
+msgstr "Montru aŭtomate elektitajn pakaĵojn"
+
+#: steps_gtk.pm:512
+#, c-format
+msgid "Install"
+msgstr "Instalu"
+
+#: steps_gtk.pm:515
+#, c-format
+msgid "Load/Save selection"
+msgstr "Ŝargi/Konservi selekton"
+
+#: steps_gtk.pm:516
+#, c-format
+msgid "Updating package selection"
+msgstr "Ĝisdatigo de pakaĵ-elekto"
+
+#: steps_gtk.pm:521
+#, c-format
+msgid "Minimal install"
+msgstr "Minimuma instalado"
+
+#: steps_gtk.pm:534
+#, c-format
+msgid "Software Management"
+msgstr "Programar-mastrumilo"
+
+#: steps_gtk.pm:534 steps_interactive.pm:415
+#, c-format
+msgid "Choose the packages you want to install"
+msgstr "Elektu la pakaĵojn kiuj vi deziras instali"
+
+#: steps_gtk.pm:551 steps_interactive.pm:642 steps_list.pm:32
+#, c-format
+msgid "Installing"
+msgstr "Instalanta"
+
+#: steps_gtk.pm:581
+#, c-format
+msgid "No details"
+msgstr "Neniaj detaloj"
+
+#: steps_gtk.pm:600
+#, c-format
+msgid "Time remaining:"
+msgstr ""
+
+#: steps_gtk.pm:601
+#, c-format
+msgid "(estimating...)"
+msgstr ""
+
+#: steps_gtk.pm:627
+#, c-format
+msgid "%d package"
+msgid_plural "%d packages"
+msgstr[0] "%d pakaĵo"
+msgstr[1] "%d pakaĵoj"
+
+#: steps_gtk.pm:684 steps_interactive.pm:834 steps_list.pm:43
+#, c-format
+msgid "Summary"
+msgstr "Resumo"
+
+#: steps_gtk.pm:703
+#, c-format
+msgid "Configure"
+msgstr "Konfiguru"
+
+#: steps_gtk.pm:720 steps_interactive.pm:830 steps_interactive.pm:986
+#, c-format
+msgid "not configured"
+msgstr "ne konfigurita"
+
+#: steps_gtk.pm:763 steps_interactive.pm:315
+#, c-format
+msgid ""
+"The following installation media have been found.\n"
+"If you want to skip some of them, you can unselect them now."
+msgstr ""
+"La sekva instal-datenportilo(j) estas trovita(j).\n"
+"Se vi deziras transsalti kelkajn de ili, vi povas tiujn nun malselekti."
+
+#: steps_gtk.pm:779 steps_interactive.pm:321
+#, c-format
+msgid ""
+"You have the option to copy the contents of the CDs onto the hard disk drive "
+"before installation.\n"
+"It will then continue from the hard disk drive and the packages will remain "
+"available once the system is fully installed."
+msgstr ""
+"Vi havas la opcion kopii la enhavojn de la KD-oj sur la fiksdiskon antaŭ la "
+"instalado.\n"
+"Tiam la instalado daŭrigas el la fiksdisko kaj la pakaĵoj restos atingeblaj "
+"post kiam la sistemo estos plene instalita."
+
+#: steps_gtk.pm:781 steps_interactive.pm:323
+#, c-format
+msgid "Copy whole CDs"
+msgstr "Kopii kompletajn KD-ojn"
+
+#: steps_interactive.pm:40
+#, c-format
+msgid "An error occurred"
+msgstr "Eraro okazis"
+
+#: steps_interactive.pm:105
+#, c-format
+msgid "Please choose your keyboard layout"
+msgstr "Bonvole elektu vian klavar-aranĝon"
+
+#: steps_interactive.pm:109
+#, c-format
+msgid "Here is the full list of available keyboards:"
+msgstr ""
+
+#: steps_interactive.pm:153
+#, c-format
+msgid "Install/Upgrade"
+msgstr "Instalado/Ĝisdatigo"
+
+#: steps_interactive.pm:157
+#, c-format
+msgid "Is this an install or an upgrade?"
+msgstr "Ĉu tiu ĉi estas instalado aŭ ĝisdatigo?"
+
+#: steps_interactive.pm:159
+#, c-format
+msgid ""
+"_: This is a noun:\n"
+"Install"
+msgstr "Instalado"
+
+#: steps_interactive.pm:161
+#, c-format
+msgid "Upgrade %s"
+msgstr "Ĝisdatigu %s"
+
+#: steps_interactive.pm:184
+#, c-format
+msgid "Encryption key for %s"
+msgstr "Ĉifroŝlosilo por %s"
+
+#: steps_interactive.pm:217
+#, c-format
+msgid "Cancel installation, reboot system"
+msgstr ""
+
+#: steps_interactive.pm:218
+#, c-format
+msgid "New Installation"
+msgstr ""
+
+#: steps_interactive.pm:219
+#, c-format
+msgid "Upgrade previous installation (not recommended)"
+msgstr ""
+
+#: steps_interactive.pm:223
+#, c-format
+msgid ""
+"Installer has detected that your installed Linux system could not\n"
+"safely be upgraded to %s.\n"
+"\n"
+"New installation replacing your previous one is recommended.\n"
+"\n"
+"Warning : you should backup all your personal data before choosing \"New\n"
+"Installation\"."
+msgstr ""
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "CD/DVD"
+msgstr ""
+
+#: steps_interactive.pm:264
+#, c-format
+msgid "Configuring CD/DVD"
+msgstr ""
+
+#: steps_interactive.pm:354
+#, c-format
+msgid ""
+"Change your Cd-Rom!\n"
+"Please insert the Cd-Rom labelled \"%s\" in your drive and press Ok when "
+"done.\n"
+"If you do not have it, press Cancel to avoid installation from this Cd-Rom."
+msgstr ""
+"Ŝanĝu vian KDROM!\n"
+"\n"
+"Bonvole, enŝovu la KDROM-on etikedatan \"%s\" en via drajvo kaj klaku \"Jes"
+"\"\n"
+"kiam vi finos.\n"
+"Se vi ne havas ĝin, klaku \"Nuligu\" por eviti la instaladon de ĉi tiu KDROM."
+
+#: steps_interactive.pm:372
+#, c-format
+msgid "Looking for available packages..."
+msgstr "Serĉas haveblajn pakaĵojn"
+
+#: steps_interactive.pm:380
+#, c-format
+msgid ""
+"Your system does not have enough space left for installation or upgrade "
+"(%dMB > %dMB)"
+msgstr ""
+"Via sistemo ne havas sufiĉe da spaco libera por instalado aŭ ĝisdatigo (%dMB "
+"> %dMB)"
+
+#: steps_interactive.pm:428
+#, c-format
+msgid ""
+"Please choose load or save package selection.\n"
+"The format is the same as auto_install generated files."
+msgstr ""
+"Bonvole elektu ŝargi aŭ konservi pakaĵ-elekton.\n"
+" La formato estas la sama kiel dosieroj generitaj per auto_install."
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Load"
+msgstr "Ŝargu"
+
+#: steps_interactive.pm:430
+#, c-format
+msgid "Save"
+msgstr "Konservu"
+
+#: steps_interactive.pm:438
+#, c-format
+msgid "Bad file"
+msgstr "Malbona dosiero"
+
+#: steps_interactive.pm:455
+#, c-format
+msgid "Plasma"
+msgstr ""
+
+#: steps_interactive.pm:456
+#, c-format
+msgid "GNOME"
+msgstr "GNOME"
+
+#: steps_interactive.pm:459
+#, c-format
+msgid "Desktop Selection"
+msgstr "Grafika medio"
+
+#: steps_interactive.pm:460
+#, c-format
+msgid "You can choose your workstation desktop profile."
+msgstr ""
+
+#: steps_interactive.pm:548
+#, c-format
+msgid "Selected size is larger than available space"
+msgstr "Elektita grandeco estas pli ampleksa ol disponebla spaco"
+
+#: steps_interactive.pm:572
+#, c-format
+msgid "Type of install"
+msgstr "Instaltipo"
+
+#: steps_interactive.pm:573
+#, c-format
+msgid ""
+"You have not selected any group of packages.\n"
+"Please choose the minimal installation you want:"
+msgstr ""
+"Vi ne elektis pakaĵgrupon.\n"
+"Bonvole elektu la minimuman instaladon kiun vi deziras:"
+
+#: steps_interactive.pm:578
+#, c-format
+msgid "With X"
+msgstr "Kun X"
+
+#: steps_interactive.pm:579
+#, c-format
+msgid "Install recommended packages"
+msgstr ""
+
+#: steps_interactive.pm:580
+#, c-format
+msgid "With basic documentation (recommended!)"
+msgstr "Kun baza dokumentaĵo (rekomendita!)"
+
+#: steps_interactive.pm:581
+#, c-format
+msgid "Truly minimal install (especially no urpmi)"
+msgstr "Vere minimuma instalado (precipe ne urpmi)"
+
+#: steps_interactive.pm:633
+#, c-format
+msgid "Preparing upgrade..."
+msgstr ""
+
+#: steps_interactive.pm:643
+#, c-format
+msgid "Preparing installation"
+msgstr "Preparas instaladon"
+
+#: steps_interactive.pm:651
+#, c-format
+msgid "Installing package %s"
+msgstr "Instalanta pakaĵo %s"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "There was an error ordering packages:"
+msgstr "Estis eraro ordigi pakaĵojn:"
+
+#: steps_interactive.pm:675
+#, c-format
+msgid "Go on anyway?"
+msgstr "Ĉu vi deziras daŭri tamen?"
+
+#: steps_interactive.pm:679
+#, c-format
+msgid "Retry"
+msgstr "Reprovu"
+
+#: steps_interactive.pm:680
+#, c-format
+msgid "Skip this package"
+msgstr "Transsalti tiun pakaĵon"
+
+#: steps_interactive.pm:681
+#, c-format
+msgid "Skip all packages from medium \"%s\""
+msgstr "Transsalti ĉiujn pakaĵojn de la datenportilo \"%s\""
+
+#: steps_interactive.pm:682
+#, c-format
+msgid "Go back to media and packages selection"
+msgstr "Reiru al la datenportilo kaj pakaĵ-selekto"
+
+#: steps_interactive.pm:685
+#, c-format
+msgid "There was an error installing package %s."
+msgstr "Estis eraro dum instalado de pakaĵo %s."
+
+#: steps_interactive.pm:704
+#, c-format
+msgid "Post-install configuration"
+msgstr "Post-instala konfigurado"
+
+#: steps_interactive.pm:711
+#, c-format
+msgid "Please ensure the Update Modules media is in drive %s"
+msgstr ""
+"Bonvole certiĝu ke la datenportilo por ĝisdatigaj moduloj troviĝas en la "
+"aparato %s"
+
+#: steps_interactive.pm:739 steps_interactive.pm:769 steps_list.pm:47
+#, c-format
+msgid "Updates"
+msgstr "Ĝisdatigoj"
+
+#: steps_interactive.pm:740
+#, c-format
+msgid "You now have the opportunity to setup online media."
+msgstr ""
+
+#: steps_interactive.pm:741
+#, c-format
+msgid "This allows to install security updates."
+msgstr ""
+
+#: steps_interactive.pm:742
+#, c-format
+msgid ""
+"To setup those media, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to setup the update media?"
+msgstr ""
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Paneo ĉe aldono de portilo"
+
+#: steps_interactive.pm:762
+#, c-format
+msgid "Retry?"
+msgstr ""
+
+#: steps_interactive.pm:770
+#, c-format
+msgid ""
+"You now have the opportunity to download updated packages. These packages\n"
+"have been updated after the distribution was released. They may\n"
+"contain security or bug fixes.\n"
+"\n"
+"To download these packages, you will need to have a working Internet \n"
+"connection.\n"
+"\n"
+"Do you want to install the updates?"
+msgstr ""
+"Vi havas nun la eblecon deŝuti ĝisdatigitajn pakaĵojn. Tiuj pakaĵoj\n"
+"estas ĝisdatigitaj post eldonado de tiu ĉi eldono. Ili povas\n"
+"enteni sekureco- aŭ eraro-riparojn.\n"
+"\n"
+"Por deŝuti tiujn pakaĵojn, vi bezonas funkciantan Interret-\n"
+"konekton.\n"
+"\n"
+"Ĉu vi deziras instali tiujn ĝisdatigojn?"
+
+#. -PO: example: lilo-graphic on /dev/hda1
+#: steps_interactive.pm:878
+#, c-format
+msgid "%s on %s"
+msgstr "%s sur %s"
+
+#: steps_interactive.pm:913 steps_interactive.pm:920 steps_interactive.pm:933
+#: steps_interactive.pm:950 steps_interactive.pm:965
+#, c-format
+msgid "Hardware"
+msgstr "Aparataro"
+
+#: steps_interactive.pm:934 steps_interactive.pm:951
+#, c-format
+msgid "Sound card"
+msgstr "Sonkarto"
+
+#: steps_interactive.pm:948
+#, c-format
+msgid "Graphical interface"
+msgstr "Grafika interfaco"
+
+#: steps_interactive.pm:972 steps_interactive.pm:984
+#, c-format
+msgid "Network & Internet"
+msgstr "Reto kaj Interreto"
+
+#: steps_interactive.pm:985
+#, c-format
+msgid "Proxies"
+msgstr "Prokuraj Serviloj"
+
+#: steps_interactive.pm:986
+#, c-format
+msgid "configured"
+msgstr "konfigurita"
+
+#: steps_interactive.pm:996
+#, c-format
+msgid "Security Level"
+msgstr "sekurnivelo"
+
+#: steps_interactive.pm:1016
+#, c-format
+msgid "Firewall"
+msgstr "Fajromuro (Firewall)"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "activated"
+msgstr "aktiva"
+
+#: steps_interactive.pm:1020
+#, c-format
+msgid "disabled"
+msgstr "malebligita"
+
+#: steps_interactive.pm:1034
+#, c-format
+msgid "You have not configured X. Are you sure you really want this?"
+msgstr "Vi ne konfiguris X-on. Ĉu vi certas vere voli tion?"
+
+#. -PO: This is NOT the boot loader (just the kernel initrds)!!!!
+#: steps_interactive.pm:1065
+#, c-format
+msgid "Preparing initial startup program..."
+msgstr ""
+
+#: steps_interactive.pm:1066
+#, c-format
+msgid "Be patient, this may take a while..."
+msgstr ""
+
+#: steps_interactive.pm:1082
+#, c-format
+msgid ""
+"In this security level, access to the files in the Windows partition is "
+"restricted to the administrator."
+msgstr ""
+"Sur tiu ĉi sekurec-nivelo, la aliro al dosieroj en la Vindozaj subdiskoj "
+"estas limigitaj al la mastrumanto."
+
+#: steps_interactive.pm:1114
+#, c-format
+msgid "Insert a blank floppy in drive %s"
+msgstr "Enŝovu malplenan disketon en drajvo %s"
+
+#: steps_interactive.pm:1116
+#, c-format
+msgid "Creating auto install floppy..."
+msgstr "Kreas aŭtoinstalan disketon"
+
+#: steps_interactive.pm:1127
+#, c-format
+msgid ""
+"Some steps are not completed.\n"
+"\n"
+"Do you really want to quit now?"
+msgstr ""
+"Kelkaj paŝoj ne finiĝis.\n"
+"\n"
+"Ĉu vi vere volas ĉesi nun?"
+
+#: steps_interactive.pm:1137
+#, c-format
+msgid "Congratulations"
+msgstr "Gratulojn"
+
+#: steps_interactive.pm:1140
+#, c-format
+msgid "Reboot"
+msgstr "Restarto"
+
+#. -PO: please keep the following messages very short: they must fit in the left list of the installer!!!
+#: steps_list.pm:16
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Language"
+msgstr "Elektu vian lingvon"
+
+#: steps_list.pm:16 steps_list.pm:23
+#, c-format
+msgid "Localization"
+msgstr "Lokaligo"
+
+#: steps_list.pm:17
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"License"
+msgstr "Licenco"
+
+#: steps_list.pm:18
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Mouse"
+msgstr "Muso"
+
+#: steps_list.pm:19 steps_list.pm:20
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Hard drive detection"
+msgstr "Detektado de fiksdisko(j)"
+
+#: steps_list.pm:21 steps_list.pm:22
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installation class"
+msgstr "Instal-klaso"
+
+#: steps_list.pm:23
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Keyboard"
+msgstr "Klavaro"
+
+#: steps_list.pm:24
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Security"
+msgstr "Sekureco"
+
+#: steps_list.pm:25
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Partitioning"
+msgstr "Subdiskigante"
+
+#: steps_list.pm:27 steps_list.pm:28
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Formatting"
+msgstr "Mi formatas"
+
+#: steps_list.pm:29
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Choosing packages"
+msgstr "Mi elektas pakaĵojn"
+
+#: steps_list.pm:31
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Installing"
+msgstr "Instalanta"
+
+#: steps_list.pm:34
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Users"
+msgstr "Uzuloj"
+
+#: steps_list.pm:38 steps_list.pm:39
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Bootloader"
+msgstr "Startŝargilo"
+
+#: steps_list.pm:40 steps_list.pm:41
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Configure X"
+msgstr "Konfiguru X"
+
+#: steps_list.pm:42
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Summary"
+msgstr "Resumo"
+
+#: steps_list.pm:44 steps_list.pm:45
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Services"
+msgstr "Servoj"
+
+#: steps_list.pm:46
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Updates"
+msgstr "Ĝisdatigoj"
+
+#: steps_list.pm:48
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Exit"
+msgstr "Eliro"
+
+#~ msgid "Do you have an ISA sound card?"
+#~ msgstr "Ĉu vi havas ISA-sonkarton?"
+
+#~ msgid ""
+#~ "Run \"alsaconf\" or \"sndconfig\" after installation to configure your "
+#~ "sound card"
+#~ msgstr ""
+#~ "Rulu \"alsaconf\" aŭ \"sndconfig\" post instalado por konfiguri vian "
+#~ "sonkarton"
+
+#~ msgid "No sound card detected. Try \"harddrake\" after installation"
+#~ msgstr "Ne detektis sonkarto. Provu \"harddrake\" post instalado"
+
+#~ msgid "KDE"
+#~ msgstr "KDE"

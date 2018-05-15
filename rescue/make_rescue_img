@@ -1,0 +1,67 @@
+#!/usr/bin/perl
+
+use MDK::Common;
+use lib "/usr/lib/libDrakX";
+use keyboard;
+
+my $tmp = "/tmp/rescue_tmp";
+my $rescue = "rescue.sqfs";
+
+if ($>) {
+    $ENV{PATH} = "/sbin:/usr/sbin:$ENV{PATH}";
+}
+
+BEGIN { undef *_ }
+sub __ { print @_, "\n"; system(@_) }
+sub _ { __ @_; $? and die }
+
+my $arch = arch() =~ /i.86/ ? $MDK::Common::System::compat_arch{arch()} : arch();
+_ "rm -rf $tmp" if -e $tmp;
+_ "mkdir -p $tmp";
+_ "cp -a tree/* $tmp";
+_ "find $tmp -name '*~' -delete";
+mkdir_p($tmp . chomp_($_)) foreach cat_("dirs");
+foreach (cat_("aliases")) {
+    chomp; my ($f, $dest) = split;
+    symlink $dest, "$tmp$f";
+}
+if ($arch eq "x86_64") {
+    _ "mkdir $tmp/usr/lib64";
+    _ "ln -s usr/lib64 $tmp/lib64";
+}
+substInFile { s/DISTRIB_DESCR/$ENV{DISTRIB_DESCR}/ } "$tmp/etc/issue";
+
+_ "../tools/install-xml-file-list list.xml $tmp";
+
+_ "sed 's/Mageia \\([0-9]*\\)/Mageia Rescue \\1/' /etc/os-release >$tmp/etc/os-release";
+_ "ls -1 $tmp/etc | sed 's,\\(.*\\),/etc/\\1,' >>$tmp/usr/share/symlinks";
+# Loading the floppy module causes this service to fail so lets mask this to
+# prevent a red "FAILED" briefly showing on the screen
+_ "sed -i s/ExecStart=/ExecStart=-/ $tmp/usr/lib/systemd/system/systemd-modules-load.service";
+
+my %keytable_conflicts;
+my @less_important_keytables = qw(am_old am_phonetic no-dvorak de-latin1);
+foreach (keyboard::loadkeys_files(sub { warn @_ })) {
+    my ($dir, $fname) = (dirname($_), basename($_));
+    my ($name) = $fname =~ /(.*)\.map\.gz/ or next;
+    next if member($name, @less_important_keytables);
+    if (my ($short2, $short) = $name =~ m|((.+?)[\W_][^\W_]*)|) {
+	$keytable_conflicts{$short} && $short2 ne $name and $short = $short2;
+	$keytable_conflicts{$short} and warn("conflict between $keytable_conflicts{$short} and $name for short name $short (choosing the first)\n"), next;
+	$keytable_conflicts{$short} = $name;
+	# create the short name based on the long one
+	symlinkf($fname, "$tmp$dir/$short.map.gz");
+    }
+}
+
+if (my ($LANGUAGE) = map { if_(/LANGUAGE_(.*)/, $1) } keys %ENV) {
+    substInFile {
+	$_ = "export LANGUAGE=$LANGUAGE\n" . "export LC_ALL=$LANGUAGE\n" if /^#LANGUAGE/;	
+    } "$tmp/usr/bin/mageia-rescue";
+}
+
+exit 0 if $ARGV[0];
+
+_ "mksquashfs $tmp $rescue -all-root -noappend >/dev/null";
+_ "chmod 755 $rescue";
+#_ "rm -rf $tmp";

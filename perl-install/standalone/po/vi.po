@@ -1,0 +1,3382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2015-05-13 21:52+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/projects/p/mageia/"
+"language/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "Đóng"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "Xác thực"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213 drakfont:226
+#: drakfont:264 finish-install:136 logdrake:177 logdrake:453 logdrake:458
+#: scannerdrake:56 scannerdrake:98 scannerdrake:139 scannerdrake:197
+#: scannerdrake:256 scannerdrake:726 scannerdrake:737 scannerdrake:876
+#: scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "Lỗi"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "_Tệp"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "T_hoát"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: drakautologin:100
+#, c-format
+msgid "Default user"
+msgstr "Người dùng mặc định"
+
+#: drakautologin:101
+#, c-format
+msgid "Default desktop"
+msgstr "Desktop mặc định"
+
+#: drakautologin:104
+#, c-format
+msgid "No, I do not want autologin"
+msgstr "Tôi không muốn đăng nhập tự động"
+
+#: drakautologin:105
+#, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr "Tôi muốn đăng nhập tự động với cái này (người dùng, màn hình nền)"
+
+#: drakautologin:112
+#, c-format
+msgid "System mode"
+msgstr "Chế độ hệ thống"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr "Chạy hệ thống X-Window khi khởi động"
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr ""
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr ""
+
+#: drakbug:62
+#, c-format
+msgid "%s Bug Report Tool"
+msgstr ""
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "Trung Tâm Điều Khiển %s"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr "Đồ Thuật Chạy Lần Đầu Tiên"
+
+#: drakbug:69
+#, c-format
+msgid "Synchronization tool"
+msgstr "Công Cụ Đồng Bộ Hoá"
+
+#: drakbug:70 drakbug:206
+#, c-format
+msgid "Standalone Tools"
+msgstr "Các Công Cụ Chuẩn"
+
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr ""
+
+#: drakbug:74
+#, c-format
+msgid "Remote Control"
+msgstr "Điều Khiển Từ Xa"
+
+#: drakbug:75
+#, c-format
+msgid "Software Manager"
+msgstr "Chương Trình Quản Lý Phần Mềm"
+
+#: drakbug:76
+#, c-format
+msgid "Windows Migration tool"
+msgstr "Công Cụ Di Cư Từ Windows"
+
+#: drakbug:77
+#, c-format
+msgid "Configuration Wizards"
+msgstr "Đồ Thuật Cấu Hình"
+
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr ""
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+"Hay tên ứng dụng\n"
+"(hoặc đường dẫn):"
+
+#: drakbug:103
+#, c-format
+msgid "Find Package"
+msgstr "Tìm Gói Tin"
+
+#: drakbug:104
+#, c-format
+msgid "Browse"
+msgstr ""
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "Gói tin:"
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "Kernel:"
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr ""
+
+#: drakbug:144
+#, c-format
+msgid "Used theme: %s"
+msgstr ""
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] ""
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr ""
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr ""
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr ""
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "Báo cáo"
+
+#: drakbug:213
+#, c-format
+msgid "Not installed"
+msgstr "Không được cài đặt"
+
+#: drakbug:226
+#, c-format
+msgid "Package not installed"
+msgstr "Gói tin không được cài đặt"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr ""
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr ""
+
+#: drakclock:38
+#, c-format
+msgid "not defined"
+msgstr "chưa định nghĩa"
+
+#: drakclock:40
+#, c-format
+msgid "Change Time Zone"
+msgstr "Đổi múi giờ"
+
+#: drakclock:45
+#, c-format
+msgid "Timezone - DrakClock"
+msgstr "Múi giờ - DrakClock"
+
+#: drakclock:45
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Bạn ở múi giờ nào?"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:47
+#, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "Đồng hồ trong máy đặt theo GMT?"
+
+#: drakclock:75
+#, c-format
+msgid "Network Time Protocol"
+msgstr "Giao thức thời gian mạng"
+
+#: drakclock:77
+#, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"Máy tính của bạn có thể đồng bộ hóa đồng hồ\n"
+"với máy chủ thời gian ở xa bằng NTP"
+
+#: drakclock:78
+#, c-format
+msgid "Enable Network Time Protocol"
+msgstr "Bật giao thức thời gian mạng"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "Máy chủ:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "Múi giờ"
+
+#: drakclock:117
+#, c-format
+msgid "Please enter a valid NTP server address."
+msgstr ""
+
+#: drakclock:141
+#, c-format
+msgid "Could not synchronize with %s."
+msgstr "Không thể đồng bộ hóa với %s."
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "Thoát"
+
+#: drakclock:143
+#, c-format
+msgid "Retry"
+msgstr ""
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: drakdvb:30
+#, c-format
+msgid "DVB"
+msgstr ""
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "Kênh"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr ""
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr ""
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "Hãy đợi"
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr ""
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "Bỏ qua"
+
+#: drakdvb:148
+#, c-format
+msgid "Detect Channels"
+msgstr ""
+
+#: drakdvb:150
+#, c-format
+msgid "View Channel"
+msgstr ""
+
+#: drakedm:41
+#, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "GDM (Trình quản lý hiển thị GNOME)"
+
+#: drakedm:42
+#, fuzzy, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr "KDM (Trình quản lý hiển thị KDE)"
+
+#: drakedm:43
+#, c-format
+msgid "XDM (X Display Manager)"
+msgstr "XDM (Trình quản lý hiển thị X)"
+
+#: drakedm:54
+#, c-format
+msgid "Choosing a display manager"
+msgstr "Đang chọn một trình quản lý hiển thị"
+
+#: drakedm:55
+#, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr ""
+"Trìng Quản Lý Hiển Thị X11 cho phép bạn đăng nhập\n"
+"vào hệ thống chạy Hệ Thống Cửa Sổ X và hỗ trợ việc chạy một vài\n"
+"phiên làm việc X khác cùng một lúc trên máy tính cục bộ của bạn."
+
+#: drakedm:74
+#, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "Hoàn thành việc thay đổi, bạn có muốn chạy lại dịch vụ dm không?"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+"Bạn chuẩn bị đóng mọi chương trình đang chạy và sẽ mất session hiện thời. Có "
+"chắc là bạn muốn khởi chạy lại dm service?"
+
+#: drakfont:187
+#, c-format
+msgid "Search installed fonts"
+msgstr "Tìm các phông chữ đã cài đặt"
+
+#: drakfont:189
+#, c-format
+msgid "Unselect fonts installed"
+msgstr "Bỏ chọn các phông chữ đã cài đặt"
+
+#: drakfont:213
+#, c-format
+msgid "No fonts found"
+msgstr "không thấy phông chữ nào"
+
+#: drakfont:217
+#, c-format
+msgid "parse all fonts"
+msgstr "phân tích toàn bộ các phông chữ"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "hoàn thành"
+
+#: drakfont:226
+#, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "Không tìm thấy phông chữ trong các phân vùng đã gắn kết"
+
+#: drakfont:261
+#, c-format
+msgid "Reselect correct fonts"
+msgstr "Chọn lại các phông chữ đúng"
+
+#: drakfont:264
+#, c-format
+msgid "Could not find any font.\n"
+msgstr "Không tìm thấy bất kỳ phông chữ nào.\n"
+
+#: drakfont:274
+#, c-format
+msgid "Search for fonts in installed list"
+msgstr "Tìm phông chữ trong danh sách đã cài đặt"
+
+#: drakfont:298
+#, c-format
+msgid "%s fonts conversion"
+msgstr "chuyển đổi phông chữ %s"
+
+#: drakfont:337
+#, c-format
+msgid "Fonts copy"
+msgstr "Sao chép phông chữ"
+
+#: drakfont:340
+#, c-format
+msgid "True Type fonts installation"
+msgstr "Cài đặt phông True Type"
+
+#: drakfont:348
+#, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "hãy đợi khi đang thực hiện ttmkfdir..."
+
+#: drakfont:349
+#, c-format
+msgid "True Type install done"
+msgstr "Hoàn thành cài đặt phông True Type"
+
+#: drakfont:355 drakfont:370
+#, c-format
+msgid "type1inst building"
+msgstr "tạo cài đặt Type1"
+
+#: drakfont:364
+#, c-format
+msgid "Ghostscript referencing"
+msgstr "chuyển giao cho Ghostscript"
+
+#: drakfont:381
+#, c-format
+msgid "Suppress Temporary Files"
+msgstr "Triệt các tập tin tạm thời"
+
+#: drakfont:426 drakfont:432
+#, c-format
+msgid "Suppress Fonts Files"
+msgstr "Triệt các tập tin phông chữ"
+
+#: drakfont:440
+#, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr ""
+"Trước khi cài đặt bất kỳ phông chữ nào, hãy đảm bảo là bạn có quyền dùng và "
+"cài đặt chúng vào hệ thống.\n"
+"\n"
+"Có thể cài đặt phông theo cách thông thường. Một số ít trường hợp, phông giả "
+"sẽ làm treo X Server."
+
+#: drakfont:479
+#, c-format
+msgid "Font Installation"
+msgstr ""
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakFont"
+
+#: drakfont:491 drakfont:640
+#, c-format
+msgid "Font List"
+msgstr "Danh sách phông"
+
+#: drakfont:494
+#, c-format
+msgid "Get Windows Fonts"
+msgstr ""
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "Giới thiệu về"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "Gỡ bỏ cài đặt"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "Nhập"
+
+#: drakfont:521
+#, c-format
+msgid "Drakfont"
+msgstr "DrakFont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Bản quyền (C) %s %s"
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr ""
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr "Hãy chọn các ứng dụng sẽ hỗ trợ cho các phông chữ :"
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr ""
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "Abiword"
+
+#: drakfont:555
+#, c-format
+msgid "Generic Printers"
+msgstr "Máy in Chung"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: drakfont:569
+#, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr "Chọn tập tin hay thư mục chứa phông rồi nhấn 'Thêm'"
+
+#: drakfont:570
+#, c-format
+msgid "File Selection"
+msgstr "Lựa chọn File"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "Phông chữ"
+
+#: drakfont:638 draksec:185
+#, c-format
+msgid "Import fonts"
+msgstr "Nhập phông chữ"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "Thêm"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "Gỡ bỏ"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "Cài đặt"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr ""
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "Có"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "Không"
+
+#: drakfont:728
+#, c-format
+msgid "Unselect All"
+msgstr "Mọi thứ không được chọn"
+
+#: drakfont:731
+#, c-format
+msgid "Select All"
+msgstr "Mọi thứ được chọn"
+
+#: drakfont:748
+#, c-format
+msgid "Importing fonts"
+msgstr "Nhập phông chữ"
+
+#: drakfont:752 drakfont:772
+#, c-format
+msgid "Initial tests"
+msgstr "Các test sơ khởi"
+
+#: drakfont:753
+#, c-format
+msgid "Copy fonts on your system"
+msgstr "Sao chép các phông chữ vào hệ thống"
+
+#: drakfont:754
+#, c-format
+msgid "Install & convert Fonts"
+msgstr "Cài đặt & chuyển đổi phông"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "Sau cài đặt"
+
+#: drakfont:767
+#, c-format
+msgid "Removing fonts"
+msgstr ""
+
+#: drakfont:773
+#, c-format
+msgid "Remove fonts on your system"
+msgstr "Gỡ bỏ phông chữ trong hệ thống"
+
+#: drakfont:774
+#, c-format
+msgid "Post Uninstall"
+msgstr "Sau gỡ cài đặt"
+
+#: drakhelp:17
+#, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+
+#: drakhelp:23
+#, c-format
+msgid "  --help                - display this help     \n"
+msgstr ""
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+" --id <id_label>       - nạp trang trợ giúp html mà nó tham chiếu đến "
+"id_label\n"
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+" --doc <link>          - liên kết tới trang web khác ( cho WM welcome "
+"frontend)\n"
+
+#: drakhelp:53
+#, c-format
+msgid "%s Help Center"
+msgstr ""
+
+#: drakhelp:53
+#, c-format
+msgid "No Help entry for %s\n"
+msgstr ""
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "Thiết lập của hệ thống"
+
+#: drakperm:24
+#, c-format
+msgid "Custom settings"
+msgstr "Thiết lập tùy chọn"
+
+#: drakperm:25
+#, c-format
+msgid "Custom & system settings"
+msgstr "Thiết lập hệ thống và tùy chỉnh"
+
+#: drakperm:33
+#, c-format
+msgid "Security Permissions"
+msgstr ""
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "Có thể hiệu chỉnh"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "Đường dẫn"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "Người dùng"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "Nhóm"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "Sự chấp thuận"
+
+#: drakperm:60
+#, c-format
+msgid "Add a new rule"
+msgstr "Thêm quy tắc mới"
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, c-format
+msgid "Edit current rule"
+msgstr "Biên soạn quy tắc hiện thời"
+
+#: drakperm:108
+#, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr ""
+"Tại đây bạn có thể xem các tập tin dùng để sửa lỗi quyền hạn, chủ sở hữu, và "
+"nhóm thông qua msec.\n"
+"Bạn cũng có thể biên soạn quy tắc riêng, nó sẽ ghi đè lên các quy tắc mặc "
+"định."
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+"Mức bảo mật hiện thời là %s.\n"
+"Hãy chọn quyền hạn để xem/hiệu chỉnh"
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "Lên"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr "Nâng quy tắc được chọn lên một mức"
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "Xuống"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr "Hạ quy tắc được chọn xuống một mức"
+
+#: drakperm:124
+#, c-format
+msgid "Add a rule"
+msgstr "Thêm quy tắc"
+
+#: drakperm:124
+#, c-format
+msgid "Add a new rule at the end"
+msgstr "Thêm quy tắc mới lúc kết thúc"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "Xóa"
+
+#: drakperm:125
+#, c-format
+msgid "Delete selected rule"
+msgstr "Xóa quy tắc được chọn"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "Biên soạn"
+
+#: drakperm:239
+#, c-format
+msgid "browse"
+msgstr "duyệt"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "người dùng"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "nhóm"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "Thứ khác"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "Khác"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "Đọc"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "Bật chạy \"%s\" để đọc tập tin"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "Ghi"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "Bật chạy \"%s\" để ghi tập tin"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "Thực thi"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "Bật chạy \"%s\" để thực thi tập tin"
+
+#: drakperm:269
+#, c-format
+msgid "Sticky-bit"
+msgstr "Sticky-bit"
+
+#: drakperm:269
+#, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"Được dùng cho thư mục:\n"
+" chỉ có chủ sở hữu của thư mục hay tập tin trong thư mục này có thể xóa nó"
+
+#: drakperm:270
+#, c-format
+msgid "Set-UID"
+msgstr "Set-UID"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr "Dùng ID chủ sở hữu để thực thi"
+
+#: drakperm:271
+#, c-format
+msgid "Set-GID"
+msgstr "Set-GID"
+
+#: drakperm:271
+#, c-format
+msgid "Use group id for execution"
+msgstr "Dùng ID của nhóm để thực thi"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "Người dùng:"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "Nhóm :"
+
+#: drakperm:293
+#, c-format
+msgid "Current user"
+msgstr "Người dùng hiện thời"
+
+#: drakperm:294
+#, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr "Khi được kiểm dấu, chủ sở hữu và nhóm sẽ không bị thay đổi"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "Chọn đường dẫn"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "Đặc tính"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr ""
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr ""
+
+#: drakperm:383
+#, c-format
+msgid "Group: %s"
+msgstr ""
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "Toàn Bộ"
+
+#: draksec:54
+#, c-format
+msgid "LOCAL"
+msgstr "CỤC BỘ"
+
+#: draksec:55
+#, c-format
+msgid "NONE"
+msgstr "KHÔNG PHẢI"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "Mặc định"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "Bỏ qua"
+
+#: draksec:87
+#, c-format
+msgid "Security Level and Checks"
+msgstr ""
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr ""
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "Không có mật khẩu"
+
+#: draksec:115
+#, c-format
+msgid "Administrator password"
+msgstr ""
+
+#: draksec:116
+#, c-format
+msgid "User password"
+msgstr ""
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "Quản Lý Phần Mềm"
+
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr ""
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "Trình Quản Lý Nguồn Phần Mềm"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "Thiết lập hiệu ứng 3D cho màn hình"
+
+#: draksec:172
+#, c-format
+msgid "Graphical Server Configuration"
+msgstr ""
+
+#: draksec:173
+#, c-format
+msgid "Mouse Configuration"
+msgstr ""
+
+#: draksec:174
+#, c-format
+msgid "Keyboard Configuration"
+msgstr ""
+
+#: draksec:175
+#, c-format
+msgid "UPS Configuration"
+msgstr ""
+
+#: draksec:176
+#, c-format
+msgid "Network Configuration"
+msgstr "Cấu Hình Mạng"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr ""
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "Trung tâm mạng"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr ""
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr ""
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "Cấu hình proxy"
+
+#: draksec:182
+#, c-format
+msgid "Connection Sharing"
+msgstr ""
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "Sao lưu"
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "Logs"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "Dịch vụ"
+
+#: draksec:188
+#, c-format
+msgid "Users"
+msgstr "Người dùng"
+
+#: draksec:190
+#, c-format
+msgid "Boot Configuration"
+msgstr ""
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "Phần Cứng"
+
+#: draksec:224
+#, c-format
+msgid "Network"
+msgstr "Mạng"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "Hệ Thống"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "Khởi Động"
+
+#: draksound:48
+#, c-format
+msgid "No Sound Card detected!"
+msgstr "Không phát hiện được card âm thanh nào!"
+
+#: draksound:50
+#, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr "Đã kết nối thông qua cổng serial hoặc cáp usb"
+
+#: drakups:72
+#, c-format
+msgid "Manual configuration"
+msgstr "Cấu hình thủ công"
+
+#: drakups:78
+#, c-format
+msgid "Add an UPS device"
+msgstr "Bổ sung thiết bị UPS"
+
+#: drakups:81
+#, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr ""
+"Chào mừng tiện ích cấu hình UPS.\n"
+"\n"
+"Tại đây, bạn có thể bổ sung UPS mới cho hệ thống.\n"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+"Thêm thiết bị ÚP.\n"
+"\n"
+"Bạn muốn phát hiện tự động thiết bị UPS được nối với máy tính này không?"
+
+#: drakups:91
+#, c-format
+msgid "Autodetection"
+msgstr "Tự động phát hiện"
+
+#: drakups:99 harddrake2:362
+#, c-format
+msgid "Detection in progress"
+msgstr "Đang dò tìm"
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "Chúc mừng"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr "Đồ thuật đã hoàn thành việc thêm các thiết bị UPS sau đây:"
+
+#: drakups:121
+#, c-format
+msgid "No new UPS devices was found"
+msgstr "Không tìm thấy thiết bị UPS mới nào"
+
+#: drakups:126 drakups:138
+#, c-format
+msgid "UPS driver configuration"
+msgstr "Cấu hình UPS driver"
+
+#: drakups:126
+#, c-format
+msgid "Please select your UPS model."
+msgstr "Hãy chọn UPS model của bạn."
+
+#: drakups:127
+#, c-format
+msgid "Manufacturer / Model:"
+msgstr "Hãng sản xuất / Model:"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+"Đang cấu hình UPS \"%s\" từ \"%s\".\n"
+"Hãy điền tên, driver và cổng thiết bị."
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "Tên:"
+
+#: drakups:143
+#, c-format
+msgid "The name of your ups"
+msgstr "Tên UPS"
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "Driver:"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr "Driver quản lý UPS của bạn"
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "Cổng:"
+
+#: drakups:147
+#, c-format
+msgid "The port on which is connected your ups"
+msgstr "Cổng nào gắn với UPS của bạn"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr "Đồ thuật đã hoàn thành việc cấu hình thiết bị UPS mới \"%s\"."
+
+#: drakups:248
+#, c-format
+msgid "UPS devices"
+msgstr "Thiết bị UPS"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "Tên"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "Driver"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "Cổng"
+
+#: drakups:267
+#, c-format
+msgid "UPS users"
+msgstr "Người dùng UPS"
+
+#: drakups:283
+#, c-format
+msgid "Access Control Lists"
+msgstr "Truy cập danh sách điều khiển"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "Địa chỉ IP"
+
+#: drakups:284
+#, c-format
+msgid "IP mask"
+msgstr "IP mask"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "Quy tắc"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "Hành động"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "Mức độ"
+
+#: drakups:297
+#, c-format
+msgid "ACL name"
+msgstr "Tên ACL"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: drakups:329
+#, c-format
+msgid "UPS Management"
+msgstr ""
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "Chào mừng công cụ cấu hình UPS"
+
+#: drakxtv:66
+#, c-format
+msgid "No TV Card detected!"
+msgstr "Không phát hiện được card TV nào!"
+
+#: drakxtv:67
+#, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "Bàn phím"
+
+#: finish-install:61
+#, c-format
+msgid "Please choose your keyboard layout."
+msgstr "Hãy chọn tổ chức bàn phím"
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr "Đang kiểm tra kết nối..."
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, c-format
+msgid "Encrypted home partition"
+msgstr ""
+
+#: finish-install:199
+#, c-format
+msgid "Please enter a password for the %s user"
+msgstr ""
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "Nhập lại mật khẩu"
+
+#: finish-install:217
+#, c-format
+msgid "Creating encrypted home partition"
+msgstr ""
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr ""
+
+#: harddrake2:30
+#, c-format
+msgid "Alternative drivers"
+msgstr "Các driver thay thế"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr "Danh sách các driver thay thế cho card âm thanh này"
+
+#: harddrake2:33 harddrake2:129
+#, c-format
+msgid "Bus"
+msgstr "Bus"
+
+#: harddrake2:34
+#, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr ""
+"Đây là bus vật lý mà các thiết bị được cắm (nối) vào (VD: PCI, USB,...)"
+
+#: harddrake2:36 harddrake2:155
+#, c-format
+msgid "Bus identification"
+msgstr "Xác nhận Bus"
+
+#: harddrake2:37
+#, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr ""
+"- Thiết bị PCI và USB: liệt kê nhà sản xuất, thiết bị, chi nhánh phân phối "
+"và ID PCI/USB của linh kiện"
+
+#: harddrake2:39
+#, c-format
+msgid "Location on the bus"
+msgstr "Vị trí trên Bus"
+
+#: harddrake2:40
+#, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr ""
+"- Thiết bị PCI: cung cấp khe cắm PCI, thiết bị và chức năng cho card này\n"
+"- Thiết bị EIDE: là thiết bị phụ (slave) hay chính (master)\n"
+"- Thiết bị SCSI: bus SCSI và các ID của thiết bị SCSI"
+
+#: harddrake2:43
+#, c-format
+msgid "Drive capacity"
+msgstr "Dung lượng đĩa"
+
+#: harddrake2:43
+#, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr "Dung lượng của từng ổ đĩa (khả năng ghi và/hoặc hỗ trợ DVD)"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "Mô tả"
+
+#: harddrake2:44
+#, c-format
+msgid "this field describes the device"
+msgstr "trường này mô tả thiết bị"
+
+#: harddrake2:45
+#, c-format
+msgid "Old device file"
+msgstr "Tập tin thiết bị cũ"
+
+#: harddrake2:46
+#, c-format
+msgid "old static device name used in dev package"
+msgstr "Tên thiết bị tĩnh cũ được dùng trong gói tin dev"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "Module"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr "Module của GNU/Linux kernel quản lý thiết bị đó"
+
+#: harddrake2:50
+#, c-format
+msgid "Extended partitions"
+msgstr "Phân vùng mở rộng"
+
+#: harddrake2:50
+#, c-format
+msgid "the number of extended partitions"
+msgstr "số phân vùng mở rộng"
+
+#: harddrake2:51
+#, c-format
+msgid "Geometry"
+msgstr "Hình học"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr "Cylinder/head/sectors geometry của đĩa"
+
+#: harddrake2:52
+#, c-format
+msgid "Disk controller"
+msgstr "Disk controller"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr "disk controller trên host side"
+
+#: harddrake2:53
+#, c-format
+msgid "Identifier"
+msgstr ""
+
+#: harddrake2:53
+#, c-format
+msgid "usually the device serial number"
+msgstr ""
+
+#: harddrake2:54
+#, c-format
+msgid "Media class"
+msgstr "Loại Phương tiện"
+
+#: harddrake2:54
+#, c-format
+msgid "class of hardware device"
+msgstr "loại của thiết bị phần cứng"
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "Model"
+
+#: harddrake2:55
+#, c-format
+msgid "hard disk model"
+msgstr "Model đĩa cứng "
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "Cổng máy in mạng"
+
+#: harddrake2:57
+#, c-format
+msgid "Primary partitions"
+msgstr "Phân vùng chính (primary)"
+
+#: harddrake2:57
+#, c-format
+msgid "the number of the primary partitions"
+msgstr "số phân vùng chính"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "Nhà SX"
+
+#: harddrake2:58
+#, c-format
+msgid "the vendor name of the device"
+msgstr "tên nhà sản xuất thiết bị"
+
+#: harddrake2:59
+#, c-format
+msgid "PCI domain"
+msgstr ""
+
+#: harddrake2:59 harddrake2:60
+#, c-format
+msgid "the PCI domain of the device"
+msgstr ""
+
+#: harddrake2:60
+#, c-format
+msgid "PCI revision"
+msgstr ""
+
+#: harddrake2:61
+#, c-format
+msgid "Bus PCI #"
+msgstr "Bus PCI #"
+
+#: harddrake2:61
+#, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "PCI bus mà các thiết bị được gắn vào"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device #"
+msgstr "PCI device #"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device number"
+msgstr "Số thiết bị PCI"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function #"
+msgstr "PCI function #"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function number"
+msgstr "Số PCI Function"
+
+#: harddrake2:64
+#, c-format
+msgid "Vendor ID"
+msgstr "Vendor ID"
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr "đây là trình định danh số chuẩn của nhà sản xuất"
+
+#: harddrake2:65
+#, c-format
+msgid "Device ID"
+msgstr "Device ID"
+
+#: harddrake2:65
+#, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "đây là trình định danh số của thiết bị"
+
+#: harddrake2:66
+#, c-format
+msgid "Sub vendor ID"
+msgstr "Sub vendor ID"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr "đây là trình định danh số phụ của nhà sản xuất"
+
+#: harddrake2:67
+#, c-format
+msgid "Sub device ID"
+msgstr "Sub device ID"
+
+#: harddrake2:67
+#, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "đây là trình định danh số phụ của thiết bị"
+
+#: harddrake2:68
+#, c-format
+msgid "Device USB ID"
+msgstr "Device USB ID"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomips"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+"GNU/Linux kernel cần chạy một calculation loop khi khởi động để khởi tạo "
+"timer counter.  Kết quả của nó được lưu là bogomips là cách để \"benchmark\" "
+"CPU."
+
+#: harddrake2:75
+#, c-format
+msgid "Cache size"
+msgstr "Kích thước cache"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr "Kích thước cache (L2) của CPU"
+
+#: harddrake2:76
+#, c-format
+msgid "Cpuid family"
+msgstr "Họ CPUID"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr "họ CPU (vd: 6 cho loại i686)"
+
+#: harddrake2:77
+#, c-format
+msgid "Cpuid level"
+msgstr "Mức CPUID"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr "mức thông tin có thể lấy qua hướng dẫn của cpuid"
+
+#: harddrake2:78
+#, c-format
+msgid "Frequency (MHz)"
+msgstr "Tần số (MHz)"
+
+#: harddrake2:78
+#, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr ""
+"tần số CPU tính theo MHz (MHz là đánh giá ban đầu có thể được hiểu là số mà "
+"CPU có thể thực thi trong một giây)"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "Flags"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr "CPU flags do kernel báo cáo"
+
+#: harddrake2:80 harddrake2:148
+#, c-format
+msgid "Cores"
+msgstr ""
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr ""
+
+#: harddrake2:81
+#, c-format
+msgid "Core ID"
+msgstr ""
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr ""
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr ""
+
+#: harddrake2:84
+#, c-format
+msgid "Siblings"
+msgstr ""
+
+#: harddrake2:85
+#, c-format
+msgid "sub generation of the cpu"
+msgstr "Thế hệ con của CPU"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr "thế hệ CPU (vd: 8 cho Pentium III, ...)"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "Model name"
+msgstr "Tên model"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr "tên nhà sản xuất CPU chính thức"
+
+#: harddrake2:89
+#, c-format
+msgid "the name of the CPU"
+msgstr "tên CPU"
+
+#: harddrake2:90
+#, c-format
+msgid "Processor ID"
+msgstr "ID bộ vi xử lý"
+
+#: harddrake2:90
+#, c-format
+msgid "the number of the processor"
+msgstr "số bộ vi xử lý"
+
+#: harddrake2:91
+#, c-format
+msgid "Model stepping"
+msgstr "Xếp bậc model"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr "bậc của CPU (số model (thế hệ) con)"
+
+#: harddrake2:92
+#, c-format
+msgid "the vendor name of the processor"
+msgstr "tên nhà sản xuất bộ vi xử lý"
+
+#: harddrake2:93
+#, c-format
+msgid "Write protection"
+msgstr "Chống ghi"
+
+#: harddrake2:93
+#, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr ""
+"WP flag trong CR0 register của cpu buộc phải chống ghi lên memory page "
+"level, do đó cho phép bộ vi xử lý phòng chống việc truy cập kernel không "
+"được kiểm đến bộ nhớ của người dùng (aka đây là cơ chế bảo vệ lỗi)"
+
+#: harddrake2:97
+#, c-format
+msgid "Floppy format"
+msgstr "Format đĩa mềm"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr "định dạng đĩa mềm được hỗ trợ"
+
+#: harddrake2:101
+#, c-format
+msgid "EIDE/SCSI channel"
+msgstr "Kênh EIDE/SCSI"
+
+#: harddrake2:102
+#, c-format
+msgid "Disk identifier"
+msgstr "Trình nhận dạng đĩa"
+
+#: harddrake2:102
+#, c-format
+msgid "usually the disk serial number"
+msgstr "thường là số serial của đĩa"
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr ""
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr ""
+
+#: harddrake2:104
+#, c-format
+msgid "Logical unit number"
+msgstr "Số đơn vị logic"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, c-format
+msgid "Installed size"
+msgstr "Kích thước cài đặt"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr "Kích thước đã cài đặt của memory bank"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled Size"
+msgstr "Kích thước cho phép"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr "Kích thước cho phép của memory bank"
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "Kiểu"
+
+#: harddrake2:113
+#, c-format
+msgid "type of the memory device"
+msgstr "loại thiết bị bộ nhớ"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "Tốc độ"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed of the memory bank"
+msgstr "Tốc độ của memory bank"
+
+#: harddrake2:115
+#, c-format
+msgid "Bank connections"
+msgstr "Kết nối với nhà băng"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr "Thiết kế socket của memory bank"
+
+#: harddrake2:118
+#, c-format
+msgid "Location"
+msgstr ""
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "Kích thước"
+
+#: harddrake2:119
+#, c-format
+msgid "Size of the memory device"
+msgstr ""
+
+#: harddrake2:124
+#, c-format
+msgid "Device file"
+msgstr "Tập tin thiết bị"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr "tập tin thiết bị dùng để truyền thông với kernel driver cho chuột"
+
+#: harddrake2:125
+#, c-format
+msgid "Emulated wheel"
+msgstr "mô phỏng bánh xe"
+
+#: harddrake2:125
+#, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "có mô phỏng bánh xe hay không"
+
+#: harddrake2:126
+#, c-format
+msgid "the type of the mouse"
+msgstr "kiểu chuột"
+
+#: harddrake2:127
+#, c-format
+msgid "the name of the mouse"
+msgstr "tên chuột"
+
+#: harddrake2:128
+#, c-format
+msgid "Number of buttons"
+msgstr "Số lượng nút"
+
+#: harddrake2:128
+#, c-format
+msgid "the number of buttons the mouse has"
+msgstr "số lượng nút của chuột"
+
+#: harddrake2:129
+#, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "loại bus mà chuột được gắn vào"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr "Giao thức chuột dùng bởi X11"
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr "Giao thức mà desktop đồ họa sử dụng chuột"
+
+#: harddrake2:134
+#, c-format
+msgid "Identification"
+msgstr "định danh"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "Kết nối"
+
+#: harddrake2:149
+#, c-format
+msgid "Performances"
+msgstr "Hiệu suất"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "Thiết bị"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "Phân vùng"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "Tính năng"
+
+#: harddrake2:183
+#, c-format
+msgid "Autodetect _modems"
+msgstr "Tự động dò mo_dem"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr "Tự động phát hiện parallel _zip drives"
+
+#: harddrake2:188
+#, c-format
+msgid "Hardware Configuration"
+msgstr ""
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "Tuỳ _chọn"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "Trợ _giúp"
+
+#: harddrake2:199
+#, c-format
+msgid "<control>H"
+msgstr ""
+
+#: harddrake2:200
+#, c-format
+msgid "_Fields description"
+msgstr "Mô tả các t_rường"
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "_Báo cáo lỗi"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "Giới thiệ_u..."
+
+#: harddrake2:246
+#, c-format
+msgid "Detected hardware"
+msgstr "Phần cứng được phát hiện"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Thông tin"
+
+#: harddrake2:251
+#, c-format
+msgid "Set current driver options"
+msgstr ""
+
+#: harddrake2:257
+#, c-format
+msgid "Run config tool"
+msgstr "Chạy công cụ cấu hình"
+
+#: harddrake2:284
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "Nhấn chuột lên thiết bị ở cây bên trái để xem thông tin về nó tại đây."
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "không xác định"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "Không xác định"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "Linh tinh"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "phụ"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "chính"
+
+#: harddrake2:412
+#, c-format
+msgid "burner"
+msgstr "ổ ghi"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Các gói sau đây cần được cài đặt:\n"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "HardDrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:543
+#, c-format
+msgid "Harddrake help"
+msgstr "Trợ Giúp Mageia"
+
+#: harddrake2:544
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Mô tả về các trường:\n"
+"\n"
+
+#: harddrake2:551
+#, c-format
+msgid "Select a device!"
+msgstr "Chọn thiết bị !"
+
+#: harddrake2:551
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Mỗi lần chọn một thiết bị, bạn sẽ thấy thông tin thiết bị trong các trường "
+"được hiển thị trên khung bên phải (\"Thông tin\")"
+
+#: localedrake:38
+#, c-format
+msgid "LocaleDrake"
+msgstr "LocaleDrake"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr "Bạn nên cài đặt các gói sau: %s"
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr ""
+
+#: logdrake:69
+#, c-format
+msgid "Show only for the selected day"
+msgstr "Chỉ hiển thị với ngày được chọn"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr "Xác thực"
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr "Người dùng"
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr "Thông điệp"
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr "Syslog"
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "tìm kiếm"
+
+#: logdrake:136
+#, c-format
+msgid "A tool to monitor your logs"
+msgstr "Công cụ xem bản ghi"
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "Các thiết lập"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "Khớp nhau"
+
+#: logdrake:142
+#, c-format
+msgid "but not matching"
+msgstr "nhưng không khớp"
+
+#: logdrake:145
+#, c-format
+msgid "Choose file"
+msgstr "Chọn tập tin"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "Lịch"
+
+#: logdrake:166
+#, c-format
+msgid "Content of the file"
+msgstr "Nội dung tập tin"
+
+#: logdrake:170 logdrake:415
+#, c-format
+msgid "Mail alert"
+msgstr "Thư Cảnh báo"
+
+#: logdrake:177
+#, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "Lỗi đồ thuật cảnh báo :"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "Lưu"
+
+#: logdrake:230
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "Hãy đợi, đang phân tích tập tin: %s"
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr ""
+
+#: logdrake:300
+#, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr ""
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr "Máy Chủ WWW Apache"
+
+#: logdrake:394
+#, c-format
+msgid "Domain Name Resolver"
+msgstr "Trình Xử Lý Tên Miền"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "Máy chủ FTP"
+
+#: logdrake:396
+#, c-format
+msgid "Postfix Mail Server"
+msgstr "Máy Chủ Thư Postfix"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "Máy Chủ Samba"
+
+#: logdrake:398
+#, c-format
+msgid "SSH Server"
+msgstr "Máy chủ SSH"
+
+#: logdrake:399
+#, c-format
+msgid "Webmin Service"
+msgstr "Dịch vụ Webmin"
+
+#: logdrake:400
+#, c-format
+msgid "Xinetd Service"
+msgstr "Dịch Vụ Xinetd"
+
+#: logdrake:409
+#, c-format
+msgid "Configure the mail alert system"
+msgstr "Cấu hình hệ thống cảnh báo qua thư"
+
+#: logdrake:410
+#, c-format
+msgid "Stop the mail alert system"
+msgstr "Dừng hệ thống cảnh báo qua thư"
+
+#: logdrake:418
+#, c-format
+msgid "Mail alert configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: logdrake:419
+#, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr ""
+"Chào mừng tiện ích cấu hình thư.\n"
+"\n"
+"Tại đây, có thể thiết lập hệ thống cảnh báo.\n"
+
+#: logdrake:422
+#, c-format
+msgid "What do you want to do?"
+msgstr "Bạn muốn làm gì?"
+
+#: logdrake:429
+#, c-format
+msgid "Services settings"
+msgstr "Các thiết lập dịch vụ"
+
+#: logdrake:430
+#, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr ""
+"Bạn sẽ nhận được cảnh báo nếu một trong những dịch vụ được chọn không còn "
+"chạy nữa"
+
+#: logdrake:437
+#, c-format
+msgid "Load setting"
+msgstr "Nạp thiết lập"
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr "Bạn sẽ nhận được cảnh báo nếu tải cao hơn giá trị này"
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr "Tải"
+
+#: logdrake:444
+#, c-format
+msgid "Alert configuration"
+msgstr "Cấu hình cảnh báo"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr "Hãy nhập địa chỉ e-mail của bạn ở dưới"
+
+#: logdrake:446
+#, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr "và nhập tên hoặc IP của máy chủ SMTP mà bạn muốn dùng."
+
+#: logdrake:448
+#, c-format
+msgid "Email address"
+msgstr ""
+
+#: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr ""
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr "\"%s\" không phải là email hợp lệ hay người dùng cục bộ hiện có!"
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+"\"%s\" là một người dùng cục bộ, nhưng bạn đã không chọn một local smtp, do "
+"đó bạn phải dùng một địa chỉ email hoàn chỉnh!"
+
+#: logdrake:465
+#, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr "Đồ thuật cấu hình thành công cảnh báo qua thư."
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr "Đồ thuật tắt thành công cảnh báo qua thư."
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "Lưu là.."
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr ""
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr ""
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr ""
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+"Gói tin cho SANE cần được cài đặt để sử dụng máy quét.\n"
+"\n"
+"Bạn muốn cài đặt không?"
+
+#: scannerdrake:52
+#, c-format
+msgid "Aborting Scannerdrake."
+msgstr "Ngừng Scannerdrake."
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr ""
+"Không thể cài đặt các gói cho việc thiết lập máy quét bằng Scannerdrake."
+
+#: scannerdrake:58
+#, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "Scannerdrake sẽ không được chạy lúc này."
+
+#: scannerdrake:64 scannerdrake:502
+#, c-format
+msgid "Searching for configured scanners..."
+msgstr "Đang tìm các máy quét đã cấu hình ..."
+
+#: scannerdrake:68 scannerdrake:506
+#, c-format
+msgid "Searching for new scanners..."
+msgstr "Đang tìm các máy quét mới ..."
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr "Đang tạo lại danh sách các máy quét đã cấu hình ..."
+
+#: scannerdrake:98
+#, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "%s không được hỗ trợ bởi phiên bản này của %s."
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr ""
+
+#: scannerdrake:101
+#, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "Đã tìm thấy %s trên %s, tự động cấu hình nó không?"
+
+#: scannerdrake:113
+#, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr ""
+"%s không phải là cơ sở dữ liệu của máy quét, có cấu hình nó thủ công hay "
+"không?"
+
+#: scannerdrake:127
+#, c-format
+msgid "Scanner configuration"
+msgstr ""
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr ""
+
+#: scannerdrake:130
+#, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr ""
+
+#: scannerdrake:131
+#, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr ""
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr " (KHÔNG HỖ TRỢ)"
+
+#: scannerdrake:139
+#, c-format
+msgid "The %s is not supported under Linux."
+msgstr "%s không được linux hỗ trợ."
+
+#: scannerdrake:166 scannerdrake:180
+#, c-format
+msgid "Do not install firmware file"
+msgstr "Đừng cài đặt tập tin firmware"
+
+#: scannerdrake:169 scannerdrake:219
+#, c-format
+msgid "Scanner Firmware"
+msgstr ""
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr "Có khả năng là %s cần có firmware được nạp lên mỗi khi bật nó lên."
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr "Nếu là như vậy, bạn có thể để nó tự động hoàn thành."
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+"Để làm vậy, bạn cần cung cấp tập tin firmware cho máy quét để nó được cài "
+"đặt."
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+"Bạn tìm thấy tập tin trên CD hay đĩa mềm đi kèm với máy quét, từ trang chủ "
+"của nhà sản  xuất, hay từ phân vùng Windows. "
+
+#: scannerdrake:175 scannerdrake:234
+#, c-format
+msgid "Install firmware file from"
+msgstr "Cài đặt tập tin firmware từ"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, c-format
+msgid "Floppy Disk"
+msgstr "Đĩa mềm"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, c-format
+msgid "Other place"
+msgstr "Vị trí khác"
+
+#: scannerdrake:195
+#, c-format
+msgid "Select firmware file"
+msgstr "Chọn tập tin firmware"
+
+#: scannerdrake:198 scannerdrake:257
+#, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr "Tập tin firmware %s không có hoặc không đọc được!"
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr "Điều này cho phép nạp firmware cho máy quét mỗi khi bật máy."
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+"Để làm vậy, bạn cần cung cấp tập tin firmware cho máy quét để cài đặt nó."
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+"Nếu đã cài đặt firmware của máy quét, bạn có thể cập nhật firmware ở đây "
+"bằng cách cung cấp tập tin firmware."
+
+#: scannerdrake:230
+#, c-format
+msgid "Install firmware for the"
+msgstr "Cài đặt firmware cho"
+
+#: scannerdrake:253
+#, c-format
+msgid "Select firmware file for the %s"
+msgstr "Chọn tập tin firmware cho %s"
+
+#: scannerdrake:271
+#, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "Không thể cài đặt tập tin firmware cho %s!"
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr "Tập tin firmware cho %s của bạn đã được cài đặt thành công."
+
+#: scannerdrake:294
+#, c-format
+msgid "The %s is unsupported"
+msgstr "%s không được hỗ trợ"
+
+#: scannerdrake:299
+#, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr ""
+"%s phải được cấu hình bằng system-config-printer.\n"
+"Có thể chạy system-config-printer từ Trung Tâm Điều Khiển %s trong mục Phần "
+"Cứng."
+
+#: scannerdrake:317
+#, c-format
+msgid "Setting up kernel modules..."
+msgstr "Đang thiết lập các kernel module..."
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, c-format
+msgid "Auto-detect available ports"
+msgstr "Tự động phát hiện các cổng hiện có"
+
+#: scannerdrake:328 scannerdrake:374
+#, c-format
+msgid "Device choice"
+msgstr ""
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr "Hãy chọn thiết bị nơi mà %s được gắn vào"
+
+#: scannerdrake:330
+#, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr "(Lưu ý: Không thể tự động phát hiện các cổng song song)"
+
+#: scannerdrake:332 scannerdrake:377
+#, c-format
+msgid "choose device"
+msgstr "Chọn thiết bị"
+
+#: scannerdrake:366
+#, c-format
+msgid "Searching for scanners..."
+msgstr "Đang tìm máy quét ..."
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr "Chú ý!"
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+"Không thể cấu hình theo cách tự động hoàn toàn %s.\n"
+"\n"
+"Bạn cần phải tự hiệu chỉnh, hãy hiệu chỉnh tập tin cấu hình /etc/sane.d/%s."
+"conf."
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+"Thông tin chi tiết nằm trong driver's manual page. Hãy chạy lệnh \"man sane-"
+"%s\" để đọc."
+
+#: scannerdrake:406 scannerdrake:415
+#, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr "%s đã được cấu hình, nhưng bạn cần phải tự hiệu chỉnh thêm để chạy nó."
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+"Nếu nó không xuất hiện trong danh sách máy quét đã cấu hình ở cửa sổ chính "
+"của Scannerdrake hoặc khi nó không làm việc đúng, "
+
+#: scannerdrake:412
+#, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr "hiệu chỉnh tập tin cấu hình /etc/sane.d/%s.conf. "
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "Chúc mừng!"
+
+#: scannerdrake:418
+#, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+
+#: scannerdrake:443
+#, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr ""
+"Các máy quét sau đây\n"
+"\n"
+"%s\n"
+"sẵn dùng trên hệ thống của bạn.\n"
+
+#: scannerdrake:444
+#, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr ""
+"Máy quét sau đây\n"
+"\n"
+"%s\n"
+"sẵn dùng trên hệ thống của bạn.\n"
+
+#: scannerdrake:446 scannerdrake:449
+#, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "Không tìm thấy máy quét nào sẵn có trên hệ thống của bạn.\n"
+
+#: scannerdrake:457
+#, c-format
+msgid "Scanner Management"
+msgstr ""
+
+#: scannerdrake:463
+#, c-format
+msgid "Search for new scanners"
+msgstr "Tìm kiếm các máy quét mới"
+
+#: scannerdrake:469
+#, c-format
+msgid "Add a scanner manually"
+msgstr "Thêm máy quét theo cách thủ công"
+
+#: scannerdrake:476
+#, c-format
+msgid "Install/Update firmware files"
+msgstr "Cài đặt/Cập nhật tập tin firmware"
+
+#: scannerdrake:482
+#, c-format
+msgid "Scanner sharing"
+msgstr "Chia sẻ máy quét"
+
+#: scannerdrake:541 scannerdrake:706
+#, c-format
+msgid "All remote machines"
+msgstr "Toàn bộ các máy ở xa"
+
+#: scannerdrake:553 scannerdrake:856
+#, c-format
+msgid "This machine"
+msgstr "Máy tính này"
+
+#: scannerdrake:592
+#, c-format
+msgid "Scanner Sharing"
+msgstr ""
+
+#: scannerdrake:593
+#, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr ""
+"Tại đây bạn có thể chọn máy quét nào kết nối với máy tính này có thể truy "
+"cập được từ các máy tính ở xa và bởi máy ở xa nào."
+
+#: scannerdrake:594
+#, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr ""
+"Tại đây bạn cũng có thể quyết định máy quét nào trên máy tính ở xa sẽ sẵn "
+"dùng trên máy tính này."
+
+#: scannerdrake:597
+#, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr "Những máy quét trên máy tính này sẵn dùng cho các máy tính khác"
+
+#: scannerdrake:599
+#, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "Chia sẻ máy quét trên các host: "
+
+#: scannerdrake:604 scannerdrake:621
+#, c-format
+msgid "No remote machines"
+msgstr "Không có máy ở xa"
+
+#: scannerdrake:613
+#, c-format
+msgid "Use scanners on remote computers"
+msgstr "Dùng máy quét trên các máy tính ở xa"
+
+#: scannerdrake:616
+#, c-format
+msgid "Use the scanners on hosts: "
+msgstr "Dùng các máy quét trên các host: "
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, c-format
+msgid "Sharing of local scanners"
+msgstr "Chia sẻ máy quét cục bộ"
+
+#: scannerdrake:644
+#, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr ""
+"Đây là những máy tính mà trên đó các máy quét kết nối cục bộ sẽ sẵn dùng:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "Thêm host"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "Biên soạn host được chọn"
+
+#: scannerdrake:670 scannerdrake:820
+#, c-format
+msgid "Remove selected host"
+msgstr "Bỏ host được chọn"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "Hoàn thành"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, c-format
+msgid "Name/IP address of host:"
+msgstr "Tên / Địa chỉ IP của host:"
+
+#: scannerdrake:716 scannerdrake:866
+#, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr "Chọn host để tạo các máy quét cục bộ sẵn dùng trên đó:"
+
+#: scannerdrake:727 scannerdrake:877
+#, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "Bạn phải nhập tên chủ (hostname) hay địa chỉ IP.\n"
+
+#: scannerdrake:738 scannerdrake:888
+#, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr "Host này có trong danh sách rồi, không thể thêm nữa.\n"
+
+#: scannerdrake:793
+#, c-format
+msgid "Usage of remote scanners"
+msgstr "Cách dùng máy quét ở xa"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr "Đây là những máy tính mà trên đó máy quét sẽ được dùng:"
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+"Cần cài đặt SANE để chia sẻ máy quét.\n"
+"\n"
+"Bạn muốn cài đặt không?"
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr "Máy quét của bạn sẽ không được chia sẻ qua mạng."
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr "Không thể cài đặt các gói để chia sẻ máy quét của bạn."
+
+#: service_harddrake:157
+#, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr ""
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr ""
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr ""
+
+#: service_harddrake:297
+#, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr "Đã gỡ bỏ một số thiết bị trong loại phần cứng \"%s\":\n"
+
+#: service_harddrake:298
+#, c-format
+msgid "- %s was removed\n"
+msgstr "- %s đã được bỏ\n"
+
+#: service_harddrake:301
+#, c-format
+msgid "Some devices were added: %s\n"
+msgstr "Đã thêm một số thiết bị: %s\n"
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- %s đã được thêm\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr "Thay đổi phần cứng trong \"%s\" class (%s giây để trả lời)"
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "Bạn muốn chạy công cụ cấu hình thích ứng không?"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "Đang dò tìm phần cứng"
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr ""
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr ""
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr ""
+
+#: ../menu/harddrake.desktop.in.h:1
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr ""
+
+#: ../menu/harddrake.desktop.in.h:3
+msgid "Hardware Configuration Tool"
+msgstr ""
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr ""
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr ""
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+msgid "Run Mageia Authentication Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+msgid "Run Mageia Boot Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+msgid "Run Mageia Date and Time Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+msgid "Run Mageia Login Manager Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+msgid "Run Mageia Font Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+msgid "Run Mageia Hardware Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr ""
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr ""
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+msgid "Run Mageia Security Permissions Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+msgid "Run Mageia Scanner Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+msgid "Run Mageia Application Security Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+msgid "Run Mageia UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+msgid "Run Mageia Service Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr ""
+
+#~ msgid "Text only"
+#~ msgstr "Text only"
+
+#~ msgid "Silent"
+#~ msgstr "Silent"
+
+#~ msgid ""
+#~ "Your system bootloader is not in framebuffer mode. To activate graphical "
+#~ "boot, select a graphic video mode from the bootloader configuration tool."
+#~ msgstr ""
+#~ "Trình nạp khởi động hệ thống không ở chế độ framebuffer. Để kích hoạt "
+#~ "khởi động đồ họa, hãy chọn chế độ graphic video bằng công cụ cấu hình "
+#~ "trình nạp khởi động."
+
+#~ msgid "Do you want to configure it now?"
+#~ msgstr "Bạn muốn cấu hình không?"
+
+#~ msgid "Install themes"
+#~ msgstr "Cài đặt theme"
+
+#~ msgid "Graphical boot theme selection"
+#~ msgstr "Lựa chọn theme khởi động đồ họa"
+
+#~ msgid "Graphical boot mode:"
+#~ msgstr "Dùng khởi động đồ họa"
+
+#~ msgid "Theme"
+#~ msgstr "Theme"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Cấu Hình Khuôn Thức Khởi Động"
+
+#~ msgid "Video mode"
+#~ msgstr "Chế độ Video"
+
+#~ msgid ""
+#~ "Please choose a video mode, it will be applied to each of the boot "
+#~ "entries selected below.\n"
+#~ "Be sure your video card supports the mode you choose."
+#~ msgstr ""
+#~ "Hãy chọn chế độ video để áp dụng vào từng mục nhập khởi động được chọn "
+#~ "dưới đây.\n"
+#~ "Hãy đảm bảo là video card hỗ trợ chế độ bạn chọn."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "Note: if you've an ISA PnP sound card, you'll have to use the alsaconf or "
+#~ "the sndconfig program.  Just type \"alsaconf\" or \"sndconfig\" in a "
+#~ "console."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "Lưu ý: nếu có card âm thanh loại ISA PnP, bạn sẽ phải dùng chương trình "
+#~ "alsaconf hay sndconfig.  Chỉ việc gõ \"alsaconf\" hay \"sndconfig\" trong "
+#~ "console."

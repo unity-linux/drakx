@@ -1,0 +1,3406 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz.bednarski@amazis.pl>, 2009
+# Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz.bednarski@mandriva.pl>, 2008
+# Daniel Napora <napcok@gmail.com>, 2013,2015
+# Maciej Walkowiak <m.walkowiak@computer.org>, 2005
+# Paweł Jabłoński <pj@linux-mandrake.com>, 2001-2002
+# Tomasz Bednarski - Amazis.net <tomasz.bednarski@amazis.pl>, 2007
+# Tomasz Bednarski - Amazis.net <tomasz.bednarski@mandriva.pl>, 2008
+# Tomasz Bednarski <bednarski@skrzynka.pl>, 2005
+# Tomasz Bednarski - Mandriva Poland <tomasz.bednarski@mandriva.pl>, 2006-2007
+# Tomasz Bednarski <tomasz.bednarski@mandriva.pl>, 2005
+# tomek, 2005
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2016-11-15 18:16+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Polish (http://www.transifex.com/MageiaLinux/mageia/language/"
+"pl/)\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "Pomoc"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "Zamknij"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "Uwierzytelnianie"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:136 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
+#: scannerdrake:876 scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "Błąd"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "_Plik"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "_Zakończ"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: drakautologin:100
+#, c-format
+msgid "Default user"
+msgstr "Domyślny użytkownik"
+
+#: drakautologin:101
+#, c-format
+msgid "Default desktop"
+msgstr "Domyślny pulpit"
+
+#: drakautologin:104
+#, c-format
+msgid "No, I do not want autologin"
+msgstr "Nie, nie chcę automatycznego logowania"
+
+#: drakautologin:105
+#, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr "Tak, chcę dla tego użytkownika korzystać z automatycznego logowania"
+
+#: drakautologin:112
+#, c-format
+msgid "System mode"
+msgstr "Tryb pracy systemu"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr "Uruchamiaj środowisko graficzne po uruchomieniu systemu"
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr "Nie odnaleziono menedżera ładowania. Trwa tworzenie nowej konfiguracji"
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr ""
+"Program \"%s\" niespodziewanie zakończył działanie z następującym błędem:"
+
+#: drakbug:62
+#, c-format
+msgid "%s Bug Report Tool"
+msgstr "Narzędzie raportowania błędów %s"
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "Centrum Sterowania %s"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr "Druid pierwszego uruchomienia"
+
+#: drakbug:69
+#, c-format
+msgid "Synchronization tool"
+msgstr "Narzędzie synchronizacji"
+
+#: drakbug:70 drakbug:206
+#, c-format
+msgid "Standalone Tools"
+msgstr "Samodzielne urządzenia"
+
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s Online"
+
+#: drakbug:74
+#, c-format
+msgid "Remote Control"
+msgstr "Kontrola zdalna"
+
+#: drakbug:75
+#, c-format
+msgid "Software Manager"
+msgstr "Menedżer oprogramowania"
+
+#: drakbug:76
+#, c-format
+msgid "Windows Migration tool"
+msgstr "Narzędzie migracji z Windows"
+
+#: drakbug:77
+#, c-format
+msgid "Configuration Wizards"
+msgstr "Druidy konfiguracji"
+
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "Wybierz narzędzie %s:"
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+"lub nazwę aplikacji\n"
+"(lub pełna ścieżka):"
+
+#: drakbug:103
+#, c-format
+msgid "Find Package"
+msgstr "Znajdź pakiet"
+
+#: drakbug:104
+#, c-format
+msgid "Browse"
+msgstr "Przeglądaj"
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "Pakiet: "
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "Jądro:"
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr "Program \"%s\" spowodował naruszenie ochrony pamięci i zwrócił błąd:"
+
+#: drakbug:144
+#, c-format
+msgid "Used theme: %s"
+msgstr "Użyty temat: %s"
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+"Aby zgłosić raport o błędach, należy kliknąć przycisk \"Raport\".\n"
+"Zostanie otwarte okno przeglądarki na stronie %s,  gdzie można znaleźć "
+"formularz do wypełnienia. Informacje wyświetlone  powyżej zostaną przesłane "
+"do tego serwera. "
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] "Załącz do raportu dane wyjściowe z uruchomienia polecenia %s. "
+msgstr[1] ""
+"Dane wyjściowe z uruchomienia polecenia %s są niezbędnym załącznikiem."
+msgstr[2] ""
+"Dane wyjściowe z uruchomienia polecenia %s są niezbędnym załącznikiem."
+msgstr[3] ""
+"Dane wyjściowe z uruchomienia polecenia %s są niezbędnym załącznikiem."
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr "'%s'"
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr "Dołącz także następujące pliki: %s oraz %s."
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr "Opisz czynności, które wykonywałeś podczas awarii programu:"
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "Raport"
+
+#: drakbug:213
+#, c-format
+msgid "Not installed"
+msgstr "Nie zainstalowano"
+
+#: drakbug:226
+#, c-format
+msgid "Package not installed"
+msgstr "Pakiet nie jest zainstalowany"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+"Napisz co robiłeś w chwili, gdy wystąpił ten błąd, abyśmy mogli go odtworzyć "
+"i zwiększyć szansę na jego szybkie poprawienie."
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr "Dziękujemy"
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Ustawienia daty, zegara i strefy czasowej"
+
+#: drakclock:38
+#, c-format
+msgid "not defined"
+msgstr "nie zdefiniowano"
+
+#: drakclock:40
+#, c-format
+msgid "Change Time Zone"
+msgstr "Zmiana strefy czasowej"
+
+#: drakclock:45
+#, c-format
+msgid "Timezone - DrakClock"
+msgstr "Strefa czasowa - DrakClock"
+
+#: drakclock:45
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Wybierz strefę czasową"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:47
+#, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "Czy zegar sprzętowy jest ustawiony na czas GMT?"
+
+#: drakclock:75
+#, c-format
+msgid "Network Time Protocol"
+msgstr "Sieciowy protokół czasu"
+
+#: drakclock:77
+#, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"Twój komputer może zsynchronizować swój zegar\n"
+" ze zdalnym serwerem czasu przy użyciu NTP"
+
+#: drakclock:78
+#, c-format
+msgid "Enable Network Time Protocol"
+msgstr "Włącz sieciowy protokół czasu"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "Serwer:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "Strefa czasowa"
+
+#: drakclock:117
+#, c-format
+msgid "Please enter a valid NTP server address."
+msgstr "Wprowadź prawidłowy adres serwera NTP."
+
+#: drakclock:141
+#, c-format
+msgid "Could not synchronize with %s."
+msgstr "Nie można wykonać synchronizacji z %s."
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "Zakończ"
+
+#: drakclock:143
+#, c-format
+msgid "Retry"
+msgstr "Spróbuj ponownie"
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "Zresetowanie"
+
+#: drakdvb:30
+#, c-format
+msgid "DVB"
+msgstr "DVB"
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "Kanał"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr "%s już istnieje a jego zawartość zostanie utracona"
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr "Pobranie listy dostępnych kanałów nie powiodło się"
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "Proszę czekać"
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr "Wykrywanie kanałów DVB. Może to potrwać kilka minut."
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: drakdvb:148
+#, c-format
+msgid "Detect Channels"
+msgstr "Wykryj kanały"
+
+#: drakdvb:150
+#, c-format
+msgid "View Channel"
+msgstr "Pokaż kanał"
+
+#: drakedm:41
+#, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "GDM (Menedżer wyświetlania GNOME)"
+
+#: drakedm:42
+#, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr ""
+
+#: drakedm:43
+#, c-format
+msgid "XDM (X Display Manager)"
+msgstr "XDM (Menedżer wyświetlania X)"
+
+#: drakedm:54
+#, c-format
+msgid "Choosing a display manager"
+msgstr "Wybieranie menedżera wyświetlania"
+
+#: drakedm:55
+#, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr ""
+"Menedżer wyświetlania X11 umożliwia graficzne logowanie\n"
+"do systemu z uruchomionym systemem X Window oraz obsługuje uruchamianie\n"
+"kilku różnych sesji X w tym samym czasie na lokalnym komputerze."
+
+#: drakedm:74
+#, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "Zmiana została wprowadzona, czy chcesz ponownie uruchomić usługę dm?"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+"Zostaną zamknięte wszystkie uruchomione programy oraz zostanie utracona "
+"bieżąca sesja. Czy na pewno chcesz uruchomić ponownie usługę dm?"
+
+#: drakfont:187
+#, c-format
+msgid "Search installed fonts"
+msgstr "Wyszukaj zainstalowane fonty"
+
+#: drakfont:189
+#, c-format
+msgid "Unselect fonts installed"
+msgstr "Odznacz zainstalowane fonty"
+
+#: drakfont:213
+#, c-format
+msgid "No fonts found"
+msgstr "Nie znaleziono fontów"
+
+#: drakfont:217
+#, c-format
+msgid "parse all fonts"
+msgstr "przetwórz wszystkie fonty"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "gotowe"
+
+#: drakfont:226
+#, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "Nie można znaleźć żadnej fontu na zamontowanych partycjach"
+
+#: drakfont:261
+#, c-format
+msgid "Reselect correct fonts"
+msgstr "Ponownie wybierz poprawne fonty"
+
+#: drakfont:264
+#, c-format
+msgid "Could not find any font.\n"
+msgstr "Nie można znaleźć żadnego fontu.\n"
+
+#: drakfont:274
+#, c-format
+msgid "Search for fonts in installed list"
+msgstr "Wyszukaj fonty na zainstalowanej liście"
+
+#: drakfont:298
+#, c-format
+msgid "%s fonts conversion"
+msgstr "Konwersja fontów %s"
+
+#: drakfont:337
+#, c-format
+msgid "Fonts copy"
+msgstr "Kopiowanie fontów"
+
+#: drakfont:340
+#, c-format
+msgid "True Type fonts installation"
+msgstr "Instalacja fontów True Type"
+
+#: drakfont:348
+#, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "proszę czekać na zakończenie ttmkfdir..."
+
+#: drakfont:349
+#, c-format
+msgid "True Type install done"
+msgstr "Instalacja True Type zakończona"
+
+#: drakfont:355 drakfont:370
+#, c-format
+msgid "type1inst building"
+msgstr "budowanie type1inst"
+
+#: drakfont:364
+#, c-format
+msgid "Ghostscript referencing"
+msgstr "Odwoływanie się do Ghostscripta"
+
+#: drakfont:381
+#, c-format
+msgid "Suppress Temporary Files"
+msgstr "Usuń pliki tymczasowe"
+
+#: drakfont:426 drakfont:432
+#, c-format
+msgid "Suppress Fonts Files"
+msgstr "Usuń pliki fontów "
+
+#: drakfont:440
+#, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr ""
+"Przed instalacją jakichkolwiek fontów, upewnij się że masz prawa do używania "
+"i zainstalowania ich w systemie.\n"
+"\n"
+"Można zainstalować fonty w zwykły sposób. W rzadkich przypadkach, błędne "
+"fonty mogą zawiesić serwer X."
+
+#: drakfont:479
+#, c-format
+msgid "Font Installation"
+msgstr "Instalacja czcionek"
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakFont"
+
+#: drakfont:491 drakfont:640
+#, c-format
+msgid "Font List"
+msgstr "Lista fontów"
+
+#: drakfont:494
+#, c-format
+msgid "Get Windows Fonts"
+msgstr "Pobierz fonty systemu Windows"
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "Informacje"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "Opcje"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "Odinstaluj"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "Import"
+
+#: drakfont:521
+#, c-format
+msgid "Drakfont"
+msgstr "Drakfont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright (C) %s by %s"
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr "Instalator czcionek."
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "_: Translator(s) name(s) & email(s)\n"
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr "Wybierz aplikacje obsługujące fonty :"
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "Abiword"
+
+#: drakfont:555
+#, c-format
+msgid "Generic Printers"
+msgstr "Typowe drukarki"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: drakfont:569
+#, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr "Wybierz plik fontu lub katalog oraz kliknij \"Dodaj\""
+
+#: drakfont:570
+#, c-format
+msgid "File Selection"
+msgstr "Wybór plików"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "Czcionki"
+
+#: drakfont:638 draksec:185
+#, c-format
+msgid "Import fonts"
+msgstr "Importowanie fontów"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "Dodaj"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "Usuń"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "Instalacja"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr "Czy jesteś pewien, że chcesz usunąć następujące czcionki?"
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "Tak"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "Nie"
+
+#: drakfont:728
+#, c-format
+msgid "Unselect All"
+msgstr "Odznacz wszystko"
+
+#: drakfont:731
+#, c-format
+msgid "Select All"
+msgstr "Zaznacz wszystko"
+
+#: drakfont:748
+#, c-format
+msgid "Importing fonts"
+msgstr "Importowanie fontów"
+
+#: drakfont:752 drakfont:772
+#, c-format
+msgid "Initial tests"
+msgstr "Testy początkowe"
+
+#: drakfont:753
+#, c-format
+msgid "Copy fonts on your system"
+msgstr "Skopiuj fonty do systemu"
+
+#: drakfont:754
+#, c-format
+msgid "Install & convert Fonts"
+msgstr "Zainstaluj i skonwertuj fonty"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "Konfiguracja poinstalacyjna"
+
+#: drakfont:767
+#, c-format
+msgid "Removing fonts"
+msgstr "Usuwanie fontów"
+
+#: drakfont:773
+#, c-format
+msgid "Remove fonts on your system"
+msgstr "Usuń fonty z systemu"
+
+#: drakfont:774
+#, c-format
+msgid "Post Uninstall"
+msgstr "Odinstalowywanie wykańczające"
+
+#: drakhelp:17
+#, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"To jest wolnodostępne oprogramowanie i może być rozpowszechniane zgodnie\n"
+"z zasadami licencji GNU GPL.\n"
+"\n"
+"Użycie: \n"
+
+#: drakhelp:23
+#, c-format
+msgid "  --help                - display this help     \n"
+msgstr " --help                - wyświetla tą pomoc    \n"
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+" --id <etykieta_id>    - wczytuje stronę html pomocy odnoszącą się do\n"
+"                         etykiety_id\n"
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+" --doc <odnośnik>      - odnośnik do innej strony www ( dla strony\n"
+"                         powitalnej WM)\n"
+
+#: drakhelp:53
+#, c-format
+msgid "%s Help Center"
+msgstr "Centrum Pomocy %s"
+
+#: drakhelp:53
+#, c-format
+msgid "No Help entry for %s\n"
+msgstr "Brak strony pomocy dla %s\n"
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "Ustawienia systemowe"
+
+#: drakperm:24
+#, c-format
+msgid "Custom settings"
+msgstr "Dowolne ustawienia"
+
+#: drakperm:25
+#, c-format
+msgid "Custom & system settings"
+msgstr "Dowolne i systemowe ustawienia"
+
+#: drakperm:33
+#, c-format
+msgid "Security Permissions"
+msgstr "Uprawnienia bezpieczeństwa"
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "Edytowalne"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "Ścieżka"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "Użytkownik"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "Grupa"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "Prawa dostępu"
+
+#: drakperm:60
+#, c-format
+msgid "Add a new rule"
+msgstr "Dodaj nową regułę"
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, c-format
+msgid "Edit current rule"
+msgstr "Edytuj bieżącą regułę"
+
+#: drakperm:108
+#, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr ""
+"Tutaj można przejrzeć pliki używane w celu naprawy uprawnień, właścicieli, "
+"oraz grup przez msec.\n"
+"Można także modyfikować własne reguły, które będą nadpisywały reguły "
+"domyślne."
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+"Bieżącym poziomem bezpieczeństwa jest %s\n"
+"Wybierz uprawnienia do wyświetlenia/edycji"
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "Góra"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr "Podnieś zaznaczoną regułę o jeden poziom"
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "Obniż"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr "Obniż bieżącą regułę o jeden poziom"
+
+#: drakperm:124
+#, c-format
+msgid "Add a rule"
+msgstr "Dodaj regułę"
+
+#: drakperm:124
+#, c-format
+msgid "Add a new rule at the end"
+msgstr "Dodaj nową regułę na końcu"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "Usuń"
+
+#: drakperm:125
+#, c-format
+msgid "Delete selected rule"
+msgstr "Usuń zaznaczoną regułę"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "Edycja"
+
+#: drakperm:239
+#, c-format
+msgid "browse"
+msgstr "przeglądaj"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "użytkownik"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "grupa"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "inne"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "Inne"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "Odczyt"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "Włącz \"%s\" aby odczytać plik"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "Zapis"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "Włącz \"%s\" aby zapisać plik"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "Uruchom"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "Włącz \"%s\" aby uruchomić plik"
+
+#: drakperm:269
+#, c-format
+msgid "Sticky-bit"
+msgstr "Bit lepkości"
+
+#: drakperm:269
+#, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"Używany dla katalogu:\n"
+" tylko właściciel katalogu lub pliku w tym katalogu może go skasować"
+
+#: drakperm:270
+#, c-format
+msgid "Set-UID"
+msgstr "Ustaw UID"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr "użyj id właściciela dla wykonywania"
+
+#: drakperm:271
+#, c-format
+msgid "Set-GID"
+msgstr "Ustaw GID"
+
+#: drakperm:271
+#, c-format
+msgid "Use group id for execution"
+msgstr "użyj id grupy dla wykonywania"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "Użytkownik :"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "Grupa :"
+
+#: drakperm:293
+#, c-format
+msgid "Current user"
+msgstr "Bieżący użytkownik"
+
+#: drakperm:294
+#, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr "Po zaznaczeniu, nie będzie możliwa zmiana właściciela oraz grupy"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "Wybór ścieżki"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "Właściwość"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+"Pierwszym znakiem w adresie ścieżki musi być ukośnik (\"/\"):\n"
+"\"%s\""
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr "Nazwa użytkownika i grupa muszą być prawidłowe!"
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr "Użytkownik: %s"
+
+#: drakperm:383
+#, c-format
+msgid "Group: %s"
+msgstr "Grupa: %s"
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "WSZYSTKO"
+
+#: draksec:54
+#, c-format
+msgid "LOCAL"
+msgstr "LOKALNE"
+
+#: draksec:55
+#, c-format
+msgid "NONE"
+msgstr "BRAK"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "Domyślne"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "Ignorowanie"
+
+#: draksec:87
+#, c-format
+msgid "Security Level and Checks"
+msgstr "Poziom bezpieczeństwa i kontrola"
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr "Skonfiguruj dane niezbędne do uwierzytelniania dostępu do narzędzi %s"
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "Bez hasła"
+
+#: draksec:115
+#, c-format
+msgid "Administrator password"
+msgstr "Hasło root'a"
+
+#: draksec:116
+#, c-format
+msgid "User password"
+msgstr "Hasło użytkownika"
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "Zarządzanie oprogramowaniem"
+
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "%s Update"
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "Menedżer nośników oprogramowania"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "Konfiguracja efektów pulpitu 3D"
+
+#: draksec:172
+#, c-format
+msgid "Graphical Server Configuration"
+msgstr "Konfiguracja serwera graficznego"
+
+#: draksec:173
+#, c-format
+msgid "Mouse Configuration"
+msgstr "Konfiguracja myszy"
+
+#: draksec:174
+#, c-format
+msgid "Keyboard Configuration"
+msgstr "Konfiguracja klawiatury"
+
+#: draksec:175
+#, c-format
+msgid "UPS Configuration"
+msgstr "Konfiguracja UPS"
+
+#: draksec:176
+#, c-format
+msgid "Network Configuration"
+msgstr "Konfiguracja sieci"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr "Definicje hostów"
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "Centrum konfiguracji sieci"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr "Roaming sieci bezprzewodowej"
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr "VPN"
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "Konfiguracja pośrednika"
+
+#: draksec:182
+#, c-format
+msgid "Connection Sharing"
+msgstr "Udostępnianie połączenia"
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "Archiwa"
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "Dziennik"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "Usługi"
+
+#: draksec:188
+#, c-format
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: draksec:190
+#, c-format
+msgid "Boot Configuration"
+msgstr "Konfiguracja uruchamiania"
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "Sprzęt"
+
+#: draksec:224
+#, c-format
+msgid "Network"
+msgstr "Sieć"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "System"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "Uruchamianie"
+
+#: draksound:48
+#, c-format
+msgid "No Sound Card detected!"
+msgstr "Nie wykryto karty dźwiękowej!"
+
+#: draksound:50
+#, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+"W komputerze nie wykryto karty telewizyjnej. Sprawdź czy obsługiwana karta "
+"jest poprawnie podłączona"
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr "Połączono przez port szeregowy lub połączenie USB"
+
+#: drakups:72
+#, c-format
+msgid "Manual configuration"
+msgstr "Konfiguracja ręczna"
+
+#: drakups:78
+#, c-format
+msgid "Add an UPS device"
+msgstr "Dodaj urządzenie UPS"
+
+#: drakups:81
+#, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr ""
+"Witaj w narzędziu konfiguracji UPS.\n"
+"\n"
+"W tym miejscu można ustawić nowy UPS w systemie.\n"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+"Zostanie dodane urządzenie UPS.\n"
+"\n"
+"Czy chcesz automatycznie wykryć urządzenia UPS połączone do komputera?"
+
+#: drakups:91
+#, c-format
+msgid "Autodetection"
+msgstr "Automatyczne wykrywanie"
+
+#: drakups:99 harddrake2:362
+#, c-format
+msgid "Detection in progress"
+msgstr "Wykrywanie w toku"
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "Gratulacje"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr "Druid pomyślnie dodał poniższe urządzenia UPS:"
+
+#: drakups:121
+#, c-format
+msgid "No new UPS devices was found"
+msgstr "Nie znaleziono nowych urządzeń UPS"
+
+#: drakups:126 drakups:138
+#, c-format
+msgid "UPS driver configuration"
+msgstr "Konfiguracja sterownika UPS"
+
+#: drakups:126
+#, c-format
+msgid "Please select your UPS model."
+msgstr "Wybierz model urządzenia UPS."
+
+#: drakups:127
+#, c-format
+msgid "Manufacturer / Model:"
+msgstr "Producent / Model:"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+"Konfigurowany jest UPS \"%s\" z \"%s\".\n"
+"Wypełnij pola nazwy, sterownika oraz portu."
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "Nazwa:"
+
+#: drakups:143
+#, c-format
+msgid "The name of your ups"
+msgstr "Nazwa UPS-a"
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "Sterownik:"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr "Sterownik zarządzający UPS-em"
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "Port:"
+
+#: drakups:147
+#, c-format
+msgid "The port on which is connected your ups"
+msgstr "Port, do którego jest połączony UPS"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr "Druid pomyślnie skonfigurował nowe urządzenie UPS \"%s\"."
+
+#: drakups:248
+#, c-format
+msgid "UPS devices"
+msgstr "Urządzenia UPS"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "Nazwa"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "Sterownik"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "Port"
+
+#: drakups:267
+#, c-format
+msgid "UPS users"
+msgstr "Użytkownicy UPS"
+
+#: drakups:283
+#, c-format
+msgid "Access Control Lists"
+msgstr "Lista kontroli dostępu (ACL)"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "Adres IP"
+
+#: drakups:284
+#, c-format
+msgid "IP mask"
+msgstr "Maska IP"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "Reguły"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "Czynność"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "Poziom"
+
+#: drakups:297
+#, c-format
+msgid "ACL name"
+msgstr "Nazwa ACL"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "Hasło"
+
+#: drakups:329
+#, c-format
+msgid "UPS Management"
+msgstr "Zarządzanie zasilaczami UPS"
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "Witaj w narzędziach konfiguracyjnych UPS"
+
+#: drakxtv:66
+#, c-format
+msgid "No TV Card detected!"
+msgstr "Nie wykryto karty telewizyjnej!"
+
+#: drakxtv:67
+#, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+"W komputerze nie wykryto karty telewizyjnej. Sprawdź czy obsługiwana karta "
+"jest poprawnie podłączona."
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "Klawiatura"
+
+#: finish-install:61
+#, c-format
+msgid "Please choose your keyboard layout."
+msgstr "Wybierz układ klawiatury."
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr "Testowanie połączenia..."
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, c-format
+msgid "Encrypted home partition"
+msgstr "Szyfrowana partycja home"
+
+#: finish-install:199
+#, c-format
+msgid "Please enter a password for the %s user"
+msgstr "Wprowadź hasło użytkownika %s"
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "Hasło (powtórnie)"
+
+#: finish-install:217
+#, c-format
+msgid "Creating encrypted home partition"
+msgstr "Tworzenie szyfrowanej partycji home"
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr "Formatowanie szyfrowanej partycji home"
+
+#: harddrake2:30
+#, c-format
+msgid "Alternative drivers"
+msgstr "Alternatywne sterowniki"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr "lista alternatywnych sterowników dla tej karty dźwiękowej"
+
+#: harddrake2:33 harddrake2:129
+#, c-format
+msgid "Bus"
+msgstr "Szyna"
+
+#: harddrake2:34
+#, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr ""
+"to jest fizyczna szyna, do której podłączone jest urządzenie (np: PCI, "
+"USB, ...)"
+
+#: harddrake2:36 harddrake2:155
+#, c-format
+msgid "Bus identification"
+msgstr "Identyfikacja szyny"
+
+#: harddrake2:37
+#, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr ""
+"- Urządzenia PCI i USB: to jest lista identyfikatorów producenta, "
+"urządzenia, dostawcy i urządzeń zależnych PCI/USB"
+
+#: harddrake2:39
+#, c-format
+msgid "Location on the bus"
+msgstr "Położenie na szynie"
+
+#: harddrake2:40
+#, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr ""
+"- urządzenia pci: to pole wyświetla złącze PCI, urządzenie i funkcję karty\n"
+"- urządzenia eide: to pole określa tryb urządzenia \"master\" lub \"slave\"\n"
+"- urządzenia scsi: identyfikatory szyny scsi oraz urządzenia scsi"
+
+#: harddrake2:43
+#, c-format
+msgid "Drive capacity"
+msgstr "Funkcje sterownika"
+
+#: harddrake2:43
+#, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr "specjalne funkcje sterownika (możliwość wypalania i/lub obsługa DVD)"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "Opis"
+
+#: harddrake2:44
+#, c-format
+msgid "this field describes the device"
+msgstr "to pole opisuje urządzenie"
+
+#: harddrake2:45
+#, c-format
+msgid "Old device file"
+msgstr "Stary plik urządzenia"
+
+#: harddrake2:46
+#, c-format
+msgid "old static device name used in dev package"
+msgstr "stara statyczna nazwa urządzenia używana w pakiecie dev"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "Moduł"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr "moduł jądra GNU/Linux obsługujący to urządzenie"
+
+#: harddrake2:50
+#, c-format
+msgid "Extended partitions"
+msgstr "Partycje rozszerzone"
+
+#: harddrake2:50
+#, c-format
+msgid "the number of extended partitions"
+msgstr "liczba partycji rozszerzonych"
+
+#: harddrake2:51
+#, c-format
+msgid "Geometry"
+msgstr "Rozmiar"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr "Rozmiar cylindry/głowice/sektory dysku"
+
+#: harddrake2:52
+#, c-format
+msgid "Disk controller"
+msgstr "Kontrolery dysku"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr "kontroler dysku po stronie hosta"
+
+#: harddrake2:53
+#, c-format
+msgid "Identifier"
+msgstr "Identyfikator"
+
+#: harddrake2:53
+#, c-format
+msgid "usually the device serial number"
+msgstr "zazwyczaj numer seryjny urządzenia"
+
+#: harddrake2:54
+#, c-format
+msgid "Media class"
+msgstr "Klasa nośnika"
+
+#: harddrake2:54
+#, c-format
+msgid "class of hardware device"
+msgstr "klasa urządzenia"
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "Model"
+
+#: harddrake2:55
+#, c-format
+msgid "hard disk model"
+msgstr "Model twardego dysku"
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "port drukarki sieciowej"
+
+#: harddrake2:57
+#, c-format
+msgid "Primary partitions"
+msgstr "Partycje podstawowe"
+
+#: harddrake2:57
+#, c-format
+msgid "the number of the primary partitions"
+msgstr "liczba partycji podstawowych"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "Dostawca"
+
+#: harddrake2:58
+#, c-format
+msgid "the vendor name of the device"
+msgstr "nazwa producenta urządzenia"
+
+#: harddrake2:59
+#, c-format
+msgid "PCI domain"
+msgstr "Zakres PCI"
+
+#: harddrake2:59 harddrake2:60
+#, c-format
+msgid "the PCI domain of the device"
+msgstr "zakres PCI urządzenia"
+
+#: harddrake2:60
+#, c-format
+msgid "PCI revision"
+msgstr "Przegląd PCI"
+
+#: harddrake2:61
+#, c-format
+msgid "Bus PCI #"
+msgstr "Szyna PCI #"
+
+#: harddrake2:61
+#, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "szyna PCI, do której włączone jest urządzenie"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device #"
+msgstr "Urządzenie PCI #"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device number"
+msgstr "Numer urządzenia PCI"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function #"
+msgstr "Funkcja PCI #"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function number"
+msgstr "numer funkcji PCI"
+
+#: harddrake2:64
+#, c-format
+msgid "Vendor ID"
+msgstr "ID producenta"
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr "to jest standardowy numer identyfikacyjny producenta"
+
+#: harddrake2:65
+#, c-format
+msgid "Device ID"
+msgstr "ID urządzenia"
+
+#: harddrake2:65
+#, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "to jest liczbowy identyfikator urządzenia"
+
+#: harddrake2:66
+#, c-format
+msgid "Sub vendor ID"
+msgstr "ID poddostawcy"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr "to jest podrzędny numeryczny identyfikator poddostawcy"
+
+#: harddrake2:67
+#, c-format
+msgid "Sub device ID"
+msgstr "ID urządzenia podrzędnego"
+
+#: harddrake2:67
+#, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "to jest podrzędny numeryczny identyfikator urządzenia"
+
+#: harddrake2:68
+#, c-format
+msgid "Device USB ID"
+msgstr "ID urządzenia USB"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomipsy"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+"jądro GNU/Linux musi uruchomić pętlę obliczeniową podczas uruchamiania\n"
+"do inicjalizacji licznika czasu. Jej wyniki są przechowywane jako bogomipsy "
+"jako sposób na \"sprawdzenie możliwości\" procesora."
+
+#: harddrake2:75
+#, c-format
+msgid "Cache size"
+msgstr "Rozmiar cache"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr "Rozmiar pamięci podręcznej procesora (drugiego poziomu)"
+
+#: harddrake2:76
+#, c-format
+msgid "Cpuid family"
+msgstr "Rodzina procesora"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr "rodzina procesora (np. 6 dla klasy i686)"
+
+#: harddrake2:77
+#, c-format
+msgid "Cpuid level"
+msgstr "Poziom procesora"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr ""
+"Poziom informacyjny, do którego można mieć dostęp za pośrednictwem "
+"instrukcji procesora"
+
+#: harddrake2:78
+#, c-format
+msgid "Frequency (MHz)"
+msgstr "Częstotliwość (MHz)"
+
+#: harddrake2:78
+#, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr ""
+"Częstotliwość procesora w MHz (Megaherce, które mogą w pierwszym "
+"przybliżeniu być związane z liczbą instrukcji procesora, które mogą być "
+"wykonane w czasie jednej sekundy)"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "Flagi"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr "Flagi procesora wykryte przez jądro"
+
+#: harddrake2:80 harddrake2:148
+#, c-format
+msgid "Cores"
+msgstr "Rdzenie"
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr "Rdzenie procesora"
+
+#: harddrake2:81
+#, c-format
+msgid "Core ID"
+msgstr "ID rdzenia"
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr "Fizyczne ID"
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr "ACPI ID"
+
+#: harddrake2:84
+#, c-format
+msgid "Siblings"
+msgstr "Rodzeństwo"
+
+#: harddrake2:85
+#, c-format
+msgid "sub generation of the cpu"
+msgstr "podgeneracja procesora"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr "generacja procesora (np. 8 dla Pentium III, ...)"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "Model name"
+msgstr "Nazwa modelu"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr "oficjalna nazwa producenta procesora"
+
+#: harddrake2:89
+#, c-format
+msgid "the name of the CPU"
+msgstr "nazwa procesora"
+
+#: harddrake2:90
+#, c-format
+msgid "Processor ID"
+msgstr "ID procesora"
+
+#: harddrake2:90
+#, c-format
+msgid "the number of the processor"
+msgstr "numer procesora"
+
+#: harddrake2:91
+#, c-format
+msgid "Model stepping"
+msgstr "Numeracja modelu"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr "numeracja procesora (numer modelu podrzędnego (generacji))"
+
+#: harddrake2:92
+#, c-format
+msgid "the vendor name of the processor"
+msgstr "nazwa producenta procesora"
+
+#: harddrake2:93
+#, c-format
+msgid "Write protection"
+msgstr "Ochrona przed zapisem"
+
+#: harddrake2:93
+#, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr ""
+"Flaga WP w rejestrze CR0 procesora, wymusza ochronę przed zapisem na "
+"poziomie strony pamięci, jednak umożliwiając procesorowi zabezpieczenie "
+"niesprawdzonego dostępu jądra do pamięci użytkownika (coś jak strażnik "
+"chroniący przed błędami)"
+
+#: harddrake2:97
+#, c-format
+msgid "Floppy format"
+msgstr "Format dyskietek"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr "format dyskietek akceptowanych przez urządzenie"
+
+#: harddrake2:101
+#, c-format
+msgid "EIDE/SCSI channel"
+msgstr "Kanał EIDE/SCSI"
+
+#: harddrake2:102
+#, c-format
+msgid "Disk identifier"
+msgstr "Identyfikator dysku"
+
+#: harddrake2:102
+#, c-format
+msgid "usually the disk serial number"
+msgstr "zazwyczaj numer seryjny dysku"
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr "Numer identyfikacyjny obiektu"
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr "Identyfikator obiektu SCSI"
+
+#: harddrake2:104
+#, c-format
+msgid "Logical unit number"
+msgstr "Logiczny numer jednostki"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+"numer docelowy SCSI (LUN), urządzania SCSI podłączone do hosta są unikalnie\n"
+"identyfikowane za pomocą numeru kanału, docelowego id oraz logicznego numeru "
+"jednostki"
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, c-format
+msgid "Installed size"
+msgstr "Rozmiar zainstalowanych pakietów"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr "Rozmiar zainstalowanego banku pamięci"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled Size"
+msgstr "Włączony rozmiar"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr "Aktywowany rozmiar banku pamięci"
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "Rodzaj"
+
+#: harddrake2:113
+#, c-format
+msgid "type of the memory device"
+msgstr "Rodzaj pamięci"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "Szybkość"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed of the memory bank"
+msgstr "Szybkość kanału pamięci"
+
+#: harddrake2:115
+#, c-format
+msgid "Bank connections"
+msgstr "Zarządzanie połączeniami kanałów"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr "Oznaczenie gniazda banku pamięci"
+
+#: harddrake2:118
+#, c-format
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "Rozmiar"
+
+#: harddrake2:119
+#, c-format
+msgid "Size of the memory device"
+msgstr "Rozmiar pamięci"
+
+#: harddrake2:124
+#, c-format
+msgid "Device file"
+msgstr "Plik urządzenia"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr ""
+"plik urządzenia wykorzystywany do skomunikowania się ze sterownikiem jądra "
+"dla myszythe device file used to communicate with the kernel driver for the "
+"mouse"
+
+#: harddrake2:125
+#, c-format
+msgid "Emulated wheel"
+msgstr "Emulowane kółko"
+
+#: harddrake2:125
+#, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "określenie czy kółko jest emulowane czy nie"
+
+#: harddrake2:126
+#, c-format
+msgid "the type of the mouse"
+msgstr "typ myszy"
+
+#: harddrake2:127
+#, c-format
+msgid "the name of the mouse"
+msgstr "nazwa myszy"
+
+#: harddrake2:128
+#, c-format
+msgid "Number of buttons"
+msgstr "Liczba przycisków"
+
+#: harddrake2:128
+#, c-format
+msgid "the number of buttons the mouse has"
+msgstr "liczba przycisków myszy"
+
+#: harddrake2:129
+#, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "typ szyny, do której podłączona jest mysz"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr "Protokół myszy używany przez X11"
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr "protokół używany przez środowisko graficzne związany z myszą"
+
+#: harddrake2:134
+#, c-format
+msgid "Identification"
+msgstr "Identyfikacja"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "Połączenie"
+
+#: harddrake2:149
+#, c-format
+msgid "Performances"
+msgstr "Możliwości"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "Urządzenie"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "Partycje"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "Funkcje"
+
+#: harddrake2:183
+#, c-format
+msgid "Autodetect _modems"
+msgstr "Automatycznie wykryj _modemy"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr "Automatycznie wykryj równoległe napędy _zip"
+
+#: harddrake2:188
+#, c-format
+msgid "Hardware Configuration"
+msgstr "Konfiguracja sprzętu"
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "_Opcje"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "Pomo_c"
+
+#: harddrake2:199
+#, c-format
+msgid "<control>H"
+msgstr "<control>H"
+
+#: harddrake2:200
+#, c-format
+msgid "_Fields description"
+msgstr "_Opis pól"
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "_Zgłoś błąd"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "O _programie..."
+
+#: harddrake2:246
+#, c-format
+msgid "Detected hardware"
+msgstr "Wykryty sprzęt"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Informacje"
+
+#: harddrake2:251
+#, c-format
+msgid "Set current driver options"
+msgstr "Konfiguruj opcje aktualnego sterownika"
+
+#: harddrake2:257
+#, c-format
+msgid "Run config tool"
+msgstr "Uruchom narzędzie konfiguracyjne"
+
+#: harddrake2:284
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr ""
+"Kliknij urządzenie w lewym drzewie w celu pobrania informacji, które zostaną "
+"tutaj wyświetlone."
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "nieznany"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "Różne"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "drugorzędny"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "główny"
+
+#: harddrake2:412
+#, c-format
+msgid "burner"
+msgstr "nagrywarka"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Następujące pakiety wymagają zainstalowania:\n"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "HardDrake - program do konfiguracji sprzętu %s."
+
+#: harddrake2:543
+#, c-format
+msgid "Harddrake help"
+msgstr "Pomoc Harddrake"
+
+#: harddrake2:544
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Opis pól:\n"
+"\n"
+
+#: harddrake2:551
+#, c-format
+msgid "Select a device!"
+msgstr "Wybierz urządzenie !"
+
+#: harddrake2:551
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Po wybraniu urządzenia, można odczytać informacje o urządzeniu wyświetlone w "
+"prawej ramce (\"Informacje\")"
+
+#: localedrake:38
+#, c-format
+msgid "LocaleDrake"
+msgstr "LocaleDrake"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr "Należy zainstalować następujące pakiety: %s"
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr "Logi narzędzi %s"
+
+#: logdrake:69
+#, c-format
+msgid "Show only for the selected day"
+msgstr "Tylko dla wybranego dnia"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr ""
+"_:to jest plik dziennika auth.log\n"
+"Uwierzytelnianie"
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr ""
+"_:to jest plik dziennika user.log\n"
+"Użytkownik"
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr ""
+"_:to jest plik dziennika /var/log/messages\n"
+"Komunikaty"
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr ""
+"_:to jest plik dziennika /var/log/syslog\n"
+"Dziennik systemowy"
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "wyszukiwanie"
+
+#: logdrake:136
+#, c-format
+msgid "A tool to monitor your logs"
+msgstr "Narzędzie od monitorowania logów"
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "Pasuje"
+
+#: logdrake:142
+#, c-format
+msgid "but not matching"
+msgstr "lecz nie zawiera"
+
+#: logdrake:145
+#, c-format
+msgid "Choose file"
+msgstr "Wybierz plik"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "Kalendarz"
+
+#: logdrake:166
+#, c-format
+msgid "Content of the file"
+msgstr "Zawartość pliku"
+
+#: logdrake:170 logdrake:415
+#, c-format
+msgid "Mail alert"
+msgstr "Alarm Mail"
+
+#: logdrake:177
+#, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "Druid raportowania nieoczekiwanie napotkał błąd:"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "Zapisz"
+
+#: logdrake:230
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "proszę czekać, przetwarzanie pliku: %s"
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr "Niestety plik logu jest niedostępny!"
+
+#: logdrake:300
+#, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr "Podczas otwierania pliku logów \"%s\" wystąpił błąd: %s\n"
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr "Serwer WWW Apache"
+
+#: logdrake:394
+#, c-format
+msgid "Domain Name Resolver"
+msgstr "Resolver nazwy domenowej"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "Serwer FTP"
+
+#: logdrake:396
+#, c-format
+msgid "Postfix Mail Server"
+msgstr "Serwer pocztowy Postfix"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "Serwer Samba"
+
+#: logdrake:398
+#, c-format
+msgid "SSH Server"
+msgstr "Serwer SSH"
+
+#: logdrake:399
+#, c-format
+msgid "Webmin Service"
+msgstr "Usługa webmin"
+
+#: logdrake:400
+#, c-format
+msgid "Xinetd Service"
+msgstr "Usługa Xinetd"
+
+#: logdrake:409
+#, c-format
+msgid "Configure the mail alert system"
+msgstr "Konfiguracja systemu powiadamiania pocztą"
+
+#: logdrake:410
+#, c-format
+msgid "Stop the mail alert system"
+msgstr "Zatrzymaj system raportowania pocztą"
+
+#: logdrake:418
+#, c-format
+msgid "Mail alert configuration"
+msgstr "Konfiguracja powiadamiania Mail"
+
+#: logdrake:419
+#, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr ""
+"Witaj w narzędziu konfiguracji poczty.\n"
+"\n"
+"W tym miejscu można ustawić system powiadamiania.\n"
+
+#: logdrake:422
+#, c-format
+msgid "What do you want to do?"
+msgstr "Co chcesz zrobić?"
+
+#: logdrake:429
+#, c-format
+msgid "Services settings"
+msgstr "Ustawienia usług"
+
+#: logdrake:430
+#, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr ""
+"Otrzymasz ostrzeżenie jeśli jedna lub więcej zaznaczonych usług nie zadziała"
+
+#: logdrake:437
+#, c-format
+msgid "Load setting"
+msgstr "Wczytaj ustawienia"
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr "Otrzymasz ostrzeżenie jeśli obciążenie będzie większe niż ta wartość"
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr ""
+"_: load oznacza tutaj rzeczownik, obciążenie systemu\n"
+"Obciążenie"
+
+#: logdrake:444
+#, c-format
+msgid "Alert configuration"
+msgstr "Konfiguracja alarmu"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr "Wprowadź poniżej swój adres email "
+
+#: logdrake:446
+#, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr "i podaj nazwę (lub IP) serwera SMTP, którego chcesz używać"
+
+#: logdrake:448
+#, c-format
+msgid "Email address"
+msgstr "Adres email"
+
+#: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "Serwer pocztowy"
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr ""
+"\"%s\" nie jest ani poprawnym adresem e-mail ani istniejącym użytkownikiem "
+"lokalnym!"
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+"\"%s\" jest użytkownikiem lokalnym, lecz nie wybrano lokalnego smtp, więc "
+"należy użyć pełnego adresu e-mail!"
+
+#: logdrake:465
+#, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr "Druid pomyślnie skonfigurował zawiadomienie o poczcie."
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr "Druid pomyślnie wyłączył powiadamianie o poczcie."
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "Zapisz jako.."
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr "Ustawienia sterownika grafiki"
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr "Sterownik graficzny został automatycznie ustawiony na '%s'."
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr "Powód: %s."
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+"Pakiety SANE muszą być zainstalowane aby używać skanerów.\n"
+"\n"
+"Czy chcesz zainstalować pakiety SANE?"
+
+#: scannerdrake:52
+#, c-format
+msgid "Aborting Scannerdrake."
+msgstr "Przerwano Scannerdrake."
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr ""
+"Nie można zainstalować pakietów wymaganych do skonfigurowania skanera przy "
+"użyciu narzędzia scannerdrake."
+
+#: scannerdrake:58
+#, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "Zostanie teraz uruchomione narzędzie scannerdrake."
+
+#: scannerdrake:64 scannerdrake:502
+#, c-format
+msgid "Searching for configured scanners..."
+msgstr "Wyszukiwanie skonfigurowanych skanerów..."
+
+#: scannerdrake:68 scannerdrake:506
+#, c-format
+msgid "Searching for new scanners..."
+msgstr "Wyszukiwanie nowych skanerów..."
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr "Odświeżanie listy skonfigurowanych skanerów ..."
+
+#: scannerdrake:98
+#, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "%s nie jest obsługiwany przez tą wersję %s."
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr "Potwierdzenie"
+
+#: scannerdrake:101
+#, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "Znaleziono %s na %s, skonfigurować automatycznie?"
+
+#: scannerdrake:113
+#, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr "%s nie ma w bazie skanerów, skonfigurować ręcznie?"
+
+#: scannerdrake:127
+#, c-format
+msgid "Scanner configuration"
+msgstr "Konfiguracja skanera"
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr "Wybierz model skanera (wykryto model: %s, port: %s)"
+
+#: scannerdrake:130
+#, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr "Wybierz model skanera (wykryto model: %s)"
+
+#: scannerdrake:131
+#, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr "Wybierz model skanera (port: %s)"
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr " (NIEOBSŁUGIWANY)"
+
+#: scannerdrake:139
+#, c-format
+msgid "The %s is not supported under Linux."
+msgstr "%s nie jest obsługiwany przez Linuksa."
+
+#: scannerdrake:166 scannerdrake:180
+#, c-format
+msgid "Do not install firmware file"
+msgstr "Nie instaluj pliku firmware"
+
+#: scannerdrake:169 scannerdrake:219
+#, c-format
+msgid "Scanner Firmware"
+msgstr "Oprogramowanie sprzętowe skanera"
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr ""
+"Możliwe, że twój %s wymaga załadowania swojego firmware podczas "
+"każdorazowego włączenia."
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr "W tym przypadku, można zezwolić abybyło to wykonywane automatycznie."
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+"Aby to uczynić, należy dostarczyć plik firmware dla twojego skanera, tak aby "
+"można go było zainstalować."
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+"Znajdziesz ten plik na płycie CD lub dyskietce dostarczonej ze skanerem, na "
+"stronie domowej producenta lub na swojej partycji Windows."
+
+#: scannerdrake:175 scannerdrake:234
+#, c-format
+msgid "Install firmware file from"
+msgstr "Zainstaluj plik firmware z"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, c-format
+msgid "Floppy Disk"
+msgstr "Dyskietka"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, c-format
+msgid "Other place"
+msgstr "Inne miejsce"
+
+#: scannerdrake:195
+#, c-format
+msgid "Select firmware file"
+msgstr "Wybierz plik firmware"
+
+#: scannerdrake:198 scannerdrake:257
+#, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr "Plik firmware %s nie istnieje lub nie można go odczytać!"
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr ""
+"Możliwe, że twoje skanery wymagają załadowania swojego firmware podczas "
+"każdorazowego włączenia."
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+"Aby to uczynić, należy dostarczyć plik firmware dla twojego skanera, tak aby "
+"można go było zainstalować."
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+"Jeśli zainstalowano już plik firmware dla skanera można uaktualnić go tutaj "
+"poprzez dostarczenie nowego pliku firmware."
+
+#: scannerdrake:230
+#, c-format
+msgid "Install firmware for the"
+msgstr "Zainstaluj plik firmware dla"
+
+#: scannerdrake:253
+#, c-format
+msgid "Select firmware file for the %s"
+msgstr "Wybierz plik firmware dla %s"
+
+#: scannerdrake:271
+#, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "Nie można zainstalować pliku firmware dla %s!"
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr "Plik firmware dla %s został pomyślnie zainstalowany."
+
+#: scannerdrake:294
+#, c-format
+msgid "The %s is unsupported"
+msgstr "Skaner %s nie jest obsługiwany"
+
+#: scannerdrake:299
+#, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr ""
+"Ten skaner %s musi być skonfigurowany przez program system-config-printer.\n"
+"Można uruchomić go z Centrum Sterowania %s w dziale Sprzęt."
+
+#: scannerdrake:317
+#, c-format
+msgid "Setting up kernel modules..."
+msgstr "Konfiguracja modułów jądra..."
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, c-format
+msgid "Auto-detect available ports"
+msgstr "Automatycznie wykryj dostępne porty"
+
+#: scannerdrake:328 scannerdrake:374
+#, c-format
+msgid "Device choice"
+msgstr "Wybór urządzenia"
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr "Wybierz urządzenie, do którego jest podłączony skaner %s."
+
+#: scannerdrake:330
+#, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr "(Uwaga: porty równoległe nie mogą być automatycznie wykrywane)"
+
+#: scannerdrake:332 scannerdrake:377
+#, c-format
+msgid "choose device"
+msgstr "wybierz urządzenie"
+
+#: scannerdrake:366
+#, c-format
+msgid "Searching for scanners..."
+msgstr "Wyszukiwanie skanerów ..."
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr "Uwaga!"
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+"W pełni atumatyczna konifugracja %s jest niemożliwa.\n"
+"\n"
+"Konieczne jest ręczne dostosowanie konfiguracji. Wyedytuj plik "
+"konfiguracyjny /etc/sane.d/%s.conf. "
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+"Więcej informacji na temat sterownika znajduje się w podręczniku man. "
+"Uruchom polecenie \"man sane-%s\", aby je przeczytać."
+
+#: scannerdrake:406 scannerdrake:415
+#, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Można skanować dokumenty przy użyciu programu \"XSane\" lub \"%s\"' z menu "
+"Multimedia/Grafika."
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr ""
+"Konfiguracja %s została zakończona, ale być może konieczne będzie "
+"wprowadzenie dodatkowych, ręcznych modyfikacji, aby go uruchomić."
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+"Jeżeli nie widnieje na liście skonfigurowanych skanerów w głównym oknie "
+"programu Scannerdrake  lub nie działa poprawnie,"
+
+#: scannerdrake:412
+#, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr "wyedytuj plik konfiguracyjny /etc/sane.d/%s.conf. "
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "Gratulacje!"
+
+#: scannerdrake:418
+#, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Urządzenie %s zostało skonfigurowane.\n"
+"Można skanować dokumenty przy użyciu programu \"XSane\" lub \"%s\"' z menu "
+"Multimedia/Grafika."
+
+#: scannerdrake:443
+#, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr ""
+"Poniższe skanery\n"
+"\n"
+"%s\n"
+"są bezpośrednio dostępne w systemie.\n"
+
+#: scannerdrake:444
+#, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr ""
+"Poniższy skaner\n"
+"\n"
+"%s\n"
+"jest dostępny w systemie.\n"
+
+#: scannerdrake:446 scannerdrake:449
+#, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "Nie znaleziono skanerów, które są dostępne dla twojego systemu.\n"
+
+#: scannerdrake:457
+#, c-format
+msgid "Scanner Management"
+msgstr "Zarządzanie skanerami"
+
+#: scannerdrake:463
+#, c-format
+msgid "Search for new scanners"
+msgstr "Wyszukiwanie nowych skanerów"
+
+#: scannerdrake:469
+#, c-format
+msgid "Add a scanner manually"
+msgstr "Ręczne dodawanie skanera"
+
+#: scannerdrake:476
+#, c-format
+msgid "Install/Update firmware files"
+msgstr "Zainstaluj/uaktualnij pliki firmware"
+
+#: scannerdrake:482
+#, c-format
+msgid "Scanner sharing"
+msgstr "Udostępnianie skanerów"
+
+#: scannerdrake:541 scannerdrake:706
+#, c-format
+msgid "All remote machines"
+msgstr "Wszystkie zdalne komputery"
+
+#: scannerdrake:553 scannerdrake:856
+#, c-format
+msgid "This machine"
+msgstr "Ta maszyna"
+
+#: scannerdrake:592
+#, c-format
+msgid "Scanner Sharing"
+msgstr "Udostępnianie skanera"
+
+#: scannerdrake:593
+#, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr ""
+"W tym miejscu można określić czy skanery podłączone do tego komputera "
+"powinny być dostępne za pośrednictwem zdalnych komputerów i poprzez zdalne "
+"komputery."
+
+#: scannerdrake:594
+#, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr ""
+"Można także zdecydować czy skanery na komputerach zdalnych powinny być "
+"automatycznie dostępne dla tego komputera."
+
+#: scannerdrake:597
+#, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr "Skanery na tej maszynie są dostępne dla innych komputerów"
+
+#: scannerdrake:599
+#, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "Udostępnianie skanerów komputerom: "
+
+#: scannerdrake:604 scannerdrake:621
+#, c-format
+msgid "No remote machines"
+msgstr "Brak zdalnych komputerów"
+
+#: scannerdrake:613
+#, c-format
+msgid "Use scanners on remote computers"
+msgstr "Korzystanie ze skanerów na komputerach zdalnych"
+
+#: scannerdrake:616
+#, c-format
+msgid "Use the scanners on hosts: "
+msgstr "Skanery na komputerach: "
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, c-format
+msgid "Sharing of local scanners"
+msgstr "Udostępnianie skanerów lokalnych"
+
+#: scannerdrake:644
+#, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr ""
+"To są maszyny, na których powinny być dostępne lokalnie podłączone skanery:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "Dodawanie komputera"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "Edycja wybranego komputera"
+
+#: scannerdrake:670 scannerdrake:820
+#, c-format
+msgid "Remove selected host"
+msgstr "Usuwanie wybranego komputera"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "Gotowe"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, c-format
+msgid "Name/IP address of host:"
+msgstr "Nazwa/adres IP komputera:"
+
+#: scannerdrake:716 scannerdrake:866
+#, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr "Wybierz komputer, dla którego powinny być dostępne lokalne skanery:"
+
+#: scannerdrake:727 scannerdrake:877
+#, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "Należy podać nazwę komputera lub adres IP.\n"
+
+#: scannerdrake:738 scannerdrake:888
+#, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr "Ten komputer już jest na liście, nie można go ponownie dodać.\n"
+
+#: scannerdrake:793
+#, c-format
+msgid "Usage of remote scanners"
+msgstr "Korzystanie ze skanerów zdalnych"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr "To są maszyny, z których powinny być używane skanery:"
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+"Należy zainstalować saned w celu udostępniania skanerów lokalnych.\n"
+"\n"
+"Czy chcesz zainstalować pakiet saned?"
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr "Skaner nie będzie dostępny w sieci."
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"Nie można zainstalować pakietów wymaganych do udostępnienia twojego skanera."
+
+#: service_harddrake:157
+#, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr "Karta graficzna '%s' nie jest już wspierana przez '%s' sterownik"
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr "Nowe wydanie, rekonfiguracja X dla %s"
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr "Nie znaleziono własnościowego sterownika dla '%s' X.org"
+
+#: service_harddrake:297
+#, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr "Niektóre urządzenia w klasie sprzętowej \"%s\" zostały usunięte:\n"
+
+#: service_harddrake:298
+#, c-format
+msgid "- %s was removed\n"
+msgstr "- usunięto %s\n"
+
+#: service_harddrake:301
+#, c-format
+msgid "Some devices were added: %s\n"
+msgstr "Niektóre urządzenia zostały dodane: %s\n"
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- dodano %s\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr "Zmiany sprzętowe w klasie \"%s\" (%s sek. do odpowiedzi)"
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "Czy chcesz uruchomić odpowiednie narzędzie konfiguracyjne?"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "Wykrywanie sprzętu w toku"
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr "Problem ze sterownikiem graficznym"
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+"Obecnie używany sterownik graficzny wymaga użycia opcji bootowania "
+"'nokmsboot', aby nie dopuścic do załadowania modułu jądra KMS podczas "
+"bootowania. Uruchomienie serwera X może się nie udać, poniewaz ta opcja nie "
+"została wprowadzona."
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+"Wykryto załadowany sterownik graficzny - moduł jądra - który jest w "
+"konflikcie ze sterownikiem, który jest aktualnie skonfigurowany dla X "
+"serwera. Uruchomienie X serwera może być niemozliwe."
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr ""
+"System musi zostać zrebootowany z powodu zmiany sterownika graficznego."
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr "Wciśnij Anuluj w czasie %d sekund aby przerwać."
+
+#: ../menu/harddrake.desktop.in.h:1
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr "Konfiguracja i informacje o sprzęcie"
+
+#: ../menu/harddrake.desktop.in.h:3
+msgid "Hardware Configuration Tool"
+msgstr "Konfiguracja sprzętu"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Ustawienia regionalne systemu"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Konfiguracja języka i kraju dla całego systemu"
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr "Ustawienia regionalne"
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr "Konfiguracja języka i kraju"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+msgid "Run Mageia Authentication Configuration"
+msgstr "Uruchom Konfigurację Uwierzytelniania"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr "Konfiguracja Uwierzytelniania - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+msgid "Run Mageia Boot Configuration"
+msgstr "Konfiguracja sposobu uruchamiania"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr "Konfiguracja sposobu uruchamiania - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+msgid "Run Mageia Date and Time Configuration"
+msgstr "Zarządzanie datą i czasem"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr "Zarządzanie datą i czasem - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr "Zarządzanie partycjami dysku"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr "Zarządzanie partycjami dysku - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+msgid "Run Mageia Login Manager Configuration"
+msgstr "Menadżer Logowania"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr "Menadżer Logowania - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+msgid "Run Mageia Font Configuration"
+msgstr "Zarządzanie czcionkami"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr "Zarządzanie czcionkami - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+msgid "Run Mageia Hardware Configuration"
+msgstr "Konfiguracja Sprzętu"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr "Konfiguracja Sprzętu - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr "Przeglądanie Logów"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr "Przeglądanie Logów - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+msgid "Run Mageia Security Permissions Configuration"
+msgstr "Konfiguracja zabezpieczeń"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr "Konfiguracja zabezpieczeń - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+msgid "Run Mageia Scanner Configuration"
+msgstr "Uruchom Konfigurację Skanera"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr "Konfiguracja Skanera - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+msgid "Run Mageia Application Security Configuration"
+msgstr "Konfiguracja Zabezpieczeń"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr "Konfiguracja Zabezpieczeń - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+msgid "Run Mageia UPS Configuration"
+msgstr "Uruchom Konfigurację UPS"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr "Konfiguracja UPS - wymagane uwierzytelnianie"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+msgid "Run Mageia Service Configuration"
+msgstr "Konfiguracja Usług"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr "Konfiguracja Usług - wymagane uwierzytelnianie"

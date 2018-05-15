@@ -1,0 +1,3415 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2013-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2016-10-16 09:48+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Romanian (http://www.transifex.com/MageiaLinux/mageia/"
+"language/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "Ajutor"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "Închide"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "Autentificare"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:136 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
+#: scannerdrake:876 scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "Eroare"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "_Fișier"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "_Ieșire"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: drakautologin:100
+#, c-format
+msgid "Default user"
+msgstr "Utilizator implicit"
+
+#: drakautologin:101
+#, c-format
+msgid "Default desktop"
+msgstr "Birou implicit"
+
+#: drakautologin:104
+#, c-format
+msgid "No, I do not want autologin"
+msgstr "Nu, nu vreau autentificare automată"
+
+#: drakautologin:105
+#, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr "Da, vreau autentificare automată cu acest (utilizator, birou)"
+
+#: drakautologin:112
+#, c-format
+msgid "System mode"
+msgstr "Mod sistem"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr "Lansează interfața grafică la pornirea sistemului"
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr ""
+"Nu s-a găsit niciun încărcător de sistem, se creează o configurație nouă"
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr "Programul „%s” a crăpat cu următoarea eroare:"
+
+#: drakbug:62
+#, c-format
+msgid "%s Bug Report Tool"
+msgstr "Utilitarul de raportat erori %s"
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "Centrul de Control %s"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr "Asistent inițial"
+
+#: drakbug:69
+#, c-format
+msgid "Synchronization tool"
+msgstr "Unealtă de sincronizare"
+
+#: drakbug:70 drakbug:206
+#, c-format
+msgid "Standalone Tools"
+msgstr "Unelte autonome"
+
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s Online"
+
+#: drakbug:74
+#, c-format
+msgid "Remote Control"
+msgstr "Control distant"
+
+#: drakbug:75
+#, c-format
+msgid "Software Manager"
+msgstr "Gestionar de programe"
+
+#: drakbug:76
+#, c-format
+msgid "Windows Migration tool"
+msgstr "Unealta de migrare Windows"
+
+#: drakbug:77
+#, c-format
+msgid "Configuration Wizards"
+msgstr "Asistenți de configurare"
+
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "Alegeți unealta %s:"
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+"sau numele aplicației\n"
+"(sau calea completă):"
+
+#: drakbug:103
+#, c-format
+msgid "Find Package"
+msgstr "Căutare pachet"
+
+#: drakbug:104
+#, c-format
+msgid "Browse"
+msgstr "Navigare"
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "Pachet:"
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "Nucleu:"
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr "Programul „%s” a crăpat (segfault) cu următoarea eroare:"
+
+#: drakbug:144
+#, c-format
+msgid "Used theme: %s"
+msgstr "Tematica utilizată: %s"
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+"Pentru a raporta o eroare, apăsați pe butonul de raportare. \n"
+"Acesta va deschide o fereastră de navigator la %s unde veți găsi un formular "
+"de completat. Informațiile afișate mai sus vor fi transferate pe acel server"
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] "Ar fi de folos să atașați la raport rezultatul comenzii: %s."
+msgstr[1] ""
+"Lucrurile folositoare de atașat la raport sînt rezultatele comenzilor: %s."
+msgstr[2] ""
+"Lucrurile folositoare de atașat la raport sînt rezultatele comenzilor: %s."
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr "„%s”"
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr "De asemenea va trebui să atașați următoarele fișiere: %s cît și %s."
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr "Descrieți ce făceați cînd a crăpat:"
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "Raport"
+
+#: drakbug:213
+#, c-format
+msgid "Not installed"
+msgstr "Neinstalate"
+
+#: drakbug:226
+#, c-format
+msgid "Package not installed"
+msgstr "Pachet neinstalat"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "Avertisment"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+"Trebuie să indicați ce făceați cînd s-a produs eroarea ca s-o putem "
+"reproduce, mărind astfel șansele de a o putea corecta"
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr "Mulțumim."
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Parametri de dată, oră și fus orar"
+
+#: drakclock:38
+#, c-format
+msgid "not defined"
+msgstr "nedefinit"
+
+#: drakclock:40
+#, c-format
+msgid "Change Time Zone"
+msgstr "Schimbare fus orar"
+
+#: drakclock:45
+#, c-format
+msgid "Timezone - DrakClock"
+msgstr "Fus orar - DrakClock"
+
+#: drakclock:45
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Care vă este fusul orar?"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:47
+#, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "Este ceasul intern fixat pe GMT?"
+
+#: drakclock:75
+#, c-format
+msgid "Network Time Protocol"
+msgstr "Protocol de timp în rețea (NTP)"
+
+#: drakclock:77
+#, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"Calculatorul își poate sincroniza ceasul intern\n"
+" cu un server de timp distant utilizînd NTP"
+
+#: drakclock:78
+#, c-format
+msgid "Enable Network Time Protocol"
+msgstr "Activează protocolul de timp în rețea (NTP)"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "Server:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "Fus orar"
+
+#: drakclock:117
+#, c-format
+msgid "Please enter a valid NTP server address."
+msgstr "Introduceți o adresă validă de server NTP."
+
+#: drakclock:141
+#, c-format
+msgid "Could not synchronize with %s."
+msgstr "Nu se poate sincroniza cu %s."
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "Ieșire"
+
+#: drakclock:143
+#, c-format
+msgid "Retry"
+msgstr "Reîncearcă"
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "Reinițializează"
+
+#: drakdvb:30
+#, c-format
+msgid "DVB"
+msgstr "DVB"
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "Canal"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr "%s există deja și tot conținutul său va fi pierdut"
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr "Nu se poate obține lista canalelor disponibile"
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "Așteptați vă rog"
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr "Se detectează canalele DVB, acest lucru va dura cîteva minute"
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "Anulează"
+
+#: drakdvb:148
+#, c-format
+msgid "Detect Channels"
+msgstr "Detectează canalele"
+
+#: drakdvb:150
+#, c-format
+msgid "View Channel"
+msgstr "Vizualizare canal"
+
+#: drakedm:41
+#, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "GDM (gestionarul de ecran Gnome)"
+
+#: drakedm:42
+#, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr "SDDM (Simple Desktop Display Manager)"
+
+#: drakedm:43
+#, c-format
+msgid "XDM (X Display Manager)"
+msgstr "XDM (gestionarul de ecran X)"
+
+#: drakedm:54
+#, c-format
+msgid "Choosing a display manager"
+msgstr "Alegerea unui gestionar de ecran"
+
+#: drakedm:55
+#, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr ""
+"Gestionarul de ecran X vă permite conectarea grafică la\n"
+"sistem prin serverului grafic Xorg, ce suportă mai multe sesiuni Xorg\n"
+"concomitente pe aceeași mașină."
+
+#: drakedm:74
+#, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "Modificarea a fost efectuată, doriți să reporniți serviciul dm?"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+"Sînteți pe cale de a închide toate programele pornite și de a pierde "
+"sesiunea curentă. Sigur doriți să reporniți serviciul dm?"
+
+#: drakfont:187
+#, c-format
+msgid "Search installed fonts"
+msgstr "Caută fonturile instalate"
+
+#: drakfont:189
+#, c-format
+msgid "Unselect fonts installed"
+msgstr "Deselectează fonturile instalate"
+
+#: drakfont:213
+#, c-format
+msgid "No fonts found"
+msgstr "Nu s-au găsit fonturi"
+
+#: drakfont:217
+#, c-format
+msgid "parse all fonts"
+msgstr "analizează toate fonturile"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "gata"
+
+#: drakfont:226
+#, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "Nu s-a găsit niciun font pe partițiile montate"
+
+#: drakfont:261
+#, c-format
+msgid "Reselect correct fonts"
+msgstr "Reselectați fonturile corecte"
+
+#: drakfont:264
+#, c-format
+msgid "Could not find any font.\n"
+msgstr "Nu s-a găsit niciun font.\n"
+
+#: drakfont:274
+#, c-format
+msgid "Search for fonts in installed list"
+msgstr "Caută fonturi în lista instalată"
+
+#: drakfont:298
+#, c-format
+msgid "%s fonts conversion"
+msgstr "conversie de fonturi %s"
+
+#: drakfont:337
+#, c-format
+msgid "Fonts copy"
+msgstr "Copiere de fonturi"
+
+#: drakfont:340
+#, c-format
+msgid "True Type fonts installation"
+msgstr "Instalare de fonturi True Type"
+
+#: drakfont:348
+#, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "așteptați cît se execută ttmkfdir..."
+
+#: drakfont:349
+#, c-format
+msgid "True Type install done"
+msgstr "Instalarea True Type încheiată"
+
+#: drakfont:355 drakfont:370
+#, c-format
+msgid "type1inst building"
+msgstr "se construiește type1inst"
+
+#: drakfont:364
+#, c-format
+msgid "Ghostscript referencing"
+msgstr "Referențiere în ghostscript"
+
+#: drakfont:381
+#, c-format
+msgid "Suppress Temporary Files"
+msgstr "Eliminare fișiere temporare"
+
+#: drakfont:426 drakfont:432
+#, c-format
+msgid "Suppress Fonts Files"
+msgstr "Eliminare fișiere de fonturi"
+
+#: drakfont:440
+#, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr ""
+"Înainte de a instala orice font, asigurați-vă că aveți drepturile necesare "
+"pentru utilizarea și instalarea lor în sistem.\n"
+"\n"
+"Puteți instala fonturile în mod clasic. În cazuri foarte rare, fonturile cu "
+"erori pot provoca blocarea serverului Xorg."
+
+#: drakfont:479
+#, c-format
+msgid "Font Installation"
+msgstr "Instalare de fonturi"
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakFont"
+
+#: drakfont:491 drakfont:640
+#, c-format
+msgid "Font List"
+msgstr "Listă de fonturi"
+
+#: drakfont:494
+#, c-format
+msgid "Get Windows Fonts"
+msgstr "Recuperează fonturile Windows"
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "Despre"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "Opțiuni"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "Dezinstalează"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "Importă"
+
+#: drakfont:521
+#, c-format
+msgid "Drakfont"
+msgstr "Drakfont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Drepturi de autor (C) %s de către %s"
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr "Instalator de fonturi."
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+"Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2011.\n"
+"Dan Marian JOIȚA <djmarian4u@yahoo.com>, 2011.\n"
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr "Alegeți aplicațiile ce vor utiliza fonturile:"
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "Abiword"
+
+#: drakfont:555
+#, c-format
+msgid "Generic Printers"
+msgstr "Imprimante generice"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: drakfont:569
+#, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr "Selectați fișierul sau directorul cu fonturi și apăsați „Adaugă”"
+
+#: drakfont:570
+#, c-format
+msgid "File Selection"
+msgstr "Selectare de fișiere"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "Fonturi"
+
+#: drakfont:638 draksec:185
+#, c-format
+msgid "Import fonts"
+msgstr "Importare de fonturi"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "Adaugă"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "Înlătură"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "Instalează"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr "Sigur că doriți să dezinstalați următoarele fonturi?"
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "Da"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "Nu"
+
+#: drakfont:728
+#, c-format
+msgid "Unselect All"
+msgstr "Deselectează tot"
+
+#: drakfont:731
+#, c-format
+msgid "Select All"
+msgstr "Selectează tot"
+
+#: drakfont:748
+#, c-format
+msgid "Importing fonts"
+msgstr "Importare de fonturi"
+
+#: drakfont:752 drakfont:772
+#, c-format
+msgid "Initial tests"
+msgstr "Teste inițiale"
+
+#: drakfont:753
+#, c-format
+msgid "Copy fonts on your system"
+msgstr "Copiere de fonturi în sistem"
+
+#: drakfont:754
+#, c-format
+msgid "Install & convert Fonts"
+msgstr "Instalare și convertire de fonturi"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "Post-instalare"
+
+#: drakfont:767
+#, c-format
+msgid "Removing fonts"
+msgstr "Înlăturare fonturi"
+
+#: drakfont:773
+#, c-format
+msgid "Remove fonts on your system"
+msgstr "Înlăturare de fonturi din sistem"
+
+#: drakfont:774
+#, c-format
+msgid "Post Uninstall"
+msgstr "Post-dezinstalare"
+
+#: drakhelp:17
+#, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+" drakhelp 0.1\n"
+"Drepturi de autor (C) %s Mandriva.\n"
+"Drepturi de autor (C) %s Mageia.\n"
+"Aceasta este o aplicație liberă și poate fi redistribuită conform licenței "
+"GNU GPL.\n"
+"\n"
+"Utilizare: \n"
+
+#: drakhelp:23
+#, c-format
+msgid "  --help                - display this help     \n"
+msgstr " --help                - afișează acest ajutor     \n"
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+" --id <id_label>       - încarcă pagina html de ajutor cu referință la "
+"id_label\n"
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+" --doc <link>          - legătură către altă pagină web (pentru interfața de "
+"întîmpinare a WM)\n"
+
+#: drakhelp:53
+#, c-format
+msgid "%s Help Center"
+msgstr "Centrul de ajutor %s"
+
+#: drakhelp:53
+#, c-format
+msgid "No Help entry for %s\n"
+msgstr "Nicio intrare de ajutor pentru %s\n"
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "Reglaje sistem"
+
+#: drakperm:24
+#, c-format
+msgid "Custom settings"
+msgstr "Reglaje personalizate"
+
+#: drakperm:25
+#, c-format
+msgid "Custom & system settings"
+msgstr "Reglaje personalizate și sistem"
+
+#: drakperm:33
+#, c-format
+msgid "Security Permissions"
+msgstr "Permisiuni de securitate"
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "Editabil"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "Cale"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "Utilizator"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "Grup"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "Drepturi"
+
+#: drakperm:60
+#, c-format
+msgid "Add a new rule"
+msgstr "Adaugă o regulă nouă"
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, c-format
+msgid "Edit current rule"
+msgstr "Editați regula curentă"
+
+#: drakperm:108
+#, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr ""
+"Aici puteți vedea fișierele de utilizat pentru a corecta drepturile, "
+"proprietarii și grupurile via MSEC.\n"
+"De asemenea, vă puteți edita propriile reguli, prioritare peste cele "
+"implicite."
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+"Nivelul de securitate curent este %s.\n"
+"Selectați permisiunile de consultat/editat"
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "Sus"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr "Mută regula selectată un nivel mai sus"
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "Jos"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr "Mută regula selectată un nivel mai jos"
+
+#: drakperm:124
+#, c-format
+msgid "Add a rule"
+msgstr "Adaugă o regulă"
+
+#: drakperm:124
+#, c-format
+msgid "Add a new rule at the end"
+msgstr "Adaugă o regulă nouă la sfîrșit"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "Șterge"
+
+#: drakperm:125
+#, c-format
+msgid "Delete selected rule"
+msgstr "Șterge regula selectată"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "Editare"
+
+#: drakperm:239
+#, c-format
+msgid "browse"
+msgstr "navighează"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "utilizator"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "grup"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "altul"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "Alt tip"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "Citește"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "Activează „%s” pentru a citi fișierul"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "Scrie"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "Activează „%s” pentru a scrie fișierul"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "Execută"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "Activează „%s” pentru a executa fișierul"
+
+#: drakperm:269
+#, c-format
+msgid "Sticky-bit"
+msgstr "Bit persistent"
+
+#: drakperm:269
+#, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"Utilizat pentru directoare:\n"
+" numai proprietarul directorului sau fișierului din acest director le poate "
+"șterge"
+
+#: drakperm:270
+#, c-format
+msgid "Set-UID"
+msgstr "Set-UID"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr "Utilizează identificatorul proprietarului pentru execuție"
+
+#: drakperm:271
+#, c-format
+msgid "Set-GID"
+msgstr "Set-GID"
+
+#: drakperm:271
+#, c-format
+msgid "Use group id for execution"
+msgstr "Utilizează identificatorul grupului pentru execuție"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "Utilizator:"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "Grup:"
+
+#: drakperm:293
+#, c-format
+msgid "Current user"
+msgstr "Utilizator curent"
+
+#: drakperm:294
+#, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr "Odată verificate, proprietarul și grupul nu vor mai fi modificate"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "Selectare cale"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "Proprietate"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+"Primul caracter al căii trebuie să fie un per (\"/\"):\n"
+"„%s”"
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr "Utilizatorul și grupul trebuie să fie valizi!"
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr "Utilizator: %s"
+
+#: drakperm:383
+#, c-format
+msgid "Group: %s"
+msgstr "Grup: %s"
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "TOȚI"
+
+#: draksec:54
+#, c-format
+msgid "LOCAL"
+msgstr "LOCAL"
+
+#: draksec:55
+#, c-format
+msgid "NONE"
+msgstr "NEANT"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "Implicit"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: draksec:87
+#, c-format
+msgid "Security Level and Checks"
+msgstr "Nivel de securitate și verificări periodice"
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr "Configurează autentificarea necesară pentru accesarea uneltelor %s"
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "Fără parolă"
+
+#: draksec:115
+#, c-format
+msgid "Administrator password"
+msgstr "Parolă administrator"
+
+#: draksec:116
+#, c-format
+msgid "User password"
+msgstr "Parolă utilizator"
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "Gestionare aplicații"
+
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "Actualizare %s"
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "Gestionar de medii de programe"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "Configurare efecte de birou 3D"
+
+#: draksec:172
+#, c-format
+msgid "Graphical Server Configuration"
+msgstr "Configurare server grafic"
+
+#: draksec:173
+#, c-format
+msgid "Mouse Configuration"
+msgstr "Configurare maus"
+
+#: draksec:174
+#, c-format
+msgid "Keyboard Configuration"
+msgstr "Configurare tastatură"
+
+#: draksec:175
+#, c-format
+msgid "UPS Configuration"
+msgstr "Configurare UPS"
+
+#: draksec:176
+#, c-format
+msgid "Network Configuration"
+msgstr "Configurare rețea"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr "Definiții de gazde"
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "Centrul de rețea"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr "Itinerant în rețelele fără-fir"
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr "VPN"
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "Configurație Proxy (server mandatar)"
+
+#: draksec:182
+#, c-format
+msgid "Connection Sharing"
+msgstr "Partajare conexiune"
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "Salvgardări (copii de siguranță)"
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "Jurnale"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "Servicii"
+
+#: draksec:188
+#, c-format
+msgid "Users"
+msgstr "Utilizatori"
+
+#: draksec:190
+#, c-format
+msgid "Boot Configuration"
+msgstr "Configurare demaraj"
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "Componente materiale"
+
+#: draksec:224
+#, c-format
+msgid "Network"
+msgstr "Rețea"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "Sistem"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "Demaraj"
+
+#: draksound:48
+#, c-format
+msgid "No Sound Card detected!"
+msgstr "Nu s-a detectat nicio placă de sunet!"
+
+#: draksound:50
+#, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+"Nu s-a detectat nicio placă de sunet pe această mașină. Verificați dacă ați "
+"conectat corect o placă de sunet suportată pe Linux."
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr "Conectat printr-un port serial sau cablu USB"
+
+#: drakups:72
+#, c-format
+msgid "Manual configuration"
+msgstr "Configurare manuală"
+
+#: drakups:78
+#, c-format
+msgid "Add an UPS device"
+msgstr "Adaugă un dispozitiv UPS"
+
+#: drakups:81
+#, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr ""
+"Bine ați venit în utilitarul de configurare UPS.\n"
+"\n"
+"Aici puteți adăuga un UPS sistemului.\n"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+"Vom adăuga un dispozitiv UPS.\n"
+"\n"
+"Doriți detectarea automată a dispozitivelor UPS conectate sau le selectați "
+"manual?"
+
+#: drakups:91
+#, c-format
+msgid "Autodetection"
+msgstr "Auto-detecție"
+
+#: drakups:99 harddrake2:362
+#, c-format
+msgid "Detection in progress"
+msgstr "Detecție în progres..."
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "Felicitări"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr "Asistentul a adăugat cu succes următoarele dispozitive UPS:"
+
+#: drakups:121
+#, c-format
+msgid "No new UPS devices was found"
+msgstr "Nu s-a găsit niciun dispozitiv UPS"
+
+#: drakups:126 drakups:138
+#, c-format
+msgid "UPS driver configuration"
+msgstr "Configurație pilot UPS"
+
+#: drakups:126
+#, c-format
+msgid "Please select your UPS model."
+msgstr "Selectați modelul de UPS."
+
+#: drakups:127
+#, c-format
+msgid "Manufacturer / Model:"
+msgstr "Fabricant / Model:"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+"Vom configura UPS-ul „%s” din „%s”.\n"
+"Introduceți-i numele, pilotul și portul."
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "Nume:"
+
+#: drakups:143
+#, c-format
+msgid "The name of your ups"
+msgstr "Numele UPS-ului"
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "Pilot:"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr "Pilotul care vă gestionează UPS-ul"
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "Port:"
+
+#: drakups:147
+#, c-format
+msgid "The port on which is connected your ups"
+msgstr "Portul la care este conectat UPS-ul"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr "Asistentul a configurat cu succes noul dispozitiv UPS „%s”."
+
+#: drakups:248
+#, c-format
+msgid "UPS devices"
+msgstr "Dispozitive UPS"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "Denumire"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "Pilot"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "Port"
+
+#: drakups:267
+#, c-format
+msgid "UPS users"
+msgstr "Utilizatori UPS"
+
+#: drakups:283
+#, c-format
+msgid "Access Control Lists"
+msgstr "Liste de control a accesului (ACL)"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "Adresă IP"
+
+#: drakups:284
+#, c-format
+msgid "IP mask"
+msgstr "Mască IP"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "Reguli"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "Acțiune"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "Nivel"
+
+#: drakups:297
+#, c-format
+msgid "ACL name"
+msgstr "Nume ACL"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "Parolă"
+
+#: drakups:329
+#, c-format
+msgid "UPS Management"
+msgstr "Gestionare UPS"
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "Bine ați venit în uneltele de configurare UPS"
+
+#: drakxtv:66
+#, c-format
+msgid "No TV Card detected!"
+msgstr "Nu s-a detectat nicio placă TV!"
+
+#: drakxtv:67
+#, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+"Nu s-a detectat nicio placă TV pe această mașină. Verificați dacă ați "
+"conectat corect o placă TV suportată pe Linux."
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "Tastatură"
+
+#: finish-install:61
+#, c-format
+msgid "Please choose your keyboard layout."
+msgstr "Alegeți dispunerea tastaturii."
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr "Se testează conexiunea..."
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, c-format
+msgid "Encrypted home partition"
+msgstr "Partiție de utilizatori criptată"
+
+#: finish-install:199
+#, c-format
+msgid "Please enter a password for the %s user"
+msgstr "Introduceți o parolă pentru utilizatorul %s"
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "Parolă (din nou)"
+
+#: finish-install:217
+#, c-format
+msgid "Creating encrypted home partition"
+msgstr "Se creează o partiție de utilizatori criptată"
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr "Se formatează partiția de utilizatori criptată"
+
+#: harddrake2:30
+#, c-format
+msgid "Alternative drivers"
+msgstr "Piloți alternativi"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr "lista piloților alternativi pentru această placa de sunet"
+
+#: harddrake2:33 harddrake2:129
+#, c-format
+msgid "Bus"
+msgstr "Magistrală"
+
+#: harddrake2:34
+#, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr ""
+"aceasta este magistrala fizică la care este conectat dispozitivul (ex. PCI, "
+"USB, ...)"
+
+#: harddrake2:36 harddrake2:155
+#, c-format
+msgid "Bus identification"
+msgstr "Identificare magistrală"
+
+#: harddrake2:37
+#, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr ""
+"- dispozitive PCI și USB: acesta listează identificatorii fabricantului, "
+"dispozitivului, integratorului și subdispozitivului PCI/USB"
+
+#: harddrake2:39
+#, c-format
+msgid "Location on the bus"
+msgstr "Poziționarea pe magistrală"
+
+#: harddrake2:40
+#, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr ""
+"- dispozitive PCI: conectorul, dispozitivul și funcția acestei plăci\n"
+"- dispozitive EIDE: dispozitivul este ori primar ori secundar\n"
+"- dispozitive SCSI: identificatorii magistralei și dispozitivului SCSI"
+
+#: harddrake2:43
+#, c-format
+msgid "Drive capacity"
+msgstr "Caracteristicile unității"
+
+#: harddrake2:43
+#, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr ""
+"caracteristicile speciale ale unității (poate scrie sau poate citi DVD-uri)"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "Descriere"
+
+#: harddrake2:44
+#, c-format
+msgid "this field describes the device"
+msgstr "acest cîmp descrie dispozitivul"
+
+#: harddrake2:45
+#, c-format
+msgid "Old device file"
+msgstr "Fișier de dispozitiv vechi"
+
+#: harddrake2:46
+#, c-format
+msgid "old static device name used in dev package"
+msgstr "nume de dispozitiv static vechi utilizat în pachetul dev"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "Module"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr "modulul nucleului GNU/Linux ce va controla dispozitivul"
+
+#: harddrake2:50
+#, c-format
+msgid "Extended partitions"
+msgstr "Partiții extinse"
+
+#: harddrake2:50
+#, c-format
+msgid "the number of extended partitions"
+msgstr "numărul partițiilor extinse"
+
+#: harddrake2:51
+#, c-format
+msgid "Geometry"
+msgstr "Geometrie"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr "Geometria discului în cilindri/capete/sectoare"
+
+#: harddrake2:52
+#, c-format
+msgid "Disk controller"
+msgstr "Controler de disc"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr "controlerul de disc de partea gazdei"
+
+#: harddrake2:53
+#, c-format
+msgid "Identifier"
+msgstr "Identificator"
+
+#: harddrake2:53
+#, c-format
+msgid "usually the device serial number"
+msgstr "de obicei numărul de serie al dispozitivului"
+
+#: harddrake2:54
+#, c-format
+msgid "Media class"
+msgstr "Clasa mediului"
+
+#: harddrake2:54
+#, c-format
+msgid "class of hardware device"
+msgstr "clasa dispozitivului"
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "Model"
+
+#: harddrake2:55
+#, c-format
+msgid "hard disk model"
+msgstr "Modelul discului dur"
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "port imprimantă de rețea"
+
+#: harddrake2:57
+#, c-format
+msgid "Primary partitions"
+msgstr "Partiții primare"
+
+#: harddrake2:57
+#, c-format
+msgid "the number of the primary partitions"
+msgstr "numărul partițiilor primare"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "Fabricant"
+
+#: harddrake2:58
+#, c-format
+msgid "the vendor name of the device"
+msgstr "numele dat de fabricant dispozitivului"
+
+#: harddrake2:59
+#, c-format
+msgid "PCI domain"
+msgstr "Domeniu PCI"
+
+#: harddrake2:59 harddrake2:60
+#, c-format
+msgid "the PCI domain of the device"
+msgstr "domeniul dispozitivului PCI"
+
+#: harddrake2:60
+#, c-format
+msgid "PCI revision"
+msgstr "Revizie PCI"
+
+#: harddrake2:61
+#, c-format
+msgid "Bus PCI #"
+msgstr "Magistrală PCI #"
+
+#: harddrake2:61
+#, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "magistrala PCI în care dispozitivul este conectat"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device #"
+msgstr "Dispozitiv PCI #"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device number"
+msgstr "Numărul dispozitivului PCI"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function #"
+msgstr "Funcție PCI #"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function number"
+msgstr "Numărul funcției PCI"
+
+#: harddrake2:64
+#, c-format
+msgid "Vendor ID"
+msgstr "ID fabricant"
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr "acesta este identificatorul numeric minor al fabricantului"
+
+#: harddrake2:65
+#, c-format
+msgid "Device ID"
+msgstr "ID dispozitiv"
+
+#: harddrake2:65
+#, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "acesta este identificatorul numeric al dispozitivului"
+
+#: harddrake2:66
+#, c-format
+msgid "Sub vendor ID"
+msgstr "ID secundar de fabricant"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr "acesta este identificatorul numeric minor ar fabricantului"
+
+#: harddrake2:67
+#, c-format
+msgid "Sub device ID"
+msgstr "ID secundar de dispozitiv"
+
+#: harddrake2:67
+#, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "acesta este identificatorul numeric secundar al dispozitivului"
+
+#: harddrake2:68
+#, c-format
+msgid "Device USB ID"
+msgstr "ID dispozitiv USB"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomips"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+"Nucleul GNU/Linux trebuie să execute o buclă de calcul la demaraj pentru a "
+"inițializa contorul de timp. Rezultatul este înregistrat sub formă de "
+"bogomips și dă o indicație asupra performanțelor procesorului."
+
+#: harddrake2:75
+#, c-format
+msgid "Cache size"
+msgstr "Mărime pretampon"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr "dimensiune pretampon procesor (de nivel doi)"
+
+#: harddrake2:76
+#, c-format
+msgid "Cpuid family"
+msgstr "Familie CPUid"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr "familia procesorului (ex. 6 pentru clasa i686)"
+
+#: harddrake2:77
+#, c-format
+msgid "Cpuid level"
+msgstr "Nivel CPUid"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr "nivelul de informație ce poate fi obținut cu instrucțiunea cpuid"
+
+#: harddrake2:78
+#, c-format
+msgid "Frequency (MHz)"
+msgstr "Frecvență (MHz)"
+
+#: harddrake2:78
+#, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr ""
+"frecvența procesorului în MHz (Megahertzi, ca o aproximare poate fi "
+"asimilată cu numărul de instrucțiuni executate pe secundă de către procesor)"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "Fanioane"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr "Fanioanele procesorului raportate de nucleu"
+
+#: harddrake2:80 harddrake2:148
+#, c-format
+msgid "Cores"
+msgstr "Nuclee"
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr "Nuclee CPU"
+
+#: harddrake2:81
+#, c-format
+msgid "Core ID"
+msgstr "ID nucleu"
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr "ID fizic"
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr "ID ACPI"
+
+#: harddrake2:84
+#, c-format
+msgid "Siblings"
+msgstr "Frați"
+
+#: harddrake2:85
+#, c-format
+msgid "sub generation of the cpu"
+msgstr "sub-generația procesorului"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr "generația procesorului (ex. 8 pentru Pentium III,...)"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "Model name"
+msgstr "Nume model"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr "numele oficial al fabricantului procesorului"
+
+#: harddrake2:89
+#, c-format
+msgid "the name of the CPU"
+msgstr "numele procesorului"
+
+#: harddrake2:90
+#, c-format
+msgid "Processor ID"
+msgstr "ID procesor"
+
+#: harddrake2:90
+#, c-format
+msgid "the number of the processor"
+msgstr "numărul de serie al procesorului"
+
+#: harddrake2:91
+#, c-format
+msgid "Model stepping"
+msgstr "Număr submodel"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr "numărul de submodel al procesorului (stepping)"
+
+#: harddrake2:92
+#, c-format
+msgid "the vendor name of the processor"
+msgstr "numele fabricantului procesorului"
+
+#: harddrake2:93
+#, c-format
+msgid "Write protection"
+msgstr "Protecție la scriere"
+
+#: harddrake2:93
+#, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr ""
+"fanionul WP din registrul CR0 al procesorului forțează protecția la nivelul "
+"paginilor de memorie, prevenind astfel ca un nucleu neverificat să scrie în "
+"memoria utilizator (un fel de gardian anti eroare)"
+
+#: harddrake2:97
+#, c-format
+msgid "Floppy format"
+msgstr "Format dischetă"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr "formatul dischetelor suportate de unitate"
+
+#: harddrake2:101
+#, c-format
+msgid "EIDE/SCSI channel"
+msgstr "Canal EIDE/SCSI"
+
+#: harddrake2:102
+#, c-format
+msgid "Disk identifier"
+msgstr "Identificator disc"
+
+#: harddrake2:102
+#, c-format
+msgid "usually the disk serial number"
+msgstr "de obicei numărul de serie al discului"
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr "Număr ID destinație"
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr "identificatorul SCSI de destinație "
+
+#: harddrake2:104
+#, c-format
+msgid "Logical unit number"
+msgstr "Număr unitate logică"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+"numărul SCSI de destinație (LUN). Dispozitivele SCSI conectate la gazdă sînt "
+"identificate în mod unic după\n"
+"numărul de canal, identificator de destinație și număr de unitate logică"
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, c-format
+msgid "Installed size"
+msgstr "Capacitate instalată"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr "Capacitatea instalată a baretelor de memorie"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled Size"
+msgstr "Capacitate activată"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr "Capacitatea activată a baretelor de memorie"
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "Tip"
+
+#: harddrake2:113
+#, c-format
+msgid "type of the memory device"
+msgstr "tipul dispozitivului de memorie"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "Viteză"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed of the memory bank"
+msgstr "Viteza baretei de memorie"
+
+#: harddrake2:115
+#, c-format
+msgid "Bank connections"
+msgstr "Conectorul baretei"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr "Denumirea soclului baretei de memorie"
+
+#: harddrake2:118
+#, c-format
+msgid "Location"
+msgstr "Locație"
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "Mărime"
+
+#: harddrake2:119
+#, c-format
+msgid "Size of the memory device"
+msgstr "Capacitatea dispozitivului de memorie"
+
+#: harddrake2:124
+#, c-format
+msgid "Device file"
+msgstr "Fișier dispozitiv"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr ""
+"fișierul dispozitivului utilizat comunică cu pilotul de nucleu pentru maus"
+
+#: harddrake2:125
+#, c-format
+msgid "Emulated wheel"
+msgstr "Rotiță emulată"
+
+#: harddrake2:125
+#, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "dacă rotița este emulată sau nu"
+
+#: harddrake2:126
+#, c-format
+msgid "the type of the mouse"
+msgstr "tipul mausului"
+
+#: harddrake2:127
+#, c-format
+msgid "the name of the mouse"
+msgstr "numele mausului"
+
+#: harddrake2:128
+#, c-format
+msgid "Number of buttons"
+msgstr "Număr de butoane"
+
+#: harddrake2:128
+#, c-format
+msgid "the number of buttons the mouse has"
+msgstr "numărul de butoane pe care le are mausul"
+
+#: harddrake2:129
+#, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "tipul de magistrală la care este conectat mausul"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr "Protocolul de maus utilizat de X "
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr "protocolul pe care mediul grafic îl utilizează cu mausul"
+
+#: harddrake2:134
+#, c-format
+msgid "Identification"
+msgstr "Identificare"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "Conectare"
+
+#: harddrake2:149
+#, c-format
+msgid "Performances"
+msgstr "Performanțe"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "Dispozitiv"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "Partiții"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "Caracteristici"
+
+#: harddrake2:183
+#, c-format
+msgid "Autodetect _modems"
+msgstr "Auto-detecție _modemuri"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr "Autodetectare unități _zip pe port paralel"
+
+#: harddrake2:188
+#, c-format
+msgid "Hardware Configuration"
+msgstr "Configurație materială"
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "_Opțiuni"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: harddrake2:199
+#, c-format
+msgid "<control>H"
+msgstr "<control>H"
+
+#: harddrake2:200
+#, c-format
+msgid "_Fields description"
+msgstr "_Descriere cîmpuri"
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "_Raportare eroare"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "Despre..."
+
+#: harddrake2:246
+#, c-format
+msgid "Detected hardware"
+msgstr "Componente detectate"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Informații"
+
+#: harddrake2:251
+#, c-format
+msgid "Set current driver options"
+msgstr "Specificați opțiunile pilotului curent"
+
+#: harddrake2:257
+#, c-format
+msgid "Run config tool"
+msgstr "Execută unealta de configurare"
+
+#: harddrake2:284
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr ""
+"Faceți clic pe un dispozitiv din arborele din stînga pentru a-i afișa "
+"informațiile aici."
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "necunoscut"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "Diverse"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "secundar"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "principal"
+
+#: harddrake2:412
+#, c-format
+msgid "burner"
+msgstr "inscriptor"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Este necesară instalarea următoarelor pachetele: \n"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "HardDrake este unealta %s de configurație materială."
+
+#: harddrake2:543
+#, c-format
+msgid "Harddrake help"
+msgstr "Ajutor HardDrake"
+
+#: harddrake2:544
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Descrierea cîmpurilor:\n"
+"\n"
+
+#: harddrake2:551
+#, c-format
+msgid "Select a device!"
+msgstr "Selectați un dispozitiv!"
+
+#: harddrake2:551
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Odată ce ați selectat un dispozitiv, îi puteți consulta informațiile "
+"corespunzătoare în cadrul din dreapta („Informații”)"
+
+#: localedrake:38
+#, c-format
+msgid "LocaleDrake"
+msgstr "LocaleDrake"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr "Trebuie să instalați următoarele pachete: %s"
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr "Jurnalele uneltelor %s"
+
+#: logdrake:69
+#, c-format
+msgid "Show only for the selected day"
+msgstr "Arată numai pentru ziua selectată"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr ""
+"_:acesta este fișierul jurnal auth.log\n"
+"Autentificare"
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr ""
+"_:acesta este fișierul log user.log\n"
+"Utilizator"
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr ""
+"_:acesta este fișierul log /var/log/messages\n"
+"Mesaje"
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr ""
+"_:acesta este fișierul jurnal /var/log/syslog\n"
+"Syslog"
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "căutare"
+
+#: logdrake:136
+#, c-format
+msgid "A tool to monitor your logs"
+msgstr "Utilitar pentru supravegherea jurnalelor"
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "Parametri"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "Conținînd"
+
+#: logdrake:142
+#, c-format
+msgid "but not matching"
+msgstr "dar nu conține"
+
+#: logdrake:145
+#, c-format
+msgid "Choose file"
+msgstr "Alegeți fișierul"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "Calendar"
+
+#: logdrake:166
+#, c-format
+msgid "Content of the file"
+msgstr "Conținutul fișierului"
+
+#: logdrake:170 logdrake:415
+#, c-format
+msgid "Mail alert"
+msgstr "Alerte pe e-mail"
+
+#: logdrake:177
+#, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "Asistentul de alerte pe e-mail a eșuat în mod neașteptat:"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "Salvează"
+
+#: logdrake:230
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "așteptați, se examinează fișierul: %s"
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr "Regrete, fișierul jurnal nu este disponibil!"
+
+#: logdrake:300
+#, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr "Eroare la deschiderea fișierului jurnal \"%s\": %s\n"
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr "Server Apache World Wide Web "
+
+#: logdrake:394
+#, c-format
+msgid "Domain Name Resolver"
+msgstr "Rezolvator de nume de domeniu"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "Server FTP"
+
+#: logdrake:396
+#, c-format
+msgid "Postfix Mail Server"
+msgstr "Serverul de poștă electronică Postfix"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "Server Samba"
+
+#: logdrake:398
+#, c-format
+msgid "SSH Server"
+msgstr "Server SSH"
+
+#: logdrake:399
+#, c-format
+msgid "Webmin Service"
+msgstr "Serviciul Webmin"
+
+#: logdrake:400
+#, c-format
+msgid "Xinetd Service"
+msgstr "Serviciul xinetd"
+
+#: logdrake:409
+#, c-format
+msgid "Configure the mail alert system"
+msgstr "Configurați sistemul de alerte pe e-mail"
+
+#: logdrake:410
+#, c-format
+msgid "Stop the mail alert system"
+msgstr "Oprește sistemul de alerte pe e-mail"
+
+#: logdrake:418
+#, c-format
+msgid "Mail alert configuration"
+msgstr "Configurare alerte pe e-mail"
+
+#: logdrake:419
+#, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr ""
+"Bun venit în utilitarul de configurare de e-mail.\n"
+"\n"
+"Aici vă puteți configura sistemul de alertare.\n"
+
+#: logdrake:422
+#, c-format
+msgid "What do you want to do?"
+msgstr "Ce doriți să faceți?"
+
+#: logdrake:429
+#, c-format
+msgid "Services settings"
+msgstr "Parametri servicii"
+
+#: logdrake:430
+#, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr ""
+"Veți fi anunțat dacă unul din serviciile selectate nu mai este în execuție"
+
+#: logdrake:437
+#, c-format
+msgid "Load setting"
+msgstr "Încărcare parametri"
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr ""
+"Veți fi anunțați dacă sarcina mașinii este mai mare decît această valoare"
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr ""
+"_: sarcină aici este substantiv, sarcina sistemului\n"
+"Sarcină"
+
+#: logdrake:444
+#, c-format
+msgid "Alert configuration"
+msgstr "Configurare alerte"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr "Introduceți mai jos adresa electronică "
+
+#: logdrake:446
+#, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr ""
+"și introduceți numele (sau adresa IP) a serverului SMTP ce doriți să-l "
+"utilizați"
+
+#: logdrake:448
+#, c-format
+msgid "Email address"
+msgstr "Adresă e-mail"
+
+#: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "Server de mesagerie"
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr ""
+"„%s” nu este o adresă electronică validă sau utilizator local existent!"
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+"„%s” este un utilizator local, dar nu ați specificat un server smtp local, "
+"utilizați deci o adresă electronică completă!"
+
+#: logdrake:465
+#, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr "Asistentul a configurat cu succes alertele pe e-mail."
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr "Asistentul a dezactivat cu succes alertele pe e-mail."
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "Salvează ca..."
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr "Configurare pilot grafic"
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr "Pilotul afișajului a fost schimbat automat pe „%s”."
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr "Motiv: %s."
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+"Pentru a utiliza scanerele trebuiesc instalate pachetele SANE.\n"
+"\n"
+"Doriți să instalați pachetele SANE?"
+
+#: scannerdrake:52
+#, c-format
+msgid "Aborting Scannerdrake."
+msgstr "Se abandonează Scannerdrake."
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr ""
+"Nu se pot instala pachetele necesare pentru configurarea scanerului cu "
+"Scannerdrake."
+
+#: scannerdrake:58
+#, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "Scannerdrake nu se va lansa pentru moment."
+
+#: scannerdrake:64 scannerdrake:502
+#, c-format
+msgid "Searching for configured scanners..."
+msgstr "Se caută scanerele configurate..."
+
+#: scannerdrake:68 scannerdrake:506
+#, c-format
+msgid "Searching for new scanners..."
+msgstr "Se caută noi scanere disponibile..."
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr "Se regenerează lista de scanere configurate ..."
+
+#: scannerdrake:98
+#, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "%s nu este suportată de această versiune a lui %s."
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr "Confirmare"
+
+#: scannerdrake:101
+#, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "S-a găsit %s la %s, doriți o configurare automată?"
+
+#: scannerdrake:113
+#, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr "%s nu este în baza de date de scanere, îl configurați manual?"
+
+#: scannerdrake:127
+#, c-format
+msgid "Scanner configuration"
+msgstr "Configurație scaner"
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr "Selecționați un model de scaner (model detectat: %s, pe portul: %s)"
+
+#: scannerdrake:130
+#, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr "Selecționați un model de scaner (model detectat: %s)"
+
+#: scannerdrake:131
+#, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr "Selecționați un model de scaner (port: %s)"
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr " (NESUPORTAT)"
+
+#: scannerdrake:139
+#, c-format
+msgid "The %s is not supported under Linux."
+msgstr "%s nu este suportat pe Linux."
+
+#: scannerdrake:166 scannerdrake:180
+#, c-format
+msgid "Do not install firmware file"
+msgstr "Nu instala fișierul cu microcod"
+
+#: scannerdrake:169 scannerdrake:219
+#, c-format
+msgid "Scanner Firmware"
+msgstr "Microcod scaner"
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr ""
+"Este posibil ca %s să necesite încărcarea microcodului la fiecare pornire."
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr "Dacă este cazul, puteți automatiza această operațiune."
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+"Pentru aceasta trebuie să dispuneți de fișierul cu microcod al scanerului, "
+"ca să poată fi instalat."
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+"Găsiți fișierul pe CD-ul sau discheta livrată cu scanerul, pe situl "
+"fabricantului sau pe partiția Windows."
+
+#: scannerdrake:175 scannerdrake:234
+#, c-format
+msgid "Install firmware file from"
+msgstr "Instalează fișierul cu microcod din"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, c-format
+msgid "Floppy Disk"
+msgstr "Dischetă"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, c-format
+msgid "Other place"
+msgstr "Altă locație"
+
+#: scannerdrake:195
+#, c-format
+msgid "Select firmware file"
+msgstr "Selectați fișierul cu microcod"
+
+#: scannerdrake:198 scannerdrake:257
+#, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr "Fișierul cu microcod %s nu există sau este ilizibil!"
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr ""
+"Este posibil ca scanerele deținute să necesite încărcarea microcodului la "
+"fiecare pornire."
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+"Pentru a face asta, trebuie să dispuneți de fișierele cu microcod ale "
+"scanerelor, ca să le puteți instala."
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+"Dacă ați instalat deja microcodul scanerului, îl puteți actualiza aici "
+"furnizînd un fișier nou."
+
+#: scannerdrake:230
+#, c-format
+msgid "Install firmware for the"
+msgstr "Instalează microcod pentru"
+
+#: scannerdrake:253
+#, c-format
+msgid "Select firmware file for the %s"
+msgstr "Selectați fișierul cu microcod pentru %s"
+
+#: scannerdrake:271
+#, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "Nu s-a putut instala fișierul cu microcod pentru %s!"
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr "Fișierul cu microcod pentru %s va fost instalat cu succes."
+
+#: scannerdrake:294
+#, c-format
+msgid "The %s is unsupported"
+msgstr "Scanerul %s nu este suportat"
+
+#: scannerdrake:299
+#, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr ""
+"%s trebuie configurat de către system-config-printer.\n"
+"Puteți lansa system-config-printer în secțiunea %s de componente materiale a "
+"Centrului de Control Mageia."
+
+#: scannerdrake:317
+#, c-format
+msgid "Setting up kernel modules..."
+msgstr "Se parametrează modulele nucleului..."
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, c-format
+msgid "Auto-detect available ports"
+msgstr "Auto-detecție porturi disponibile"
+
+#: scannerdrake:328 scannerdrake:374
+#, c-format
+msgid "Device choice"
+msgstr "Alegere dispozitiv"
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr "Selectați dispozitivul la care este conectat %s"
+
+#: scannerdrake:330
+#, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr "(Notă: Porturile paralele nu au putut fi auto-detectate)"
+
+#: scannerdrake:332 scannerdrake:377
+#, c-format
+msgid "choose device"
+msgstr "alegeți dispozitivul"
+
+#: scannerdrake:366
+#, c-format
+msgid "Searching for scanners..."
+msgstr "Se caută scanerele..."
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr "Atenție!"
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+"%s nu poate fi configurat în mod automat.\n"
+"\n"
+"Sînt necesare reglaje manuale. Editați fișierul de configurare /etc/sane.d/"
+"%s.conf. "
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+"Găsiți mai multe informații în pagina de manual a pilotului, lansînd comanda "
+"„man sane-%s”."
+
+#: scannerdrake:406 scannerdrake:415
+#, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"După aceea vă puteți scana documentele utilizînd „XSane” sau „%s” din meniul "
+"de aplicații Multimedia/Grafică."
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr ""
+"%s a fost configurat, dar este posibil să recurgeți la reglaje manuale "
+"pentru a-l face să meargă."
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+"Dacă nu apare în lista scanerelor configurate din fereastra principală a lui "
+"Scannerdrake sau dacă nu funcționează corect, "
+
+#: scannerdrake:412
+#, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr "editați fișierul de configurare /etc/sane.d/%s.conf. "
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "Felicitări!"
+
+#: scannerdrake:418
+#, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Scanerul %s a fost configurat.\n"
+"Acum puteți scana documente utilizînd „XSane” sau „%s” din meniul de "
+"aplicații Multimedia/Grafică."
+
+#: scannerdrake:443
+#, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr ""
+"Următoarele scanere\n"
+"\n"
+"%s\n"
+"vă sînt disponibile în sistem.\n"
+
+#: scannerdrake:444
+#, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr ""
+"Următorul scaner\n"
+"\n"
+"%s\n"
+"vă este disponibil în sistem.\n"
+
+#: scannerdrake:446 scannerdrake:449
+#, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "Nu s-a găsit niciun scaner disponibil în sistem.\n"
+
+#: scannerdrake:457
+#, c-format
+msgid "Scanner Management"
+msgstr "Gestionare de scaner"
+
+#: scannerdrake:463
+#, c-format
+msgid "Search for new scanners"
+msgstr "Căutare pentru scanere noi..."
+
+#: scannerdrake:469
+#, c-format
+msgid "Add a scanner manually"
+msgstr "Adăugați manual un scaner"
+
+#: scannerdrake:476
+#, c-format
+msgid "Install/Update firmware files"
+msgstr "Instalare/Actualizare fișiere de microcod"
+
+#: scannerdrake:482
+#, c-format
+msgid "Scanner sharing"
+msgstr "Partajare scaner"
+
+#: scannerdrake:541 scannerdrake:706
+#, c-format
+msgid "All remote machines"
+msgstr "Toate mașinile distante"
+
+#: scannerdrake:553 scannerdrake:856
+#, c-format
+msgid "This machine"
+msgstr "Pe această mașină"
+
+#: scannerdrake:592
+#, c-format
+msgid "Scanner Sharing"
+msgstr "Partajare scaner"
+
+#: scannerdrake:593
+#, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr ""
+"Aici puteți alege dacă scanerele conectate la această mașină pot fi accesate "
+"de mașinile distante și care din ele."
+
+#: scannerdrake:594
+#, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr ""
+"De asemenea puteți decide aici dacă scanerele mașinilor distante vor fi puse "
+"la dispoziția acestei mașini."
+
+#: scannerdrake:597
+#, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr "Scanerele de pe această mașină sînt disponibile altor calculatoare"
+
+#: scannerdrake:599
+#, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "Partajare scaner către gazdele: "
+
+#: scannerdrake:604 scannerdrake:621
+#, c-format
+msgid "No remote machines"
+msgstr "Nu există mașini distante"
+
+#: scannerdrake:613
+#, c-format
+msgid "Use scanners on remote computers"
+msgstr "Utilizați scanerele de pe alte calculatoare"
+
+#: scannerdrake:616
+#, c-format
+msgid "Use the scanners on hosts: "
+msgstr "Utilizați scanerele de pe gazdele: "
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, c-format
+msgid "Sharing of local scanners"
+msgstr "Partajarea scanerelor locale"
+
+#: scannerdrake:644
+#, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr ""
+"Acestea sînt mașinile ale căror scanere locale vor fi puse la dispoziție:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "Adăugă o gazdă"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "Editează gazda selectată"
+
+#: scannerdrake:670 scannerdrake:820
+#, c-format
+msgid "Remove selected host"
+msgstr "Înlătură gazda selectată"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "Gata"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, c-format
+msgid "Name/IP address of host:"
+msgstr "Numele/adresa IP a gazdei:"
+
+#: scannerdrake:716 scannerdrake:866
+#, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr "Alegeți gazda ale cărei scanere locale vor fi puse la dispoziție:"
+
+#: scannerdrake:727 scannerdrake:877
+#, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "Trebuie să introduceți un nume de gazdă sau o adresă IP.\n"
+
+#: scannerdrake:738 scannerdrake:888
+#, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr "Această gazdă este deja în listă, nu poate fi adăugată din nou.\n"
+
+#: scannerdrake:793
+#, c-format
+msgid "Usage of remote scanners"
+msgstr "Utilizarea scanerelor distante"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr "Acestea sînt mașinile de pe care vor fi utilizate scanerele:"
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+"saned trebuie instalat pentru a partaja scanerul local.\n"
+"\n"
+"Doriți să instalați pachetul saned?"
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr "Scanerul nu va fi disponibil în rețea."
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr "Nu se pot instala pachetele necesare pentru partajarea scanerului."
+
+#: service_harddrake:157
+#, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr "Placa grafică „%s” nu mai este suportată de pilotul „%s”"
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr "Versiune nouă, se reconfigurează X pentru %s"
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr "Pilotul de nucleu proprietar nu a fost găsit pentru pilotul X.org „%s”"
+
+#: service_harddrake:297
+#, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr ""
+"Unele dispozitive din clasa de componente materiale „%s” au fost șterse:\n"
+
+#: service_harddrake:298
+#, c-format
+msgid "- %s was removed\n"
+msgstr "- %s a fost înlăturat\n"
+
+#: service_harddrake:301
+#, c-format
+msgid "Some devices were added: %s\n"
+msgstr "Au fost adăugate cîteva dispozitive: %s\n"
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- %s a fost adăugat\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr "Modificări de componente în clasa „%s” (%s secunde pentru a răspunde)"
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "Doriți să lansați unealta de configurare adecvată?"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "Detecția componentelor este în progres..."
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr "Problemă cu pilotul grafic"
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+"Pilotul grafic actualmente configurat necesită utilizarea opțiunii "
+"„nokmsboot” la demaraj pentru a împiedica încărcarea pilotului KMS în cursul "
+"procesului de încărcare al nucleului. Pornirea serverului grafic X poate "
+"eșua dacă această opțiune nu este specificată."
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+"S-a detectat un conflict între modulul încărcat de nucleu pentru pilotul de "
+"afișare și pilotul cu care serverul X a fost configurat. Repornirea "
+"serverului X acum poate eșua."
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr "Sistemul trebuie redemarat din cauza schimbării pilotului grafic."
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr "Apăsați anulează în %d secunde pentru a abandona."
+
+#: ../menu/harddrake.desktop.in.h:1
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr "Unealta centrală de informare/configurare materială"
+
+#: ../menu/harddrake.desktop.in.h:3
+msgid "Hardware Configuration Tool"
+msgstr "Unealtă de configurare materială"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Parametri regionali de sistem"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Configurarea limbii și țării sistemului"
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr "Parametri regionali"
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr "Configurare limbă & țară"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+msgid "Run Mageia Authentication Configuration"
+msgstr "Lansează configurarea autentificării pentru Mageia"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurat "
+"autentificarea"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+msgid "Run Mageia Boot Configuration"
+msgstr "Lansează configurarea demarajului pentru Mageia"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurat "
+"demarajul"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+msgid "Run Mageia Date and Time Configuration"
+msgstr "Lansează configurarea datei și orei pentru Mageia"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurat data "
+"și ora"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr "Lansează editorul de configurare al discurilor pentru Mageia"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de editat "
+"configurarea discului"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+msgid "Run Mageia Login Manager Configuration"
+msgstr "Lansează configurarea gestionarului de autentificare pentru Mageia"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurat "
+"gestionarul de autentificare"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+msgid "Run Mageia Font Configuration"
+msgstr "Lansează configurarea fonturilor pentru Mageia"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurat "
+"fonturile"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+msgid "Run Mageia Hardware Configuration"
+msgstr "Lansează configurarea materială pentru Mageia"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurare "
+"materială"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr "Lansează vizualizatorul de fișiere jurnal pentru Mageia"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de vizualizat "
+"fișiere jurnal"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+msgid "Run Mageia Security Permissions Configuration"
+msgstr "Lansează configurarea permisiunilor de securitate pentru Mageia"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurat "
+"permisiunile de securitate"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+msgid "Run Mageia Scanner Configuration"
+msgstr "Lansează configurarea scanerului pentru Mageia"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurat "
+"scanerul"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+msgid "Run Mageia Application Security Configuration"
+msgstr "Lansează configurarea securității aplicațiilor pentru Mageia"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea aplicației Mageia de configurat "
+"securitatea aplicațiilor"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+msgid "Run Mageia UPS Configuration"
+msgstr "Lansează configurarea UPS-ului pentru Mageia"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr ""
+"Autentificare necesară pentru lansarea programului Mageia de configurat UPS-"
+"ul"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+msgid "Run Mageia Service Configuration"
+msgstr "Lansează configurarea seviciilor Mageia"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr "Autentificare necesară pentru lansarea configurării serviciilor Mageia"

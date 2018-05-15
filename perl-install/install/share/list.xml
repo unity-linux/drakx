@@ -1,0 +1,737 @@
+<list no-arch-libraries="on">
+
+<from expand="binary">
+  ash dash.static echo
+  aria2c cp curl md5sum <!-- needed by urpmi -->
+  cpio gzip bzip2
+  fdisk
+  grub2-editenv
+  insmod modinfo rmmod modprobe lsmod
+  losetup
+  lvm2 lvm lvs pvs vgs mdadm mdmon
+  mount mount.nfs umount
+  spice-vdagent spice-vdagentd
+  systemd-detect-virt
+  xz
+
+  udevadm <!-- needed by mouse::detect & stage2 -->
+
+  badblocks
+  mkswap swaplabel
+  mkfs.ext2 mkfs.ext3 mkfs.ext4 e2fsck tune2fs dumpe2fs resize2fs
+
+  mkfs.reiserfs resize_reiserfs reiserfstune
+  mkfs.xfs xfs_admin
+  xfs_freeze xfs_io <!-- needed for setup grub on XFS formated / -->
+  xfs_db <!-- needed by xfs_admin for setting UUID -->
+
+  mkfs.btrfs btrfs btrfsck fsck.btrfs btrfstune
+  mkfs.nilfs2 nilfs-tune
+
+  tty stty <!-- needed for text mode installer (through unicode_start) -->
+
+  mkdosfs dosfslabel mlabel
+  mkntfs ntfsresize ntfslabel
+  dmraid kpartx
+  mkfs.jfs fsck.jfs jfs_tune
+  quotacheck
+  cryptsetup dmsetup
+
+  setfont kbd_mode
+  <mode copy="dereference">
+    Xorg
+  </mode>
+  xset
+  xkbcomp setxkbmap
+  libinput-list-devices libinput
+
+  scrot <!-- for screenshots -->
+  perl
+  monitor-edid
+  <if ARCH="i.86|x86_64">
+  monitor-get-edid-using-vbe
+  </if>
+  monitor-parse-edid monitor-get-edid
+
+  <filter subst="s!^echo!/bin/echo!">
+    unicode_start
+  </filter>
+
+  <if ARCH="i.86|x86_64">
+    dmidecode 
+  </if>
+  <if ARCH="ia64">
+  efibootmgr 
+  </if>
+
+  <if set="DEBUG_INSTALL">
+    strace bash less ps top gdb busybox cfdisk partprobe chroot fgrep vim-minimal rpm urpmi
+  </if>
+</from>
+
+<!-- when adding udev rules, think whether they're needed in rescue too
+     (../../../rescue/list.xml) -->
+<from dir="/lib/udev/rules.d">
+  10-dm.rules
+  11-dm-lvm.rules
+  13-dm-disk.rules
+  50-udev-default.rules <!-- needed for input in X11 -->
+  60-evdev.rules
+  60-input-id.rules
+  60-persistent-input.rules
+  60-persistent-storage.rules
+  60-sensor.rules
+  61-x11-input.rules
+  63-md-raid-arrays.rules
+  64-md-raid-assembly.rules
+  65-libwacom.rules
+  70-mouse.rules
+  70-spice-vdagentd.rules
+  70-touchpad.rules
+  70-uaccess.rules
+  75-net-description.rules
+  80-drivers.rules
+  80-libinput-device-groups.rules
+  80-net-setup-link.rules
+  90-libinput-model-quirks.rules
+  95-dm-notify.rules
+</from>
+<from dir="/usr/lib/udev/hwdb.d">
+  <from expand="glob">
+     20-usb-vendor-model.hwdb
+     90-libinput-model-quirks.hwdb
+     60-evdev.hwdb
+     60-keyboard.hwdb
+     70-mouse.hwdb
+     70-pointingstick.hwdb
+     60-sensor.hwdb
+     70-touchpad.hwdb
+     90-libinput-model-quirks.hwdb
+  </from>
+</from>
+
+<from dir="/usr/libexec">
+  Xorg
+  Xorg.wrap
+  <!-- needed by WebKit-4.0.typelib -->
+  webkit2gtk-4.0/WebKitNetworkProcess
+  webkit2gtk-4.0/WebKitWebProcess
+  <from expand="glob">
+   libinput/libinput-*
+  </from>
+</from>
+
+<from dir="/usr/LIB/imlib2/loaders"> <!-- for scrot/giblib -->
+  argb.so
+  jpeg.so
+  png.so
+  zlib.so
+</from>
+
+<!-- needed by Gtk3 introspection -->
+<from dir="/usr/LIB/girepository-1.0">
+  Atk-1.0.typelib
+  cairo-1.0.typelib
+  Gdk-3.0.typelib
+  GdkPixbuf-2.0.typelib
+  GdkX11-3.0.typelib
+  Gio-2.0.typelib
+  GLib-2.0.typelib
+  GModule-2.0.typelib
+  GObject-2.0.typelib
+  Gtk-3.0.typelib
+  JavaScriptCore-4.0.typelib <!-- needed by WebKit-4.0.typelib -->
+  Pango-1.0.typelib
+  Soup-2.4.typelib <!-- needed by WebKit-4.0.typelib -->
+  WebKit2-4.0.typelib
+  xlib-2.0.typelib
+</from>
+
+<from dir="/usr/LIB/xorg/modules">
+  drivers/fbdev_drv.so
+  <if ARCH="i.86|x86_64">
+  drivers/vesa_drv.so
+  libint10.so
+  libvbe.so
+  </if>
+  input/libinput_drv.so
+  input/wacom_drv.so
+  libfbdevhw.so
+  libfb.so
+  libshadow.so
+</from>
+
+<from dir="/usr/share/X11/xorg.conf.d">
+  <from expand="glob">
+     *.conf
+  </from>
+</from>
+
+<!-- fix "No GSettings schemas are installed on the system" -->
+<from dir="/usr/share/glib-2.0/schemas">
+  <from expand="glob">
+    gschema*
+  </from>
+</from>
+
+<!-- keyboard layouts -->
+<from dir="/usr/share/X11/xkb">
+ <filter subst="s!//.*!!">
+  geometry/pc
+  keycodes/aliases
+  keycodes/evdev
+  keycodes/xfree86
+  rules/base
+  rules/base.lst
+  <from expand="glob">
+     rules/evdev*
+  </from>
+  rules/xorg
+  rules/xorg.lst
+  compat types
+  <from expand="glob">
+    symbols/*
+  </from>
+ </filter>
+</from>
+
+<from dir="/usr/share/fonts/">
+  <to flatten="on">
+    misc/cursor.pcf.gz
+    TTF/bengali/MuktiNarrow.ttf
+    TTF/dejavu/DejaVuSans.ttf
+    TTF/dejavu/DejaVuSans-Bold.ttf
+    TTF/dejavu/DejaVuSans-BoldOblique.ttf
+    TTF/devanagari/raghu.ttf
+    TTF/lohit/lohit_pa.ttf
+    TTF/thai/Norasi.ttf
+    TTF/wqy-microhei/wqy-microhei.ttc
+  </to>
+</from>
+
+<from dir="/usr/share/icons/Adwaita/">
+    index.theme
+    16x16/actions/go-down.png
+    16x16/actions/go-up.png
+    16x16/status/image-missing.png
+    scalable/actions/list-add-symbolic.svg
+    scalable/actions/list-remove-symbolic.svg
+    scalable/actions/pan-down-symbolic.svg
+    scalable/actions/pan-end-symbolic-rtl.svg
+    scalable/actions/pan-end-symbolic.svg
+    scalable/actions/pan-start-symbolic-rtl.svg
+    scalable/actions/pan-start-symbolic.svg
+    scalable/actions/pan-up-symbolic.svg
+</from>
+
+<!-- translations for modules used by drakx -->
+<from dir="/usr/share/locale">
+  <to dir="/usr/share/locale_special">
+    <from expand="glob">
+      */LC_MESSAGES/draksnapshot.mo
+      */LC_MESSAGES/drakx-net.mo
+      */LC_MESSAGES/drakx-kbd-mouse-x11.mo
+      */LC_MESSAGES/gtk30.mo
+      */LC_MESSAGES/urpmi.mo
+    </from>
+  </to>
+</from>
+
+<from dir="/usr/share/X11/locale">
+  C
+  en_US.UTF-8 
+  iso8859-1
+</from>
+
+<filter command="strip">
+<from dir="/LIB">
+  libnss_nis.so.2
+  libnss_files.so.2
+  libnss_dns.so.2
+  libresolv.so.2
+  ld-linux*.so.*
+  <!-- needed for mount.ntfs-3g -->
+  libfuse.so.2
+
+  <!-- needed by dmraid -->
+  libdmraid-events-isw.so
+
+  <!-- needed fro Gtk3-WebKit2 -->
+ <from expand="glob">
+    libwebkit2gtk-4.0.so.??
+  </from>
+  webkit2gtk-4.0/injected-bundle/libwebkit2gtkinjectedbundle.so
+</from>
+</filter>
+
+<from>
+  /etc/urpmi/prefer.vendor.list
+  /etc/mke2fs.conf
+  /etc/netconfig
+  /etc/fonts/
+  /etc/passwd
+  /etc/protocols
+  /etc/rpm/macros.d/20common.macros
+
+<!--  /usr/share/X11/XKeysymDB -->
+  /usr/LIB/libgdk_pixbuf-2.0.so.0
+  /usr/LIB/gtk-3.0/*/immodules/im-cedilla.so
+  /usr/share/mime/mime.cache
+
+  /usr/lib/libDrakX/keyboard.pm
+  /usr/lib/libDrakX/mouse.pm
+  /usr/lib/libDrakX/network
+  /usr/lib/libDrakX/Xconfig
+  /usr/lib/libDrakX/auto/xf86misc
+  /usr/lib/libDrakX/xf86misc
+  <mode copy="keep-links">
+     /usr/share/doc/installer-help/
+  </mode>
+  /usr/share/libDrakX/pixmaps
+  /usr/lib/rpm/rpmrc
+  /usr/lib/rpm/macros
+  /usr/share/pci.ids
+  /usr/share/usb.ids
+  /usr/share/locale/UTF-8
+  /usr/share/terminfo/l/linux
+  /bin/brltty
+  /sbin/mount.ntfs-3g <!-- cannot be expanded as binary, not executable for all users -->
+  /sbin/blkid
+
+  /sbin/mageia-setup-keyboard
+
+  /usr/bin/mutter
+
+  /usr/share/themes/Adwaita/gtk-3.0/gtk.css
+
+  /etc/pcmcia/config.opts
+  /etc/pki/tls/certs/ca-bundle.crt
+
+  <!-- misc tools needed by some udev rules -->
+  /usr/lib/systemd/systemd-udevd
+  /usr/lib/udev/ata_id
+  /usr/lib/udev/libinput-device-group
+  /usr/lib/udev/libinput-model-quirks
+  /usr/lib/udev/pcmcia-socket-startup
+  /usr/lib/udev/scsi_id
+
+  <!-- for GDB: -->
+  <if set="DEBUG_INSTALL">
+    /usr/libexec/gdb
+    <from expand="glob">
+      /usr/include/python3.*m/pyconfig.h
+      /usr/LIB/libpython3.*m.so.1.0
+      /usr/LIB/python3.*/abc.py
+      /usr/LIB/python3.*/_bootlocale.py
+      /usr/LIB/python3.*/codecs.py
+      /usr/LIB/python3.*/_collections_abc.py
+      /usr/LIB/python3.*/contextlib.py
+      /usr/LIB/python3.*/copy.py
+      /usr/LIB/python3.*/copyreg.py
+      /usr/LIB/python3.*/collections/*.py
+      /usr/LIB/python3.*/enum.py
+      /usr/LIB/python3.*/importlib/*.py
+      /usr/LIB/python3.*/lib-dynload/*opcode*.so
+      /usr/LIB/python3.*/encodings/aliases.py
+      /usr/LIB/python3.*/encodings/__init__.py
+      /usr/LIB/python3.*/encodings/latin_1.py
+      /usr/LIB/python3.*/encodings/utf_8.py
+      /usr/LIB/python3.*/functools.py
+      /usr/LIB/python3.*/genericpath.py
+      /usr/LIB/python3.*/heapq.py
+      /usr/LIB/python3.*/imp.py
+      /usr/LIB/python3.*/io.py
+      /usr/LIB/python3.*/keyword.py
+      /usr/LIB/python3.*/linecache.py
+      /usr/LIB/python3.*/operator.py
+      /usr/LIB/python3.*/os.py
+      /usr/LIB/python3.*/posixpath.py
+      /usr/LIB/python3.*/reprlib.py
+      /usr/LIB/python3.*/re.py
+      /usr/LIB/python3.*/site.py
+      /usr/LIB/python3.*/_sitebuiltins.py
+      /usr/LIB/python3.*/sre_compile.py
+      /usr/LIB/python3.*/sre_constants.py
+      /usr/LIB/python3.*/sre_parse.py
+      /usr/LIB/python3.*/stat.py
+      /usr/LIB/python3.*/sysconfig.py
+      /usr/LIB/python3.*/_sysconfigdata*.py
+      /usr/LIB/python3.*/tokenize.py
+      /usr/LIB/python3.*/token.py
+      /usr/LIB/python3.*/traceback.py
+      /usr/LIB/python3.*/types.py
+      /usr/LIB/python3.*/warnings.py
+      /usr/LIB/python3.*/weakref.py
+      /usr/LIB/python3.*/_weakrefset.py
+      /usr/share/gdb/guile/gdb/*
+      /usr/share/gdb/python/gdb/*
+    </from>
+    /usr/share/guile/2.0/language/scheme/compile-tree-il.scm
+    /usr/share/guile/2.0/language/scheme/decompile-tree-il.scm
+    /usr/share/guile/2.0/language/scheme/spec.scm
+    /usr/share/guile/2.0/language/tree-il.scm
+    /usr/share/guile/2.0/rnrs/bytevectors.scm
+    /usr/share/guile/2.0/srfi/srfi-9/gnu.scm
+    <from expand="glob">
+      /usr/share/guile/2.0/ice-9/*.scm <!-- for boot-9.scm and its deps -->
+      /usr/share/guile/2.0/srfi/*
+      /usr/share/guile/2.0/system/base/*.scm
+      /usr/share/guile/2.0/system/vm/*.scm
+    </from>
+    /usr/share/guile/2.0/system/foreign.scm
+    /usr/share/gdb/guile/gdb.go
+    /usr/share/gdb/guile/gdb.scm
+  </if>
+
+  <from expand="glob">
+    /usr/LIB/gdk-pixbuf-2.0/*/loaders.cache
+    /usr/LIB/gdk-pixbuf-2.0/*/loaders/libpixbufloader-png.so
+    /usr/LIB/gdk-pixbuf-2.0/*/loaders/libpixbufloader-svg.so
+    /etc/brltty/*/*.ttb
+    /etc/brltty/*/*/*.txt
+    /LIB/brltty/libbrlttyb??.so
+  </from>
+
+  <!-- example how to include debuginfo in stage2:
+  <from expand="command">
+    rpm -ql ldetect-debuginfo drakxtools-debuginfo |egrep '.build-id/|\.debug'
+  </from>
+  -->
+  <from expand="command">
+    perl -Mlang -I.. -le 'print foreach lang::console_font_files()'
+  </from>
+</from>
+
+<from dir="/usr/share/ldetect-lst">
+  dmitable.gz pcitable.gz usbtable.gz
+  dkms-modules.alias fallback-modules.alias
+  <filter command="gzip">
+    Cards+ MonitorsDB isdn.db
+  </filter>
+</from>
+
+<from dir="/lib/module-init-tools">
+  ldetect-lst-modules.alias
+</from>
+
+<from dir="/usr/LIB/device-mapper">
+  <from expand="glob"> 
+    *.so
+ </from>
+</from>
+
+<from dir="/usr/LIB/gconv">
+  BIG5.so
+  EUC-JP.so
+  libGB.so
+  libJIS.so
+  libKSC.so
+  EUC-KR.so
+  ISO8859-15.so
+  ISO8859-14.so
+  ISO8859-13.so
+  ISO8859-9E.so
+  ISO8859-9.so
+  ISO8859-7.so
+  ISO8859-5.so
+  ISO8859-3.so
+  ISO8859-2.so
+  ISO8859-1.so
+ <from expand="glob"> 
+  KOI8-*.so
+ </from>
+  TIS-620.so
+  CP1251.so
+  GEORGIAN-PS.so
+  EUC-CN.so
+  gconv-modules
+</from>
+
+<!-- For the usrmove -->
+<from>
+  /usr/lib/dracut/modules.d/30convertfs/convertfs.sh
+</from>
+<from expand="binary">
+  find bash ldconfig mv rm cp ln
+</from>
+
+<filter subst="/^__END__/ and $_ = '', close ARGV">
+<from expand="main-perl">
+  AutoLoader.pm
+  Carp/Heavy.pm
+  Carp.pm
+  Exporter/Heavy.pm
+  Exporter.pm
+  File/Basename.pm
+  File/Find.pm
+  FileHandle.pm
+  File/Path.pm
+  File/Temp.pm
+  Getopt/Long.pm
+  IPC/Open2.pm
+  IPC/Open3.pm
+  Net/Cmd.pm
+  Net/Config.pm
+  Net/FTP/A.pm
+  Net/FTP/dataconn.pm
+  Net/FTP/I.pm
+  Net/FTP.pm
+  Net/Netrc.pm
+  Net/Ping.pm
+  PerlIO.pm
+  SelectSaver.pm
+  SelfLoader.pm
+  Symbol.pm
+  Tie/Hash.pm
+  Time/Local.pm
+  XSLoader.pm
+  base.pm
+  bytes_heavy.pl <!-- needed by urpm::mirrors -->
+  bytes.pm
+  constant.pm
+  dumpvar.pl
+  feature.pm
+  integer.pm
+  locale.pm
+  overload.pm
+  overloading.pm
+  parent.pm
+  strict.pm
+  unicore/Heavy.pl
+  unicore/To/Digit.pl
+  unicore/To/Fold.pl
+  unicore/To/Lower.pl
+  unicore/To/Uc.pl      <!-- needed for uc() on UTF-8 -->
+  unicore/To/Upper.pl
+  utf8_heavy.pl
+  utf8.pm
+  vars.pm
+  warnings.pm
+  warnings/register.pm
+  ARCH-linux-thread-multi/B.pm
+  ARCH-linux-thread-multi/Config_git.pl
+  ARCH-linux-thread-multi/Config_heavy.pl
+  ARCH-linux-thread-multi/Config.pm
+  ARCH-linux-thread-multi/Cwd.pm
+  ARCH-linux-thread-multi/Data/Dumper.pm
+  ARCH-linux-thread-multi/DynaLoader.pm
+  ARCH-linux-thread-multi/Encode.pm
+  ARCH-linux-thread-multi/Encode/Alias.pm
+  ARCH-linux-thread-multi/Encode/Config.pm
+  ARCH-linux-thread-multi/Encode/Encoding.pm
+  ARCH-linux-thread-multi/Errno.pm
+  ARCH-linux-thread-multi/Fcntl.pm
+  ARCH-linux-thread-multi/File/Glob.pm
+  ARCH-linux-thread-multi/File/Spec.pm
+  ARCH-linux-thread-multi/File/Spec/Unix.pm
+  ARCH-linux-thread-multi/_h2ph_pre.ph
+  ARCH-linux-thread-multi/IO/File.pm
+  ARCH-linux-thread-multi/IO/Handle.pm
+  ARCH-linux-thread-multi/IO.pm
+  ARCH-linux-thread-multi/IO/Seekable.pm
+  ARCH-linux-thread-multi/IO/Select.pm
+  ARCH-linux-thread-multi/IO/Socket/INET.pm
+  ARCH-linux-thread-multi/IO/Socket.pm
+  ARCH-linux-thread-multi/IO/Socket/UNIX.pm
+  ARCH-linux-thread-multi/List/Util.pm
+  ARCH-linux-thread-multi/POSIX.pm
+  ARCH-linux-thread-multi/Scalar/Util.pm
+  ARCH-linux-thread-multi/Socket.pm
+  ARCH-linux-thread-multi/Time/HiRes.pm
+  <if ARCH="i.86|x86_64">
+  ARCH-linux-thread-multi/asm/unistd_32.ph
+  ARCH-linux-thread-multi/asm/unistd_64.ph
+  </if>
+  ARCH-linux-thread-multi/asm/unistd.ph
+  ARCH-linux-thread-multi/auto/B/B.so
+  ARCH-linux-thread-multi/auto/Cwd/Cwd.so
+  ARCH-linux-thread-multi/auto/Data/Dumper/Dumper.so
+  ARCH-linux-thread-multi/auto/Encode/Encode.so
+  ARCH-linux-thread-multi/auto/Fcntl/Fcntl.so
+  ARCH-linux-thread-multi/auto/File/Glob/Glob.so
+  ARCH-linux-thread-multi/auto/IO/IO.so
+  ARCH-linux-thread-multi/auto/List/Util/Util.so
+  ARCH-linux-thread-multi/auto/POSIX/POSIX.so
+  ARCH-linux-thread-multi/auto/re/re.so
+  ARCH-linux-thread-multi/auto/Socket/Socket.so
+  ARCH-linux-thread-multi/auto/Time/HiRes/HiRes.so
+  ARCH-linux-thread-multi/bits/syscall.ph
+  ARCH-linux-thread-multi/bits/wordsize.ph
+  ARCH-linux-thread-multi/lib.pm
+  ARCH-linux-thread-multi/re.pm
+  ARCH-linux-thread-multi/syscall.ph
+  ARCH-linux-thread-multi/sys/syscall.ph
+  <if set="DEBUG_INSTALL">
+    perl5db.pl
+    Term/ReadLine.pm
+  </if>
+</from>
+
+<from expand="perl">
+  Config/IniFiles.pm
+  Exporter/Tiny.pm
+  List/MoreUtils.pm
+  List/MoreUtils/PP.pm
+  MDV/Distribconf.pm
+  MDV/Packdrakeng.pm
+  MDV/Snapshot/Common.pm
+  MDV/Snapshot/Restore.pm
+  Parse/EDID.pm
+  String/ShellQuote.pm
+  XML/SAX/Exception.pm
+  ARCH-linux-thread-multi/Cairo.pm
+  ARCH-linux-thread-multi/List/MoreUtils/XS.pm
+  ARCH-linux-thread-multi/Term/ReadKey.pm
+  ARCH-linux-thread-multi/XML/LibXML.pm
+  ARCH-linux-thread-multi/XML/LibXML/AttributeHash.pm
+  ARCH-linux-thread-multi/XML/LibXML/Error.pm
+  ARCH-linux-thread-multi/XML/LibXML/NodeList.pm
+  ARCH-linux-thread-multi/XML/LibXML/Reader.pm
+  ARCH-linux-thread-multi/XML/LibXML/XPathContext.pm
+  ARCH-linux-thread-multi/XML/LibXML/Boolean.pm
+  ARCH-linux-thread-multi/XML/LibXML/Literal.pm
+  ARCH-linux-thread-multi/XML/LibXML/Number.pm
+  ARCH-linux-thread-multi/auto/Cairo/Cairo.so
+  ARCH-linux-thread-multi/auto/Term/ReadKey/ReadKey.so
+  ARCH-linux-thread-multi/auto/XML/LibXML/LibXML.so
+  urpm.pm
+  urpm/args.pm
+  urpm/cdrom.pm
+  urpm/cfg.pm
+  urpm/download.pm
+  urpm/get_pkgs.pm
+  urpm/install.pm
+  urpm/lock.pm
+  urpm/main_loop.pm
+  urpm/md5sum.pm
+  urpm/media.pm
+  urpm/mirrors.pm
+  urpm/msg.pm
+  urpm/orphans.pm
+  urpm/removable.pm
+  urpm/select.pm
+  urpm/signature.pm
+  urpm/util.pm
+  urpm/sys.pm
+  urpm/xml_info.pm
+  urpm/xml_info_pkg.pm
+  <if set="DEBUG_INSTALL">
+    ARCH-linux-thread-multi/Term/ReadLine/Gnu.pm
+    ARCH-linux-thread-multi/Term/ReadLine/Gnu/XS.pm
+    ARCH-linux-thread-multi/auto/Term/ReadLine/Gnu/Gnu.so
+    ARCH-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/autosplit.ix
+  </if>
+</from>
+
+<from expand="rpm" matching="m!/usr/lib/perl5/.*/unicore/lib!">
+  perl
+</from>
+
+<from expand="rpm" matching="m!^/usr/lib/perl5! and !/\.pod$/">
+  perl-Curses
+  perl-Curses-UI
+  perl-File-FnMatch
+  perl-Locale-gettext
+  <!-- for MDK::Cmmon: -->
+  perl-File-Sync
+  perl-Filesys-Df
+  perl-MDK-Common
+  <!-- Gtk stack: -->
+  perl-Cairo-GObject
+  perl-Glib
+  perl-Glib-Object-Introspection
+  perl-Gtk3
+  perl-Gtk3-WebKit2
+  perl-Pango
+  <!-- urpmi stack: -->
+  perl-Clone
+  perl-URPM
+</from>
+</filter>
+
+<from dir="..">
+  <to dir="$(REP4PMS)">
+    <filter command="strip">
+      <from expand="command">
+	cd .. ; find auto -follow -name "*.so"
+      </from>
+    </filter>
+  </to>
+</from>
+
+<from dir="../../tools">
+  <to dir="/usr/bin" flatten="on">
+    serial_probe/serial_probe 
+  </to>
+</from>
+
+<from dir="../standalone">
+  <to dir="/usr/bin">
+    display_installer_help
+    display_release_notes.pl
+  </to>
+</from>
+
+<from dir="share">
+  <from expand="tar">
+    keymaps.tar.bz2
+  </from>
+
+  <to dir="/usr/share">
+    consolefonts symlinks
+    upgrade
+  </to>
+
+  <!-- for gtk+3 that needs dbus to be initialized -->
+  <to dir="/etc">
+    <!-- abusing '<from expand="command">' -->
+    <from expand="command">
+      dbus-uuidgen > share/machine-id; echo machine-id
+    </from>
+  </to>
+
+  <!-- custom CSD CSS -->
+  <to dir="/usr/lib/libDrakX"> <!-- /.config/gtk-3.0 is RO -->
+	  gtk.css <!-- symlinked in  -->
+  </to>
+
+</from>
+
+<from dir="../pixmaps">
+  <to dir="/usr/share">
+    <from expand="glob">
+      *.png
+    </from>
+  </to>
+</from>
+
+<from dir="../share">
+  <to dir="/usr/share">
+    <from expand="glob">
+      *.png
+    </from>
+  </to>
+  <to dir="/usr/lib/libDrakX">
+    <from expand="glob">
+      *.css
+    </from>
+  </to>
+</from>
+
+<from dir="pixmaps">
+  <to dir="/usr/share">
+    <from expand="glob">
+      *.png
+    </from>   
+  </to>
+</from>
+
+<from dir="pixmaps/langs">
+  <to dir="/usr/share/langs">
+    <from expand="command">
+      perl -I.. -Mlang -le 'print "lang-$_.png" foreach lang::list_langs()'
+    </from>
+  </to>
+</from>
+
+</list>

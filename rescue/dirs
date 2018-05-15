@@ -1,0 +1,9 @@
+/dev
+/proc
+/run
+/sys
+/tmp
+/usr/bin
+/usr/sbin
+/usr/lib/systemd/system/rescue.target.wants
+/modules

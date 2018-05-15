@@ -1,0 +1,431 @@
+#!/usr/bin/perl
+
+use Config;
+use FileHandle;
+use MDK::Common;
+use POSIX;
+use Carp;
+
+Config->import;
+my ($arch) = $Config{archname} =~ /(.*?)-/;
+
+my $default_append = 'audit=0';
+my $default_acpi = '';
+my $default_vga = "vga=791 splash quiet";
+my $default_iswmd = "noiswmd";
+my $timeout = $ENV{BOOT_AUTOMATIC_METHOD} ? 5 : 150;
+my $isolinux_bin = '/usr/lib/syslinux/isolinux.bin';
+
+my $tmp_mnt = '/tmp/drakx_mnt';
+
+if ($>) {
+    $ENV{PATH} = "/sbin:/usr/sbin:$ENV{PATH}";
+}
+
+sub __ { print @_, "\n"; system(@_) }
+sub _ { __ @_; $? and croak "'" . join(' ', @_) . "failed ($?)\n" }
+
+sub mke2fs { 
+    my ($f) = @_;
+    _ "/sbin/mke2fs -q -m 0 -F -s 1 $f";
+    _ "/sbin/tune2fs -c 0 -U clear -T 1970010101 $f";
+}
+
+_ "mkdir -p $tmp_mnt";
+mkdir "images";
+
+my @kernels = chomp_(cat_('all.kernels/.list'));
+
+my @all_images = (
+		  if_($arch =~ /i.86|x86_64/, 'isolinux', 'boot.iso', 'all.img', 'hd_grub.img'),
+		 );
+
+my @images = @ARGV ? @ARGV : map { "images/$_" } @all_images;
+
+foreach my $img (@images) {
+    my ($type, undef, $extension) = $img =~ m!([^/]*)(64)?\.([^.]*)$!;
+
+    if ($img =~ /hd_grub/) {
+	hd_grub($img);
+    } elsif ($img =~ /isolinux/) {
+	isolinux(\@kernels);
+
+	if (my ($tftpboot) = grep { -e $_ } qw(/tftpboot /var/lib/tftpboot)) {
+	    system("/bin/cp -f isolinux/alt0/* $tftpboot");
+	}
+    } elsif ($img =~ /boot.iso/) {
+	boot_iso($img, \@kernels);
+    } elsif ($extension eq 'rdz') {
+	initrd("$img-$_", $_) foreach @kernels;
+    } elsif ($extension eq 'img') {
+	print STDERR "calling boot_img_$arch for $img\n";
+	$::{"boot_img_$arch"}->($type, "$img-$_", $_, "all.kernels/$_/vmlinuz") foreach @kernels;
+	rename("$img-$kernels[0]", $img);
+    } else {
+	die "unknown image $img";
+    }
+}
+
+# The ascii 15 / Shift In / ^O character before the 0 should not be removed
+sub syslinux_color {
+    chr(15) . "0" . {
+	default => '7',
+	blue    => '9',
+	green   => 'a',
+	red     => 'c',
+	yellow  => 'e',
+	white   => 'f',
+    }->{$_[0]} || die "unknown color $_[0]\n";
+}
+
+sub syslinux_msg { 
+    my ($msg_xml_file, @more_text) = @_;
+
+    require XML::Parser;
+
+    sub xml_tree2syslinux {
+	my ($current_color, $tree) = @_;
+	my (undef, @l) = @$tree;
+	join('', map {
+	    my ($type, $val) = @$_;
+	    if ($type eq '0') {
+		$val;
+	    } else {
+		syslinux_color($type) . xml_tree2syslinux($type, $val) . syslinux_color($current_color);
+	    }
+	} group_by2(@l));
+    }
+
+    print "parsing $msg_xml_file\n";
+    my $tree = XML::Parser->new(Style => 'Tree')->parsefile($msg_xml_file);
+    $tree->[0] eq 'document' or die "bad file $msg_xml_file\n";
+    my $text = xml_tree2syslinux('default', $tree->[1]);
+
+    ""
+      . $text . join('', @more_text)
+      . "\n" . syslinux_color('red') . "[F1-Help] [F2-Advanced Help]" . syslinux_color('default') . "\n";
+}
+
+sub syslinux_cfg {
+    my ($entries, $b_gfxboot) = @_;
+    my $default = 'linux';
+
+    my $header = <<EOF;
+default $default
+prompt 1
+timeout $timeout
+display help.msg
+implicit 1
+EOF
+    my $header_gfxboot = <<EOF;
+ui gfxboot.c32 bootlogo
+label harddisk
+  com32 chain.c32 hd0 exit
+EOF
+    my $header_non_gfxboot = <<EOF;
+F1 help.msg
+F2 advanced.msg
+F3 boot.msg
+EOF
+
+    my @l = map {
+	$_->{append} =~ s/\s+/ /g;
+	"label $_->{label}\n" .
+	"  kernel $_->{kernel}\n" .
+	($_->{initrd} ? "  append initrd=$_->{initrd} $_->{append}\n" : '');
+    } @$entries;
+
+    $header . ($b_gfxboot ? $header_gfxboot : $header_non_gfxboot) . join('', @l);
+}
+
+sub trim {
+   return $_[0] =~ s/^\s+|\s+$//rg;
+}
+
+sub initrd {
+    my ($img, $kernel) = @_;
+    my $stage1_binary = $ENV{USE_LOCAL_STAGE1} ? trim(`realpath ../mdk-stage1/stage1`) : "";
+    my $init_binary = $ENV{USE_LOCAL_STAGE1} ? trim(`realpath ../mdk-stage1/init`) : "";
+    my $modules = " mgainstaller ";
+    my $drivers = `perl ../kernel/modules.pl list_needed_modules $kernel | xargs`;
+    my $fakedrivers = `perl ../kernel/modules.pl list_fake_modules $kernel | xargs`;
+
+    if ($ENV{DEBUGSTAGE1} || $ENV{BUILD_KA}) {
+      $modules="$modules busybox ";
+    }
+    $modules="$modules mgakadeploy " if $ENV{BUILD_KA};
+
+    mkdir_p("build/dracut.conf.d");
+    # TODO if --nofscks and --no-hostonly are switched, dracut gives an error - fix or report upstream
+    __ "DRAKX_STAGE1_BINARY=$stage1_binary DRAKX_INIT_BINARY=$init_binary DRAKX_FAKE_MODULES='$fakedrivers' dracut --conf dracut.conf --confdir ./build/dracut.conf.d --add ' $modules ' --add-drivers ' $drivers ' '$img' '$kernel'";
+    chmod(0644, $img);
+}
+
+
+sub entries_append {
+    my ($type) = @_;
+
+    my $automatic = $type =~ /cdrom/ ? 'automatic=method:cdrom ' : '';
+    $automatic .= 'changedisk ' if $type =~ /changedisk/;
+
+    my @simple_entries = (
+	linux => $default_vga,
+	vgalo => "vga=785",
+	vgahi => "vga=791",
+	text => "text",
+#	patch => "patch $default_vga",
+	rescue => "audit=0 rescue",
+    );
+    my @entries = (
+        (map { $_->[0] => "$automatic$default_acpi $default_iswmd audit=0 $_->[1]" } group_by2(@simple_entries)),
+	noacpi => "$automatic$default_vga $default_iswmd audit=0 acpi=off",
+#	restore => "$automatic$default_vga restore",
+    );
+
+    map { { label => $_->[0], append => join(' ', grep { $_ } $default_append, $_->[1]) } }
+      group_by2(@entries);
+}
+
+sub syslinux_cfg_all {
+    my ($type, $b_gfxboot) = @_;
+
+    syslinux_cfg([
+	(map {
+	    { kernel => "$arch/vmlinuz", initrd => "$arch/all.rdz", %$_ };
+	} entries_append($type)),
+	(map_index {
+	    { label => $arch, kernel => "$arch/vmlinuz", initrd => "$arch/all.rdz", 
+	      append => join(' ', grep { $_ } $default_append, $default_acpi, $default_vga, $default_iswmd) };
+	} @kernels),
+	{ label => 'memtest', kernel => 'memtest' },
+    ], $b_gfxboot);
+}
+sub remove_ending_zero {
+    my ($img) = @_;
+    _(q(perl -0777 -pi -e 's/\0+$//' ) . $img);
+}
+
+sub boot_img_i386 {
+    my ($type, $img, $kernel, $vmlinuz) = @_;
+
+    _ "rm -rf $tmp_mnt"; mkdir $tmp_mnt;
+    _ "cat $vmlinuz > $tmp_mnt/vmlinuz";
+
+    output("$tmp_mnt/help.msg", syslinux_msg('help.msg.xml'));
+    output("$tmp_mnt/advanced.msg", syslinux_msg('advanced.msg.xml'));
+
+    (my $rdz = $img) =~ s/\.img/.rdz/;
+    initrd($rdz, $kernel);
+    my $short_type = substr($type, 0, 8);
+
+    output("$tmp_mnt/syslinux.cfg", 
+	   syslinux_cfg([ map {
+			    { kernel => 'vmlinuz', initrd => "$short_type.rdz", %$_ };
+			} entries_append($type) ]));
+
+    _ "cp -f $rdz $tmp_mnt/$short_type.rdz";
+    unlink $rdz;
+
+    # mtools wants the image to be a power of 32.
+    my $syslinux_overhead = 32 * 16;
+    my $size = max(ceil(chomp_(`du -s -k $tmp_mnt`) / 32) * 32 + $syslinux_overhead, 1440);
+
+    _ "/sbin/mkdosfs -C $img $size";
+    _ "mcopy -i $img $tmp_mnt/* ::";
+    _ "syslinux $img";
+    _ "rm -rf $tmp_mnt";
+}
+
+# alias to x86 variant, slightly bigger with images though
+sub boot_img_x86_64 { &boot_img_i386 }
+
+sub VERSION {
+    my ($kernels) = @_;
+
+    map { "$_\n" }
+      $ENV{DISTRIB_DESCR},
+      scalar gmtime(),
+      '', @$kernels;
+}
+
+sub syslinux_all_files {
+    my ($dir, $kernels) = @_;
+
+    eval { rm_rf($dir) }; mkdir_p($dir);
+
+    @$kernels or die "syslinux_all_files: no kernel\n";
+
+    each_index {
+	mkdir "$dir/$arch", 0777;
+	_ "cp all.kernels/$_/vmlinuz $dir/$arch";
+	initrd("images/all.rdz-$_", $_);
+	rename("images/all.rdz-$_", "$dir/$arch/all.rdz");
+    } @$kernels;
+
+    _ "install -m 644 -D /boot/memtest* $dir/memtest";
+
+    output("$dir/help.msg", syslinux_msg('help.msg.xml'));
+    output("$dir/advanced.msg", syslinux_msg('advanced.msg.xml', 
+					     "\nYou can choose the following kernels :\n",
+					     map_index { " o  " . syslinux_color('white') . "alt$::i" . syslinux_color('default') . " is kernel $_\n" } @$kernels));
+}
+
+sub isolinux {
+    my ($kernels) = @_;
+
+    syslinux_all_files('isolinux', $kernels);
+
+    _ "cp $isolinux_bin isolinux/isolinux.bin";
+    _ "cp /usr/lib/syslinux/ifcpu.c32 isolinux/ifcpu.c32";
+    _ "cp /usr/lib/syslinux/ldlinux.c32 isolinux/ldlinux.c32";
+    _ "cp /usr/lib/syslinux/libcom32.c32 isolinux/libcom32.c32";
+    _ "cp /usr/lib/syslinux/libgpl.c32 isolinux/libgpl.c32";
+    _ "cp /usr/lib/syslinux/libmenu.c32 isolinux/libmenu.c32";
+    _ "cp /usr/lib/syslinux/libutil.c32 isolinux/libutil.c32";
+    _ "cp /usr/lib/syslinux/gfxboot.c32 isolinux/gfxboot.c32";
+    _ "cp /usr/lib/syslinux/chain.c32 isolinux/chain.c32";
+    output("isolinux/isolinux.cfg", syslinux_cfg_all('cdrom', 1));
+
+    xbox_stage1() if arch() =~ /i.86/;
+}
+
+sub xbox_stage1() {
+    my $xbox_kernel = find { /xbox/ } all('all.kernels') or return;
+
+    my $dir = 'isolinux/xbox';
+    eval { rm_rf($dir) }; mkdir_p($dir);
+
+    _ "cp all.kernels/$xbox_kernel/vmlinuz $dir";
+    initrd("images/all.rdz-$xbox_kernel", $xbox_kernel);
+    rename("images/all.rdz-$xbox_kernel", "$dir/initrd");
+
+    _ "cp /usr/share/cromwell/xromwell-installer.xbe $dir/default.xbe";
+    output("$dir/linuxboot.cfg", <<EOF);
+kernel $dir/vmlinuz
+initrd $dir/initrd
+append root=/dev/ram3 ramdisk_size=36000 automatic=method:cdrom
+EOF
+}
+
+sub boot_iso {
+    my ($iso, $kernels) = @_;
+
+    syslinux_all_files('.boot_iso/isolinux', $kernels);
+
+    output('.boot_iso/VERSION', VERSION($kernels));	   
+   
+    # for the boot iso, use standard isolinux
+    _ "cp $isolinux_bin .boot_iso/isolinux/isolinux.bin";
+    _ "cp /usr/lib/syslinux/ifcpu.c32 .boot_iso/isolinux/ifcpu.c32";
+    _ "cp /usr/lib/syslinux/ldlinux.c32 .boot_iso/isolinux/ldlinux.c32";
+    _ "cp /usr/lib/syslinux/libcom32.c32 .boot_iso/isolinux/libcom32.c32";
+    _ "cp /usr/lib/syslinux/libgpl.c32 .boot_iso/isolinux/libgpl.c32";
+    _ "cp /usr/lib/syslinux/libmenu.c32 .boot_iso/isolinux/libmenu.c32";
+    _ "cp /usr/lib/syslinux/libutil.c32 .boot_iso/isolinux/libutil.c32";
+    _ "cp /usr/lib/syslinux/chain.c32 .boot_iso/isolinux/chain.c32";
+
+    my $with_gfxboot = 0;
+    _ "cp /usr/share/gfxboot/themes/Mageia/install/* .boot_iso/isolinux" if $with_gfxboot;
+# _ "cp /home/pixel/cooker/soft/theme/mandriva-gfxboot-theme/inst/* .boot_iso/isolinux" if $with_gfxboot;
+    #_ "cp /home/teuf/mdv/src/mandriva-gfxboot-theme/inst/* .boot_iso/isolinux" if $with_gfxboot;
+    _ "cp /usr/lib/syslinux/gfxboot.c32 .boot_iso/isolinux/gfxboot.c32" if $with_gfxboot;
+
+    output('.boot_iso/isolinux/isolinux.cfg', syslinux_cfg_all('', $with_gfxboot));
+
+    if ($ENV{BOOT_AUTOMATIC_METHOD}) {
+        _ "sed -i 's#\\(append .*\\)\\(splash quiet\\|rescue\\)\$#\\1\\2 automatic=$ENV{BOOT_AUTOMATIC_METHOD}#' .boot_iso/isolinux/isolinux.cfg";
+    }
+
+    my $arch = arch();
+    my $options = "-J -joliet-long -r -v -T -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table";
+    my $cmd = "xorriso -as mkisofs -U -A 'Mageia-$ENV{DISTRIB_VERSION}-$arch-netinstall' -V 'Mageia-$ENV{DISTRIB_VERSION}-$arch-netinstall' -volset 'Mageia-$ENV{DISTRIB_VERSION}-$arch' $options";
+    # create efi stuff on the fly
+    if ($arch =~ /x86_64/) {
+       _ "mkdir -p .boot_iso/EFI/BOOT/";
+       # create efi loader
+       my $efi_core    = "configfile normal boot linux loadenv ls reboot search search_label";
+       my $efi_part_fs = "part_msdos part_gpt part_apple fat iso9660 udf";
+       my $efi_gfx     = "gfxmenu gfxterm efi_gop efi_uga video video_bochs video_cirrus video_fb font png";
+       _ "/usr/bin/grub2-mkimage --prefix='/EFI/BOOT' -O x86_64-efi -o .boot_iso/EFI/BOOT/bootx64.efi $efi_core $efi_part_fs $efi_gfx";
+       _ "cp -f grub2.config .boot_iso/EFI/BOOT/grub.cfg";
+       if ($ENV{BOOT_AUTOMATIC_METHOD}) {
+           _ "sed -i 's#\\(linux .*\\)#\\1 automatic=$ENV{BOOT_AUTOMATIC_METHOD}#' .boot_iso/EFI/BOOT/grub.cfg";
+           _ "sed -i 's#timeout=[0-9]*#timeout=1#' .boot_iso/EFI/BOOT/grub.cfg";
+       }
+       # add theme
+       _ "cp -r -L /boot/grub2/{fonts,themes} .boot_iso/EFI/BOOT/";
+       _ "cp -f grub2.theme .boot_iso/EFI/BOOT/themes/maggy/theme.txt";
+       _ "cp -f /usr/share/grub/unicode.pf2 .boot_iso/EFI/BOOT/fonts/";
+       # create efiboot.img, mtools wants the image to be a power of 32.
+       my $efisize = ceil(ceil(chomp_(`du -s -k .boot_iso/EFI`) / 1024) * 1024 / 32) * 32;
+       my $efi_img = ".boot_iso/isolinux/efiboot.img";
+       _ "/sbin/mkdosfs -F12 -C $efi_img $efisize";
+       _ "mcopy -s -i $efi_img .boot_iso/EFI ::";
+       # copy efiboot.img from boot.iso to toplevel isolinux/ so it can be re-used with CI and live isos
+       _ "cp -f .boot_iso/isolinux/efiboot.img isolinux/";
+       # create iso
+       _ "$cmd -eltorito-alt-boot -e isolinux/efiboot.img -no-emul-boot -o $iso .boot_iso";
+       _ "isohybrid -u $iso";
+    } else {
+       _ "$cmd -o $iso .boot_iso";
+       _ "isohybrid -o 1 $iso";
+    }
+    rm_rf('.boot_iso');
+}
+
+sub hd_grub {
+    my ($img) = @_;
+    my $mapfile = '/tmp/device.map.tmp';
+
+    my ($grub_dir) = glob("/lib/grub/*-mageia");
+    my @grub_files = map { "$grub_dir/$_" } qw(stage1 stage2);
+
+    # mtools wants the image to be a power of 32.
+    my $size = ceil((40_000 + sum(map { -s $_ } @grub_files)) / 32 / 1024) * 32;
+
+    _ "rm -rf $tmp_mnt"; mkdir $tmp_mnt;
+    _ "cp @grub_files $tmp_mnt";
+
+    output("$tmp_mnt/menu.lst", <<EOF);
+timeout 10
+default 0
+fallback 1
+
+title Mageia Install
+
+root (hd0,0)
+kernel /cauldron/isolinux/alt0/vmlinuz $default_append $default_acpi $default_vga $default_iswmd automatic=method:disk
+initrd /cauldron/isolinux/alt0/all.rdz
+
+title Help
+
+pause To display the help, press <space> until you reach "HELP END"
+pause .
+pause Please see http://doc.mageia.org/ for a friendlier solution
+pause .
+pause To specify the location where Mageia is copied,
+pause choose "Mageia Install", and press "e".
+pause Then change "root (hd0,0)". FYI:
+pause - (hd0,0) is the first partition on first bios hard drive (usually hda1)
+pause - (hd0,4) is the first extended partition (usually hda5)
+pause - (hd1,0) is the first partition on second bios hard drive
+pause Replace /cauldron to suit the directory containing Mageia
+pause .
+pause HELP END
+EOF
+
+    _ "/sbin/mkdosfs -C $img $size";
+    _ "mcopy -i $img $tmp_mnt/* ::";
+    _ "rm -rf $tmp_mnt";
+
+    output($mapfile, "(fd0) $img\n");
+
+    open(my $G, "| grub --device-map=$mapfile --batch");
+    print $G <<EOF;
+root (fd0)
+install /stage1 d (fd0) /stage2 p /menu.lst
+quit
+EOF
+    close $G;
+    unlink $mapfile;
+}

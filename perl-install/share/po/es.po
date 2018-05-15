@@ -1,0 +1,7058 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Miguel Ortega, 2013-2014,2016
+# Egoitz Rodriguez Obieta <egoitzro@gmail.com>, 2014-2015
+# Jose Manuel López <joselp@outlook.es>, 2016-2017
+# Jose Manuel López <rocholc@hotmail.com>, 2015
+# Miguel Ortega, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-12-12 23:00+0100\n"
+"PO-Revision-Date: 2017-01-13 14:20+0000\n"
+"Last-Translator: Jose Manuel López <joselp@outlook.es>\n"
+"Language-Team: Spanish (http://www.transifex.com/MageiaLinux/mageia/language/"
+"es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: any.pm:263 any.pm:1026 diskdrake/interactive.pm:650
+#: diskdrake/interactive.pm:874 diskdrake/interactive.pm:936
+#: diskdrake/interactive.pm:1028 diskdrake/interactive.pm:1055
+#: diskdrake/interactive.pm:1286 diskdrake/interactive.pm:1344 do_pkgs.pm:342
+#: do_pkgs.pm:387 interactive.pm:712 pkgs.pm:293
+#, c-format
+msgid "Please wait"
+msgstr "Espere, por favor"
+
+#: any.pm:263
+#, c-format
+msgid "Bootloader installation in progress"
+msgstr "Instalación del cargador de arranque en progreso"
+
+#: any.pm:274
+#, c-format
+msgid ""
+"LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+"the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+"error.\n"
+"This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+"\n"
+"Assign a new Volume ID?"
+msgstr ""
+"LILO desea asignar un nuevo ID de Volumen a la unidad %s.  Sin embargo,\n"
+"cambiar el ID de Volumen de un disco de arranque de Windows NT, 2000,\n"
+"o XP es un error fatal de Windows.\n"
+"Esta advertencia no se aplica a Windows 95 o 98, o a discos de datos de NT.\n"
+"\n"
+"¿Asignar un nuevo ID de Volumen?"
+
+#: any.pm:285
+#, c-format
+msgid "Installation of bootloader failed. The following error occurred:"
+msgstr ""
+"Falló la instalación del cargador de arranque. Ocurrió el siguiente error:"
+
+#: any.pm:325
+#, c-format
+msgid ""
+"You decided to install the bootloader on a partition.\n"
+"This implies you already have a bootloader on the hard disk drive you boot "
+"(eg: System Commander).\n"
+"\n"
+"On which drive are you booting?"
+msgstr ""
+"Decidió instalar el cargador de arranque en una partición.\n"
+"Esto implica que ya tiene un cargador de arranque en el disco desde el que "
+"arranca (ej.: System Commander).\n"
+"\n"
+"¿Desde qué disco arranca?"
+
+#: any.pm:336
+#, c-format
+msgid "Bootloader Installation"
+msgstr "Instalación del cargador de arranque"
+
+#: any.pm:340
+#, c-format
+msgid "Where do you want to install the bootloader?"
+msgstr "¿Dónde quiere instalar el cargador de arranque?"
+
+#: any.pm:356
+#, c-format
+msgid "First sector (MBR) of drive %s"
+msgstr "Primer sector (MBR) del disco %s"
+
+#: any.pm:358
+#, c-format
+msgid "First sector of drive (MBR)"
+msgstr "Primer sector del disco (MBR)"
+
+#: any.pm:360
+#, c-format
+msgid "First sector of the root partition"
+msgstr "Primer sector de la partición raíz"
+
+#: any.pm:362
+#, c-format
+msgid "On Floppy"
+msgstr "En disquete"
+
+#: any.pm:364 pkgs.pm:289 ugtk2.pm:526 ugtk3.pm:600
+#, c-format
+msgid "Skip"
+msgstr "Omitir"
+
+#: any.pm:392
+#, c-format
+msgid "Boot Style Configuration"
+msgstr "Configuración del estilo de arranque"
+
+#: any.pm:396
+#, c-format
+msgid "EFI System Partition"
+msgstr "Partición de Sistema EFI"
+
+#: any.pm:411
+#, c-format
+msgid "Bootloader main options"
+msgstr "Opciones principales del cargador de arranque"
+
+#: any.pm:415
+#, c-format
+msgid "Bootloader"
+msgstr "Cargador de arranque"
+
+#: any.pm:416
+#, c-format
+msgid "Bootloader to use"
+msgstr "Cargador de arranque a usar"
+
+#: any.pm:418
+#, c-format
+msgid "Boot device"
+msgstr "Dispositivo de arranque"
+
+#: any.pm:420
+#, c-format
+msgid "Main options"
+msgstr "Opciones principales"
+
+#: any.pm:421
+#, c-format
+msgid "Delay before booting default image"
+msgstr "Demora antes de arrancar la imagen predeterminada"
+
+#: any.pm:422
+#, c-format
+msgid "Enable ACPI"
+msgstr "Habilitar ACPI"
+
+#: any.pm:423
+#, c-format
+msgid "Enable SMP"
+msgstr "Habilitar SMP"
+
+#: any.pm:424
+#, c-format
+msgid "Enable APIC"
+msgstr "Habilitar APIC"
+
+#: any.pm:426
+#, c-format
+msgid "Enable Local APIC"
+msgstr "Habilitar APIC local"
+
+#: any.pm:427 security/level.pm:63
+#, c-format
+msgid "Security"
+msgstr "Seguridad"
+
+#: any.pm:428 any.pm:950 any.pm:969 authentication.pm:249
+#: diskdrake/smbnfs_gtk.pm:181
+#, c-format
+msgid "Password"
+msgstr "Contraseña"
+
+#: any.pm:431 authentication.pm:260
+#, c-format
+msgid "The passwords do not match"
+msgstr "Las contraseñas no coinciden"
+
+#: any.pm:431 authentication.pm:260 diskdrake/interactive.pm:1513
+#, c-format
+msgid "Please try again"
+msgstr "Vuelva a intentarlo, por favor"
+
+#: any.pm:433
+#, c-format
+msgid "You cannot use a password with %s"
+msgstr "No puede usar una contraseña con %s"
+
+#: any.pm:437 any.pm:953 any.pm:971 authentication.pm:250
+#, c-format
+msgid "Password (again)"
+msgstr "Contraseña (de nuevo)"
+
+#: any.pm:502
+#, c-format
+msgid "Image"
+msgstr "Imagen"
+
+#: any.pm:503 any.pm:515
+#, c-format
+msgid "Root"
+msgstr "Raíz"
+
+#: any.pm:504 any.pm:642
+#, c-format
+msgid "Append"
+msgstr "Añadir"
+
+#: any.pm:506
+#, c-format
+msgid "Xen append"
+msgstr "Añadir Xen"
+
+#: any.pm:508
+#, c-format
+msgid "Requires password to boot"
+msgstr "Requiere contraseña para iniciar"
+
+#: any.pm:509 any.pm:643
+#, c-format
+msgid "Video mode"
+msgstr "Modo de vídeo"
+
+#: any.pm:510
+#, c-format
+msgid "Initrd"
+msgstr "Initrd"
+
+#: any.pm:511
+#, c-format
+msgid "Network profile"
+msgstr "Perfil de red"
+
+#: any.pm:519 diskdrake/interactive.pm:411
+#, c-format
+msgid "Label"
+msgstr "Etiqueta"
+
+#: any.pm:521 any.pm:640 harddrake/v4l.pm:438
+#, c-format
+msgid "Default"
+msgstr "Por defecto"
+
+#: any.pm:529
+#, c-format
+msgid "Empty label not allowed"
+msgstr "No se admite una etiqueta vacía"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a kernel image"
+msgstr "Debe especificar una imagen del núcleo"
+
+#: any.pm:530
+#, c-format
+msgid "You must specify a root partition"
+msgstr "Debe especificar una partición raíz"
+
+#: any.pm:531
+#, c-format
+msgid "This label is already used"
+msgstr "Esta etiqueta ya está en uso"
+
+#: any.pm:549
+#, c-format
+msgid "Which type of entry do you want to add?"
+msgstr "¿Qué tipo de entrada desea añadir?"
+
+#: any.pm:550
+#, c-format
+msgid "Linux"
+msgstr "Linux"
+
+#: any.pm:550
+#, c-format
+msgid "Other OS (Windows...)"
+msgstr "Otro SO (Windows...)"
+
+#: any.pm:597 any.pm:636
+#, c-format
+msgid "Bootloader Configuration"
+msgstr "Configuración del cargador de arranque"
+
+#: any.pm:598
+#, c-format
+msgid ""
+"Here are the entries on your boot menu so far.\n"
+"You can create additional entries or change the existing ones."
+msgstr ""
+"Aquí están las diferentes entradas.\n"
+"Puede añadir otras o cambiar las que ya existen."
+
+#: any.pm:645
+#, c-format
+msgid "Do not touch ESP or MBR"
+msgstr "No tocar ni ESP ni MBR"
+
+#: any.pm:647 diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:458
+#: diskdrake/interactive.pm:305 diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:605 diskdrake/interactive.pm:820
+#: diskdrake/interactive.pm:885 diskdrake/interactive.pm:1053
+#: diskdrake/interactive.pm:1095 diskdrake/interactive.pm:1096
+#: diskdrake/interactive.pm:1329 diskdrake/interactive.pm:1367
+#: diskdrake/interactive.pm:1512 do_pkgs.pm:45 do_pkgs.pm:74 do_pkgs.pm:100
+#: do_pkgs.pm:137
+#, c-format
+msgid "Warning"
+msgstr "Advertencia"
+
+#: any.pm:648
+#, c-format
+msgid ""
+"Not installing on ESP or MBR means that the installation is not bootable "
+"unless chain loaded from another OS!"
+msgstr ""
+"Que no se instale en ESP ni en MBR significa que la instalación no arrancará "
+"a menos que la cadena se cargue desde otro sistema operativo."
+
+#: any.pm:652
+#, c-format
+msgid "Probe Foreign OS"
+msgstr "Sondear sistemas operativos extranjeros"
+
+#: any.pm:653
+#, c-format
+msgid ""
+"If grub2 takes too long to install, you can use this option to skip "
+"detecting other OSes and make it fast"
+msgstr ""
+"Si grub2 tarda demasiado en instalarse, puede utilizar esta opción para "
+"omitir la detección de otros sistemas operativos y hacerlo más rápido."
+
+#: any.pm:909
+#, c-format
+msgid "access to X programs"
+msgstr "acceso a programas X"
+
+#: any.pm:910
+#, c-format
+msgid "access to rpm tools"
+msgstr "acceso a herramientas rpm"
+
+#: any.pm:911
+#, c-format
+msgid "allow \"su\""
+msgstr "permitir \"su\""
+
+#: any.pm:912
+#, c-format
+msgid "access to administrative files"
+msgstr "acceso a archivos administrativos"
+
+#: any.pm:913
+#, c-format
+msgid "access to network tools"
+msgstr "acceso a herramientas de red"
+
+#: any.pm:914
+#, c-format
+msgid "access to compilation tools"
+msgstr "acceso a herramientas de compilación"
+
+#: any.pm:920
+#, c-format
+msgid "(already added %s)"
+msgstr "(%s ya fue añadido)"
+
+#: any.pm:926
+#, c-format
+msgid "Please give a user name"
+msgstr "Introduzca el nombre de usuario"
+
+#: any.pm:927
+#, c-format
+msgid ""
+"The user name must start with a lower case letter followed by only lower "
+"cased letters, numbers, `-' and `_'"
+msgstr ""
+"El nombre de usuario (login) debe comenzar con una letra minúscula seguida "
+"sólo letras minúsculas, números, `-' y `_'"
+
+#: any.pm:928
+#, c-format
+msgid "The user name is too long"
+msgstr "El nombre de usuario es muy largo"
+
+#: any.pm:929
+#, c-format
+msgid "This user name has already been added"
+msgstr "Este nombre de usuario ya fue añadido"
+
+#: any.pm:935 any.pm:973
+#, c-format
+msgid "User ID"
+msgstr "ID de usuario"
+
+#: any.pm:935 any.pm:974
+#, c-format
+msgid "Group ID"
+msgstr "ID de grupo"
+
+#: any.pm:936
+#, c-format
+msgid "%s must be a number"
+msgstr "¡%s debe ser un número!"
+
+#: any.pm:937
+#, c-format
+msgid "%s should be above 1000. Accept anyway?"
+msgstr "%s debería ser superior a 1000. ¿Aceptarlo igual?"
+
+#: any.pm:941
+#, c-format
+msgid "User management"
+msgstr "Administración de usuarios"
+
+#: any.pm:947
+#, c-format
+msgid "Enable guest account"
+msgstr "Habilitar cuenta de invitado"
+
+#: any.pm:949 authentication.pm:236
+#, c-format
+msgid "Set administrator (root) password"
+msgstr "Introduzca contraseña del administrador (root)"
+
+#: any.pm:955
+#, c-format
+msgid "Enter a user"
+msgstr "Ingrese un usuario"
+
+#: any.pm:957
+#, c-format
+msgid "Icon"
+msgstr "Icono"
+
+#: any.pm:960
+#, c-format
+msgid "Real name"
+msgstr "Nombre y apellidos"
+
+#: any.pm:967
+#, c-format
+msgid "Login name"
+msgstr "Nombre de conexión"
+
+#: any.pm:972
+#, c-format
+msgid "Shell"
+msgstr "Shell"
+
+#: any.pm:976
+#, c-format
+msgid "Extra Groups:"
+msgstr "Grupos Extra:"
+
+#: any.pm:1026
+#, c-format
+msgid "Please wait, adding media..."
+msgstr "Por favor espere, agregando soportes..."
+
+#: any.pm:1078 security/l10n.pm:14
+#, c-format
+msgid "Autologin"
+msgstr "Conexión automática"
+
+#: any.pm:1079
+#, c-format
+msgid "I can set up your computer to automatically log on one user."
+msgstr ""
+"Puedo configurar su computadora para que entre automáticamente con un "
+"usuario."
+
+#: any.pm:1080
+#, c-format
+msgid "Use this feature"
+msgstr "Utilizar esa característica"
+
+#: any.pm:1081
+#, c-format
+msgid "Choose the default user:"
+msgstr "Elija el usuario predeterminado:"
+
+#: any.pm:1082
+#, c-format
+msgid "Choose the window manager to run:"
+msgstr "Elija el gestor de ventanas a ejecutar:"
+
+#: any.pm:1093 any.pm:1108 any.pm:1177
+#, c-format
+msgid "Release Notes"
+msgstr "Notas de versión"
+
+#: any.pm:1115 any.pm:1476 interactive/gtk.pm:820
+#, c-format
+msgid "Close"
+msgstr "Cerrar"
+
+#: any.pm:1163
+#, c-format
+msgid "License agreement"
+msgstr "Acuerdo de licencia"
+
+#: any.pm:1165 diskdrake/dav.pm:26 mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Quit"
+msgstr "Salir"
+
+#: any.pm:1172
+#, c-format
+msgid "Do you accept this license ?"
+msgstr "¿Acepta esta licencia?"
+
+#: any.pm:1173
+#, c-format
+msgid "Accept"
+msgstr "Aceptar"
+
+#: any.pm:1173
+#, c-format
+msgid "Refuse"
+msgstr "Rechazar"
+
+#: any.pm:1199 any.pm:1262
+#, c-format
+msgid "Please choose a language to use"
+msgstr "Por favor, elija el idioma a usar"
+
+#: any.pm:1227
+#, c-format
+msgid ""
+"%s can support multiple languages. Select\n"
+"the languages you would like to install. They will be available\n"
+"when your installation is complete and you restart your system."
+msgstr ""
+"%s puede soportar múltiples idiomas. Seleccione\n"
+"los idiomas que desea instalar. Estarán disponibles\n"
+"cuando la instalación esté completa y reinicie el sistema."
+
+#: any.pm:1229 fs/partitioning_wizard.pm:194
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: any.pm:1230
+#, c-format
+msgid "Multiple languages"
+msgstr "Múltiples idiomas"
+
+#: any.pm:1231
+#, c-format
+msgid "Select Additional Languages"
+msgstr "Seleccionar idiomas adicionales"
+
+#: any.pm:1240 any.pm:1271
+#, c-format
+msgid "Old compatibility (non UTF-8) encoding"
+msgstr "Codificación (no UTF-8) para compatibilidad antigua"
+
+#: any.pm:1241
+#, c-format
+msgid "All languages"
+msgstr "Todos los idiomas"
+
+#: any.pm:1263
+#, c-format
+msgid "Language choice"
+msgstr "Selección del idioma"
+
+#: any.pm:1317
+#, c-format
+msgid "Country / Region"
+msgstr "País / Región"
+
+#: any.pm:1318
+#, c-format
+msgid "Please choose your country"
+msgstr "Seleccione su país, por favor"
+
+#: any.pm:1320
+#, c-format
+msgid "Here is the full list of available countries"
+msgstr "Aquí tiene la lista completa de países disponibles"
+
+#: any.pm:1321
+#, c-format
+msgid "Other Countries"
+msgstr "Otros países"
+
+#: any.pm:1321 interactive.pm:491 interactive/gtk.pm:444
+#, c-format
+msgid "Advanced"
+msgstr "Avanzada"
+
+#: any.pm:1327
+#, c-format
+msgid "Input method:"
+msgstr "Método de entrada:"
+
+#: any.pm:1330
+#, c-format
+msgid "None"
+msgstr "Ninguno"
+
+#: any.pm:1421
+#, c-format
+msgid "No sharing"
+msgstr "No compartir"
+
+#: any.pm:1421
+#, c-format
+msgid "Allow all users"
+msgstr "Permitir a todos los usuarios"
+
+#: any.pm:1421
+#, c-format
+msgid "Custom"
+msgstr "Personalizada"
+
+#: any.pm:1425
+#, c-format
+msgid ""
+"Would you like to allow users to share some of their directories?\n"
+"Allowing this will permit users to simply click on \"Share\" in konqueror "
+"and nautilus.\n"
+"\n"
+"\"Custom\" permit a per-user granularity.\n"
+msgstr ""
+"¿Desea permitir a los usuarios exportar algunos directorios personales?\n"
+"Si lo hace, los usuarios podrán simplemente hacer clic sobre \"Compartir\" "
+"en Konqueror y Nautilus.\n"
+"\n"
+"\"Personalizada\" permite una granularidad por usuario.\n"
+
+#: any.pm:1437
+#, c-format
+msgid ""
+"NFS: the traditional Unix file sharing system, with less support on Mac and "
+"Windows."
+msgstr ""
+"NFS: sistema tradicional Unix para compartir archivos, con menos soporte en "
+"Mac y Windows."
+
+#: any.pm:1440
+#, c-format
+msgid ""
+"SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
+"systems."
+msgstr ""
+"SMB: sistema para compartir archivos usado por Windows, Mac OS X y muchos "
+"sistemas Linux modernos."
+
+#: any.pm:1448
+#, c-format
+msgid ""
+"You can export using NFS or SMB. Please select which you would like to use."
+msgstr ""
+"Puede exportar usando NFS o SMB. Por favor, elija el que desea utilizar."
+
+#: any.pm:1476
+#, c-format
+msgid "Launch userdrake"
+msgstr "Lanzar UserDrake"
+
+#: any.pm:1478
+#, c-format
+msgid ""
+"The per-user sharing uses the group \"fileshare\". \n"
+"You can use userdrake to add a user to this group."
+msgstr ""
+"Los recursos compartidos por usuario utilizan el grupo \"fileshare\". \n"
+"Puede utilizar UserDrake para añadir un usuario a este grupo."
+
+#: any.pm:1585
+#, c-format
+msgid ""
+"You need to logout and back in again for changes to take effect. Press OK to "
+"logout now."
+msgstr ""
+"Debe desconectarse y volver a conectarse para que los cambios tengan efecto. "
+"Pulse OK para conectarse ahora."
+
+#: any.pm:1589
+#, c-format
+msgid "You need to log out and back in again for changes to take effect"
+msgstr ""
+"Debe desconectarse y volver a conectarse para que los cambios tengan efecto"
+
+#: any.pm:1624
+#, c-format
+msgid "Timezone"
+msgstr "Huso horario"
+
+#: any.pm:1624
+#, c-format
+msgid "Which is your timezone?"
+msgstr "¿Cuál es su huso horario?"
+
+#: any.pm:1647 any.pm:1649
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Configuración de la fecha, hora y huso horario"
+
+#: any.pm:1650
+#, c-format
+msgid "What is the best time?"
+msgstr "¿Cuál es la mejor hora?"
+
+#: any.pm:1654
+#, c-format
+msgid "%s (hardware clock set to UTC)"
+msgstr "%s (reloj interno puesto en hora UTC)"
+
+#: any.pm:1655
+#, c-format
+msgid "%s (hardware clock set to local time)"
+msgstr "%s (reloj interno puesto en hora local)"
+
+#: any.pm:1657
+#, c-format
+msgid "NTP Server"
+msgstr "Servidor NTP"
+
+#: any.pm:1658
+#, c-format
+msgid "Automatic time synchronization (using NTP)"
+msgstr "Sincronización automática de hora (usando NTP)"
+
+#: authentication.pm:24
+#, c-format
+msgid "Local file"
+msgstr "Archivo local"
+
+#: authentication.pm:25
+#, c-format
+msgid "LDAP"
+msgstr "LDAP"
+
+#: authentication.pm:26
+#, c-format
+msgid "NIS"
+msgstr "NIS"
+
+#: authentication.pm:27
+#, c-format
+msgid "Smart Card"
+msgstr "Tarjeta inteligente (Smart Card)"
+
+#: authentication.pm:28 authentication.pm:215
+#, c-format
+msgid "Windows Domain"
+msgstr "Dominio Windows"
+
+#: authentication.pm:29
+#, c-format
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: authentication.pm:65
+#, c-format
+msgid "Local file:"
+msgstr "Archivo local:"
+
+#: authentication.pm:65
+#, c-format
+msgid ""
+"Use local for all authentication and information user tell in local file"
+msgstr ""
+"Usar local para toda autenticación y la información que el usuario brinda en "
+"archivo local"
+
+#: authentication.pm:66
+#, c-format
+msgid "LDAP:"
+msgstr "LDAP:"
+
+#: authentication.pm:66
+#, c-format
+msgid ""
+"Tells your computer to use LDAP for some or all authentication. LDAP "
+"consolidates certain types of information within your organization."
+msgstr ""
+"Le dice a la computadora que use LDAP para alguna o toda la autenticación. "
+"LDAP consolida ciertos tipos de información dentro de su organización."
+
+#: authentication.pm:67
+#, c-format
+msgid "NIS:"
+msgstr "NIS:"
+
+#: authentication.pm:67
+#, c-format
+msgid ""
+"Allows you to run a group of computers in the same Network Information "
+"Service domain with a common password and group file."
+msgstr ""
+"Le permite correr un grupo de computadoras en el mismo dominio NIS con "
+"archivos comunes de grupo y contraseñas."
+
+#: authentication.pm:68
+#, c-format
+msgid "Windows Domain:"
+msgstr "Dominio Windows:"
+
+#: authentication.pm:68
+#, c-format
+msgid ""
+"Winbind allows the system to retrieve information and authenticate users in "
+"a Windows domain."
+msgstr ""
+"Winbind permite que el sistema obtenga información y autentique a los "
+"usuarios en un dominio Windows."
+
+#: authentication.pm:69
+#, c-format
+msgid "Kerberos 5 :"
+msgstr "Kerberos 5: "
+
+#: authentication.pm:69
+#, c-format
+msgid "With Kerberos and LDAP for authentication in Active Directory Server "
+msgstr "Con Kerberos y LDAP para autenticación en servidor Active Directory"
+
+#: authentication.pm:106 authentication.pm:140 authentication.pm:159
+#: authentication.pm:160 authentication.pm:186 authentication.pm:210
+#: authentication.pm:881
+#, c-format
+msgid " "
+msgstr " "
+
+#: authentication.pm:107 authentication.pm:141 authentication.pm:187
+#: authentication.pm:211
+#, c-format
+msgid "Welcome to the Authentication Wizard"
+msgstr "Bienvenido al asistente de autenticación"
+
+#: authentication.pm:109
+#, c-format
+msgid ""
+"You have selected LDAP authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Seleccionó la autenticación LDAP. Por favor, revise las opciones de "
+"configuración "
+
+#: authentication.pm:111 authentication.pm:166
+#, c-format
+msgid "LDAP Server"
+msgstr "Servidor LDAP"
+
+#: authentication.pm:112 authentication.pm:167
+#, c-format
+msgid "Base dn"
+msgstr "DN base"
+
+#: authentication.pm:113
+#, c-format
+msgid "Fetch base Dn "
+msgstr "Obtener DN base "
+
+#: authentication.pm:115 authentication.pm:170
+#, c-format
+msgid "Use encrypt connection with TLS "
+msgstr "Usar conexión cifrada con TLS "
+
+#: authentication.pm:116 authentication.pm:171
+#, c-format
+msgid "Download CA Certificate "
+msgstr "Descargar Certificado CA "
+
+#: authentication.pm:118 authentication.pm:151
+#, c-format
+msgid "Use Disconnect mode "
+msgstr "Usar modo Desconectado "
+
+#: authentication.pm:119 authentication.pm:172
+#, c-format
+msgid "Use anonymous BIND "
+msgstr "Usar BIND anónimo "
+
+#: authentication.pm:120 authentication.pm:123 authentication.pm:125
+#: authentication.pm:129
+#, c-format
+msgid "  "
+msgstr "  "
+
+#: authentication.pm:121 authentication.pm:173
+#, c-format
+msgid "Bind DN "
+msgstr "Asociar DN "
+
+#: authentication.pm:122 authentication.pm:174
+#, c-format
+msgid "Bind Password "
+msgstr "Asociar contraseña"
+
+#: authentication.pm:124
+#, c-format
+msgid "Advanced path for group "
+msgstr "Ruta avanzada para el grupo "
+
+#: authentication.pm:126
+#, c-format
+msgid "Password base"
+msgstr "Contraseña base"
+
+#: authentication.pm:127
+#, c-format
+msgid "Group base"
+msgstr "Grupo base"
+
+#: authentication.pm:128
+#, c-format
+msgid "Shadow base"
+msgstr "'Shadow' base"
+
+#: authentication.pm:143
+#, c-format
+msgid ""
+"You have selected Kerberos 5 authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Seleccionó la autenticación Kerberos 5. Por favor revise las opciones de "
+"configuración "
+
+#: authentication.pm:145
+#, c-format
+msgid "Realm "
+msgstr "Reino "
+
+#: authentication.pm:147
+#, c-format
+msgid "KDCs Servers"
+msgstr "Servidores KDCs"
+
+#: authentication.pm:149
+#, c-format
+msgid "Use DNS to locate KDC for the realm"
+msgstr "Utilizar DNS para resolver los KDCs del reino "
+
+#: authentication.pm:150
+#, c-format
+msgid "Use DNS to locate realms"
+msgstr "Utilizar DNS para resolver reinos"
+
+#: authentication.pm:155
+#, c-format
+msgid "Use local file for users information"
+msgstr "Usar archivo local para información de usuarios"
+
+#: authentication.pm:156
+#, c-format
+msgid "Use LDAP for users information"
+msgstr "Usar LDAP para información de usuarios"
+
+#: authentication.pm:162
+#, c-format
+msgid ""
+"You have selected Kerberos 5 for authentication, now you must choose the "
+"type of users information "
+msgstr ""
+"Seleccionó Kerberos 5 para la autenticación, ahora debe elegir el tipo de "
+"información de usuarios "
+
+#: authentication.pm:168
+#, c-format
+msgid "Fecth base Dn "
+msgstr "Obtener DN base "
+
+#: authentication.pm:189
+#, c-format
+msgid ""
+"You have selected NIS authentication. Please review the configuration "
+"options below "
+msgstr ""
+"Seleccionó la autenticación NIS. Por favor, revise las opciones de "
+"configuración "
+
+#: authentication.pm:191
+#, c-format
+msgid "NIS Domain"
+msgstr "Dominio NIS"
+
+#: authentication.pm:192
+#, c-format
+msgid "NIS Server"
+msgstr "Servidor NIS"
+
+#: authentication.pm:213
+#, c-format
+msgid ""
+"You have selected Windows Domain authentication. Please review the "
+"configuration options below "
+msgstr ""
+"Seleccionó la autenticación en un dominio Windows®. Por favor, revise las "
+"opciones de configuración "
+
+#: authentication.pm:217
+#, c-format
+msgid "Domain Model "
+msgstr "Modelo de dominio "
+
+#: authentication.pm:219
+#, c-format
+msgid "Active Directory Realm "
+msgstr "Reino Active Directory"
+
+#: authentication.pm:220
+#, c-format
+msgid "DNS Domain"
+msgstr "Dominio DNS"
+
+#: authentication.pm:221
+#, c-format
+msgid "DC Server"
+msgstr "Servidor DC"
+
+#: authentication.pm:235 authentication.pm:251
+#, c-format
+msgid "Authentication"
+msgstr "Autentificación"
+
+#: authentication.pm:237
+#, c-format
+msgid "Authentication method"
+msgstr "Método de autenticación"
+
+#. -PO: keep this short or else the buttons will not fit in the window
+#: authentication.pm:242
+#, c-format
+msgid "No password"
+msgstr "Sin contraseña"
+
+#: authentication.pm:263
+#, c-format
+msgid "This password is too short (it must be at least %d characters long)"
+msgstr ""
+"Esta contraseña es demasiado simple\n"
+"(tiene que tener por lo menos una longitud de %d caracteres)"
+
+#: authentication.pm:375
+#, c-format
+msgid "Cannot use broadcast with no NIS domain"
+msgstr "No se puede usar difusión sin un dominio NIS"
+
+#: authentication.pm:876
+#, c-format
+msgid "Select file"
+msgstr "Elija un archivo"
+
+#: authentication.pm:882
+#, c-format
+msgid "Domain Windows for authentication : "
+msgstr "Dominio Windows® para la autenticación: "
+
+#: authentication.pm:884
+#, c-format
+msgid "Domain Admin User Name"
+msgstr "Nombre de usuario del Administrador del Dominio"
+
+#: authentication.pm:885
+#, c-format
+msgid "Domain Admin Password"
+msgstr "Contraseña del Administrador del Dominio"
+
+#. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
+#: bootloader.pm:1122
+#, c-format
+msgid ""
+"Welcome to the operating system chooser!\n"
+"\n"
+"Choose an operating system from the list above or\n"
+"wait for default boot.\n"
+"\n"
+msgstr ""
+"Bienvenido al selector de SO de arranque!\n"
+"\n"
+"Elija un sistema operativo de la lista de arriba o espere\n"
+"a que arranque el sistema predeterminado.\n"
+"\n"
+
+#: bootloader.pm:1287
+#, c-format
+msgid "LILO with text menu"
+msgstr "LILO con menú de texto"
+
+#: bootloader.pm:1288
+#, c-format
+msgid "GRUB2 with graphical menu"
+msgstr "GRUB2 con menú gráfico"
+
+#: bootloader.pm:1289
+#, c-format
+msgid "GRUB2 with text menu"
+msgstr "GRUB2 con menú de texto"
+
+#: bootloader.pm:1290
+#, c-format
+msgid "GRUB with graphical menu"
+msgstr "GRUB con menú gráfico"
+
+#: bootloader.pm:1291
+#, c-format
+msgid "GRUB with text menu"
+msgstr "GRUB con menú de texto"
+
+#: bootloader.pm:1378
+#, c-format
+msgid "not enough room in /boot"
+msgstr "no hay espacio suficiente en /boot"
+
+#: bootloader.pm:2393
+#, c-format
+msgid ""
+"Your bootloader configuration must be updated because partition has been "
+"renumbered"
+msgstr ""
+"Se debe actualizar la configuración de su cargador de arranque debido a que "
+"cambió el número de la partición"
+
+#: bootloader.pm:2406
+#, c-format
+msgid ""
+"The bootloader cannot be installed correctly. You have to boot rescue and "
+"choose \"%s\""
+msgstr ""
+"No se puede instalar correctamente el cargador de arranque. Debe arrancar "
+"con rescate y elegir \"%s\""
+
+#: bootloader.pm:2407
+#, c-format
+msgid "Re-install Boot Loader"
+msgstr "Volver a instalar cargador de arranque"
+
+#: common.pm:271
+#, c-format
+msgid "B"
+msgstr "B"
+
+#: common.pm:271
+#, c-format
+msgid "KB"
+msgstr "KB"
+
+#: common.pm:271
+#, c-format
+msgid "MB"
+msgstr "MB"
+
+#: common.pm:271
+#, c-format
+msgid "GB"
+msgstr "GB"
+
+#: common.pm:271 common.pm:280
+#, c-format
+msgid "TB"
+msgstr "TB"
+
+#. -PO: here, "2:30" is remaining installation time (eg: "2:30" == 2 hour & 30 minutes)
+#: common.pm:288
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#: common.pm:290
+#, c-format
+msgid "%d minutes"
+msgstr "%d minutos"
+
+#: common.pm:292
+#, c-format
+msgid "1 minute"
+msgstr "1 minuto"
+
+#: common.pm:294
+#, c-format
+msgid "%d seconds"
+msgstr "%d segundos"
+
+#: diskdrake/dav.pm:17
+#, c-format
+msgid ""
+"WebDAV is a protocol that allows you to mount a web server's directory\n"
+"locally, and treat it like a local filesystem (provided the web server is\n"
+"configured as a WebDAV server). If you would like to add WebDAV mount\n"
+"points, select \"New\"."
+msgstr ""
+"WebDAV es un protocolo que le permite montar localmente un directorio de un\n"
+"servidor web, y tratarlo como un sistema de archivos local (siempre y "
+"cuando\n"
+"el servidor web está configurado como servidor WebDAV). Si desea añadir\n"
+"puntos de montaje WebDAV, seleccione \"Nuevo\"."
+
+#: diskdrake/dav.pm:25
+#, c-format
+msgid "New"
+msgstr "Nuevo"
+
+#: diskdrake/dav.pm:63 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:75
+#, c-format
+msgid "Unmount"
+msgstr "Desmontar"
+
+#: diskdrake/dav.pm:64 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:76
+#, c-format
+msgid "Mount"
+msgstr "Montar"
+
+#: diskdrake/dav.pm:65
+#, c-format
+msgid "Server"
+msgstr "Servidor"
+
+#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
+#: diskdrake/interactive.pm:727 diskdrake/interactive.pm:745
+#: diskdrake/interactive.pm:749 diskdrake/removable.pm:23
+#: diskdrake/smbnfs_gtk.pm:79
+#, c-format
+msgid "Mount point"
+msgstr "Punto de montaje"
+
+#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
+#: diskdrake/interactive.pm:1182 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:80
+#, c-format
+msgid "Options"
+msgstr "Opciones"
+
+#: diskdrake/dav.pm:68 interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Remove"
+msgstr "Quitar"
+
+#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:221 diskdrake/removable.pm:26
+#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
+#, c-format
+msgid "Done"
+msgstr "Hecho"
+
+#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:153 diskdrake/hd_gtk.pm:323
+#: diskdrake/interactive.pm:246 diskdrake/interactive.pm:259
+#: diskdrake/interactive.pm:460 diskdrake/interactive.pm:535
+#: diskdrake/interactive.pm:553 diskdrake/interactive.pm:558
+#: diskdrake/interactive.pm:717 diskdrake/interactive.pm:1020
+#: diskdrake/interactive.pm:1073 diskdrake/interactive.pm:1229
+#: diskdrake/interactive.pm:1242 diskdrake/interactive.pm:1245
+#: diskdrake/interactive.pm:1513 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:49
+#: do_pkgs.pm:54 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:108 do_pkgs.pm:142
+#: fsedit.pm:266 interactive/http.pm:117 interactive/http.pm:118
+#: modules/interactive.pm:19 scanner.pm:94 scanner.pm:105 scanner.pm:112
+#: scanner.pm:119 wizards.pm:95 wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "Error"
+
+#: diskdrake/dav.pm:86
+#, c-format
+msgid "Please enter the WebDAV server URL"
+msgstr "Por favor, ingrese la URL del servidor WebDAV"
+
+#: diskdrake/dav.pm:90
+#, c-format
+msgid "The URL must begin with http:// or https://"
+msgstr "La URL debería empezar con http:// o https://"
+
+#: diskdrake/dav.pm:106
+#, c-format
+msgid "Are you sure you want to delete this mount point?"
+msgstr "¿Está seguro de que desea eliminar este punto de montaje?"
+
+#: diskdrake/dav.pm:124
+#, c-format
+msgid "Server: "
+msgstr "Servidor: "
+
+#: diskdrake/dav.pm:125 diskdrake/interactive.pm:505
+#: diskdrake/interactive.pm:1391 diskdrake/interactive.pm:1473
+#, c-format
+msgid "Mount point: "
+msgstr "Punto de montaje: "
+
+#: diskdrake/dav.pm:126 diskdrake/interactive.pm:1480
+#, c-format
+msgid "Options: %s"
+msgstr "Opciones: %s"
+
+#: diskdrake/hd_gtk.pm:61 diskdrake/interactive.pm:300
+#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:113
+#: fs/partitioning_wizard.pm:66 fs/partitioning_wizard.pm:264
+#: fs/partitioning_wizard.pm:272 fs/partitioning_wizard.pm:310
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:529
+#: fs/partitioning_wizard.pm:614 fs/partitioning_wizard.pm:617
+#, c-format
+msgid "Partitioning"
+msgstr "Particionando"
+
+#: diskdrake/hd_gtk.pm:74
+#, c-format
+msgid "Click on a partition, choose a filesystem type then choose an action"
+msgstr ""
+"Haga clic sobre una partición, elija un sist. de archivos y luego elija una "
+"acción"
+
+#: diskdrake/hd_gtk.pm:133 diskdrake/interactive.pm:1203
+#: diskdrake/interactive.pm:1213 diskdrake/interactive.pm:1267
+#, c-format
+msgid "Read carefully"
+msgstr "¡Lea con cuidado"
+
+#: diskdrake/hd_gtk.pm:133
+#, c-format
+msgid "Please make a backup of your data first"
+msgstr "Por favor, haga primero una copia de seguridad de sus datos"
+
+#: diskdrake/hd_gtk.pm:134 diskdrake/interactive.pm:239
+#, c-format
+msgid "Exit"
+msgstr "Salir"
+
+#: diskdrake/hd_gtk.pm:134
+#, c-format
+msgid "Continue"
+msgstr "Continuar"
+
+#: diskdrake/hd_gtk.pm:216 fs/partitioning_wizard.pm:590 interactive.pm:778
+#: interactive/gtk.pm:812 interactive/gtk.pm:830 interactive/gtk.pm:862
+#: ugtk2.pm:934 ugtk3.pm:1030
+#, c-format
+msgid "Help"
+msgstr "Ayuda"
+
+#: diskdrake/hd_gtk.pm:257
+#, c-format
+msgid ""
+"You have one big Microsoft Windows partition.\n"
+"I suggest you first resize that partition\n"
+"(click on it, then click on \"Resize\")"
+msgstr ""
+"Tiene una partición Microsoft Windows de gran tamaño.\n"
+"Le sugiero que primero cambie el tamaño de la misma\n"
+"(para eso haga clic sobre ella, y luego sobre \"Redimensionar\")"
+
+#: diskdrake/hd_gtk.pm:259
+#, c-format
+msgid "Please click on a partition"
+msgstr "Por favor, haga clic sobre una partición"
+
+#: diskdrake/hd_gtk.pm:273 diskdrake/smbnfs_gtk.pm:63
+#, c-format
+msgid "Details"
+msgstr "Detalles"
+
+#: diskdrake/hd_gtk.pm:323
+#, c-format
+msgid "No hard disk drives found"
+msgstr "¡No se encontraron discos rígidos!"
+
+#: diskdrake/hd_gtk.pm:362
+#, c-format
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: diskdrake/hd_gtk.pm:429
+#, c-format
+msgid "Ext4"
+msgstr "Ext4"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "XFS"
+msgstr "XFS"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Swap"
+msgstr "Intercambio"
+
+#: diskdrake/hd_gtk.pm:429 fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Windows"
+msgstr "Windows"
+
+#: diskdrake/hd_gtk.pm:430 fs/partitioning_wizard.pm:437 services.pm:201
+#, c-format
+msgid "Other"
+msgstr "Otros"
+
+#: diskdrake/hd_gtk.pm:430 diskdrake/interactive.pm:1397
+#: fs/partitioning_wizard.pm:437
+#, c-format
+msgid "Empty"
+msgstr "Vacío"
+
+#: diskdrake/hd_gtk.pm:437
+#, c-format
+msgid "Filesystem types:"
+msgstr "Tipos de sistemas de archivos:"
+
+#: diskdrake/hd_gtk.pm:458
+#, c-format
+msgid "This partition is already empty"
+msgstr "Esta partición ya está vacía"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``Unmount'' first"
+msgstr "Use \"Desmontar\" primero"
+
+#: diskdrake/hd_gtk.pm:467
+#, c-format
+msgid "Use ``%s'' instead (in expert mode)"
+msgstr "Usar \"%s\" en su lugar (en modo experto)"
+
+#: diskdrake/hd_gtk.pm:467 diskdrake/interactive.pm:409
+#: diskdrake/interactive.pm:644 diskdrake/removable.pm:25
+#: diskdrake/removable.pm:48
+#, c-format
+msgid "Type"
+msgstr "Tipo"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose another partition"
+msgstr "Elija otra partición"
+
+#: diskdrake/interactive.pm:210
+#, c-format
+msgid "Choose a partition"
+msgstr "Elija una partición"
+
+#: diskdrake/interactive.pm:272 diskdrake/interactive.pm:382
+#: interactive/curses.pm:532
+#, c-format
+msgid "More"
+msgstr "Más"
+
+#: diskdrake/interactive.pm:280 diskdrake/interactive.pm:293
+#: diskdrake/interactive.pm:1313 mygtk2.pm:1228 mygtk3.pm:1311
+#, c-format
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#: diskdrake/interactive.pm:280
+#, c-format
+msgid "Continue anyway?"
+msgstr "¿Seguir adelante?"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without saving"
+msgstr "Salir sin grabar"
+
+#: diskdrake/interactive.pm:285
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "¿Salir del programa sin grabar la tabla de particiones?"
+
+#: diskdrake/interactive.pm:293
+#, c-format
+msgid "Do you want to save the /etc/fstab modifications?"
+msgstr "¿Desea guardar las modificaciones en /etc/fstab?"
+
+#: diskdrake/interactive.pm:300 fs/partitioning_wizard.pm:310
+#, c-format
+msgid "You need to reboot for the partition table modifications to take effect"
+msgstr ""
+"Necesita reiniciar el equipo para que se efectúe la modificación de la tabla "
+"de particiones"
+
+#: diskdrake/interactive.pm:305
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+"Debe formatear las particiones %s.\n"
+"Si no, no se escribirá ninguna entrada en fstab para el punto de montaje "
+"%s.\n"
+"¿Salir de todas formas?"
+
+#: diskdrake/interactive.pm:318
+#, c-format
+msgid "Clear all"
+msgstr "Borrar todas"
+
+#: diskdrake/interactive.pm:319
+#, c-format
+msgid "Auto allocate"
+msgstr "Asignación automática"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Normal mode"
+msgstr "Modo normal"
+
+#: diskdrake/interactive.pm:325
+#, c-format
+msgid "Expert mode"
+msgstr "Modo experto"
+
+#: diskdrake/interactive.pm:337
+#, c-format
+msgid "Hard disk drive information"
+msgstr "Información del disco rígido"
+
+#: diskdrake/interactive.pm:371
+#, c-format
+msgid "All primary partitions are used"
+msgstr "Todas las particiones primarias están usadas"
+
+#: diskdrake/interactive.pm:372
+#, c-format
+msgid "I cannot add any more partitions"
+msgstr "No se pueden agregar más particiones"
+
+#: diskdrake/interactive.pm:373
+#, c-format
+msgid ""
+"To have more partitions, please delete one to be able to create an extended "
+"partition"
+msgstr ""
+"Por favor, para tener más particiones borre alguna para poder crear una "
+"partición extendida"
+
+#: diskdrake/interactive.pm:384
+#, c-format
+msgid "Reload partition table"
+msgstr "Volver a cargar la tabla de particiones"
+
+#: diskdrake/interactive.pm:391
+#, c-format
+msgid "Detailed information"
+msgstr "Información detallada"
+
+#: diskdrake/interactive.pm:407
+#, c-format
+msgid "View"
+msgstr "Visualizar"
+
+#: diskdrake/interactive.pm:412 diskdrake/interactive.pm:833
+#, c-format
+msgid "Resize"
+msgstr "Redimensionar"
+
+#: diskdrake/interactive.pm:413
+#, c-format
+msgid "Format"
+msgstr "Formatear"
+
+#: diskdrake/interactive.pm:415 diskdrake/interactive.pm:983
+#, c-format
+msgid "Add to RAID"
+msgstr "Añadir al RAID"
+
+#: diskdrake/interactive.pm:416 diskdrake/interactive.pm:1002
+#, c-format
+msgid "Add to LVM"
+msgstr "Añadir al LVM"
+
+#: diskdrake/interactive.pm:417
+#, c-format
+msgid "Use"
+msgstr "Usar"
+
+#: diskdrake/interactive.pm:419
+#, c-format
+msgid "Delete"
+msgstr "Borrar"
+
+#: diskdrake/interactive.pm:420
+#, c-format
+msgid "Remove from RAID"
+msgstr "Quitar del RAID"
+
+#: diskdrake/interactive.pm:421
+#, c-format
+msgid "Remove from LVM"
+msgstr "Quitar del LVM"
+
+#: diskdrake/interactive.pm:422
+#, c-format
+msgid "Remove from dm"
+msgstr "Quitar del dm"
+
+#: diskdrake/interactive.pm:423
+#, c-format
+msgid "Modify RAID"
+msgstr "Modificar el RAID"
+
+#: diskdrake/interactive.pm:424
+#, c-format
+msgid "Use for loopback"
+msgstr "Usar para loopback"
+
+#: diskdrake/interactive.pm:434
+#, c-format
+msgid "Create"
+msgstr "Crear"
+
+#: diskdrake/interactive.pm:460
+#, c-format
+msgid "Failed to mount partition"
+msgstr "Error al montar partición"
+
+#: diskdrake/interactive.pm:494 diskdrake/interactive.pm:496
+#, c-format
+msgid "Create a new partition"
+msgstr "Crear una partición nueva"
+
+#: diskdrake/interactive.pm:498
+#, c-format
+msgid "Start sector: "
+msgstr "Sector de comienzo: "
+
+#: diskdrake/interactive.pm:501 diskdrake/interactive.pm:1088
+#, c-format
+msgid "Size in MB: "
+msgstr "Tamaño en MB: "
+
+#: diskdrake/interactive.pm:503 diskdrake/interactive.pm:1089
+#, c-format
+msgid "Filesystem type: "
+msgstr "Tipo de sistema de. archivos: "
+
+#: diskdrake/interactive.pm:513
+#, c-format
+msgid "Preference: "
+msgstr "Preferencia: "
+
+#: diskdrake/interactive.pm:516
+#, c-format
+msgid "Logical volume name "
+msgstr "Nombre del volumen lógico"
+
+#: diskdrake/interactive.pm:518
+#, c-format
+msgid "Encrypt partition"
+msgstr "Cifrar partición"
+
+#: diskdrake/interactive.pm:519
+#, c-format
+msgid "Encryption key "
+msgstr "Clave de cifrado"
+
+#: diskdrake/interactive.pm:520 diskdrake/interactive.pm:1517
+#, c-format
+msgid "Encryption key (again)"
+msgstr "Clave de cifrado (otra vez)"
+
+#: diskdrake/interactive.pm:532 diskdrake/interactive.pm:1513
+#, c-format
+msgid "The encryption keys do not match"
+msgstr "Las claves de cifrado no coinciden"
+
+#: diskdrake/interactive.pm:533
+#, c-format
+msgid "Missing encryption key"
+msgstr "Falta clave de cifrado"
+
+#: diskdrake/interactive.pm:553
+#, c-format
+msgid ""
+"You cannot create a new partition\n"
+"(since you reached the maximal number of primary partitions).\n"
+"First remove a primary partition and create an extended partition."
+msgstr ""
+"No puede crear una partición nueva\n"
+"(debido a que alcanzó la cantidad máxima de particiones primarias).\n"
+"Primero debe quitar una partición primaria y crear una partición extendida."
+
+#: diskdrake/interactive.pm:605
+#, c-format
+msgid "Remove the loopback file?"
+msgstr "¿Borrar el archivo de loopback?"
+
+#: diskdrake/interactive.pm:625
+#, c-format
+msgid ""
+"After changing type of partition %s, all data on this partition will be lost"
+msgstr ""
+"Se perderán todos los datos de la partición %s después de cambiar su tipo"
+
+#: diskdrake/interactive.pm:641
+#, c-format
+msgid "Change partition type"
+msgstr "Cambiar el tipo de partición"
+
+#: diskdrake/interactive.pm:643 diskdrake/removable.pm:47
+#, c-format
+msgid "Which filesystem do you want?"
+msgstr "¿Qué sistema de archivos desea?"
+
+#: diskdrake/interactive.pm:650
+#, c-format
+msgid "Switching from %s to %s"
+msgstr "Cambiando de %s a %s"
+
+#: diskdrake/interactive.pm:685
+#, c-format
+msgid "Set volume label"
+msgstr "Definir etiqueta de volumen?"
+
+#: diskdrake/interactive.pm:687
+#, c-format
+msgid "Beware, this will be written to disk as soon as you validate!"
+msgstr "¡Atención, esto será grabado en disco pos su confirmación!"
+
+#: diskdrake/interactive.pm:688
+#, c-format
+msgid "Beware, this will be written to disk only after formatting!"
+msgstr "¡Atención, esto será grabado en disco solamente despues del formateo!"
+
+#: diskdrake/interactive.pm:690
+#, c-format
+msgid "Which volume label?"
+msgstr "¿Cuál la etiqueta del volumen?"
+
+#: diskdrake/interactive.pm:691
+#, c-format
+msgid "Label:"
+msgstr "Etiqueta:"
+
+#: diskdrake/interactive.pm:712
+#, c-format
+msgid "Where do you want to mount the loopback file %s?"
+msgstr "¿Dónde desea montar el archivo de loopback %s?"
+
+#: diskdrake/interactive.pm:713
+#, c-format
+msgid "Where do you want to mount device %s?"
+msgstr "¿Dónde desea montar el dispositivo %s?"
+
+#: diskdrake/interactive.pm:718
+#, c-format
+msgid ""
+"Cannot unset mount point as this partition is used for loop back.\n"
+"Remove the loopback first"
+msgstr ""
+"No se puede deseleccionar el punto de montaje ya que esta partición\n"
+"se usa para un montaje en loopback.\n"
+"Quite el montaje de loopback primero"
+
+#: diskdrake/interactive.pm:748
+#, c-format
+msgid "Where do you want to mount %s?"
+msgstr "¿Dónde desea montar a %s?"
+
+#: diskdrake/interactive.pm:778 diskdrake/interactive.pm:874
+#: fs/partitioning_wizard.pm:151 fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing"
+msgstr "Cambiando tamaño"
+
+#: diskdrake/interactive.pm:778
+#, c-format
+msgid "Computing FAT filesystem bounds"
+msgstr "Calculando los límites del sistema de archivos FAT"
+
+#: diskdrake/interactive.pm:820
+#, c-format
+msgid "This partition is not resizeable"
+msgstr "No se puede cambiar el tamaño a esta partición"
+
+#: diskdrake/interactive.pm:825
+#, c-format
+msgid "All data on this partition should be backed up"
+msgstr ""
+"Debería hacer una copia de seguridad de todos los datos de esta partición"
+
+#: diskdrake/interactive.pm:827
+#, c-format
+msgid "After resizing partition %s, all data on this partition will be lost"
+msgstr "Se perderán todos los datos de la partición %s tras cambiar su tamaño"
+
+#: diskdrake/interactive.pm:834
+#, c-format
+msgid "Choose the new size"
+msgstr "Eligiendo el tamaño nuevo"
+
+#: diskdrake/interactive.pm:835
+#, c-format
+msgid "New size in MB: "
+msgstr "Tamaño nuevo en MB: "
+
+#: diskdrake/interactive.pm:836
+#, c-format
+msgid "Minimum size: %s MB"
+msgstr "Tamaño mínimo: %s MB"
+
+#: diskdrake/interactive.pm:837
+#, c-format
+msgid "Maximum size: %s MB"
+msgstr "Tamaño máximo: %s MB"
+
+#: diskdrake/interactive.pm:885 fs/partitioning_wizard.pm:241
+#, c-format
+msgid ""
+"To ensure data integrity after resizing the partition(s),\n"
+"filesystem checks will be run on your next boot into Microsoft Windows®"
+msgstr ""
+"Para asegurar la integridad de los datos luego de cambiar el tamaño a\n"
+"las particiones, se pueden ejecutar verificaciones de los sistemas de "
+"archivos\n"
+"la próxima vez que arranque en Microsoft Windows®"
+
+#: diskdrake/interactive.pm:951 diskdrake/interactive.pm:1508
+#, c-format
+msgid "Filesystem encryption key"
+msgstr "Clave de cifrado del sistema de archivos"
+
+#: diskdrake/interactive.pm:952
+#, c-format
+msgid "Enter your filesystem encryption key"
+msgstr "Ingrese la clave de cifrado de su sistema de archivos"
+
+#: diskdrake/interactive.pm:953 diskdrake/interactive.pm:1516
+#, c-format
+msgid "Encryption key"
+msgstr "Clave de cifrado"
+
+#: diskdrake/interactive.pm:960
+#, c-format
+msgid "Invalid key"
+msgstr "Clave no válida"
+
+#: diskdrake/interactive.pm:983
+#, c-format
+msgid "Choose an existing RAID to add to"
+msgstr "Elegir un RAID existente al que añadir"
+
+#: diskdrake/interactive.pm:985 diskdrake/interactive.pm:1004
+#, c-format
+msgid "new"
+msgstr "nuevo"
+
+#: diskdrake/interactive.pm:1002
+#, c-format
+msgid "Choose an existing LVM to add to"
+msgstr "Elegir un LVM existente al que añadir"
+
+#: diskdrake/interactive.pm:1014 diskdrake/interactive.pm:1023
+#, c-format
+msgid "LVM name"
+msgstr "Nombre de LVM"
+
+#: diskdrake/interactive.pm:1015
+#, c-format
+msgid "Enter a name for the new LVM volume group"
+msgstr "Ingrese un nombre para el nuevo volume de grupo LVM"
+
+#: diskdrake/interactive.pm:1020
+#, c-format
+msgid "\"%s\" already exists"
+msgstr "\"%s\" ya existe"
+
+#: diskdrake/interactive.pm:1028
+#, c-format
+msgid "Setting up LVM"
+msgstr "Configurando LVM"
+
+#: diskdrake/interactive.pm:1053
+#, c-format
+msgid ""
+"Physical volume %s is still in use.\n"
+"Do you want to move used physical extents on this volume to other volumes?"
+msgstr ""
+"El volúmen físico %s todavía está en uso.\n"
+"¿Desea mover el espacio físico usado en este volumen a otros volúmenes?"
+
+#: diskdrake/interactive.pm:1055
+#, c-format
+msgid "Moving physical extents"
+msgstr "Moviendo el espacio físico"
+
+#: diskdrake/interactive.pm:1073
+#, c-format
+msgid "This partition cannot be used for loopback"
+msgstr "Esta partición no puede usarse para el loopback"
+
+#: diskdrake/interactive.pm:1086
+#, c-format
+msgid "Loopback"
+msgstr "Loopback"
+
+#: diskdrake/interactive.pm:1087
+#, c-format
+msgid "Loopback file name: "
+msgstr "Nombre del archivo de loopback: "
+
+#: diskdrake/interactive.pm:1092
+#, c-format
+msgid "Give a file name"
+msgstr "Indique el nombre de un archivo"
+
+#: diskdrake/interactive.pm:1095
+#, c-format
+msgid "File is already used by another loopback, choose another one"
+msgstr "El archivo ya lo utiliza otro dispositivo loopback, seleccione otro"
+
+#: diskdrake/interactive.pm:1096
+#, c-format
+msgid "File already exists. Use it?"
+msgstr "El archivo ya existe. ¿Desea usarlo?"
+
+#: diskdrake/interactive.pm:1128 diskdrake/interactive.pm:1131
+#, c-format
+msgid "Mount options"
+msgstr "Opciones de montaje"
+
+#: diskdrake/interactive.pm:1138
+#, c-format
+msgid "Various"
+msgstr "Varios"
+
+#: diskdrake/interactive.pm:1184
+#, c-format
+msgid "device"
+msgstr "dispositivo"
+
+#: diskdrake/interactive.pm:1185
+#, c-format
+msgid "level"
+msgstr "nivel"
+
+#: diskdrake/interactive.pm:1186
+#, c-format
+msgid "chunk size in KiB"
+msgstr "tamaño de bloque en KiB"
+
+#: diskdrake/interactive.pm:1204
+#, c-format
+msgid "Be careful: this operation is dangerous."
+msgstr "Cuidado: esta operación es peligrosa."
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "Partitioning Type"
+msgstr "Tipo de particionado"
+
+#: diskdrake/interactive.pm:1220
+#, c-format
+msgid "What type of partitioning?"
+msgstr "¿Qué tipo de particionamiento?"
+
+#: diskdrake/interactive.pm:1258
+#, c-format
+msgid "You'll need to reboot before the modification can take effect"
+msgstr "Necesita reiniciar el equipo para que la modificación tenga efecto"
+
+#: diskdrake/interactive.pm:1267
+#, c-format
+msgid "Partition table of drive %s is going to be written to disk"
+msgstr "¡Se escribirá al disco la tabla de particiones de la unidad %s"
+
+#: diskdrake/interactive.pm:1286 fs/format.pm:106 fs/format.pm:113
+#, c-format
+msgid "Formatting partition %s"
+msgstr "Formateando la partición %s"
+
+#: diskdrake/interactive.pm:1299
+#, c-format
+msgid "After formatting partition %s, all data on this partition will be lost"
+msgstr "Se perderán todos los datos de la partición %s después de formatearla"
+
+#: diskdrake/interactive.pm:1313 fs/partitioning.pm:48
+#, c-format
+msgid "Check for bad blocks?"
+msgstr "¿Verificar el disco en busca de bloques malos?"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Move files to the new partition"
+msgstr "Mover los archivos a la nueva partición"
+
+#: diskdrake/interactive.pm:1328
+#, c-format
+msgid "Hide files"
+msgstr "Ocultar archivos"
+
+#: diskdrake/interactive.pm:1329
+#, c-format
+msgid ""
+"Directory %s already contains data\n"
+"(%s)\n"
+"\n"
+"You can either choose to move the files into the partition that will be "
+"mounted there or leave them where they are (which results in hiding them by "
+"the contents of the mounted partition)"
+msgstr ""
+"El directorio %s ya contiene datos\n"
+"(%s)\n"
+"\n"
+"Puede elegir mover los archivos a la partición que se montará allí o "
+"dejarlos donde están (lo cual hará que los mismos queden ocultos por los "
+"contenidos de la partición montada)"
+
+#: diskdrake/interactive.pm:1344
+#, c-format
+msgid "Moving files to the new partition"
+msgstr "Moviendo los archivos a la nueva partición"
+
+#: diskdrake/interactive.pm:1348
+#, c-format
+msgid "Copying %s"
+msgstr "Copiando %s"
+
+#: diskdrake/interactive.pm:1352
+#, c-format
+msgid "Removing %s"
+msgstr "Borrando %s"
+
+#: diskdrake/interactive.pm:1366
+#, c-format
+msgid "partition %s is now known as %s"
+msgstr "la partición %s ahora se conoce como %s"
+
+#: diskdrake/interactive.pm:1367
+#, c-format
+msgid "Partitions have been renumbered: "
+msgstr "Las particiones han sido renumeradas: "
+
+#: diskdrake/interactive.pm:1392 diskdrake/interactive.pm:1457
+#, c-format
+msgid "Device: "
+msgstr "Dispositivo: "
+
+#: diskdrake/interactive.pm:1393
+#, c-format
+msgid "Volume label: "
+msgstr "Etiqueta de volumen: "
+
+#: diskdrake/interactive.pm:1394
+#, c-format
+msgid "UUID: "
+msgstr "UUID: "
+
+#: diskdrake/interactive.pm:1395
+#, c-format
+msgid "DOS drive letter: %s (just a guess)\n"
+msgstr "Letra DOS: %s (simplemente una adivinanza)\n"
+
+#: diskdrake/interactive.pm:1399 diskdrake/interactive.pm:1476
+#, c-format
+msgid "Type: "
+msgstr "Tipo: "
+
+#: diskdrake/interactive.pm:1401
+#, c-format
+msgid "Start: sector %s\n"
+msgstr "Comienzo: sector %s\n"
+
+#: diskdrake/interactive.pm:1403
+#, c-format
+msgid "Size: %s (%s%% of disk)"
+msgstr "Tamaño:%s (%s%% de disco)"
+
+#: diskdrake/interactive.pm:1405
+#, c-format
+msgid "Size: %s"
+msgstr "Tamaño: %s"
+
+#: diskdrake/interactive.pm:1407
+#, c-format
+msgid ", %s sectors"
+msgstr ", %s sectores"
+
+#: diskdrake/interactive.pm:1409
+#, c-format
+msgid "Cylinder %d to %d\n"
+msgstr "Cilindros %d a %d\n"
+
+#: diskdrake/interactive.pm:1410
+#, c-format
+msgid "Number of logical extents: %d\n"
+msgstr "Número de extensiones lógicas: %d\n"
+
+#: diskdrake/interactive.pm:1411
+#, c-format
+msgid "Formatted\n"
+msgstr "Formateado\n"
+
+#: diskdrake/interactive.pm:1412
+#, c-format
+msgid "Not formatted\n"
+msgstr "No formateado\n"
+
+#: diskdrake/interactive.pm:1413
+#, c-format
+msgid "Mounted\n"
+msgstr "Montado\n"
+
+#: diskdrake/interactive.pm:1414
+#, c-format
+msgid "RAID %s\n"
+msgstr "RAID %s\n"
+
+#: diskdrake/interactive.pm:1416
+#, c-format
+msgid "Encrypted"
+msgstr "Cifrado"
+
+#: diskdrake/interactive.pm:1418
+#, c-format
+msgid " (mapped on %s)"
+msgstr " (mapeado en %s)"
+
+#: diskdrake/interactive.pm:1419
+#, c-format
+msgid " (to map on %s)"
+msgstr " (a mapear en %s)"
+
+#: diskdrake/interactive.pm:1420
+#, c-format
+msgid " (inactive)"
+msgstr " (inactivo)"
+
+#: diskdrake/interactive.pm:1427
+#, c-format
+msgid ""
+"Loopback file(s):\n"
+"   %s\n"
+msgstr ""
+"Archivo(s) de loopback:\n"
+"   %s\n"
+
+#: diskdrake/interactive.pm:1428
+#, c-format
+msgid ""
+"Partition booted by default\n"
+"    (for MS-DOS boot, not for lilo)\n"
+msgstr ""
+"Partición predeterminada de arranque\n"
+"    (para arranque de MS-DOS, no para lilo)\n"
+
+#: diskdrake/interactive.pm:1430
+#, c-format
+msgid "Level %s\n"
+msgstr "Nivel %s\n"
+
+#: diskdrake/interactive.pm:1431
+#, c-format
+msgid "Chunk size %d KiB\n"
+msgstr "Tamaño de bloque %d KiB\n"
+
+#: diskdrake/interactive.pm:1432
+#, c-format
+msgid "RAID-disks %s\n"
+msgstr "Discos-RAID %s\n"
+
+#: diskdrake/interactive.pm:1434
+#, c-format
+msgid "Loopback file name: %s"
+msgstr "Nombre del archivo de loopback: %s"
+
+#: diskdrake/interactive.pm:1437
+#, c-format
+msgid ""
+"\n"
+"Chances are, this partition is\n"
+"a Driver partition. You should\n"
+"probably leave it alone.\n"
+msgstr ""
+"\n"
+"Es probable que esta partición sea\n"
+"una partición de Controlador, probablemente\n"
+"debería dejarla como está.\n"
+
+#: diskdrake/interactive.pm:1440
+#, c-format
+msgid ""
+"\n"
+"This special Bootstrap\n"
+"partition is for\n"
+"dual-booting your system.\n"
+msgstr ""
+"\n"
+"Esta partición especial de Bootstrap\n"
+"es para el arranque\n"
+"dual de su sistema.\n"
+
+#: diskdrake/interactive.pm:1449
+#, c-format
+msgid "Free space on %s (%s)"
+msgstr "Espacio libre en %s (%s)"
+
+#: diskdrake/interactive.pm:1458
+#, c-format
+msgid "Read-only"
+msgstr "Sólo lectura"
+
+#: diskdrake/interactive.pm:1459
+#, c-format
+msgid "Size: %s\n"
+msgstr "Tamaño: %s\n"
+
+#: diskdrake/interactive.pm:1460
+#, c-format
+msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+msgstr "Geometría: %s cilindros, %s cabezas, %s sectores\n"
+
+#: diskdrake/interactive.pm:1461
+#, c-format
+msgid "Name: "
+msgstr "Nombre: "
+
+#: diskdrake/interactive.pm:1462
+#, c-format
+msgid "Medium type: "
+msgstr "Tipo de soporte: "
+
+#: diskdrake/interactive.pm:1463
+#, c-format
+msgid "LVM-disks %s\n"
+msgstr "Discos-LVM %s\n"
+
+#: diskdrake/interactive.pm:1464
+#, c-format
+msgid "Partition table type: %s\n"
+msgstr "Tipo de la tabla de particiones: %s\n"
+
+#: diskdrake/interactive.pm:1465
+#, c-format
+msgid "on channel %d id %d\n"
+msgstr "en el canal %d id %d\n"
+
+#: diskdrake/interactive.pm:1509
+#, c-format
+msgid "Choose your filesystem encryption key"
+msgstr "Elija la clave de cifrado de su sistema de archivos"
+
+#: diskdrake/interactive.pm:1512
+#, c-format
+msgid "This encryption key is too simple (must be at least %d characters long)"
+msgstr ""
+"Esta clave de cifrado es demasiado simple\n"
+"(tiene que tener por lo menos una longitud de %d caracteres)"
+
+#: diskdrake/interactive.pm:1519
+#, c-format
+msgid "Encryption algorithm"
+msgstr "Algoritmo de cifrado"
+
+#: diskdrake/removable.pm:46
+#, c-format
+msgid "Change type"
+msgstr "Cambiar tipo"
+
+#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:120 interactive.pm:675
+#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
+#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846
+#: mygtk2.pm:1229 mygtk3.pm:928 mygtk3.pm:1312 ugtk2.pm:415 ugtk2.pm:517
+#: ugtk2.pm:526 ugtk2.pm:810 ugtk3.pm:501 ugtk3.pm:591 ugtk3.pm:600
+#: ugtk3.pm:906
+#, c-format
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: diskdrake/smbnfs_gtk.pm:164
+#, c-format
+msgid "Cannot login using username %s (bad password?)"
+msgstr ""
+"No se puede conectar utilizando el nombre de usuario %s (¿contraseña "
+"incorrecta?)"
+
+#: diskdrake/smbnfs_gtk.pm:168 diskdrake/smbnfs_gtk.pm:177
+#, c-format
+msgid "Domain Authentication Required"
+msgstr "Se necesita autenticación de dominio"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Which username"
+msgstr "Qué nombre de usuario"
+
+#: diskdrake/smbnfs_gtk.pm:169
+#, c-format
+msgid "Another one"
+msgstr "Otro"
+
+#: diskdrake/smbnfs_gtk.pm:178
+#, c-format
+msgid ""
+"Please enter your username, password and domain name to access this host."
+msgstr ""
+"Por favor, ingrese su nombre de usuario, contraseña y nombre de dominio para "
+"acceder a este host."
+
+#: diskdrake/smbnfs_gtk.pm:180
+#, c-format
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: diskdrake/smbnfs_gtk.pm:182
+#, c-format
+msgid "Domain"
+msgstr "Dominio"
+
+#: diskdrake/smbnfs_gtk.pm:206
+#, c-format
+msgid "Search servers"
+msgstr "Buscar servidores"
+
+#: diskdrake/smbnfs_gtk.pm:211
+#, c-format
+msgid "Search for new servers"
+msgstr "Buscar servidores nuevos"
+
+#: do_pkgs.pm:45 do_pkgs.pm:100
+#, c-format
+msgid "The package %s needs to be installed. Do you want to install it?"
+msgstr "Se necesita instalar el paquete %s. ¿Quiere instalarlo?"
+
+#: do_pkgs.pm:49 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:142
+#, c-format
+msgid "Could not install the %s package!"
+msgstr "¡No se pudo instalar el paquete %s!"
+
+#: do_pkgs.pm:54 do_pkgs.pm:108
+#, c-format
+msgid "Mandatory package %s is missing"
+msgstr "Falta el paquete obligatorio %s"
+
+#: do_pkgs.pm:74 do_pkgs.pm:137
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Se deben instalar los siguientes paquetes:\n"
+
+#: do_pkgs.pm:342
+#, c-format
+msgid "Installing packages..."
+msgstr "Instalando paquetes..."
+
+#: do_pkgs.pm:387 pkgs.pm:293
+#, c-format
+msgid "Removing packages..."
+msgstr "Quitando paquetes..."
+
+#: fs/any.pm:21
+#, c-format
+msgid ""
+"An error occurred - no valid devices were found on which to create new "
+"filesystems. Please check your hardware for the cause of this problem"
+msgstr ""
+"Ocurrió un error - no se encontró ningún dispositivo válido para crear los "
+"nuevos sistemas de archivos. Por favor, verifique su equipo para saber la "
+"razón de este fallo"
+
+#: fs/any.pm:77 fs/partitioning_wizard.pm:77
+#, c-format
+msgid "You must have a ESP FAT32 partition mounted in /boot/EFI"
+msgstr "Debe tener una partición ESP FAT32 montada en /boot/EFI"
+
+#: fs/any.pm:81 fs/partitioning_wizard.pm:82
+#, c-format
+msgid ""
+"You must have a BIOS boot partition for non-UEFI GPT-partitioned disks. "
+"Please create one before continuing."
+msgstr ""
+"Ha de existir una partición de arranque BIOS para discos no-UEFI con "
+"partición GPT. Por favor, cree una antes de continuar."
+
+#: fs/format.pm:110
+#, c-format
+msgid "Creating and formatting file %s"
+msgstr "Creando y formateando el archivo %s"
+
+#: fs/format.pm:130
+#, c-format
+msgid "I do not know how to set label on %s with type %s"
+msgstr "No sé cómo definir la etiqueta %s de tipo %s"
+
+#: fs/format.pm:142
+#, c-format
+msgid "setting label on %s failed, is it formatted?"
+msgstr "La definición de la etiqueta %s falló, ¿está formateada?"
+
+#: fs/format.pm:190
+#, c-format
+msgid "I do not know how to format %s in type %s"
+msgstr "No sé cómo formatear %s en el tipo %s"
+
+#: fs/format.pm:195 fs/format.pm:197
+#, c-format
+msgid "%s formatting of %s failed"
+msgstr "%s formateo de %s falló"
+
+#: fs/loopback.pm:24
+#, c-format
+msgid "Circular mounts %s\n"
+msgstr "Montajes circulares %s\n"
+
+#: fs/mount.pm:85
+#, c-format
+msgid "Mounting partition %s"
+msgstr "Montando la partición %s"
+
+#: fs/mount.pm:87
+#, c-format
+msgid "mounting partition %s in directory %s failed"
+msgstr "falló el montaje de la partición %s en el directorio %s"
+
+#: fs/mount.pm:92 fs/mount.pm:109
+#, c-format
+msgid "Checking %s"
+msgstr "Verificando %s"
+
+#: fs/mount.pm:126 partition_table.pm:399
+#, c-format
+msgid "error unmounting %s: %s"
+msgstr "error desmontando %s: %s"
+
+#: fs/mount.pm:141
+#, c-format
+msgid "Enabling swap partition %s"
+msgstr "Habilitando la partición swap %s"
+
+#: fs/mount_options.pm:114
+#, c-format
+msgid "Enable POSIX Access Control Lists"
+msgstr "Habilitar Listas de Control de Acceso POSIX"
+
+#: fs/mount_options.pm:116
+#, c-format
+msgid "Flush write cache on file close"
+msgstr "Vaciar el cache de escritura al cerrar los archivos"
+
+#: fs/mount_options.pm:118
+#, c-format
+msgid "Enable group disk quota accounting and optionally enforce limits"
+msgstr ""
+"Permitir la contabilidad de las cuotas del disco y opcionalmente, forzar "
+"límites"
+
+#: fs/mount_options.pm:120
+#, c-format
+msgid ""
+"Do not update inode access times on this filesystem\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"No actualizar los tiempos de acceso al inodo en este sistema de archivos\n"
+"(ej: para un acceso más rápido al spool de noticias en un servidor de "
+"noticias)"
+
+#: fs/mount_options.pm:123
+#, c-format
+msgid ""
+"Update inode access times on this filesystem in a more efficient way\n"
+"(e.g, for faster access on the news spool to speed up news servers)."
+msgstr ""
+"Actualizar más eficientemente tiempo de acceso a inodos en este sist. de "
+"archivos\n"
+"(ej: para mejorar el tiempo de respuesta de un servidor de noticias)"
+
+#: fs/mount_options.pm:126
+#, c-format
+msgid ""
+"Can only be mounted explicitly (i.e.,\n"
+"the -a option will not cause the filesystem to be mounted)."
+msgstr ""
+"Sólo se puede montar explícitamente (es decir,\n"
+"la opción -a no causará que se monte el sistema de archivos)"
+
+#: fs/mount_options.pm:129
+#, c-format
+msgid "Do not interpret character or block special devices on the filesystem."
+msgstr ""
+"No interpretar dispositivos especiales de bloque o carácter en el sistema de "
+"archivos."
+
+#: fs/mount_options.pm:131
+#, c-format
+msgid ""
+"Do not allow execution of any binaries on the mounted\n"
+"filesystem. This option might be useful for a server that has filesystems\n"
+"containing binaries for architectures other than its own."
+msgstr ""
+"No permitir la ejecución de binarios en el sistema de archivos montado.\n"
+"Esta opción puede ser útil para un servidor que tiene sistemas de archivos\n"
+"que contienen binaros para arquitecturas distintas a la propia."
+
+#: fs/mount_options.pm:135
+#, c-format
+msgid ""
+"Do not allow set-user-identifier or set-group-identifier\n"
+"bits to take effect. (This seems safe, but is in fact rather unsafe if you\n"
+"have suidperl(1) installed.)"
+msgstr ""
+"No permitir que tengan efecto el ajuste de los bits set-user-id o set-group-"
+"id\n"
+"(Esto parece seguro, pero de hecho es bastante inseguro si tiene\n"
+"suidperl(1) instalado)"
+
+#: fs/mount_options.pm:139
+#, c-format
+msgid "Mount the filesystem read-only."
+msgstr "Montar el sistema de archivos como sólo de lectura."
+
+#: fs/mount_options.pm:141
+#, c-format
+msgid "All I/O to the filesystem should be done synchronously."
+msgstr ""
+"Toda la E/S del sistema de archivos debería hacerse de manera sincrónica."
+
+#: fs/mount_options.pm:143
+#, c-format
+msgid "Allow every user to mount and umount the filesystem."
+msgstr "Permitir a cada usuario montar y desmontar el sistema de archivos."
+
+#: fs/mount_options.pm:145
+#, c-format
+msgid "Allow an ordinary user to mount the filesystem."
+msgstr "Permitir a un usuario común montar el sistema de archivos."
+
+#: fs/mount_options.pm:147
+#, c-format
+msgid "Enable user disk quota accounting, and optionally enforce limits"
+msgstr ""
+"Permitir la contabilidad de las cuotas de disco para los usuarios, y "
+"opcionalmente forzar límites"
+
+#: fs/mount_options.pm:149
+#, c-format
+msgid "Support \"user.\" extended attributes"
+msgstr "Soportar atributos extendidos \"user.\""
+
+#: fs/mount_options.pm:151
+#, c-format
+msgid "Give write access to ordinary users"
+msgstr "Dar acceso de escritura a usuarios regulares"
+
+#: fs/mount_options.pm:153
+#, c-format
+msgid "Give read-only access to ordinary users"
+msgstr "Dar acceso sólo de lectura a usuarios regulares"
+
+#: fs/mount_point.pm:87
+#, c-format
+msgid "Duplicate mount point %s"
+msgstr "Punto de montaje %s duplicado"
+
+#: fs/mount_point.pm:102
+#, c-format
+msgid "No partition available"
+msgstr "no hay particiones disponibles"
+
+#: fs/mount_point.pm:105
+#, c-format
+msgid "Scanning partitions to find mount points"
+msgstr "Rastreando las particiones para encontrar los puntos de montaje"
+
+#: fs/mount_point.pm:112
+#, c-format
+msgid "Choose the mount points"
+msgstr "Seleccione los puntos de montaje"
+
+#: fs/partitioning.pm:46
+#, c-format
+msgid "Choose the partitions you want to format"
+msgstr "Elija las particiones que desea formatear"
+
+#: fs/partitioning.pm:75
+#, c-format
+msgid ""
+"Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+"you can lose data)"
+msgstr ""
+"Falló la verificación del sistema de archivos %s. ¿Desea reparar los "
+"errores? (cuidado, puede perder datos)"
+
+#: fs/partitioning.pm:78
+#, c-format
+msgid "Not enough swap space to fulfill installation, please add some"
+msgstr ""
+"Espacio de intercambio insuficiente para completar la instalación, añada un "
+"poco más"
+
+#: fs/partitioning_wizard.pm:66
+#, c-format
+msgid ""
+"You must have a root partition.\n"
+"To accomplish this, create a partition (or click on an existing one).\n"
+"Then choose action ``Mount point'' and set it to `/'"
+msgstr ""
+"Debe tener una partición raíz.\n"
+"Para ello, cree una partición (o haga clic sobre una que ya existe).\n"
+"Luego elija la acción \"Punto de montaje\" y defínalo como '/'"
+
+#: fs/partitioning_wizard.pm:72
+#, c-format
+msgid ""
+"You do not have a swap partition.\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"No dispone de una partición de intercambio\n"
+"\n"
+"¿Desea continuar de todas formas?"
+
+#: fs/partitioning_wizard.pm:115
+#, c-format
+msgid "Use free space"
+msgstr "Usar el espacio libre"
+
+#: fs/partitioning_wizard.pm:117
+#, c-format
+msgid "Not enough free space to allocate new partitions"
+msgstr "No hay espacio libre suficiente para asignar las particiones nuevas"
+
+#: fs/partitioning_wizard.pm:125
+#, c-format
+msgid "Use existing partitions"
+msgstr "Usar la partición existente"
+
+#: fs/partitioning_wizard.pm:127
+#, c-format
+msgid "There is no existing partition to use"
+msgstr "No hay ninguna partición existente para usar"
+
+#: fs/partitioning_wizard.pm:151
+#, c-format
+msgid "Computing the size of the Microsoft Windows® partition"
+msgstr "Calculando el espacio de la partición Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:187
+#, c-format
+msgid "Use the free space on a Microsoft Windows® partition"
+msgstr "Usar el espacio libre de una partición Windows®"
+
+#: fs/partitioning_wizard.pm:191
+#, c-format
+msgid "Which partition do you want to resize?"
+msgstr "¿A qué partición desea cambiarle el tamaño?"
+
+#: fs/partitioning_wizard.pm:194
+#, c-format
+msgid ""
+"Your Microsoft Windows® partition is too fragmented. Please reboot your "
+"computer under Microsoft Windows®, run the ``defrag'' utility, then restart "
+"the %s installation."
+msgstr ""
+"Su partición Microsoft Windows® está muy fragmentada. Por favor reinicie su "
+"computador bajo Microsoft Windows®, ejecute la utilidad ``defrag'',luego "
+"reinicie la instalación %s."
+
+#: fs/partitioning_wizard.pm:201
+#, c-format
+msgid "Failed to find the partition to resize (%d choices)"
+msgstr "No se pudo encontrar la partición para cambiar el tamaño (%d opciones)"
+
+#: fs/partitioning_wizard.pm:208
+#, c-format
+msgid ""
+"WARNING!\n"
+"\n"
+"\n"
+"Your Microsoft Windows® partition will be now resized.\n"
+"\n"
+"\n"
+"Be careful: this operation is dangerous. If you have not already done so, "
+"you first need to exit the installation, run \"chkdsk c:\" from a Command "
+"Prompt under Microsoft Windows® (beware, running graphical program \"scandisk"
+"\" is not enough, be sure to use \"chkdsk\" in a Command Prompt!), "
+"optionally run defrag, then restart the installation. You should also backup "
+"your data.\n"
+"\n"
+"\n"
+"When sure, press %s."
+msgstr ""
+"¡ADVERTENCIA!\n"
+"\n"
+"\n"
+"Ahora DrakX cambiará el tamaño de su partición Windows.\n"
+"\n"
+"\n"
+"Proceda con cuidado: esta operación es peligrosa. Si aún no lo hizo, primero "
+"debería salir de la instalación, ejecutar \"chkdsk c:\" desde una Línea de "
+"Comandos bajo Windows (atención, ejecutar el programa gráfico \"scandisk\" "
+"no es suficiente, ¡asegúrese de usar \"chkdsk\" en una Línea de Comandos!), "
+"ejecutar \"defrag\" opcionalmente, y luego volver a iniciar la instalación. "
+"También debería hacer una copia de seguridad de sus datos.\n"
+"\n"
+"\n"
+"Cuando esté seguro, pulse sobre %s."
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: fs/partitioning_wizard.pm:217 fs/partitioning_wizard.pm:594
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Next"
+msgstr "Siguiente"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Partitionning"
+msgstr "Particionando"
+
+#: fs/partitioning_wizard.pm:223
+#, c-format
+msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
+msgstr ""
+"¿Qué tamaño desea conservar para Microsoft Windows® en la partición %s?"
+
+#: fs/partitioning_wizard.pm:224
+#, c-format
+msgid "Size"
+msgstr "Tamaño"
+
+#: fs/partitioning_wizard.pm:233
+#, c-format
+msgid "Resizing Microsoft Windows® partition"
+msgstr "Cambiando tamaño a partición Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:238
+#, c-format
+msgid "FAT resizing failed: %s"
+msgstr "Falló el redimensionado de la FAT: %s"
+
+#: fs/partitioning_wizard.pm:254
+#, c-format
+msgid "There is no FAT partition to resize (or not enough space left)"
+msgstr ""
+"No hay particiones FAT para redimensionar (o no queda espacio suficiente)"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Remove Microsoft Windows®"
+msgstr "Quitar Microsoft Windows®"
+
+#: fs/partitioning_wizard.pm:259
+#, c-format
+msgid "Erase and use entire disk"
+msgstr "Borrar y usar el disco entero"
+
+#: fs/partitioning_wizard.pm:263
+#, c-format
+msgid ""
+"You have more than one hard disk drive, which one do you want the installer "
+"to use?"
+msgstr ""
+"Usted tiene más de una unidad de disco duro, ¿cuál quiere que use el "
+"instalador?"
+
+#: fs/partitioning_wizard.pm:271 fsedit.pm:638
+#, c-format
+msgid "ALL existing partitions and their data will be lost on drive %s"
+msgstr "Se perderán TODAS las particiones y sus datos en la unidad  %s"
+
+#: fs/partitioning_wizard.pm:284
+#, c-format
+msgid "Custom disk partitioning"
+msgstr "Particionamiento de disco personalizado"
+
+#: fs/partitioning_wizard.pm:290
+#, c-format
+msgid "Use fdisk"
+msgstr "Usar fdisk"
+
+#: fs/partitioning_wizard.pm:293
+#, c-format
+msgid ""
+"You can now partition %s.\n"
+"When you are done, do not forget to save using `w'"
+msgstr ""
+"Ahora puede particionar %s.\n"
+"Cuando haya terminado, no se olvide de guardar usando 'w'"
+
+#: fs/partitioning_wizard.pm:436
+#, c-format
+msgid "Ext2/3/4"
+msgstr "Ext2/3/4"
+
+#: fs/partitioning_wizard.pm:466 fs/partitioning_wizard.pm:614
+#, c-format
+msgid "I cannot find any room for installing"
+msgstr "No se puede encontrar nada de espacio para instalar"
+
+#: fs/partitioning_wizard.pm:475 fs/partitioning_wizard.pm:621
+#, c-format
+msgid "The DrakX Partitioning wizard found the following solutions:"
+msgstr ""
+"El asistente de particionamiento de DrakX encontró las siguientes soluciones:"
+
+#: fs/partitioning_wizard.pm:545
+#, c-format
+msgid "Here is the content of your disk drive "
+msgstr "Éste es el contenido de su disco"
+
+#: fs/partitioning_wizard.pm:632
+#, c-format
+msgid "Partitioning failed: %s"
+msgstr "Falló el particionamiento: %s"
+
+#: fs/type.pm:382
+#, c-format
+msgid "You cannot use JFS for partitions smaller than 16MB"
+msgstr "No se puede usar JFS para particiones menores de 32MB"
+
+#: fs/type.pm:383
+#, c-format
+msgid "You cannot use ReiserFS for partitions smaller than 32MB"
+msgstr "No se puede usar ReiserFS para particiones menores de 32MB"
+
+#: fs/type.pm:384
+#, c-format
+msgid "You cannot use btrfs for partitions smaller than 256MB"
+msgstr "No se puede usar Btfrs para particiones más pequeñas de 256 MB"
+
+#: fsedit.pm:25
+#, c-format
+msgid "simple"
+msgstr "simple"
+
+#: fsedit.pm:29
+#, c-format
+msgid "with /usr"
+msgstr "con /usr"
+
+#: fsedit.pm:34
+#, c-format
+msgid "server"
+msgstr "servidor"
+
+#: fsedit.pm:157
+#, c-format
+msgid "BIOS software RAID detected on disks %s. Activate it?"
+msgstr ""
+"Se detectó RAID por software para los discos %s en el BIOS ¿Desea activarlo?"
+
+#: fsedit.pm:267
+#, c-format
+msgid ""
+"I cannot read the partition table of device %s, it's too corrupted for me :"
+"(\n"
+"I can try to go on, erasing over bad partitions (ALL DATA will be lost!).\n"
+"The other solution is to not allow DrakX to modify the partition table.\n"
+"(the error is %s)\n"
+"\n"
+"Do you agree to lose all the partitions?\n"
+msgstr ""
+"No se puede leer la tabla de particiones de %s, está demasiado corrupta :(\n"
+"Se puede seguir, borrando las particiones malas (¡perderá TODOS LOS "
+"DATOS!).\n"
+"La otra solución es no permitir que DrakX modifique la tabla de "
+"particiones.\n"
+"(el error es %s)\n"
+"\n"
+"¿Está de acuerdo en perder todas las particiones?\n"
+
+#: fsedit.pm:450
+#, c-format
+msgid "Mount points must begin with a leading /"
+msgstr "Los puntos de montaje deben comenzar con una /"
+
+#: fsedit.pm:451
+#, c-format
+msgid "Mount points should contain only alphanumerical characters"
+msgstr "Los puntos de montaje deberían contener sólo caracteres alfanuméricos"
+
+#: fsedit.pm:452
+#, c-format
+msgid "There is already a partition with mount point %s\n"
+msgstr "Ya existe una partición con el punto de montaje %s\n"
+
+#: fsedit.pm:455
+#, c-format
+msgid ""
+"You've selected an encrypted partition as root (/).\n"
+"No bootloader is able to handle this without a /boot partition.\n"
+"Please be sure to add a separate /boot partition"
+msgstr ""
+"Ha seleccionado una partición raíz (/) cifrada.\n"
+"Ningún cargador de arranque puede manejar esto sin una partición raíz.\n"
+"Por favor asegúrese de agregar una partición /boot separada"
+
+#: fsedit.pm:461 fsedit.pm:472
+#, c-format
+msgid "You cannot use an encrypted filesystem for mount point %s"
+msgstr ""
+"No puede usar un sistema de archivos cifrado para el punto de montaje %s"
+
+#: fsedit.pm:464 fsedit.pm:466
+#, c-format
+msgid "This directory should remain within the root filesystem"
+msgstr "Este directorio debería permanecer dentro del sistema de archivos raíz"
+
+#: fsedit.pm:468 fsedit.pm:470
+#, c-format
+msgid ""
+"You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
+"point\n"
+msgstr ""
+"Necesita un sistema de archivos verdadero (ext2/3/4, reiserfs, xfs o jfs) "
+"para este punto de montaje\n"
+
+#: fsedit.pm:538
+#, c-format
+msgid "Not enough free space for auto-allocating"
+msgstr "No hay espacio libre suficiente para la asignación automática"
+
+#: fsedit.pm:540
+#, c-format
+msgid "Nothing to do"
+msgstr "Nada para hacer"
+
+#: harddrake/data.pm:62
+#, c-format
+msgid "SATA controllers"
+msgstr "Controladoras SATA"
+
+#: harddrake/data.pm:72
+#, c-format
+msgid "RAID controllers"
+msgstr "Controladoras RAID"
+
+#: harddrake/data.pm:82
+#, c-format
+msgid "(E)IDE/ATA controllers"
+msgstr "Controladores (E)IDE/ATA"
+
+#: harddrake/data.pm:93
+#, c-format
+msgid "Card readers"
+msgstr "Lectores de tarjetas"
+
+#: harddrake/data.pm:102
+#, c-format
+msgid "Firewire controllers"
+msgstr "Controladores Firewire"
+
+#: harddrake/data.pm:111
+#, c-format
+msgid "PCMCIA controllers"
+msgstr "Controladores PCMCIA"
+
+#: harddrake/data.pm:120
+#, c-format
+msgid "SCSI controllers"
+msgstr "Controladores SCSI"
+
+#: harddrake/data.pm:129
+#, c-format
+msgid "USB controllers"
+msgstr "Controladores USB"
+
+#: harddrake/data.pm:138
+#, c-format
+msgid "USB ports"
+msgstr "Puertos USB"
+
+#: harddrake/data.pm:147
+#, c-format
+msgid "SMBus controllers"
+msgstr "Controladores SMBus"
+
+#: harddrake/data.pm:156
+#, c-format
+msgid "Bridges and system controllers"
+msgstr "Puentes y controladores del sistema"
+
+#: harddrake/data.pm:168
+#, c-format
+msgid "Floppy"
+msgstr "Disquete"
+
+#: harddrake/data.pm:178
+#, c-format
+msgid "Zip"
+msgstr "Zip"
+
+#: harddrake/data.pm:194
+#, c-format
+msgid "Hard Disk"
+msgstr "Disco"
+
+#: harddrake/data.pm:204
+#, c-format
+msgid "USB Mass Storage Devices"
+msgstr "Dispositivos de almacenamiento USB"
+
+#: harddrake/data.pm:213
+#, c-format
+msgid "CDROM"
+msgstr "CD-ROM"
+
+#: harddrake/data.pm:223
+#, c-format
+msgid "CD/DVD burners"
+msgstr "Grabadoras de CD/DVD"
+
+#: harddrake/data.pm:233
+#, c-format
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: harddrake/data.pm:243
+#, c-format
+msgid "Tape"
+msgstr "Cinta"
+
+#: harddrake/data.pm:254
+#, c-format
+msgid "AGP controllers"
+msgstr "Controladoras AGP"
+
+#: harddrake/data.pm:263
+#, c-format
+msgid "Videocard"
+msgstr "Tarjeta de vídeo"
+
+#: harddrake/data.pm:272
+#, c-format
+msgid "DVB card"
+msgstr "Tarjeta DVB"
+
+#: harddrake/data.pm:280
+#, c-format
+msgid "Tvcard"
+msgstr "Tarjeta de TV"
+
+#: harddrake/data.pm:290
+#, c-format
+msgid "Other MultiMedia devices"
+msgstr "Otros dispositivos multimedios"
+
+#: harddrake/data.pm:299
+#, c-format
+msgid "Soundcard"
+msgstr "Tarjeta de sonido"
+
+#: harddrake/data.pm:313
+#, c-format
+msgid "Webcam"
+msgstr "Cámara web"
+
+#: harddrake/data.pm:328
+#, c-format
+msgid "Processors"
+msgstr "Procesadores"
+
+#: harddrake/data.pm:338
+#, c-format
+msgid "ISDN adapters"
+msgstr "Adaptadores RDSI"
+
+#: harddrake/data.pm:349
+#, c-format
+msgid "USB sound devices"
+msgstr "Dispositivos de sonido USB"
+
+#: harddrake/data.pm:358
+#, c-format
+msgid "Radio cards"
+msgstr "Tarjetas de radio"
+
+#: harddrake/data.pm:367
+#, c-format
+msgid "ATM network cards"
+msgstr "Tarjetas de red ATM"
+
+#: harddrake/data.pm:376
+#, c-format
+msgid "WAN network cards"
+msgstr "Tarjetas de red WAN"
+
+#: harddrake/data.pm:385
+#, c-format
+msgid "Bluetooth devices"
+msgstr "Dispositivos Bluetooth"
+
+#: harddrake/data.pm:394
+#, c-format
+msgid "Ethernetcard"
+msgstr "Tarjeta Ethernet"
+
+#: harddrake/data.pm:412
+#, c-format
+msgid "Modem"
+msgstr "Módem"
+
+#: harddrake/data.pm:422
+#, c-format
+msgid "ADSL adapters"
+msgstr "Adaptadores ADSL"
+
+#: harddrake/data.pm:434
+#, c-format
+msgid "Memory"
+msgstr "Memoria"
+
+#: harddrake/data.pm:443
+#, c-format
+msgid "Printer"
+msgstr "Impresora"
+
+#. -PO: these are joysticks controllers:
+#: harddrake/data.pm:457
+#, c-format
+msgid "Game port controllers"
+msgstr "Controladores de juegos"
+
+#: harddrake/data.pm:466
+#, c-format
+msgid "Joystick"
+msgstr "Joystick"
+
+#: harddrake/data.pm:476
+#, c-format
+msgid "Keyboard"
+msgstr "Teclado"
+
+#: harddrake/data.pm:490
+#, c-format
+msgid "Tablet and touchscreen"
+msgstr "Tableta y touchscreen"
+
+#: harddrake/data.pm:499
+#, c-format
+msgid "Mouse"
+msgstr "Ratón"
+
+#: harddrake/data.pm:514
+#, c-format
+msgid "Biometry"
+msgstr "Biometría"
+
+#: harddrake/data.pm:522
+#, c-format
+msgid "UPS"
+msgstr "UPS"
+
+#: harddrake/data.pm:531
+#, c-format
+msgid "Scanner"
+msgstr "Escáner"
+
+#: harddrake/data.pm:542
+#, c-format
+msgid "Unknown/Others"
+msgstr "Desconocido/Otros"
+
+#: harddrake/data.pm:572
+#, c-format
+msgid "cpu # "
+msgstr "cpu #"
+
+#: harddrake/sound.pm:80
+#, c-format
+msgid "No known driver"
+msgstr "No hay controlador conocido"
+
+#: harddrake/sound.pm:81
+#, c-format
+msgid "There's no known driver for your sound card (%s)"
+msgstr "No hay un controlador conocido para su tarjeta de sonido (%s)"
+
+#: harddrake/sound.pm:110
+#, c-format
+msgid "Enable PulseAudio"
+msgstr "Habilitar PulseAudio"
+
+#: harddrake/sound.pm:115
+#, c-format
+msgid "Use Glitch-Free mode"
+msgstr "Utilizar modo Glitch-Free"
+
+#: harddrake/sound.pm:121
+#, c-format
+msgid "Reset sound mixer to default values"
+msgstr "Restaurar el mezclador de sonido a valores predeterminados"
+
+#: harddrake/sound.pm:125
+#, c-format
+msgid "Troubleshooting"
+msgstr "Solución de problemas"
+
+#: harddrake/sound.pm:132
+#, c-format
+msgid "No alternative driver"
+msgstr "No hay controlador alternativo"
+
+#: harddrake/sound.pm:133
+#, c-format
+msgid ""
+"There's no known OSS/ALSA alternative driver for your sound card (%s) which "
+"currently uses \"%s\""
+msgstr ""
+"No hay controlador alternativo OSS/ALSA conocido para su tarjeta de sonido "
+"(%s) que en este momento usa \"%s\""
+
+#: harddrake/sound.pm:140
+#, c-format
+msgid "Sound configuration"
+msgstr "Configuración de sonido"
+
+#: harddrake/sound.pm:144
+#, c-format
+msgid "Your card uses the \"%s\" driver"
+msgstr "Su tarjeta utiliza el controlados \"%s\""
+
+#: harddrake/sound.pm:156
+#, c-format
+msgid "Sound troubleshooting"
+msgstr "Solución de problemas de sonido"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: harddrake/sound.pm:159
+#, c-format
+msgid ""
+"Below are some basic tips to help debug audio problems, but for accurate and "
+"up-to-date tips and tricks, please see:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- General Recommendation: Enable PulseAudio. If you have opted to not to use "
+"PulseAudio, we would strongly advise you enable it. For the vast majority of "
+"desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pavucontrol"
+"\" (generic) will launch graphical applications to allow you to view your "
+"sound devices and adjust volume levels\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.\n"
+"\n"
+"\n"
+"- \"pactl stat\" will check that you can connect to the PulseAudio daemon "
+"correctly.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" will tell you which programs are currently "
+"playing sound via PulseAudio.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" will tell you the current state of the "
+"OSS Proxy Daemon. This is used to enable sound from legacy applications "
+"which use the OSS sound API. You should install the \"ossp\" package if you "
+"need this functionality.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" will give you a LOT of debug information about the current "
+"state of your audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver "
+"your card uses by default.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound "
+"related kernel modules (drivers) are loaded.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA "
+"mixer controls for first sound card\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are "
+"currently using the sound card directly (normally this should only show "
+"PulseAudio)\n"
+msgstr ""
+"A continuación se muestran consejos básicos para ayudar a resolver problemas "
+"de audio. Para consejos mas precisos y actualizados, por favor vea:\n"
+"\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
+"\n"
+"- Recomendación general: Habilitar PulseAudio. Si usted ha optado por no "
+"utilizar PulseAudio, le aconsejamos habilitarlo. Para la mayoría de los usos "
+"de escritorio, PulseAudio es la opción recomendada y mejor soportada.\n"
+"\n"
+"\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) y \"pavucontrol"
+"\" (genérico) lanzarán aplicaciones gráficas que le permitirán ver sus "
+"dispositivos de sonido y ajustar los niveles de volumen\n"
+"\n"
+"\n"
+"- \"ps aux | grep pulseaudio\" revisará que PulseAudio está ejecutándose.\n"
+"\n"
+"\n"
+"- \"pactl stat\" revisará que puede conectarse correctamente al demonio "
+"PulseAudio.\n"
+"\n"
+"\n"
+"- \"pactl list sink-inputs\" le dirá qué programas están actualmente "
+"reproduciendo sonido via PulseAudio.\n"
+"\n"
+"\n"
+"- \"systemctl status osspd.service\" le dirá el estado actual del Demonio "
+"OSS Proxy Daemon. Éste es usado para habilitar sonido de aplicaciones "
+"antiguas que usan la API de sonido de OSS. Debe instalar el paquete \"ossp\" "
+"si necesita esta funcionalidad.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" le dará MUCHA información de depuración sobre el estado "
+"actual de su audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" le dirá cuál controlador de bajo nivel "
+"usa su tarjeta de sonido de manera predeterminada.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" le permitirá revisar cuáles módulos de "
+"sonido del kernel (controladores) están cargados.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" le dará un mezclador basado en texto para los controles "
+"del mezclador de bajo nivel ALSA para la primera tarjeta de sonido\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" le dirá qué programas están "
+"actualmente utilizando la tarjeta de sonido directamente. Normalmente esto "
+"sólo debería mostrar PulseAudio\n"
+
+#: harddrake/v4l.pm:12
+#, c-format
+msgid "Auto-detect"
+msgstr "Detección automática"
+
+#: harddrake/v4l.pm:97 harddrake/v4l.pm:285 harddrake/v4l.pm:337
+#, c-format
+msgid "Unknown|Generic"
+msgstr "Desconocido|Genérico"
+
+#: harddrake/v4l.pm:130
+#, c-format
+msgid "Unknown|CPH05X (bt878) [many vendors]"
+msgstr "Desconocido|CPH05X (bt878) [muchos fabricantes]"
+
+#: harddrake/v4l.pm:131
+#, c-format
+msgid "Unknown|CPH06X (bt878) [many vendors]"
+msgstr "Desconocido|CPH06X (bt878) [muchos fabricantes]"
+
+#: harddrake/v4l.pm:475
+#, c-format
+msgid ""
+"For most modern TV cards, the bttv module of the GNU/Linux kernel just auto-"
+"detect the rights parameters.\n"
+"If your card is misdetected, you can force the right tuner and card types "
+"here. Just select your TV card parameters if needed."
+msgstr ""
+"El módulo bttv del núcleo GNU/Linux simplemente detecta automáticamente los "
+"parámetros correctos para la mayoría de las tarjetas de TV modernas.\n"
+"Si no se detecta correctamente la suya, aquí puede forzar los tipos de "
+"tarjeta y sintonizador adecuados. Simplemente seleccione los parámetros de "
+"su tarjeta de TV si lo necesita."
+
+#: harddrake/v4l.pm:478
+#, c-format
+msgid "Card model:"
+msgstr "Modelo de la tarjeta :"
+
+#: harddrake/v4l.pm:479
+#, c-format
+msgid "Tuner type:"
+msgstr "Tipo de sintonizador :"
+
+#: interactive.pm:119 interactive.pm:674 interactive/curses.pm:270
+#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
+#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
+#: mygtk3.pm:928 ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:810 ugtk2.pm:833
+#: ugtk3.pm:507 ugtk3.pm:593 ugtk3.pm:906 ugtk3.pm:929
+#, c-format
+msgid "Ok"
+msgstr "Aceptar"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "Yes"
+msgstr "Sí"
+
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:809 ugtk3.pm:905
+#: wizards.pm:156
+#, c-format
+msgid "No"
+msgstr "No"
+
+#: interactive.pm:253
+#, c-format
+msgid "Choose a file"
+msgstr "Elija un archivo"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Add"
+msgstr "Agregar"
+
+#: interactive.pm:390 interactive/gtk.pm:456
+#, c-format
+msgid "Modify"
+msgstr "Modificar"
+
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:593
+#, c-format
+msgid "Finish"
+msgstr "Finalizar"
+
+#: interactive.pm:675 interactive/curses.pm:267 ugtk2.pm:517 ugtk3.pm:591
+#, c-format
+msgid "Previous"
+msgstr "Anterior"
+
+#: interactive/curses.pm:576 ugtk2.pm:870 ugtk3.pm:966
+#, c-format
+msgid "No file chosen"
+msgstr "No se ha especificado ningún archivo"
+
+#: interactive/curses.pm:580 ugtk2.pm:874 ugtk3.pm:970
+#, c-format
+msgid "You have chosen a directory, not a file"
+msgstr "Ha especificado un directorio, no un archivo"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such directory"
+msgstr "No existe ese directorio"
+
+#: interactive/curses.pm:582 ugtk2.pm:876 ugtk3.pm:972
+#, c-format
+msgid "No such file"
+msgstr "No existe ese archivo"
+
+#: interactive/gtk.pm:596
+#, c-format
+msgid "Beware, Caps Lock is enabled"
+msgstr "Atención, está habilitado el bloqueo de mayúsculas"
+
+#: interactive/stdio.pm:29 interactive/stdio.pm:154
+#, c-format
+msgid "Bad choice, try again\n"
+msgstr "Elección incorrecta, inténtelo de nuevo\n"
+
+#: interactive/stdio.pm:30 interactive/stdio.pm:155
+#, c-format
+msgid "Your choice? (default %s) "
+msgstr "¿Su elección? (por defecto %s)"
+
+#: interactive/stdio.pm:54
+#, c-format
+msgid ""
+"Entries you'll have to fill:\n"
+"%s"
+msgstr ""
+"Entradas que tendrá que rellenar:\n"
+"%s"
+
+#: interactive/stdio.pm:70
+#, c-format
+msgid "Your choice? (0/1, default `%s') "
+msgstr "¿Su elección? (0/1, por defecto '%s') "
+
+#: interactive/stdio.pm:97
+#, c-format
+msgid "Button `%s': %s"
+msgstr "Botón `%s': %s"
+
+#: interactive/stdio.pm:98
+#, c-format
+msgid "Do you want to click on this button?"
+msgstr "¿Desea pulsar este botón?"
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid "Your choice? (default `%s'%s) "
+msgstr "¿Su elección? (por defecto %s'%s) "
+
+#: interactive/stdio.pm:110
+#, c-format
+msgid " enter `void' for void entry"
+msgstr "ingrese `void' para una entrada vacía"
+
+#: interactive/stdio.pm:128
+#, c-format
+msgid "=> There are many things to choose from (%s).\n"
+msgstr "=> Hay muchas cosas para seleccionar (%s).\n"
+
+#: interactive/stdio.pm:131
+#, c-format
+msgid ""
+"Please choose the first number of the 10-range you wish to edit,\n"
+"or just hit Enter to proceed.\n"
+"Your choice? "
+msgstr ""
+"Por favor, seleccione el primer número del rango de 10 que desee\n"
+"editar, o pulse Intro para continuar.\n"
+"¿Su elección?"
+
+#: interactive/stdio.pm:144
+#, c-format
+msgid ""
+"=> Notice, a label changed:\n"
+"%s"
+msgstr ""
+"=> Aviso, una etiqueta cambió:\n"
+"%s"
+
+#: interactive/stdio.pm:151
+#, c-format
+msgid "Re-submit"
+msgstr "Reenviar"
+
+#. -PO: the string "default:LTR" can be translated *ONLY* as "default:LTR"
+#. -PO: or as "default:RTL", depending if your language is written from
+#. -PO: left to right, or from right to left; any other string is wrong.
+#: lang.pm:247
+#, c-format
+msgid "default:LTR"
+msgstr "default:LTR"
+
+#: lang.pm:301
+#, c-format
+msgid "Andorra"
+msgstr "Andorra"
+
+#: lang.pm:302 timezone.pm:237
+#, c-format
+msgid "United Arab Emirates"
+msgstr "Emiratos Árabes Unidos"
+
+#: lang.pm:303
+#, c-format
+msgid "Afghanistan"
+msgstr "Afganistán"
+
+#: lang.pm:304
+#, c-format
+msgid "Antigua and Barbuda"
+msgstr "Antigua y Barbuda"
+
+#: lang.pm:305
+#, c-format
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: lang.pm:306
+#, c-format
+msgid "Albania"
+msgstr "Albania"
+
+#: lang.pm:307
+#, c-format
+msgid "Armenia"
+msgstr "Armenia"
+
+#: lang.pm:308
+#, c-format
+msgid "Netherlands Antilles"
+msgstr "Antillas Holandesas"
+
+#: lang.pm:309
+#, c-format
+msgid "Angola"
+msgstr "Angola"
+
+#: lang.pm:310
+#, c-format
+msgid "Antarctica"
+msgstr "Antártica"
+
+#: lang.pm:311 timezone.pm:282
+#, c-format
+msgid "Argentina"
+msgstr "Argentina"
+
+#: lang.pm:312
+#, c-format
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: lang.pm:313 mirror.pm:22 timezone.pm:240
+#, c-format
+msgid "Austria"
+msgstr "Austria"
+
+#: lang.pm:314 mirror.pm:21 timezone.pm:278
+#, c-format
+msgid "Australia"
+msgstr "Australia"
+
+#: lang.pm:315
+#, c-format
+msgid "Aruba"
+msgstr "Aruba"
+
+#: lang.pm:316
+#, c-format
+msgid "Azerbaijan"
+msgstr "Azerbayán"
+
+#: lang.pm:317
+#, c-format
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia Herzegovina"
+
+#: lang.pm:318
+#, c-format
+msgid "Barbados"
+msgstr "Barbados"
+
+#: lang.pm:319 timezone.pm:222
+#, c-format
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: lang.pm:320 mirror.pm:23 timezone.pm:242
+#, c-format
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: lang.pm:321
+#, c-format
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: lang.pm:322 timezone.pm:243
+#, c-format
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: lang.pm:323
+#, c-format
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: lang.pm:324
+#, c-format
+msgid "Burundi"
+msgstr "Burundi"
+
+#: lang.pm:325
+#, c-format
+msgid "Benin"
+msgstr "Benín"
+
+#: lang.pm:326
+#, c-format
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: lang.pm:327
+#, c-format
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: lang.pm:328
+#, c-format
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: lang.pm:329 mirror.pm:24 timezone.pm:283
+#, c-format
+msgid "Brazil"
+msgstr "Brasil"
+
+#: lang.pm:330
+#, c-format
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: lang.pm:331
+#, c-format
+msgid "Bhutan"
+msgstr "Bután"
+
+#: lang.pm:332
+#, c-format
+msgid "Bouvet Island"
+msgstr "Isla Bouvet"
+
+#: lang.pm:333
+#, c-format
+msgid "Botswana"
+msgstr "Botswana"
+
+#: lang.pm:334 timezone.pm:241
+#, c-format
+msgid "Belarus"
+msgstr "Bielorrusia"
+
+#: lang.pm:335
+#, c-format
+msgid "Belize"
+msgstr "Belice"
+
+#: lang.pm:336 mirror.pm:25 timezone.pm:272
+#, c-format
+msgid "Canada"
+msgstr "Canadá"
+
+#: lang.pm:337
+#, c-format
+msgid "Cocos (Keeling) Islands"
+msgstr "Islas Cocos (Keeling)"
+
+#: lang.pm:338
+#, c-format
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: lang.pm:339
+#, c-format
+msgid "Central African Republic"
+msgstr "República Centroafricana"
+
+#: lang.pm:340
+#, c-format
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: lang.pm:341 mirror.pm:49 timezone.pm:266
+#, c-format
+msgid "Switzerland"
+msgstr "Suiza"
+
+#: lang.pm:342
+#, c-format
+msgid "Cote d'Ivoire"
+msgstr "Costa de Marfil"
+
+#: lang.pm:343
+#, c-format
+msgid "Cook Islands"
+msgstr "Islas Cook"
+
+#: lang.pm:344 timezone.pm:284
+#, c-format
+msgid "Chile"
+msgstr "Chile"
+
+#: lang.pm:345
+#, c-format
+msgid "Cameroon"
+msgstr "Camerún"
+
+#: lang.pm:346 timezone.pm:223
+#, c-format
+msgid "China"
+msgstr "China"
+
+#: lang.pm:347
+#, c-format
+msgid "Colombia"
+msgstr "Colombia"
+
+#: lang.pm:348 mirror.pm:26
+#, c-format
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: lang.pm:349
+#, c-format
+msgid "Serbia & Montenegro"
+msgstr "Serbia & Montenegro"
+
+#: lang.pm:350
+#, c-format
+msgid "Cuba"
+msgstr "Cuba"
+
+#: lang.pm:351
+#, c-format
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: lang.pm:352
+#, c-format
+msgid "Christmas Island"
+msgstr "Isla Navidad"
+
+#: lang.pm:353
+#, c-format
+msgid "Cyprus"
+msgstr "Chipre"
+
+#: lang.pm:354 mirror.pm:27 timezone.pm:244
+#, c-format
+msgid "Czech Republic"
+msgstr "República Checa"
+
+#: lang.pm:355 mirror.pm:32 timezone.pm:249
+#, c-format
+msgid "Germany"
+msgstr "Alemania"
+
+#: lang.pm:356
+#, c-format
+msgid "Djibouti"
+msgstr "Djibuti"
+
+#: lang.pm:357 mirror.pm:28 timezone.pm:245
+#, c-format
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: lang.pm:358
+#, c-format
+msgid "Dominica"
+msgstr "Dominica"
+
+#: lang.pm:359
+#, c-format
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: lang.pm:360
+#, c-format
+msgid "Algeria"
+msgstr "Argelia"
+
+#: lang.pm:361
+#, c-format
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: lang.pm:362 mirror.pm:29 timezone.pm:246
+#, c-format
+msgid "Estonia"
+msgstr "Estonia"
+
+#: lang.pm:363
+#, c-format
+msgid "Egypt"
+msgstr "Egipto"
+
+#: lang.pm:364
+#, c-format
+msgid "Western Sahara"
+msgstr "Sahara Oeste"
+
+#: lang.pm:365
+#, c-format
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: lang.pm:366 mirror.pm:47 timezone.pm:264
+#, c-format
+msgid "Spain"
+msgstr "España"
+
+#: lang.pm:367
+#, c-format
+msgid "Ethiopia"
+msgstr "Etiopía"
+
+#: lang.pm:368 mirror.pm:30 timezone.pm:247
+#, c-format
+msgid "Finland"
+msgstr "Finlandia"
+
+#: lang.pm:369
+#, c-format
+msgid "Fiji"
+msgstr "Fidji"
+
+#: lang.pm:370
+#, c-format
+msgid "Falkland Islands (Malvinas)"
+msgstr "Islas Malvinas"
+
+#: lang.pm:371
+#, c-format
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: lang.pm:372
+#, c-format
+msgid "Faroe Islands"
+msgstr "Islas Feroe"
+
+#: lang.pm:373 mirror.pm:31 timezone.pm:248
+#, c-format
+msgid "France"
+msgstr "Francia"
+
+#: lang.pm:374
+#, c-format
+msgid "Gabon"
+msgstr "Gabón"
+
+#: lang.pm:375 timezone.pm:268
+#, c-format
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+#: lang.pm:376
+#, c-format
+msgid "Grenada"
+msgstr "Granada"
+
+#: lang.pm:377
+#, c-format
+msgid "Georgia"
+msgstr "Georgia"
+
+#: lang.pm:378
+#, c-format
+msgid "French Guiana"
+msgstr "Guayana Francesa"
+
+#: lang.pm:379
+#, c-format
+msgid "Ghana"
+msgstr "Ghana"
+
+#: lang.pm:380
+#, c-format
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: lang.pm:381
+#, c-format
+msgid "Greenland"
+msgstr "Groenlandia"
+
+#: lang.pm:382
+#, c-format
+msgid "Gambia"
+msgstr "Gambia"
+
+#: lang.pm:383
+#, c-format
+msgid "Guinea"
+msgstr "Guinea"
+
+#: lang.pm:384
+#, c-format
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: lang.pm:385
+#, c-format
+msgid "Equatorial Guinea"
+msgstr "Guinea Ecuatorial"
+
+#: lang.pm:386 mirror.pm:33 timezone.pm:250
+#, c-format
+msgid "Greece"
+msgstr "Grecia"
+
+#: lang.pm:387
+#, c-format
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Islas Georgia del Sur y Sandwich del Sur"
+
+#: lang.pm:388 timezone.pm:273
+#, c-format
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: lang.pm:389
+#, c-format
+msgid "Guam"
+msgstr "Guam"
+
+#: lang.pm:390
+#, c-format
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: lang.pm:391
+#, c-format
+msgid "Guyana"
+msgstr "Guyana"
+
+#: lang.pm:392
+#, c-format
+msgid "Hong Kong SAR (China)"
+msgstr "Hong Kong SAR (China)"
+
+#: lang.pm:393
+#, c-format
+msgid "Heard and McDonald Islands"
+msgstr "Islas Heard y McDonald"
+
+#: lang.pm:394
+#, c-format
+msgid "Honduras"
+msgstr "Honduras"
+
+#: lang.pm:395
+#, c-format
+msgid "Croatia"
+msgstr "Croacia"
+
+#: lang.pm:396
+#, c-format
+msgid "Haiti"
+msgstr "Haití"
+
+#: lang.pm:397 mirror.pm:34 timezone.pm:251
+#, c-format
+msgid "Hungary"
+msgstr "Hungría"
+
+#: lang.pm:398 timezone.pm:226
+#, c-format
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: lang.pm:399 mirror.pm:35 timezone.pm:252
+#, c-format
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: lang.pm:400 mirror.pm:36 timezone.pm:228
+#, c-format
+msgid "Israel"
+msgstr "Israel"
+
+#: lang.pm:401 timezone.pm:225
+#, c-format
+msgid "India"
+msgstr "India"
+
+#: lang.pm:402
+#, c-format
+msgid "British Indian Ocean Territory"
+msgstr "Territorio Británico del Océano Índico"
+
+#: lang.pm:403
+#, c-format
+msgid "Iraq"
+msgstr "Iraq"
+
+#: lang.pm:404 timezone.pm:227
+#, c-format
+msgid "Iran"
+msgstr "Irán"
+
+#: lang.pm:405
+#, c-format
+msgid "Iceland"
+msgstr "Islandia"
+
+#: lang.pm:406 mirror.pm:37 timezone.pm:253
+#, c-format
+msgid "Italy"
+msgstr "Italia"
+
+#: lang.pm:407
+#, c-format
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: lang.pm:408
+#, c-format
+msgid "Jordan"
+msgstr "Jordania"
+
+#: lang.pm:409 mirror.pm:38 timezone.pm:229
+#, c-format
+msgid "Japan"
+msgstr "Japón"
+
+#: lang.pm:410
+#, c-format
+msgid "Kenya"
+msgstr "Kenia"
+
+#: lang.pm:411
+#, c-format
+msgid "Kyrgyzstan"
+msgstr "Kirguizistán"
+
+#: lang.pm:412
+#, c-format
+msgid "Cambodia"
+msgstr "Camboya"
+
+#: lang.pm:413
+#, c-format
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: lang.pm:414
+#, c-format
+msgid "Comoros"
+msgstr "Comores"
+
+#: lang.pm:415
+#, c-format
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts y Nevis"
+
+#: lang.pm:416
+#, c-format
+msgid "Korea (North)"
+msgstr "Corea (del Norte)"
+
+#: lang.pm:417 timezone.pm:230
+#, c-format
+msgid "Korea"
+msgstr "Corea"
+
+#: lang.pm:418
+#, c-format
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: lang.pm:419
+#, c-format
+msgid "Cayman Islands"
+msgstr "Islas Caimán"
+
+#: lang.pm:420
+#, c-format
+msgid "Kazakhstan"
+msgstr "Kazajstán"
+
+#: lang.pm:421
+#, c-format
+msgid "Laos"
+msgstr "Laos"
+
+#: lang.pm:422
+#, c-format
+msgid "Lebanon"
+msgstr "Líbano"
+
+#: lang.pm:423
+#, c-format
+msgid "Saint Lucia"
+msgstr "Santa Lucía"
+
+#: lang.pm:424
+#, c-format
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: lang.pm:425
+#, c-format
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: lang.pm:426
+#, c-format
+msgid "Liberia"
+msgstr "Liberia"
+
+#: lang.pm:427
+#, c-format
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: lang.pm:428 timezone.pm:254
+#, c-format
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: lang.pm:429 timezone.pm:255
+#, c-format
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: lang.pm:430
+#, c-format
+msgid "Latvia"
+msgstr "Letonia"
+
+#: lang.pm:431
+#, c-format
+msgid "Libya"
+msgstr "Libia"
+
+#: lang.pm:432
+#, c-format
+msgid "Morocco"
+msgstr "Marruecos"
+
+#: lang.pm:433
+#, c-format
+msgid "Monaco"
+msgstr "Mónaco"
+
+#: lang.pm:434
+#, c-format
+msgid "Moldova"
+msgstr "Moldavia"
+
+#: lang.pm:435
+#, c-format
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: lang.pm:436
+#, c-format
+msgid "Marshall Islands"
+msgstr "Islas Marshall"
+
+#: lang.pm:437
+#, c-format
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: lang.pm:438
+#, c-format
+msgid "Mali"
+msgstr "Mali"
+
+#: lang.pm:439
+#, c-format
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: lang.pm:440
+#, c-format
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: lang.pm:441
+#, c-format
+msgid "Northern Mariana Islands"
+msgstr "Islas Marianas del Norte"
+
+#: lang.pm:442
+#, c-format
+msgid "Martinique"
+msgstr "Martinica"
+
+#: lang.pm:443
+#, c-format
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: lang.pm:444
+#, c-format
+msgid "Montserrat"
+msgstr "Monserrat"
+
+#: lang.pm:445
+#, c-format
+msgid "Malta"
+msgstr "Malta"
+
+#: lang.pm:446
+#, c-format
+msgid "Mauritius"
+msgstr "Mauricio"
+
+#: lang.pm:447
+#, c-format
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: lang.pm:448
+#, c-format
+msgid "Malawi"
+msgstr "Malawi"
+
+#: lang.pm:449 timezone.pm:274
+#, c-format
+msgid "Mexico"
+msgstr "México"
+
+#: lang.pm:450 timezone.pm:231
+#, c-format
+msgid "Malaysia"
+msgstr "Malasia"
+
+#: lang.pm:451
+#, c-format
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: lang.pm:452
+#, c-format
+msgid "Namibia"
+msgstr "Namibia"
+
+#: lang.pm:453
+#, c-format
+msgid "New Caledonia"
+msgstr "Nueva Caledonia"
+
+#: lang.pm:454
+#, c-format
+msgid "Niger"
+msgstr "Níger"
+
+#: lang.pm:455
+#, c-format
+msgid "Norfolk Island"
+msgstr "Isla Norfolk"
+
+#: lang.pm:456
+#, c-format
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: lang.pm:457
+#, c-format
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: lang.pm:458 mirror.pm:39 timezone.pm:256
+#, c-format
+msgid "Netherlands"
+msgstr "Holanda"
+
+#: lang.pm:459 mirror.pm:41 timezone.pm:257
+#, c-format
+msgid "Norway"
+msgstr "Noruega"
+
+#: lang.pm:460
+#, c-format
+msgid "Nepal"
+msgstr "Nepal"
+
+#: lang.pm:461
+#, c-format
+msgid "Nauru"
+msgstr "Nauru"
+
+#: lang.pm:462
+#, c-format
+msgid "Niue"
+msgstr "Niue"
+
+#: lang.pm:463 mirror.pm:40 timezone.pm:279
+#, c-format
+msgid "New Zealand"
+msgstr "Nueva Zelanda"
+
+#: lang.pm:464
+#, c-format
+msgid "Oman"
+msgstr "Omán"
+
+#: lang.pm:465
+#, c-format
+msgid "Panama"
+msgstr "Panamá"
+
+#: lang.pm:466
+#, c-format
+msgid "Peru"
+msgstr "Perú"
+
+#: lang.pm:467
+#, c-format
+msgid "French Polynesia"
+msgstr "Polinesia Francesa"
+
+#: lang.pm:468
+#, c-format
+msgid "Papua New Guinea"
+msgstr "Papúa Nueva Guinea"
+
+#: lang.pm:469 timezone.pm:232
+#, c-format
+msgid "Philippines"
+msgstr "Filipinas"
+
+#: lang.pm:470
+#, c-format
+msgid "Pakistan"
+msgstr "Pakistán"
+
+#: lang.pm:471 mirror.pm:42 timezone.pm:258
+#, c-format
+msgid "Poland"
+msgstr "Polonia"
+
+#: lang.pm:472
+#, c-format
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre y Miquelon"
+
+#: lang.pm:473
+#, c-format
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: lang.pm:474
+#, c-format
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: lang.pm:475
+#, c-format
+msgid "Palestine"
+msgstr "Palestina"
+
+#: lang.pm:476 mirror.pm:43 timezone.pm:259
+#, c-format
+msgid "Portugal"
+msgstr "Portugal"
+
+#: lang.pm:477
+#, c-format
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: lang.pm:478
+#, c-format
+msgid "Palau"
+msgstr "Palau"
+
+#: lang.pm:479
+#, c-format
+msgid "Qatar"
+msgstr "Qatar"
+
+#: lang.pm:480
+#, c-format
+msgid "Reunion"
+msgstr "Reunión"
+
+#: lang.pm:481 timezone.pm:260
+#, c-format
+msgid "Romania"
+msgstr "Rumanía"
+
+#: lang.pm:482 mirror.pm:44
+#, c-format
+msgid "Russia"
+msgstr "Rusia"
+
+#: lang.pm:483
+#, c-format
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: lang.pm:484
+#, c-format
+msgid "Saudi Arabia"
+msgstr "Arabia Saudí"
+
+#: lang.pm:485
+#, c-format
+msgid "Solomon Islands"
+msgstr "Islas Salomón"
+
+#: lang.pm:486
+#, c-format
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: lang.pm:487
+#, c-format
+msgid "Sudan"
+msgstr "Sudán"
+
+#: lang.pm:488 mirror.pm:48 timezone.pm:265
+#, c-format
+msgid "Sweden"
+msgstr "Suecia"
+
+#: lang.pm:489 timezone.pm:233
+#, c-format
+msgid "Singapore"
+msgstr "Singapur"
+
+#: lang.pm:490
+#, c-format
+msgid "Saint Helena"
+msgstr "Santa Helena"
+
+#: lang.pm:491 timezone.pm:263
+#, c-format
+msgid "Slovenia"
+msgstr "Eslovenia"
+
+#: lang.pm:492
+#, c-format
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Islas Svalbard e Islas Jan Mayen"
+
+#: lang.pm:493 mirror.pm:45 timezone.pm:262
+#, c-format
+msgid "Slovakia"
+msgstr "Eslovaquia"
+
+#: lang.pm:494
+#, c-format
+msgid "Sierra Leone"
+msgstr "Sierra Leona"
+
+#: lang.pm:495
+#, c-format
+msgid "San Marino"
+msgstr "San Marino"
+
+#: lang.pm:496
+#, c-format
+msgid "Senegal"
+msgstr "Senegal"
+
+#: lang.pm:497
+#, c-format
+msgid "Somalia"
+msgstr "Somalia"
+
+#: lang.pm:498
+#, c-format
+msgid "Suriname"
+msgstr "Surinam"
+
+#: lang.pm:499
+#, c-format
+msgid "Sao Tome and Principe"
+msgstr "Santo Tomé y Príncipe"
+
+#: lang.pm:500
+#, c-format
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: lang.pm:501
+#, c-format
+msgid "Syria"
+msgstr "Siria"
+
+#: lang.pm:502
+#, c-format
+msgid "Swaziland"
+msgstr "Swazilandia"
+
+#: lang.pm:503
+#, c-format
+msgid "Turks and Caicos Islands"
+msgstr "Islas Turks y Caicos"
+
+#: lang.pm:504
+#, c-format
+msgid "Chad"
+msgstr "Chad"
+
+#: lang.pm:505
+#, c-format
+msgid "French Southern Territories"
+msgstr "Territorios Franceses del Sur"
+
+#: lang.pm:506
+#, c-format
+msgid "Togo"
+msgstr "Togo"
+
+#: lang.pm:507 mirror.pm:51 timezone.pm:235
+#, c-format
+msgid "Thailand"
+msgstr "Tailandia"
+
+#: lang.pm:508
+#, c-format
+msgid "Tajikistan"
+msgstr "Tajikistán"
+
+#: lang.pm:509
+#, c-format
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: lang.pm:510
+#, c-format
+msgid "East Timor"
+msgstr "Timor Oriental"
+
+#: lang.pm:511
+#, c-format
+msgid "Turkmenistan"
+msgstr "Turkmenistán"
+
+#: lang.pm:512
+#, c-format
+msgid "Tunisia"
+msgstr "Tunicia"
+
+#: lang.pm:513
+#, c-format
+msgid "Tonga"
+msgstr "Tonga"
+
+#: lang.pm:514 timezone.pm:236
+#, c-format
+msgid "Turkey"
+msgstr "Turquía"
+
+#: lang.pm:515
+#, c-format
+msgid "Trinidad and Tobago"
+msgstr "Trinidad y Tobago"
+
+#: lang.pm:516
+#, c-format
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: lang.pm:517 mirror.pm:50 timezone.pm:234
+#, c-format
+msgid "Taiwan"
+msgstr "Taiwán"
+
+#: lang.pm:518 timezone.pm:219
+#, c-format
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: lang.pm:519 timezone.pm:267
+#, c-format
+msgid "Ukraine"
+msgstr "Ucrania"
+
+#: lang.pm:520
+#, c-format
+msgid "Uganda"
+msgstr "Uganda"
+
+#: lang.pm:521
+#, c-format
+msgid "United States Minor Outlying Islands"
+msgstr "Islas Circundantes Menores de los Estados Unidos"
+
+#: lang.pm:522 mirror.pm:52 timezone.pm:275
+#, c-format
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: lang.pm:523
+#, c-format
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: lang.pm:524
+#, c-format
+msgid "Uzbekistan"
+msgstr "Uzbekistán"
+
+#: lang.pm:525
+#, c-format
+msgid "Vatican"
+msgstr "Vaticano"
+
+#: lang.pm:526
+#, c-format
+msgid "Saint Vincent and the Grenadines"
+msgstr "San Vicente y las Granadinas"
+
+#: lang.pm:527
+#, c-format
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: lang.pm:528
+#, c-format
+msgid "Virgin Islands (British)"
+msgstr "Islas Vírgenes (Británicas)"
+
+#: lang.pm:529
+#, c-format
+msgid "Virgin Islands (U.S.)"
+msgstr "Islas Vírgenes (EE.UU.)"
+
+#: lang.pm:530
+#, c-format
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: lang.pm:531
+#, c-format
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: lang.pm:532
+#, c-format
+msgid "Wallis and Futuna"
+msgstr "Wallis y Futuna"
+
+#: lang.pm:533
+#, c-format
+msgid "Samoa"
+msgstr "Samoa"
+
+#: lang.pm:534
+#, c-format
+msgid "Yemen"
+msgstr "Yemen"
+
+#: lang.pm:535
+#, c-format
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: lang.pm:536 mirror.pm:46 timezone.pm:218
+#, c-format
+msgid "South Africa"
+msgstr "Sudáfrica"
+
+#: lang.pm:537
+#, c-format
+msgid "Zambia"
+msgstr "Zambia"
+
+#: lang.pm:538
+#, c-format
+msgid "Zimbabwe"
+msgstr "Zimbaue"
+
+#: lang.pm:1537
+#, c-format
+msgid "Welcome to %s"
+msgstr "Bienvenido a %s"
+
+#: lvm.pm:128
+#, c-format
+msgid "Moving used physical extents to other physical volumes failed"
+msgstr "Falló el movimiento de espacio físico a otros volúmenes físicos"
+
+#: lvm.pm:194
+#, c-format
+msgid "Physical volume %s is still in use"
+msgstr "El volumen físico %s todavía está en uso"
+
+#: lvm.pm:204
+#, c-format
+msgid "Remove the logical volumes first\n"
+msgstr "Quite los volúmenes lógicos primero\n"
+
+#: lvm.pm:248
+#, c-format
+msgid "The bootloader can't handle /boot on multiple physical volumes"
+msgstr ""
+"El cargador de arranque no puede manejar /boot en múltiples volúmenes físicos"
+
+#. -PO: Only write something if needed:
+#: messages.pm:11
+#, c-format
+msgid "_: You can warn about unofficial translation here"
+msgstr "_: Aquí puede alertar sobre una traducción no oficial"
+
+#: messages.pm:18
+#, c-format
+msgid "Introduction"
+msgstr "Introducción"
+
+#: messages.pm:20
+#, c-format
+msgid ""
+"The operating system and the different components available in the Mageia "
+"distribution \n"
+"shall be called the \"Software Products\" hereafter. The Software Products "
+"include, but are not \n"
+"restricted to, the set of programs, methods, rules and documentation related "
+"to the operating \n"
+"system and the different components of the Mageia distribution, and any "
+"applications \n"
+"distributed with these products provided by Mageia's licensors or suppliers."
+msgstr ""
+"El sistema operativo y los diferentes componentes disponibles en la "
+"distribución Mageia \n"
+"se denominarán \"Productos de Software\" en adelante. Los Productos de "
+"Software incluyen, pero no \n"
+"están restringidos a, el conjunto de programas, métodos, reglas y "
+"documentación relativas al \n"
+"sistema operativo y a los diferentes componentes de la\n"
+"distribución Mageia, y cualquier \n"
+"aplicación distribuida con estos productos proporcionados por los "
+"proveedores o licenciatarios\n"
+"de Mageia."
+
+#: messages.pm:27
+#, c-format
+msgid "1. License Agreement"
+msgstr "1. Acuerdo de Licencia"
+
+#: messages.pm:29
+#, c-format
+msgid ""
+"Please read this document carefully. This document is a license agreement "
+"between you and  \n"
+"Mageia which applies to the Software Products.\n"
+"By installing, duplicating or using any of the Software Products in any "
+"manner, you explicitly \n"
+"accept and fully agree to conform to the terms and conditions of this "
+"License. \n"
+"If you disagree with any portion of the License, you are not allowed to "
+"install, duplicate or use \n"
+"the Software Products. \n"
+"Any attempt to install, duplicate or use the Software Products in a manner "
+"which does not comply \n"
+"with the terms and conditions of this License is void and will terminate "
+"your rights under this \n"
+"License. Upon termination of the License,  you must immediately destroy all "
+"copies of the \n"
+"Software Products."
+msgstr ""
+"Por favor, lea con cuidado este documento. El documento constituye un "
+"contrato de licencia entre usted  \n"
+"y Mageia que se aplica a los Produrctos Software.\n"
+"Al instalar, duplicar o usar cualquiera de los Productos de Software de "
+"cualquier manera, indica \n"
+"que acepta explícitamente, y está de acuerdo\n"
+"con los términos y condiciones de esta Licencia.\n"
+"Si no está de acuerdo con cualquier porción de esta Licencia. \n"
+"Si usted no está de acuerdo con una parte de la Licencia, usted no tendrá "
+"permitido instalar, \n"
+"duplicar o utilizar los Productos Software.\n"
+"Cualquier intento de instalar, duplicar o usar los Productos de Software en "
+"una manera tal que no cumpla \n"
+"con los términos y condiciones de esta Licencia es nulo y terminará sus "
+"derechos bajo esta \n"
+"Licencia. En caso de anulación de la Licencia, Usted deberá destruir "
+"inmediatamente todas las copias de los Productos de Software."
+
+#: messages.pm:41
+#, c-format
+msgid "2. Limited Warranty"
+msgstr "2. Garantía limitada"
+
+#. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
+#: messages.pm:44
+#, c-format
+msgid ""
+"The Software Products and attached documentation are provided \"as is\", "
+"with no warranty, to the \n"
+"extent permitted by law.\n"
+"Neither Mageia nor its licensors or suppliers will, in any circumstances and "
+"to the extent \n"
+"permitted by law, be liable for any special, incidental, direct or indirect "
+"damages whatsoever \n"
+"(including without limitation damages for loss of business, interruption of "
+"business, financial \n"
+"loss, legal fees and penalties resulting from a court judgment, or any other "
+"consequential loss) \n"
+"arising out of  the use or inability to use the Software Products, even if "
+"Mageia or its \n"
+"licensors or suppliers have been advised of the possibility or occurrence of "
+"such damages.\n"
+"\n"
+"LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
+"COUNTRIES\n"
+"\n"
+"To the extent permitted by law, neither Mageia nor its licensors, suppliers "
+"or\n"
+"distributors will, in any circumstances, be liable for any special, "
+"incidental, direct or indirect \n"
+"damages whatsoever (including without limitation damages for loss of "
+"business, interruption of \n"
+"business, financial loss, legal fees and penalties resulting from a court "
+"judgment, or any \n"
+"other consequential loss) arising out of the possession and use of software "
+"components or \n"
+"arising out of  downloading software components from one of Mageia sites "
+"which are \n"
+"prohibited or restricted in some countries by local laws.\n"
+"This limited liability applies to, but is not restricted to, the strong "
+"cryptography components \n"
+"included in the Software Products.\n"
+"However, because some jurisdictions do not allow the exclusion or limitation "
+"of liability for \n"
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+"Los Productos de Software y la documentación que los acompaña se "
+"proporcionan \"tal cual\", sin garantía alguna \n"
+"hasta donde lo permita la ley.\n"
+"Ni Mageia, ni sus licencitarios o proveedores se responsabilizarán, bajo "
+"circunstancia alguna, y hasta \n"
+"donde lo permita la ley, por cualquier daño directo, indirecto, especial o "
+"incidental, de cualquier \n"
+"naturaleza (incluyendo sin limitación daños por pérdidas\n"
+"de negocios, interrupción de negocio, \n"
+"pérdidas financieras, costos legales y penalidades resultantes de un juicio "
+"en la corte,\n"
+"o cualquier pérdida consecuente) que resulte del uso o de la incapacidad de "
+"uso de los Productos de Software,\n"
+"aún cuando Mageia, o sus licenciatarios o\n"
+"proveedores hubieran sido informados de la posibilidad de ocurrencia de "
+"tales daños.\n"
+"\n"
+"RESPONSABILIDAD LIMITADA ASOCIADA A LA POSESIÓN O USO DE PROGRAMAS "
+"PROHIBIDOS EN ALGUNOS PAÍSES\n"
+"\n"
+"Dentro de lo que permita la ley, ni Mageia ni sus licenciatarios, "
+"proveedores o\n"
+"distribuidores podrán ser responsabilizados en circunstancia alguna\n"
+"por un perjuicio especial, incidental, directo o indirecto, de cualquier "
+"naturaleza\n"
+"(incluyendo sin limitación daños por pérdidas de negocios, interrupción\n"
+"de negocio, pérdidas financieras, costes legales y penalidades resultantes\n"
+"de un juicio en la corte, o cualquier pérdida consecuente) como\n"
+"consecuencia de la posesión y el uso de los componentes software o como \n"
+"consecuencia de la descarga de los componentes de software desde alguno \n"
+"de los sitios de Mageia, los cuales están\n"
+"prohibidos o restringidos en algunos países por las leyes locales.\n"
+"Esta responsabilidad limitada aplica, pero no esta limitada, a los\n"
+"componentes de criptografía fuerte incluidos en los Productos de Software.\n"
+"Sin embargo, debido a que algunas jurisdicciones no permiten la exclusión\n"
+"o limitación o responsabilización por daños incidentales o consecuentes, la "
+"limitación \n"
+"anterior puede no aplicar a Usted.  "
+
+#: messages.pm:68
+#, c-format
+msgid "3. The GPL License and Related Licenses"
+msgstr "3. La Licencia GPL y Licencias Relacionadas"
+
+#: messages.pm:70
+#, c-format
+msgid ""
+"The Software Products consist of components created by different persons or "
+"entities.\n"
+"Most of these licenses allow you to use, duplicate, adapt or redistribute "
+"the components which \n"
+"they cover. Please read carefully the terms and conditions of the license "
+"agreement for each component \n"
+"before using any component. Any question on a component license should be "
+"addressed to the component \n"
+"licensor or supplier and not to Mageia.\n"
+"The programs developed by Mageia are governed by the GPL License. "
+"Documentation written \n"
+"by Mageia is governed by \"%s\" License."
+msgstr ""
+"Los Productos de Software consisten en componentes creados por personas o "
+"entidades diferentes.\n"
+"La mayoría de estas licencias le permiten utilizar, duplicar, adaptar o "
+"redistribuir los componentes \n"
+"que cubren. Por favor lea cuidadosamente los términos y condiciones de las "
+"licencias para cada \n"
+"componente antes de usar cualquier componente.\n"
+"Cualquier pregunta sobre la licencia de un componente debe ser dirigida "
+"autor o representante o \n"
+"proveedor de dicho componente, y no a Mageia.\n"
+"Los programas desarrollados por Mageia están sometidos a la Licencia GPL. La "
+"documentación \n"
+"escrita por Mageia está sometida a la licencia \"%s\"."
+
+#: messages.pm:79
+#, c-format
+msgid "4. Intellectual Property Rights"
+msgstr "4. Derechos de propiedad intelectual"
+
+#: messages.pm:81
+#, c-format
+msgid ""
+"All rights to the components of the Software Products belong to their "
+"respective authors and are \n"
+"protected by intellectual property and copyright laws applicable to software "
+"programs.\n"
+"Mageia and its suppliers and licensors reserves their rights to modify or "
+"adapt the Software \n"
+"Products, as a whole or in parts, by all means and for all purposes.\n"
+"\"Mageia\" and associated logos are trademarks of %s"
+msgstr ""
+"Todos los derechos de los componentes de los Productos de Software "
+"pertenecen a sus autores respectivos \n"
+"y están protegidos por leyes de propiedad intelectual y de derechos de autor "
+"aplicables a los programas\n"
+"de software.\n"
+"Mageia y sus licenciatarios y proveedores se reservan el derecho de "
+"modificar o adaptar los \n"
+"Productos de Software, como un todo o en parte, por todos los medios y para "
+"cualquier propósito.\n"
+"\"Mageia\" y los logos asociados son marca registrada de %s"
+
+#: messages.pm:88
+#, c-format
+msgid "5. Governing Laws"
+msgstr "5. Disposiciones diversas"
+
+#: messages.pm:90
+#, c-format
+msgid ""
+"If any portion of this agreement is held void, illegal or inapplicable by a "
+"court judgment, this \n"
+"portion is excluded from this contract. You remain bound by the other "
+"applicable sections of the \n"
+"agreement.\n"
+"The terms and conditions of this License are governed by the Laws of "
+"France.\n"
+"All disputes on the terms of this license will preferably be settled out of "
+"court. As a last \n"
+"resort, the dispute will be referred to the appropriate Courts of Law of "
+"Paris - France.\n"
+"For any question on this document, please contact Mageia."
+msgstr ""
+"Si cualquier parte de este contrato fuera declarada\n"
+"nula, ilegal o inaplicable por un tribunal competente, esta\n"
+"porción se excluye del presente contrato.  Usted permanecerá sometido a las "
+"otras disposiciones\n"
+"aplicables del acuerdo.\n"
+"Los términos y condiciones de esta Licencia están regidos por las Leyes de "
+"Francia.\n"
+"Toda disputa relativa a los términos de esta licencia será resuelta, "
+"preferentemente, fuera de una corte.\n"
+"Como último recurso, la disputa será tramitada en la Corte de Ley "
+"correspondiente a París, Francia.\n"
+"Para cualquier pregunta relacionada con este documento, por favor ponerse en "
+"contacto con Mageia"
+
+#: messages.pm:102
+#, c-format
+msgid ""
+"Warning: Free Software may not necessarily be patent free, and some Free\n"
+"Software included may be covered by patents in your country. For example, "
+"the\n"
+"MP3 decoders included may require a license for further usage (see\n"
+"http://www.mp3licensing.com for more details). If you are unsure if a "
+"patent\n"
+"may be applicable to you, check your local laws."
+msgstr ""
+"Atención: El software libre (Free Software) puede no ser estar "
+"necesariamente\n"
+"libre de patentes, y alguno software libre incluido puede estar cubierto "
+"por\n"
+"patentes en su país. Por ejemplo, los decodificadores MP3 incluídos pueden\n"
+"necesitar una licencia para uso adicional (vea http://www.mp3licensing.com\n"
+"para más detalles). Si no está seguro si una patente puede o no aplicarse\n"
+"a Usted, por favor consulte las leyes locales."
+
+#: messages.pm:111
+#, c-format
+msgid ""
+"Congratulations, installation is complete.\n"
+"Remove the boot media and press Enter to reboot."
+msgstr ""
+"Felicidades, la instalación está completa.\n"
+"Extraiga el soporte de arranque y presione Intro para reiniciar."
+
+#: messages.pm:113
+#, c-format
+msgid ""
+"For information on fixes which are available for this release of Mageia,\n"
+"consult the Errata available from:\n"
+"%s"
+msgstr ""
+"Para obtener información sobre correcciones disponibles para esta versión\n"
+"de Mageia, consulte el archivo de erratas disponible en\n"
+"%s"
+
+#: messages.pm:115
+#, c-format
+msgid ""
+"After rebooting and logging into Mageia, you will see the MageiaWelcome "
+"screen.\n"
+"It is full of very useful information and links."
+msgstr ""
+"Después de reiniciar e iniciar sesión en Mageia, podrás ver la pantalla "
+"MageiaWelcome.\n"
+"Está lleno de información y enlaces de gran utilidad."
+
+#: modules/interactive.pm:19
+#, c-format
+msgid "This driver has no configuration parameter!"
+msgstr "¡Este controlador no tiene parámetros de configuración!"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "Module configuration"
+msgstr "Configuración del módulo"
+
+#: modules/interactive.pm:22
+#, c-format
+msgid "You can configure each parameter of the module here."
+msgstr "Aquí puede configurar cada parámetro del módulo."
+
+#: modules/interactive.pm:64
+#, c-format
+msgid "Found %s interfaces"
+msgstr "Interfaces encontradas: %s"
+
+#: modules/interactive.pm:65
+#, c-format
+msgid "Do you have another one?"
+msgstr "¿Tiene alguna otra?"
+
+#: modules/interactive.pm:66
+#, c-format
+msgid "Do you have any %s interfaces?"
+msgstr "¿Tiene alguna interfaz %s?"
+
+#: modules/interactive.pm:72
+#, c-format
+msgid "See hardware info"
+msgstr "Ver información sobre el hardware"
+
+#: modules/interactive.pm:83
+#, c-format
+msgid "Installing driver for USB controller"
+msgstr "Instalando controlador para el USB"
+
+#: modules/interactive.pm:84
+#, c-format
+msgid "Installing driver for firewire controller \"%s\""
+msgstr "Instalando controlador para el firewire \"%s\""
+
+#: modules/interactive.pm:85
+#, c-format
+msgid "Installing driver for hard disk drive controller \"%s\""
+msgstr "Instalando controlador para la unidad de disco duro \"%s\""
+
+#: modules/interactive.pm:86
+#, c-format
+msgid "Installing driver for ethernet controller \"%s\""
+msgstr "Instalando controlador para la tarjeta ethernet \"%s\""
+
+#. -PO: the first %s is the card type (scsi, network, sound,...)
+#. -PO: the second is the vendor+model name
+#: modules/interactive.pm:97
+#, c-format
+msgid "Installing driver for %s card %s"
+msgstr "Instalando controlador para la tarjeta %s %s"
+
+#: modules/interactive.pm:100
+#, c-format
+msgid "Configuring Hardware"
+msgstr "Configuración del hardware"
+
+#: modules/interactive.pm:111
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Note that any address should be entered with the prefix 0x like '0x123'"
+msgstr ""
+"Ahora puede proporcionar las opciones al módulo %s.\n"
+"Note que cualquier dirección debe ingresarse con el prefijo 0x, ej.: '0x123'"
+
+#: modules/interactive.pm:117
+#, c-format
+msgid ""
+"You may now provide options to module %s.\n"
+"Options are in format ``name=value name2=value2 ...''.\n"
+"For instance, ``io=0x300 irq=7''"
+msgstr ""
+"Aquí deben ir las diferentes opciones para el módulo %s.\n"
+"Las opciones son de la forma \"nombre=valor nombre2=valor2 ...\".\n"
+"Por ejemplo, \"io=0x300 irq=7\""
+
+#: modules/interactive.pm:119
+#, c-format
+msgid "Module options:"
+msgstr "Opciones de los módulos:"
+
+#. -PO: the %s is the driver type (scsi, network, sound,...)
+#: modules/interactive.pm:132
+#, c-format
+msgid "Which %s driver should I try?"
+msgstr "¿Qué controlador de %s debo probar?"
+
+#: modules/interactive.pm:141
+#, c-format
+msgid ""
+"In some cases, the %s driver needs to have extra information to work\n"
+"properly, although it normally works fine without them. Would you like to "
+"specify\n"
+"extra options for it or allow the driver to probe your machine for the\n"
+"information it needs? Occasionally, probing will hang a computer, but it "
+"should\n"
+"not cause any damage."
+msgstr ""
+"En algunos casos, el controlador de %s necesita información extra\n"
+"para funcionar correctamente, aunque normalmente funcione sin ella.\n"
+"¿Desea especificar información extra para el controlador o dejar que el "
+"mismo\n"
+"pruebe su equipo y encuentre la información que necesita? A veces,\n"
+"el probar el equipo puede provocar que éste se cuelgue, pero no debería\n"
+"causar ningún daño."
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Autoprobe"
+msgstr "Autodetección"
+
+#: modules/interactive.pm:145
+#, c-format
+msgid "Specify options"
+msgstr "Especificar las opciones"
+
+#: modules/interactive.pm:157
+#, c-format
+msgid ""
+"Loading module %s failed.\n"
+"Do you want to try again with other parameters?"
+msgstr ""
+"Error al cargar el módulo %s.\n"
+"¿Desea intentarlo de nuevo con otros parámetros?"
+
+#: mygtk2.pm:1229 mygtk3.pm:1312
+#, c-format
+msgid "Are you sure you want to quit?"
+msgstr "¿Está seguro de que desea salir?"
+
+#: mygtk2.pm:1570 mygtk2.pm:1571 mygtk3.pm:1646 mygtk3.pm:1647
+#, c-format
+msgid "Password is trivial to guess"
+msgstr "La contraseña es muy fácil de adivinar"
+
+#: mygtk2.pm:1572 mygtk3.pm:1648
+#, c-format
+msgid "Password should be resistant to basic attacks"
+msgstr "La contraseña debería resistir ataques básicos"
+
+#: mygtk2.pm:1573 mygtk2.pm:1574 mygtk3.pm:1649 mygtk3.pm:1650
+#, c-format
+msgid "Password seems secure"
+msgstr "La contraseña parece segura"
+
+#: partition_table.pm:405
+#, c-format
+msgid "mount failed: "
+msgstr "mount falló: "
+
+#: partition_table.pm:531
+#, c-format
+msgid ""
+"You have a hole in your partition table but I cannot use it.\n"
+"The only solution is to move your primary partitions to have the hole next "
+"to the extended partitions."
+msgstr ""
+"Tiene un hueco en la tabla de particiones, pero no se puede usar.\n"
+"La única solución es desplazar sus particiones primarias para que el hueco "
+"esté después de las particiones extendidas"
+
+#: partition_table/raw.pm:293
+#, c-format
+msgid ""
+"Something bad is happening on your hard disk drive. \n"
+"A test to check the integrity of data has failed. \n"
+"It means writing anything on the disk will end up with random, corrupted "
+"data."
+msgstr ""
+"Está ocurriendo algo malo en su unidad. \n"
+"Ha fallado una prueba para verificar la integridad de los datos. \n"
+"Esto significa que escribir cualquier cosa en el disco terminará produciendo "
+"datos aleatorios, corruptos."
+
+#: pkgs.pm:260 pkgs.pm:263 pkgs.pm:276
+#, c-format
+msgid "Unused packages removal"
+msgstr "Quitar paquetes no usados"
+
+#: pkgs.pm:260
+#, c-format
+msgid "Finding unused hardware packages..."
+msgstr "Encontrando paquetes de hardware no usados..."
+
+#: pkgs.pm:263
+#, c-format
+msgid "Finding unused localization packages..."
+msgstr "Encontrando paquetes de localización no usados..."
+
+#: pkgs.pm:277
+#, c-format
+msgid ""
+"We have detected that some packages are not needed for your system "
+"configuration."
+msgstr ""
+"Se detectaron algunos paquetes que no son necesarios para la configuración "
+"de su sistema."
+
+#: pkgs.pm:278
+#, c-format
+msgid "We will remove the following packages, unless you choose otherwise:"
+msgstr "A menos que elija lo contrario, se quitarán los paquetes siguientes:"
+
+#: pkgs.pm:281 pkgs.pm:282
+#, c-format
+msgid "Unused hardware support"
+msgstr "Soporte para hardware no utilizado"
+
+#: pkgs.pm:285 pkgs.pm:286
+#, c-format
+msgid "Unused localization"
+msgstr "Idiomas no utilizados"
+
+#: raid.pm:59
+#, c-format
+msgid "Cannot add a partition to _formatted_ RAID %s"
+msgstr "No se puede añadir una partición al RAID %s_ya formateado_"
+
+#: raid.pm:200
+#, c-format
+msgid "Not enough partitions for RAID level %d\n"
+msgstr "No hay suficientes particiones para un RAID de nivel %d\n"
+
+#: scanner.pm:95
+#, c-format
+msgid "Could not create directory /usr/share/sane/firmware!"
+msgstr "¡No se pudo crear directorio /usr/share/sane/firmware!"
+
+#: scanner.pm:106
+#, c-format
+msgid "Could not create link /usr/share/sane/%s!"
+msgstr "¡No se pudo crear vínculo /usr/share/sane/%s!"
+
+#: scanner.pm:113
+#, c-format
+msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+msgstr ""
+"¡No se pudo copiar el archivo de firmware %s a /usr/share/sane/firmware!"
+
+#: scanner.pm:120
+#, c-format
+msgid "Could not set permissions of firmware file %s!"
+msgstr "¡No se pudo ajustar permisos en el archivo de firmware %s!"
+
+#: scanner.pm:199
+#, c-format
+msgid "Scannerdrake"
+msgstr "Scannerdrake"
+
+#: scanner.pm:200
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"No se pueden instalar los paquetes necesarios para compartir sus escáneres."
+
+#: scanner.pm:201
+#, c-format
+msgid "Your scanner(s) will not be available for non-root users."
+msgstr ""
+"Sus escáneres no estarán disponibles para los usuarios no privilegiados."
+
+#: security/help.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages."
+msgstr "Aceptar mensajes de error IPv4 simulados."
+
+#: security/help.pm:13
+#, c-format
+msgid "Accept broadcasted icmp echo."
+msgstr "Aceptar eco ICMP por difusión."
+
+#: security/help.pm:15
+#, c-format
+msgid "Accept icmp echo."
+msgstr "Aceptar eco ICMP."
+
+#: security/help.pm:17
+#, c-format
+msgid "Allow autologin."
+msgstr "Permitir conexión automática."
+
+#. -PO: here "ALL" is a value in a pull-down menu; translate it the same as "ALL" is
+#: security/help.pm:21
+#, c-format
+msgid ""
+"If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+"\n"
+"If set to \"None\", no issues are allowed.\n"
+"\n"
+"Else only /etc/issue is allowed."
+msgstr ""
+"Si se elige \"TODO\", permitir que existan /etc/issue y /etc/issue.net.\n"
+"\n"
+"Si se elige \"NINGUNO\" no se permiten \"issues\".\n"
+"\n"
+"De lo contrario sólo se permite /etc/issue."
+
+#: security/help.pm:27
+#, c-format
+msgid "Allow reboot by the console user."
+msgstr "Permitir reinicio por parte del usuario de la consola."
+
+#: security/help.pm:29
+#, c-format
+msgid "Allow remote root login."
+msgstr "Permitir conexión remota del administrador del sistema."
+
+#: security/help.pm:31
+#, c-format
+msgid "Allow direct root login."
+msgstr "Permitir conexión directa del administrador del sistema."
+
+#: security/help.pm:33
+#, c-format
+msgid ""
+"Allow the list of users on the system on display managers (kdm and gdm)."
+msgstr ""
+"Permitir la lista de usuarios del sistema en administradores de conexión "
+"(kdm y gdm)."
+
+#: security/help.pm:35
+#, c-format
+msgid ""
+"Allow to export display when\n"
+"passing from the root account to the other users.\n"
+"\n"
+"See pam_xauth(8) for more details.'"
+msgstr ""
+"Permitir exportar pantalla cuando\n"
+"se pasa de la cuenta del administrador del sistema a las otras cuentas.\n"
+"\n"
+"Consulte pam_xauth(8) para más detalles.'"
+
+#: security/help.pm:40
+#, c-format
+msgid ""
+"Allow X connections:\n"
+"\n"
+"- \"All\" (all connections are allowed),\n"
+"\n"
+"- \"Local\" (only connection from local machine),\n"
+"\n"
+"- \"None\" (no connection)."
+msgstr ""
+"Permitir conexiones X:\n"
+"\n"
+"- TODO (se permiten todas las conexiones),\n"
+"\n"
+"- LOCAL (sólo conexiones desde la máquina local),\n"
+"\n"
+"- NINGUNO (ninguna conexión)."
+
+#: security/help.pm:48
+#, c-format
+msgid ""
+"The argument specifies if clients are authorized to connect\n"
+"to the X server from the network on the tcp port 6000 or not."
+msgstr ""
+"El argumento especifica si los clientes están autorizados a conectar\n"
+"al servidor X en el puerto TCP 6000 o no."
+
+#. -PO: here "ALL", "Local" and "None" are values in a pull-down menu; translate them the same as they're
+#: security/help.pm:53
+#, c-format
+msgid ""
+"Authorize:\n"
+"\n"
+"- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+"set to \"ALL\",\n"
+"\n"
+"- only local ones if set to \"Local\"\n"
+"\n"
+"- none if set to \"None\".\n"
+"\n"
+"To authorize the services you need, use /etc/hosts.allow (see hosts."
+"allow(5))."
+msgstr ""
+"Autorizar:\n"
+"\n"
+"- todos los servicios controlados por tcp_wrappers (ver hosts.deny(5)) si se "
+"configura en \"TODO\",\n"
+"\n"
+"- sólo los locales si se configura en \"LOCAL\"\n"
+"\n"
+"- ninguno si se configura en \"NINGUNO\".\n"
+"\n"
+"Para autorizar los servicios que necesita, use /etc/hosts.allow (ver hosts."
+"allow(5))."
+
+#: security/help.pm:63
+#, c-format
+msgid ""
+"If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+"is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+"symlink /etc/security/msec/server to point to\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+"add a service if it is present in the file during the installation of\n"
+"packages."
+msgstr ""
+"Si SERVER_LEVEL (o SECURE_LEVEL si no está)\n"
+"es mayor que 3 en /etc/security/msec/security.conf, crea el\n"
+"symlink /etc/security/msec/server para que apunte a\n"
+"/etc/security/msec/server.<SERVER_LEVEL>.\n"
+"\n"
+"chkconfig --add utiliza a /etc/security/msec/server para decidir\n"
+"añadir un servicio si está presente en el archivo\n"
+"durante la instalación de paquetes."
+
+#: security/help.pm:72
+#, c-format
+msgid ""
+"Enable crontab and at for users.\n"
+"\n"
+"Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+"and crontab(1))."
+msgstr ""
+"Habilitar los trabajos planificados (crontab y at) para los usuarios.\n"
+"\n"
+"Poner los usuarios permitidos en /etc/cron.allow y /etc/at.allow\n"
+"(ver man at(1) y crontab(1))."
+
+#: security/help.pm:77
+#, c-format
+msgid "Enable syslog reports to console 12"
+msgstr "Habilitar reportes de syslog en la consola 12"
+
+#: security/help.pm:79
+#, c-format
+msgid ""
+"Enable name resolution spoofing protection.  If\n"
+"\"%s\" is true, also reports to syslog."
+msgstr ""
+"Habilitar protección de usurpación de resolución de nombres. Si\n"
+"\"%s\" es verdadero, también reportar a syslog."
+
+#: security/help.pm:80
+#, c-format
+msgid "Security Alerts:"
+msgstr "Alertas de seguridad:"
+
+#: security/help.pm:82
+#, c-format
+msgid "Enable IP spoofing protection."
+msgstr "Habilitar protección contra usurpación de IP"
+
+#: security/help.pm:84
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system."
+msgstr "Habilitar libsafe si es que se encuentra en el sistema."
+
+#: security/help.pm:86
+#, c-format
+msgid "Enable the logging of IPv4 strange packets."
+msgstr "Habilitar registro de paquetes IPv4 extraños."
+
+#: security/help.pm:88
+#, c-format
+msgid "Enable msec hourly security check."
+msgstr "Habilitar las verificaciones de msec todas las horas."
+
+#: security/help.pm:90
+#, c-format
+msgid ""
+"Enable su only from members of the wheel group. If set to no, allows su from "
+"any user."
+msgstr ""
+"Permitir su sólo a miembros del grupo wheel. Si es No, permite hacer su a "
+"cualquier usuario."
+
+#: security/help.pm:92
+#, c-format
+msgid "Use password to authenticate users."
+msgstr "Usar contraseña para autenticar usuarios."
+
+#: security/help.pm:94
+#, c-format
+msgid "Activate Ethernet cards promiscuity check."
+msgstr "Activar verificaciones de promiscuidad de tarjetas Ethernet."
+
+#: security/help.pm:96
+#, c-format
+msgid "Activate daily security check."
+msgstr "Activar verificaciones diarias de seguridad."
+
+#: security/help.pm:98
+#, c-format
+msgid "Enable sulogin(8) in single user level."
+msgstr "Habilitar sulogin(8) en nivel de usuario único."
+
+#: security/help.pm:100
+#, c-format
+msgid "Add the name as an exception to the handling of password aging by msec."
+msgstr ""
+"Añadir el nombre como una excepción al manejo de edad de contraseñas por "
+"msec."
+
+#: security/help.pm:102
+#, c-format
+msgid "Set password aging to \"max\" days and delay to change to \"inactive\"."
+msgstr ""
+"Configurar edad de contraseñas en \"max\" días y demorar el cambio a "
+"\"inactive\"."
+
+#: security/help.pm:104
+#, c-format
+msgid "Set the password history length to prevent password reuse."
+msgstr ""
+"Configurar la longitud de la historia de contraseñas para prevenir "
+"reutilización de contraseñas."
+
+#: security/help.pm:106
+#, c-format
+msgid ""
+"Set the password minimum length and minimum number of digit and minimum "
+"number of capitalized letters."
+msgstr ""
+"Configurar la longitud mínima de contraseña y la cantidad mínima de dígitos "
+"y cantidad mínima de letras mayúsculas."
+
+#: security/help.pm:108
+#, c-format
+msgid "Set the root's file mode creation mask."
+msgstr ""
+"Configurar la máscara de modo de creación de archivos para el administrador "
+"del sistema."
+
+#: security/help.pm:109
+#, c-format
+msgid "if set to yes, check open ports."
+msgstr "si se pone en sí, verificar puertos abiertos."
+
+#: security/help.pm:110
+#, c-format
+msgid ""
+"if set to yes, check for:\n"
+"\n"
+"- empty passwords,\n"
+"\n"
+"- no password in /etc/shadow\n"
+"\n"
+"- for users with the 0 id other than root."
+msgstr ""
+"si se pone en sí, verificar:\n"
+"\n"
+"- contraseña vacía,\n"
+"\n"
+"- sin contraseña en /etc/shadow\n"
+"\n"
+"- a los usuarios con el id 0 que no sean el administrador del sistema."
+
+#: security/help.pm:117
+#, c-format
+msgid "if set to yes, check permissions of files in the users' home."
+msgstr ""
+"si se pone en sí, verificar permisos de archivos en dirs. personales de "
+"usuarios."
+
+#: security/help.pm:118
+#, c-format
+msgid "if set to yes, check if the network devices are in promiscuous mode."
+msgstr ""
+"si se pone en sí, verificar si los dispositivos de red están en modo "
+"promiscuo."
+
+#: security/help.pm:119
+#, c-format
+msgid "if set to yes, run the daily security checks."
+msgstr "si se pone en sí, ejecutar las verificaciones de seguridad diarias."
+
+#: security/help.pm:120
+#, c-format
+msgid "if set to yes, check additions/removals of sgid files."
+msgstr "si se pone en sí, verificar adiciones/remociones de archivos sgid."
+
+#: security/help.pm:121
+#, c-format
+msgid "if set to yes, check empty password in /etc/shadow."
+msgstr "si se pone en sí, verificar contraseña vacía en /etc/shadow."
+
+#: security/help.pm:122
+#, c-format
+msgid "if set to yes, verify checksum of the suid/sgid files."
+msgstr "si se pone en sí, verificar suma de los archivos suid/sgid."
+
+#: security/help.pm:123
+#, c-format
+msgid "if set to yes, check additions/removals of suid root files."
+msgstr ""
+"si se pone en sí, verificar adiciones/remociones de archivos suid root."
+
+#: security/help.pm:124
+#, c-format
+msgid "if set to yes, report unowned files."
+msgstr "si se pone en sí, reportar archivos sin dueño."
+
+#: security/help.pm:125
+#, c-format
+msgid "if set to yes, check files/directories writable by everybody."
+msgstr ""
+"si se pone en sí, verificar archivos/directorios que todos pueden escribir."
+
+#: security/help.pm:126
+#, c-format
+msgid "if set to yes, run chkrootkit checks."
+msgstr "si se pone en sí, ejecutar verificaciones chkrootkit."
+
+#: security/help.pm:127
+#, c-format
+msgid ""
+"if set, send the mail report to this email address else send it to root."
+msgstr ""
+"si está activo, enviar el correo de reporte a esta dirección, caso contrario "
+"al administrador del sistema."
+
+#: security/help.pm:128
+#, c-format
+msgid "if set to yes, report check result by mail."
+msgstr "si se pone en sí, reportar resultado de verificación por correo-e."
+
+#: security/help.pm:129
+#, c-format
+msgid "Do not send mails if there's nothing to warn about"
+msgstr "No enviar correo si no hay advertencias"
+
+#: security/help.pm:130
+#, c-format
+msgid "if set to yes, run some checks against the rpm database."
+msgstr ""
+"si se pone en sí, correr algunas pruebas contra la base de datos de rpm."
+
+#: security/help.pm:131
+#, c-format
+msgid "if set to yes, report check result to syslog."
+msgstr "si se pone en sí, reportar resultado de verificación en syslog."
+
+#: security/help.pm:132
+#, c-format
+msgid "if set to yes, reports check result to tty."
+msgstr "si se pone en sí, reportar resultados de verificación en tty."
+
+#: security/help.pm:134
+#, c-format
+msgid "Set shell commands history size. A value of -1 means unlimited."
+msgstr ""
+"Ajustar el tamaño de la historia de comandos. Un valor de -1 significa "
+"ilimitada."
+
+#: security/help.pm:136
+#, c-format
+msgid "Set the shell timeout. A value of zero means no timeout."
+msgstr "Ajustar el timeout del shell. Un valor de cero significa sin timeout."
+
+#: security/help.pm:136
+#, c-format
+msgid "Timeout unit is second"
+msgstr "La unidad del tiempo de espera es el segundo"
+
+#: security/help.pm:138
+#, c-format
+msgid "Set the user's file mode creation mask."
+msgstr "Configurar la máscara de creación de archivos para los usuarios."
+
+#: security/l10n.pm:11
+#, c-format
+msgid "Accept bogus IPv4 error messages"
+msgstr "Aceptar mensajes de error IPv4 simulados"
+
+#: security/l10n.pm:12
+#, c-format
+msgid "Accept broadcasted icmp echo"
+msgstr "Aceptar eco ICMP difundido"
+
+#: security/l10n.pm:13
+#, c-format
+msgid "Accept icmp echo"
+msgstr "Aceptar eco ICMP"
+
+#: security/l10n.pm:15
+#, c-format
+msgid "/etc/issue* exist"
+msgstr "/etc/issue*.exist"
+
+#: security/l10n.pm:16
+#, c-format
+msgid "Reboot by the console user"
+msgstr "El usuario puede reiniciar desde la consola"
+
+#: security/l10n.pm:17
+#, c-format
+msgid "Allow remote root login"
+msgstr "Permitir conexión remota del administrador del sistema"
+
+#: security/l10n.pm:18
+#, c-format
+msgid "Direct root login"
+msgstr "Conexión directa del administrador del sistema"
+
+#: security/l10n.pm:19
+#, c-format
+msgid "List users on display managers (kdm and gdm)"
+msgstr "Listar usuarios del sistema en administradores de conexión (kdm y gdm)"
+
+#: security/l10n.pm:20
+#, c-format
+msgid "Export display when passing from root to the other users"
+msgstr ""
+"Exportar pantalla cuando se pasa del administrador del sistema a otras "
+"cuentas"
+
+#: security/l10n.pm:21
+#, c-format
+msgid "Allow X Window connections"
+msgstr "Permitir conexiones X Window"
+
+#: security/l10n.pm:22
+#, c-format
+msgid "Authorize TCP connections to X Window"
+msgstr "Autorizar conexiones TCP desde X Window"
+
+#: security/l10n.pm:23
+#, c-format
+msgid "Authorize all services controlled by tcp_wrappers"
+msgstr "Autorizar todos los servicios controlados por tcp_wrappers"
+
+#: security/l10n.pm:24
+#, c-format
+msgid "Chkconfig obey msec rules"
+msgstr "Chkconfig obedece las reglas de msec"
+
+#: security/l10n.pm:25
+#, c-format
+msgid "Enable \"crontab\" and \"at\" for users"
+msgstr "Habilitar \"crontab\" y \"at\" para los usuarios"
+
+#: security/l10n.pm:26
+#, c-format
+msgid "Syslog reports to console 12"
+msgstr "Syslog reporta en la consola 12"
+
+#: security/l10n.pm:27
+#, c-format
+msgid "Name resolution spoofing protection"
+msgstr "Protección contra usurpación de resolución de nombres"
+
+#: security/l10n.pm:28
+#, c-format
+msgid "Enable IP spoofing protection"
+msgstr "Habilitar protección contra usurpación de IP"
+
+#: security/l10n.pm:29
+#, c-format
+msgid "Enable libsafe if libsafe is found on the system"
+msgstr "Habilitar libsafe si es que se encuentra en el sistema"
+
+#: security/l10n.pm:30
+#, c-format
+msgid "Enable the logging of IPv4 strange packets"
+msgstr "Habilitar registro de paquetes IPv4 extraños"
+
+#: security/l10n.pm:31
+#, c-format
+msgid "Enable msec hourly security check"
+msgstr "Habilitar verificación horaria de seguridad de msec"
+
+#: security/l10n.pm:32
+#, c-format
+msgid "Enable su only from the wheel group members"
+msgstr "Permitir su sólo a miembros del grupo wheel"
+
+#: security/l10n.pm:33
+#, c-format
+msgid "Use password to authenticate users"
+msgstr "Usar contraseña para autenticar usuarios"
+
+#: security/l10n.pm:34
+#, c-format
+msgid "Ethernet cards promiscuity check"
+msgstr "Verificaciones de promiscuidad de tarjetas Ethernet"
+
+#: security/l10n.pm:35
+#, c-format
+msgid "Daily security check"
+msgstr "Verificación diaria de seguridad"
+
+#: security/l10n.pm:36
+#, c-format
+msgid "Sulogin(8) in single user level"
+msgstr "Sulogin(8) en nivel de usuario único"
+
+#: security/l10n.pm:37
+#, c-format
+msgid "No password aging for"
+msgstr "Sin edad de contraseñas para"
+
+#: security/l10n.pm:38
+#, c-format
+msgid "Set password expiration and account inactivation delays"
+msgstr ""
+"Ajustar expiración de contraseñas y demoras de desactivación de cuentas"
+
+#: security/l10n.pm:39
+#, c-format
+msgid "Password history length"
+msgstr "Longitud de historia de contraseñas"
+
+#: security/l10n.pm:40
+#, c-format
+msgid "Password minimum length and number of digits and upcase letters"
+msgstr ""
+"Longitud mínima y cantidad de dígitos y letras mayúsculas para contraseñas"
+
+#: security/l10n.pm:41
+#, c-format
+msgid "Root umask"
+msgstr "Máscara del administrador del sistema"
+
+#: security/l10n.pm:42
+#, c-format
+msgid "Shell history size"
+msgstr "Tamaño de historia del shell"
+
+#: security/l10n.pm:43
+#, c-format
+msgid "Shell timeout"
+msgstr "Tiempo de espera del shell"
+
+#: security/l10n.pm:44
+#, c-format
+msgid "User umask"
+msgstr "Máscara de usuario"
+
+#: security/l10n.pm:45
+#, c-format
+msgid "Check open ports"
+msgstr "Verificar puertos abiertos"
+
+#: security/l10n.pm:46
+#, c-format
+msgid "Check for unsecured accounts"
+msgstr "Verificar cuentas no seguras"
+
+#: security/l10n.pm:47
+#, c-format
+msgid "Check permissions of files in the users' home"
+msgstr "Verificar permisos de archivos en dirs. personales de usuarios"
+
+#: security/l10n.pm:48
+#, c-format
+msgid "Check if the network devices are in promiscuous mode"
+msgstr "Verificar si los dispositivos de red están en modo promiscuo"
+
+#: security/l10n.pm:49
+#, c-format
+msgid "Run the daily security checks"
+msgstr "Ejecutar verificaciones de seguridad diarias"
+
+#: security/l10n.pm:50
+#, c-format
+msgid "Check additions/removals of sgid files"
+msgstr "Verificar adiciones/remociones de archivos sgid"
+
+#: security/l10n.pm:51
+#, c-format
+msgid "Check empty password in /etc/shadow"
+msgstr "Comprobar contraseña vacía en /etc/shadow"
+
+#: security/l10n.pm:52
+#, c-format
+msgid "Verify checksum of the suid/sgid files"
+msgstr "Verificar suma de los archivos suid/sgid"
+
+#: security/l10n.pm:53
+#, c-format
+msgid "Check additions/removals of suid root files"
+msgstr "Verificar adiciones/remociones de archivos suid root"
+
+#: security/l10n.pm:54
+#, c-format
+msgid "Report unowned files"
+msgstr "Reportar archivos sin dueño"
+
+#: security/l10n.pm:55
+#, c-format
+msgid "Check files/directories writable by everybody"
+msgstr "Verificar archivos/directorios que todos pueden escribir"
+
+#: security/l10n.pm:56
+#, c-format
+msgid "Run chkrootkit checks"
+msgstr "Ejecutar verificaciones chkrootkit"
+
+#: security/l10n.pm:57
+#, c-format
+msgid "Do not send empty mail reports"
+msgstr "No enviar por correo electrónico los reportes vacíos"
+
+#: security/l10n.pm:58
+#, c-format
+msgid "If set, send the mail report to this email address else send it to root"
+msgstr ""
+"Si está activo, enviar el correo de reporte a esta dirección, caso contrario "
+"al administrador del sistema."
+
+#: security/l10n.pm:59
+#, c-format
+msgid "Report check result by mail"
+msgstr "Reportar resultado de verificación por correo-e"
+
+#: security/l10n.pm:60
+#, c-format
+msgid "Run some checks against the rpm database"
+msgstr "Correr algunas pruebas contra la base de datos de rpm"
+
+#: security/l10n.pm:61
+#, c-format
+msgid "Report check result to syslog"
+msgstr "Reportar resultado de verificación en syslog"
+
+#: security/l10n.pm:62
+#, c-format
+msgid "Reports check result to tty"
+msgstr "Reportar resultados de verificación en tty"
+
+#: security/level.pm:10
+#, c-format
+msgid "Disable msec"
+msgstr "Desabilitar msec"
+
+#: security/level.pm:11
+#, c-format
+msgid "Standard"
+msgstr "Estándar"
+
+#: security/level.pm:12
+#, c-format
+msgid "Secure"
+msgstr "Seguro"
+
+#: security/level.pm:52
+#, c-format
+msgid ""
+"This level is to be used with care, as it disables all additional security\n"
+"provided by msec. Use it only when you want to take care of all aspects of "
+"system security\n"
+"on your own."
+msgstr ""
+"Este nivel es para ser usado con mucho cuidado, yá que esto desabilita toda "
+"la\n"
+"seguridad. Utilícelo sólo si usted maneja a sí mismo la seguridad de su "
+"sistema."
+
+#: security/level.pm:55
+#, c-format
+msgid ""
+"This is the standard security recommended for a computer that will be used "
+"to connect to the Internet as a client."
+msgstr ""
+"Éste es el nivel de seguridad estándar recomendado para una máquina que se\n"
+"utilizará para conectarse a la Internet como cliente."
+
+#: security/level.pm:56
+#, c-format
+msgid ""
+"With this security level, the use of this system as a server becomes "
+"possible.\n"
+"The security is now high enough to use the system as a server which can "
+"accept\n"
+"connections from many clients. Note: if your machine is only a client on the "
+"Internet, you should choose a lower level."
+msgstr ""
+"Con este nivel de seguridad, es posible utilizar el sistema como un "
+"servidor.\n"
+"La seguridad es lo suficientemente alta como para usar el sistema como un\n"
+"servidor que acepte conexiones de múltiples clientes. Nota: si su máquina "
+"sólo es un cliente en la Internet, mejor debería elegir un nivel inferior."
+
+#: security/level.pm:63
+#, c-format
+msgid "DrakSec Basic Options"
+msgstr "Opciones básicas de DrakSec"
+
+#: security/level.pm:66
+#, c-format
+msgid "Please choose the desired security level"
+msgstr "Por favor, elija el nivel de seguridad deseado"
+
+#. -PO: this string is used to properly format "<security level>: <level description>"
+#: security/level.pm:70
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: security/level.pm:73
+#, c-format
+msgid "Security Administrator:"
+msgstr "Administrador de seguridad:"
+
+#: security/level.pm:74
+#, c-format
+msgid "Login or email:"
+msgstr "Usuario o correo electrónico:"
+
+#: services.pm:18
+#, c-format
+msgid "Listen and dispatch ACPI events from the kernel"
+msgstr "Escuchar y despachar eventos ACPI desde el kernel"
+
+#: services.pm:19
+#, c-format
+msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+msgstr ""
+"Lanzar el sistema de sonido ALSA (Arquitectura avanzada de sonido de Linux)"
+
+#: services.pm:20
+#, c-format
+msgid "Anacron is a periodic command scheduler."
+msgstr "Anacron, un planificador de comandos periódicos."
+
+#: services.pm:21
+#, c-format
+msgid ""
+"apmd is used for monitoring battery status and logging it via syslog.\n"
+"It can also be used for shutting down the machine when the battery is low."
+msgstr ""
+"apmd se usa para monitorizar el estado de las baterías y enviar esa\n"
+"información a syslogd. También puede usarse para apagar el equipo cuando\n"
+"la batería está casi descargada."
+
+#: services.pm:23
+#, c-format
+msgid ""
+"Runs commands scheduled by the at command at the time specified when\n"
+"at was run, and runs batch commands when the load average is low enough."
+msgstr ""
+"Ejecuta los comandos programados por el comando at en el momento\n"
+"especificado al lanzar at, y ejecuta comandos por lotes (batch) cuando\n"
+"la carga promedio del sistema es suficientemente baja."
+
+#: services.pm:25
+#, c-format
+msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
+msgstr "Avahi es un demonio ZeroConf que implementa una pila mDNS"
+
+#: services.pm:26
+#, c-format
+msgid "An NTP client/server"
+msgstr "Un cliente/servidor NTP"
+
+#: services.pm:27
+#, c-format
+msgid "Set CPU frequency settings"
+msgstr "Establecer los parámetros de frecuencia de CPU"
+
+#: services.pm:28
+#, c-format
+msgid ""
+"cron is a standard UNIX program that runs user-specified programs\n"
+"at periodic scheduled times. vixie cron adds a number of features to the "
+"basic\n"
+"UNIX cron, including better security and more powerful configuration options."
+msgstr ""
+"cron es un programa UNIX estándar que ejecuta programas especificados por\n"
+"el usuario periódicamente. El cron de Vixie añade varias funcionalidades al "
+"cron de Unix \n"
+"básico, incluyendo una mayor seguridad y opciones de configuración más "
+"potentes."
+
+#: services.pm:31
+#, c-format
+msgid ""
+"Common UNIX Printing System (CUPS) is an advanced printer spooling system"
+msgstr ""
+"CUPS (Common UNIX Printing System) es un sistema de cola de impresión "
+"avanzado"
+
+#: services.pm:32
+#, c-format
+msgid "Launches the graphical display manager"
+msgstr "Lanza el administrador de conexión gráfico"
+
+#: services.pm:33
+#, c-format
+msgid ""
+"FAM is a file monitoring daemon. It is used to get reports when files "
+"change.\n"
+"It is used by GNOME and KDE"
+msgstr ""
+"FAM es un demonio de monitoreo de archivos. Se usa para obtener reportes "
+"cuando cambian los archivos.\n"
+"Lo utilizan GNOME y KDE"
+
+#: services.pm:35
+#, c-format
+msgid ""
+"G15Daemon allows users access to all extra keys by decoding them and \n"
+"pushing them back into the kernel via the linux UINPUT driver. This driver "
+"must be loaded \n"
+"before g15daemon can be used for keyboard access. The G15 LCD is also "
+"supported. By default, \n"
+"with no other clients active, g15daemon will display a clock. Client "
+"applications and \n"
+"scripts can access the LCD via a simple API."
+msgstr ""
+"El demonio G15Daemon permite a los usuarios acceder a todas las teclas extra "
+"decodificándolas y \n"
+"devolviéndolas al kernel por medio del controlador de linux UINPUT. Este "
+"controlador debe estar \n"
+"cargado antes de que el demonio g15daemon pueda ser utilizado para acceso de "
+"teclado. El G15 \n"
+"LCD también está soportado. El g15daemon mostrará un reloj de manera "
+"predeterminada si no hay \n"
+"otros clientes activos. Las aplicaciones y scripts de clientes y pueden "
+"acceder el LCD por medio de \n"
+"una API simple."
+
+#: services.pm:40
+#, c-format
+msgid ""
+"GPM adds mouse support to text-based Linux applications such the\n"
+"Midnight Commander. It also allows mouse-based console cut-and-paste "
+"operations,\n"
+"and includes support for pop-up menus on the console."
+msgstr ""
+"GPM añade soporte del ratón para los programas Linux en modo texto, como\n"
+"el Midnight Commander. También permite operaciones de cortar-y-pegar con\n"
+"el ratón en la consola, e incluye soporte para menús emergentes en la "
+"consola."
+
+#: services.pm:43
+#, c-format
+msgid "HAL is a daemon that collects and maintains information about hardware"
+msgstr ""
+"HAL es un servicio que recolecta y mantiene información acerca del hardware"
+
+#: services.pm:44
+#, c-format
+msgid ""
+"HardDrake runs a hardware probe, and optionally configures\n"
+"new/changed hardware."
+msgstr ""
+"HardDrake lanza una prueba del hardware, y opcionalmente configura\n"
+"el hardware nuevo/cambiado."
+
+#: services.pm:46
+#, c-format
+msgid ""
+"Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+msgstr ""
+"Apache es un servidor de páginas web. Se usa para servir archivos HTML y "
+"programas CGI."
+
+#: services.pm:47
+#, c-format
+msgid ""
+"The internet superserver daemon (commonly called inetd) starts a\n"
+"variety of other internet services as needed. It is responsible for "
+"starting\n"
+"many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+"disables\n"
+"all of the services it is responsible for."
+msgstr ""
+"El demonio para el superservidor de Internet (normalmente llamado inetd) "
+"inicia\n"
+"una variedad de servicios adicionales de internet según sea necesario.\n"
+"Es el responsable de iniciar varios servicios, incluyendo telnet, ftp, rsh\n"
+"y rlogin. Al desactivar inetd, se desactivan todos los servicios que "
+"dependen de él."
+
+#: services.pm:51
+#, c-format
+msgid "Automates a packet filtering firewall with ip6tables"
+msgstr "Automatiza un cortafuegos para filtro de paquetes con ip6tables"
+
+#: services.pm:52
+#, c-format
+msgid "Automates a packet filtering firewall with iptables"
+msgstr "Automatiza un cortafuegos para filtro de paquetes con ip6tables"
+
+#: services.pm:53
+#, c-format
+msgid ""
+"Evenly distributes IRQ load across multiple CPUs for enhanced performance"
+msgstr ""
+"Distribuye la carga IRQ de manera equitativa a través de múltiples CPUs para "
+"un desempeño mejorado"
+
+#: services.pm:54
+#, c-format
+msgid ""
+"This package loads the selected keyboard map as set in\n"
+"/etc/sysconfig/keyboard.  This can be selected using the kbdconfig utility.\n"
+"You should leave this enabled for most machines."
+msgstr ""
+"Este paquete carga la definición de teclado que se indica en\n"
+"/etc/sysconfig/keyboard.  Puede ser configurado con el programa kbdconfig.\n"
+"Debe dejarse activo en la mayoría de las máquinas."
+
+#: services.pm:57
+#, c-format
+msgid ""
+"Automatic regeneration of kernel header in /boot for\n"
+"/usr/include/linux/{autoconf,version}.h"
+msgstr ""
+"Regeneración automática de la cabecera del núcleo en /boot para\n"
+"/usr/include/linux/{autoconf,version}.h"
+
+#: services.pm:59
+#, c-format
+msgid "Automatic detection and configuration of hardware at boot."
+msgstr "Detección y configuración automática del hardware al arrancar."
+
+#: services.pm:60
+#, c-format
+msgid "Tweaks system behavior to extend battery life"
+msgstr ""
+"Afina el comportamiento del sistema para extender la vida de la batería"
+
+#: services.pm:61
+#, c-format
+msgid ""
+"Linuxconf will sometimes arrange to perform various tasks\n"
+"at boot-time to maintain the system configuration."
+msgstr ""
+"Linuxconf a veces realizará varias tareas al arrancar para\n"
+"mantener la configuración del sistema."
+
+#: services.pm:63
+#, c-format
+msgid ""
+"lpd is the print daemon required for lpr to work properly. It is\n"
+"basically a server that arbitrates print jobs to printer(s)."
+msgstr ""
+"lpd es el demonio de impresión, necesario para que lpr funcione\n"
+"correctamente. Básicamente, es un servidor que coloca las tareas de\n"
+"impresión en las colas de impresión adecuadas para cada impresora."
+
+#: services.pm:65
+#, c-format
+msgid ""
+"Linux Virtual Server, used to build a high-performance and highly\n"
+"available server."
+msgstr ""
+"El servidor virtual de Linux (LVS) se usa para construir servidores de alto\n"
+"rendimiento y alta disponibilidad."
+
+#: services.pm:67
+#, c-format
+msgid "Monitors the network (Interactive Firewall and wireless"
+msgstr "Monitorea la red (Cortafuegos interactivo e inalámbrica)"
+
+#: services.pm:68
+#, c-format
+msgid "Software RAID monitoring and management"
+msgstr "Monitoreo y administración de RAID por software"
+
+#: services.pm:69
+#, c-format
+msgid ""
+"DBUS is a daemon which broadcasts notifications of system events and other "
+"messages"
+msgstr ""
+"DBUS es un servicio que difunde notificaciones de los eventos del sistema y "
+"otros mensajes"
+
+#: services.pm:70
+#, c-format
+msgid "Enables MSEC security policy on system startup"
+msgstr "Habilita la política de seguridad de MSEC al inicio del sistema"
+
+#: services.pm:71
+#, c-format
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+"names to IP addresses."
+msgstr ""
+"named (BIND) es un servidor de nombres de dominio (DNS) usado para convertir "
+"los nombres de máquinas en direcciones IP."
+
+#: services.pm:72
+#, c-format
+msgid "Initializes network console logging"
+msgstr "Inicializa el registro de consola de red"
+
+#: services.pm:73
+#, c-format
+msgid ""
+"Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+"Manager/Windows), and NCP (NetWare) mount points."
+msgstr ""
+"Monta y desmonta todos los puntos de montaje de sistemas de archivos\n"
+"compartidos por medio de la red; como NFS (Network File System),\n"
+"SMB (Lan Manager/Windows) y NCP (Netware)"
+
+#: services.pm:75
+#, c-format
+msgid ""
+"Activates/Deactivates all network interfaces configured to start\n"
+"at boot time."
+msgstr ""
+"Activa/desactiva todas las interfaces de red configuradas para iniciarse\n"
+"en el arranque del sistema."
+
+#: services.pm:77
+#, c-format
+msgid "Requires network to be up if enabled"
+msgstr "Requiere que la red esté conectada si se habilita"
+
+#: services.pm:78
+#, c-format
+msgid "Wait for the hotplugged network to be up"
+msgstr "Espera a que la red de conexión en caliente esté conectada"
+
+#: services.pm:79
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+"This service provides NFS server functionality, which is configured via the\n"
+"/etc/exports file."
+msgstr ""
+"NFS es un protocolo muy popular para compartir archivos en redes TCP/IP.\n"
+"Este servicio proporciona la funcionalidad de servidor NFS, que se "
+"configura\n"
+"a través del archivo /etc/exports."
+
+#: services.pm:82
+#, c-format
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP\n"
+"networks. This service provides NFS file locking functionality."
+msgstr ""
+"NFS es un protocolo muy popular para compartir archivos en redes TCP/IP.\n"
+"Este servicio proporciona la funcionalidad de bloqueo de archivos por NFS."
+
+#: services.pm:84
+#, c-format
+msgid "Synchronizes system time using the Network Time Protocol (NTP)"
+msgstr "Sincroniza la hora del sistema usando NTP (Network Time Protocol)"
+
+#: services.pm:85
+#, c-format
+msgid ""
+"Automatically switch on numlock key locker under console\n"
+"and Xorg at boot."
+msgstr ""
+"Activar el bloqueo numérico automáticamente bajo la consola y\n"
+"Xorg al arrancar."
+
+#: services.pm:87
+#, c-format
+msgid "Support the OKI 4w and compatible winprinters."
+msgstr "Admitir las win-impresoras OKI 4w y compatibles."
+
+#: services.pm:88
+#, c-format
+msgid "Checks if a partition is close to full up"
+msgstr "Comprueba si una partición está pronto a llenarse"
+
+#: services.pm:89
+#, c-format
+msgid ""
+"PCMCIA support is usually to support things like ethernet and\n"
+"modems in laptops.  It will not get started unless configured so it is safe "
+"to have\n"
+"it installed on machines that do not need it."
+msgstr ""
+"El soporte PCMCIA se usa por lo general para admitir cosas como tarjetas\n"
+"de red o módems en ordenadores portátiles.  No se iniciará salvo que\n"
+"esté configurado, por lo que no es un problema tenerlo instalado\n"
+"en máquinas que no lo necesiten."
+
+#: services.pm:92
+#, c-format
+msgid ""
+"The portmapper manages RPC connections, which are used by\n"
+"protocols such as NFS and NIS. The portmap server must be running on "
+"machines\n"
+"which act as servers for protocols which make use of the RPC mechanism."
+msgstr ""
+"El portmapper gestiona las conexiones RPC; que usan protocolos como\n"
+"NFS y NIS. El servidor portmap se debe estar ejecutando en los sistemas que "
+"actúan\n"
+"como servidores para protocolos que usan el mecanismo RPC."
+
+#: services.pm:95
+#, c-format
+msgid "Reserves some TCP ports"
+msgstr "Reserva algunos puertos TCP"
+
+#: services.pm:96
+#, c-format
+msgid ""
+"Postfix is a Mail Transport Agent, which is the program that moves mail from "
+"one machine to another."
+msgstr ""
+"Postfix es un agente de transporte de correo (MTA), es decir el programa "
+"encargado de enviar el correo electrónico de una máquina a otra."
+
+#: services.pm:97
+#, c-format
+msgid ""
+"Saves and restores system entropy pool for higher quality random\n"
+"number generation."
+msgstr ""
+"Guarda y recupera el mecanismo de entropía del sistema; usado para la\n"
+"generación de números aleatorios de gran calidad."
+
+#: services.pm:99
+#, c-format
+msgid ""
+"Assign raw devices to block devices (such as hard disk drive\n"
+"partitions), for the use of applications such as Oracle or DVD players"
+msgstr ""
+"Asignar dispositivos 'crudos' a dispositivos de bloque (como las particiones "
+"de los discos), para usar aplicaciones como Oracle o reproductores DVD"
+
+#: services.pm:101
+#, c-format
+msgid "Nameserver information manager"
+msgstr "Administración de información de servidor de nombres"
+
+#: services.pm:102
+#, c-format
+msgid ""
+"The routed daemon allows for automatic IP router table updated via\n"
+"the RIP protocol. While RIP is widely used on small networks, more complex\n"
+"routing protocols are needed for complex networks."
+msgstr ""
+"El demonio routed permite actualizar automáticamente las tablas de "
+"enrutamiento IP\n"
+"gracias al protocolo RIP. Mientras que RIP se usa bastante en redes "
+"pequeñas,\n"
+"para redes más complejas, se necesitan protocolos de enrutamiento más "
+"complejos."
+
+#: services.pm:105
+#, c-format
+msgid ""
+"The rstat protocol allows users on a network to retrieve\n"
+"performance metrics for any machine on that network."
+msgstr ""
+"El protocolo rstat permite a los usuarios de una red recoger\n"
+"información sobre el rendimiento de cualquier máquina de dicha red."
+
+#: services.pm:107
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages to various "
+"system log files.  It is a good idea to always run rsyslog."
+msgstr ""
+"Syslog es el servicio con el cual muchos demonios envían mensajes a varios "
+"archivos de registro del sistema. Es una buena idea siempre ejecutar rsyslog."
+
+#: services.pm:108
+#, c-format
+msgid ""
+"The rusers protocol allows users on a network to identify who is\n"
+"logged in on other responding machines."
+msgstr ""
+"El protocolo rusers permite que los usuarios de una red identifiquen\n"
+"quien está conectado en otras máquinas que respondan."
+
+#: services.pm:110
+#, c-format
+msgid ""
+"The rwho protocol lets remote users get a list of all of the users\n"
+"logged into a machine running the rwho daemon (similar to finger)."
+msgstr ""
+"El protocolo rwho permite que los usuarios remotos obtengan una lista\n"
+"de todos los usuarios conectados a una máquina que ejecuta el demonio rwho\n"
+"(similar al finger)."
+
+#: services.pm:112
+#, c-format
+msgid ""
+"SANE (Scanner Access Now Easy) enables to access scanners, video cameras, ..."
+msgstr ""
+"SANE (Scanner Access Now Easy) permite acceder a escáner, cámaras de "
+"vídeo, ..."
+
+#: services.pm:113
+#, c-format
+msgid "Packet filtering firewall"
+msgstr "Cortafuegos de filtro de paquetes"
+
+#: services.pm:114
+#, c-format
+msgid "Packet filtering firewall for IPv6"
+msgstr "Cortafuegos de filtrado de paquetes para IPv6"
+
+#: services.pm:115
+#, c-format
+msgid ""
+"The SMB/CIFS protocol enables to share access to files & printers and also "
+"integrates with a Windows Server domain"
+msgstr ""
+"El protocolo SMB/CIFS permite compartir el acceso a archivos e impresoras y "
+"también la integración a un dominio de Windows Server"
+
+#: services.pm:116
+#, c-format
+msgid "Launch the sound system on your machine"
+msgstr "Lanza el sistema de sonido en su máquina"
+
+#: services.pm:117
+#, c-format
+msgid "layer for speech analysis"
+msgstr "capa para análisis de voz"
+
+#: services.pm:118
+#, c-format
+msgid ""
+"Secure Shell is a network protocol that allows data to be exchanged over a "
+"secure channel between two computers"
+msgstr ""
+"Secure Shell es un protocolo de red que permite que se intercambien datos "
+"entre dos computadoras usando un canal seguro"
+
+#: services.pm:119
+#, c-format
+msgid ""
+"Syslog is the facility by which many daemons use to log messages\n"
+"to various system log files.  It is a good idea to always run syslog."
+msgstr ""
+"Syslog es el servicio a través del cual varios demonios van a enviar\n"
+"sus mensajes de registro, que syslog va a redirigir a varios archivos\n"
+"de registro(log).  Es una buena idea ejecutar siempre syslog."
+
+#: services.pm:121
+#, c-format
+msgid "Moves the generated persistent udev rules to /etc/udev/rules.d"
+msgstr "Mueve las reglas persistentes de udev generadas a /etc/udev/rules.d"
+
+#: services.pm:122
+#, c-format
+msgid "Load the drivers for your usb devices."
+msgstr "Carga los controladores para sus dispositivos USB."
+
+#: services.pm:123
+#, c-format
+msgid "A lightweight network traffic monitor"
+msgstr "Un monitor de trafico de red liviano"
+
+#: services.pm:124
+#, c-format
+msgid "Starts the X Font Server."
+msgstr "Inicia el servidor de tipografías X (xfs)."
+
+#: services.pm:125
+#, c-format
+msgid "Starts other deamons on demand."
+msgstr "Inicia otros servicios según sea necesario."
+
+#: services.pm:154
+#, c-format
+msgid "Printing"
+msgstr "Imprimiendo"
+
+#: services.pm:157
+#, c-format
+msgid "Internet"
+msgstr "Internet"
+
+#: services.pm:162
+#, c-format
+msgid ""
+"_: Keep these entry short\n"
+"Networking"
+msgstr ""
+"_: Keep these entry short\n"
+"Red"
+
+#: services.pm:164
+#, c-format
+msgid "System"
+msgstr "Sistema"
+
+#: services.pm:171
+#, c-format
+msgid "Remote Administration"
+msgstr "Administración remota"
+
+#: services.pm:180
+#, c-format
+msgid "Database Server"
+msgstr "Servidor de base de datos"
+
+#: services.pm:191 services.pm:233
+#, c-format
+msgid "Services"
+msgstr "Servicios"
+
+#: services.pm:191
+#, c-format
+msgid "Choose which services should be automatically started at boot time"
+msgstr "Seleccione qué servicios se deben iniciar automáticamente al arrancar"
+
+#: services.pm:214
+#, c-format
+msgid "%d activated for %d registered"
+msgstr "%d activados de %d registrados"
+
+#: services.pm:237
+#, c-format
+msgid "running"
+msgstr "corriendo"
+
+#: services.pm:237
+#, c-format
+msgid "stopped"
+msgstr "parado"
+
+#: services.pm:242
+#, c-format
+msgid "Services and daemons"
+msgstr "Servicios y demonios"
+
+#: services.pm:248
+#, c-format
+msgid ""
+"No additional information\n"
+"about this service, sorry."
+msgstr ""
+"No hay información adicional para\n"
+"este servicio. Disculpe."
+
+#: services.pm:255
+#, c-format
+msgid "Start when requested"
+msgstr "Comenzar cuando se pida"
+
+#: services.pm:255
+#, c-format
+msgid "On boot"
+msgstr "Al iniciar"
+
+#: services.pm:272
+#, c-format
+msgid "Start"
+msgstr "Iniciar"
+
+#: services.pm:272
+#, c-format
+msgid "Stop"
+msgstr "Parar"
+
+#: standalone.pm:27
+#, c-format
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+msgstr ""
+" Este programa es software libre; puede redistribuirlo y/o modificarlo\n"
+" bajo los términos de la Licencia Pública General GNU publicada por la\n"
+" Free Software Foundation; ya sea la versión 2, o (a su opción) cualquier\n"
+" versión posterior.\n"
+"\n"
+" Este programa se distribuye con la esperanza que será útil, pero\n"
+" SIN GARANTÍA ALGUNA; incluso sin la garantía implícita de COMERCIABILIDAD\n"
+" o ADECUABILIDAD PARA UN PROPÓSITO PARTICULAR. Consulte la\n"
+" Licencia Pública General GNU para más detalles.\n"
+"\n"
+" Debería haber recibido una copia de la Licencia Pública General GNU\n"
+" junto con este programa; de no ser así, escriba a la Free Software\n"
+" Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA.\n"
+
+#: standalone.pm:46
+#, c-format
+msgid ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Backup and Restore application\n"
+"\n"
+"--default             : save default directories.\n"
+"--debug               : show all debug messages.\n"
+"--show-conf           : list of files or directories to backup.\n"
+"--config-info         : explain configuration file options (for non-X "
+"users).\n"
+"--daemon              : use daemon configuration. \n"
+"--help                : show this message.\n"
+"--version             : show version number.\n"
+msgstr ""
+"[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+"Aplicación de respaldo y restauración\n"
+"\n"
+"--default             : guarda directorios predeterminados.\n"
+"--debug               : mostrar todos los mensajes de depuración.\n"
+"--show-conf           : lista los archivos o directorios a respaldar.\n"
+"--config-info         : explica las opciones de configuración (para usuarios "
+"no-X)\n"
+"--daemon              : usa la configuración de demonio. \n"
+"--help                : muestra este mensaje.\n"
+"--version             : muestra el número de versión.\n"
+
+#: standalone.pm:58
+#, c-format
+msgid ""
+"[--boot]\n"
+"OPTIONS:\n"
+"  --boot            - enable to configure boot loader\n"
+"default mode: offer to configure autologin feature"
+msgstr ""
+"[--boot]\n"
+"OPCIONES:\n"
+"  --boot            - permitir configurar el cargador de arranque\n"
+"modo predeterminado: ofrecer la configuración de la característica de "
+"conexión automática."
+
+#: standalone.pm:62
+#, c-format
+msgid ""
+"[OPTIONS] [PROGRAM_NAME]\n"
+"\n"
+"OPTIONS:\n"
+"  --help            - print this help message.\n"
+"  --report          - program should be one of %s tools\n"
+"  --incident        - program should be one of %s tools"
+msgstr ""
+"[OPCIONES] [NOMBRE_PROGRAMA]\n"
+"\n"
+"OPCIONES:\n"
+"  --help            - imprime este mensaje de ayuda.\n"
+"  --report          - el programa debería ser una de las herramientas de %s\n"
+"  --incident        - el programa debería ser una de las herramientas de %s"
+
+#: standalone.pm:68
+#, c-format
+msgid ""
+"[--add]\n"
+"  --add             - \"add a network interface\" wizard\n"
+"  --del             - \"delete a network interface\" wizard\n"
+"  --skip-wizard     - manage connections\n"
+"  --internet        - configure internet\n"
+"  --wizard          - like --add"
+msgstr ""
+"[--add]\n"
+"  --add             - asistente \"añadir una interfaz de red\"\n"
+"  --del             - asistente \"quitar una interfaz de red\"\n"
+"  --skip-wizard     - administrar conexiones\n"
+"  --internet        - configurar la Internet\n"
+"  --wizard          - igual que --add"
+
+#: standalone.pm:74
+#, c-format
+msgid ""
+"\n"
+"Font Importation and monitoring application\n"
+"\n"
+"OPTIONS:\n"
+"--windows_import : import from all available windows partitions.\n"
+"--xls_fonts      : show all fonts that already exist from xls\n"
+"--install        : accept any font file and any directory.\n"
+"--uninstall      : uninstall any font or any directory of font.\n"
+"--replace        : replace all font if already exist\n"
+"--application    : 0 none application.\n"
+"                 : 1 all application available supported.\n"
+"                 : name_of_application like  so for staroffice \n"
+"                 : and gs for ghostscript for only this one."
+msgstr ""
+"\n"
+"Aplicación de importación y monitoreo de tipografías\n"
+"\n"
+"OPCIONES:\n"
+"--windows_import : importar desde todas las particiones Windows "
+"disponibles.\n"
+"--xls_fonts      : mostrar todas las tipografías que ya existen en xls\n"
+"--strong         : verificación fuerte de las tipografías.\n"
+"--install        : aceptar cualquier tipografía o directorio de "
+"tipografías.\n"
+"--uninstall      : desinstalar cualquier tipografía o directorio de tipog.\n"
+"--replace        : reemplazar las tipografías si ya existen.\n"
+"--application    : 0 ninguna aplicación.\n"
+"                 : 1 todas las aplicaciones soportadas disponibles.\n"
+"                 : nombre_de_aplicación como por ej. so para staroffice\n"
+"                   y gs para ghostscript."
+
+#: standalone.pm:89
+#, c-format
+msgid ""
+"[OPTIONS]...\n"
+"%s Terminal Server Configurator\n"
+"--enable         : enable MTS\n"
+"--disable        : disable MTS\n"
+"--start          : start MTS\n"
+"--stop           : stop MTS\n"
+"--adduser        : add an existing system user to MTS (requires username)\n"
+"--deluser        : delete an existing system user from MTS (requires "
+"username)\n"
+"--addclient      : add a client machine to MTS (requires MAC address, IP, "
+"nbi image name)\n"
+"--delclient      : delete a client machine from MTS (requires MAC address, "
+"IP, nbi image name)"
+msgstr ""
+"[OPCIONES]...\n"
+"Configurador del Servidor de Terminales de %s\n"
+"--enable         : habilitar MTS\n"
+"--disable        : deshabilitar MTS\n"
+"--start          : iniciar MTS\n"
+"--stop           : detener MTS\n"
+"--adduser        : añadir usuario existente en el sistema a MTS (necesita "
+"nombre_de_usuario)\n"
+"--deluser        : quitar usuario existente de MTS (necesita "
+"nombre_de_usuario)\n"
+"--addclient      : añadir máquina cliente a MTS (necesita dirección MAC, IP, "
+"nombre imagen nbi)\n"
+"--delclient      : quitar máquina cliente de MTS (necesita dirección MAC, "
+"IP, nombre imagen nbi)"
+
+#: standalone.pm:101
+#, c-format
+msgid "[keyboard]"
+msgstr "[teclado]"
+
+#: standalone.pm:102
+#, c-format
+msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+msgstr "[--file=miarchivo] [--word=mipalabra] [--explain=regexp] [--alert]"
+
+#: standalone.pm:103
+#, c-format
+msgid ""
+"[OPTIONS]\n"
+"Network & Internet connection and monitoring application\n"
+"\n"
+"--defaultintf interface : show this interface by default\n"
+"--connect : connect to internet if not already connected\n"
+"--disconnect : disconnect to internet if already connected\n"
+"--force : used with (dis)connect : force (dis)connection.\n"
+"--status : returns 1 if connected 0 otherwise, then exit.\n"
+"--quiet : do not be interactive. To be used with (dis)connect."
+msgstr ""
+"[OPCIONES]\n"
+"Aplicación de monitoreo y conexión de Internet y redes\n"
+"\n"
+"--defaultintf interfaz  : mostrar esta interfaz por defecto\n"
+"--connect               : conectar a la Internet si no está conectado\n"
+"--disconnect            : desconectar de la Internet si está conectado\n"
+"--force                 : utilizado con (dis)connect: forzar (des)conexión.\n"
+"--status                : devuelve 1 si está conectado, 0 en caso "
+"contrario.\n"
+"--quiet                 : no ser interactivo. A utilizar con (dis)connect."
+
+#: standalone.pm:113
+#, c-format
+msgid ""
+"[OPTION]...\n"
+"  --no-confirmation      do not ask first confirmation question in %s Update "
+"mode\n"
+"  --no-verify-rpm        do not verify packages signatures\n"
+"  --changelog-first      display changelog before filelist in the "
+"description window\n"
+"  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+msgstr ""
+"[OPCIÓN]...\n"
+"  --no-confirmation     no hacer la primer apregunta de confirmación en modo "
+"%s Update\n"
+"  --no-verify-rpm       no verificar firmas de los paquetes\n"
+"  --changelog-first     mostrar changelog antes de lista de archivos en "
+"ventana de descripción\n"
+"  --merge-all-rpmnew    proponer mezclar todos los archivos .rpmnew/.rpmsave "
+"encontrados"
+
+#: standalone.pm:118
+#, c-format
+msgid ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+msgstr ""
+"[--manual] [--device=disp.] [--update-sane=dir_fuente_sane] [--update-"
+"usbtable] [--dynamic=disp.]"
+
+#: standalone.pm:119
+#, c-format
+msgid ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolution"
+msgstr ""
+" [everything]\n"
+"       XFdrake [--noauto] monitor\n"
+"       XFdrake resolución"
+
+#: standalone.pm:156
+#, c-format
+msgid ""
+"\n"
+"Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+"testing] [-v|--version] "
+msgstr ""
+"\n"
+"Uso: %s [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--testing] "
+"[-v|--version] "
+
+#: timezone.pm:170 timezone.pm:171
+#, c-format
+msgid "All servers"
+msgstr "Todos los servidores"
+
+#: timezone.pm:207
+#, c-format
+msgid "Global"
+msgstr "Global"
+
+#: timezone.pm:210
+#, c-format
+msgid "Africa"
+msgstr "África"
+
+#: timezone.pm:211
+#, c-format
+msgid "Asia"
+msgstr "Asia"
+
+#: timezone.pm:212
+#, c-format
+msgid "Europe"
+msgstr "Europa"
+
+#: timezone.pm:213
+#, c-format
+msgid "North America"
+msgstr "América del Norte"
+
+#: timezone.pm:214
+#, c-format
+msgid "Oceania"
+msgstr "Oceanía"
+
+#: timezone.pm:215
+#, c-format
+msgid "South America"
+msgstr "América del Sur"
+
+#: timezone.pm:224
+#, c-format
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: timezone.pm:261
+#, c-format
+msgid "Russian Federation"
+msgstr "Federación Rusa"
+
+#: timezone.pm:269
+#, c-format
+msgid "Yugoslavia"
+msgstr "Yugoslavia"
+
+#: ugtk2.pm:810 ugtk3.pm:906
+#, c-format
+msgid "Is this correct?"
+msgstr "¿Es correcto?"
+
+#: ugtk2.pm:872 ugtk3.pm:968
+#, c-format
+msgid "You have chosen a file, not a directory"
+msgstr "Ha especificado un archivo, no un directorio"
+
+#: ugtk2.pm:922 ugtk3.pm:1018
+#, c-format
+msgid "Info"
+msgstr "Información"
+
+#: wizards.pm:95
+#, c-format
+msgid ""
+"%s is not installed\n"
+"Click \"Next\" to install or \"Cancel\" to quit"
+msgstr ""
+"%s no está instalado\n"
+"Haga clic sobre \"Siguiente\" para instalarlo o sobre \"Cancelar\" para salir"
+
+#: wizards.pm:99
+#, c-format
+msgid "Installation failed"
+msgstr "Falló la instalación"

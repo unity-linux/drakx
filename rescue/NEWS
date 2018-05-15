@@ -1,0 +1,305 @@
+Version 1.57 - 10 February 2018 by Thierry Vignaud
+
+- add more udev rules (syncing with regular stage2)
+
+Version 1.56 - 19 January 2018 by Thomas Backlund
+
+- adapt for new systemd
+
+Version 1.55 - 30 January 2017 by Thierry Vignaud
+
+- lsparts: fix reporting half sizes (mga#8853)
+
+Version 1.54 - 20 June 2016 by Thierry Vignaud
+
+- do not run shells uselessly
+- drop (broken) support for Alpha, IA64 & PPC, Sparc
+- fix a message when re-installing bootloader
+
+Version 1.53 - 28 September 2015 by Thierry Vignaud
+
+- fix build with libified perl
+
+Version 1.52 - 30 April 2015 by Thierry Vignaud
+
+- guessmount: mount /dev, /run & /sys too (mga#10865)
+- lsparts (mga#8854):
+  o display label too
+  o silent run_program
+
+Version 1.51 - 15 April 2015 by Thierry Vignaud
+
+- fix reinstalling grub2 on UEFI (mga#15695)
+
+Version 1.50 - 9 January 2015 by Thomas Backlund
+
+- add efibootmgr on x86_64
+
+Version 1.49 - 18 September 2014 by Thomas Backlund
+
+- 80-net-name-slot.rules is replaced with 99-default.link
+
+Version 1.48 - 18 September 2014 by Thomas Backlund
+
+- killall5 is no more needed
+
+Version 1.47 - 8 December 2013 by Colin Guthrie
+
+- use systemd as init in the rescue system
+- allowing systemd-nspawn "booting" of a mounted /mnt (after umount /mnt/proc)
+
+Version 1.46 - 20 October 2013 by Colin Guthrie
+
+- adapt to a dracut based stage1
+
+Version 1.45.1 - 14 October 2013 by Colin Guthrie
+
+- many btrfs tools no longer exist
+
+Version 1.45 - 14 October 2013 by Colin Guthrie
+
+- adapt to latest mdadm
+- drop /etc/termcap as it's no longer part of our build
+- include network interface name udev rules (mga#10947)
+
+Version 1.44 - 18 May 2013 by Colin Guthrie
+
+- ensure /dev is bind mounted before re-installing bootloader (mga#10107)
+
+Version 1.43 - 15 May 2013 by Colin Guthrie
+
+- ensure grabjournallogs script is executable (mga#10108)
+
+Version 1.42 - 30 April 2013 by Thierry Vignaud
+
+- add a script to simplfy grabbing of journal logs for bug reports
+- enable to abort choosing distro to rescue (mga#9765)
+
+Version 1.41 - 6 April 2013 by Thierry Vignaud
+
+- really adapt to /usr move (fix lvm2 freezing, mga#5795)
+- drop our "use modprobe instead" insmod since we've kmod one for free
+- include libdevmapper-event-*.so
+- include persistant storage udev rules needed to see new uuids
+- offer to pick the distro to rescue when there's more than one
+- /var/run/utmp is on tmpfs now
+- warn that i586 cannot rescue x86_64 (mga#8696)
+
+Version 1.40 - 6 March 2013 by Thierry Vignaud
+
+- preload fuse (mga#5833)
+- use kmod's modprobe, thus fixing loading modules (mga#9270)
+
+Version 1.39 - 3 September 2012 by Thierry Vignaud
+
+- adapt to latest systemd/udevd
+- adapt to perl-5.16.0
+- adapt to /usr move
+- default to the higher version when there're several mga roots (mga#6003)
+- drop KA support
+- fix detecting USB devices with kernel-3.5+ (mga#7248)
+- preload load btrfs and nilfs2 too
+- rely on stage1 for mounting /dev
+- revert to "linux" terminfo
+- simplify bringing up local loop interface (pok, mdv)
+- stop fixing the raid udev rule now that it has been fixed
+
+Version 1.38 - 11 May 2012, by Thierry Vignaud
+
+- include missing modules when SMB appears in fstab (mga#5850)
+
+Version 1.37 - 18 April 2012, by Thierry Vignaud
+
+- fix detecting RAID (mga#5048)
+- include more udev rules for RAID (mga#5048)
+
+Version 1.36 - 8 April 2012, by Pascal Terjan
+
+- fix modprobe to support being called by kernel (mga#5274)
+
+Version 1.35 - 5 April 2012, by Thierry Vignaud
+
+- add chrooted rescue system in PATH
+- 32bit grub needs 32 bit loader (mga#5191)
+- default to "screen" instead of "linux" terminfo (mga#4894)
+- include "screen" terminfo (mga#4894)
+
+Version 1.34 - 26 February 2012, by Maarten Vanraes (AL13N)
+
+- escape / in generated passwords in startssh
+- add trailing ; in command lists in startssh
+
+Version 1.33 - 26 February 2012, by Thierry Vignaud
+
+- do not symlink /dev (mga#1023)
+
+Version 1.32 - 25 February 2012, by Thierry Vignaud & Maarten Vanraes (AL13N)
+
+- don't overwrite /dev after udev handles it
+- add some tests and error handling in startssh
+- really fix mounting /dev/pts & /dev/shm (mga#1023)
+
+Version 1.31 - 25 February 2012, by Thierry Vignaud & Maarten Vanraes (AL13N)
+
+- add logging to dropbear
+- fix mounting /dev/pts & /dev/shm (mga#1023)
+- make root user homedir /root
+- add agetty (mga#2052)
+
+Version 1.30 - 26 January 2012, by Thierry Vignaud
+
+- enable autologin on all consoles
+- include mkfs.nilfs2 & nilfs-tune
+
+Version 1.29 - 25 January 2012, by Thierry Vignaud
+
+- drop support for squashfs3
+- enable rescue through serial line (mga#2052)
+- fix mounting / (mga#3327)
+- fix mounting / on LV
+- fix mounting / on soft RAID or crypted LV (mga#3778 & mga#448)
+- include xz for xz modules
+- mount /proc in chroot
+- only consider fstab from the selected fs
+- switch to udev
+
+Version 1.28 - 15 January 2012, by Thierry Vignaud
+
+- use init from drakx-installer-sysvinit instead of system one
+
+Version 1.27 - 28 October 2011, by Thomas "tmb" Backlund
+
+- clean up genpasswd (AL13N)
+- add gdisk for GPT partitioning support (#1023)
+
+Version 1.26 - 24 October 2011, by Thomas "tmb" Backlund
+
+- add dropbear ssh support to rescue mode (AL13N, mga #1023)
+  * add screen, dropbear, dropbearkey, genpasswd and startssh
+  * add /etc/shells
+- add partprobe tool from parted (9k)
+
+Version 1.25.1 - 05 August 2011, by Thierry Vignaud
+
+- fix build with perl-5.14
+
+Version 1.25 - 05 August 2011, by Thierry Vignaud
+
+- add missing libfuse.so.2 for mount.ntfs-3g (#1189)
+- prefer Mageia root partitions over Mdv ones (#1320)
+
+Version 1.24 - 20 May 2011, by tmb
+
+- devices.pl: call mknod directly
+- list.xml: add btrfs tools to the image
+- list.xml: fix XSLoader path
+
+Version 1.23 - 06 April 2011, by Dmorgan
+
+- Fix function names ( Bug #651 )
+
+Version 1.22 - 24 February 2011, by Pascal "pterjan" Terjan
+
+- cleaning for Mageia import
+- include /etc/netconfig (needed by mount.nfs)
+
+Version 1.18 - 13 April 2010, by Olivier "blino" Blin
+
+- image restore script: use blkid instead of deprecated vol_id
+
+Version 1.17 - 12 April 2010, by Olivier "blino" Blin
+
+- Handle LVM (#44723)
+- image restore script: handle hybrid images (by matching main device)
+
+Version 1.16 - 9 October 2009, by Olivier "blino" Blin
+
+- work both with squashfs 3 and 4
+- image restore script (from Paulo Ricardo Zanoni):
+  o re-read partition table after writing image
+  o do not extend / to the end of the disk, it overlaps with swap
+    partition
+- do not make de-latin1 keymap a symlink/include loop (#45109)
+- use extipl from /usr/lib/extipl on x86_64 too
+  (to fix restore_ms_boot, hardcoding this path)
+
+Version 1.15 - 3 September 2009, by Thierry Vignaud
+
+- add back dumpe2fs
+- run /oem-rescue.sh if oem option is present on cmdline
+- allow to specify main partition in the restore config file
+  (MAIN_PART_NUMBER), if there is a restore partition at beginning of
+  disk
+- load ext4 module (#48816)
+- use blkid instead of vol_id which we no longer ship
+
+Version 1.14 - 27 May 2009, by Olivier "blino" Blin
+
+- adapt to new extipl location in x86_64
+- adapt to new magic.mgc location
+
+Version 1.13 - 27 May 2009, by Olivier "blino" Blin
+
+- include various commands
+- image restore script:
+  o better estimate of image dump progression
+  o fix detecting multiple partitions to avoid win32 detection
+  o fix guessing extension when filename contains a dot
+
+Version 1.12 - 20 February 2009, by Olivier "blino" Blin
+
+- image restore script:
+  o add swap partition
+  o use a minimum size for disks to be detected (Caio)
+  o resize Windows partitions if needed (Caio)
+- Flash rescue:
+  o add support for Flash 2009
+  o try to load squashfs-lzma too
+  o handle path to lzma distrib loopbacks
+- fix build:
+  o do not include dead parsehdlist
+  o do not include dead rpm helpers
+
+Version 1.11 - 25 September 2008, by Olivier "blino" Blin
+
+- add image restoration scripts ("restore" command line parameter)
+
+Version 1.10 - 25 April 2008, by Olivier "blino" Blin
+
+- fix "Mounting other partitions from fstab" which use UUID=xxx
+- fix build with latest file package, which only includes the
+  precompiled magic file
+
+Version 1.9 - 10 March 2008, by Olivier "blino" Blin
+
+- handle ntfs-3g in fstab
+- add missing modalias files (#38690)
+
+Version 1.8 - 28 February 2008, by Olivier "blino" Blin
+
+- support new modules location (#38207)
+- adapt to perl 5.10
+- fix build (fix a workaround in partimage_whole_disk)
+
+Version 1.7 - 25 September 2007, by Pascal "Pixel" Rigaux
+
+- add mount.nfs binary (since mount doesn't handle nfs fs anymore)
+
+Version 1.6 - 8 August 2007, by Pascal "Pixel" Rigaux
+
+- adapt to new libldetect together with drakx-installer-images 1.13
+- loadkeys file:
+  o handle new "kbd" rpm which have .map files instead of .kmap
+  o don't skip fr_CH-latin1
+  o handle "fr_CH"-like short names
+- remove rescuept (use testdisk instead, which is much nicer)
+
+Version 1.5 - 9 July 2007, by Pascal "Pixel" Rigaux
+
+- add /etc/mke2fs.conf in order to format ext3fs with 4k blocks (#27377)
+- add "mkfs.ext3" which is no more equivalent to "mkfs.ext2 -J"
+  (eg: dir_index & resize_inode features)
+
+Version 1.4 - 4 April 2007, by Pascal "Pixel" Rigaux
+
+- zcat and gunzip can't be symlinks anymore, they are scripts

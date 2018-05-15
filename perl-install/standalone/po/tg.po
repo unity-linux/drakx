@@ -1,0 +1,3351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Abrorova Hiromon, 2004
+# Bahromhon Bobojonov <bahrambabajanov@hotmail.com>, 2004
+# Dilshod Marupov <dma165@hotmail.com>, 2003-2004
+# Murod Marupov <abdullovich@khujand.org>, 2004
+# Roger Kovacs <rkovacs@khujand.org>, 2003
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2017
+# Victor Ibragimov <youth_opportunities@tajikngo.org>, 2005
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2017-03-29 07:45+0000\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik (http://www.transifex.com/MageiaLinux/mageia/language/"
+"tg/)\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "Кумак"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "Пӯшидан"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "Аслшиносӣ"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213 drakfont:226
+#: drakfont:264 finish-install:136 logdrake:177 logdrake:453 logdrake:458
+#: scannerdrake:56 scannerdrake:98 scannerdrake:139 scannerdrake:197
+#: scannerdrake:256 scannerdrake:726 scannerdrake:737 scannerdrake:876
+#: scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "Хато"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "_Файл"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "_Баромадан"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Cyrillic_BE"
+
+#: drakautologin:100
+#, c-format
+msgid "Default user"
+msgstr "Корбари пешфарз"
+
+#: drakautologin:101
+#, c-format
+msgid "Default desktop"
+msgstr "Мизи кории пешфарз"
+
+#: drakautologin:104
+#, c-format
+msgid "No, I do not want autologin"
+msgstr "Не, ман худдохилшавиро намехоҳам"
+
+#: drakautologin:105
+#, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr ""
+"Ҳа, ман мехоҳам, ки ба воситаи ин корбар ба таври худкор ворид шавам "
+"(корбар, мизи корӣ)"
+
+#: drakautologin:112
+#, c-format
+msgid "System mode"
+msgstr "Усули системи"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr "Сардиҳии вазъияти графикӣ ҳангоми оғози системи худ"
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr ""
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr ""
+
+#: drakbug:62
+#, c-format
+msgid "%s Bug Report Tool"
+msgstr ""
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "Маркази Идоракунии %s"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr "Устози Аввалин Маротиба"
+
+#: drakbug:69
+#, c-format
+msgid "Synchronization tool"
+msgstr "Асбоби ҳангомашавӣ"
+
+#: drakbug:70 drakbug:206
+#, c-format
+msgid "Standalone Tools"
+msgstr "Асбобҳои Standalone"
+
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s дар онлайн"
+
+#: drakbug:74
+#, c-format
+msgid "Remote Control"
+msgstr "Идоракунии дурдаст"
+
+#: drakbug:75
+#, c-format
+msgid "Software Manager"
+msgstr "Мудири нармафзор"
+
+#: drakbug:76
+#, c-format
+msgid "Windows Migration tool"
+msgstr "Абзори интиқолдиҳии Windows"
+
+#: drakbug:77
+#, c-format
+msgid "Configuration Wizards"
+msgstr "Устоди танзимкунӣ"
+
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "Интихоби абзори %s:"
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+
+#: drakbug:103
+#, c-format
+msgid "Find Package"
+msgstr "Дарёфтани Бастаи Барномаҳо"
+
+#: drakbug:104
+#, c-format
+msgid "Browse"
+msgstr "Тамошо кардан"
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "Қуттӣ: "
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "Ҳаста:"
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr ""
+
+#: drakbug:144
+#, c-format
+msgid "Used theme: %s"
+msgstr ""
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr ""
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr ""
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr ""
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "Маърӯза"
+
+#: drakbug:213
+#, c-format
+msgid "Not installed"
+msgstr "Коргузорӣ нашудааст"
+
+#: drakbug:226
+#, c-format
+msgid "Package not installed"
+msgstr "Баста насб карда нашуд"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "Огоҳӣ"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr "Ташаккур."
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Танзимоти сана, соат ва минтақаи вақт"
+
+#: drakclock:38
+#, c-format
+msgid "not defined"
+msgstr "танзим нашуда"
+
+#: drakclock:40
+#, c-format
+msgid "Change Time Zone"
+msgstr "Тағйирдиҳии минтақаи вақт"
+
+#: drakclock:45
+#, c-format
+msgid "Timezone - DrakClock"
+msgstr "Минтақаи вақт - DrakClock"
+
+#: drakclock:45
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Минтақаи вақти шумо кадом аст?"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakСоат"
+
+#: drakclock:47
+#, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "Соати сахтафзори шумо зери GMT барпо шудааст?"
+
+#: drakclock:75
+#, c-format
+msgid "Network Time Protocol"
+msgstr "Қарордоди Шабакавии Вақт"
+
+#: drakclock:77
+#, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"Компютери шумо соати худро бо хидматрасони дурдасти вақт\n"
+" ба воситаи NTP ҳамзамон карда метавонад"
+
+#: drakclock:78
+#, c-format
+msgid "Enable Network Time Protocol"
+msgstr "Даргиронидани Қарордоди Шабакавии Вақт"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "Сервер:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "Минтақаи вақт"
+
+#: drakclock:117
+#, c-format
+msgid "Please enter a valid NTP server address."
+msgstr ""
+
+#: drakclock:141
+#, c-format
+msgid "Could not synchronize with %s."
+msgstr "Ҳамзамонсозӣ бо %s намешавад."
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "Баромадан"
+
+#: drakclock:143
+#, c-format
+msgid "Retry"
+msgstr "Аз нав кӯшиш кардан"
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "Бозсозӣ"
+
+#: drakdvb:30
+#, c-format
+msgid "DVB"
+msgstr "DVB"
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "Канал"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr ""
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr ""
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "Лутфан, интизор шавед"
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr ""
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "Бекор кардан"
+
+#: drakdvb:148
+#, c-format
+msgid "Detect Channels"
+msgstr ""
+
+#: drakdvb:150
+#, c-format
+msgid "View Channel"
+msgstr ""
+
+#: drakedm:41
+#, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "GDM (GNOME Мудири Намоиш)"
+
+#: drakedm:42
+#, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr ""
+
+#: drakedm:43
+#, c-format
+msgid "XDM (X Display Manager)"
+msgstr "XDM (X Мудири Намоиш)"
+
+#: drakedm:54
+#, c-format
+msgid "Choosing a display manager"
+msgstr "Интихоби мудири намоиш"
+
+#: drakedm:55
+#, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr ""
+"X11 Мудири Намоиш ба шумо имконияти воридшавии\n"
+"графикӣ ба системаи худ бо X Window Системаи корандозишуда\n"
+"медиҳад ва коргузории якчанд X - сеансҳои мухталифро дар як вақт дар мошинаи "
+"маҳалли шуморо пуштибонӣ мекунад."
+
+#: drakedm:74
+#, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "Тағирот дароварда шуд, шумо dm хадамотро аз нав оғоз кардан мехоҳед ?"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+"Шумо кӯшиши пӯшидани ҳамаи барномаҳои иҷрошудаистодаро ва аздастдиҳии сеанси "
+"ҷориро карда истодаед. Дар ҳақиқат мехоҳед, ки хидматрасони dm-ро аз нав сар "
+"диҳад?"
+
+#: drakfont:187
+#, c-format
+msgid "Search installed fonts"
+msgstr "Кофтукови рамзҳои муқарраршуда"
+
+#: drakfont:189
+#, c-format
+msgid "Unselect fonts installed"
+msgstr "Шакли ҳуруфоти интихоб нашуда коргузорӣ шудааст"
+
+#: drakfont:213
+#, c-format
+msgid "No fonts found"
+msgstr "Ҳуруфҳо пайдо нашуданд"
+
+#: drakfont:217
+#, c-format
+msgid "parse all fonts"
+msgstr "ҳамаи ҳуруфотро тақсим намудан"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "шудагӣ"
+
+#: drakfont:226
+#, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "Дар қисматҳои насбшудаи шумо ягон ҳуруф пайдо нагардид"
+
+#: drakfont:261
+#, c-format
+msgid "Reselect correct fonts"
+msgstr "Даргоҳҳои саҳеҳро аз нав интихоб намудан"
+
+#: drakfont:264
+#, c-format
+msgid "Could not find any font.\n"
+msgstr "Ягон ҳуруф пайдо нагардид.\n"
+
+#: drakfont:274
+#, c-format
+msgid "Search for fonts in installed list"
+msgstr "Ҷустуҷӯи ҳуруфот дар рӯйхати коргузор шуда"
+
+#: drakfont:298
+#, c-format
+msgid "%s fonts conversion"
+msgstr "%s тағироти ҳуруфот"
+
+#: drakfont:337
+#, c-format
+msgid "Fonts copy"
+msgstr "Нусхаи ҳуруфот"
+
+#: drakfont:340
+#, c-format
+msgid "True Type fonts installation"
+msgstr "Коргузории ҳуруфҳои True Type"
+
+#: drakfont:348
+#, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "лутфан, ҳангоми иҷрои ttmkfdir интизор шавед..."
+
+#: drakfont:349
+#, c-format
+msgid "True Type install done"
+msgstr "Коргузории ҳақиқии навъ иҷро гардид"
+
+#: drakfont:355 drakfont:370
+#, c-format
+msgid "type1inst building"
+msgstr "созандагии type1inst"
+
+#: drakfont:364
+#, c-format
+msgid "Ghostscript referencing"
+msgstr "Муроҷиати Ghostscript"
+
+#: drakfont:381
+#, c-format
+msgid "Suppress Temporary Files"
+msgstr "Файлҳои Муваққатиро хориҷ намудан"
+
+#: drakfont:426 drakfont:432
+#, c-format
+msgid "Suppress Fonts Files"
+msgstr "Хориҷи Файлҳои Ҳуруфҳо"
+
+#: drakfont:440
+#, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr ""
+"Пеш аз коргузории ягон ҳуруф, боварӣ ҳосил кунед, ки шумо ҳуқуқҳои истифода "
+"ва коргузории онҳоро дар системаи худ доред.\n"
+"\n"
+"-Шумо ҳуруфҳоро бо роҳи муқаррарӣ коргузорӣ карда метавонед. Дар баъзе "
+"ҳолатҳо ҳуруфҳои қалбакӣ X Хидматрасони шуморо нобуд карда метавонад."
+
+#: drakfont:479
+#, c-format
+msgid "Font Installation"
+msgstr ""
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakҲуруф"
+
+#: drakfont:491 drakfont:640
+#, c-format
+msgid "Font List"
+msgstr "Рӯйхати Ҳуруф"
+
+#: drakfont:494
+#, c-format
+msgid "Get Windows Fonts"
+msgstr ""
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "Дар бораи система"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "Имконот"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "Тоза кардан"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "Воридот"
+
+#: drakfont:521
+#, c-format
+msgid "Drakfont"
+msgstr "Drakfont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Ҳуқуқи муаллиф (C) %s аз тарафи %s"
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr "Насбкунандаи шрифт."
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Victor Ibragimov <youth_opportunities@tajikngo.org>\n"
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr "Замимаеро, ки ҳуруфҳоро пуштибонӣ мекунад, интихоб намоед:"
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "Abiword"
+
+#: drakfont:555
+#, c-format
+msgid "Generic Printers"
+msgstr "Принтерҳои намунавӣ"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: drakfont:569
+#, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr ""
+"Файли ҳуруф ё ин ки феҳристро интихоб намоед ва ба 'Илова намудан' ангушт "
+"занед"
+
+#: drakfont:570
+#, c-format
+msgid "File Selection"
+msgstr "Интихоби Файл"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "Шрифтҳо"
+
+#: drakfont:638 draksec:185
+#, c-format
+msgid "Import fonts"
+msgstr "Ҳуруфҳоро ворид кунед"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "Илова кардан"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "Тоза кардан"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "Насб кардан"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr "Шумо мутмаин ҳастед, ки мехоҳед насби шрифтҳои зеринро лағв кунед?"
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "Ҳа"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "Не"
+
+#: drakfont:728
+#, c-format
+msgid "Unselect All"
+msgstr "Ноинтихоби Ҳама"
+
+#: drakfont:731
+#, c-format
+msgid "Select All"
+msgstr "Интихоби Ҳама"
+
+#: drakfont:748
+#, c-format
+msgid "Importing fonts"
+msgstr "Воридкунии ҳуруфҳо"
+
+#: drakfont:752 drakfont:772
+#, c-format
+msgid "Initial tests"
+msgstr "Санҷишҳои шиносоӣ"
+
+#: drakfont:753
+#, c-format
+msgid "Copy fonts on your system"
+msgstr "Нусхабардории ҳуруфҳо ба системаи шумо"
+
+#: drakfont:754
+#, c-format
+msgid "Install & convert Fonts"
+msgstr "Коргузорӣ ва тағироти ҳуруфот"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "Баъд аз насб"
+
+#: drakfont:767
+#, c-format
+msgid "Removing fonts"
+msgstr ""
+
+#: drakfont:773
+#, c-format
+msgid "Remove fonts on your system"
+msgstr "Хориҷкунии ҳуруфҳо ба системаи шумо"
+
+#: drakfont:774
+#, c-format
+msgid "Post Uninstall"
+msgstr "Почтаро кор нагузоштан"
+
+#: drakhelp:17
+#, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+
+#: drakhelp:23
+#, c-format
+msgid "  --help                - display this help     \n"
+msgstr ""
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+" --id <id_label>       - html-саҳифаи маълумотро ба кор андохтан,\n"
+"                         ки ба id_label тааллуқ дорад\n"
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+" --doc <пайванд>          - пайванд ба дигар web саҳифа (барои пешохири "
+"пешвозгирии WM)\n"
+
+#: drakhelp:53
+#, c-format
+msgid "%s Help Center"
+msgstr ""
+
+#: drakhelp:53
+#, c-format
+msgid "No Help entry for %s\n"
+msgstr ""
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "Гузоришҳои систем"
+
+#: drakperm:24
+#, c-format
+msgid "Custom settings"
+msgstr "Гузоришҳои интихобӣ"
+
+#: drakperm:25
+#, c-format
+msgid "Custom & system settings"
+msgstr "Гузориши интихобӣ ва системӣ"
+
+#: drakperm:33
+#, c-format
+msgid "Security Permissions"
+msgstr ""
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "Таҳриршаванда"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "Роҳ"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "Корбар"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "Гурӯҳ"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "Иҷозатҳо "
+
+#: drakperm:60
+#, c-format
+msgid "Add a new rule"
+msgstr ""
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, c-format
+msgid "Edit current rule"
+msgstr "Таҳрири қоидаи равона"
+
+#: drakperm:108
+#, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr ""
+"Дар ин ҷо шумо файлҳоеро, ки бо мақсади ислоҳи рухсатҳо, соҳибон ва гурӯҳҳо "
+"ба воситаи msec истифода мешаванд, дида метавонед.\n"
+"Инчунин шумо метавонед қоидаҳои худро таҳрир диҳед, ки қоидаҳои бо нобаёниро "
+"рӯиҳам менависад."
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+"Сатҳи бехатарии ҷорӣ ин %s.\n"
+"Барои дидан/таҳрир кардан рухсатҳоро интихоб кунед"
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "Боло"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr "Қоидаҳои интихобшударо ба як сатҳ боло ҷой иваз кунед"
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "Ба поён"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr "Қоидаҳои интихобшударо ба як сатҳ поён ҷой иваз кунед"
+
+#: drakperm:124
+#, c-format
+msgid "Add a rule"
+msgstr "Қоидаро илова кунед"
+
+#: drakperm:124
+#, c-format
+msgid "Add a new rule at the end"
+msgstr "Дар охир қоидаи навро илова намудан"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "Нест кардан"
+
+#: drakperm:125
+#, c-format
+msgid "Delete selected rule"
+msgstr "Қоидаи интихобшударо нобуд созед"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "Таҳрир кардан"
+
+#: drakperm:239
+#, c-format
+msgid "browse"
+msgstr "тамошо кардан"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "корбар"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "гурӯҳ"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "дигар"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "Дигар"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "Хониш"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "Барои хондани файл \"%s\"-ро дар гиронидан"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "Навиштан"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "Барои навиштани \"%s\" файл иҷозат додан"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "Иҷро кардан"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "Барои иҷро намудани файл \"%s\"-ро дохил намоед"
+
+#: drakperm:269
+#, c-format
+msgid "Sticky-bit"
+msgstr "Бити мустаҳкамкунанда"
+
+#: drakperm:269
+#, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"Барои феҳрист истифода мегардад:\n"
+" танҳо соҳиби феҳрист ё ин ки файл дар ин феҳрист метавонад онро хориҷ намояд"
+
+#: drakperm:270
+#, c-format
+msgid "Set-UID"
+msgstr "Set-UID"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr "id-и соҳибро барои иҷроиш истифода баред"
+
+#: drakperm:271
+#, c-format
+msgid "Set-GID"
+msgstr "Set-GID"
+
+#: drakperm:271
+#, c-format
+msgid "Use group id for execution"
+msgstr "Барои иҷроиш гурӯҳи id-ро истифода намудан"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "Корбар:"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "Гурӯҳ :"
+
+#: drakperm:293
+#, c-format
+msgid "Current user"
+msgstr "Корбари ҷорӣ"
+
+#: drakperm:294
+#, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr "Ҳангоми тафтиш соҳиб ва гурӯҳ тағир нахоҳад ёфт"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "Интихоби роҳ"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "Моликият"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr ""
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr "Корбар: %s"
+
+#: drakperm:383
+#, c-format
+msgid "Group: %s"
+msgstr "Гурӯҳ: %s"
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "ҲАМА"
+
+#: draksec:54
+#, c-format
+msgid "LOCAL"
+msgstr "МАҲАЛЛӢ"
+
+#: draksec:55
+#, c-format
+msgid "NONE"
+msgstr "Ҳеҷ"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "Пешфарз"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "Рад кардан"
+
+#: draksec:87
+#, c-format
+msgid "Security Level and Checks"
+msgstr "Сатҳи амният ва тафтишот"
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr ""
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "Бе парол"
+
+#: draksec:115
+#, c-format
+msgid "Administrator password"
+msgstr ""
+
+#: draksec:116
+#, c-format
+msgid "User password"
+msgstr "Пароли корбар"
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "Идоракунии Нармафзор"
+
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "Навсозии %s"
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "Мудири Сарчашмаҳои Нармафзор"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "Танзимкунии таъсирҳои мизи кории 3D"
+
+#: draksec:172
+#, c-format
+msgid "Graphical Server Configuration"
+msgstr "Танзимкунии сервери графикӣ"
+
+#: draksec:173
+#, c-format
+msgid "Mouse Configuration"
+msgstr "Танзимкунии муш"
+
+#: draksec:174
+#, c-format
+msgid "Keyboard Configuration"
+msgstr "Танзимкунии клавиатура"
+
+#: draksec:175
+#, c-format
+msgid "UPS Configuration"
+msgstr "Танзимкунии UPS"
+
+#: draksec:176
+#, c-format
+msgid "Network Configuration"
+msgstr "Танзимкунии шабака"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr "Таърифҳои мизбонҳо"
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "Маркази шабака"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr ""
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr "VPN"
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "Танзимкунии прокси"
+
+#: draksec:182
+#, c-format
+msgid "Connection Sharing"
+msgstr ""
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "Нусхаҳои захирашавӣ"
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "Воридҳо"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "Хидматҳо"
+
+#: draksec:188
+#, c-format
+msgid "Users"
+msgstr "Корбарон"
+
+#: draksec:190
+#, c-format
+msgid "Boot Configuration"
+msgstr "Танзимкунии роҳандозӣ"
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "Сахтафзор"
+
+#: draksec:224
+#, c-format
+msgid "Network"
+msgstr "Шабака"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "Систем"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "Пурборкунӣ"
+
+#: draksound:48
+#, c-format
+msgid "No Sound Card detected!"
+msgstr "Корти овоздор муаяйн нашудааст!"
+
+#: draksound:50
+#, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr "Ба воситаи даргоҳи пайдарпай ё силои usb пайваст шудааст"
+
+#: drakups:72
+#, c-format
+msgid "Manual configuration"
+msgstr "Танзимкунии дастӣ"
+
+#: drakups:78
+#, c-format
+msgid "Add an UPS device"
+msgstr "Дастгоҳи UPS-ро илова кунед"
+
+#: drakups:81
+#, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr ""
+"Марҳамат ба барномаи пуштибонии батанзимдарории UPS.\n"
+"\n"
+"Дар ин ҷо шумо метавонед UPS-и навро ба системаи худ илова кунед.\n"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+"Мо дастгоҳи UPS-ро илова кардан мехоҳем.\n"
+"\n"
+"Оё мехоҳед, ки дастгоҳи UPS-и ба ин мошина пайвастро худ муайян созед ё онро "
+"ба таври дастӣ интихоб кунед?"
+
+#: drakups:91
+#, c-format
+msgid "Autodetection"
+msgstr "Худмуайянкунӣ"
+
+#: drakups:99 harddrake2:362
+#, c-format
+msgid "Detection in progress"
+msgstr "Муаяйнкунӣ дар раванди иҷроиш қарор дорад"
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "Табрикот"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr "Устод дастгоҳҳои зерини UPS-ро бо муваффақият илова кард:"
+
+#: drakups:121
+#, c-format
+msgid "No new UPS devices was found"
+msgstr "Дастгоҳи нави UPS пайдо гардид"
+
+#: drakups:126 drakups:138
+#, c-format
+msgid "UPS driver configuration"
+msgstr "Танзимкунии драйвери UPS"
+
+#: drakups:126
+#, c-format
+msgid "Please select your UPS model."
+msgstr "Лутфан, модели UPS-и худро интихоб кунед."
+
+#: drakups:127
+#, c-format
+msgid "Manufacturer / Model:"
+msgstr "стеҳсолкунандаи чопгар, модел"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+"Мо \"%s\" UPS-ро аз \"%s\" танзим карда истодаем.\n"
+"Лутфан, ном, гардонанда ва даргоҳи онро ворид кунед."
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "Ном:"
+
+#: drakups:143
+#, c-format
+msgid "The name of your ups"
+msgstr "Номи ups-и шумо"
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "Гардонанда:"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr "Гардонандае, ки ups-и шуморо идора мекунад"
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "Даргоҳ:"
+
+#: drakups:147
+#, c-format
+msgid "The port on which is connected your ups"
+msgstr "Даргоҳе, ки ба он ups-и шумо пайваст шудааст"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr "Устод дастгоҳи нави \"%s\" UPS-ро бо муваффақият ба танзим даровард."
+
+#: drakups:248
+#, c-format
+msgid "UPS devices"
+msgstr "Дастгоҳҳои UPS"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "Ном"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "Гардонанда"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "Даргоҳ"
+
+#: drakups:267
+#, c-format
+msgid "UPS users"
+msgstr "Корбарони UPS"
+
+#: drakups:283
+#, c-format
+msgid "Access Control Lists"
+msgstr "Рӯйхатҳои Идораи Дастёбӣ"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "Суроғаи IP"
+
+#: drakups:284
+#, c-format
+msgid "IP mask"
+msgstr "Ниқоби IP"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "Қоидаҳо"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "Амалиёт"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "Дараҷа"
+
+#: drakups:297
+#, c-format
+msgid "ACL name"
+msgstr "Номи ACL"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "Парол"
+
+#: drakups:329
+#, c-format
+msgid "UPS Management"
+msgstr ""
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "Марҳамат ба асбоби танзимкунии UPS"
+
+#: drakxtv:66
+#, c-format
+msgid "No TV Card detected!"
+msgstr "Корти телевизионӣ муаяйн нашудааст!"
+
+#: drakxtv:67
+#, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "Забонак"
+
+#: finish-install:61
+#, c-format
+msgid "Please choose your keyboard layout."
+msgstr "Лутфан, ороиши забонаки худро интихоб намоед."
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr "Санҷиши алоқаи шумо..."
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, c-format
+msgid "Encrypted home partition"
+msgstr ""
+
+#: finish-install:199
+#, c-format
+msgid "Please enter a password for the %s user"
+msgstr ""
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "Парол (такроран ворид кунед)"
+
+#: finish-install:217
+#, c-format
+msgid "Creating encrypted home partition"
+msgstr ""
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr ""
+
+#: harddrake2:30
+#, c-format
+msgid "Alternative drivers"
+msgstr "Гардонандаҳои интихобӣ"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr "рӯйхати ронандаҳои интихобӣ барои ин корти овоздор"
+
+#: harddrake2:33 harddrake2:129
+#, c-format
+msgid "Bus"
+msgstr "Автобус"
+
+#: harddrake2:34
+#, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr ""
+"ин гузаргоҳи физикӣ, ки барои он дастгоҳ ворид карда шудааст (масалан: PCI, "
+"USB, ...)"
+
+#: harddrake2:36 harddrake2:155
+#, c-format
+msgid "Bus identification"
+msgstr "Шиносномаи гузаргоҳ"
+
+#: harddrake2:37
+#, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr ""
+"- дастгоҳҳои PCI ва USB : дар ин ҷо истеҳсолкунандагон, дастгоҳҳо, "
+"истеҳсолкунандагони дуюм дараҷа ва зердастгоҳи PCI/USB оварда шудааст"
+
+#: harddrake2:39
+#, c-format
+msgid "Location on the bus"
+msgstr "Ҷойгиршавӣ дар гузаргоҳ"
+
+#: harddrake2:40
+#, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr ""
+"- pci дастгоҳҳо: ин PCI slot, дастгоҳ ва вазифаи ин кортро медиҳад\n"
+"- eide дастгоҳҳо: ин дастгоҳ ё тобеъбуда ё пешсаф мебошад\n"
+"- scsi дастгоҳҳо: гузаргоҳи scsi ва дастгоҳи scsi ids"
+
+#: harddrake2:43
+#, c-format
+msgid "Drive capacity"
+msgstr "Ғунҷоиши ронанда"
+
+#: harddrake2:43
+#, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr ""
+"имконияти махсуси ронанда (қобилияти даргиронидан ё ин ки дастгирии DVD)"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "Тавсиф"
+
+#: harddrake2:44
+#, c-format
+msgid "this field describes the device"
+msgstr "ин майдон дастгоҳро тасвир менамояд"
+
+#: harddrake2:45
+#, c-format
+msgid "Old device file"
+msgstr "Файли дастгоҳи кӯҳна"
+
+#: harddrake2:46
+#, c-format
+msgid "old static device name used in dev package"
+msgstr "дар қутии dev номи дастгоҳи кӯҳнаи сокин истифода мешавад"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "Модул"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr "модули асоси GNU/Linux, ки ин дастгоҳро идора менамояд"
+
+#: harddrake2:50
+#, c-format
+msgid "Extended partitions"
+msgstr "Қисмҳои васеъшуда"
+
+#: harddrake2:50
+#, c-format
+msgid "the number of extended partitions"
+msgstr "шумораи бахшбандиҳои вусъатёфта"
+
+#: harddrake2:51
+#, c-format
+msgid "Geometry"
+msgstr "Геометрия"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr "Силиндр/сар/қисмҳои геометрии диск"
+
+#: harddrake2:52
+#, c-format
+msgid "Disk controller"
+msgstr "Нозирони диск"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr "нозири диск дар тарафи соҳиб"
+
+#: harddrake2:53
+#, c-format
+msgid "Identifier"
+msgstr "Идентификатор"
+
+#: harddrake2:53
+#, c-format
+msgid "usually the device serial number"
+msgstr "одатан, ин рақами силсилавии дастгоҳ мебошад"
+
+#: harddrake2:54
+#, c-format
+msgid "Media class"
+msgstr "Синфи медиа"
+
+#: harddrake2:54
+#, c-format
+msgid "class of hardware device"
+msgstr "синфи дастгоҳи сахтафзор"
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "Намуна"
+
+#: harddrake2:55
+#, c-format
+msgid "hard disk model"
+msgstr "модели диски сахт"
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "даргоҳи чопгари шабакавӣ"
+
+#: harddrake2:57
+#, c-format
+msgid "Primary partitions"
+msgstr "Бахшҳои аввала"
+
+#: harddrake2:57
+#, c-format
+msgid "the number of the primary partitions"
+msgstr "шумораи бахшҳои ибтидоӣ"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "Баранда"
+
+#: harddrake2:58
+#, c-format
+msgid "the vendor name of the device"
+msgstr "номи истеҳсолкунандаи дастгоҳ"
+
+#: harddrake2:59
+#, c-format
+msgid "PCI domain"
+msgstr "Домени PCI"
+
+#: harddrake2:59 harddrake2:60
+#, c-format
+msgid "the PCI domain of the device"
+msgstr "домени PCI-и дастгоҳ"
+
+#: harddrake2:60
+#, c-format
+msgid "PCI revision"
+msgstr "Тафтиши PCI"
+
+#: harddrake2:61
+#, c-format
+msgid "Bus PCI #"
+msgstr "Гузаргоҳи PCI #"
+
+#: harddrake2:61
+#, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "гузаргоҳи PCI, ки дар он дастгоҳ пайваст шудааст"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device #"
+msgstr "Дастгоҳи PCI #"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device number"
+msgstr "рақами дастгоҳи PCI"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function #"
+msgstr "вазифаи PCI #"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function number"
+msgstr "рақами вазифаи PCI"
+
+#: harddrake2:64
+#, c-format
+msgid "Vendor ID"
+msgstr "Шиносаи Фурӯшанда"
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr "ин шиносаи ададии низоммеъёри фурӯшанда аст"
+
+#: harddrake2:65
+#, c-format
+msgid "Device ID"
+msgstr "Рақами мушаххаси дастгоҳ"
+
+#: harddrake2:65
+#, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "ин идентификатори рақамии дастгоҳ мебошад"
+
+#: harddrake2:66
+#, c-format
+msgid "Sub vendor ID"
+msgstr "Рақами мушаххаси таъминкунандаи хурд"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr "ин идентификатори рақамии таъминкунандаи хурд мебошад"
+
+#: harddrake2:67
+#, c-format
+msgid "Sub device ID"
+msgstr "Рақами мушаххаси дастгоҳи хурд"
+
+#: harddrake2:67
+#, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "ин идентификатори рақамии дастгоҳи хурд мебошад"
+
+#: harddrake2:68
+#, c-format
+msgid "Device USB ID"
+msgstr "Рақами мушаххаси дастгоҳи USB"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomips"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+"ҳастаи GNU/Linux бояд дар вақти худборшавӣ ҳалқаи муҳосибаро барои "
+"арзишдиҳии ҳисобкунаки вақт, иҷро намояд.  Ин натиҷа ҳамчун bogomips захира "
+"мегардад, ки ҳамчун роҳи \"озмоишӣ\" ВПМ маънидод мешавад."
+
+#: harddrake2:75
+#, c-format
+msgid "Cache size"
+msgstr "Ҳаҷми пинҳонӣ"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr "андозаи пинҳонии (дараҷаи дуюм) cpu"
+
+#: harddrake2:76
+#, c-format
+msgid "Cpuid family"
+msgstr "Оилаи Cpuid"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr "оилаи cpu (яъне: 6 барои синфи i686)"
+
+#: harddrake2:77
+#, c-format
+msgid "Cpuid level"
+msgstr "Дараҷаи cpuid"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr "сатҳи ахбороте ки ба воситаи дастурамали cpuid гирифтан мумкин аст"
+
+#: harddrake2:78
+#, c-format
+msgid "Frequency (MHz)"
+msgstr "Суръат (MHz)"
+
+#: harddrake2:78
+#, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr ""
+"Суръати CPU дар MHz (мегагертс, ки ҳангоми наздикшавии аввала метавон "
+"тахминан ба адади аз тарафи пардозишгар дастурамалҳи иҷрошавандаро дар як "
+"сония баробар намуд)"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "Парчамҳо"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr "Парчамҳои CPU, ки аз ҷониби асос хабар дода шудааст"
+
+#: harddrake2:80 harddrake2:148
+#, c-format
+msgid "Cores"
+msgstr ""
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr ""
+
+#: harddrake2:81
+#, c-format
+msgid "Core ID"
+msgstr ""
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr ""
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr ""
+
+#: harddrake2:84
+#, c-format
+msgid "Siblings"
+msgstr ""
+
+#: harddrake2:85
+#, c-format
+msgid "sub generation of the cpu"
+msgstr "насли пардозанда"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr "насли пардозишгар (масалан.: 8 барои PentuimIII, ...)"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "Model name"
+msgstr "Номи модел"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr "номи фурӯшандаи расмии ВПМ"
+
+#: harddrake2:89
+#, c-format
+msgid "the name of the CPU"
+msgstr "номи CPU"
+
+#: harddrake2:90
+#, c-format
+msgid "Processor ID"
+msgstr "Пардозандаи ID"
+
+#: harddrake2:90
+#, c-format
+msgid "the number of the processor"
+msgstr "рақами пардозишгар"
+
+#: harddrake2:91
+#, c-format
+msgid "Model stepping"
+msgstr "Моделҳои Stepping"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr "stepping-и ВПМ (рақами (насл) зермодел)"
+
+#: harddrake2:92
+#, c-format
+msgid "the vendor name of the processor"
+msgstr "Номи истеҳсолкунандаи пардозанда"
+
+#: harddrake2:93
+#, c-format
+msgid "Write protection"
+msgstr "Бо ҳимоя"
+
+#: harddrake2:93
+#, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr ""
+"Парчами WP дар қайди cpu-и CR0 ба ҳимояи навиштан дар дараҷаи саҳифаи "
+"хотиравӣ меоварад, ки ба пардозишгар имконияти пешгирӣ намудани роҳҳои "
+"тафтишнашудаи асосро ба хотираи корвандӣ меоварад (ҳимояи aka аз ғалатҳо)"
+
+#: harddrake2:97
+#, c-format
+msgid "Floppy format"
+msgstr "Дискет андозакунӣ"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr "шаклбандии дисҳои нарм, ки аз тарафи гардонанда пуштибонӣ магарданд"
+
+#: harddrake2:101
+#, c-format
+msgid "EIDE/SCSI channel"
+msgstr "Канали EIDE/SCSI"
+
+#: harddrake2:102
+#, c-format
+msgid "Disk identifier"
+msgstr "Шиносаи диск"
+
+#: harddrake2:102
+#, c-format
+msgid "usually the disk serial number"
+msgstr "рақами муқаррарии сериявии диск"
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr ""
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr ""
+
+#: harddrake2:104
+#, c-format
+msgid "Logical unit number"
+msgstr "Рақами воҳиди мантиқӣ"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, c-format
+msgid "Installed size"
+msgstr "Андозаи коргузошта"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr "Андозаи коргузоштаи бонки ҳофиза"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled Size"
+msgstr "Андозаи Фаъолгашта"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr "Андозаи фаъолгардидаи бонки ҳофиза"
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "Навъ"
+
+#: harddrake2:113
+#, c-format
+msgid "type of the memory device"
+msgstr "навъи дастгоҳи ҳофиза"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "Суръат"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed of the memory bank"
+msgstr "Суръати бонки ҳофиза"
+
+#: harddrake2:115
+#, c-format
+msgid "Bank connections"
+msgstr "Пайвастагиҳои бонк"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr "Тарроҳии бастагоҳи ҳофизаи бонк"
+
+#: harddrake2:118
+#, c-format
+msgid "Location"
+msgstr "Ҷойгиршавӣ"
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "Андоза"
+
+#: harddrake2:119
+#, c-format
+msgid "Size of the memory device"
+msgstr "Андозаи ҳофизаи дастгоҳ"
+
+#: harddrake2:124
+#, c-format
+msgid "Device file"
+msgstr "Файли дастгоҳ"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr ""
+"файли дастгоҳ барои алоқа бо гардонандаи ҳаста баҳри муш истифода мешавад"
+
+#: harddrake2:125
+#, c-format
+msgid "Emulated wheel"
+msgstr "Чархаи шабеҳсоз"
+
+#: harddrake2:125
+#, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "оё чарха шабеҳ аст ё не"
+
+#: harddrake2:126
+#, c-format
+msgid "the type of the mouse"
+msgstr "навъи муш"
+
+#: harddrake2:127
+#, c-format
+msgid "the name of the mouse"
+msgstr "номи муш"
+
+#: harddrake2:128
+#, c-format
+msgid "Number of buttons"
+msgstr "Шумораи дагмаҳо"
+
+#: harddrake2:128
+#, c-format
+msgid "the number of buttons the mouse has"
+msgstr "миқдори дагмаҳое ки муш дорад"
+
+#: harddrake2:129
+#, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "Навъи гузаргоҳ, ки ба он муш пайваст шудааст"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr "Қарордоди муш аз тарафи X11 истифода мегардад"
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr "қарордоде, ки мизи кории графикиро бо муш истифода мебарад"
+
+#: harddrake2:134
+#, c-format
+msgid "Identification"
+msgstr "Шиноснома"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "Пайвастшавӣ"
+
+#: harddrake2:149
+#, c-format
+msgid "Performances"
+msgstr "Самаранокӣ"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "Дастгоҳ"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "Қисмҳои диск"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "Хусусиятҳо"
+
+#: harddrake2:183
+#, c-format
+msgid "Autodetect _modems"
+msgstr "Худмуаяйнкунии _модемҳо"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr ""
+
+#: harddrake2:188
+#, c-format
+msgid "Hardware Configuration"
+msgstr "Танзимкунии сахтафзор"
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "_Имконот"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "_Кумак"
+
+#: harddrake2:199
+#, c-format
+msgid "<control>H"
+msgstr "<control>Р"
+
+#: harddrake2:200
+#, c-format
+msgid "_Fields description"
+msgstr "_Майдонҳо бо тавсифот"
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "_Гузориш дар бораи хато"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "_Дар бораи система..."
+
+#: harddrake2:246
+#, c-format
+msgid "Detected hardware"
+msgstr "Сахтафзори муайяншуда"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Маълумот"
+
+#: harddrake2:251
+#, c-format
+msgid "Set current driver options"
+msgstr ""
+
+#: harddrake2:257
+#, c-format
+msgid "Run config tool"
+msgstr "Воситаи танзимдарориро оғоз намоед"
+
+#: harddrake2:284
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr ""
+"Дар дарахти чап ба дастгоҳ ангушт занед, барои дар ин ҷо маълумотро нишон "
+"додан."
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "номаълум"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "Номаълум"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "Misc"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "дуюмдараҷа"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "асосӣ"
+
+#: harddrake2:412
+#, c-format
+msgid "burner"
+msgstr "сабткунанда"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "HardDrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:543
+#, c-format
+msgid "Harddrake help"
+msgstr "Кумаки Harddrake"
+
+#: harddrake2:544
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Тавсифи майдонҳо:\n"
+"\n"
+
+#: harddrake2:551
+#, c-format
+msgid "Select a device!"
+msgstr "Интихоби дастгоҳ !"
+
+#: harddrake2:551
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Баъди он ки шумо дастгоҳро интихоб намудед, шумо метавонед маълумотро оиди "
+"майдонҳо, ки дар чаҳорчӯбаи рости (\"Маълумот\") намоиш дода мешавад, бинед"
+
+#: localedrake:38
+#, c-format
+msgid "LocaleDrake"
+msgstr "Маҳалли Drake"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr "Шумо бояд бастаҳои зеринро коргузорӣ намоед: %s"
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr ""
+
+#: logdrake:69
+#, c-format
+msgid "Show only for the selected day"
+msgstr "Танҳо барои рӯзи интихобшуда нишон диҳед"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr "Аслшиносӣ"
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr "Корбар"
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr "Паёмҳо"
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr "Номнависи системавӣ"
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "ҷустуҷӯ"
+
+#: logdrake:136
+#, c-format
+msgid "A tool to monitor your logs"
+msgstr "Асбоб барои назорати номнависии шумо"
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "Танзимот"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "Мувофиқкунӣ"
+
+#: logdrake:142
+#, c-format
+msgid "but not matching"
+msgstr "лекин мувофиқат намекунад"
+
+#: logdrake:145
+#, c-format
+msgid "Choose file"
+msgstr "Файл интихоб кунед"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "Тақвим"
+
+#: logdrake:166
+#, c-format
+msgid "Content of the file"
+msgstr "Мундариҷаи файл"
+
+#: logdrake:170 logdrake:415
+#, c-format
+msgid "Mail alert"
+msgstr "Огоҳиномаи почтавӣ"
+
+#: logdrake:177
+#, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "Устоди огоҳонӣ ногаҳон хомӯш шуд:"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "Нигоҳ доштан"
+
+#: logdrake:230
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "лутфан, интизор шаведЮ файл таҷзия карда мешавад: %s"
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr "Мутаассифона, файли сабти рӯйдодҳо дастнорас аст"
+
+#: logdrake:300
+#, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr ""
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr "Сервери WWW Apache"
+
+#: logdrake:394
+#, c-format
+msgid "Domain Name Resolver"
+msgstr "Ҳалкунандаи Номи Соҳибӣ"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "Сервери Ftp"
+
+#: logdrake:396
+#, c-format
+msgid "Postfix Mail Server"
+msgstr "Хизматрасони Почтавии Postfix"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "Сервери Samba"
+
+#: logdrake:398
+#, c-format
+msgid "SSH Server"
+msgstr "Сервери SSH"
+
+#: logdrake:399
+#, c-format
+msgid "Webmin Service"
+msgstr "Хизматрасони Webmin"
+
+#: logdrake:400
+#, c-format
+msgid "Xinetd Service"
+msgstr "Хадамоти Xinetd"
+
+#: logdrake:409
+#, c-format
+msgid "Configure the mail alert system"
+msgstr "Танзими системаи огоҳонии постӣ"
+
+#: logdrake:410
+#, c-format
+msgid "Stop the mail alert system"
+msgstr "Системаи огоҳкунии постиро боздоред"
+
+#: logdrake:418
+#, c-format
+msgid "Mail alert configuration"
+msgstr "Танзимкунии ҳушдори почта"
+
+#: logdrake:419
+#, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr ""
+"Марҳамат ба судмандии почтаи танзимдарорӣ.\n"
+"\n"
+"Дар ин ҷо шумо метавонед системи огоҳиро барпо созед.\n"
+
+#: logdrake:422
+#, c-format
+msgid "What do you want to do?"
+msgstr "Шумо чӣ кор кардан мехоҳед?"
+
+#: logdrake:429
+#, c-format
+msgid "Services settings"
+msgstr "Гузоришҳои хизматрасониҳо"
+
+#: logdrake:430
+#, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr ""
+"Агар яке аз хидматрасонҳои интихобшуда корандозӣ карда шуда набошад, онгоҳ "
+"шумо огоҳномаеро хоҳед гирифт"
+
+#: logdrake:437
+#, c-format
+msgid "Load setting"
+msgstr "Гузоришҳоро бор кунед"
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr ""
+"Агар корандозӣ аз ин қимат баландтар бошад, онгоҳ шумо огоҳномаеро мегиред"
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr "Кор андохтан"
+
+#: logdrake:444
+#, c-format
+msgid "Alert configuration"
+msgstr "Танзимкунии ҳушдор"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr "Лутфан. дар поён суроғаи электронии худро дохил намоед "
+
+#: logdrake:446
+#, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr ""
+"ва номро дохил кунед (ё Шиносаи) хидматрасони SMTP-ро, ки шумо истифода "
+"бурдан мехоҳед"
+
+#: logdrake:448
+#, c-format
+msgid "Email address"
+msgstr "Суроғаи почтаи электронӣ"
+
+#: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "Сервери почтаи электронӣ"
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr ""
+"\"%s\" на дигар суроғаи пости электронӣ ва на корванди маҳаллии мавҷуда "
+"мебошад!"
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+"\"%s\" корванди маҳаллӣ аст, лекин шумо smtp-и маҳаллиро интихоб накардед, "
+"бинобар ин шумо суроғаи пости электронии пурраро истифода баред!"
+
+#: logdrake:465
+#, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr "Устод бо муваффақият огоҳонии постиро танзим кард."
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr "Устод бо муваффақият огоҳонии постиро хомӯш кард."
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "Нигоҳ доред ҳамчун..."
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr ""
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr ""
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr "Сабаб: %s."
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+"Бастаҳои SANE-ро бо истифодабарии сканерҳо бояд коргузорӣ намуд.\n"
+"\n"
+"Оё шумо хоҳиши онро коргузорӣ намудани бастаҳои SANE-ро доред?"
+
+#: scannerdrake:52
+#, c-format
+msgid "Aborting Scannerdrake."
+msgstr "Кандашавии Scannerdrake."
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr ""
+"Коргузории бастаи барномаҳо, ки барои барпосозии сканер ба воситаи "
+"Scannerdrake лозим аст, нашуда истодааст."
+
+#: scannerdrake:58
+#, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "Scannerdrake ҳозир оғоз намеёбад."
+
+#: scannerdrake:64 scannerdrake:502
+#, c-format
+msgid "Searching for configured scanners..."
+msgstr "Ҷустуҷӯи пуйишгарҳои ба танзим дароварда шуда ..."
+
+#: scannerdrake:68 scannerdrake:506
+#, c-format
+msgid "Searching for new scanners..."
+msgstr "Ҷустуҷӯи сканерҳои нав ..."
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr "Аз сари нав тартиб додани рӯйхати сканерҳои танзимшуда ..."
+
+#: scannerdrake:98
+#, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "%s аз тарафи ин нусхаи %s пуштибонӣ намегардад."
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr "Тасдиқкунӣ"
+
+#: scannerdrake:101
+#, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "%s дар %s пайдо нагардидааст, онро ба таври худкор танзим кунам?"
+
+#: scannerdrake:113
+#, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr ""
+"%s дар манбаи маълумоти сканер мавҷуд нест, онро дастӣ ба танзим дароред?"
+
+#: scannerdrake:127
+#, c-format
+msgid "Scanner configuration"
+msgstr ""
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr ""
+
+#: scannerdrake:130
+#, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr ""
+
+#: scannerdrake:131
+#, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr ""
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr ""
+
+#: scannerdrake:139
+#, c-format
+msgid "The %s is not supported under Linux."
+msgstr ""
+
+#: scannerdrake:166 scannerdrake:180
+#, c-format
+msgid "Do not install firmware file"
+msgstr "Файли миёнафзорро коргузорӣ накунед"
+
+#: scannerdrake:169 scannerdrake:219
+#, c-format
+msgid "Scanner Firmware"
+msgstr ""
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr ""
+"Эҳтимолан ба %s-и шумо лозим меояд, ки дар ҳар дафъаи даргиронидани он "
+"миёнафзор бор карда шавад."
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr "Дар ин ҳолат шумо онро ба таври худкор гузаронида метавонед."
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+"Барои чунин кардан шумо бояд файли миёнафзорро ба сканер тавре пешниҳод "
+"кунед, ки он коргузорӣ карда тавонад."
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+"Файлеро дар Диски Фишурда ё диски нарм, ки аз тарафи истеҳсолгари сканери "
+"шумо пешкаш мешавад, дар web - саҳифаҳои истеҳсолгар ё дар қисмати Windows-и "
+"худ ҷустуҷӯ кунед."
+
+#: scannerdrake:175 scannerdrake:234
+#, c-format
+msgid "Install firmware file from"
+msgstr "Файли миёнафзорро коргузорӣ кунед аз"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, c-format
+msgid "Floppy Disk"
+msgstr "Диски Нарм"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, c-format
+msgid "Other place"
+msgstr "Ҷои дигар"
+
+#: scannerdrake:195
+#, c-format
+msgid "Select firmware file"
+msgstr "Файли миёнафзорро интихоб кунед"
+
+#: scannerdrake:198 scannerdrake:257
+#, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr "Файли миёнафзори %s мавҷуд нест ё хонданашаванда аст!"
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr ""
+"Эҳтимолан ба сканери шумо лозим меояд, ки файли миёнафзор дар ҳар дафъаи "
+"даргиронидани он бор карда шавад."
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+"Барои чунин кардан, шумо бояд файли миёнафзорро ба сканери худ пешкаш кунед, "
+"барои коргузории он."
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+"Агар шумо миёнафзори сканерро коргузорӣ карда бошед, шумо онро нав сохта "
+"метавонед бо ишораи файли нави миёнафзор."
+
+#: scannerdrake:230
+#, c-format
+msgid "Install firmware for the"
+msgstr "Миёнафзорро коргузорӣ кунед, барои"
+
+#: scannerdrake:253
+#, c-format
+msgid "Select firmware file for the %s"
+msgstr "Файли миёнафзорро барои %s интихоб кунед"
+
+#: scannerdrake:271
+#, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "Коргузории файли миёнафзор барои %s нашуда истодааст"
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr "Файли миёнафзор барои %s-и шумо бо муваффақият коргузорӣ шудааст."
+
+#: scannerdrake:294
+#, c-format
+msgid "The %s is unsupported"
+msgstr "%s пуштибонӣ намегардад"
+
+#: scannerdrake:299
+#, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr ""
+"%s бояд ба воситаи system-config-printer танзим карда шавад.\n"
+"Шумо метавонед system-config-printer-ро аз %s Маркази Идора қисмати "
+"Сахтафзор сар диҳед."
+
+#: scannerdrake:317
+#, c-format
+msgid "Setting up kernel modules..."
+msgstr ""
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, c-format
+msgid "Auto-detect available ports"
+msgstr "Худмуаяйкунии даргоҳҳои мавҷудбуда"
+
+#: scannerdrake:328 scannerdrake:374
+#, c-format
+msgid "Device choice"
+msgstr ""
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr "Лутфан, дастгоҳеро , ки ба он %s-и шумо пайваст шудааст, интихоб кунед"
+
+#: scannerdrake:330
+#, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr "(Қайд: Даргоҳҳои параллелӣ ба таври автоматӣ муайян намешавад)"
+
+#: scannerdrake:332 scannerdrake:377
+#, c-format
+msgid "choose device"
+msgstr "дастгоҳ инхоб кунед"
+
+#: scannerdrake:366
+#, c-format
+msgid "Searching for scanners..."
+msgstr "Ҷустуҷӯи сканерҳо ..."
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr ""
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+
+#: scannerdrake:406 scannerdrake:415
+#, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr ""
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+
+#: scannerdrake:412
+#, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr ""
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "Табрикот!"
+
+#: scannerdrake:418
+#, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+
+#: scannerdrake:443
+#, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr ""
+"Сканерҳои зерин\n"
+"\n"
+"%s\n"
+"дар системи шумо дастрас аст.\n"
+
+#: scannerdrake:444
+#, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr ""
+"Сканери зерин\n"
+"\n"
+"%s\n"
+"дар системаи шумо дастрас аст.\n"
+
+#: scannerdrake:446 scannerdrake:449
+#, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "Сканерҳое, ки дар системаи шумо дастрасанд, пайдо нагардиданд.\n"
+
+#: scannerdrake:457
+#, c-format
+msgid "Scanner Management"
+msgstr ""
+
+#: scannerdrake:463
+#, c-format
+msgid "Search for new scanners"
+msgstr "Пуйишгарҳои навро дарёфт намоед"
+
+#: scannerdrake:469
+#, c-format
+msgid "Add a scanner manually"
+msgstr "Дастӣ пуйишгарро илова намоед"
+
+#: scannerdrake:476
+#, c-format
+msgid "Install/Update firmware files"
+msgstr "Файли миёнафзорро Коргузорӣ кунед/Нав созед"
+
+#: scannerdrake:482
+#, c-format
+msgid "Scanner sharing"
+msgstr "Тақсиқмоти пуйишгар"
+
+#: scannerdrake:541 scannerdrake:706
+#, c-format
+msgid "All remote machines"
+msgstr "Ҳамаи мошинаҳои дурдаст"
+
+#: scannerdrake:553 scannerdrake:856
+#, c-format
+msgid "This machine"
+msgstr "Ин мошина"
+
+#: scannerdrake:592
+#, c-format
+msgid "Scanner Sharing"
+msgstr ""
+
+#: scannerdrake:593
+#, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr ""
+"Дар ин ҷо шумо метавонед интихоб намоед, ки кадом пуйишгарҳои ба ин мошин "
+"пайваст буда бояд барои мошинҳои дурдаст ва барои кадом мошинҳои дурдаст "
+"дастрас бошад."
+
+#: scannerdrake:594
+#, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr ""
+"Ҳамчунин шумо метавонед ба қарор оед, ки кадом пуйишгарҳо дар мошинҳои "
+"дурдаст бояд дар дар ин мошин дастрас бошад."
+
+#: scannerdrake:597
+#, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr "Сканерҳои ин мошин барои дигар компютерҳо дастрас аст"
+
+#: scannerdrake:599
+#, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "Дастёбии муштарак ба сканер барои соҳибҳо: "
+
+#: scannerdrake:604 scannerdrake:621
+#, c-format
+msgid "No remote machines"
+msgstr "Мошинаҳои дастрас нест"
+
+#: scannerdrake:613
+#, c-format
+msgid "Use scanners on remote computers"
+msgstr "Дар мошинаҳои дурдаст сканерҳоро истифода баред"
+
+#: scannerdrake:616
+#, c-format
+msgid "Use the scanners on hosts: "
+msgstr "Пуйишгаронро аз рӯи соҳибон истифода намудан. "
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, c-format
+msgid "Sharing of local scanners"
+msgstr "Истифодаи якҷояи пуйишгарҳои маҳаллӣ"
+
+#: scannerdrake:644
+#, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr ""
+"Ин мошинҳоест, ки дар онҳо пуйишгар(ҳо)и аз ҷиҳати маҳаллӣ пайваст буда бояд "
+"дастрас бошад:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "Иловаи соҳиб"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "Соҳиби интихобшударо таҳрир кунед"
+
+#: scannerdrake:670 scannerdrake:820
+#, c-format
+msgid "Remove selected host"
+msgstr "Соҳиби интихобшударо хориҷ кунед"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "Шуд"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, c-format
+msgid "Name/IP address of host:"
+msgstr "Ном/суроғаи IP-и соҳиб:"
+
+#: scannerdrake:716 scannerdrake:866
+#, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr ""
+"Соҳибро интихоб намоед, ки дар он пуйишгарҳои маҳаллӣ бояд дастрас бошад:"
+
+#: scannerdrake:727 scannerdrake:877
+#, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "Шумо бояд номи соҳибӣ ё суроғаи IP-ро дохил намоед.\n"
+
+#: scannerdrake:738 scannerdrake:888
+#, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr "Ин соҳиб аллакай дар рӯйхат ҳаст, он аз нав илова карда намешавад.\n"
+
+#: scannerdrake:793
+#, c-format
+msgid "Usage of remote scanners"
+msgstr "Истифодаи пуйишгарҳои дурдаст"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr "Мошинҳое ки бо онҳо пуйишгарҳо бояд истифода гардад:"
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+"saned бояд коргузорӣ шавад барои иҷозати дастрасии муштараки сканер(ҳо)и "
+"маҳаллӣ.\n"
+"\n"
+"Мехоҳед, ки saned-ро коргузорӣ кунед ?"
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr "Пуйишгар(ҳо)и шумо дар шабака мавҷуд нест."
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"Коргзори бастаи барномаҳо барои истифодаи муштаракан сканер(ҳо)и шумо нашуда "
+"истодааст."
+
+#: service_harddrake:157
+#, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr ""
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr ""
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr ""
+
+#: service_harddrake:297
+#, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr "Якчанд дастгоҳ аз сахтафзори синфи \"%s\" хориҷ карда шуда буд:\n"
+
+#: service_harddrake:298
+#, c-format
+msgid "- %s was removed\n"
+msgstr "- %s хориҷ карда шуд\n"
+
+#: service_harddrake:301
+#, c-format
+msgid "Some devices were added: %s\n"
+msgstr "Даъзе дастгоҳҳо илова карда шуданд: %s\n"
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- %s илова карда шуд\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr "Тағиротҳои сахтафзор дар синфи \"%s\" (%s сония барои ҷавоб)"
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "Шумо гузоришҳоро санҷидан мехоҳед ?"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "Санҷиши сахтафзор иҷро шуда истодааст"
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr ""
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr ""
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr ""
+
+#: ../menu/harddrake.desktop.in.h:1
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr ""
+
+#: ../menu/harddrake.desktop.in.h:3
+msgid "Hardware Configuration Tool"
+msgstr "Абзори танзимкунии сахтафзор"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Танзимоти минтақавии система"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr "Танзимоти минтақавӣ"
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr "Танзимкунии забон ва кишвар"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+msgid "Run Mageia Authentication Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+msgid "Run Mageia Boot Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+msgid "Run Mageia Date and Time Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+msgid "Run Mageia Login Manager Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+msgid "Run Mageia Font Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+msgid "Run Mageia Hardware Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr ""
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr ""
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+msgid "Run Mageia Security Permissions Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+msgid "Run Mageia Scanner Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+msgid "Run Mageia Application Security Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+msgid "Run Mageia UPS Configuration"
+msgstr "Иҷро кардани танзимкунии UPS-и Mageia"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+msgid "Run Mageia Service Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr ""

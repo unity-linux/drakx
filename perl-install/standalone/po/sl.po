@@ -1,0 +1,3396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+#
+# Translators:
+# Aljoša Ločičnik <aljosa.locicnik@mandrakeprinas.org>, 2005
+# Filip Komar <filip.komar@gmail.com>, 2011-2015,2017
+# Gregor Pirnaver <gregor.pirnaver@sdm-si.org>, 2002,2004-2005
+# Jure Repinc <jlp@holodeck1.com>, 2005-2010
+# Matjaž Kaše <matjaz.kase@g-kabel.si>, 2004
+# Matjaž Kaše <matjaz.kase@telemach.net>, 2006
+msgid ""
+msgstr ""
+"Project-Id-Version: Mageia\n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2017-04-15 20:05+0000\n"
+"Last-Translator: Filip Komar <filip.komar@gmail.com>\n"
+"Language-Team: Slovenian (http://www.transifex.com/MageiaLinux/mageia/"
+"language/sl/)\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "Pomoč"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "Zapri"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "Overjanje"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:136 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
+#: scannerdrake:876 scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "Napaka"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "_Datoteka"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "_Končaj"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: drakautologin:100
+#, c-format
+msgid "Default user"
+msgstr "Privzet uporabnik"
+
+#: drakautologin:101
+#, c-format
+msgid "Default desktop"
+msgstr "Privzeto namizje"
+
+#: drakautologin:104
+#, c-format
+msgid "No, I do not want autologin"
+msgstr "Ne, ne želim samodejne prijave"
+
+#: drakautologin:105
+#, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr "Da, želim samodejno prijavo s tem uporabnikom"
+
+#: drakautologin:112
+#, c-format
+msgid "System mode"
+msgstr "Sistemski način"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr "Zagon grafičnega okolja ob zagonu sistema"
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr ""
+"Zagonskega nalagalnika ni mogoče najti. Ustvarjanje svežih nastavitev ..."
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr "Program »%s« se je sesul s tem sporočilom o napaki:"
+
+#: drakbug:62
+#, c-format
+msgid "%s Bug Report Tool"
+msgstr "Orodje distribucije %s za poročanje o napakah"
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "Nadzorno središče %s"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr "Začetni čarovnik"
+
+#: drakbug:69
+#, c-format
+msgid "Synchronization tool"
+msgstr "Orodje za sinhronizacijo"
+
+#: drakbug:70 drakbug:206
+#, c-format
+msgid "Standalone Tools"
+msgstr "Samostojna orodja"
+
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s na spletu"
+
+#: drakbug:74
+#, c-format
+msgid "Remote Control"
+msgstr "Oddaljen nadzor"
+
+#: drakbug:75
+#, c-format
+msgid "Software Manager"
+msgstr "Upravitelj programske opreme"
+
+#: drakbug:76
+#, c-format
+msgid "Windows Migration tool"
+msgstr "Orodje za prehod iz Windows"
+
+#: drakbug:77
+#, c-format
+msgid "Configuration Wizards"
+msgstr "Nastavitveni Čarovniki"
+
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "Izberite orodje %s:"
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+"ali ime programa\n"
+"(ali polna pot)"
+
+#: drakbug:103
+#, c-format
+msgid "Find Package"
+msgstr "Poišči paket"
+
+#: drakbug:104
+#, c-format
+msgid "Browse"
+msgstr "Brskanje"
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "Paket: "
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "Jedro:"
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr "Program »%s« se je sesul s tem sporočilom o napaki:"
+
+#: drakbug:144
+#, c-format
+msgid "Used theme: %s"
+msgstr "Trenutna tema: %s"
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+"Poročilo o napaki pošljete tako, da kliknete na gumb »Poročaj«.\n"
+"V spletnem brskalniku se bo odprla stran %s, kjer boste našli obrazec, ki ga "
+"izpolnite. Podatki prikazani zgoraj bodo poslani na strežnik."
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] ""
+"Bilo bi zelo koristno, če bi svojemu poročilu pripeli izpis naslednjega "
+"ukaza: %s."
+msgstr[1] ""
+"Bilo bi zelo koristno, če bi svojemu poročilu pripeli izpis naslednjih "
+"ukazov: %s."
+msgstr[2] ""
+"Bilo bi zelo koristno, če bi svojemu poročilu pripeli izpis naslednjih "
+"ukazov: %s."
+msgstr[3] ""
+"Bilo bi zelo koristno, če bi svojemu poročilu pripeli izpis naslednjih "
+"ukazov: %s."
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr "»%s«"
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr "Pripnite tudi naslednji datoteki: %s in tudi %s"
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr "Opišite, kaj ste počeli, preden se je sesul:"
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "Poročaj"
+
+#: drakbug:213
+#, c-format
+msgid "Not installed"
+msgstr "Ni nameščeno"
+
+#: drakbug:226
+#, c-format
+msgid "Package not installed"
+msgstr "Paket ni nameščen"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "Opozorilo"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+"Opisati morate, kaj ste počeli, preden se je pojavila ta napaka. Na ta način "
+"bomo lahko sami ponovili napako in tako se poveča možnost odprave napake."
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr "Najlepša hvala."
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr "Nastavitev ure, datuma in časovnega pasu"
+
+#: drakclock:38
+#, c-format
+msgid "not defined"
+msgstr "ni določeno"
+
+#: drakclock:40
+#, c-format
+msgid "Change Time Zone"
+msgstr "Nastavitev časovnega pasu"
+
+#: drakclock:45
+#, c-format
+msgid "Timezone - DrakClock"
+msgstr "Časovni pas - DrakClock"
+
+#: drakclock:45
+#, c-format
+msgid "Which is your timezone?"
+msgstr "Vaš časovni pas?"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:47
+#, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "Je ura v vašem računalniku nastavljena na GMT?"
+
+#: drakclock:75
+#, c-format
+msgid "Network Time Protocol"
+msgstr "Omrežni časovni protokol (NTP)"
+
+#: drakclock:77
+#, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"Vaš računalnik lahko sinhronizira čas\n"
+" z oddaljenim strežnikom preko NTP"
+
+#: drakclock:78
+#, c-format
+msgid "Enable Network Time Protocol"
+msgstr "Omogoči omrežni časovni protokol"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "Strežnik:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "Časovni pas"
+
+#: drakclock:117
+#, c-format
+msgid "Please enter a valid NTP server address."
+msgstr "Vnesite veljaven naslov strežnika NTP."
+
+#: drakclock:141
+#, c-format
+msgid "Could not synchronize with %s."
+msgstr "Sinhronizacija z %s ni uspela."
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "Končaj"
+
+#: drakclock:143
+#, c-format
+msgid "Retry"
+msgstr "Poskusi znova"
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "Ponastavi"
+
+#: drakdvb:30
+#, c-format
+msgid "DVB"
+msgstr "DVB"
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "Kanal"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr "%s že obstaja in njena vsebina bo izgubljena"
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr "Seznama razpoložljivih kanalov ni mogoče dobiti"
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "Počakajte"
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr "Zaznavanje kanalov DVB, to lahko traja nekaj minut"
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: drakdvb:148
+#, c-format
+msgid "Detect Channels"
+msgstr "Zaznaj kanale"
+
+#: drakdvb:150
+#, c-format
+msgid "View Channel"
+msgstr "Prikaži kanal"
+
+#: drakedm:41
+#, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "GDM (GNOME-ov upravitelj zaslona)"
+
+#: drakedm:42
+#, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr "SDDM (preprost upravitelj zaslona)"
+
+#: drakedm:43
+#, c-format
+msgid "XDM (X Display Manager)"
+msgstr "XDM (X-ov upravitelj zaslona)"
+
+#: drakedm:54
+#, c-format
+msgid "Choosing a display manager"
+msgstr "Izbor upravitelja zaslona"
+
+#: drakedm:55
+#, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr ""
+"Upravitelj zaslona X11 vam omogoča prijavo v grafičnem načinu,\n"
+"kadar je X Windows System zagnan. Omogoča tudi, da na vašem računalniku\n"
+"istočasno poteka več različnih sej X."
+
+#: drakedm:74
+#, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "Sprememba je uveljavljena. Želite ponovno zagnati storitev dm?"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+"S tem boste zaprli vse programe in izgubili trenutno sejo. Ali ste "
+"prepričani, da želite ponovno zagnati storitev dm?"
+
+#: drakfont:187
+#, c-format
+msgid "Search installed fonts"
+msgstr "Iskanje nameščenih pisav"
+
+#: drakfont:189
+#, c-format
+msgid "Unselect fonts installed"
+msgstr "Odstrani izbor nameščenih pisav"
+
+#: drakfont:213
+#, c-format
+msgid "No fonts found"
+msgstr "Ni najdenih pisav"
+
+#: drakfont:217
+#, c-format
+msgid "parse all fonts"
+msgstr "razčleni vse pisave"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "opravljeno"
+
+#: drakfont:226
+#, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "Na vaših priklopljenih razdelkih ni mogoče najti nobene pisave"
+
+#: drakfont:261
+#, c-format
+msgid "Reselect correct fonts"
+msgstr "Ponovno izberi prave"
+
+#: drakfont:264
+#, c-format
+msgid "Could not find any font.\n"
+msgstr "Nisem mogel najti nobene pisave.\n"
+
+#: drakfont:274
+#, c-format
+msgid "Search for fonts in installed list"
+msgstr "Iskanje pisav v seznamu nameščenih"
+
+#: drakfont:298
+#, c-format
+msgid "%s fonts conversion"
+msgstr "%s pretvorbe pisav"
+
+#: drakfont:337
+#, c-format
+msgid "Fonts copy"
+msgstr "Kopija pisav"
+
+#: drakfont:340
+#, c-format
+msgid "True Type fonts installation"
+msgstr "Namestitev True Type pisav"
+
+#: drakfont:348
+#, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "počakajte med izvajanjem ttmkfdir …"
+
+#: drakfont:349
+#, c-format
+msgid "True Type install done"
+msgstr "Namestitev True Type pisav je opravljena"
+
+#: drakfont:355 drakfont:370
+#, c-format
+msgid "type1inst building"
+msgstr "izgradnja type1inst"
+
+#: drakfont:364
+#, c-format
+msgid "Ghostscript referencing"
+msgstr "Sklicevanje za Ghostscript"
+
+#: drakfont:381
+#, c-format
+msgid "Suppress Temporary Files"
+msgstr "Brez uporabe začasnih datotek"
+
+#: drakfont:426 drakfont:432
+#, c-format
+msgid "Suppress Fonts Files"
+msgstr "Brez uporabe datoteke s pisavami"
+
+#: drakfont:440
+#, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr ""
+"Pred namestitvijo katerekoli pisave se prepričajte, da imate pravico do "
+"njene uporabe in namestitve na svoj sistem.\n"
+"\n"
+"Pisave lahko namestite na običajen način. V redkih primerih lahko datoteke "
+"pisav z napakami obesijo vaš strežnik X."
+
+#: drakfont:479
+#, c-format
+msgid "Font Installation"
+msgstr "Namestitev pisav"
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakFont"
+
+#: drakfont:491 drakfont:640
+#, c-format
+msgid "Font List"
+msgstr "Seznam pisav"
+
+#: drakfont:494
+#, c-format
+msgid "Get Windows Fonts"
+msgstr "Pridobi pisave iz Windows"
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "O programu"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "Možnosti"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "Odstrani"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "Uvozi"
+
+#: drakfont:521
+#, c-format
+msgid "Drakfont"
+msgstr "Drakfont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Avtorske pravice (C) %s %s"
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr "Orodje za nameščanje pisav"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+"Matjaž Kaše <matjaz.kase@g-kabel.si>,\n"
+"Aljoša Ločičnik <aljosa.locicnik@mandrakeprinas.org>,\n"
+"Gregor Pirnaver <gregor.pirnaver@sdm-si.org>,\n"
+"Jure Repinc <jlp@holodeck1.com>,\n"
+"Matjaž Kaše <matjaz.kase@telemach.net>,\n"
+"Filip Komar <filip.komar@gmail.com>\n"
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr "Izberite aplikacijo, ki bo podprla te pisave:"
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "Abiword"
+
+#: drakfont:555
+#, c-format
+msgid "Generic Printers"
+msgstr "Generični tiskalniki"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "V redu"
+
+#: drakfont:569
+#, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr "Izberite datoteko ali mapo s pisavo in kliknite »Dodaj«"
+
+#: drakfont:570
+#, c-format
+msgid "File Selection"
+msgstr "Izbira datoteke"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "Pisave"
+
+#: drakfont:638 draksec:185
+#, c-format
+msgid "Import fonts"
+msgstr "Uvozi pisave"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "Dodaj"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "Odstrani"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "Namesti"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr "Zares želite odstraniti naslednje pisave?"
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "Da"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#: drakfont:728
+#, c-format
+msgid "Unselect All"
+msgstr "Odstrani celotno izbiro"
+
+#: drakfont:731
+#, c-format
+msgid "Select All"
+msgstr "Izberi vse"
+
+#: drakfont:748
+#, c-format
+msgid "Importing fonts"
+msgstr "Uvoz pisav"
+
+#: drakfont:752 drakfont:772
+#, c-format
+msgid "Initial tests"
+msgstr "Začetni testi"
+
+#: drakfont:753
+#, c-format
+msgid "Copy fonts on your system"
+msgstr "Kopiranje pisav na vaš sistem"
+
+#: drakfont:754
+#, c-format
+msgid "Install & convert Fonts"
+msgstr "Namestitev in pretvorba pisav"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "Po namestitvi"
+
+#: drakfont:767
+#, c-format
+msgid "Removing fonts"
+msgstr "Odstranjevanje pisav"
+
+#: drakfont:773
+#, c-format
+msgid "Remove fonts on your system"
+msgstr "Odstranitev pisav z vašega sistema"
+
+#: drakfont:774
+#, c-format
+msgid "Post Uninstall"
+msgstr "Po odstranitvi"
+
+#: drakhelp:17
+#, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"To je prosto programje in se lahko razširja pod pogoji splošnega dovoljenja "
+"GPL.\n"
+"\n"
+"Uporaba: \n"
+
+#: drakhelp:23
+#, c-format
+msgid "  --help                - display this help     \n"
+msgstr "  --help                - prikaže tole pomoč     \n"
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+" --id <Oznaka>         - naloži html stran pomoči, ki se sklicuje na oznako "
+"Oznaka\n"
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+" --doc <povezava>      - povezava na drugo spletno stran (na pozdravno stran "
+"okenskega upravljalnika)\n"
+
+#: drakhelp:53
+#, c-format
+msgid "%s Help Center"
+msgstr "Središče za pomoč %s"
+
+#: drakhelp:53
+#, c-format
+msgid "No Help entry for %s\n"
+msgstr "Pomoč za %s ni na voljo.\n"
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "Sistemske nastavitve"
+
+#: drakperm:24
+#, c-format
+msgid "Custom settings"
+msgstr "Nastavitve po meri"
+
+#: drakperm:25
+#, c-format
+msgid "Custom & system settings"
+msgstr "Nastavitve po meri in sistemske nastavitve"
+
+#: drakperm:33
+#, c-format
+msgid "Security Permissions"
+msgstr "Varnostna dovoljenja"
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "Na voljo za urejanje"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "Pot"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "Uporabnik"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "Skupina"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "Dovoljenja"
+
+#: drakperm:60
+#, c-format
+msgid "Add a new rule"
+msgstr "Dodajanje novega pravila"
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, c-format
+msgid "Edit current rule"
+msgstr "Urejanje trenutnega pravila"
+
+#: drakperm:108
+#, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr ""
+"Tukaj vidite datoteke, katerim msec popravlja dovoljenja, lastnike ter "
+"pripadnost skupinam.\n"
+"Tu lahko tudi urejate svoja pravila, ki prepišejo privzeta pravila."
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+"Trenutna varnostna stopnja je %s.\n"
+"Izberite dovoljenja, ki jih želite videti / urejati"
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "Gor"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr "Premakni izbrano pravilo eno stopnjo višje"
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "Dol"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr "Premakni izbrano pravilo eno stopnjo nižje"
+
+#: drakperm:124
+#, c-format
+msgid "Add a rule"
+msgstr "Dodajanje pravila"
+
+#: drakperm:124
+#, c-format
+msgid "Add a new rule at the end"
+msgstr "Dodajanje novega pravila na konec"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "Brisanje"
+
+#: drakperm:125
+#, c-format
+msgid "Delete selected rule"
+msgstr "Brisanje izbranega pravila"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "Uredi"
+
+#: drakperm:239
+#, c-format
+msgid "browse"
+msgstr "brskaj"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "uporabnik"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "skupina"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "drugi"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "Drugo"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "Branje"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "Omogoči, da »%s« lahko bere to datoteko"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "Pisanje"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "Omogoči, da »%s« lahko piše v to datoteko"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "Izvajanje"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "Omogoči, da »%s« lahko požene to datoteko"
+
+#: drakperm:269
+#, c-format
+msgid "Sticky-bit"
+msgstr "Lepljiv bit"
+
+#: drakperm:269
+#, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"Uporabljeno za mapo:\n"
+"le lastnik mape ali datoteke v tej mapi jo lahko izbriše"
+
+#: drakperm:270
+#, c-format
+msgid "Set-UID"
+msgstr "Nastavi UID"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr "Pri poganjanju uporabi ID lastnika"
+
+#: drakperm:271
+#, c-format
+msgid "Set-GID"
+msgstr "Nastavi GID"
+
+#: drakperm:271
+#, c-format
+msgid "Use group id for execution"
+msgstr "Pri poganjanju uporabi ID skupine"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "Uporabnik:"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "Skupina:"
+
+#: drakperm:293
+#, c-format
+msgid "Current user"
+msgstr "Trenutni uporabnik"
+
+#: drakperm:294
+#, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr "Če je omogočeno, uporabnik in skupina ne bosta spremenjena"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "Izbira poti"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "Lastnost"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+"Prvi znak v poti mora biti poševnica (»/«):\n"
+"»%s«"
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr "Uporabniško ime in skupina morata biti veljavna!"
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr "Uporabnik: %s"
+
+#: drakperm:383
+#, c-format
+msgid "Group: %s"
+msgstr "Skupina: %s"
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "VSE"
+
+#: draksec:54
+#, c-format
+msgid "LOCAL"
+msgstr "KRAJEVNO"
+
+#: draksec:55
+#, c-format
+msgid "NONE"
+msgstr "BREZ"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "Privzeto"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "Zanemari"
+
+#: draksec:87
+#, c-format
+msgid "Security Level and Checks"
+msgstr "Stopnja varnosti in preverjanja"
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr "Nastavite overjanje, ki je potrebno za dostop do orodij %s"
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "Brez gesla"
+
+#: draksec:115
+#, c-format
+msgid "Administrator password"
+msgstr "Geslo skrbnika (root)"
+
+#: draksec:116
+#, c-format
+msgid "User password"
+msgstr "Uporabniško geslo"
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "Upravljanje programja"
+
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "Posodabljanje distribucije %s"
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "Upravitelj virov programske opreme"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "Nastavite 3D učinke namizja"
+
+#: draksec:172
+#, c-format
+msgid "Graphical Server Configuration"
+msgstr "Nastavitve grafičnega strežnika"
+
+#: draksec:173
+#, c-format
+msgid "Mouse Configuration"
+msgstr "Nastavitve miške"
+
+#: draksec:174
+#, c-format
+msgid "Keyboard Configuration"
+msgstr "Nastavitve tipkovnice"
+
+#: draksec:175
+#, c-format
+msgid "UPS Configuration"
+msgstr "Nastavitve neprekinjenega napajanja"
+
+#: draksec:176
+#, c-format
+msgid "Network Configuration"
+msgstr "Nastavitve omrežja"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr "Definicije gostiteljev"
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "Omrežno središče"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr "Gostovanje v brezžičnem omrežju"
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr "Navidezno zasebno omrežje (VPN)"
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "Nastavitev posredniškega strežnika"
+
+#: draksec:182
+#, c-format
+msgid "Connection Sharing"
+msgstr "Skupna raba povezave"
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "Varnostne kopije"
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "Dnevniki"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "Storitve"
+
+#: draksec:188
+#, c-format
+msgid "Users"
+msgstr "Uporabniki"
+
+#: draksec:190
+#, c-format
+msgid "Boot Configuration"
+msgstr "Nastavitve zagona"
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "Strojna oprema"
+
+#: draksec:224
+#, c-format
+msgid "Network"
+msgstr "Omrežje"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "Sistem"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "Zagon"
+
+#: draksound:48
+#, c-format
+msgid "No Sound Card detected!"
+msgstr "Zvočna kartica ni zaznana!"
+
+#: draksound:50
+#, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+"Zvočna kartica v vašem računalniku ni bila zaznana. Preverite, da je "
+"pravilno vstavljena in podprta v Linuxu."
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr "Povezan preko serijskih vrat ali kabla USB"
+
+#: drakups:72
+#, c-format
+msgid "Manual configuration"
+msgstr "Ročna nastavitev"
+
+#: drakups:78
+#, c-format
+msgid "Add an UPS device"
+msgstr "Dodaj napravo za neprekinjeno napajanje (UPS)"
+
+#: drakups:81
+#, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr ""
+"Dobrodošli v orodju za nastavitev UPS.\n"
+"\n"
+"V sistem boste dodali nov UPS.\n"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+"Dodajanje naprave za neprekinjeno napajanje (UPS).\n"
+"\n"
+"Ali želite samodejno ali ročno izbiro naprav UPS, priključenih na ta "
+"računalnik?"
+
+#: drakups:91
+#, c-format
+msgid "Autodetection"
+msgstr "Samodejna zaznava"
+
+#: drakups:99 harddrake2:362
+#, c-format
+msgid "Detection in progress"
+msgstr "Zaznavanje v teku"
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "Čestitke"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr "Čarovnik je uspešno dodal naslednje naprave UPS:"
+
+#: drakups:121
+#, c-format
+msgid "No new UPS devices was found"
+msgstr "Novih naprav UPS ni mogoče najti"
+
+#: drakups:126 drakups:138
+#, c-format
+msgid "UPS driver configuration"
+msgstr "nastavitev gonilnikov za UPS"
+
+#: drakups:126
+#, c-format
+msgid "Please select your UPS model."
+msgstr "Izberite model svojega UPS-a."
+
+#: drakups:127
+#, c-format
+msgid "Manufacturer / Model:"
+msgstr "Proizvajalec / Model:"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+"Nastavljanje UPS-a »%s« od »%s«.\n"
+"Izpolnite njegovo ime, gonilnik in vrata."
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "Ime:"
+
+#: drakups:143
+#, c-format
+msgid "The name of your ups"
+msgstr "Ime vašega UPSa"
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "Gonilnik:"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr "Gonilnik, ki upravlja vaš UPS"
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "Vrata:"
+
+#: drakups:147
+#, c-format
+msgid "The port on which is connected your ups"
+msgstr "Vrata preko katerih je povezan vaš UPS"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr "Čarovnik je uspešno nastavil novo napravo UPS »%s«."
+
+#: drakups:248
+#, c-format
+msgid "UPS devices"
+msgstr "UPS naprave"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "Ime"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "Gonilnik"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "Vrata"
+
+#: drakups:267
+#, c-format
+msgid "UPS users"
+msgstr "Uporabniki naprav UPS"
+
+#: drakups:283
+#, c-format
+msgid "Access Control Lists"
+msgstr "Seznami nadzora dostopa (ACL)"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "Naslov IP"
+
+#: drakups:284
+#, c-format
+msgid "IP mask"
+msgstr "Maska IP"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "Pravila"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "Dejanje"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "Stopnja"
+
+#: drakups:297
+#, c-format
+msgid "ACL name"
+msgstr "Ime ACL"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "Geslo"
+
+#: drakups:329
+#, c-format
+msgid "UPS Management"
+msgstr "Upravljanje UPS"
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "Dobrodošli v orodju za nastavljanje UPS"
+
+#: drakxtv:66
+#, c-format
+msgid "No TV Card detected!"
+msgstr "TV kartice ni mogoče zaznati!"
+
+#: drakxtv:67
+#, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+"TV kartica v vašem računalniku ni bila zaznana. Preverite, da je pravilno "
+"vstavljena in podprta v Linuxu."
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "Tipkovnica"
+
+#: finish-install:61
+#, c-format
+msgid "Please choose your keyboard layout."
+msgstr "Izberite razpored tipkovnice."
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr "Preverjanje povezave …"
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, c-format
+msgid "Encrypted home partition"
+msgstr "Šifriran domači razdelek (»home«)"
+
+#: finish-install:199
+#, c-format
+msgid "Please enter a password for the %s user"
+msgstr "Vnesite geslo za uporabnika »%s«"
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "Geslo (ponovno)"
+
+#: finish-install:217
+#, c-format
+msgid "Creating encrypted home partition"
+msgstr "Ustvarjanje šifriranega domačega razdelka (»home«)"
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr "Formatiranje šifriranega domačega razdelka (»home«)"
+
+#: harddrake2:30
+#, c-format
+msgid "Alternative drivers"
+msgstr "Nadomestni gonilniki"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr "seznam nadomestnih gonilnikov za to zvočno kartico"
+
+#: harddrake2:33 harddrake2:129
+#, c-format
+msgid "Bus"
+msgstr "Vodilo"
+
+#: harddrake2:34
+#, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr ""
+"to je fizično vodilo, na katerega je priklopljena naprava (npr: PCI, USB, …)"
+
+#: harddrake2:36 harddrake2:155
+#, c-format
+msgid "Bus identification"
+msgstr "Določanje vodila"
+
+#: harddrake2:37
+#, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr ""
+"- PCI in USB naprave: izpiše identifikacijske številke proizvajalca, "
+"napravo, podizvajalca in podnapravo PCI/USB"
+
+#: harddrake2:39
+#, c-format
+msgid "Location on the bus"
+msgstr "Mesto na vodilu"
+
+#: harddrake2:40
+#, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr ""
+"- naprave PCI: pokaže PCI režo, napravo in funkcijo te kartice\n"
+"- naprave EIDE: ta naprava je bodisi glavna ali podrejena naprava (master/"
+"slave)\n"
+"- naprave SCSI: vodilo SCSI in identifikacijske številke naprav SCSI"
+
+#: harddrake2:43
+#, c-format
+msgid "Drive capacity"
+msgstr "Zmožnosti pogona"
+
+#: harddrake2:43
+#, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr "posebne zmožnosti pogona (zmožnost zapisovanja, podpora za DVD)"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "Opis"
+
+#: harddrake2:44
+#, c-format
+msgid "this field describes the device"
+msgstr "to polje opisuje napravo"
+
+#: harddrake2:45
+#, c-format
+msgid "Old device file"
+msgstr "Stara datoteka naprave"
+
+#: harddrake2:46
+#, c-format
+msgid "old static device name used in dev package"
+msgstr "staro, statično ime naprave v paketu dev"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "Modul"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr "modul jedra GNU/Linux, ki upravlja napravo"
+
+#: harddrake2:50
+#, c-format
+msgid "Extended partitions"
+msgstr "Razširjeni razdelki"
+
+#: harddrake2:50
+#, c-format
+msgid "the number of extended partitions"
+msgstr "število razširjenih razdelkov"
+
+#: harddrake2:51
+#, c-format
+msgid "Geometry"
+msgstr "Geometrija"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr "Cilindrov/glav/sektorjev - geometrija diska"
+
+#: harddrake2:52
+#, c-format
+msgid "Disk controller"
+msgstr "Krmilnik diska"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr "Krmilnik diska na strani gostitelja"
+
+#: harddrake2:53
+#, c-format
+msgid "Identifier"
+msgstr "Identifikator"
+
+#: harddrake2:53
+#, c-format
+msgid "usually the device serial number"
+msgstr "navadno serijska številka diska"
+
+#: harddrake2:54
+#, c-format
+msgid "Media class"
+msgstr "Razred medija"
+
+#: harddrake2:54
+#, c-format
+msgid "class of hardware device"
+msgstr "razred strojne naprave"
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "Model"
+
+#: harddrake2:55
+#, c-format
+msgid "hard disk model"
+msgstr "model trdega diska"
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "vrata mrežnega tiskalnika"
+
+#: harddrake2:57
+#, c-format
+msgid "Primary partitions"
+msgstr "Primarni razdelki"
+
+#: harddrake2:57
+#, c-format
+msgid "the number of the primary partitions"
+msgstr "število primarnih razdelkov"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "Proizvajalec"
+
+#: harddrake2:58
+#, c-format
+msgid "the vendor name of the device"
+msgstr "proizvajalec naprave"
+
+#: harddrake2:59
+#, c-format
+msgid "PCI domain"
+msgstr "Domena PCI"
+
+#: harddrake2:59 harddrake2:60
+#, c-format
+msgid "the PCI domain of the device"
+msgstr "domena PCI naprave"
+
+#: harddrake2:60
+#, c-format
+msgid "PCI revision"
+msgstr "Revizija PCI"
+
+#: harddrake2:61
+#, c-format
+msgid "Bus PCI #"
+msgstr "št. vodila PCI"
+
+#: harddrake2:61
+#, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "vodilo PCI, na katerega je priklopljena naprava"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device #"
+msgstr "št. naprave PCI"
+
+#: harddrake2:62
+#, c-format
+msgid "PCI device number"
+msgstr "številka naprave PCI"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function #"
+msgstr "št. funkcije PCI"
+
+#: harddrake2:63
+#, c-format
+msgid "PCI function number"
+msgstr "številka funkcije PCI"
+
+#: harddrake2:64
+#, c-format
+msgid "Vendor ID"
+msgstr "ID Proizvajalca"
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr "to je standardna številčna identifikacija proizvajalca"
+
+#: harddrake2:65
+#, c-format
+msgid "Device ID"
+msgstr "ID Naprave"
+
+#: harddrake2:65
+#, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "to je številčna identifikacija naprave"
+
+#: harddrake2:66
+#, c-format
+msgid "Sub vendor ID"
+msgstr "ID podproizvajalca"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr "to je manj pomembna številčna identifikacija proizvajalca"
+
+#: harddrake2:67
+#, c-format
+msgid "Sub device ID"
+msgstr "ID podnaprave"
+
+#: harddrake2:67
+#, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "to je manj pomembna številčna identifikacija naprave"
+
+#: harddrake2:68
+#, c-format
+msgid "Device USB ID"
+msgstr "ID naprave USB"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomips"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+"jedro GNU/Linux mora ob zagonu zagnati računsko zanko za nastavitev števca "
+"časa. Rezultat zanke je shranjen kot »bogomips« v namen merjenja "
+"zmogljivosti procesorja."
+
+#: harddrake2:75
+#, c-format
+msgid "Cache size"
+msgstr "Velikost predpomnilnika"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr "velikost drugostopenjskega CPE predpomnilnika"
+
+#: harddrake2:76
+#, c-format
+msgid "Cpuid family"
+msgstr "Identifikacija družine CPE"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr "družina CPE (npr: 6 za i686 razred)"
+
+#: harddrake2:77
+#, c-format
+msgid "Cpuid level"
+msgstr "Stopnja CPUID"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr "stopnja podatkov, ki jih je mogoče pridobiti z uporabo ukaza cpuid"
+
+#: harddrake2:78
+#, c-format
+msgid "Frequency (MHz)"
+msgstr "Frekvenca (MHz)"
+
+#: harddrake2:78
+#, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr ""
+"frekvenca CPE v MHz (megahercih, ki približno predstavlja število ukazov, ki "
+"jih CPE lahko izvede v eni sekundi)"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "Zastavice"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr "Zastavice CPE, ki jih sporoča jedro"
+
+#: harddrake2:80 harddrake2:148
+#, c-format
+msgid "Cores"
+msgstr "Jedra"
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr "Jedra CPE-ja"
+
+#: harddrake2:81
+#, c-format
+msgid "Core ID"
+msgstr "ID jedra"
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr "Fizični ID"
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr "ACPI-jev ID"
+
+#: harddrake2:84
+#, c-format
+msgid "Siblings"
+msgstr "Z istim staršem"
+
+#: harddrake2:85
+#, c-format
+msgid "sub generation of the cpu"
+msgstr "pod generacija CPE"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr "generacija CPE (npr: 8 za Pentium III, …)"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "Model name"
+msgstr "Ime modela"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr "Uradno ime proizvajalca CPE"
+
+#: harddrake2:89
+#, c-format
+msgid "the name of the CPU"
+msgstr "ime CPE"
+
+#: harddrake2:90
+#, c-format
+msgid "Processor ID"
+msgstr "Identifikacija procesorja"
+
+#: harddrake2:90
+#, c-format
+msgid "the number of the processor"
+msgstr "številka procesorja"
+
+#: harddrake2:91
+#, c-format
+msgid "Model stepping"
+msgstr "Verzija modela"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr "Verzija modela CPE (številka generacije)"
+
+#: harddrake2:92
+#, c-format
+msgid "the vendor name of the processor"
+msgstr "ime proizvajalca procesorja"
+
+#: harddrake2:93
+#, c-format
+msgid "Write protection"
+msgstr "Zaščita pisanja (WP)"
+
+#: harddrake2:93
+#, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr ""
+"zastavica WP v registru CR0 procesorja omogoči zaščito pisanja na nivoju "
+"strani v pomnilniku in s tem preprečevanje nepreverjenih dostopov jedra do "
+"uporabniškega pomnilnika (stopnja zaščite pred napakami)"
+
+#: harddrake2:97
+#, c-format
+msgid "Floppy format"
+msgstr "Format diskete"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr "format disket, ki jih podpira ta pogon"
+
+#: harddrake2:101
+#, c-format
+msgid "EIDE/SCSI channel"
+msgstr "kanal EIDE/SCSI"
+
+#: harddrake2:102
+#, c-format
+msgid "Disk identifier"
+msgstr "Oznaka diska"
+
+#: harddrake2:102
+#, c-format
+msgid "usually the disk serial number"
+msgstr "navadno serijska številka diska"
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr "Številka ID cilja"
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr "Oznaka cilja SCSI"
+
+#: harddrake2:104
+#, c-format
+msgid "Logical unit number"
+msgstr "Številka logične enote"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+"številka logične enote SCSI (LUN). SCSI naprave povezane z gostiteljem so "
+"unikatno\n"
+"identificirane po številki kanala, oznaki cilja in po številki logične enote"
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, c-format
+msgid "Installed size"
+msgstr "Nameščena velikost"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr "Nameščena velikost banke pomnilnika"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled Size"
+msgstr "Omogočena velikost"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr "Omogočena velikost banke pomnilnika"
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "Vrsta"
+
+#: harddrake2:113
+#, c-format
+msgid "type of the memory device"
+msgstr "vrsta pomnilniške naprave"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "Hitrost"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed of the memory bank"
+msgstr "hitrost banke pomnilnika"
+
+#: harddrake2:115
+#, c-format
+msgid "Bank connections"
+msgstr "Povezave bank"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr "oznaka vtiča za banko pomnilnika"
+
+#: harddrake2:118
+#, c-format
+msgid "Location"
+msgstr "Lokacija"
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "Velikost"
+
+#: harddrake2:119
+#, c-format
+msgid "Size of the memory device"
+msgstr "Kapaciteta pomnilniške naprave"
+
+#: harddrake2:124
+#, c-format
+msgid "Device file"
+msgstr "Datoteka naprave"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr ""
+"Datoteka naprave uporabljena za komunikacijo z jedrnim gonilnikom za miško"
+
+#: harddrake2:125
+#, c-format
+msgid "Emulated wheel"
+msgstr "Emulacija koleščka"
+
+#: harddrake2:125
+#, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "bodisi je kolešček emuliran ali ne"
+
+#: harddrake2:126
+#, c-format
+msgid "the type of the mouse"
+msgstr "vrsta miške"
+
+#: harddrake2:127
+#, c-format
+msgid "the name of the mouse"
+msgstr "ime miške"
+
+#: harddrake2:128
+#, c-format
+msgid "Number of buttons"
+msgstr "Število gumbov"
+
+#: harddrake2:128
+#, c-format
+msgid "the number of buttons the mouse has"
+msgstr "Število gumbov, ki jih ima miška"
+
+#: harddrake2:129
+#, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "vrsta vodila na katerega je priklopljena miška"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr "Protokol miške uporabljen pri X11"
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr "protokol, ki ga grafično namizje uporablja z miško"
+
+#: harddrake2:134
+#, c-format
+msgid "Identification"
+msgstr "Identifikacija"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "Povezava"
+
+#: harddrake2:149
+#, c-format
+msgid "Performances"
+msgstr "Lastnosti:"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "Naprava"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "Razdelki"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "Značilnosti"
+
+#: harddrake2:183
+#, c-format
+msgid "Autodetect _modems"
+msgstr "Samozaznava _modemov"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr "Samozaznava pogonov _zip (vzporednih)"
+
+#: harddrake2:188
+#, c-format
+msgid "Hardware Configuration"
+msgstr "Nastavitev strojne opreme"
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "_Nastavitve"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "_Pomoč"
+
+#: harddrake2:199
+#, c-format
+msgid "<control>H"
+msgstr "<control>H"
+
+#: harddrake2:200
+#, c-format
+msgid "_Fields description"
+msgstr "Opisi _polj"
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "po_ročaj o napaki"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "_O …"
+
+#: harddrake2:246
+#, c-format
+msgid "Detected hardware"
+msgstr "Zaznana strojna oprema"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Podatki"
+
+#: harddrake2:251
+#, c-format
+msgid "Set current driver options"
+msgstr "Nastavite možnosti trenutnega gonilnika"
+
+#: harddrake2:257
+#, c-format
+msgid "Run config tool"
+msgstr "Poženi nastavitveno orodje"
+
+#: harddrake2:284
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr ""
+"Kliknite na napravo v drevesu na levi in tukaj se bodo prikazali njeni "
+"podatki."
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "neznano"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "Neznano"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "Razno"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "sekundarna"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "primarna"
+
+#: harddrake2:412
+#, c-format
+msgid "burner"
+msgstr "pekač"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Namestiti je treba naslednje pakete:\n"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "HardDrake, %s orodje za nastavljanje strojne opreme."
+
+#: harddrake2:543
+#, c-format
+msgid "Harddrake help"
+msgstr "Harddrake pomoč"
+
+#: harddrake2:544
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr "Opis polj:\n"
+
+#: harddrake2:551
+#, c-format
+msgid "Select a device!"
+msgstr "Izberite napravo!"
+
+#: harddrake2:551
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Ko boste izbrali napravo, boste lahko videli podatke o njej v poljih "
+"prikazanih v desnem okvirju (»Podatki«)"
+
+#: localedrake:38
+#, c-format
+msgid "LocaleDrake"
+msgstr "LocaleDrake"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr "Namestite naslednje pakete: %s"
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr "Dnevniki orodij %s"
+
+#: logdrake:69
+#, c-format
+msgid "Show only for the selected day"
+msgstr "Prikaži samo za izbran dan"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr "Dnevnik overjanja (datoteka auth.log)"
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr "Dnevnik uporabnikov (datoteka user.log)"
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr "Dnevnik sporočil (datoteka messages)"
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr "Dnevnik sistema (datoteka syslog)"
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "Išči"
+
+#: logdrake:136
+#, c-format
+msgid "A tool to monitor your logs"
+msgstr "Orodje za spremljanje dnevnikov"
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "Ujemanje z"
+
+#: logdrake:142
+#, c-format
+msgid "but not matching"
+msgstr "toda neujemanje z"
+
+#: logdrake:145
+#, c-format
+msgid "Choose file"
+msgstr "Izbor datotek"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "Koledar"
+
+#: logdrake:166
+#, c-format
+msgid "Content of the file"
+msgstr "Vsebina datoteke"
+
+#: logdrake:170 logdrake:415
+#, c-format
+msgid "Mail alert"
+msgstr "E-poštna opozorila"
+
+#: logdrake:177
+#, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "Čarovniku za opozorila je nepričakovano spodletelo:"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "Shrani"
+
+#: logdrake:230
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "počakajte, razčlenjevanje datoteke: %s"
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr "Datoteka z dnevnikom žal ni na voljo!"
+
+#: logdrake:300
+#, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr "Napaka pri odpiranju datoteke z dnevnikom »%s«: %s\n"
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr "Spletni strežnik Apache"
+
+#: logdrake:394
+#, c-format
+msgid "Domain Name Resolver"
+msgstr "Razreševalnik imen domen (DNS)"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "Strežnik FTP"
+
+#: logdrake:396
+#, c-format
+msgid "Postfix Mail Server"
+msgstr "Poštni strežnik Postfix"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "Strežnik Samba"
+
+#: logdrake:398
+#, c-format
+msgid "SSH Server"
+msgstr "Strežnik SSH"
+
+#: logdrake:399
+#, c-format
+msgid "Webmin Service"
+msgstr "Storitev webmin"
+
+#: logdrake:400
+#, c-format
+msgid "Xinetd Service"
+msgstr "Storitev Xinetd"
+
+#: logdrake:409
+#, c-format
+msgid "Configure the mail alert system"
+msgstr "Nastavi sistem e-poštnih opozoril"
+
+#: logdrake:410
+#, c-format
+msgid "Stop the mail alert system"
+msgstr "Ustavi sistem e-poštnih opozoril"
+
+#: logdrake:418
+#, c-format
+msgid "Mail alert configuration"
+msgstr "Nastavitve e-poštnih opozoril"
+
+#: logdrake:419
+#, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr ""
+"Dobrodošli v pripomoček za nastavitev e-poštnih opozoril.\n"
+"\n"
+"Tukaj boste lahko postavili sistem opozoril.\n"
+
+#: logdrake:422
+#, c-format
+msgid "What do you want to do?"
+msgstr "Kaj želite narediti?"
+
+#: logdrake:429
+#, c-format
+msgid "Services settings"
+msgstr "Nastavitve storitev"
+
+#: logdrake:430
+#, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr ""
+"Če katerakoli izmed izbranih storitev ne bo več tekla, boste prejeli "
+"opozorilo"
+
+#: logdrake:437
+#, c-format
+msgid "Load setting"
+msgstr "Nastavitve glede obremenitve"
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr "Če bo obremenitev večja od te vrednosti, boste prejeli opozorilo"
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr "Obremenitev sistema"
+
+#: logdrake:444
+#, c-format
+msgid "Alert configuration"
+msgstr "Nastavitve opozoril"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr "Spodaj vpišite svoj e-poštni naslov "
+
+#: logdrake:446
+#, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr "in vnesite ime (ali IP) strežnika SMTP, ki ga želite uporabiti"
+
+#: logdrake:448
+#, c-format
+msgid "Email address"
+msgstr "E-poštni naslov"
+
+#: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "E-poštni strežnik"
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr "»%s« ni veljaven e-poštni naslov ali obstoječi krajevni uporabnik!"
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+"»%s« je krajevni uporabnik, vendar niste izbrali krajevnega strežnika SMTP, "
+"zato morate uporabiti celoten e-poštni naslov!"
+
+#: logdrake:465
+#, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr "Čarovnik je uspešno nastavil e-poštna opozorila."
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr "Čarovnik je uspešno onemogočil e-poštna opozorila."
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "Shrani kot..."
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr "Nastavitev gonilnika za zaslon"
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr "Samodejno je bil izbran gonilnik za zaslon »%s«."
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr "Razlog: %s."
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+"Za uporabo optičnih bralnikov je potrebno namestiti pakete SANE.\n"
+"\n"
+"Ali jih želite namestiti?"
+
+#: scannerdrake:52
+#, c-format
+msgid "Aborting Scannerdrake."
+msgstr "Prekinitev Scannerdrake."
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr ""
+"Paketov potrebnih za nastavitev optičnega bralnika s Scannerdrake ni mogoče "
+"namestiti."
+
+#: scannerdrake:58
+#, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "Scannerdrake zdaj ne bo zagnan."
+
+#: scannerdrake:64 scannerdrake:502
+#, c-format
+msgid "Searching for configured scanners..."
+msgstr "Iskanje nastavljenih optičnih bralnikov …"
+
+#: scannerdrake:68 scannerdrake:506
+#, c-format
+msgid "Searching for new scanners..."
+msgstr "Iskanje novih optičnih bralnikov …"
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr "Vzpostavljanje seznama nastavljenih optičnih bralnikov …"
+
+#: scannerdrake:98
+#, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "Optični bralnik %s ni podprt v tej različici %s."
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr "Potrditev"
+
+#: scannerdrake:101
+#, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "%s je bil najden na %s. Samodejna nastavitev?"
+
+#: scannerdrake:113
+#, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr "%s ni v bazi optičnih bralnikov, ga želite nastaviti ročno?"
+
+#: scannerdrake:127
+#, c-format
+msgid "Scanner configuration"
+msgstr "Nastavitve optičnega bralnika"
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr "Izberite model optičnega bralnika (Zaznan model: %s, na vratih: %s)"
+
+#: scannerdrake:130
+#, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr "Izberite model optičnega bralnika (Zaznan model: %s)"
+
+#: scannerdrake:131
+#, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr "Izberite model optičnega bralnika (vrata: %s)"
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr " (NI PODPRT)"
+
+#: scannerdrake:139
+#, c-format
+msgid "The %s is not supported under Linux."
+msgstr "%s v Linuxu ni podprt."
+
+#: scannerdrake:166 scannerdrake:180
+#, c-format
+msgid "Do not install firmware file"
+msgstr "Ne namesti strojne programske opreme (firmware)"
+
+#: scannerdrake:169 scannerdrake:219
+#, c-format
+msgid "Scanner Firmware"
+msgstr "Strojna programska oprema optičnega bralnika"
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr ""
+"Možno je, da mora vaš %s ob vsakem vklopu naložiti strojno programsko opremo "
+"(firmware)."
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr "V tem primeru lahko poskrbite, da se bo to naredilo samodejno."
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+"Za to morate priskrbeti strojno programsko opremo (firmware) za vaš optični "
+"bralnik, da jo bo mogoče namestiti."
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+"Datoteko poiščite na CD-ju ali disketi, ki ste jo dobili z optičnim "
+"bralnikom, na spletni strani proizvajalca ali na vašem razdelku za Windows."
+
+#: scannerdrake:175 scannerdrake:234
+#, c-format
+msgid "Install firmware file from"
+msgstr "Namesti strojno programsko opremo (firmware) iz"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM-a"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, c-format
+msgid "Floppy Disk"
+msgstr "diskete"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, c-format
+msgid "Other place"
+msgstr "drugega mesta"
+
+#: scannerdrake:195
+#, c-format
+msgid "Select firmware file"
+msgstr "Izberite strojno programsko opremo (firmware)"
+
+#: scannerdrake:198 scannerdrake:257
+#, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr ""
+"Strojno programska oprema (firmware) %s ne obstaja oziroma je neberljiva!"
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr ""
+"Možno je, da morajo vaši optični bralniki ob vsakem vklopu naložiti strojno "
+"programsko opremo (firmware)."
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+"Za to morate priskrbeti strojno programsko opremo za vaše optične bralnike, "
+"da bo lahko nameščena."
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+"Če ste strojno programsko opremo optičnega bralnika že namestili, jo lahko "
+"tukaj posodobite."
+
+#: scannerdrake:230
+#, c-format
+msgid "Install firmware for the"
+msgstr "Namesti strojno programsko opremo (firmware) za"
+
+#: scannerdrake:253
+#, c-format
+msgid "Select firmware file for the %s"
+msgstr "Izberite strojno programsko opremo (firmware) za %s"
+
+#: scannerdrake:271
+#, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "Strojne programske opreme za %s ni mogoče namestiti!"
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr "Strojna programska oprema za vaš %s je uspešno nameščena."
+
+#: scannerdrake:294
+#, c-format
+msgid "The %s is unsupported"
+msgstr "Optični bralnik %s ni podprt"
+
+#: scannerdrake:299
+#, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr ""
+"%s morate nastaviti kot tiskalnik.\n"
+"Orodje za nastavitev tiskalnikov najdete v strojnem delu Nadzornega središča "
+"%s."
+
+#: scannerdrake:317
+#, c-format
+msgid "Setting up kernel modules..."
+msgstr "Nastavljanje modulov jedra …"
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, c-format
+msgid "Auto-detect available ports"
+msgstr "Samodejno zaznaj dostopna vrata"
+
+#: scannerdrake:328 scannerdrake:374
+#, c-format
+msgid "Device choice"
+msgstr "Izbira naprave"
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr "Izberite napravo, na katero je priključen %s."
+
+#: scannerdrake:330
+#, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr "(Opomba: vzporednih vrat ni mogoče samodejno zaznati)"
+
+#: scannerdrake:332 scannerdrake:377
+#, c-format
+msgid "choose device"
+msgstr "izberite napravo"
+
+#: scannerdrake:366
+#, c-format
+msgid "Searching for scanners..."
+msgstr "Iskanje optičnih bralnikov …"
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr "Pozor!"
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+"%s ni mogoče nastaviti povsem samodejno.\n"
+"\n"
+"Potrebne so ročne prilagoditve. Uredite nastavitveno datoteko /etc/sane.d/%s."
+"conf. "
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+"Dodatne informacije dobite v priročniku za gonilnik, če poženete ukaz »man "
+"sane-%s«."
+
+#: scannerdrake:406 scannerdrake:415
+#, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Potem lahko pričnete z optičnim branjem dokumentov s programom »XSane« ali "
+"»%s«, ki ju najdete v meniju »Zvok in video«."
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr ""
+"Vaš %s je nastavljen, vendar je mogoče, da bodo za njegovo delovanje "
+"potrebne dodatne ročne nastavitve."
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+"Če se ne pojavi na seznamu nastavljenih bralnikov v glavnem oknu "
+"Scannerdrake ali če ne deluje pravilno, "
+
+#: scannerdrake:412
+#, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr "uredite nastavitveno datoteko /etc/sane.d/%s.conf. "
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "Čestitke!"
+
+#: scannerdrake:418
+#, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr ""
+"Vaš optični bralnik %s je nastavljen.\n"
+"Sedaj lahko pričnete z optičnim branjem dokumentov s programom »XSane« ali "
+"»%s«, ki ju najdete v meniju »Zvok in video«."
+
+#: scannerdrake:443
+#, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr ""
+"Na vašem sistemu so na voljo\n"
+"naslednji optični bralniki:\n"
+"\n"
+"%s\n"
+
+#: scannerdrake:444
+#, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr ""
+"Na vašem sistemu je na voljo\n"
+"naslednji optični bralnik:\n"
+"\n"
+"%s\n"
+
+#: scannerdrake:446 scannerdrake:449
+#, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "Noben optični bralnik ni bil najden na vašem sistemu.\n"
+
+#: scannerdrake:457
+#, c-format
+msgid "Scanner Management"
+msgstr "Upravljanje z optičnimi bralniki"
+
+#: scannerdrake:463
+#, c-format
+msgid "Search for new scanners"
+msgstr "Iskanje novih optičnih bralnikov"
+
+#: scannerdrake:469
+#, c-format
+msgid "Add a scanner manually"
+msgstr "Ročno dodaj optični bralnik"
+
+#: scannerdrake:476
+#, c-format
+msgid "Install/Update firmware files"
+msgstr "Namesti / posodobi strojno programsko opremo (firmware)"
+
+#: scannerdrake:482
+#, c-format
+msgid "Scanner sharing"
+msgstr "Skupna raba optičnih bralnikov"
+
+#: scannerdrake:541 scannerdrake:706
+#, c-format
+msgid "All remote machines"
+msgstr "Vsi oddaljeni računalniki"
+
+#: scannerdrake:553 scannerdrake:856
+#, c-format
+msgid "This machine"
+msgstr "Ta računalnik"
+
+#: scannerdrake:592
+#, c-format
+msgid "Scanner Sharing"
+msgstr "Skupna raba optičnih bralnikov"
+
+#: scannerdrake:593
+#, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr ""
+"Tukaj lahko določite, ali bodo optični bralniki na tem računalniku na voljo "
+"oddaljenim računalnikom in če, katerim."
+
+#: scannerdrake:594
+#, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr ""
+"Prav tako lahko določite, ali bodo optični bralniki na oddaljenih "
+"računalnikih na voljo na tem računalniku."
+
+#: scannerdrake:597
+#, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr "Optični bralniki na tem računalniku so na voljo drugim računalnikom."
+
+#: scannerdrake:599
+#, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "Optični bralniki v skupni rabi so na voljo gostiteljem: "
+
+#: scannerdrake:604 scannerdrake:621
+#, c-format
+msgid "No remote machines"
+msgstr "Ni oddaljenih računalnikov"
+
+#: scannerdrake:613
+#, c-format
+msgid "Use scanners on remote computers"
+msgstr "Uporabi optične bralnike na oddaljenih računalnikih"
+
+#: scannerdrake:616
+#, c-format
+msgid "Use the scanners on hosts: "
+msgstr "Uporabi optične bralnike na gostiteljih: "
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, c-format
+msgid "Sharing of local scanners"
+msgstr "Skupna raba krajevnih optičnih bralnikov"
+
+#: scannerdrake:644
+#, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr ""
+"To so računalniki, na katerih naj bi bili dosegljivi vaši krajevno povezani "
+"optični bralniki:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "Dodaj gostitelja"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "Uredi izbranega gostitelja"
+
+#: scannerdrake:670 scannerdrake:820
+#, c-format
+msgid "Remove selected host"
+msgstr "Odstrani izbranega gostitelja"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "Opravljeno"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, c-format
+msgid "Name/IP address of host:"
+msgstr "Gostiteljevo ime / naslov IP"
+
+#: scannerdrake:716 scannerdrake:866
+#, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr ""
+"Izberite gostitelja, na katerem naj bo krajevni optični bralnik v skupni "
+"rabi na voljo: "
+
+#: scannerdrake:727 scannerdrake:877
+#, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "Vnesti morate gostiteljevo ime ali naslov IP.\n"
+
+#: scannerdrake:738 scannerdrake:888
+#, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr "Tega gostitelja ni mogoče dodati, ker je že na seznamu.\n"
+
+#: scannerdrake:793
+#, c-format
+msgid "Usage of remote scanners"
+msgstr "Raba oddaljenih optičnih bralnikov"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr "Računalniki, ki bodo uporabljali optične bralnike:"
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+"za skupno rabo krajevnih optičnih bralnikov je treba namestiti paket "
+"»saned«.\n"
+"\n"
+"Ali ga želite namestiti?"
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr "Vaš optični bralnik ne bo na voljo v omrežju."
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+"Paketov, ki so potrebni za skupno rabo optičnega bralnika, ni mogoče "
+"namestiti."
+
+#: service_harddrake:157
+#, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr "Grafične kartice »%s« gonilnik »%s« ne podpira več"
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr "Nova izdaja, ponovna nastavitev X za %s"
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr "Lastniškega jedrnega gonilnika za X.Org »%s« ni bilo mogoče najti"
+
+#: service_harddrake:297
+#, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr "Nekateri deli strojne opreme razreda »%s« so bili odstranjeni:\n"
+
+#: service_harddrake:298
+#, c-format
+msgid "- %s was removed\n"
+msgstr "- %s je bil odstranjen\n"
+
+#: service_harddrake:301
+#, c-format
+msgid "Some devices were added: %s\n"
+msgstr "Dodana je bila nova strojna oprema: %s\n"
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- %s je bil dodan\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr "Spremembe v strojni opremi v razredu »%s« (%s sekund za odgovor)"
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "Želite odpreti namensko orodje za nastavitev?"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "Zaznavanje strojne opreme"
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr "Težave z gonilnikom za zaslon"
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+"Trenutno nastavljen gonilnik za zaslon zahteva uporabo možnosti »nokmsboot«, "
+"da se jedrni gonilnik KMS med zagonom ne naloži. Strežnik X lahko sedaj "
+"spodleti, ker ta možnost ni bila določena."
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+"Naložen je modul jedra z gonilnikom zaslona, ki ni združljiv z nastavljenim "
+"gonilnikom strežnika X. Zagon strežnika X lahko spodleti."
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr "Zaradi spremembe gonilnika za zaslon se mora sistem ponovno zagnati."
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr "Pritisnite Prekini v %d sekundah za prekinitev."
+
+#: ../menu/harddrake.desktop.in.h:1
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr "Središče za prikaz podatkov o strojni opremi in njeno nastavljanje"
+
+#: ../menu/harddrake.desktop.in.h:3
+msgid "Hardware Configuration Tool"
+msgstr "Orodje za nastavitev strojne opreme"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Sistemske področne nastavitve"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Nastavljanje sistemskih jezikovnih in področnih nastavitev"
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr "Področne nastavitve"
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr "Nastavitev jezika in države"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+msgid "Run Mageia Authentication Configuration"
+msgstr "Zagon nastavitev overjanja Mageje"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr "Za zagon nastavitev overjanja Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+msgid "Run Mageia Boot Configuration"
+msgstr "Zagon nastavitev zagona Mageje"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr "Za zagon nastavitev zagona Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+msgid "Run Mageia Date and Time Configuration"
+msgstr "Zagon nastavitev datuma in časa Mageje"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr "Za zagon nastavitev datuma in časa Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr "Zagon upravljalnika z diskovnimi razdelki Mageje"
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr ""
+"Za zagon upravljalnika z diskovnimi razdelki Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+msgid "Run Mageia Login Manager Configuration"
+msgstr "Zagon nastavitev upravitelja prijav Mageje"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr "Za zagon nastavitev upravitelja prijav Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+msgid "Run Mageia Font Configuration"
+msgstr "Zagon nastavitev pisav Mageje"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr "Za zagon nastavitev pisav Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+msgid "Run Mageia Hardware Configuration"
+msgstr "Zagon nastavitev strojne opreme Mageje"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr "Za zagon nastavitev strojne opreme Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr "Zagon pregledovalnika dnevnikov Mageje"
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr "Za zagon pregledovalnika dnevnikov Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+msgid "Run Mageia Security Permissions Configuration"
+msgstr "Zagon nastavitev varnostnih dovoljenj Mageje"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr "Za zagon nastavitev varnostnih dovoljenj Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+msgid "Run Mageia Scanner Configuration"
+msgstr "Zagon nastavitev optičnih bralnikov Mageje"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr "Za zagon nastavitev optičnih bralnikov Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+msgid "Run Mageia Application Security Configuration"
+msgstr "Zagon nastavitev varnosti programov Mageje"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr "Za zagon nastavitev varnosti programov Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+msgid "Run Mageia UPS Configuration"
+msgstr "Zagon nastavitev neprekinjenega napajanja Mageje"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr ""
+"Za zagon nastavitev neprekinjenega napajanja Mageje je potrebno overjanje"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+msgid "Run Mageia Service Configuration"
+msgstr "Zagon nastavitev storitev Mageje"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr "Za zagon nastavitev storitev Mageje je potrebno overjanje"

@@ -1,0 +1,8 @@
+/etc/mke2fs.conf
+/etc/protocols
+/etc/services
+/etc/group
+/etc/machine-id
+/etc/passwd
+/etc/pki
+/etc/urpmi

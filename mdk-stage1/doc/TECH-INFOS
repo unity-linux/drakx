@@ -1,0 +1,106 @@
+
+| (*) Automatic install
+\----------------------
+
+This feature is used to replace redhat kickstart. It uses the kernel
+parameter "automatic" with keywords separated with commas and colons, on
+the following genres:
+
+	automatic=method:nfs,network:static,ip:192.168.1.24,server:192.168.1.7,directory:/stable/i586
+
+	automatic=method:ftp,network:dhcp,server:ftp.ciril.fr,directory:/pub/linux/mandriva-devel/cooker
+
+	automatic=method:ftp,network:dhcp,server:companyserver,directory:/mdkinst,user:XXX,pass:XXX
+
+	automatic=method:ftp,interface:eth1,network:dhcp,...
+
+	automatic=method:ftp,network:adsl,adsluser:XXX,adslpass:XXX,...
+
+	automatic=method:cdrom
+
+	automatic=method:disk,disk:hdb,partition:hdb7,directory:/cooker
+
+
+The keywords correspond to each "virtual" question answered automatically,
+either from a list or from a free field.
+
+
+Keywords are:
+
+
+`method' <- (nfs,ftp,http,cdrom,disk)
+
+if nfs/ftp/http:
+
+    `network' <- (static,dhcp,adsl)
+
+    if multiple interfaces detected:
+
+        `interface' <- (list-of-detected-interfaces)
+         if "auto":
+           use the first interface with a link beat
+         if "wired":
+           use the first wired interface with a link beat
+           or the first wired interface if none has a link beat
+
+    fi
+
+    if static:
+
+        `ip', `dns', `gateway', `netmask' (free fields)
+
+    elsif adsl:
+
+	`adsluser', `adslpass' (free field)
+
+    fi
+
+    if resolving fails:
+
+        `hostname', `domain' (free fields)
+
+    fi   
+
+    `server', `directory' (free fields)
+
+    if ftp:
+
+        `user', `pass' (free fields)
+
+    fi
+
+fi
+
+if disk:
+
+    `disk' <- (list-of-detected-disks)
+
+    `partition' <- (list-of-detected-partitions)
+
+    `directory' (free fields)
+
+fi
+
+
+
+You may use shorter versions of keywords (it helps reducing size of
+commandline), please find each keyword short-alias counterpart in file
+../automatic.c under the identifier named "short_aliases".
+
+This gives for example for:
+
+	automatic=method:nfs,network:static,ip:192.168.1.24,server:192.168.1.7,directory:/stable/i586
+==>
+	automatic=met:nfs,net:static,ip:192.168.1.24,ser:192.168.1.7,dir:/stable/i586
+
+
+
+You may specify a stage2 auto-install file, different from the
+default `auto_inst.cfg.pl' in install/, by filling the
+`bootfile' parameter of your DHCP server response.
+
+Note that if the name ends with `-IP' or `-IP.pl', IP will be
+replaced by the IP address given to the host, normalized to
+hexadecimal (that is, `192.168.100.57' would give 'C0A86439').
+
+

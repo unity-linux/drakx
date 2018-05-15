@@ -1,0 +1,3667 @@
+# libDrakX-standalone Bahasa Melayu (Malay) (ms).
+# Copyright (C) 2003, 2008 Free Software Foundation, Inc.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2003, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libDrakX-standalone\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-16 11:39+0200\n"
+"PO-Revision-Date: 2008-05-04 13:40+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
+"Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: display_help:50 display_help:55 drakbug:173 drakperm:134
+#, c-format
+msgid "Help"
+msgstr "Bantuan"
+
+#: display_help:63 drakbug:178 drakfont:507
+#, c-format
+msgid "Close"
+msgstr "Tutup"
+
+#: drakauth:24 drakauth:26 draksec:183
+#, c-format
+msgid "Authentication"
+msgstr "Pengesahan"
+
+#: drakauth:37 drakclock:117 drakclock:140 drakdvb:74 drakfont:213 drakfont:226
+#: drakfont:264 finish-install:136 logdrake:177 logdrake:453 logdrake:458
+#: scannerdrake:56 scannerdrake:98 scannerdrake:139 scannerdrake:197
+#: scannerdrake:256 scannerdrake:726 scannerdrake:737 scannerdrake:876
+#: scannerdrake:887 scannerdrake:957
+#, c-format
+msgid "Error"
+msgstr "Ralat"
+
+#: drakautologin:54 harddrake2:195 logdrake:77
+#, c-format
+msgid "_File"
+msgstr "_Fail"
+
+#: drakautologin:55 harddrake2:196 logdrake:78 logdrake:79
+#, c-format
+msgid "_Quit"
+msgstr "_Keluar"
+
+#: drakautologin:55 harddrake2:196 logdrake:79
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: drakautologin:100
+#, fuzzy, c-format
+msgid "Default user"
+msgstr "Antaramuka Pengguna"
+
+#: drakautologin:101
+#, fuzzy, c-format
+msgid "Default desktop"
+msgstr "Persekitaran Desktop"
+
+#: drakautologin:104
+#, fuzzy, c-format
+msgid "No, I do not want autologin"
+msgstr "Tidak"
+
+#: drakautologin:105
+#, fuzzy, c-format
+msgid "Yes, I want autologin with this (user, desktop)"
+msgstr "Ya pengguna"
+
+#: drakautologin:112
+#, fuzzy, c-format
+msgid "System mode"
+msgstr "M-x nxml-mode"
+
+#: drakautologin:115
+#, c-format
+msgid "Launch the graphical environment when your system starts"
+msgstr ""
+
+#: drakboot:41
+#, c-format
+msgid "No bootloader found, creating a new configuration"
+msgstr ""
+
+#: drakbug:52 drakbug:140
+#, c-format
+msgid "The \"%s\" program has crashed with the following error:"
+msgstr ""
+
+#: drakbug:62
+#, fuzzy, c-format
+msgid "%s Bug Report Tool"
+msgstr "Alatan Mengurus Pengguna Mageia"
+
+#: drakbug:62 drakbug:67 drakbug:72 drakbug:73 drakbug:99 drakfont:523
+#: drakfont:527 drakhelp:53 draksec:110 draksec:169 harddrake2:526
+#: harddrake2:530 logdrake:55
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#: drakbug:67
+#, c-format
+msgid "%s Control Center"
+msgstr "Pusat Kawalan %s"
+
+#: drakbug:68
+#, c-format
+msgid "First Time Wizard"
+msgstr " Wizard Kali Pertama"
+
+#: drakbug:69
+#, fuzzy, c-format
+msgid "Synchronization tool"
+msgstr "Alat Klipbod"
+
+#: drakbug:70 drakbug:206
+#, fuzzy, c-format
+msgid "Standalone Tools"
+msgstr "Alatan Pentadbiran"
+
+#: drakbug:72 drakbug:73
+#, fuzzy, c-format
+msgid "%s Online"
+msgstr "Mageia Online"
+
+#: drakbug:74
+#, fuzzy, c-format
+msgid "Remote Control"
+msgstr "Pusat Kawalan"
+
+#: drakbug:75
+#, fuzzy, c-format
+msgid "Software Manager"
+msgstr "Pengurus Media Perisian"
+
+#: drakbug:76
+#, fuzzy, c-format
+msgid "Windows Migration tool"
+msgstr "Alat Ganti Sedia"
+
+#: drakbug:77
+#, fuzzy, c-format
+msgid "Configuration Wizards"
+msgstr "Tetapan KFish"
+
+#: drakbug:99
+#, fuzzy, c-format
+msgid "Select %s Tool:"
+msgstr "Alat Ganti Sedia"
+
+#: drakbug:100
+#, c-format
+msgid ""
+"or Application Name\n"
+"(or Full Path):"
+msgstr ""
+
+#: drakbug:103
+#, fuzzy, c-format
+msgid "Find Package"
+msgstr "Pelihat Pakej"
+
+#: drakbug:104
+#, fuzzy, c-format
+msgid "Browse"
+msgstr "Lungsur"
+
+#: drakbug:106
+#, c-format
+msgid "Package: "
+msgstr "Pakej:"
+
+#: drakbug:107
+#, c-format
+msgid "Kernel:"
+msgstr "Kernel:"
+
+#: drakbug:139
+#, c-format
+msgid "The \"%s\" program has segfaulted with the following error:"
+msgstr ""
+
+#: drakbug:144
+#, fuzzy, c-format
+msgid "Used theme: %s"
+msgstr "Pengguna: %s"
+
+#: drakbug:146
+#, c-format
+msgid ""
+"To submit a bug report, click on the report button.  \n"
+"This will open a web browser window on %s where you'll find a form to fill "
+"in.  The information displayed above will be transferred to that server"
+msgstr ""
+
+#: drakbug:148
+#, c-format
+msgid ""
+"It would be very useful to attach to your report the output of the following "
+"command: %s."
+msgid_plural ""
+"Things useful to attach to your report are the output of the following "
+"commands: %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: drakbug:151
+#, c-format
+msgid "'%s'"
+msgstr ""
+
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr ""
+
+#: drakbug:161
+#, c-format
+msgid "Please describe what you were doing when it crashed:"
+msgstr ""
+
+#: drakbug:177
+#, c-format
+msgid "Report"
+msgstr "Laporan"
+
+#: drakbug:213
+#, fuzzy, c-format
+msgid "Not installed"
+msgstr "Tiada"
+
+#: drakbug:226
+#, fuzzy, c-format
+msgid "Package not installed"
+msgstr "Fail %s tidak dijumpai"
+
+#: drakbug:250 drakdvb:57 drakfont:681 drakperm:371 drakperm:381 drakups:27
+#: harddrake2:507 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
+#, c-format
+msgid "Warning"
+msgstr "Amaran"
+
+#: drakbug:251
+#, c-format
+msgid ""
+"You must type in what you were doing when this bug happened in order to "
+"enable us to reproduce this bug and to increase the odds of fixing it"
+msgstr ""
+
+#: drakbug:252
+#, c-format
+msgid "Thanks."
+msgstr ""
+
+#: drakclock:29 draksec:189
+#, c-format
+msgid "Date, Clock & Time Zone Settings"
+msgstr ""
+
+#: drakclock:38
+#, fuzzy, c-format
+msgid "not defined"
+msgstr "Tiada"
+
+#: drakclock:40
+#, fuzzy, c-format
+msgid "Change Time Zone"
+msgstr "Tarikh/masa bolehubah"
+
+#: drakclock:45
+#, fuzzy, c-format
+msgid "Timezone - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:45
+#, fuzzy, c-format
+msgid "Which is your timezone?"
+msgstr "Persekitaran Desktop adalah:"
+
+#: drakclock:47
+#, c-format
+msgid "GMT - DrakClock"
+msgstr "GMT - DrakClock"
+
+#: drakclock:47
+#, fuzzy, c-format
+msgid "Is your hardware clock set to GMT?"
+msgstr "Perkakasan"
+
+#: drakclock:75
+#, fuzzy, c-format
+msgid "Network Time Protocol"
+msgstr "Tarikh/masa bolehubah"
+
+#: drakclock:77
+#, fuzzy, c-format
+msgid ""
+"Your computer can synchronize its clock\n"
+" with a remote time server using NTP"
+msgstr ""
+"Komputer anda boleh mensegerak jamnya dengan pelayan masa jauh menggunakan "
+"Protokol Masa Rangkaian"
+
+#: drakclock:78
+#, fuzzy, c-format
+msgid "Enable Network Time Protocol"
+msgstr "_Hidupkan Protokol Masa Rangkaian"
+
+#: drakclock:86
+#, c-format
+msgid "Server:"
+msgstr "Pelayan:"
+
+#: drakclock:100
+#, c-format
+msgid "Timezone"
+msgstr "Zonmasa"
+
+#: drakclock:117
+#, fuzzy, c-format
+msgid "Please enter a valid NTP server address."
+msgstr "Sila masukkan alamat IP yang sah."
+
+#: drakclock:141
+#, fuzzy, c-format
+msgid "Could not synchronize with %s."
+msgstr "Tak dapat membuka fail %s."
+
+#: drakclock:142 drakdvb:149 logdrake:182 scannerdrake:488
+#, c-format
+msgid "Quit"
+msgstr "Keluar"
+
+#: drakclock:143
+#, fuzzy, c-format
+msgid "Retry"
+msgstr "Ulangi"
+
+#: drakclock:166 drakclock:176
+#, c-format
+msgid "Reset"
+msgstr "Ulangtetap"
+
+#: drakdvb:30
+#, fuzzy, c-format
+msgid "DVB"
+msgstr "DVD"
+
+#: drakdvb:39 harddrake2:101
+#, c-format
+msgid "Channel"
+msgstr "Saluran"
+
+#: drakdvb:57
+#, c-format
+msgid "%s already exists and its contents will be lost"
+msgstr ""
+
+#: drakdvb:74
+#, c-format
+msgid "Could not get the list of available channels"
+msgstr ""
+
+#: drakdvb:80 draksec:69 drakups:99 finish-install:109 harddrake2:362
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:410
+#, c-format
+msgid "Please wait"
+msgstr "Sila tunggu"
+
+#: drakdvb:84
+#, c-format
+msgid "Detecting DVB channels, this will take a few minutes"
+msgstr ""
+
+#: drakdvb:85 drakfont:570 drakfont:650 drakfont:735 drakups:217 logdrake:182
+#, c-format
+msgid "Cancel"
+msgstr "Batal"
+
+#: drakdvb:148
+#, fuzzy, c-format
+msgid "Detect Channels"
+msgstr "Saluran"
+
+#: drakdvb:150
+#, fuzzy, c-format
+msgid "View Channel"
+msgstr "Saluran"
+
+#: drakedm:41
+#, fuzzy, c-format
+msgid "GDM (GNOME Display Manager)"
+msgstr "Mematikan pengurus paparan: "
+
+#: drakedm:42
+#, fuzzy, c-format
+msgid "SDDM (Simple Desktop Display Manager)"
+msgstr "Konfigur pengurus login (KDM)"
+
+#: drakedm:43
+#, fuzzy, c-format
+msgid "XDM (X Display Manager)"
+msgstr "Pengurus Plugin Abiword"
+
+#: drakedm:54
+#, fuzzy, c-format
+msgid "Choosing a display manager"
+msgstr "Pengurus Plugin Abiword"
+
+#: drakedm:55
+#, fuzzy, c-format
+msgid ""
+"X11 Display Manager allows you to graphically log\n"
+"into your system with the X Window System running and supports running\n"
+"several different X sessions on your local machine at the same time."
+msgstr "Paparan Sistem dan on lokal."
+
+#: drakedm:74
+#, fuzzy, c-format
+msgid "The change is done, do you want to restart the dm service?"
+msgstr "siap ulanghidup?"
+
+#: drakedm:75
+#, c-format
+msgid ""
+"You are going to close all running programs and lose your current session. "
+"Are you really sure that you want to restart the dm service?"
+msgstr ""
+
+#: drakfont:187
+#, fuzzy, c-format
+msgid "Search installed fonts"
+msgstr "Pasang & prapapar fon"
+
+#: drakfont:189
+#, fuzzy, c-format
+msgid "Unselect fonts installed"
+msgstr "Pasang & prapapar fon"
+
+#: drakfont:213
+#, fuzzy, c-format
+msgid "No fonts found"
+msgstr "Tiada skrip dijumpai"
+
+#: drakfont:217
+#, fuzzy, c-format
+msgid "parse all fonts"
+msgstr "Pasang & prapapar fon"
+
+#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
+#: drakfont:410 drakfont:428 drakfont:436
+#, c-format
+msgid "done"
+msgstr "siap"
+
+#: drakfont:226
+#, fuzzy, c-format
+msgid "Could not find any font in your mounted partitions"
+msgstr "dalam terpasang"
+
+#: drakfont:261
+#, fuzzy, c-format
+msgid "Reselect correct fonts"
+msgstr "Pasang & prapapar fon"
+
+#: drakfont:264
+#, fuzzy, c-format
+msgid "Could not find any font.\n"
+msgstr "Tidak dapat menjumpai  konfigurasi X"
+
+#: drakfont:274
+#, fuzzy, c-format
+msgid "Search for fonts in installed list"
+msgstr "Cari dalam"
+
+#: drakfont:298
+#, fuzzy, c-format
+msgid "%s fonts conversion"
+msgstr "Masuk Font"
+
+#: drakfont:337
+#, fuzzy, c-format
+msgid "Fonts copy"
+msgstr "Salin Imej"
+
+#: drakfont:340
+#, fuzzy, c-format
+msgid "True Type fonts installation"
+msgstr "Jenis"
+
+#: drakfont:348
+#, fuzzy, c-format
+msgid "please wait during ttmkfdir..."
+msgstr "Memuatkan Tetapan... Sila tunggu"
+
+#: drakfont:349
+#, fuzzy, c-format
+msgid "True Type install done"
+msgstr "Jenis"
+
+#: drakfont:355 drakfont:370
+#, fuzzy, c-format
+msgid "type1inst building"
+msgstr "Membina Dokumen:"
+
+#: drakfont:364
+#, fuzzy, c-format
+msgid "Ghostscript referencing"
+msgstr "Font Ghostscript"
+
+#: drakfont:381
+#, fuzzy, c-format
+msgid "Suppress Temporary Files"
+msgstr "Semua Fail Imej"
+
+#: drakfont:426 drakfont:432
+#, fuzzy, c-format
+msgid "Suppress Fonts Files"
+msgstr "Semua Fail Imej"
+
+#: drakfont:440
+#, fuzzy, c-format
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"You can install the fonts the normal way. In rare cases, bogus fonts may "
+"hang up your X Server."
+msgstr "dan on normal Masuk Pelayan."
+
+#: drakfont:479
+#, fuzzy, c-format
+msgid "Font Installation"
+msgstr "Font Semasa"
+
+#: drakfont:490
+#, c-format
+msgid "DrakFont"
+msgstr "DrakFont"
+
+#: drakfont:491 drakfont:640
+#, fuzzy, c-format
+msgid "Font List"
+msgstr "Senarai Arab"
+
+#: drakfont:494
+#, fuzzy, c-format
+msgid "Get Windows Fonts"
+msgstr "Pasang & prapapar fon"
+
+#: drakfont:500
+#, c-format
+msgid "About"
+msgstr "Perihal"
+
+#: drakfont:501 drakfont:539
+#, c-format
+msgid "Options"
+msgstr "Pilihan"
+
+#: drakfont:502 drakfont:720
+#, c-format
+msgid "Uninstall"
+msgstr "Nyah pasang"
+
+#: drakfont:503
+#, c-format
+msgid "Import"
+msgstr "Import"
+
+#: drakfont:521
+#, fuzzy, c-format
+msgid "Drakfont"
+msgstr "DrakFont"
+
+#: drakfont:523 harddrake2:526
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Hakcipta (C) %s %s"
+
+#: drakfont:525
+#, fuzzy, c-format
+msgid "Font installer."
+msgstr "Pemasang Fon"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: drakfont:531 harddrake2:534
+#, fuzzy, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Tetap Nama Imej"
+
+#: drakfont:541
+#, c-format
+msgid "Choose the applications that will support the fonts:"
+msgstr ""
+
+#: drakfont:552
+#, c-format
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: drakfont:553
+#, c-format
+msgid "LibreOffice"
+msgstr ""
+
+#: drakfont:554
+#, c-format
+msgid "Abiword"
+msgstr "Abiword"
+
+#: drakfont:555
+#, fuzzy, c-format
+msgid "Generic Printers"
+msgstr "Kelas Pencetak"
+
+#: drakfont:560 drakfont:570 drakups:210
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: drakfont:569
+#, fuzzy, c-format
+msgid "Select the font file or directory and click on 'Add'"
+msgstr "fail direktori dan on Tambah"
+
+#: drakfont:570
+#, fuzzy, c-format
+msgid "File Selection"
+msgstr "Padam pilihan"
+
+#: drakfont:574
+#, c-format
+msgid "Fonts"
+msgstr "Font"
+
+#: drakfont:638 draksec:185
+#, fuzzy, c-format
+msgid "Import fonts"
+msgstr "Masuk Font"
+
+#: drakfont:644 drakups:299 drakups:375
+#, c-format
+msgid "Add"
+msgstr "Tambah"
+
+#: drakfont:645 drakfont:734 drakups:301 drakups:377
+#, c-format
+msgid "Remove"
+msgstr "Buang"
+
+#: drakfont:651
+#, c-format
+msgid "Install"
+msgstr "Pasang"
+
+#: drakfont:683
+#, c-format
+msgid "Are you sure you want to uninstall the following fonts?"
+msgstr ""
+
+#: drakfont:687 draksec:59 harddrake2:306
+#, c-format
+msgid "Yes"
+msgstr "Ya"
+
+#: drakfont:689 draksec:58 harddrake2:307
+#, c-format
+msgid "No"
+msgstr "Tidak"
+
+#: drakfont:728
+#, fuzzy, c-format
+msgid "Unselect All"
+msgstr "Aba&i Semua"
+
+#: drakfont:731
+#, fuzzy, c-format
+msgid "Select All"
+msgstr "Pilih Semu&a"
+
+#: drakfont:748
+#, fuzzy, c-format
+msgid "Importing fonts"
+msgstr "Masuk Font"
+
+#: drakfont:752 drakfont:772
+#, fuzzy, c-format
+msgid "Initial tests"
+msgstr "Ujian dan Peperiksaan"
+
+#: drakfont:753
+#, fuzzy, c-format
+msgid "Copy fonts on your system"
+msgstr "Menetapkan pelayan PXE pada sistem anda..."
+
+#: drakfont:754
+#, fuzzy, c-format
+msgid "Install & convert Fonts"
+msgstr "Pasang & prapapar fon"
+
+#: drakfont:755
+#, c-format
+msgid "Post Install"
+msgstr "Pasca Pasang"
+
+#: drakfont:767
+#, fuzzy, c-format
+msgid "Removing fonts"
+msgstr "Masuk Font"
+
+#: drakfont:773
+#, fuzzy, c-format
+msgid "Remove fonts on your system"
+msgstr "Menetapkan pelayan PXE pada sistem anda..."
+
+#: drakfont:774
+#, fuzzy, c-format
+msgid "Post Uninstall"
+msgstr "Pasca Pasang"
+
+#: drakhelp:17
+#, fuzzy, c-format
+msgid ""
+" drakhelp 0.1\n"
+"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s Mageia.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"Usage: \n"
+msgstr ""
+" drakhelp 0.1\n"
+"Hakmilik © %s Mageia.\n"
+"Ini adalah perisian percuma dan boleh disebarkan dibawah akta GNU GPL.\n"
+"\n"
+"penggunaan:\n"
+
+#: drakhelp:23
+#, fuzzy, c-format
+msgid "  --help                - display this help     \n"
+msgstr " --help                - paparkan bantuan ini\n"
+
+#: drakhelp:24
+#, c-format
+msgid ""
+" --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr ""
+
+#: drakhelp:25
+#, c-format
+msgid ""
+" --doc <link>          - link to another web page ( for WM welcome "
+"frontend)\n"
+msgstr ""
+
+#: drakhelp:53
+#, fuzzy, c-format
+msgid "%s Help Center"
+msgstr "Selamat datang ke Mageia"
+
+#: drakhelp:53
+#, fuzzy, c-format
+msgid "No Help entry for %s\n"
+msgstr "Cari bantuan mengenai..."
+
+#: drakperm:23
+#, c-format
+msgid "System settings"
+msgstr "Tetapan Sistem"
+
+#: drakperm:24
+#, fuzzy, c-format
+msgid "Custom settings"
+msgstr "Tetapan Semasa"
+
+#: drakperm:25
+#, fuzzy, c-format
+msgid "Custom & system settings"
+msgstr "Ubah seting latar belakang"
+
+#: drakperm:33
+#, fuzzy, c-format
+msgid "Security Permissions"
+msgstr "Sekuriti dan Privasi"
+
+#: drakperm:45
+#, c-format
+msgid "Editable"
+msgstr "Bolehedit"
+
+#: drakperm:50 drakperm:318
+#, c-format
+msgid "Path"
+msgstr "Laluan"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "User"
+msgstr "Pengguna"
+
+#: drakperm:50 drakperm:247
+#, c-format
+msgid "Group"
+msgstr "Kumpulan"
+
+#: drakperm:50 drakperm:107 drakperm:330 draksec:200
+#, c-format
+msgid "Permissions"
+msgstr "Keizinan"
+
+#: drakperm:60
+#, fuzzy, c-format
+msgid "Add a new rule"
+msgstr "Baru me&nggunakan Template"
+
+#: drakperm:67 drakperm:102 drakperm:126
+#, fuzzy, c-format
+msgid "Edit current rule"
+msgstr "Sunting Footer pada halaman semasa"
+
+#: drakperm:108
+#, fuzzy, c-format
+msgid ""
+"Here you can see files to use in order to fix permissions, owners, and "
+"groups via msec.\n"
+"You can also edit your own rules which will overwrite the default rules."
+msgstr "fail dalam dan default."
+
+#: drakperm:110
+#, c-format
+msgid ""
+"The current security level is %s.\n"
+"Select permissions to see/edit"
+msgstr ""
+
+#: drakperm:122
+#, c-format
+msgid "Up"
+msgstr "Naik"
+
+#: drakperm:122
+#, c-format
+msgid "Move selected rule up one level"
+msgstr ""
+
+#: drakperm:123
+#, c-format
+msgid "Down"
+msgstr "Turun"
+
+#: drakperm:123
+#, c-format
+msgid "Move selected rule down one level"
+msgstr ""
+
+#: drakperm:124
+#, fuzzy, c-format
+msgid "Add a rule"
+msgstr "Hukum Penghalang"
+
+#: drakperm:124
+#, fuzzy, c-format
+msgid "Add a new rule at the end"
+msgstr "Tambah"
+
+#: drakperm:125
+#, c-format
+msgid "Delete"
+msgstr "Padam"
+
+#: drakperm:125
+#, fuzzy, c-format
+msgid "Delete selected rule"
+msgstr "Tiada plugin dipilih"
+
+#: drakperm:126 drakups:300 drakups:376
+#, c-format
+msgid "Edit"
+msgstr "Edit"
+
+#: drakperm:239
+#, fuzzy, c-format
+msgid "browse"
+msgstr "Lungsur"
+
+#: drakperm:244
+#, c-format
+msgid "user"
+msgstr "pengguna"
+
+#: drakperm:244
+#, c-format
+msgid "group"
+msgstr "kumpulan"
+
+#: drakperm:244
+#, c-format
+msgid "other"
+msgstr "lain-lain"
+
+#: drakperm:247
+#, c-format
+msgid "Other"
+msgstr "Lain-lain"
+
+#: drakperm:249
+#, c-format
+msgid "Read"
+msgstr "Baca"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:252
+#, fuzzy, c-format
+msgid "Enable \"%s\" to read the file"
+msgstr "Fail untuk menyimpan suntingan:"
+
+#: drakperm:256
+#, c-format
+msgid "Write"
+msgstr "Tulis"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:259
+#, fuzzy, c-format
+msgid "Enable \"%s\" to write the file"
+msgstr "Tidak dapat menulis kepada fail %s"
+
+#: drakperm:263
+#, c-format
+msgid "Execute"
+msgstr "Laksana"
+
+#. -PO: here %s will be either "user", "group" or "other"
+#: drakperm:266
+#, fuzzy, c-format
+msgid "Enable \"%s\" to execute the file"
+msgstr "Fail untuk menyimpan suntingan:"
+
+#: drakperm:269
+#, fuzzy, c-format
+msgid "Sticky-bit"
+msgstr "Nota Lekat"
+
+#: drakperm:269
+#, fuzzy, c-format
+msgid ""
+"Used for directory:\n"
+" only owner of directory or file in this directory can delete it"
+msgstr ""
+"direktori\n"
+" direktori fail dalam direktori"
+
+#: drakperm:270
+#, fuzzy, c-format
+msgid "Set-UID"
+msgstr "&Tetap Bahasa"
+
+#: drakperm:270
+#, c-format
+msgid "Use owner id for execution"
+msgstr ""
+
+#: drakperm:271
+#, fuzzy, c-format
+msgid "Set-GID"
+msgstr "&Tetap Bahasa"
+
+#: drakperm:271
+#, fuzzy, c-format
+msgid "Use group id for execution"
+msgstr "id pengguna/kumpulan sedang digunakan"
+
+#: drakperm:288
+#, c-format
+msgid "User:"
+msgstr "Pengguna:"
+
+#: drakperm:289
+#, c-format
+msgid "Group:"
+msgstr "Kumpulan:"
+
+#: drakperm:293
+#, fuzzy, c-format
+msgid "Current user"
+msgstr "Antaramuka Pengguna"
+
+#: drakperm:294
+#, fuzzy, c-format
+msgid "When checked, owner and group will not be changed"
+msgstr "dan"
+
+#: drakperm:304
+#, c-format
+msgid "Path selection"
+msgstr "Pilihan path"
+
+#: drakperm:324
+#, c-format
+msgid "Property"
+msgstr "Ciri-ciri"
+
+#: drakperm:371
+#, c-format
+msgid ""
+"The first character of the path must be a slash (\"/\"):\n"
+"\"%s\""
+msgstr ""
+
+#: drakperm:381
+#, c-format
+msgid "Both the username and the group must valid!"
+msgstr ""
+
+#: drakperm:382
+#, c-format
+msgid "User: %s"
+msgstr "Pengguna: %s"
+
+#: drakperm:383
+#, fuzzy, c-format
+msgid "Group: %s"
+msgstr "Kumpulan"
+
+#: draksec:53
+#, c-format
+msgid "ALL"
+msgstr "SEMUA"
+
+#: draksec:54
+#, fuzzy, c-format
+msgid "LOCAL"
+msgstr "Layari Rangkaian Tempatan"
+
+#: draksec:55
+#, fuzzy, c-format
+msgid "NONE"
+msgstr "&1 Tiada"
+
+#: draksec:56 draksec:113
+#, c-format
+msgid "Default"
+msgstr "Default"
+
+#: draksec:57
+#, c-format
+msgid "Ignore"
+msgstr "Abai"
+
+#: draksec:87
+#, fuzzy, c-format
+msgid "Security Level and Checks"
+msgstr "Tahap Keselamatan dan Firewall"
+
+#: draksec:110
+#, c-format
+msgid "Configure authentication required to access %s tools"
+msgstr ""
+
+#: draksec:114
+#, c-format
+msgid "No password"
+msgstr "Tiada katalaluan"
+
+#: draksec:115
+#, fuzzy, c-format
+msgid "Administrator password"
+msgstr "Katalaluan Tidak Betul"
+
+#: draksec:116
+#, fuzzy, c-format
+msgid "User password"
+msgstr "Kata Laluan & Akaun Pengguna"
+
+#: draksec:168 draksec:222
+#, c-format
+msgid "Software Management"
+msgstr "Pengurusan Perisian"
+
+#: draksec:169
+#, fuzzy, c-format
+msgid "%s Update"
+msgstr "Mageia Update"
+
+#: draksec:170
+#, c-format
+msgid "Software Media Manager"
+msgstr "Pengurus Media Perisian"
+
+#: draksec:171
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "Tetapkan kesan 3D Desktop"
+
+#: draksec:172
+#, fuzzy, c-format
+msgid "Graphical Server Configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: draksec:173
+#, fuzzy, c-format
+msgid "Mouse Configuration"
+msgstr "Tetapan KFish"
+
+#: draksec:174
+#, fuzzy, c-format
+msgid "Keyboard Configuration"
+msgstr "Tetapan KFish"
+
+#: draksec:175
+#, fuzzy, c-format
+msgid "UPS Configuration"
+msgstr "Tetapan KFish"
+
+#: draksec:176
+#, fuzzy, c-format
+msgid "Network Configuration"
+msgstr "Tetapan KFish"
+
+#: draksec:177
+#, c-format
+msgid "Hosts definitions"
+msgstr "Takrifan hos"
+
+#: draksec:178
+#, c-format
+msgid "Network Center"
+msgstr "Kawalan Rangkaian"
+
+#: draksec:179
+#, c-format
+msgid "Wireless Network Roaming"
+msgstr ""
+
+#: draksec:180
+#, c-format
+msgid "VPN"
+msgstr ""
+
+#: draksec:181
+#, c-format
+msgid "Proxy Configuration"
+msgstr "Konfigurasi Proksi"
+
+#: draksec:182
+#, fuzzy, c-format
+msgid "Connection Sharing"
+msgstr "Perkongsian Ruang Kerja"
+
+#: draksec:184
+#, c-format
+msgid "Backups"
+msgstr "Salinan"
+
+#: draksec:186 logdrake:56
+#, c-format
+msgid "Logs"
+msgstr "Log"
+
+#: draksec:187
+#, c-format
+msgid "Services"
+msgstr "Perkhidmatan"
+
+#: draksec:188
+#, fuzzy, c-format
+msgid "Users"
+msgstr "Pengguna dan Kumpulan"
+
+#: draksec:190
+#, fuzzy, c-format
+msgid "Boot Configuration"
+msgstr "Pemuat but"
+
+#: draksec:223
+#, c-format
+msgid "Hardware"
+msgstr "Perkakasan"
+
+#: draksec:224
+#, fuzzy, c-format
+msgid "Network"
+msgstr "Jaringan"
+
+#: draksec:225
+#, c-format
+msgid "System"
+msgstr "Sistem"
+
+#: draksec:226
+#, c-format
+msgid "Boot"
+msgstr "Boot"
+
+#: draksound:48
+#, fuzzy, c-format
+msgid "No Sound Card detected!"
+msgstr "Tiada pemacu liut dikesan"
+
+#: draksound:50
+#, fuzzy, c-format
+msgid ""
+"No Sound Card has been detected on your machine. Please verify that a Linux-"
+"supported Sound Card is correctly plugged in"
+msgstr ""
+"Tidak on Video dalam\n"
+"http://www.mandrivalinux.com/en/hardware.php3"
+
+#: drakups:71
+#, c-format
+msgid "Connected through a serial port or an usb cable"
+msgstr ""
+
+#: drakups:72
+#, fuzzy, c-format
+msgid "Manual configuration"
+msgstr "Tetapan KFish"
+
+#: drakups:78
+#, fuzzy, c-format
+msgid "Add an UPS device"
+msgstr "Tambah lajur selepas"
+
+#: drakups:81
+#, fuzzy, c-format
+msgid ""
+"Welcome to the UPS configuration utility.\n"
+"\n"
+"Here, you'll add a new UPS to your system.\n"
+msgstr "Selamat Datang"
+
+#: drakups:88
+#, c-format
+msgid ""
+"We're going to add an UPS device.\n"
+"\n"
+"Do you want to autodetect UPS devices connected to this machine or to "
+"manually select them?"
+msgstr ""
+
+#: drakups:91
+#, fuzzy, c-format
+msgid "Autodetection"
+msgstr "Auto indent"
+
+#: drakups:99 harddrake2:362
+#, fuzzy, c-format
+msgid "Detection in progress"
+msgstr "&Dalam pelayar web"
+
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
+#, c-format
+msgid "Congratulations"
+msgstr "Tahniah"
+
+#: drakups:119
+#, c-format
+msgid "The wizard successfully added the following UPS devices:"
+msgstr ""
+
+#: drakups:121
+#, fuzzy, c-format
+msgid "No new UPS devices was found"
+msgstr "Tiada peranti input"
+
+#: drakups:126 drakups:138
+#, fuzzy, c-format
+msgid "UPS driver configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: drakups:126
+#, fuzzy, c-format
+msgid "Please select your UPS model."
+msgstr "Sila pilih bandar terdekat dalam zonmasa anda:"
+
+#: drakups:127
+#, fuzzy, c-format
+msgid "Manufacturer / Model:"
+msgstr "Model Pencetak"
+
+#: drakups:138
+#, c-format
+msgid ""
+"We are configuring the \"%s\" UPS from \"%s\".\n"
+"Please fill in its name, its driver and its port."
+msgstr ""
+
+#: drakups:143
+#, c-format
+msgid "Name:"
+msgstr "Nama:"
+
+#: drakups:143
+#, fuzzy, c-format
+msgid "The name of your ups"
+msgstr "Pasukan Mageia Anda."
+
+#: drakups:144
+#, c-format
+msgid "Driver:"
+msgstr "Pemacu :"
+
+#: drakups:144
+#, c-format
+msgid "The driver that manages your ups"
+msgstr ""
+
+#: drakups:145
+#, c-format
+msgid "Port:"
+msgstr "Port:"
+
+#: drakups:147
+#, fuzzy, c-format
+msgid "The port on which is connected your ups"
+msgstr "on"
+
+#: drakups:157
+#, c-format
+msgid "The wizard successfully configured the new \"%s\" UPS device."
+msgstr ""
+
+#: drakups:248
+#, fuzzy, c-format
+msgid "UPS devices"
+msgstr "Peranti dikesan:"
+
+#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
+#: harddrake2:127
+#, c-format
+msgid "Name"
+msgstr "Nama"
+
+#: drakups:249 harddrake2:143
+#, c-format
+msgid "Driver"
+msgstr "Pemacu"
+
+#: drakups:249 harddrake2:56
+#, c-format
+msgid "Port"
+msgstr "Port"
+
+#: drakups:267
+#, fuzzy, c-format
+msgid "UPS users"
+msgstr "Pengguna dan Kumpulan"
+
+#: drakups:283
+#, fuzzy, c-format
+msgid "Access Control Lists"
+msgstr "&Kawalan balu/yatim"
+
+#: drakups:284
+#, c-format
+msgid "IP address"
+msgstr "Alamat IP"
+
+#: drakups:284
+#, fuzzy, c-format
+msgid "IP mask"
+msgstr "Net_mask"
+
+#: drakups:296
+#, c-format
+msgid "Rules"
+msgstr "Peraturan"
+
+#: drakups:297
+#, c-format
+msgid "Action"
+msgstr "Aksi"
+
+#: drakups:297 harddrake2:85
+#, c-format
+msgid "Level"
+msgstr "Aras"
+
+#: drakups:297
+#, fuzzy, c-format
+msgid "ACL name"
+msgstr "Nama Medan"
+
+#: drakups:297 finish-install:201
+#, c-format
+msgid "Password"
+msgstr "Katalaluan"
+
+#: drakups:329
+#, fuzzy, c-format
+msgid "UPS Management"
+msgstr "Pengurusan Masa"
+
+#: drakups:333 drakups:342
+#, c-format
+msgid "DrakUPS"
+msgstr "DrakUPS"
+
+#: drakups:339
+#, fuzzy, c-format
+msgid "Welcome to the UPS configuration tools"
+msgstr "Selamat Datang ke Alat Penyelarasan Pelayan CUPS"
+
+#: drakxtv:66
+#, fuzzy, c-format
+msgid "No TV Card detected!"
+msgstr "Tetapkan kad TV"
+
+#: drakxtv:67
+#, fuzzy, c-format
+msgid ""
+"No TV Card has been detected on your machine. Please verify that a Linux-"
+"supported Video/TV Card is correctly plugged in."
+msgstr ""
+"Tidak on Video dalam\n"
+"http://www.mandrivalinux.com/en/hardware.php3"
+
+#: finish-install:60
+#, c-format
+msgid "Keyboard"
+msgstr "Papan Kekunci"
+
+#: finish-install:61
+#, fuzzy, c-format
+msgid "Please choose your keyboard layout."
+msgstr "Sila pilih jenis logmasuk anda:"
+
+#: finish-install:109
+#, c-format
+msgid "Testing your connection..."
+msgstr ""
+
+#: finish-install:199 finish-install:217 finish-install:230
+#, fuzzy, c-format
+msgid "Encrypted home partition"
+msgstr "Pengepala Mesej Dienkrip PGP/MIME"
+
+#: finish-install:199
+#, fuzzy, c-format
+msgid "Please enter a password for the %s user"
+msgstr "Sila masukkan katalaluan bagi pengguna ini."
+
+#: finish-install:202
+#, c-format
+msgid "Password (again)"
+msgstr "Katalaluan (sekali lagi)"
+
+#: finish-install:217
+#, fuzzy, c-format
+msgid "Creating encrypted home partition"
+msgstr "Ralat mencipta direktori rumah untuk %s: %s\n"
+
+#: finish-install:230
+#, c-format
+msgid "Formatting encrypted home partition"
+msgstr ""
+
+#: harddrake2:30
+#, fuzzy, c-format
+msgid "Alternative drivers"
+msgstr "Pemandu yang ada:"
+
+#: harddrake2:31
+#, c-format
+msgid "the list of alternative drivers for this sound card"
+msgstr ""
+
+#: harddrake2:33 harddrake2:129
+#, fuzzy, c-format
+msgid "Bus"
+msgstr "Kursor S&ibuk"
+
+#: harddrake2:34
+#, fuzzy, c-format
+msgid ""
+"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr "on USB"
+
+#: harddrake2:36 harddrake2:155
+#, fuzzy, c-format
+msgid "Bus identification"
+msgstr "Pengenalpastian Pelayar"
+
+#: harddrake2:37
+#, fuzzy, c-format
+msgid ""
+"- PCI and USB devices: this lists the vendor, device, subvendor and "
+"subdevice PCI/USB ids"
+msgstr "dan USB dan USB"
+
+#: harddrake2:39
+#, fuzzy, c-format
+msgid "Location on the bus"
+msgstr "dikemaskini pada %(date)s"
+
+#: harddrake2:40
+#, fuzzy, c-format
+msgid ""
+"- pci devices: this gives the PCI slot, device and function of this card\n"
+"- eide devices: the device is either a slave or a master device\n"
+"- scsi devices: the scsi bus and the scsi device ids"
+msgstr "dan dan"
+
+#: harddrake2:43
+#, fuzzy, c-format
+msgid "Drive capacity"
+msgstr "Aba_ikan pemacu"
+
+#: harddrake2:43
+#, fuzzy, c-format
+msgid "special capacities of the driver (burning ability and or DVD support)"
+msgstr "dan"
+
+#: harddrake2:44
+#, c-format
+msgid "Description"
+msgstr "Huraian"
+
+#: harddrake2:44
+#, fuzzy, c-format
+msgid "this field describes the device"
+msgstr "Pengguna tidak boleh mengawal peranti ini."
+
+#: harddrake2:45
+#, fuzzy, c-format
+msgid "Old device file"
+msgstr "Fail Peranti TeX Tanpa Kebergantungan"
+
+#: harddrake2:46
+#, fuzzy, c-format
+msgid "old static device name used in dev package"
+msgstr "dalam"
+
+#. -PO: here "module" is the "jargon term" for a kernel driver
+#: harddrake2:49
+#, c-format
+msgid "Module"
+msgstr "Modul"
+
+#: harddrake2:49
+#, c-format
+msgid "the module of the GNU/Linux kernel that handles the device"
+msgstr ""
+
+#: harddrake2:50
+#, fuzzy, c-format
+msgid "Extended partitions"
+msgstr "Edit Partisyen"
+
+#: harddrake2:50
+#, fuzzy, c-format
+msgid "the number of extended partitions"
+msgstr "Ubah jumlah lajur"
+
+#: harddrake2:51
+#, fuzzy, c-format
+msgid "Geometry"
+msgstr "Geometri Cetakan"
+
+#: harddrake2:51
+#, c-format
+msgid "Cylinder/head/sectors geometry of the disk"
+msgstr ""
+
+#: harddrake2:52
+#, fuzzy, c-format
+msgid "Disk controller"
+msgstr "Pengawal gelombang otak"
+
+#: harddrake2:52
+#, c-format
+msgid "the disk controller on the host side"
+msgstr ""
+
+#: harddrake2:53
+#, fuzzy, c-format
+msgid "Identifier"
+msgstr "Pengenalan:"
+
+#: harddrake2:53
+#, fuzzy, c-format
+msgid "usually the device serial number"
+msgstr "Nombor siri mesti >= 1."
+
+#: harddrake2:54
+#, fuzzy, c-format
+msgid "Media class"
+msgstr "Kelas Pencetak"
+
+#: harddrake2:54
+#, fuzzy, c-format
+msgid "class of hardware device"
+msgstr "Fail Peranti TeX Tanpa Kebergantungan"
+
+#: harddrake2:55 harddrake2:86
+#, c-format
+msgid "Model"
+msgstr "Model"
+
+#: harddrake2:55
+#, fuzzy, c-format
+msgid "hard disk model"
+msgstr "Volum Cakera Keras Terlekap"
+
+#: harddrake2:56
+#, c-format
+msgid "network printer port"
+msgstr "port pencetak rangkaian"
+
+#: harddrake2:57
+#, fuzzy, c-format
+msgid "Primary partitions"
+msgstr "Edit Partisyen"
+
+#: harddrake2:57
+#, fuzzy, c-format
+msgid "the number of the primary partitions"
+msgstr "Ubah jumlah lajur"
+
+#: harddrake2:58 harddrake2:92
+#, c-format
+msgid "Vendor"
+msgstr "Pengeluar"
+
+#: harddrake2:58
+#, fuzzy, c-format
+msgid "the vendor name of the device"
+msgstr "Tetap Nama Imej"
+
+#: harddrake2:59
+#, fuzzy, c-format
+msgid "PCI domain"
+msgstr "Maklumat PCI"
+
+#: harddrake2:59 harddrake2:60
+#, fuzzy, c-format
+msgid "the PCI domain of the device"
+msgstr "Fail Peranti TeX Tanpa Kebergantungan"
+
+#: harddrake2:60
+#, fuzzy, c-format
+msgid "PCI revision"
+msgstr "Keizinan"
+
+#: harddrake2:61
+#, fuzzy, c-format
+msgid "Bus PCI #"
+msgstr "Maklumat PCI"
+
+#: harddrake2:61
+#, fuzzy, c-format
+msgid "the PCI bus on which the device is plugged"
+msgstr "on USB"
+
+#: harddrake2:62
+#, fuzzy, c-format
+msgid "PCI device #"
+msgstr "Peranti Blok"
+
+#: harddrake2:62
+#, fuzzy, c-format
+msgid "PCI device number"
+msgstr "Ubah jumlah lajur"
+
+#: harddrake2:63
+#, fuzzy, c-format
+msgid "PCI function #"
+msgstr "Plot Fungsi"
+
+#: harddrake2:63
+#, fuzzy, c-format
+msgid "PCI function number"
+msgstr "Ubah jumlah lajur"
+
+#: harddrake2:64
+#, fuzzy, c-format
+msgid "Vendor ID"
+msgstr "Id Bina."
+
+#: harddrake2:64
+#, c-format
+msgid "this is the standard numerical identifier of the vendor"
+msgstr ""
+
+#: harddrake2:65
+#, fuzzy, c-format
+msgid "Device ID"
+msgstr "Id Bina."
+
+#: harddrake2:65
+#, fuzzy, c-format
+msgid "this is the numerical identifier of the device"
+msgstr "Partisyen ini adalah sebahagian dari peranti RAID."
+
+#: harddrake2:66
+#, fuzzy, c-format
+msgid "Sub vendor ID"
+msgstr "ID kumpulan %s tidak sah\n"
+
+#: harddrake2:66
+#, c-format
+msgid "this is the minor numerical identifier of the vendor"
+msgstr ""
+
+#: harddrake2:67
+#, fuzzy, c-format
+msgid "Sub device ID"
+msgstr "Fail Peranti TeX Tanpa Kebergantungan"
+
+#: harddrake2:67
+#, fuzzy, c-format
+msgid "this is the minor numerical identifier of the device"
+msgstr "Fail \"%s\" adalah sebuah fail peranti"
+
+#: harddrake2:68
+#, fuzzy, c-format
+msgid "Device USB ID"
+msgstr "Fail Peranti TeX Tanpa Kebergantungan"
+
+#: harddrake2:68
+#, c-format
+msgid ".."
+msgstr ".."
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid "Bogomips"
+msgstr "Bogomips"
+
+#: harddrake2:73 harddrake2:74
+#, c-format
+msgid ""
+"the GNU/Linux kernel needs to run a calculation loop at boot time to "
+"initialize a timer counter.  Its result is stored as bogomips as a way to "
+"\"benchmark\" the cpu."
+msgstr ""
+
+#: harddrake2:75
+#, fuzzy, c-format
+msgid "Cache size"
+msgstr "% dari saiz normal"
+
+#: harddrake2:75
+#, c-format
+msgid "size of the (second level) cpu cache"
+msgstr ""
+
+#: harddrake2:76
+#, fuzzy, c-format
+msgid "Cpuid family"
+msgstr "Dokumen Keluarga XHTML"
+
+#: harddrake2:76
+#, c-format
+msgid "family of the cpu (eg: 6 for i686 class)"
+msgstr ""
+
+#: harddrake2:77
+#, fuzzy, c-format
+msgid "Cpuid level"
+msgstr "Sempadan Tahap:"
+
+#: harddrake2:77
+#, c-format
+msgid "information level that can be obtained through the cpuid instruction"
+msgstr ""
+
+#: harddrake2:78
+#, fuzzy, c-format
+msgid "Frequency (MHz)"
+msgstr "[C] Saluran frekuensi:"
+
+#: harddrake2:78
+#, fuzzy, c-format
+msgid ""
+"the CPU frequency in MHz (Megahertz which in first approximation may be "
+"coarsely assimilated to number of instructions the cpu is able to execute "
+"per second)"
+msgstr "dalam dalam"
+
+#: harddrake2:79
+#, c-format
+msgid "Flags"
+msgstr "Flag"
+
+#: harddrake2:79
+#, c-format
+msgid "CPU flags reported by the kernel"
+msgstr ""
+
+#: harddrake2:80 harddrake2:148
+#, fuzzy, c-format
+msgid "Cores"
+msgstr "Tutup"
+
+#: harddrake2:80
+#, c-format
+msgid "CPU cores"
+msgstr ""
+
+#: harddrake2:81
+#, fuzzy, c-format
+msgid "Core ID"
+msgstr "Id Bina."
+
+#: harddrake2:82
+#, c-format
+msgid "Physical ID"
+msgstr ""
+
+#: harddrake2:83
+#, c-format
+msgid "ACPI ID"
+msgstr ""
+
+#: harddrake2:84
+#, fuzzy, c-format
+msgid "Siblings"
+msgstr "Setting"
+
+#: harddrake2:85
+#, fuzzy, c-format
+msgid "sub generation of the cpu"
+msgstr "Monitor frekuensi CPU"
+
+#: harddrake2:86
+#, c-format
+msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
+msgstr ""
+
+#: harddrake2:87 harddrake2:88
+#, fuzzy, c-format
+msgid "Model name"
+msgstr "Nama Medan"
+
+#: harddrake2:87 harddrake2:88
+#, c-format
+msgid "official vendor name of the cpu"
+msgstr ""
+
+#: harddrake2:89
+#, fuzzy, c-format
+msgid "the name of the CPU"
+msgstr "Nama Medan"
+
+#: harddrake2:90
+#, fuzzy, c-format
+msgid "Processor ID"
+msgstr "Id Bina."
+
+#: harddrake2:90
+#, fuzzy, c-format
+msgid "the number of the processor"
+msgstr "Maklumat pemproses"
+
+#: harddrake2:91
+#, fuzzy, c-format
+msgid "Model stepping"
+msgstr "Model Pencetak"
+
+#: harddrake2:91
+#, c-format
+msgid "stepping of the cpu (sub model (generation) number)"
+msgstr ""
+
+#: harddrake2:92
+#, fuzzy, c-format
+msgid "the vendor name of the processor"
+msgstr "Tetap Nama Imej"
+
+#: harddrake2:93
+#, fuzzy, c-format
+msgid "Write protection"
+msgstr "Dokumen Microsoft Write"
+
+#: harddrake2:93
+#, fuzzy, c-format
+msgid ""
+"the WP flag in the CR0 register of the cpu enforce write protection at the "
+"memory page level, thus enabling the processor to prevent unchecked kernel "
+"accesses to user memory (aka this is a bug guard)"
+msgstr "dalam pengguna"
+
+#: harddrake2:97
+#, fuzzy, c-format
+msgid "Floppy format"
+msgstr "&Format Jadual"
+
+#: harddrake2:97
+#, c-format
+msgid "format of floppies supported by the drive"
+msgstr ""
+
+#: harddrake2:101
+#, fuzzy, c-format
+msgid "EIDE/SCSI channel"
+msgstr "Aras Saluran Kekunci"
+
+#: harddrake2:102
+#, fuzzy, c-format
+msgid "Disk identifier"
+msgstr "Gantung Ke Cakera"
+
+#: harddrake2:102
+#, fuzzy, c-format
+msgid "usually the disk serial number"
+msgstr "Nombor siri mesti >= 1."
+
+#: harddrake2:103
+#, c-format
+msgid "Target id number"
+msgstr ""
+
+#: harddrake2:103
+#, c-format
+msgid "the SCSI target identifier"
+msgstr ""
+
+#: harddrake2:104
+#, fuzzy, c-format
+msgid "Logical unit number"
+msgstr "Ubah jumlah lajur"
+
+#: harddrake2:104
+#, c-format
+msgid ""
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
+"uniquely identified by a\n"
+"channel number, a target id and a logical unit number"
+msgstr ""
+
+#. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
+#: harddrake2:111
+#, fuzzy, c-format
+msgid "Installed size"
+msgstr "% dari saiz normal"
+
+#: harddrake2:111
+#, c-format
+msgid "Installed size of the memory bank"
+msgstr ""
+
+#: harddrake2:112
+#, fuzzy, c-format
+msgid "Enabled Size"
+msgstr "% dari saiz normal"
+
+#: harddrake2:112
+#, c-format
+msgid "Enabled size of the memory bank"
+msgstr ""
+
+#: harddrake2:113 harddrake2:126
+#, c-format
+msgid "Type"
+msgstr "Jenis"
+
+#: harddrake2:113
+#, fuzzy, c-format
+msgid "type of the memory device"
+msgstr "Pemeriksa memori Alleyoop"
+
+#: harddrake2:114 harddrake2:120
+#, c-format
+msgid "Speed"
+msgstr "Kelajuan"
+
+#: harddrake2:114 harddrake2:120
+#, fuzzy, c-format
+msgid "Speed of the memory bank"
+msgstr "Pemeriksa memori Alleyoop"
+
+#: harddrake2:115
+#, fuzzy, c-format
+msgid "Bank connections"
+msgstr "Sambungan daemon audio JACK"
+
+#: harddrake2:116
+#, c-format
+msgid "Socket designation of the memory bank"
+msgstr ""
+
+#: harddrake2:118
+#, fuzzy, c-format
+msgid "Location"
+msgstr "Aksi"
+
+#: harddrake2:119
+#, c-format
+msgid "Size"
+msgstr "Saiz"
+
+#: harddrake2:119
+#, fuzzy, c-format
+msgid "Size of the memory device"
+msgstr "Pemeriksa memori Alleyoop"
+
+#: harddrake2:124
+#, fuzzy, c-format
+msgid "Device file"
+msgstr "Fail Peranti TeX Tanpa Kebergantungan"
+
+#: harddrake2:124
+#, c-format
+msgid ""
+"the device file used to communicate with the kernel driver for the mouse"
+msgstr ""
+
+#: harddrake2:125
+#, fuzzy, c-format
+msgid "Emulated wheel"
+msgstr "Tetikus Beroda (PS/2)"
+
+#: harddrake2:125
+#, fuzzy, c-format
+msgid "whether the wheel is emulated or not"
+msgstr "Musnah bersama Bapa"
+
+#: harddrake2:126
+#, fuzzy, c-format
+msgid "the type of the mouse"
+msgstr "Seting tetikus"
+
+#: harddrake2:127
+#, fuzzy, c-format
+msgid "the name of the mouse"
+msgstr "Seting tetikus"
+
+#: harddrake2:128
+#, fuzzy, c-format
+msgid "Number of buttons"
+msgstr "Butang Mdk"
+
+#: harddrake2:128
+#, fuzzy, c-format
+msgid "the number of buttons the mouse has"
+msgstr "&Sorot butang dibawah tetikus"
+
+#: harddrake2:129
+#, fuzzy, c-format
+msgid "the type of bus on which the mouse is connected"
+msgstr "on"
+
+#: harddrake2:130
+#, c-format
+msgid "Mouse protocol used by X11"
+msgstr ""
+
+#: harddrake2:130
+#, c-format
+msgid "the protocol that the graphical desktop use with the mouse"
+msgstr ""
+
+#: harddrake2:134
+#, fuzzy, c-format
+msgid "Identification"
+msgstr "Pengenalpastian Pelayar"
+
+#: harddrake2:139 harddrake2:154
+#, c-format
+msgid "Connection"
+msgstr "Perhubungan"
+
+#: harddrake2:149
+#, fuzzy, c-format
+msgid "Performances"
+msgstr "_Keutamaan"
+
+#: harddrake2:156
+#, c-format
+msgid "Device"
+msgstr "Peranti"
+
+#: harddrake2:157
+#, c-format
+msgid "Partitions"
+msgstr "Partisyen"
+
+#: harddrake2:162
+#, c-format
+msgid "Features"
+msgstr "Sifat"
+
+#: harddrake2:183
+#, fuzzy, c-format
+msgid "Autodetect _modems"
+msgstr "Autokesan ciri-ciri AP MIB?"
+
+#: harddrake2:184
+#, c-format
+msgid "Autodetect parallel _zip drives"
+msgstr ""
+
+#: harddrake2:188
+#, fuzzy, c-format
+msgid "Hardware Configuration"
+msgstr "Tetapan KFish"
+
+#: harddrake2:197
+#, c-format
+msgid "_Options"
+msgstr "_Pilihan"
+
+#: harddrake2:198 harddrake2:199
+#, c-format
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: harddrake2:199
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Q"
+
+#: harddrake2:200
+#, fuzzy, c-format
+msgid "_Fields description"
+msgstr "Medan yang Ada  "
+
+#: harddrake2:201
+#, c-format
+msgid "_Report Bug"
+msgstr "_Lapor Pepijat"
+
+#: harddrake2:202
+#, c-format
+msgid "_About..."
+msgstr "_Perihal..."
+
+#: harddrake2:246
+#, fuzzy, c-format
+msgid "Detected hardware"
+msgstr "Sokongan Perkakasan"
+
+#: harddrake2:249 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Maklumat"
+
+#: harddrake2:251
+#, fuzzy, c-format
+msgid "Set current driver options"
+msgstr "Tetapkan pilihan direktori default"
+
+#: harddrake2:257
+#, fuzzy, c-format
+msgid "Run config tool"
+msgstr "Alat Ganti Sedia"
+
+#: harddrake2:284
+#, fuzzy, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "on dalam dalam."
+
+#: harddrake2:304 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "tidak diketahui"
+
+#: harddrake2:305
+#, c-format
+msgid "Unknown"
+msgstr "Entah"
+
+#: harddrake2:325
+#, c-format
+msgid "Misc"
+msgstr "Lain-lain"
+
+#: harddrake2:408
+#, c-format
+msgid "secondary"
+msgstr "sekunder"
+
+#: harddrake2:408
+#, c-format
+msgid "primary"
+msgstr "utama"
+
+#: harddrake2:412
+#, fuzzy, c-format
+msgid "burner"
+msgstr "Penulis CD GUI"
+
+#: harddrake2:412
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:507
+#, fuzzy, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "_Personalisasikan pakej perisian untuk dipasang"
+
+#: harddrake2:523
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:528
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:543
+#, fuzzy, c-format
+msgid "Harddrake help"
+msgstr "&Kandungan Bantuan"
+
+#: harddrake2:544
+#, fuzzy, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr "Medan yang Ada  "
+
+#: harddrake2:551
+#, fuzzy, c-format
+msgid "Select a device!"
+msgstr "Peranti Blok"
+
+#: harddrake2:551
+#, fuzzy, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr "dalam on Maklumat"
+
+#: localedrake:38
+#, fuzzy, c-format
+msgid "LocaleDrake"
+msgstr "LocaleDrake (Sistem)"
+
+#: localedrake:46
+#, c-format
+msgid "You should install the following packages: %s"
+msgstr ""
+
+#. -PO: the following is used to combine packages names. eg: "initscripts, harddrake, yudit"
+#: localedrake:49
+#, c-format
+msgid ", "
+msgstr ", "
+
+#: logdrake:55
+#, fuzzy, c-format
+msgid "%s Tools Logs"
+msgstr "Selamat datang ke Mageia"
+
+#: logdrake:69
+#, fuzzy, c-format
+msgid "Show only for the selected day"
+msgstr "Papar hanya penerangan pada masukan menu"
+
+#: logdrake:78
+#, c-format
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:117
+#, c-format
+msgid ""
+"_:this is the auth.log log file\n"
+"Authentication"
+msgstr ""
+
+#: logdrake:118
+#, c-format
+msgid ""
+"_:this is the user.log log file\n"
+"User"
+msgstr ""
+
+#: logdrake:119
+#, c-format
+msgid ""
+"_:this is the /var/log/messages log file\n"
+"Messages"
+msgstr ""
+
+#: logdrake:120
+#, c-format
+msgid ""
+"_:this is the /var/log/syslog log file\n"
+"Syslog"
+msgstr ""
+
+#: logdrake:124
+#, c-format
+msgid "search"
+msgstr "cari"
+
+#: logdrake:136
+#, fuzzy, c-format
+msgid "A tool to monitor your logs"
+msgstr "Pilih monitor yang disambung pada sistem anda."
+
+#: logdrake:138
+#, c-format
+msgid "Settings"
+msgstr "Setting"
+
+#: logdrake:141
+#, c-format
+msgid "Matching"
+msgstr "Sepadan"
+
+#: logdrake:142
+#, fuzzy, c-format
+msgid "but not matching"
+msgstr "Fail %s tidak dijumpai"
+
+#: logdrake:145
+#, fuzzy, c-format
+msgid "Choose file"
+msgstr "Extension &fail:"
+
+#: logdrake:157
+#, c-format
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: logdrake:166
+#, fuzzy, c-format
+msgid "Content of the file"
+msgstr "Extension &fail:"
+
+#: logdrake:170 logdrake:415
+#, fuzzy, c-format
+msgid "Mail alert"
+msgstr "Celik Mel"
+
+#: logdrake:177
+#, fuzzy, c-format
+msgid "The alert wizard has failed unexpectedly:"
+msgstr "Wizard pelayan PXE telah gagal tanpa sebab:"
+
+#: logdrake:181
+#, c-format
+msgid "Save"
+msgstr "Simpan"
+
+#: logdrake:230
+#, fuzzy, c-format
+msgid "please wait, parsing file: %s"
+msgstr "Masalah ketika menghurai fail '%1'"
+
+#: logdrake:252
+#, c-format
+msgid "Sorry, log file isn't available!"
+msgstr ""
+
+#: logdrake:300
+#, fuzzy, c-format
+msgid "Error while opening \"%s\" log file: %s\n"
+msgstr "Ralat membuka fail konfig kekunci\n"
+
+#: logdrake:393
+#, c-format
+msgid "Apache World Wide Web Server"
+msgstr ""
+
+#: logdrake:394
+#, fuzzy, c-format
+msgid "Domain Name Resolver"
+msgstr "Tetap Nama Imej"
+
+#: logdrake:395
+#, c-format
+msgid "Ftp Server"
+msgstr "Pelayan FTP"
+
+#: logdrake:396
+#, fuzzy, c-format
+msgid "Postfix Mail Server"
+msgstr "Pelayan Nama DNS"
+
+#: logdrake:397
+#, c-format
+msgid "Samba Server"
+msgstr "Pelayan Samba"
+
+#: logdrake:398
+#, fuzzy, c-format
+msgid "SSH Server"
+msgstr "Pelayan FTP"
+
+#: logdrake:399
+#, fuzzy, c-format
+msgid "Webmin Service"
+msgstr "Penemuan Servis"
+
+#: logdrake:400
+#, fuzzy, c-format
+msgid "Xinetd Service"
+msgstr "Penemuan Servis"
+
+#: logdrake:409
+#, fuzzy, c-format
+msgid "Configure the mail alert system"
+msgstr "Konfigurasikan penjimatan tenaga bagi sistem anda"
+
+#: logdrake:410
+#, fuzzy, c-format
+msgid "Stop the mail alert system"
+msgstr "Aplet Amaran Dulang Sistem"
+
+#: logdrake:418
+#, fuzzy, c-format
+msgid "Mail alert configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: logdrake:419
+#, fuzzy, c-format
+msgid ""
+"Welcome to the mail configuration utility.\n"
+"\n"
+"Here, you'll be able to set up the alert system.\n"
+msgstr "Selamat Datang"
+
+#: logdrake:422
+#, fuzzy, c-format
+msgid "What do you want to do?"
+msgstr "Adakah anda pasti untuk menggantung ke cakera?"
+
+#: logdrake:429
+#, fuzzy, c-format
+msgid "Services settings"
+msgstr "Tetapan Semasa"
+
+#: logdrake:430
+#, fuzzy, c-format
+msgid ""
+"You will receive an alert if one of the selected services is no longer "
+"running"
+msgstr "tidak"
+
+#: logdrake:437
+#, fuzzy, c-format
+msgid "Load setting"
+msgstr "Menetapkan namahos ${HOSTNAME}: "
+
+#: logdrake:438
+#, c-format
+msgid "You will receive an alert if the load is higher than this value"
+msgstr ""
+
+#: logdrake:439
+#, c-format
+msgid ""
+"_: load here is a noun, the load of the system\n"
+"Load"
+msgstr ""
+
+#: logdrake:444
+#, fuzzy, c-format
+msgid "Alert configuration"
+msgstr "Tetapan KFish"
+
+#: logdrake:445
+#, c-format
+msgid "Please enter your email address below "
+msgstr ""
+
+#: logdrake:446
+#, fuzzy, c-format
+msgid "and enter the name (or the IP) of the SMTP server you wish to use"
+msgstr "Enter IP dan."
+
+#: logdrake:448
+#, fuzzy, c-format
+msgid "Email address"
+msgstr "Alamat IP"
+
+#: logdrake:449
+#, fuzzy, c-format
+msgid "Email server"
+msgstr "Pelayan Samba"
+
+#: logdrake:453
+#, c-format
+msgid "\"%s\" neither is a valid email nor is an existing local user!"
+msgstr ""
+
+#: logdrake:458
+#, c-format
+msgid ""
+"\"%s\" is a local user, but you did not select a local smtp, so you must use "
+"a complete email address!"
+msgstr ""
+
+#: logdrake:465
+#, fuzzy, c-format
+msgid "The wizard successfully configured the mail alert."
+msgstr "Wizard berjaya menetapkan servis DHCP."
+
+#: logdrake:471
+#, c-format
+msgid "The wizard successfully disabled the mail alert."
+msgstr ""
+
+#: logdrake:530
+#, c-format
+msgid "Save as.."
+msgstr "Simpan sebagai.."
+
+#: notify-x11-free-driver-switch:18 service_harddrake:452
+#, c-format
+msgid "Display driver setup"
+msgstr ""
+
+#: notify-x11-free-driver-switch:20
+#, c-format
+msgid "The display driver has been automatically switched to '%s'."
+msgstr ""
+
+#: notify-x11-free-driver-switch:21
+#, c-format
+msgid "Reason: %s."
+msgstr ""
+
+#: scannerdrake:48
+#, c-format
+msgid ""
+"SANE packages need to be installed to use scanners.\n"
+"\n"
+"Do you want to install the SANE packages?"
+msgstr ""
+
+#: scannerdrake:52
+#, fuzzy, c-format
+msgid "Aborting Scannerdrake."
+msgstr "ralat memuatkan %1, berhenti\n"
+
+#: scannerdrake:57
+#, c-format
+msgid ""
+"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgstr ""
+
+#: scannerdrake:58
+#, fuzzy, c-format
+msgid "Scannerdrake will not be started now."
+msgstr "Papan dock aplet tidak dapat dimulakan: %1"
+
+#: scannerdrake:64 scannerdrake:502
+#, fuzzy, c-format
+msgid "Searching for configured scanners..."
+msgstr "Aplikasi telah dikonfigurasikan untuk pemindahan"
+
+#: scannerdrake:68 scannerdrake:506
+#, fuzzy, c-format
+msgid "Searching for new scanners..."
+msgstr "Nilai baru utk direktori: %s\n"
+
+#: scannerdrake:76 scannerdrake:528
+#, c-format
+msgid "Re-generating list of configured scanners..."
+msgstr ""
+
+#: scannerdrake:98
+#, fuzzy, c-format
+msgid "The %s is not supported by this version of %s."
+msgstr "Opsyen `-[0-7][lmh]' tak disokong oleh tar *ini*"
+
+#: scannerdrake:101 scannerdrake:112
+#, c-format
+msgid "Confirmation"
+msgstr "Pengesahan"
+
+#: scannerdrake:101
+#, fuzzy, c-format
+msgid "%s found on %s, configure it automatically?"
+msgstr "on?"
+
+#: scannerdrake:113
+#, fuzzy, c-format
+msgid "%s is not in the scanner database, configure it manually?"
+msgstr "dalam secara manual?"
+
+#: scannerdrake:127
+#, fuzzy, c-format
+msgid "Scanner configuration"
+msgstr "Tetapan KFish"
+
+#: scannerdrake:128
+#, c-format
+msgid "Select a scanner model (Detected model: %s, Port: %s)"
+msgstr ""
+
+#: scannerdrake:130
+#, fuzzy, c-format
+msgid "Select a scanner model (Detected model: %s)"
+msgstr "Pilih pembuat dan model pencetak."
+
+#: scannerdrake:131
+#, fuzzy, c-format
+msgid "Select a scanner model (Port: %s)"
+msgstr "Pilih pembuat dan model pencetak."
+
+#: scannerdrake:133 scannerdrake:136
+#, c-format
+msgid " (UNSUPPORTED)"
+msgstr " (TIDAK DISOKONG)"
+
+#: scannerdrake:139
+#, fuzzy, c-format
+msgid "The %s is not supported under Linux."
+msgstr "Fail %s adalah jenis tidak disokong pada masa ini"
+
+#: scannerdrake:166 scannerdrake:180
+#, fuzzy, c-format
+msgid "Do not install firmware file"
+msgstr "_Jangan pasang pemuat but"
+
+#: scannerdrake:169 scannerdrake:219
+#, fuzzy, c-format
+msgid "Scanner Firmware"
+msgstr "Memuatkan Firmware"
+
+#: scannerdrake:170 scannerdrake:222
+#, c-format
+msgid ""
+"It is possible that your %s needs its firmware to be uploaded everytime when "
+"it is turned on."
+msgstr ""
+
+#: scannerdrake:171 scannerdrake:223
+#, c-format
+msgid "If this is the case, you can make this be done automatically."
+msgstr ""
+
+#: scannerdrake:172 scannerdrake:226
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware file for your scanner so that it "
+"can be installed."
+msgstr ""
+
+#: scannerdrake:173 scannerdrake:227
+#, c-format
+msgid ""
+"You find the file on the CD or floppy coming with the scanner, on the "
+"manufacturer's home page, or on your Windows partition."
+msgstr ""
+
+#: scannerdrake:175 scannerdrake:234
+#, fuzzy, c-format
+msgid "Install firmware file from"
+msgstr "Selit MathML dari fail"
+
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
+#, c-format
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
+#, fuzzy, c-format
+msgid "Floppy Disk"
+msgstr "Pengformat Liut"
+
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
+#, fuzzy, c-format
+msgid "Other place"
+msgstr "Pilihan lain:"
+
+#: scannerdrake:195
+#, fuzzy, c-format
+msgid "Select firmware file"
+msgstr "Pilih imej dari Fail"
+
+#: scannerdrake:198 scannerdrake:257
+#, fuzzy, c-format
+msgid "The firmware file %s does not exist or is unreadable!"
+msgstr ""
+"Menamatkan, <p>Fail <strong>%1</strong> tidak wujud atau tidak boleh dibaca."
+
+#: scannerdrake:221
+#, c-format
+msgid ""
+"It is possible that your scanners need their firmware to be uploaded "
+"everytime when they are turned on."
+msgstr ""
+
+#: scannerdrake:225
+#, c-format
+msgid ""
+"To do so, you need to supply the firmware files for your scanners so that it "
+"can be installed."
+msgstr ""
+
+#: scannerdrake:228
+#, c-format
+msgid ""
+"If you have already installed your scanner's firmware you can update the "
+"firmware here by supplying the new firmware file."
+msgstr ""
+
+#: scannerdrake:230
+#, fuzzy, c-format
+msgid "Install firmware for the"
+msgstr "&Cari Bantuan"
+
+#: scannerdrake:253
+#, fuzzy, c-format
+msgid "Select firmware file for the %s"
+msgstr "Pilih imej dari Fail"
+
+#: scannerdrake:271
+#, fuzzy, c-format
+msgid "Could not install the firmware file for the %s!"
+msgstr "Tak dapat membuka fail %s untuk menulis"
+
+#: scannerdrake:284
+#, c-format
+msgid "The firmware file for your %s was successfully installed."
+msgstr ""
+
+#: scannerdrake:294
+#, fuzzy, c-format
+msgid "The %s is unsupported"
+msgstr "seadanya"
+
+#: scannerdrake:299
+#, fuzzy, c-format
+msgid ""
+"The %s must be configured by system-config-printer.\n"
+"You can launch system-config-printer from the %s Control Center in Hardware "
+"section."
+msgstr "dalam Perkakasan."
+
+#: scannerdrake:317
+#, fuzzy, c-format
+msgid "Setting up kernel modules..."
+msgstr "Menetapkan jam sistem"
+
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
+#, fuzzy, c-format
+msgid "Auto-detect available ports"
+msgstr "Auto-kesan dan konfigurasi kad bunyi"
+
+#: scannerdrake:328 scannerdrake:374
+#, fuzzy, c-format
+msgid "Device choice"
+msgstr "Peranti Blok"
+
+#: scannerdrake:329 scannerdrake:375
+#, c-format
+msgid "Please select the device where your %s is attached"
+msgstr ""
+
+#: scannerdrake:330
+#, fuzzy, c-format
+msgid "(Note: Parallel ports cannot be auto-detected)"
+msgstr "port"
+
+#: scannerdrake:332 scannerdrake:377
+#, fuzzy, c-format
+msgid "choose device"
+msgstr "Peranti Blok"
+
+#: scannerdrake:366
+#, fuzzy, c-format
+msgid "Searching for scanners..."
+msgstr "&Cari Bantuan"
+
+#: scannerdrake:402 scannerdrake:409
+#, c-format
+msgid "Attention!"
+msgstr "Perhatian!"
+
+#: scannerdrake:403
+#, c-format
+msgid ""
+"Your %s cannot be configured fully automatically.\n"
+"\n"
+"Manual adjustments are required. Please edit the configuration file /etc/"
+"sane.d/%s.conf. "
+msgstr ""
+
+#: scannerdrake:404 scannerdrake:413
+#, c-format
+msgid ""
+"More info in the driver's manual page. Run the command \"man sane-%s\" to "
+"read it."
+msgstr ""
+
+#: scannerdrake:406 scannerdrake:415
+#, fuzzy, c-format
+msgid ""
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr "Multimedia Grafik dalam."
+
+#: scannerdrake:410
+#, c-format
+msgid ""
+"Your %s has been configured, but it is possible that additional manual "
+"adjustments are needed to get it to work. "
+msgstr ""
+
+#: scannerdrake:411
+#, c-format
+msgid ""
+"If it does not appear in the list of configured scanners in the main window "
+"of Scannerdrake or if it does not work correctly, "
+msgstr ""
+
+#: scannerdrake:412
+#, fuzzy, c-format
+msgid "edit the configuration file /etc/sane.d/%s.conf. "
+msgstr "Ralat dalam fail tetapan /etc/named.conf : $named_err"
+
+#: scannerdrake:417
+#, c-format
+msgid "Congratulations!"
+msgstr "Tahniah !"
+
+#: scannerdrake:418
+#, fuzzy, c-format
+msgid ""
+"Your %s has been configured.\n"
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
+"Graphics in the applications menu."
+msgstr "Multimedia Grafik dalam."
+
+#: scannerdrake:443
+#, fuzzy, c-format
+msgid ""
+"The following scanners\n"
+"\n"
+"%s\n"
+"are available on your system.\n"
+msgstr "on"
+
+#: scannerdrake:444
+#, fuzzy, c-format
+msgid ""
+"The following scanner\n"
+"\n"
+"%s\n"
+"is available on your system.\n"
+msgstr "on"
+
+#: scannerdrake:446 scannerdrake:449
+#, fuzzy, c-format
+msgid "There are no scanners found which are available on your system.\n"
+msgstr "tidak on"
+
+#: scannerdrake:457
+#, fuzzy, c-format
+msgid "Scanner Management"
+msgstr "Pengurusan Masa"
+
+#: scannerdrake:463
+#, fuzzy, c-format
+msgid "Search for new scanners"
+msgstr "Nilai baru utk direktori: %s\n"
+
+#: scannerdrake:469
+#, fuzzy, c-format
+msgid "Add a scanner manually"
+msgstr "Tambah lajur selepas"
+
+#: scannerdrake:476
+#, fuzzy, c-format
+msgid "Install/Update firmware files"
+msgstr "kemaskini semua fail tetapan"
+
+#: scannerdrake:482
+#, fuzzy, c-format
+msgid "Scanner sharing"
+msgstr "Perkongsian Ruang Kerja"
+
+#: scannerdrake:541 scannerdrake:706
+#, fuzzy, c-format
+msgid "All remote machines"
+msgstr "(Semua rujukan kelihatan)"
+
+#: scannerdrake:553 scannerdrake:856
+#, fuzzy, c-format
+msgid "This machine"
+msgstr "Pengurus Mesin Maya"
+
+#: scannerdrake:592
+#, fuzzy, c-format
+msgid "Scanner Sharing"
+msgstr "Perkongsian Ruang Kerja"
+
+#: scannerdrake:593
+#, fuzzy, c-format
+msgid ""
+"Here you can choose whether the scanners connected to this machine should be "
+"accessible by remote machines and by which remote machines."
+msgstr "dan."
+
+#: scannerdrake:594
+#, fuzzy, c-format
+msgid ""
+"You can also decide here whether scanners on remote machines should be made "
+"available on this machine."
+msgstr "on on."
+
+#: scannerdrake:597
+#, fuzzy, c-format
+msgid "The scanners on this machine are available to other computers"
+msgstr "on"
+
+#: scannerdrake:599
+#, fuzzy, c-format
+msgid "Scanner sharing to hosts: "
+msgstr "Guna DNS untuk resolve hos kepada realm"
+
+#: scannerdrake:604 scannerdrake:621
+#, fuzzy, c-format
+msgid "No remote machines"
+msgstr "(tiada cadangan ejaan)"
+
+#: scannerdrake:613
+#, fuzzy, c-format
+msgid "Use scanners on remote computers"
+msgstr "on"
+
+#: scannerdrake:616
+#, fuzzy, c-format
+msgid "Use the scanners on hosts: "
+msgstr "Guna DNS untuk resolve hos kepada realm"
+
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
+#, fuzzy, c-format
+msgid "Sharing of local scanners"
+msgstr "Layari Rangkaian Tempatan"
+
+#: scannerdrake:644
+#, fuzzy, c-format
+msgid ""
+"These are the machines on which the locally connected scanner(s) should be "
+"available:"
+msgstr "on:"
+
+#: scannerdrake:655 scannerdrake:805
+#, c-format
+msgid "Add host"
+msgstr "Tambah hos"
+
+#: scannerdrake:661 scannerdrake:811
+#, c-format
+msgid "Edit selected host"
+msgstr "Edit hos dipilih"
+
+#: scannerdrake:670 scannerdrake:820
+#, fuzzy, c-format
+msgid "Remove selected host"
+msgstr "Tiada plugin dipilih"
+
+#: scannerdrake:679 scannerdrake:829
+#, c-format
+msgid "Done"
+msgstr "Selesai"
+
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#, fuzzy, c-format
+msgid "Name/IP address of host:"
+msgstr "  NOM  ALAMAT IP        JENIS MIB   NAMA"
+
+#: scannerdrake:716 scannerdrake:866
+#, fuzzy, c-format
+msgid "Choose the host on which the local scanners should be made available:"
+msgstr "on lokal:"
+
+#: scannerdrake:727 scannerdrake:877
+#, fuzzy, c-format
+msgid "You must enter a host name or an IP address.\n"
+msgstr "IP"
+
+#: scannerdrake:738 scannerdrake:888
+#, fuzzy, c-format
+msgid "This host is already in the list, it cannot be added again.\n"
+msgstr "dalam"
+
+#: scannerdrake:793
+#, fuzzy, c-format
+msgid "Usage of remote scanners"
+msgstr "Lihat Penggunaan Cakera"
+
+#: scannerdrake:794
+#, c-format
+msgid "These are the machines from which the scanners should be used:"
+msgstr ""
+
+#: scannerdrake:951
+#, c-format
+msgid ""
+"saned needs to be installed to share the local scanner(s).\n"
+"\n"
+"Do you want to install the saned package?"
+msgstr ""
+
+#: scannerdrake:955 scannerdrake:959
+#, c-format
+msgid "Your scanner(s) will not be available on the network."
+msgstr ""
+
+#: scannerdrake:958
+#, c-format
+msgid "Could not install the packages needed to share your scanner(s)."
+msgstr ""
+
+#: service_harddrake:157
+#, fuzzy, c-format
+msgid "The graphics card '%s' is no longer supported by driver '%s'"
+msgstr "Opsyen `-[0-7][lmh]' tak disokong oleh tar *ini*"
+
+#: service_harddrake:167
+#, c-format
+msgid "New release, reconfiguring X for %s"
+msgstr ""
+
+#: service_harddrake:258
+#, c-format
+msgid "The proprietary kernel driver was not found for X.org driver '%s'"
+msgstr ""
+
+#: service_harddrake:297
+#, fuzzy, c-format
+msgid "Some devices in the \"%s\" hardware class were removed:\n"
+msgstr "dalam"
+
+#: service_harddrake:298
+#, fuzzy, c-format
+msgid "- %s was removed\n"
+msgstr "dibuang selepas 7.7.3\n"
+
+#: service_harddrake:301
+#, fuzzy, c-format
+msgid "Some devices were added: %s\n"
+msgstr "Peranti audio berikut telah dikesan."
+
+#: service_harddrake:302
+#, c-format
+msgid "- %s was added\n"
+msgstr "- %s telah ditambah\n"
+
+#: service_harddrake:384
+#, c-format
+msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
+msgstr ""
+
+#: service_harddrake:385
+#, c-format
+msgid "Do you want to run the appropriate config tool?"
+msgstr "Adakah anda mahu melaksanakan alatan tetapan yang bersesuaian?"
+
+#: service_harddrake:410
+#, c-format
+msgid "Hardware probing in progress"
+msgstr "Pengesanan perkakasan sedang dijalankan"
+
+#: service_harddrake:431 service_harddrake:436
+#, c-format
+msgid "Display driver issue"
+msgstr ""
+
+#: service_harddrake:432
+#, c-format
+msgid ""
+"The display driver currently configured requires you to use the 'nokmsboot' "
+"boot option to prevent the KMS driver of the kernel from being loaded in the "
+"boot process. Startup of the X server may now fail as that option was not "
+"specified."
+msgstr ""
+
+#: service_harddrake:437
+#, c-format
+msgid ""
+"Detected a loaded display driver kernel module which conflicts with the "
+"driver the X server is configured to use. Startup of the X server may now "
+"fail."
+msgstr ""
+
+#: service_harddrake:452
+#, c-format
+msgid "The system has to be rebooted due to a display driver change."
+msgstr ""
+
+#: service_harddrake:453
+#, c-format
+msgid "Press Cancel within %d seconds to abort."
+msgstr ""
+
+#: ../menu/harddrake.desktop.in.h:1
+#, fuzzy
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: ../menu/harddrake.desktop.in.h:2
+msgid "Hardware Central Configuration/information tool"
+msgstr "Alatan maklumat/Tetapan Berpusat Perkakasan"
+
+#: ../menu/harddrake.desktop.in.h:3
+#, fuzzy
+msgid "Hardware Configuration Tool"
+msgstr "Tetapan KFish"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+#, fuzzy
+msgid "System Regional Settings"
+msgstr "Ubah seting latar belakang"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
+#: ../menu/localedrake-user.desktop.in.h:1
+msgid "Regional Settings"
+msgstr "Tetapan Wilayah"
+
+#: ../menu/localedrake-user.desktop.in.h:2
+msgid "Language & country configuration"
+msgstr "Tetapan negara & bahasa"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Authentication Configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: ../polkit/org.mageia.drakauth.policy.in.h:2
+msgid "Authentication is required to run Mageia Authentication Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Boot Configuration"
+msgstr "Pemuat but"
+
+#: ../polkit/org.mageia.drakboot.policy.in.h:2
+msgid "Authentication is required to run Mageia Boot Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Date and Time Configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: ../polkit/org.mageia.drakclock.policy.in.h:2
+msgid "Authentication is required to run Mageia Date and Time Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:1
+msgid "Run Mageia Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdisk.policy.in.h:2
+msgid "Authentication is required to run Mageia Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Login Manager Configuration"
+msgstr "Tetapan negara & bahasa"
+
+#: ../polkit/org.mageia.drakdm.policy.in.h:2
+msgid "Authentication is required to run Mageia Login Manager Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Font Configuration"
+msgstr "Tetapan negara & bahasa"
+
+#: ../polkit/org.mageia.drakfont.policy.in.h:2
+msgid "Authentication is required to run Mageia Font Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Hardware Configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: ../polkit/org.mageia.drakhardware.policy.in.h:2
+msgid "Authentication is required to run Mageia Hardware Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.draklog.policy.in.h:1
+msgid "Run Mageia Log Viewer"
+msgstr ""
+
+#: ../polkit/org.mageia.draklog.policy.in.h:2
+msgid "Authentication is required to run Mageia Log Viewer"
+msgstr ""
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Security Permissions Configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: ../polkit/org.mageia.drakperm.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Security Permissions Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Scanner Configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: ../polkit/org.mageia.drakscanner.policy.in.h:2
+msgid "Authentication is required to run Mageia Scanner Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Application Security Configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: ../polkit/org.mageia.draksec.policy.in.h:2
+msgid ""
+"Authentication is required to run Mageia Application Security Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia UPS Configuration"
+msgstr "Tetapan KFish"
+
+#: ../polkit/org.mageia.drakups.policy.in.h:2
+msgid "Authentication is required to run Mageia UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:1
+#, fuzzy
+msgid "Run Mageia Service Configuration"
+msgstr "Alatan Konfigurasi Pelayan"
+
+#: ../polkit/org.mageia.drakxservices.policy.in.h:2
+msgid "Authentication is required to run Mageia Service Configuration"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Text only"
+#~ msgstr "&Teks Tersembunyi"
+
+#, fuzzy
+#~ msgid "Silent"
+#~ msgstr " -s, --silent     Berkerja dengan senyap."
+
+#, fuzzy
+#~ msgid "Do you want to configure it now?"
+#~ msgstr "Anda pasti mahu keluar?"
+
+#, fuzzy
+#~ msgid "Install themes"
+#~ msgstr "Tema dan Penampilan"
+
+#, fuzzy
+#~ msgid "Graphical boot theme selection"
+#~ msgstr "Paksa but bergrafik untuk dimulakan"
+
+#, fuzzy
+#~ msgid "Graphical boot mode:"
+#~ msgstr "Boot Microsoft Windows"
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Tetapan Gaya Boot"
+
+#~ msgid "Video mode"
+#~ msgstr "Mod video"
+
+#, fuzzy
+#~ msgid "Finishing install"
+#~ msgstr "Pemasang Fon"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "Note: if you've an ISA PnP sound card, you'll have to use the alsaconf or "
+#~ "the sndconfig program.  Just type \"alsaconf\" or \"sndconfig\" in a "
+#~ "console."
+#~ msgstr "dalam."
+
+#~ msgid "File/_Quit"
+#~ msgstr "Fail/_Keluar"
+
+#, fuzzy
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "Tiada Pemacu Dijumpai"
+
+#~ msgid "File/_New"
+#~ msgstr "Fail/Ba_ru"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "File/_Open"
+#~ msgstr "Fail/_Buka"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>Q"
+
+#~ msgid "File/_Save"
+#~ msgstr "Fail/_Simpan"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Fail/Simpan Seb_agai..."
+
+#~ msgid "File/-"
+#~ msgstr "Fail/-"
+
+#~ msgid "Options/Test"
+#~ msgstr "_Pilihan/Uji"
+
+#~ msgid "Help/_About..."
+#~ msgstr "Bantuan/Perihal..."
+
+#, fuzzy
+#~ msgid "Verbose"
+#~ msgstr "  -v             - mod verbos.\n"
+
+#, fuzzy
+#~ msgid "Autodetect _printers"
+#~ msgstr "Kelas Pencetak"
+
+#, fuzzy
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org Calc"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Mageia"
+#~ msgstr "Hakcipta (C) %s Mageia"
+
+#, fuzzy
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in.\n"
+#~ "\n"
+#~ "\n"
+#~ "You can visit our hardware database at:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+#~ msgstr ""
+#~ "Tidak Bunyi on Bunyi dalam\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#, fuzzy
+#~ msgid ""
+#~ "Display theme\n"
+#~ "under console"
+#~ msgstr "Paparan"
+
+#, fuzzy
+#~ msgid "Create new theme"
+#~ msgstr "Cipta dokumen baru"
+
+#, fuzzy
+#~ msgid "X coordinate of text box"
+#~ msgstr "Salin Kekotak Teks"
+
+#, fuzzy
+#~ msgid "Y coordinate of text box"
+#~ msgstr "Salin Kekotak Teks"
+
+#, fuzzy
+#~ msgid "Text box width"
+#~ msgstr "Salin Kekotak Teks"
+
+#, fuzzy
+#~ msgid "Text box height"
+#~ msgstr "Salin Kekotak Teks"
+
+#, fuzzy
+#~ msgid "The width of the progress bar"
+#~ msgstr "Papar Bar &Status"
+
+#, fuzzy
+#~ msgid "The height of the progress bar"
+#~ msgstr "Papar Bar &Status"
+
+#, fuzzy
+#~ msgid "X coordinate of the text"
+#~ msgstr "&Teks Tersembunyi"
+
+#, fuzzy
+#~ msgid "Y coordinate of the text"
+#~ msgstr "&Teks Tersembunyi"
+
+#, fuzzy
+#~ msgid "Text box transparency"
+#~ msgstr "Salin Kekotak Teks"
+
+#, fuzzy
+#~ msgid "Progress box transparency"
+#~ msgstr "Salin Kekotak Teks"
+
+#, fuzzy
+#~ msgid "Text size"
+#~ msgstr "% dari saiz normal"
+
+#, fuzzy
+#~ msgid "Choose progress bar color 1"
+#~ msgstr "Pilih warna skrin untuk Abiword"
+
+#, fuzzy
+#~ msgid "Choose progress bar color 2"
+#~ msgstr "Pilih warna skrin untuk Abiword"
+
+#, fuzzy
+#~ msgid "Gradient type"
+#~ msgstr "Jenis per&nomboran:"
+
+#, fuzzy
+#~ msgid "Text"
+#~ msgstr "&Teks Tersembunyi"
+
+#, fuzzy
+#~ msgid "Choose text color"
+#~ msgstr "Ubah Warna Teks"
+
+#, fuzzy
+#~ msgid "Choose picture"
+#~ msgstr "Selit Gambar"
+
+#, fuzzy
+#~ msgid "Silent bootsplash"
+#~ msgstr " -s, --silent     Berkerja dengan senyap."
+
+#, fuzzy
+#~ msgid "Choose text zone color"
+#~ msgstr "Pilih warna skrin untuk Abiword"
+
+#, fuzzy
+#~ msgid "Text color"
+#~ msgstr "Warna Teks"
+
+#~ msgid "Background color"
+#~ msgstr "Warna latarbelakang"
+
+#, fuzzy
+#~ msgid "Verbose bootsplash"
+#~ msgstr "  -v             - mod verbos.\n"
+
+#, fuzzy
+#~ msgid "Theme name"
+#~ msgstr "Nama Medan"
+
+#, fuzzy
+#~ msgid "Final resolution"
+#~ msgstr "Resolusi Skrin"
+
+#, fuzzy
+#~ msgid "Display logo on Console"
+#~ msgstr "Papar Imej pada Laman"
+
+#, fuzzy
+#~ msgid "Save theme"
+#~ msgstr "Pengurus Tema"
+
+#, fuzzy
+#~ msgid "Please enter a theme name"
+#~ msgstr "Sila masukkan nama kumpulan."
+
+#, fuzzy
+#~ msgid "Please select a splash image"
+#~ msgstr "Pilih imej dari Fail"
+
+#, fuzzy
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "Pasang Tema KDE"
+
+#, fuzzy
+#~ msgid "Unable to load image file %s"
+#~ msgstr "Simpan imej dipilih kedalam fail"
+
+#, fuzzy
+#~ msgid "choose image"
+#~ msgstr "Salin Imej"
+
+#, fuzzy
+#~ msgid "Color selection"
+#~ msgstr "Padam pilihan"
+
+#, fuzzy
+#~ msgid "Coma bug"
+#~ msgstr "&Lapor Pepijat"
+
+#, fuzzy
+#~ msgid "Fdiv bug"
+#~ msgstr "&Lapor Pepijat"
+
+#, fuzzy
+#~ msgid ""
+#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
+#~ "processor which did not achieve the required precision when performing a "
+#~ "Floating point DIVision (FDIV)"
+#~ msgstr "dalam"
+
+#, fuzzy
+#~ msgid "Is FPU present"
+#~ msgstr "Pilihan Semasa adalah Kosong"
+
+#, fuzzy
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "ya"
+
+#, fuzzy
+#~ msgid ""
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr "ya"
+
+#, fuzzy
+#~ msgid "F00f bug"
+#~ msgstr "&Lapor Pepijat"
+
+#, fuzzy
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr "dan"
+
+#, fuzzy
+#~ msgid "Halt bug"
+#~ msgstr "&Lapor Pepijat"
+
+#~ msgid "Bugs"
+#~ msgstr "Pepijat"
+
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#, fuzzy
+#~ msgid "Unknown/Others"
+#~ msgstr "Fail %s adalah dari jenis tidak diketahui"
+
+#, fuzzy
+#~ msgid ""
+#~ "Here, you can setup the security level and administrator of your "
+#~ "machine.\n"
+#~ "\n"
+#~ "\n"
+#~ "The '<span weight=\"bold\">Security Administrator</span>' is the one who "
+#~ "will receive security alerts if the\n"
+#~ "'<span weight=\"bold\">Security Alerts</span>' option is set. It can be a "
+#~ "username or an email.\n"
+#~ "\n"
+#~ "\n"
+#~ "The '<span weight=\"bold\">Security Level</span>' menu allows you to "
+#~ "select one of the six preconfigured security levels\n"
+#~ "provided with msec. These levels range from '<span weight=\"bold\">poor</"
+#~ "span>' security and ease of use, to\n"
+#~ "'<span weight=\"bold\">paranoid</span>' config, suitable for very "
+#~ "sensitive server applications:\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Poor</span>: This is a totally unsafe but "
+#~ "very\n"
+#~ "easy to use security level. It should only be used for machines not "
+#~ "connected to\n"
+#~ "any network and that are not accessible to everybody.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Standard</span>: This is the standard "
+#~ "security\n"
+#~ "recommended for a computer that will be used to connect to the Internet "
+#~ "as a\n"
+#~ "client.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">High</span>: There are already some\n"
+#~ "restrictions, and more automatic checks are run every night.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Higher</span>: The security is now high "
+#~ "enough\n"
+#~ "to use the system as a server which can accept connections from many "
+#~ "clients. If\n"
+#~ "your machine is only a client on the Internet, you should choose a lower "
+#~ "level.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Paranoid</span>: This is similar to the "
+#~ "previous\n"
+#~ "level, but the system is entirely closed and security features are at "
+#~ "their\n"
+#~ "maximum"
+#~ msgstr ""
+#~ "dan Keselamatan Keselamatan Keselamatan dan\n"
+#~ "<span foreground=\"royalblue3\"></span> dan\n"
+#~ "<span foreground=\"royalblue3\"></span> Internet\n"
+#~ "<span foreground=\"royalblue3\"> Tinggi</span> dan\n"
+#~ "<span foreground=\"royalblue3\"></span> terima on Internet\n"
+#~ "<span foreground=\"royalblue3\"></span> dan"
+
+#, fuzzy
+#~ msgid "(default value: %s)"
+#~ msgstr "Bahasa default:"
+
+#~ msgid "Security Level:"
+#~ msgstr "Tahap Keselamatan :"
+
+#, fuzzy
+#~ msgid "Security Alerts:"
+#~ msgstr "Sekuriti dan Privasi"
+
+#, fuzzy
+#~ msgid "Security Administrator:"
+#~ msgstr "Sekuriti dan Privasi"
+
+#, fuzzy
+#~ msgid "Basic options"
+#~ msgstr "Pilihan Bina"
+
+#, fuzzy
+#~ msgid "Network Options"
+#~ msgstr "Pilihan Bina"
+
+#, fuzzy
+#~ msgid "System Options"
+#~ msgstr "Pilihan Bina"
+
+#, fuzzy
+#~ msgid "Periodic Checks"
+#~ msgstr "Tugas berjadual"
+
+#, fuzzy
+#~ msgid "Please wait, setting security level..."
+#~ msgstr "Sila pilih tahap keselamatan untuk sistem."
+
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "_Personalisasikan pakej perisian untuk dipasang"
+
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "Adakah anda mahu melaksanakan alatan tetapan yang bersesuaian?"
+
+#, fuzzy
+#~ msgid ""
+#~ "The following hardware packages do not seem to be useful for your system:"
+#~ msgstr "_Personalisasikan pakej perisian untuk dipasang"
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "Sila tunggu, menambah media..."
+
+#, fuzzy
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr "siap"
