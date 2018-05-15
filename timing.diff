@@ -1,0 +1,57 @@
+--- ./perl-install/standalone/service_harddrake	2016-02-24 18:37:24.000000000 +0100
++++ ./perl-install/standalone/service_harddrake	2016-03-05 08:40:54.240970070 +0100
+@@ -1,6 +1,7 @@
+ #!/usr/bin/perl
+ 
+ use lib qw(/usr/lib/libDrakX);
++use strict;
+ 
+ # prevent firing up drakbug (doesn't work w/o X11):
+ BEGIN { $ENV{DISABLE_DRAKBUG} = 1 }
+@@ -193,7 +194,13 @@
+ # do not auto reconfigure if more than one graphic card:
+ $cfg{AUTORECONFIGURE_RIGHT_XORG_DRIVER} = 'no' if scalar(@devices) > 1;
+ 
++my $time = time();
++my $old_device;
+ foreach my $device (@devices) {
++    my $oldtime = $time;
++    $old_device = $device;
++    $time = time();
++    log::explanations("$old_device took: ", formatTimeRaw(time() - $time)) if $old_device;
+     next if !text2bool($cfg{AUTORECONFIGURE_RIGHT_XORG_DRIVER});
+ 
+     my $id = $device->{driver} =~ /Card:(.*)/ && $1;
+@@ -270,10 +277,16 @@
+ my $in;
+ my $plymouth = -x '/bin/plymouth';
+ 
++my $time = time();
++my $old_Ident;
+ # For each hw, class, detect device, compare and offer to reconfigure if needed
+ foreach my $hw_class (@harddrake::data::tree) {
+     my ($Ident, $item, $configurator, $detector, $do_it) = @$hw_class{qw(class string configurator detector checked_on_boot)};
+     next if member($cfg{"DETECT_$Ident"}, qw(NO no));
++    my $oldtime = $time;
++    $old_Ident = $Ident;
++    $time = time();
++    log::explanations("$old_Ident took: ", formatTimeRaw(time() - $time)) if $old_Ident;
+ 
+     $configurator ||= $hw_class->{configurator};
+ 
+@@ -373,6 +386,7 @@
+ 
+     next if $is_globetrotter && !$hw_class->{automatic};
+     next unless $configurator_pool[0];
++    my $cfg_time = time();
+     if (ref($configurator) ne 'CODE' && !-x first(split /\s+/, $configurator_pool[0])) {
+         log::explanations(qw(skip $Ident configuration since "$configurator" is not executable));
+         next;
+@@ -409,6 +423,7 @@
+         $in ||= interactive->vnew;
+         $wait = $in->wait_message(N("Please wait"), N("Hardware probing in progress"));
+     }
++    log::explanations("$Ident config took: ", formatTimeRaw(time() - $cfg_time));
+ 
+ }
+ 
