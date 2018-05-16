@@ -43,6 +43,7 @@ BuildRequires: perl_checker
 BuildRequires: perl-Data-Dumper-Perltidy
 BuildRequires: pkgconfig(libparted)
 BuildRequires: drakx-installer-binaries
+BuildRequires: emacs-common
 BuildRequires: intltool
 %global __requires_exclude perl\\((Net::FTP|Time::localtime|URPM|Xconfig.*|[a-z].*)\\)
 
