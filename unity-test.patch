@@ -38,3 +38,38 @@ index d55ef579a..87591ce31 100644
      } else {
          my $_wait = $do->in && $do->in->wait_message(N("Please wait"), N("Installing packages..."));
          $do->in->suspend if $do->in;
+diff --git a/tools/find-drivers-needing-nonfree-firmware b/tools/find-drivers-needing-nonfree-firmware
+index d55ef579a..87591ce31 100644
+--- a/tools/find-drivers-needing-nonfree-firmware       2018-05-07 14:34:36.811242390 -0700
++++ b/tools/find-drivers-needing-nonfree-firmware       2018-05-16 20:10:18.958496629 -0700
+@@ -18,11 +18,9 @@
+ my $kernel = chomp_(cat_($cache{version}));
+ if (!$kernel) {
+     # get regular flavor:
+-    ($kernel) = split('\|', chomp_(`urpmq -f kernel-desktop-latest`));
++    ($kernel) = split('\|', chomp_(`rpm -q --whatprovides kernel`));
+     # get real package name:
+     $kernel =~ s/-latest//;
+-    # drop arch as it confuses urpmq:
+-    $kernel =~ s/\.[^.]*$//;
+     output($cache{version}, $kernel);
+ }
+ warn ">> GOT '$kernel'\n" if $debug;
+@@ -30,7 +28,7 @@
+ # list of modules:
+ my @modules = cat_($cache{modules});
+ if (!@modules) {
+-    @modules = grep { /\.ko/ } `urpmq -l $kernel`;
++    @modules = grep { /\.ko/ } `rpm -ql $kernel`;
+     output($cache{modules}, @modules);
+ }
+ @modules = map { chomp; $_ } @modules;
+@@ -40,7 +38,7 @@
+ {
+     my @firmwares = cat_($cache{firmwares});
+     if (!@firmwares) {
+-       @firmwares = `urpmf --qf '%name-%version-%release.%arch:%files' /lib/firmware/ |sort -u`;
++       @firmwares = `for i in $(find /lib/firmware/ -follow); do echo "$(rpm -qf ${i}):$(echo ${i})"|grep -v "not owned"|sort -u;done`;
+        output($cache{firmwares}, @firmwares);
+     }
+     %firmwares = map { chomp; s!^(.*):/lib/firmware/!!; $_ => $1 } @firmwares;
