@@ -196,10 +196,10 @@ hardware classes.
 %autosetup -p1
 
 %build
-%make_build -C perl-install CFLAGS="$RPM_OPT_FLAGS"
+%make_build -C perl-install -f Makefile.drakxtools CFLAGS="$RPM_OPT_FLAGS"
 
 %install
-%make_build -C perl-install PREFIX=$RPM_BUILD_ROOT install
+%make_build -C perl-install -f Makefile.drakxtools PREFIX=$RPM_BUILD_ROOT install
 mkdir -p $RPM_BUILD_ROOT%_sysconfdir/{X11/xinit.d,X11/wmsession.d,sysconfig/harddrake2}
 touch $RPM_BUILD_ROOT/etc/sysconfig/harddrake2/previous_hw
 
