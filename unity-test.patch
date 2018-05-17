@@ -33,8 +33,8 @@ index d55ef57..87591ce 100644
      my $ret;
      if (check_for_xserver() && -x '/usr/bin/gurpmi') {
          $ret = system(@wrapper, 'gurpmi', @options) == 0;
-+    } elsif (check_for_xserver() && -x '/usr/bin/gqdnf', @l) {
-+	$ret = system(@wrapper, 'gqdnf') == 0; 
++    } elsif (check_for_xserver() && -x '/usr/bin/gqdnf') {
++	$ret = system(@wrapper, 'gqdnf', @l) == 0; 
      } else {
          my $_wait = $do->in && $do->in->wait_message(N("Please wait"), N("Installing packages..."));
          $do->in->suspend if $do->in;

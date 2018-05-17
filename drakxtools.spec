@@ -3,16 +3,15 @@
 Summary: The drakxtools (diskdrake, ...)
 Name:    drakxtools
 Version: 17.96
-Release: 2%{?dist}
+Release: 3%{?dist}
 Url:     http://mageia.org/
 # The source can be found at its git repository on:
 # * http://gitweb.mageia.org/software/drakx/
 # * git://git.mageia.org/software/drakx/
 Source0: %name-%version.tar.xz
 Source1: gqdnf.sh
-#NO PATCH ALLOWED
-Patch0:	timing.diff
-Patch1: unity-test.patch 
+#NO PATCH ALLOWED (testing exception)
+Patch0: unity-test.patch 
 License: GPLv2+
 Group: System/Configuration
 Requires: %{name}-curses = %version-%release, perl-Gtk3, perl-Glib >= 1.280.0-3, polkit, perl-Net-DBus, perl-Gtk3-WebKit2
@@ -74,6 +73,9 @@ Requires(post): perl-MDK-Common >= 1.2.13
 Requires: nmap
 # require virtual samba(4)-client provide
 Requires: smb-client
+# Temp for gqdnf
+Requires: zenity
+Requires: wmctrl
 Conflicts: drakxtools <= 16.27-1
 
 %package http
@@ -196,6 +198,8 @@ hardware classes.
 %autosetup -p1
 
 %build
+#Don't use strict for now
+find perl-install -type f -exec sed -i -e 's!use strict;!!g' {} \;
 %make_build -C perl-install -f Makefile.drakxtools CFLAGS="$RPM_OPT_FLAGS"
 
 %install
