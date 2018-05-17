@@ -1,5 +1,5 @@
 diff --git a/perl-install/any.pm b/perl-install/any.pm
-index a82fce94a..96ce32294 100644
+index a82fce9..96ce322 100644
 --- a/perl-install/any.pm
 +++ b/perl-install/any.pm
 @@ -1012,7 +1012,7 @@ sub sessions_with_order() {
@@ -26,7 +26,7 @@ index a82fce94a..96ce32294 100644
      $val;
  }
 diff --git a/perl-install/do_pkgs.pm b/perl-install/do_pkgs.pm
-index d55ef579a..87591ce31 100644
+index d55ef57..87591ce 100644
 --- a/perl-install/do_pkgs.pm
 +++ b/perl-install/do_pkgs.pm
 @@ -338,6 +338,8 @@ sub install {
@@ -39,10 +39,10 @@ index d55ef579a..87591ce31 100644
          my $_wait = $do->in && $do->in->wait_message(N("Please wait"), N("Installing packages..."));
          $do->in->suspend if $do->in;
 diff --git a/tools/find-drivers-needing-nonfree-firmware b/tools/find-drivers-needing-nonfree-firmware
-index d55ef579a..87591ce31 100644
---- a/tools/find-drivers-needing-nonfree-firmware       2018-05-07 14:34:36.811242390 -0700
-+++ b/tools/find-drivers-needing-nonfree-firmware       2018-05-16 20:10:18.958496629 -0700
-@@ -18,11 +18,9 @@
+index e8068ba..935c5d3 100755
+--- a/tools/find-drivers-needing-nonfree-firmware
++++ b/tools/find-drivers-needing-nonfree-firmware
+@@ -18,11 +18,9 @@ mkdir_p($path) if !-d $path;
  my $kernel = chomp_(cat_($cache{version}));
  if (!$kernel) {
      # get regular flavor:
@@ -55,7 +55,7 @@ index d55ef579a..87591ce31 100644
      output($cache{version}, $kernel);
  }
  warn ">> GOT '$kernel'\n" if $debug;
-@@ -30,7 +28,7 @@
+@@ -30,7 +28,7 @@ warn ">> GOT '$kernel'\n" if $debug;
  # list of modules:
  my @modules = cat_($cache{modules});
  if (!@modules) {
@@ -64,12 +64,12 @@ index d55ef579a..87591ce31 100644
      output($cache{modules}, @modules);
  }
  @modules = map { chomp; $_ } @modules;
-@@ -40,7 +38,7 @@
+@@ -40,7 +38,7 @@ my %firmwares;
  {
      my @firmwares = cat_($cache{firmwares});
      if (!@firmwares) {
--       @firmwares = `urpmf --qf '%name-%version-%release.%arch:%files' /lib/firmware/ |sort -u`;
-+       @firmwares = `for i in $(find /lib/firmware/ -follow); do echo "$(rpm -qf ${i}):$(echo ${i})"|grep -v "not owned"|sort -u;done`;
-        output($cache{firmwares}, @firmwares);
+-	@firmwares = `urpmf --qf '%name-%version-%release.%arch:%files' /lib/firmware/ |sort -u`;
++	@firmwares = `for i in $(find /lib/firmware/ -follow); do echo "$(rpm -qf ${i}):$(echo ${i})"|grep -v "not owned"|sort -u;done`;
+ 	output($cache{firmwares}, @firmwares);
      }
      %firmwares = map { chomp; s!^(.*):/lib/firmware/!!; $_ => $1 } @firmwares;
