@@ -69,7 +69,7 @@ index e8068ba..935c5d3 100755
      my @firmwares = cat_($cache{firmwares});
      if (!@firmwares) {
 -	@firmwares = `urpmf --qf '%name-%version-%release.%arch:%files' /lib/firmware/ |sort -u`;
-+	@firmwares = `for i in $(find /lib/firmware/ -follow); do echo "$(rpm -qf ${i}):$(echo ${i})"|grep -v "not owned"|sort -u;done`;
++	@firmwares = qx'for i in $(find /lib/firmware/ -follow); do echo "$(rpm -qf ${i}):$(echo ${i})"|grep -v "not owned"|sort -u;done';
  	output($cache{firmwares}, @firmwares);
      }
      %firmwares = map { chomp; s!^(.*):/lib/firmware/!!; $_ => $1 } @firmwares;
