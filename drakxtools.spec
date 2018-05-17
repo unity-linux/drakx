@@ -240,7 +240,7 @@ install -m 555 %{SOURCE1} $RPM_BUILD_ROOT%_bindir/gqdnf
 cat libDrakX.lang libDrakX-standalone.lang >> %name.list
 
 %check
-%make_build -C perl-install check
+%make_build -C perl-install -f Makefile.drakxtools check
 
 %post
 %make_session
