@@ -1,6 +1,6 @@
 # used to remove files from deployment using `git archive`
 # git files
 .gitattributes export-ignore
-.stuff.tar.gz.enc
-.travis.yml
-.git
+.stuff.tar.gz.enc export-ignore
+.travis.yml export-ignore
+.git export-ignore
