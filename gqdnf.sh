@@ -45,6 +45,7 @@ echo "# All finished." ; sleep 2
 ) |
 ${gui_prog} --progress \
   --title="Install Status" \
+  --no-cancel \
   --text="Package Install Progress." \
   --percentage=0 \
   --auto-close \

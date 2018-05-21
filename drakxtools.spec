@@ -3,13 +3,14 @@
 Summary: The drakxtools (diskdrake, ...)
 Name:    drakxtools
 Version: 17.96
-Release: 3%{?dist}
+Release: 4%{?dist}
 Url:     http://mageia.org/
 # The source can be found at its git repository on:
 # * http://gitweb.mageia.org/software/drakx/
 # * git://git.mageia.org/software/drakx/
 Source0: %name-%version.tar.xz
 Source1: gqdnf.sh
+Source2: gqrepo.sh
 #NO PATCH ALLOWED (testing exception)
 Patch0: unity-test.patch 
 License: GPLv2+
@@ -238,6 +239,7 @@ perl -I perl-install -mharddrake::data -e 'print "DETECT_$_->{class}=yes\n" fore
 echo -e "AUTORECONFIGURE_RIGHT_XORG_DRIVER=yes\n" >> $RPM_BUILD_ROOT%_sysconfdir/sysconfig/harddrake2/service.conf
 
 install -m 555 %{SOURCE1} $RPM_BUILD_ROOT%_bindir/gqdnf
+install -m 555 %{SOURCE2} $RPM_BUILD_ROOT%_bindir/gqrepo
 
 %find_lang libDrakX
 %find_lang libDrakX-standalone
