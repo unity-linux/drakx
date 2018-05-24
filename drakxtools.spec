@@ -267,7 +267,7 @@ rm -f %_sbindir/kbdconfig %_sbindir/mouseconfig
 file /etc/sysconfig/harddrake2/previous_hw | grep -F -q perl && %_datadir/harddrake/convert || :
 
 %files backend -f %{name}-backend.list
-%_bindir/gqdnf
+%_bindir/gq*
 %config(noreplace) /etc/security/fileshare.conf
 %attr(4755,root,root) %_sbindir/fileshareset
 
